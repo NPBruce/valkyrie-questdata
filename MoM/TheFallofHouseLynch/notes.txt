@@ -1,0 +1,142 @@
+Fall of House Lynch:
+e3:Clock Strikes 10
+No C3: Each investifator takes 1 horror
+C3A: A fiery figure bolts down the hallway towards the bedroom
+1 zombie in hallway 2 with a fire token on him.  When he is dealt damage place the fire token in his room
+C3B: The skinless remains of a man throws open the door of the labratory
+Place a zombie in the Foyer.  Each investigator then takes 1 horror.
+
+e4:Clock Strikes 11
+No C2: Each investifator takes 1 horror
+C2A: A madman picks up his axe and runs down the hall.
+The keeper may move a maniac up to 2 spaces.
+C2B: The lights momentarily go out as an explosion of gunfire echoes down the hall.
+Each investigator in a bedroom space is dealt 2 damage.
+
+e3:Clock Strikes 12
+A living corpse rises up from its resting place.
+Judging from the pictures you've seen, the corpse is Edith Lynch, albeit dead for weeks.
+Place 1 zombie in clue 2 location
+
+e3:Clock Strikes 1
+Reveal Objective
+1A: The ground shakes violently.
+Place 1 time token on the next event card
+1B: The old ohuse groans
+Discard all lock cards
+1C: The front door locks wih a loud click
+Lock 6B on front door:
+
+RRXRR
+ XXX 
+  X
+
+e3:Clock Strikes 2
+As the clock strikes 2 the ground begins to shake.
+Something ancient and depp beneath the house rapidly pulls the foundation down into the ground.  The answers no longer matter as the investigators and monsters struggle for their lives.
+
+1A: keeper wins
+1B: investigators win
+1C: all lose
+
+1A: You are consumed by a vision of Walter leading a seance to communicate with his dead son.  You watch as an uninvited spirit wraps around his mind with one command: "FEED ME SOULS!"
+Reveal objective.  The keeper places walter within 2 spaces of any investigator.  Walter is a maniac with +4 health per investigator.
+
+1B: Somewhere in the house, Walter attempts to use your won flesh and blood to enact an ancient summoning.  The gound shakes, knocking books and trinkets off the shelves.
+
+Reveal objective.  Then stun each shoggoth in play.
+
+1C: Walkter's voice echoes through the mansion: "WE MUST FEED IT!" Then a painful chorus of sickly groans fills the manor.  It is an unnerving sound, almost, but not quite, human.
+
+Reveal Objective.  The keeper then places 1 zombie per investigator in differnt rooms not containing investigators.
+
+2A: You find a journal entry dated July 5th 1918.
+"My wif's condition has begun to deteriorate as of late.  I know it is only a matter of time, and have prepared a place for her along with the other bodies deep within the ground."
+
+2B: Your sight blurs and you collapse to the ground as a vision consumes you.  A man whistles a cheerful tunes as he drags a woman's limp body along the floor.  You shiver as the body is dragged into the rain, through a muddy puddle.  A shovel comes down on her head as the vision ends.
+
+3A: The room is empty except for the burnt outline of a human on the kitchen table.  Upton closer examination, you find a simple silver key hidden in the soot.
+A trail of blackened footprints leads up the foyer stairs and right down the hall.
+
+3B: The bloody mess of a man's body lies on the operating table.  Rusted instruments and crude tools lie all around him.
+The skinless man whispers to you in horror through his lipless mouth.  "Oh god, he wanted my flesh..."
+With his last breath he murmurs, "He let me stay the night..." and hands you a key.
+
+Maniac Attack 4
+The door explodes into splinters as a crazed madman enters the room.
+If no maniacs place 1 on investigator
+If maniacs heal 1 fully, move anywhere if not holding a sample.
+
+Uncontrollable Urges 2
+Move investigator 1 space or force 1 action on spell/equipment/artifact/tome
+
+Command Minion 1
+The monster notices your presence and charges in your direction
+Move a monster 2 spaces, once/monster
+
+Take Sample 1
+The monster pulls at your hair.
+Once per turn, choose a monster in an investigator's space.  Plase 1 sample token and move 1 space.
+If the monster is in an altar's space at the start of your turn trade for 5 threat.
+
+Evil Presence
+You cannot help but feel that something ancient and evil slumbers here.
++1mythos, +1trauma, free if only action
+
+Power Failure
+The lights in this room refuse to turn on
+Place a darkness marker in your room.  Solve #1A to discard.
+RXX
+RRR
+
+Suitcase
+You find a sturdy suitcase sealed by a simple combination lock.
+#6A
+RXR
+XXX
+RXR
+
+Puzzlebox
+You find a box covered in cryptic runes.
+#8
+
+Magical Lock
+The door leading into this room is sealed with a lock that will only open if you know the proper phrase.
+
+Locked Door
+The door leading into this room is locked and requires a silver key.
+
+Jammed Door
+You grunt with effort as you try to force the door open.
+Test strength.
+
+Padlocked Door
+The door leading into this room is sealed with a rusted combination lock.
+#4A
+RRRXXRRR
+
+Sealed Door
+A dark evil permeates through the door as you grab the door handle.  To your relief, the door simply will not open.
+
+Dark Room
+You open the door and see nothing through the pitch blackness.  You reach for the light switch, but nothing happens.
+Place darkness token.
+
+The office is thick with cigarette smoke.  Filing cabinets line the wall, and a pile of magazines sticks out from under the leg of a cheap wooden desk.  Behind the desk sits a pudgy, bald man full of nervous energy.
+"It's about time you got here," he says while tapping his fingers on the desk.  "Time is money, and we're losing it by the truckload."
+"I need your help finding our missing business parter."
+He tosses you a dirty manila folder.  "Our missing man is named Walter Lynch.  He's always been the brains of this operation, and without him, this business venture is a bust.  He hasn't been answering leters, and all our other investigations have been..." he pauses, choosing his next word carefully, "unsuccessful."
+He glances at the folder.  "You have everything we know.  Bring him back to use, more than you know is at stake."
+Later, in your car, you carefully open the soiled folder.  You find a crude map with directions to a mansion just outside Arkham, Massachusetts.  The drawing is primitive, as if sketched by a child.  Behind the map lies a turn journal entry:
+"June 8, 1918: It has been nearly a year since the illness came for my son.  The doctors were mystified as it slowly consumed his flesh.  I am a man of action and could not sit around and wait for my heir to deteriorate.
+Nine months I spent, traveling the globe searching for a cure.  From the depths of the jungles to the wisdom of the orient, I found nothing.  I kept searching, deeper and deeper into the lost places of the world and beyond.
+I witnessed many mysteries and horrors, but the cure still eluded me.
+Little did I know that it was already too late.  Back home, my son passed from this world wwith no father there to comfort him.
+I returned home to my wife Edith, intending to stay for good.  We frieved.  Life slowly returned to normal and I returned to work.  I started up new business ventures and grew my fortune while my soul languished.
+The healing process was not easy, but I found that helping mend Edith's heart helped me ignore my own pain."
+A breifer entry lies on the back.
+"January 21, 1919: How could this happen?  Why could this happen?
+You try to protect yourself.  YOu try to protect your family, but it doesn't matter.
+Oh Edith, your're all I have.  How could it happen to you?
+I MUST dig deeper.  I will turn over stones that I dared not touch.  I WILL find answers!"
+
