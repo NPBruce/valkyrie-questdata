@@ -6,14 +6,14 @@ mkdir build\MoM
 
 cd source\D2E
 FOR /D %%i in (*) DO (
-	"C:\Program Files\7-Zip\7z.exe" a "..\..\build\D2E\%%i.valkyrie" "%%i\*" -r
+	"C:\Program Files\7-Zip\7z.exe" a -tzip "..\..\build\D2E\%%i.valkyrie" "%%i\*" -r
 	Echo Building %i.
 )
 cd ..\..
 
 cd source\MoM
 FOR /D %%i in (*) DO (
-	"C:\Program Files\7-Zip\7z.exe" a "..\..\build\MoM\%%i.valkyrie" "%%i\*" -r
+	"C:\Program Files\7-Zip\7z.exe" a -tzip "..\..\build\MoM\%%i.valkyrie" "%%i\*" -r
 	Echo Building %i.
 )
 cd ..\..
