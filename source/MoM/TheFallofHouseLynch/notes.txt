@@ -62,6 +62,9 @@ A trail of blackened footprints leads up the foyer stairs and right down the hal
 The skinless man whispers to you in horror through his lipless mouth.  "Oh god, he wanted my flesh..."
 With his last breath he murmurs, "He let me stay the night..." and hands you a key.
 
+
+text="CommandMinion, EvilPresence, ManiacAttack, TakeSample, UncontrollableUrges"
+
 Maniac Attack 4
 The door explodes into splinters as a crazed madman enters the room.
 If no maniacs place 1 on investigator
@@ -99,6 +102,8 @@ RXR
 Puzzlebox
 You find a box covered in cryptic runes.
 #8
+
+"Nameless Cults (int+1, take 1 horror gain blood pact (heal)->Flesh Ward, Sedative, Whiskey (7x nothing all up)"
 
 Magical Lock
 The door leading into this room is sealed with a lock that will only open if you know the proper phrase.
