@@ -151,11 +151,11 @@ When revealed discard all locks and "Maniac Attack"
 Keeper wins on last event
 Deep in the pile of rubble and bodies, a possessed Walter Lynch cackles weakly with his last breath.
 
-The investigators win if Walkter is killed
+The investigators win if Walter is killed
 As he collapses to the ground, the investigators breathe a sign of relief.  Your employer will not be happy, but at least you eliminated the evil spitit's vessel into our world.
 
 Objective 1B
-2 samples on alter - reveal and place shoggoth
+2 samples on altar - reveal and place shoggoth
 
 keeper wins if shoggoth escapes
 High in the attic, Walter, having finished his task, hangs himself.
