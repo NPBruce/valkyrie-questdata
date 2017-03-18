@@ -169,3 +169,5 @@ The pile of corpses sticks of decay.  The pile is high enough to appease the vir
 
 The investigators win if all investigators escape from the Foyer.
 Against an insane killer and an army of undead, you decide to return to your employer empty-handed.  For good measure, you burn the house down on your way out.
+
+Fix: Why only 1 puzzle box?
