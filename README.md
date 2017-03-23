@@ -1,3 +1,3 @@
 # valkyrie-questdata
 
-This is no longer used for quests included with Valkyrie, but I plan to use this for additional quest/campaign development.
+This is used to store the source data for quests and scenarios.  They are then built into valkyrie-store for release.

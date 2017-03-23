@@ -9,8 +9,8 @@ Sub Build(gameType)
     Dim versions
     Set versions = CreateObject _
     ("Scripting.Dictionary")
-    Wscript.Echo "Reading Manifest: build/" + gameType + "/manifest.ini"
-    Set manFile = objFS.GetFile("build/" + gameType + "/manifest.ini")
+    Wscript.Echo "Reading Manifest: ../valkyrie-store/" + gameType + "/manifest.ini"
+    Set manFile = objFS.GetFile("../valkyrie-store/" + gameType + "/manifest.ini")
     Set manData = manFile.OpenAsTextStream
     strPackage = ""
     Do Until manData.AtEndOfStream
@@ -31,7 +31,7 @@ Sub Build(gameType)
     For Each d In objFS.GetFolder("source/" + gameType).SubFolders
         packageName = d.Name
         iniLoc = d.Path & "/quest.ini"
-        outLoc = "build/" + gameType + "/" + packageName + ".valkyrie"
+        outLoc = "../valkyrie-store/" + gameType + "/" + packageName + ".valkyrie"
         version = 0
         Wscript.Echo "Found Dir: " + d.Path
         if versions.Exists(packageName) Then
@@ -72,12 +72,12 @@ Sub Build(gameType)
     Next
     manData.Close
 
-    If objFS.FileExists("build" + gameType + "/*.valkyrie") Then
-        objFS.DeleteFile("build" + gameType + "/*.valkyrie")
+    If objFS.FileExists("../valkyrie-store/" + gameType + "/*.valkyrie") Then
+        objFS.DeleteFile("../valkyrie-store/" + gameType + "/*.valkyrie")
     End If
 
     For Each d In objFS.GetFolder("source/" + gameType).SubFolders
-        outLoc = "build/" + gameType + "/" + d.Name + ".valkyrie"
+        outLoc = "../valkyrie-store/" + gameType + "/" + d.Name + ".valkyrie"
         cmd = """C:\Program Files\7-Zip\7z.exe"" a -tzip """ & outLoc & """ """ & d.Path & "\*"" -r"
         objShell.Run(cmd)
     Next
