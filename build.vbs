@@ -6,49 +6,34 @@ Build("MoM")
 
 Sub Build(gameType)
 
-    Dim versions
-    Set versions = CreateObject _
-    ("Scripting.Dictionary")
-    Wscript.Echo "Reading Manifest: ../valkyrie-store/" + gameType + "/manifest.ini"
-    Set manFile = objFS.GetFile("../valkyrie-store/" + gameType + "/manifest.ini")
-    Set manData = manFile.OpenAsTextStream
-    strPackage = ""
-    Do Until manData.AtEndOfStream
-        strLine = manData.ReadLine
-        If StrComp(Left(strLine, 1),"[") = 0 Then
-            strPackage = Mid(strLine, 2, Len(strLine) - 2)
-            Wscript.Echo strPackage
-        End If
-        If StrComp(Left(strLine, 8),"version=") = 0 Then
-            Wscript.Echo "Package: " + strPackage + " Version: " + Right(strLine, Len(strLine) - 8)
-            versions.Add strPackage, Right(strLine, Len(strLine) - 8)
-        End If
-    Loop
-    manData.Close
-    Wscript.Echo ""
+    If objFS.FileExists("../valkyrie-store/" + gameType + "/*.valkyrie") Then
+        objFS.DeleteFile("../valkyrie-store/" + gameType + "/*.valkyrie")
+    End If
 
+    Set manFile = objFS.GetFile("../valkyrie-store/" + gameType + "/manifest.ini")
     Set manData = manFile.OpenAsTextStream(2)
+    Set dictFile = objFS.GetFile("../valkyrie-store/" + gameType + "/Localization.txt")
+    Set dictData = dictFile.OpenAsTextStream(2)
+    dictData.Write ".,English,Spanish,French,German,Italian,Portuguese,Polish,Japanese,Chinese" + vbCrLf
+
     For Each d In objFS.GetFolder("source/" + gameType).SubFolders
         packageName = d.Name
         iniLoc = d.Path & "/quest.ini"
+        dictLoc = d.Path & "/Localization.txt"
         outLoc = "../valkyrie-store/" + gameType + "/" + packageName + ".valkyrie"
-        version = 0
+
         Wscript.Echo "Found Dir: " + d.Path
-        if versions.Exists(packageName) Then
-            version = versions.Item(packageName)
-        End If
+
+        cmd = """C:\Program Files\7-Zip\7z.exe"" a -tzip """ & outLoc & """ """ & d.Path & "\*"" -r"
+        objShell.Run cmd, 1, true
 
         If objFS.FileExists(iniLoc) Then
             Set fileIni = objFS.GetFile(iniLoc)
-            If objFS.FileExists(outLoc) Then
-                Set fileOut = objFS.GetFile(outLoc)
-                If fileIni.DateLastModified > fileOut.DateLastModified Then
-                    version = version + 1
-                End If
-            End If
-
             manData.Write "[" + packageName + "]" + vbCrLf
-            manData.Write "version=" & version & vbCrLf
+
+            cmd = "certutil -hashfile " + outLoc + " sha256"
+            Set aRet = objShell.Exec(cmd)
+            manData.Write "version=" & aRet.StdOut.ReadLine()
 
             Set iniData = fileIni.OpenAsTextStream
             inQuest = false
@@ -69,17 +54,21 @@ Sub Build(gameType)
             Loop
             manData.Write vbCrLf
         End If
+
+        If objFS.FileExists(dictLoc) Then
+            Set fileDict = objFS.GetFile(dictLoc)
+            Set dictData = fileDict.OpenAsTextStream
+            inQuest = false
+            Do Until iniData.AtEndOfStream
+                strLine = iniData.ReadLine
+
+                If StrComp(Left(strLine, 10),"quest.name") = 0 Then
+                    manData.Write packageName + Right(strLine, 5)
+                End If
+            Loop
+            manData.Write vbCrLf
+        End If
     Next
     manData.Close
-
-    If objFS.FileExists("../valkyrie-store/" + gameType + "/*.valkyrie") Then
-        objFS.DeleteFile("../valkyrie-store/" + gameType + "/*.valkyrie")
-    End If
-
-    For Each d In objFS.GetFolder("source/" + gameType).SubFolders
-        outLoc = "../valkyrie-store/" + gameType + "/" + d.Name + ".valkyrie"
-        cmd = """C:\Program Files\7-Zip\7z.exe"" a -tzip """ & outLoc & """ """ & d.Path & "\*"" -r"
-        objShell.Run(cmd)
-    Next
-    manData.Close
+    dictData.Close
 End Sub
