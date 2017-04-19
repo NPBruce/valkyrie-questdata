@@ -33,7 +33,8 @@ Sub Build(gameType)
 
             cmd = "certutil -hashfile " + outLoc + " sha256"
             Set aRet = objShell.Exec(cmd)
-            manData.Write "version=" & aRet.StdOut.ReadLine()
+            aRet.StdOut.ReadLine()
+            manData.Write "version=" + aRet.StdOut.ReadLine() + vbCrLf
 
             Set iniData = fileIni.OpenAsTextStream
             inQuest = false
@@ -54,19 +55,16 @@ Sub Build(gameType)
             Loop
             manData.Write vbCrLf
         End If
-
         If objFS.FileExists(dictLoc) Then
             Set fileDict = objFS.GetFile(dictLoc)
-            Set dictData = fileDict.OpenAsTextStream
+            Set qDictData = fileDict.OpenAsTextStream
             inQuest = false
-            Do Until iniData.AtEndOfStream
-                strLine = iniData.ReadLine
-
+            Do Until qDictData.AtEndOfStream
+                strLine = qDictData.ReadLine
                 If StrComp(Left(strLine, 10),"quest.name") = 0 Then
-                    manData.Write packageName + Right(strLine, 5)
+                    dictData.Write packageName + Right(strLine, Len(strLine) - 5) + vbCrLf
                 End If
             Loop
-            manData.Write vbCrLf
         End If
     Next
     manData.Close
