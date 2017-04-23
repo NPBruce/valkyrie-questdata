@@ -1,0 +1,52 @@
+investigate town
+
+A collector of rare metals tracked a meteorite which fell near the town of Rowley.
+On visiting the town she found the locals to be very unhelpful and slightly disturbing, and has tasked you with finding and retreiving the meteriorite.
+
+You arrive at Rowley in the morning and spend the entire day questioning the locals with no progress being made.
+
+
+After night falls an otherworldly music can be heard drifting through the streets.  The locals who are still outdoors stop and stare, enchanted by the strange sounds.
+
+
+Place tiles
+
+Place tokens.
+
+Place a Riot in this space.  Investigators do not need to perform horror or evade checks for this monster.
+
+
+This door is Locked (puzzle)
+
+Alternative way (key)
+
+
+
+
+The music is coming from this direction.
+
+There is a large object floating in space near the fountain.  It appears to be a dark rock, though it is difficult to see clearly for some unknown reason.
+
+Nearby a group of villagers stand still, staring at the object.
+
+place monsters
+
+You may attempt to grab the object
+
+Space around the object is distorted and you struggle to touch the object ({will}; 2)
+
+You slip over on the cobblestones, take 1 damage and 1 horror.
+
+You grab the object which appears to have no weight.  Place a search token on your investigator sheet.  You may spend an action to give this token to another investigator in your space.
+
+This even affects the investigator with the search token on their sheet:
+You feel the object's strange power drifting over you and fight to retain control ({sdf}; 2)
+
+You muscles refuse to follow your commands and stunned, horror
+
+The remaining investigators flee in terror.  Whatever fell from the sky is clearly beyond their capabilities and is best left well alone.
+
+As you leave Rowley you constantly struggle against the strange objects power and the odd music that now sounds as if it is coming from inside your own heads.
+You quickly agree that it would be too dangerous to let anyone have this object and drive far into the woods.
+
+Finding a secluded spot you bury the object and hope that it remains hidden for the benifit of all.
