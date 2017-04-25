@@ -87,6 +87,7 @@ TokenRock.text,"<i>This appears to be a dark rock, though it is difficult to see
 TokenRock.button1,{action} Take,,,,,,,,,
 SpawnAttackSquareRiot.text,<i>The group bursts into life.</i>\n\nInvestigators must now perform evade and horror checks as normal for this monster.  Use the monster panel to attack.,,,,,,,,,
 SpawnAttackSquareRiot.button1,{qst:CONTINUE},,,,,,,,,
+SpawnAttackShopCultist.text,<i>The shop keeper suddenly reacts to your presence.</i>\n\nInvestigators must now perform evade and horror checks as normal for this monster.  Use the monster panel to attack.,,,,,,,,,
 SpawnAttackShopCultist.button1,{qst:CONTINUE},,,,,,,,,
 SpawnAttackStreetCultist.button1,{qst:CONTINUE},,,,,,,,,
 SpawnAttackWarehouseCultist.button1,{qst:CONTINUE},,,,,,,,,
