@@ -85,6 +85,7 @@ EventFailRock.text,"Your mind races attempting to decipher where the object lies
 EventFailRock.button1,{qst:CONTINUE},,,,,,,,,
 TokenRock.text,"<i>This appears to be a dark rock, though it is difficult to see clearly for some unknown reason.</i>\n\nAn investigator in this space may attempt to take the rock.",,,,,,,,,
 TokenRock.button1,{action} Take,,,,,,,,,
+SpawnAttackSquareRiot.text,<i>The group bursts into life.</i>\n\nInvestigators must now perform evade and horror checks as normal for this monster.  Use the monster panel to attack.,,,,,,,,,
 SpawnAttackSquareRiot.button1,{qst:CONTINUE},,,,,,,,,
 SpawnAttackShopCultist.button1,{qst:CONTINUE},,,,,,,,,
 SpawnAttackStreetCultist.button1,{qst:CONTINUE},,,,,,,,,
