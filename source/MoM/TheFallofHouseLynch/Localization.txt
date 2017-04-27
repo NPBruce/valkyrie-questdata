@@ -282,7 +282,7 @@ EventManiacSample.text,<i>The maniac pulls at your hair.</i>\n\nThe investigator
 EventManiacSample.button1,None in Space,,,Kein Ermittler auf dem Feld,,,,,,
 EventManiacSample.button2,Success,,,Erfolg,,,,,,
 EventManiacSample.button3,Fail,,,Misserfolg,,,,,,
-EventManiacSample1.text,<i>The maniac rips out some of your hair.</i>,,,<i>Der Wahnsinnige reißt sich einige Haare aus.</i>,,,,,,
+EventManiacSample1.text,<i>The maniac rips out some of your hair.</i>,,,<i>Der Wahnsinnige reißt dir einige Haare aus.</i>,,,,,,
 EventManiacSample1.button1,{qst:CONTINUE},,,,,,,,,
 EventManiacSample2.text,{qst:EventManiacSample1.text},,,,,,,,,
 EventManiacSample2.button1,{qst:CONTINUE},,,,,,,,,
