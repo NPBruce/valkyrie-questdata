@@ -430,7 +430,7 @@ TokenFrontDoor.text,An investigator may use an action to escape the mansion.,,,E
 TokenFrontDoor.button1,{action} Escape,,,{action} Fliehen,,,,,,
 EventEscape.text,Have all investigators escaped the mansion?,,,Sind alle Ermittler aus der Villa entflohen?,,,,,,
 EventEscape.button1,{qst:YES},,,,,,,,,
-EventEscape.button2,{qst:NO},,,{qst:NO},,,,,,
+EventEscape.button2,{qst:NO},,,,,,,,,
 EventEndWin3C.text,"<i>Against an insane killer and an army of undead, you decide to return to your employer empty-handed.  For good measure, you burn the house down on your way out.</i>",,,<i>Den Kampf gegen einen wahnsinnigen Killer und eine Armee von Untoten bezahlt euch keiner. Ihr beschließt zu euren Auftraggeber mit leeren Händen zurückzukommen. Auf eurer Flucht steckt ihr aber das Anwesen in Brand. Sicher ist sicher.</i>,,,,,,
 EventEndWin3C.button1,{qst:THEEND},,,,,,,,,
 Spawn1CZombie1.text,Place 1 Zombie in the indicated space.,,,Platziere einen Zombie auf dem angezeigten Feld.,,,,,,
