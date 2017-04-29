@@ -1,0 +1,7 @@
+.,English,Spanish,French,German,Italian,Portuguese,Polish,Japanese,Chinese,Czech
+quest.name,Quest 1 Encounter 1,,,,,,,,,
+quest.description,Q1E1,,,,,,,,,
+Event0.text,Add a token,,,,,,,,,
+Event0.button1,Continue,,,,,,,,,
+Token0.text,This goes to the next encounter,,,,,,,,,
+Token0.button1,Continue,,,,,,,,,
