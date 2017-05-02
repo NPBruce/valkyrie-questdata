@@ -2,6 +2,8 @@
 quest.name,The Truth,,,,,,,,,
 quest.description,You wake up from a dream,,,,,,,,,
 .,English,Spanish,French,German,Italian,Portuguese,Polish,Japanese,Chinese,Czech
+EventStart1Tile.text,You wake from a strange dream and find yourself outside a strange house. \nPlace the {MAD20} Garden Path Tile.,,,,,,,,,
+SpawnCultist.text,Your suspicions are confirmed. The figure has summoned servants to stop you from cleansing this house. Place a monster as indicated.,,,,,,,,,
 EventBreakDoorPass.text,You manage to get just enough leverage to pry the lock and the door breaks open.,,,,,,,,,
 EventBreakDoorPass.button1,Continue,,,,,,,,,
 EventPlacePorchSearch.text,You see a large box of old stuff lying on the porch.\nYou might be able to find something useful.\nPlace a Search Token as indicated.,,,,,,,,,
