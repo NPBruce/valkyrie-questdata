@@ -1,11 +1,11 @@
 .,English,Spanish,French,German,Italian,Portuguese,Polish,Japanese,Chinese,Czech
 quest.name,The Truth,,,,,,,,,
 quest.description,You wake up from a dream,,,,,,,,,
+.,English,Spanish,French,German,Italian,Portuguese,Polish,Japanese,Chinese,Czech
 EventGameEnd.text,As the spirit fades from existence the weight on the house lifts and the horror is over.\n\nThe investigation is complete!\n\n{success}Thank You for Playing{success},,,,,,,,,
 EventThefall.text,"Your build your nerve and summon all your bravery. You feel a presence finally leave you as you realize, you are falling...to you death.\n\nThe investigation is complete!\n\n{success}Thank You for Playing{success}",,,,,,,,,
 EventThefall.button1,Continue,,,,,,,,,
 EventStart1Tile.text,You wake from a strange dream and find yourself outside a strange house. \nPlace the {MAD20} Garden Path Tile.,,,,,,,,,
-.,English,Spanish,French,German,Italian,Portuguese,Polish,Japanese,Chinese,Czech
 SpawnCultist.text,Your suspicions are confirmed. The figure has summoned servants to stop you from cleansing this house. Place a monster as indicated.,,,,,,,,,
 EventBreakDoorPass.text,You manage to get just enough leverage to pry the lock and the door breaks open.,,,,,,,,,
 EventBreakDoorPass.button1,Continue,,,,,,,,,
