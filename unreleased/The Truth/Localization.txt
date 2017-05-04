@@ -1,6 +1,7 @@
 .,English,Spanish,French,German,Italian,Portuguese,Polish,Japanese,Chinese,Czech
 quest.name,The Truth,,,,,,,,,
 quest.description,You wake up from a dream,,,,,,,,,
+EventThePriestMoves.text,"The figure moves across the room into the kitchen. ""Stay away"" the figure says as it barricades the entrance to the kitchen. Remove the Priest of Dagon and place a Barricade Token as indicated. ",,,,,,,,,
 .,English,Spanish,French,German,Italian,Portuguese,Polish,Japanese,Chinese,Czech
 EventGameEnd.text,As the spirit fades from existence the weight on the house lifts and the horror is over.\n\nThe investigation is complete!\n\n{success}Thank You for Playing{success},,,,,,,,,
 EventThefall.text,"Your build your nerve and summon all your bravery. You feel a presence finally leave you as you realize, you are falling...to you death.\n\nThe investigation is complete!\n\n{success}Thank You for Playing{success}",,,,,,,,,
@@ -231,7 +232,6 @@ EventPhoto.text,The owner's personal items sit on the end table. Place a Search 
 EventPhoto.button1,Continue,,,,,,,,,
 TokenDiningExplore.text,The door has a sweet aroma coming from behind it.,,,,,,,,,
 EventSearchPainting.text,"A large painting of five dogs playing poker is displayed on the back wall. For a second you wonder if any of them know your new friend. You search all over and even behind the painting, but you find nothing but a good laugh. Gain 1 Clue and discard this token.",,,,,,,,,
-EventThePriestMoves.text,"The figure moves across the room into the kitchen. ""Stay away"" the figure says as it barricades the entrance to the kitchen. Place a Barricade Token as indicated. ",,,,,,,,,
 SpawnSpawnPriest.text,"A figure appears across the room. ""Why are you doing this?"" it asks. Place a Priest of Dagon as indicated.",,,,,,,,,
 TokenPainting.text,A large painting hangs on the wall behind the pool table.,,,,,,,,,
 TokenPainting.button1,{action} Search,,,,,,,,,
