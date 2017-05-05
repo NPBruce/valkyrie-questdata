@@ -22,7 +22,7 @@ PLACEWALLTOKEN,Place the Wall Tokens as shown.,,,"Platziere die Wandmarker, wie 
 THEEND,The End,,,Ende,,,,,,
 UNABLETOATTACK,Unable to Attack,,,Angriff nicht möglich,,,,,,
 UNLOCK,Unlock,,,Aufschließen,,,,,,
-WALTERLYNCH=Walter Lynch,,,,,,,,,
+WALTERLYNCH,Walter Lynch,,,,,,,,,
 YES,Yes,,,Ja,,,,,,
 TokenCeremonyBarred.text,<i>This door leads further under the house.</i>,,,<i>Diese Tür führt tiefer unter das Haus.</i>,,,,,,
 TokenCeremonyBarred.button1,{qst:ACTIONEXPLORE},,,,,,,,,
