@@ -1,0 +1,7 @@
+.,English
+quest.name,Demo Quest 2
+quest.description,Quest 2
+EventStart.text,This quest lasts 1 round
+EventStart.button1,Continue
+EventEnd.text,This ends the campaign
+EventEnd.button1,The End

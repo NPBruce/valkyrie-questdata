@@ -1,0 +1,13 @@
+.,English
+quest.name,Demo Quest 1 Encounter 1
+quest.description,Q1E1
+Token0.text,"This goes to the next encounter, which is another quest.  We can also add XP and gold"
+Token0.button1,Continue
+Token0.button2,XP
+Token0.button3,Gold
+EventGold.text,50 Gold Added ($%gold)
+EventGold.button1,Continue
+EventXP.text,1 XP Added ($%xp)
+EventXP.button1,Continue
+Event0.text,"We are now in a new quest, this quest doesn't appear in the main list because hidden is set.  We can also leave it active and this quest could be started directly without a campaign.\n\nWe will set a %fin var which will not be cleared between quests.  If campaigns are updated and an old save loaded the update will apply on quest changes, so ensure that use of these vars is consistent when updating your campaign.\n\nThe token will continue."
+Event0.button1,Continue

@@ -1,0 +1,7 @@
+.,English
+quest.name,Demo Quest 1 Encounter 2
+quest.description,Q1E2
+Event0.text,A door this time.
+Event0.button1,Continue
+Door0.button1,Button1
+Door0.text,This will return to the main (campaign) quest
