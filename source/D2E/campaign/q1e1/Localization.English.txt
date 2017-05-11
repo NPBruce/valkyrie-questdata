@@ -5,6 +5,9 @@ Token0.text,"This goes to the next encounter, which is another quest.  We can al
 Token0.button1,Continue
 Token0.button2,XP
 Token0.button3,Gold
+Token0.button4,Fame Inc
+EventFame.text,Fame increased.  Quest change or $restock required to take effect.
+EventFame.button1,Continue
 EventGold.text,50 Gold Added ($%gold)
 EventGold.button1,Continue
 EventXP.text,1 XP Added ($%xp)

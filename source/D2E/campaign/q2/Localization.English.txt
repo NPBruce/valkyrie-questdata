@@ -1,7 +1,7 @@
 .,English
 quest.name,Demo Quest 2
 quest.description,Quest 2
-EventStart.text,This quest lasts 1 round
+EventStart.text,This quest lasts 1 round.\n\nA rnd:hero is named and selected: {rnd:hero}.
+EventEnd.text,This ends the campaign.\n\nThe hero from the start of this quest is selected.
 EventStart.button1,Continue
-EventEnd.text,This ends the campaign
 EventEnd.button1,The End

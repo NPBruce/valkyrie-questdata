@@ -3,6 +3,12 @@ UILorem.uitext,"We can use UI elements to add text, buttons and images.  While U
 UIStart.uitext,Start
 quest.name,Valkyrie 1.1 Feature Demo
 quest.description,...
+EventTravel.text,This event sets $@travelevent which pulls up an included event then continues the event chain.\n\nThis method can also be used for custom triggers with quest defined vars.
+EventTravel.button1,Continue
+UICity.text,The next event will open up a shop by adding multiple QItems.  A shop event can have a number of buttons.
+UICity.button1,Continue
+EventFame.button1,Continue
+EventFame.text,"This sets item fame levels($%fameimpressive, $%famecelebrated, $%fameheroic and $%famelegendary)."
 EventRestock.text,This restocks all stores (reroll) and other QItems.  The current store must be readded.  This will also remove any sold items from the store.
 EventGold.text,+50 gold.  Note that the store must be reloaded for this to show
 EventGold.button1,Continue
@@ -13,7 +19,7 @@ EventCity.button4,Gold
 EventCity.button5,Relic
 EventCity.button6,Restock
 EventRestock.button1,Continue
-EventRelic.text,Get a random relic.  $restock must be set to get a different relic (which would also restock the store).
+EventRelic.text,Get a random relic.  $restock must be set to get a different relic (which would also restock the store).  These events can be used to give any item.
 EventXP.text,All heroes get 1 XP
 EventXP.button1,Continue
 EventRelic.button1,Continue
@@ -21,8 +27,6 @@ EventMap.text,Because $%fin is set we are doing something different now.\n\nWe c
 EventCityAction.text,This is a generic city action.
 EventCityAction.button1,Continue
 EventIcons.text,We can add images for quest and shop icons
-UICity.text,The next event will open up a shop by adding multiple QItems.  A shop event can have a number of buttons.
-UICity.button1,Continue
 UIQuest.text,This is the last quest.
 UIQuest.button1,Continue
 EventMap.button1,Continue
