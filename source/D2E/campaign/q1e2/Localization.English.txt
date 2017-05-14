@@ -1,7 +1,9 @@
 .,English
-Event0.text,This event sets custom music.\n\nA door this time.
+Event0.button1,Continue
+Door0.text,This will return to the main (campaign) quest.  We can use c:Spawn to get the spawned monster name: {c:Spawn0}.
 quest.name,Demo Quest 1 Encounter 2
 quest.description,Q1E2
-Event0.button1,Continue
+Spawn0.text,This is any small monster
+Spawn0.button1,Continue
+Event0.text,This event sets custom music.\n\nA door this time.
 Door0.button1,Button1
-Door0.text,This will return to the main (campaign) quest

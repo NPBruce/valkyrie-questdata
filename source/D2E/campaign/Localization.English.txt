@@ -19,7 +19,7 @@ EventCity.button4,Gold
 EventCity.button5,Relic
 EventCity.button6,Restock
 EventRestock.button1,Continue
-EventRelic.text,Get a random relic.  $restock must be set to get a different relic (which would also restock the store).  These events can be used to give any item.
+EventRelic.text,Get a random relic.  $restock must be set to get a different relic (which would also restock the store).  These events can be used to give any item.  We can use c:QItem to get the item name: {c:QItemrelic}.
 EventXP.text,All heroes get 1 XP
 EventXP.button1,Continue
 EventRelic.button1,Continue
