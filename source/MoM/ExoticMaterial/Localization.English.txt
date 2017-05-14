@@ -1,0 +1,214 @@
+.,English
+quest.name,Exotic Material
+quest.description,Exotic Material
+EventStart.text,"A collector of rare metals tracked a meteorite which fell near the town of Rowley.\n\nOn visiting the town she found the locals to be very unhelpful and slightly disturbing, and has tasked you with finding and retrieving the meteorite.\n\nYou arrive at Rowley in the morning and spend the entire day questioning the locals with no progress being made."
+EventStart.button1,{qst:CONTINUE}
+CONTINUE,Continue
+EventAddSquare.text,Add {ffg:TILE_TOWN_SQUARE_MAD20} and {ffg:TILE_STOREFRONT_MAD20} tiles as shown.  Investigators gain 2 clues each.
+EventGetItem1.text,Take Common Item: {c:QItemWeapon}.
+EventGetItem2.text,"Take Common Item: {c:QItemLight}, gain 1 clue."
+EventGetItem3.text,Take Common Item: {c:QItemEquip}.
+EventGetItem4.text,Take Common Item: {c:QItemEquip2}.
+EventGetItem5.text,"Take Common Item: {c:QItemEquipLight}, gain 1 clue."
+EventGetItem6.text,Take Common Item: {c:QItemWeapon2}.
+EventGetItem7.text,<i>You come across an old tome.</i>\n\nTest {lore}.
+EventGetSpell.text,Receive Spell: {c:QItemSpell}.
+ATTACK,Attack
+EXPLORE,{action} Explore
+FAIL,Fail
+HIDDEN,Hidden
+PASS,Pass
+PLACE1WALLTOKEN,Place a Wall Token as shown.
+SEARCH,{action} Search
+THEEND,The End
+EventSearchShop.text,{qst:HIDDEN}
+EventSearchShop.button1,{qst:CONTINUE}
+EventAddShopSearch.text,<i>The shop keeper wouldn't mind if you look around...</i>\n\nPlace a Search Token as shown.
+EventAddShopSearch.button1,{qst:CONTINUE}
+EventAddSearchStreet.text,<i>Numerous objects lie in the dark corners of this alley.</i>\n\nPlace a Search Token as shown.
+EventAddSearchStreet.button1,{qst:CONTINUE}
+EventAddWarehouseSearch.text,<i>This crate may contain something usefull.</i>\n\nPlace a Search Token as shown.
+EventAddWarehouseSearch.button1,{qst:CONTINUE}
+EventAddBasementSearch.text,<i>A box on the floor has been opened.</i>\n\nPlace a Search Token as shown.
+EventAddBasementSearch.button1,{qst:CONTINUE}
+EventAddCellarSearch.text,<i>Various items fill this shelf.</i>\n\nPlace a Search Token as shown.
+EventAddCellarSearch.button1,{qst:CONTINUE}
+EventAddSearchYard.text,<i>The light from a nearby lamp reflects off something in this bush.</i>\n\nPlace a Search Token as shown.
+EventAddSearchYard.button1,{qst:CONTINUE}
+EventMoveIn.button1,{qst:CONTINUE}
+EventMoveIn.text,You may move 1 space into the explored area.
+PuzzleLock.button1,Open
+TokenExploreWarehouse.text,<i>This door leads into a warehouse and has a coded padlock on the door.  The music appears to be coming from the other side of this building.</i>
+TokenExploreWarehouse.button1,{action} Unlock
+EventJammedDoor.text,<i>The door appears to be jammed.</i>\n\nTest {strength}.
+EventJammedDoor.button1,{qst:CONTINUE}
+EventJammedDoor.button2,{qst:HIDDEN}
+EventJammedDoorFail.text,<i>The door refuses to budge.</i>
+EventJammedDoorFail.button1,{qst:CONTINUE}
+TokenExplorePond.text,"<i>This door leads back up to ground level, the sound is very close now.</i>"
+TokenExplorePond.button1,{qst:EXPLORE}
+EventRockBonus.button1,{qst:HIDDEN}
+TokenSearchYard.text,<i>The light from a nearby lamp reflects off something in this bush.</i>
+TokenSearchSquare.text,<i>The wind has blown a small pile of rubbish into this corner.</i>
+TokenSearchShop.text,<i>The shop keeper wouldn't mind if you look around...</i>
+TokenSearchWarehouse.text,<i>This crate may contain something useful.</i>
+TokenSearchBasement.text,<i>A box on the floor has been opened.</i>
+TokenSearchCellar.text,<i>Various items fill this shelf.</i>
+EventRock.text,<i>You grab the object which appears to have no weight.</i>\n\nPlace the Interact Token on their investigators sheet.  The investigator may spend an Action ({action}) to give the token to another investigator in their space.
+EventRockPool.button1,{qst:HIDDEN}
+EventGetItem.button1,{qst:HIDDEN}
+EventRockBonusFocus.button1,{qst:CONTINUE}
+EventRockBonusFocus.text,<i>You gain a clarity of purpose never before experienced.</i>\n\nThe invesitgator with the Interact Token on their sheet becomes Focused.
+EventRockBonusEvade.button1,{qst:CONTINUE}
+EventRockBonusEvade.text,"<i>An unseen force lashes out from the object, clearing the path ahead.</i>\n\nThe invesitgator with the Interact Token on their sheet does not need to perform Evade checks this round."
+EventRockBonusClue.button1,{qst:CONTINUE}
+EventRockBonusClue.text,"<i>Knowledge fills your head, much of it beyond your comprehension.</i>\n\nThe invesitgator with the Interact Token on their sheet gains 2 clues."
+EventRockBonusHeal.button1,{qst:CONTINUE}
+EventRockBonusHeal.text,<i>Energy from the object washes over you and you feel renewed.</i>\n\nThe invesitgator with the Interact Token on their sheet discards 2 Damage.
+EventGetItem1.button1,{qst:CONTINUE}
+EventGetItem2.button1,{qst:CONTINUE}
+EventGetItem3.button1,{qst:CONTINUE}
+EventGetItem4.button1,{qst:CONTINUE}
+EventGetItem5.button1,{qst:CONTINUE}
+EventGetItem6.button1,{qst:CONTINUE}
+EventGetItem7.button1,{qst:PASS}
+EventGetItem7.button2,{qst:FAIL}
+EventGetSpell.button1,{qst:CONTINUE}
+EventFailSpell.text,<i>Your mind is lost in the symbols that will not stay still on the page.  You break your gaze and when you look back the symbols are gone.</i>
+EventFailSpell.button1,{qst:CONTINUE}
+EventRockMythos1.text,"This event affects the investigator with the Interact Token on their sheet.\n\nYou feel the object's strange power drifting over you and fight to retain control ({will}; 2).  If you fail your muscles refuse to follow your commands, you take 1 horror and become Restrained."
+EventRockMythos1.button1,{qst:CONTINUE}
+EventRockMythos2.text,"This event affects the investigator with the Interact Token on their sheet.\n\nYou rattle through every prayer you know, hoping one of them will help you fight off the overpowering presence of the unknown object ({lore}; 2). If you pass, you retain control of your actions.  If you fail you become distracted considering old texts and lose focus on the task at hand, take 1 Horror and become Dazed."
+EventRockMythos2.button1,{qst:CONTINUE}
+EventRockMythos3.text,"This event affects the investigator with the Interact Token on their sheet.\n\nYou feel as if the object is attempting to communicate with you ({influence}; 2).  If you pass you send a clear message of strength and determination.  If you fail you are filled with conflicting thoughts and desires, take 1 Horror and become Dazed."
+EventRockMythos3.button1,{qst:CONTINUE}
+EventRockMythos4.text,"This event affects the investigator with the Interact Token on their sheet.\n\nYou feel like your are trying to walk against a strong wind, though all appears still ({strength}; 2).  If you fail you are buffeted around by a silent force, take 2 Damage."
+EventRockMythos4.button1,{qst:CONTINUE}
+EventRockMythos5.text,"This event affects the investigator with the Interact Token on their sheet.\n\nThe object warps your perception of space and you struggle to determine where the floor is ({agility}; 2).  If you pass muscle memory takes over.  If you fail you fall heavily to the ground, take 1 Damage and become Stunned."
+EventRockMythos5.button1,{qst:CONTINUE}
+EventTakeRock.text,Space around the object is distorted and you struggle to touch the object ({observation}; 2).
+EventTakeRock.button1,{qst:PASS}
+EventTakeRock.button2,{qst:FAIL}
+EventFailRock.text,"Your mind races attempting to decipher where the object lies in space.  In your confusion you slip over on the cobblestones, take 1 damage and 1 horror."
+EventFailRock.button1,{qst:CONTINUE}
+SpawnAttackSquareRiot.text,<i>The group bursts into life.</i>\n\nInvestigators must now perform evade and horror checks as normal for this monster.  Use the monster panel to attack.
+TokenRock.text,"<i>This appears to be a dark rock, though it is difficult to see clearly for some unknown reason.</i>\n\nAn investigator in this space may attempt to take the rock."
+TokenRock.button1,{action} Take
+SpawnAttackSquareRiot.button1,{qst:CONTINUE}
+SpawnAttackShopCultist.text,<i>The shop keeper suddenly reacts to your presence.</i>\n\nInvestigators must now perform evade and horror checks as normal for this monster.  Use the monster panel to attack.
+SpawnAttackShopCultist.button1,{qst:CONTINUE}
+SpawnAttackStreetCultist.button1,{qst:CONTINUE}
+SpawnAttackWarehouseCultist.button1,{qst:CONTINUE}
+SpawnAttackBasementCultist.button1,{qst:CONTINUE}
+SpawnAttackPondRiot.button1,{qst:CONTINUE}
+SpawnAttackPriest.button1,{qst:CONTINUE}
+EventAddSquare.button1,{qst:CONTINUE}
+EventSquareRiot.text,"<i>After night falls an otherworldly music can be heard drifting through the streets.  The locals who are still outdoors stop and stare, enchanted by the strange sounds.</i>\n\nPlace the monster {ffg:MONSTER_RIOT} in the indicated space.  Investigators do not need to perform horror or evade checks for this monster."
+EventSquareRiot.button1,{qst:CONTINUE}
+EventAddShopExplore.text,<i>The lights are on in this small shop.</i>\n\nPlace an Explore Token as shown.
+EventAddShopExplore.button1,{qst:CONTINUE}
+EventAddSearchSquare.text,<i>The wind has blown a small pile of rubbish into this corner.</i>\n\nPlace a Search Token as shown.
+EventAddSearchSquare.button1,{qst:CONTINUE}
+EventPlaceInvestigators.text,Place investigators in the indicated space.
+EventPlaceInvestigators.button1,{qst:CONTINUE}
+EventSearchSquare.text,{qst:HIDDEN}
+EventSearchSquare.button1,{qst:CONTINUE}
+EventAddShopCultist.text,<i>The shop keeper ignores your entrance and stares into space.</i>\n\nPlace the monster {ffg:MONSTER_CULTIST} in the indicated space.  Investigators do not need to perform horror or evade checks for this monster.
+EventAddShopCultist.button1,{qst:CONTINUE}
+EventAddStreetExplore.text,<i>This door exits the rear of the shop</i>\n\nPlace an Explore Token as shown.
+EventAddStreetExplore.button1,{qst:CONTINUE}
+EventAddStreet.text,Add {ffg:TILE_STREET_CORNER_1_MAD20} and {ffg:TILE_WAREHOUSE_MAD20} tiles as shown.
+EventAddStreet.button1,{qst:CONTINUE}
+EventAddStreetWall.text,{qst:PLACE1WALLTOKEN}
+EventAddStreetWall.button1,{qst:CONTINUE}
+EventAddStreetCultist.text,"<i>This local stands still, appearing oblivious to the cold.</i>\n\nPlace the monster {ffg:MONSTER_CULTIST} in the indicated space.  Investigators do not need to perform horror or evade checks for this monster."
+EventAddStreetCultist.button1,{qst:CONTINUE}
+EventAddWarehouseExplore.text,<i>This door leads into a warehouse.  The music appears to be coming from the other side of this building.</i>\n\nPlace an Explore Token as shown.
+EventAddWarehouseExplore.button1,{qst:CONTINUE}
+EventSearchStreet.text,{qst:HIDDEN}
+EventSearchStreet.button1,{qst:CONTINUE}
+EventAddWarehouseCultist.text,<i>A woman stands still in the corner of the warehouse</i>\n\nPlace the monster {ffg:MONSTER_CULTIST} in the indicated space.  Investigators do not need to perform horror or evade checks for this monster.
+EventAddWarehouseCultist.button1,{qst:CONTINUE}
+EventAddBasementExplore.text,<i>This door leads down to a basement.</i>\n\nPlace an Explore Token as shown.
+EventAddBasementExplore.button1,{qst:CONTINUE}
+EventSearchWarehouse.text,{qst:HIDDEN}
+EventSearchWarehouse.button1,{qst:CONTINUE}
+EventAddBasement.text,Add {ffg:TILE_BASEMENT_MAD20} tile as shown.
+EventAddBasement.button1,{qst:CONTINUE}
+EventAddBasementCultist.text,<i>A figure stands idle.</i>\n\nPlace the monster {ffg:MONSTER_CULTIST} in the indicated space.  Investigators do not need to perform horror or evade checks for this monster.
+EventAddBasementCultist.button1,{qst:CONTINUE}
+EventAddCellarExplore.text,<i>The strange music is coming from this direction.</i>\n\nPlace an Explore Token as shown.
+EventAddCellarExplore.button1,{qst:CONTINUE}
+EventAddBasementWall.text,{qst:PLACE1WALLTOKEN}
+EventAddBasementWall.button1,{qst:CONTINUE}
+EventSearchBasement.text,{qst:HIDDEN}
+EventSearchBasement.button1,{qst:CONTINUE}
+EventAddCellar.text,Add {ffg:TILE_ROOT_CELLAR_MAD20} tile as shown.
+EventAddCellar.button1,{qst:CONTINUE}
+EventAddPondExplore.text,"<i>This door leads back up to ground level, the sound is very close now.</i>\n\nPlace an Explore Token as shown."
+EventAddPondExplore.button1,{qst:CONTINUE}
+EventSearchCellar.text,{qst:HIDDEN}
+EventSearchCellar.button1,{qst:CONTINUE}
+EventAddPond.text,<i>A rotten plank barring the door snaps and the door flies open.</i>\n\nAdd {ffg:TILE_PARK_POND_MAD20} and {ffg:TILE_YARD_2_MAD20} tiles as shown.
+EventAddPond.button1,{qst:CONTINUE}
+EventAddPondRiot.text,<i>A group of townsfolk stand transfixed by the strange object</i>\n\nPlace the monster {ffg:MONSTER_RIOT} in the indicated space.  Investigators do not need to perform horror or evade checks for this monster.
+EventAddPondRiot.button1,{qst:CONTINUE}
+EventAddPriest.text,"<i>A priest is performing some form of ritual, though he does not appear to be in control of his own actions.</i>\n\nPlace the monster {ffg:UNIQUE_MONSTER_PRIEST_OF_DAGON} in the indicated space.  Investigators do not need to perform horror or evade checks for this monster."
+EventAddPriest.button1,{qst:CONTINUE}
+EventAddRock.text,"<i>There is a large object floating in space near the pond.  It appears to be a dark rock, though it is difficult to see clearly for some unknown reason.</i>\n\nPlace an Interact Token as shown."
+EventAddRock.button1,{qst:CONTINUE}
+EventSearchYard.text,{qst:HIDDEN}
+EventSearchYard.button1,{qst:CONTINUE}
+EventRock.button1,{qst:CONTINUE}
+EventAwakeSquareRiot.button1,{qst:HIDDEN}
+EventAwakeShopCultist.button1,{qst:HIDDEN}
+EventAwake.text,"<i>The townsfolk all stir at once, their trance interrupted.</i>\n\nPlace ID Tokens as required.  All monsters now require horror and evade checks."
+EventAwake.button1,{qst:CONTINUE}
+EventAwakeStreetCultist.button1,{qst:HIDDEN}
+EventAwakeWarehouseCultist.button1,{qst:HIDDEN}
+EventAwakeBasementCultist.button1,{qst:HIDDEN}
+EventAwakePondRiot.button1,{qst:HIDDEN}
+EventAwakePriest.button1,{qst:HIDDEN}
+EventAddEscape.text,Place an Interact Token in the indicated space.  The investigators must take the object to this space to escape the town.
+EventAddEscape.button1,{qst:CONTINUE}
+EventEndEscape.text,<i>As you leave Rowley you constantly struggle against the strange objects power and the odd music that now sounds as if it is coming from inside your own heads.  You quickly agree that it would be too dangerous to let anyone have this object and drive far into the woods.\n\nFinding a secluded spot you bury the object and hope that it remains hidden for the benifit of all.</i>
+EventEndEscape.button1,{qst:THEEND}
+EventEndEliminated.text,<i>The remaining investigators flee in terror.  Whatever fell from the sky is clearly beyond their capabilities and is best left well alone.</i>
+EventEndEliminated.button1,{qst:THEEND}
+TokenStreetCultist.text,"<i>This local stands still, appearing oblivious to the cold.</i>"
+TokenStreetCultist.button1,{qst:ATTACK}
+TokenPondPriest.text,<i>This priests appears to be performing some type of ritual.</i>
+TokenPondPriest.button1,{qst:ATTACK}
+TokenWarehouseCultist.text,<i>A woman stands still in the corner of the warehouse</i>
+TokenWarehouseCultist.button1,{qst:ATTACK}
+TokenBasementCultist.text,<i>A figure stands idle.</i>
+TokenBasementCultist.button1,{qst:ATTACK}
+TokenSearchYard.button1,{qst:SEARCH}
+TokenSearchSquare.button1,{qst:SEARCH}
+TokenSearchShop.button1,{qst:SEARCH}
+TokenSearchStreet.text,<i>Numerous objects lie in the dark corners of this alley.</i>
+TokenSearchStreet.button1,{qst:SEARCH}
+TokenSearchWarehouse.button1,{qst:SEARCH}
+TokenSearchBasement.button1,{qst:SEARCH}
+TokenSearchCellar.button1,{qst:SEARCH}
+TokenExit.text,Is the investigator with the Interact Token in this space?
+TokenExit.button1,Escape
+TokenPondRiot.text,<i>The group of townsfolk stand completely still.</i>
+TokenPondRiot.button1,{qst:ATTACK}
+TokenExploreShop.text,<i>The lights are on in this small shop.</i>
+TokenExploreShop.button1,{qst:EXPLORE}
+TokenExploreStreet.text,<i>This door exits the rear of the shop</i>
+TokenExploreStreet.button1,{qst:EXPLORE}
+TokenExploreBasement.text,<i>This door leads down to a basement.</i>
+TokenExploreBasement.button1,{qst:EXPLORE}
+TokenExploreCellar.text,<i>The strange music is coming from this direction.</i>
+TokenExploreCellar.button1,{qst:EXPLORE}
+TokenShopCultist.text,<i>The shop keeper stares into space.</i>
+TokenShopCultist.button1,{qst:ATTACK}
+TokenSquareRiot.text,<i>The townsfolk ignore you.</i>
+TokenSquareRiot.button1,{qst:ATTACK}
+SpawnAttackPriest.text,<i>The priest snaps awake.</i>\n\nInvestigators must now perform evade and horror checks as normal for this monster.  Use the monster panel to attack.
+SpawnAttackPondRiot.text,<i>The group screams at being interrupted.</i>\n\nInvestigators must now perform evade and horror checks as normal for this monster.  Use the monster panel to attack.
+SpawnAttackBasementCultist.text,<i>Your actions appear to have broken the trance.</i>\n\nInvestigators must now perform evade and horror checks as normal for this monster.  Use the monster panel to attack.
+SpawnAttackWarehouseCultist.text,<i>The woman is startled by your attack.</i>\n\nInvestigators must now perform evade and horror checks as normal for this monster.  Use the monster panel to attack.
+SpawnAttackStreetCultist.text,<i>The man suddenly shakes and springs into life.</i>\n\nInvestigators must now perform evade and horror checks as normal for this monster.  Use the monster panel to attack.
