@@ -1,12 +1,12 @@
 .,English
-EventGetItem1.text,Take Common Item: {ffg:COMMON_ITEM_38_REVOLVER}.
-EventGetItem2.text,"Take Common Item: {ffg:COMMON_ITEM_BANDAGES}, gain 2 clues."
-EventGetItem3.text,"Take Common Item: Candles, gain 1 clue."
-EventGetItem4.text,Take Common Item: {ffg:COMMON_ITEM_DYNAMITE}.
-EventGetItem5.text,Take Common Item: {ffg:COMMON_ITEM_KING_JAMES_BIBLE} and become Focused.
-EventGetItem6.text,"Take Common Item: {ffg:COMMON_ITEM_SHOVEL}, gain 1 clue."
+EventGetItem1.text,Take Common Item: {c:QItemWeapon}.
+EventGetItem2.text,"Take Common Item: {c:QItemLight}, gain 1 clue."
+EventGetItem3.text,Take Common Item: {c:QItemEquip}.
+EventGetItem4.text,Take Common Item: {c:QItemEquip2}.
+EventGetItem5.text,"Take Common Item: {c:QItemEquipLight}, gain 1 clue."
+EventGetItem6.text,Take Common Item: {c:QItemWeapon2}.
 EventGetItem7.text,<i>You come across an old tome.</i>\n\nTest {lore}.
-EventGetSpell.text,Receive Spell: {ffg:SPELL_INSTILL_BRAVERY}.
+EventGetSpell.text,Receive Spell: {c:QItemSpell}.
 quest.name,Exotic Material
 quest.description,Exotic Material
 ATTACK,Attack

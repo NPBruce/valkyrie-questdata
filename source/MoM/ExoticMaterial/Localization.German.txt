@@ -1,12 +1,12 @@
 .,German
-EventGetItem1.text,Nimm den Gegenstand: {ffg:COMMON_ITEM_38_REVOLVER}.
-EventGetItem2.text,"Nimm den Gegenstand: {ffg:COMMON_ITEM_BANDAGES}, erhalte zwei Hinweismarker."
-EventGetItem3.text,"Nimm den Gegenstand: Kerzen, erhalte einen Hinweismarker."
-EventGetItem4.text,Nimm den Gegenstand: {ffg:COMMON_ITEM_DYNAMITE}.
-EventGetItem5.text,Nimm den Gegenstand: {ffg:COMMON_ITEM_KING_JAMES_BIBLE} und werde Fokussiert.
-EventGetItem6.text,"Nimm den Gegenstand: {ffg:COMMON_ITEM_SHOVEL}, erhalte einen Hinweismarker."
+EventGetItem1.text,Nimm den Gegenstand: {c:QItemWeapon}.
+EventGetItem2.text,"Nimm den Gegenstand: {c:QItemLight}, erhalte einen Hinweismarker."
+EventGetItem3.text,Nimm den Gegenstand: {c:QItemEquip}.
+EventGetItem4.text,Nimm den Gegenstand: {c:QItemEquip2}.
+EventGetItem5.text,"Nimm den Gegenstand: {c:QItemEquipLight}, erhalte einen Hinweismarker."
+EventGetItem6.text,Nimm den Gegenstand: {c:QItemWeapon2}.
 EventGetItem7.text,<i>Du findest einen alten Folianten.</i>\n\n{lore}-Test.
-EventGetSpell.text,Nimm den Zauber: {ffg:SPELL_INSTILL_BRAVERY}.
+EventGetSpell.text,Nimm den Zauber: {c:QItemSpell}.
 quest.name,Exotisches Material
 quest.description,Exotisches Material
 ATTACK,Angriff

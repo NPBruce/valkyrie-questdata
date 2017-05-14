@@ -1,12 +1,12 @@
 .,Spanish
-EventGetItem1.text,Obtienes el Objeto Común: {ffg:COMMON_ITEM_38_REVOLVER}.
-EventGetItem2.text,Obtienes el Objeto Común: {ffg:COMMON_ITEM_BANDAGES}.
-EventGetItem3.text,"Obtienes el Objeto Común: {ffg:COMMON_ITEM_CANDLES}., Obtienes 1 pista."
-EventGetItem4.text,Obtienes el Objeto Común: {ffg:COMMON_ITEM_DYNAMITE}.
-EventGetItem5.text,Obtienes el Objeto Común:{ffg:COMMON_ITEM_KING_JAMES_BIBLE} y Obtienes el estado Concentrado.
-EventGetItem6.text,"Obtienes el Objeto Común: {ffg:COMMON_ITEM_SHOVEL}, Obtienes 1 Pista."
+EventGetItem1.text,Obtienes el Objeto Común: {c:QItemWeapon}.
+EventGetItem2.text,"Obtienes el Objeto Común: {c:QItemLight}, Obtienes 1 pista."
+EventGetItem3.text,Obtienes el Objeto Común: {c:QItemEquip}.
+EventGetItem4.text,Obtienes el Objeto Común: {c:QItemEquip2}.
+EventGetItem5.text,"Obtienes el Objeto Común: {c:QItemEquipLight}, Obtienes 1 pista."
+EventGetItem6.text,Obtienes el Objeto Común: {c:QItemWeapon2}.
 EventGetItem7.text,<i>Encuentras un viejo libro.</i> Lo examinas ({lore}).
-EventGetSpell.text,Recibes el Hechizo: {ffg:SPELL_INSTILL_BRAVERY}.
+EventGetSpell.text,Recibes el Hechizo: {c:QItemSpell}.
 quest.name,Material Exótico
 quest.description,Material Exótico
 ATTACK,Atacar
