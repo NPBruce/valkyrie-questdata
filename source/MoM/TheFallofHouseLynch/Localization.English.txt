@@ -1,0 +1,428 @@
+.,English
+quest.name,The Fall of House Lynch
+quest.description,Conversion of the Mansions Of Madness first edition scenario.
+PuzzleGuestStorage.button1,{qst:CONTINUE}
+PuzzlePuzzlebox.button1,{qst:CONTINUE}
+PuzzleSuitcase.button1,{qst:CONTINUE}
+PuzzleFrontDoor.button1,{qst:CONTINUE}
+PuzzlePowerFailure.button1,{qst:CONTINUE}
+ACTIONSEARCH,{action} Search
+ACTIONEXPLORE,{action} Explore
+CONTINUE,Continue
+FORFEIT,Forfeit
+NO,No
+PLACE1BARRICADE,Place 1 barricade as shown.
+PLACE1EXPLORETOKEN,Place one Explore Token as shown.
+PLACE2EXPLORETOKEN,Place 2 Explore Tokens as shown.
+PLACE4EXPLORETOKEN,Place 4 Explore Tokens as shown.
+PLACE2SEARCHTOKEN,Place 2 Search Tokens as shown.
+PLACE3SEARCHTOKEN,Place 3 Search Tokens as shown.
+PLACE1WALLTOKEN,Place 1 Wall Token as shown.
+PLACEWALLTOKEN,Place the Wall Tokens as shown.
+THEEND,The End
+UNABLETOATTACK,Unable to Attack
+UNLOCK,Unlock
+WALTERLYNCH,Walter Lynch
+YES,Yes
+TokenCeremonyBarred.text,<i>This door leads further under the house.</i>
+TokenCeremonyBarred.button1,{qst:ACTIONEXPLORE}
+TokenBasement2A.text,<i>Strange vials lie on the bench</i>
+TokenBasement2A.button1,{qst:ACTIONSEARCH}
+TokenBasement2B.text,{qst:TokenBasement2A.text}
+TokenBasement2B.button1,{qst:ACTIONSEARCH}
+TokenBasementDoor2A.text,<i>A door lies at the foot of the stairs.</i>
+TokenBasementDoor2A.button1,{qst:ACTIONEXPLORE}
+TokenBasementDoor2ALocked.text,<i>The door leading into this room is sealed with a lock that will only open if you have the correct sigil.</i>\n\nThis token can only be explored by an investigator with the Cult Sigil.
+TokenBasementDoor2ALocked.button1,{qst:ACTIONEXPLORE}
+TokenBasementDoor2B.text,{qst:TokenBasementDoor2A.text}
+TokenBasementDoor2B.button1,{qst:ACTIONEXPLORE}
+TokenGuest3A.text,<i>The drawers may hold something of interest.</i>
+TokenGuest3A.button1,{qst:ACTIONSEARCH}
+TokenGuest3B.text,{qst:TokenGuest3A.text}
+TokenGuest3B.button1,{qst:ACTIONSEARCH}
+TokenGuestDoor3A.text,<i>This door leads to the guest bedroom.</i>
+TokenGuestDoor3A.button1,{qst:ACTIONEXPLORE}
+TokenGuestDoor3B.text,{qst:TokenGuestDoor3A.text}
+TokenGuestDoor3B.button1,{qst:ACTIONEXPLORE}
+TokenGuestDoor3BLocked.text,<i>This locked door leads to the guest bedroom</i>\n\nThis token can be explored by an investigator with the Silver Key.
+TokenGuestDoor3BLocked.button1,{qst:ACTIONEXPLORE}
+TokenStorage3A.text,<i>One of the boxes has strange markings.</i>
+TokenStorage3A.button1,{qst:ACTIONSEARCH}
+TokenStorage3B.text,{qst:TokenStorage3A.text}
+TokenStorage3B.button1,{qst:ACTIONSEARCH}
+TokenStorageDoor.text,<i>This door leads to the storage room.</i>
+TokenStorageDoor.button1,{qst:ACTIONEXPLORE}
+TokenMaster3A.text,<i>The drawers may hold something of interest.</i>
+TokenMaster3A.button1,{qst:ACTIONSEARCH}
+TokenMaster3B.text,<i>You notice a suitcase behind the chair.</i>
+TokenMaster3B.button1,{qst:ACTIONSEARCH}
+TokenMasterDoor3A.text,<i>This door leads to the master bedroom.</i>
+TokenMasterDoor3A.button1,{qst:ACTIONEXPLORE}
+TokenMasterDoor3ALocked.text,"<i>This door leads to the master bedroom, it can be explored by an investigator with the silver key.</i>"
+TokenMasterDoor3ALocked.button1,{qst:ACTIONEXPLORE}
+TokenMasterDoor3B.text,{qst:TokenMasterDoor3A.text}
+TokenMasterDoor3B.button1,{qst:ACTIONEXPLORE}
+TokenKitchen3A.text,<i>Something sinister lies on the table.</i>
+TokenKitchen3A.button1,{qst:ACTIONSEARCH}
+TokenKitchen3B.text,<i>The kitchen cupboard door has been left ajar.</i>
+TokenKitchen3B.button1,{qst:ACTIONSEARCH}
+TokenFreezer3A.text,<i>Ice from the cool box is slowly melting and dripping on to the floor</i>
+TokenFreezer3A.button1,{qst:ACTIONSEARCH}
+TokenFreezer3B.text,{qst:TokenFreezer3A.text}
+TokenFreezer3B.button1,{qst:ACTIONSEARCH}
+TokenOperating3A.text,<i>This room appears to have been a venue for dark deeds.</i>
+TokenOperating3A.button1,{qst:ACTIONSEARCH}
+TokenOperating3B.text,{qst:TokenOperating3A.text}
+TokenOperating3B.button1,{qst:ACTIONSEARCH}
+TokenGarden2A.text,<i>Something is proped up against the wall.</i>
+TokenGarden2A.button1,{qst:ACTIONSEARCH}
+TokenGarden2B.text,<i>The ground has been disturbed here.</i>
+TokenGarden2B.button1,{qst:ACTIONSEARCH}
+TokenGardenDoor2A.text,<i>This door leads out to the garden.</i>
+TokenGardenDoor2A.button1,{qst:ACTIONEXPLORE}
+TokenGardenDoor2B.text,{qst:TokenGardenDoor2A.text}
+TokenGardenDoor2B.button1,{qst:ACTIONEXPLORE}
+TokenGardenDoor2BLocked.text,<i>The door leading out to the Garden is sealed with a lock that will only open if you have the correct sigil.</i>\n\nThis token can be explored by an investigator with the Cult Sigil.
+TokenGardenDoor2BLocked.button1,{qst:ACTIONEXPLORE}
+EventNo1E.text,"You have not selected Mansions of Madness First Edition in the content selection.\n\nThis scenario does not yet have a pure second editon version, substitute tiles will be required."
+EventNo1E.button1,{qst:CONTINUE}
+EventIntro1.text,"The office is thick with cigarette smoke.  Filing cabinets line the wall, and a pile of magazines sticks out from under the leg of a cheap wooden desk.  Behind the desk sits a pudgy, bald man full of nervous energy.\n\n""It's about time you got here,"" he says while tapping his fingers on the desk.  ""Time is money, and we're losing it by the truckload.""\n\n""I need your help finding our missing business parter.""\nHe tosses you a dirty manila folder.  ""Our missing man is named Walter Lynch.  He's always been the brains of this operation, and without him, this business venture is a bust.  He hasn't been answering letters, and all our other investigations have been..."" he pauses, choosing his next word carefully, ""unsuccessful.""\n\nHe glances at the folder.  ""You have everything we know.  Bring him back to use, more than you know is at stake."
+EventIntro1.button1,{qst:CONTINUE}
+EventIntro2.text,"Later, in your car, you carefully open the soiled folder.  You find a crude map with directions to a mansion just outside Arkham, Massachusetts.  The drawing is primitive, as if sketched by a child.  Behind the map lies a torn journal entry:\n\n""June 8, 1918: It has been nearly a year since the illness came for my son.  The doctors were mystified as it slowly consumed his flesh.  I am a man of action and could not sit around and wait for my heir to deteriorate.\nNine months I spent traveling the globe. Searching for a cure. From the depths of the jungles to the wisdom of the orient, I found nothing. I kept searching, deeper and deeper into the lost places of the world and beyond. I witnessed many mysteries and horrors, but the cure still eluded me.\n\nLittle did I know that it was already too late.  Back home, my son passed from this world with no father there to comfort him.\n\nI returned home to my wife Edith, intending to stay for good.  We grieved.  Life slowly returned to normal and I returned to work.  I started up new business ventures and grew my fortune while my soul languished.\n\nThe healing process was not easy, but I found that helping mend Edith's heart helped me ignore my own pain."""
+EventIntro2.button1,{qst:CONTINUE}
+EventIntro3.text,"A breifer entry lies on the back.\n\n""January 21, 1919: How could this happen?  Why could this happen?\n\nYou try to protect yourself.  You try to protect your family, but it doesn't matter.\n\nOh Edith, your're all I have.  How could it happen to you?\n\nI MUST dig deeper.  I will turn over stones that I dared not touch.  I WILL find answers!"""
+EventIntro3.button1,{qst:CONTINUE}
+EventPrologue.text,"Light rain falls on your face as you exit your car in front of the estate.  The house is huge, unkept, and shrouded in eerie silence as you approach.  You rap on the door, and there is no response.  A moment later, the door creaks open of its own accord, and you enter the foyer of the enormous mansion."
+EventPrologue.button1,{qst:CONTINUE}
+EventFoyerTile.text,Place {MAD01}Foyer tile as shown.
+EventFoyerTile.button1,{qst:CONTINUE}
+EventInvestigators.text,Place investigators in the space shown.  Each investigator gains two Clue tokens.
+EventInvestigators.button1,{qst:CONTINUE}
+EventFoyerSearchToken.text,<i>A hall stand is against the wall on this landing.</i>\n\nPlace a Search Token as shown.
+EventFoyerSearchToken.button1,{qst:CONTINUE}
+EventFoyerExploreTokens.text,{qst:PLACE4EXPLORETOKEN}
+EventFoyerExploreTokens.button1,{qst:CONTINUE}
+EventPrologue3A.text,As you set foot in the vacant home you notice the faint smell of burnt food.  Perhaps someone forgot to turn off the stove?
+EventPrologue3A.button1,{qst:CONTINUE}
+EventPrologue3B.text,"Although the house is ancient, it doesn't make a single groan.  It feels like the house is holding its breath, waiting for something awful to happen.  The silence is suddenly shattered by a bloodcurdling screaming, echoing from the direction of the laboratory.  The house shakes like there's an earthquake, and dusty paintings fall off the walls."
+EventPrologue3B.button1,{qst:CONTINUE}
+EventKitchenTile.text,Place {MAD01}Dining Room tile as shown.
+EventKitchenTile.button1,{qst:CONTINUE}
+EventExporeKitchen.text,{qst:PLACE3SEARCHTOKEN}
+EventExporeKitchen.button1,{qst:CONTINUE}
+EventExporeLabTile.text,Place {MAD01}Laboratory tile as shown.
+EventExporeLabTile.button1,{qst:CONTINUE}
+EventExporeLabExplore.text,{qst:PLACE1EXPLORETOKEN}
+EventExporeLabExplore.button1,{qst:CONTINUE}
+EventExporeLab.text,{qst:PLACE3SEARCHTOKEN}
+EventExporeLab.button1,{qst:CONTINUE}
+EventHallTile.text,Place {MAD01}Hallway 2 and {MAD01}Hallway 4 tiles as shown.
+EventHallTile.button1,{qst:CONTINUE}
+EventHallWallToken.text,{qst:PLACE1WALLTOKEN}
+EventHallWallToken.button1,{qst:CONTINUE}
+EventHallSearchTokens.text,{qst:PLACE2SEARCHTOKEN}
+EventHallSearchTokens.button1,{qst:CONTINUE}
+EventHallExploreToken3A.text,{qst:PLACE2EXPLORETOKEN}
+EventHallExploreToken3A.button1,{qst:CONTINUE}
+EventHallExploreToken3B.text,{qst:PLACE2EXPLORETOKEN}
+EventHallExploreToken3B.button1,{qst:CONTINUE}
+EventGardenTile.text,Place {MAD01}Garden tile as shown.
+EventGardenTile.button1,{qst:CONTINUE}
+EventGardenAddSearch.text,<i>There is something under the chair.</i>\n\nPlace 1 Search token as shown.
+EventGardenAddSearch.button1,{qst:CONTINUE}
+EventGardenExploreToken2A.text,{qst:PLACE1EXPLORETOKEN}
+EventGardenExploreToken2A.button1,{qst:CONTINUE}
+EventGardenExploreToken2B.text,{qst:PLACE1EXPLORETOKEN}
+EventGardenExploreToken2B.button1,{qst:CONTINUE}
+EventBasementTile.text,Place {MAD01}Basement Landing as shown.
+EventBasementTile.button1,{qst:CONTINUE}
+EventBasementAddSearch.text,<i>You notice something in the shadows.</i>\n\nPlace 1 Search token as shown.
+EventBasementAddSearch.button1,{qst:CONTINUE}
+EventBasementExploreToken2A.text,{qst:PLACE1EXPLORETOKEN}
+EventBasementExploreToken2A.button1,{qst:CONTINUE}
+EventBasementExploreToken2B.text,{qst:PLACE1EXPLORETOKEN}
+EventBasementExploreToken2B.button1,{qst:CONTINUE}
+EventMasterLock.text,"<i>This door is locked, you will need to find a key.</i>"
+EventMasterLock.button1,{qst:CONTINUE}
+EventMasterLockKey.text,"<i>This door is locked, it can be explored by an investigator with the silver key.</i>"
+EventMasterLockKey.button1,{qst:CONTINUE}
+EventMasterLockKey.button2,{qst:FORFEIT}
+EventMasterTile.text,Place {MAD01}Master Bedroom as shown.
+EventMasterTile.button1,{qst:CONTINUE}
+EventMasterSeal.text,{qst:PLACEWALLTOKEN}
+EventMasterSeal.button1,{qst:CONTINUE}
+EventMasterSearch3A.text,<i>The drawers may hold something of interest.</i>\n\nPlace a Search Token as shown.
+EventMasterSearch3A.button1,{qst:CONTINUE}
+EventMasterSearch3B.text,<i>You notice a suitcase behind the chair.</i>\n\nPlace a Search Token as shown.
+EventMasterSearch3B.button1,{qst:CONTINUE}
+EventGuestLock.text,{qst:EventMasterLock.text}
+EventGuestLock.button1,{qst:CONTINUE}
+EventGuestLockKey.text,{qst:EventMasterLockKey.text}
+EventGuestLockKey.button1,{qst:UNLOCK}
+EventGuestLockKey.button2,{qst:FORFEIT}
+EventGuestTile.text,Place {MAD01}Guest Bedroom as shown.
+EventGuestTile.button1,{qst:CONTINUE}
+EventGuestSearch3A.text,<i>The drawers may hold something of interest.</i>\n\nPlace a Search Token as shown.
+EventGuestSearch3A.button1,{qst:CONTINUE}
+EventGuestSearch3B.text,{qst:EventGuestSearch3A.text}
+EventGuestSearch3B.button1,{qst:CONTINUE}
+EventGuestStorageExplore.text,{qst:PLACE1EXPLORETOKEN}
+EventGuestStorageExplore.button1,{qst:CONTINUE}
+EventStorageExplore3A.text,<i>One of the boxes has strange markings.</i>\n\nPlace a Search Token as shown.
+EventStorageExplore3A.button1,{qst:CONTINUE}
+EventStorageExplore3B.text,{qst:EventStorageExplore3A.text}
+EventStorageExplore3B.button1,{qst:CONTINUE}
+EventGardenLock.text,<i>The door leading out to the Garden is sealed with a lock that will only open if you know the proper phrase.</i>
+EventGardenLock.button1,{qst:CONTINUE}
+EventGardenLockKey.text,<i>The door leading out to the Garden is sealed with a lock that will only open if you have the correct sigil.</i>\n\nThis token can be explored by an investigator with the Cult Sigil.
+EventGardenLockKey.button1,{qst:UNLOCK}
+EventGardenLockKey.button2,{qst:FORFEIT}
+EventGardenLockUnlocked.text,<i>The ground has been disturbed here.</i>\n\nPlace a Search Token as shown.
+EventGardenLockUnlocked.button1,{qst:CONTINUE}
+EventGardenJammed.text,<i>You grunt with effort as you try to force the door open.</i>\n\nTest {strength}.
+EventGardenJammed.button1,{qst:CONTINUE}
+EventGardenExplore2A.text,<i>Something is proped up against the wall.</i>\n\nPlace a Search Token as shown.
+EventGardenExplore2A.button1,{qst:CONTINUE}
+EventGardenExplore2B.text,{qst:EventGardenLockUnlocked.text}
+EventGardenExplore2B.button1,{qst:CONTINUE}
+EventBasementLock.text,<i>The door leading into this room is sealed with a lock that will only open if you have the correct sigil.</i>
+EventBasementLock.button1,{qst:CONTINUE}
+EventBasementLockKey.text,<i>The door leading into this room is sealed with a lock that will only open if you have the correct sigil.</i>\n\nThe exploring investigator may continue if they have the Cult Sigil.
+EventBasementLockKey.button1,{qst:UNLOCK}
+EventBasementLockKey.button2,{qst:FORFEIT}
+EventBasementLockUnlocked.text,{qst:PLACE2SEARCHTOKEN}
+EventBasementLockUnlocked.button1,{qst:CONTINUE}
+EventBasementExplore2A.text,{qst:PLACE2SEARCHTOKEN}
+EventBasementExplore2A.button1,{qst:CONTINUE}
+EventBasementJammed.text,{qst:EventGardenJammed.text}
+EventBasementJammed.button1,{qst:CONTINUE}
+EventBasementExplore2B.text,{qst:PLACE2SEARCHTOKEN}
+EventBasementExplore2B.button1,{qst:CONTINUE}
+EventBasementExploreBarrier.text,{qst:PLACE1BARRICADE}
+EventBasementExploreBarrier.button1,{qst:CONTINUE}
+EventBasementCeremonyExplore.text,{qst:PLACE1EXPLORETOKEN}
+EventBasementCeremonyExplore.button1,{qst:CONTINUE}
+EventCeremonyExplore.text,"<i>A dark evil permeates through the door as you grab the door handle.  To your relief, the door simply will not open.</i>"
+EventCeremonyExplore.button1,{qst:CONTINUE}
+EventGuestStorageDoor.text,<i>The door leading into this room is sealed with a rusted combination lock.</i>
+EventGuestStorageDoor.button1,{qst:CONTINUE}
+EventPuzzlebox.text,<i>You find a box covered in cryptic runes.</i>
+EventPuzzlebox.button1,{qst:CONTINUE}
+EventSuitcase.text,<i>You find a sturdy suitcase sealed by a simple combination lock.</i>
+EventSuitcase.button1,{qst:CONTINUE}
+EventGetLantern.text,Take Common Item: Kerosene Lantern.
+EventGetLantern.button1,{qst:CONTINUE}
+EventGetAxe.text,Take Common Item: Axe.
+EventGetAxe.button1,{qst:CONTINUE}
+EventGetShotgun3A.text,Take Common Item: Shotgun.
+EventGetShotgun3A.button1,{qst:CONTINUE}
+EventGetShotgun3B.text,{qst:EventGetShotgun3A.text}.
+EventGetShotgun3B.button1,{qst:CONTINUE}
+EventGetEvidence3A.text,<i>You uncover startling evidence.</i>\n\nGain 2 clue tokens.
+EventGetEvidence3A.button1,{qst:CONTINUE}
+EventGetEvidence3B.text,{qst:EventGetEvidence3A.text}
+EventGetEvidence3B.button1,{qst:CONTINUE}
+EventGetElderSign3A.text,Take Common Item: Elder Sign Pendant.
+EventGetElderSign3A.button1,{qst:CONTINUE}
+EventGetElderSign3B.text,{qst:EventGetElderSign3A.text}
+EventGetElderSign3B.button1,{qst:CONTINUE}
+EventGetExtinguisher.text,Take Common Item: Fire Extinguisher and gain 1 clue token.
+EventGetExtinguisher.button1,{qst:CONTINUE}
+EventGetItem1.text,Take Common Item: Sedative
+EventGetItem1.button1,{qst:CONTINUE}
+EventGetItem2.text,Take Common Item: Whiskey
+EventGetItem2.button1,{qst:CONTINUE}
+EventGetItem3.text,<i>You come across an old tome.</i>\n\nTest {lore}.
+EventGetItem3.button1,{qst:CONTINUE}
+EventGetItem3.button2,{qst:CONTINUE}
+EventGetHeal.text,Receive Spell: Flesh Ward.
+EventGetHeal.button1,{qst:CONTINUE}
+EventFailHeal.text,<i>Your mind is lost in the symbols that will not stay still on the page.  You break your gaze and when you look back the symbols are gone.</i>
+EventFailHeal.button1,{qst:CONTINUE}
+EventGetItem4.text,Take Common Item: Axe
+EventGetItem4.button1,{qst:CONTINUE}
+EventGetItem5.text,Take Common Item: Kerosene Lantern
+EventGetItem5.button1,{qst:CONTINUE}
+EventGetItem6.text,<i>You find nothing of interest.</i>
+EventGetItem6.button1,{qst:CONTINUE}
+EventGetItem7.text,"<i>None of the items you find are of use, but they do provide additional context to your surroundings</i>\n\nGain 1 clue token."
+EventGetItem7.button1,{qst:CONTINUE}
+EventGetItem8.text,"<i>None of the items you find are of use, but they do provide additional context to your surroundings</i>\n\nGain 1 clue tokens."
+EventGetItem8.button1,{qst:CONTINUE}
+EventGetItem9.text,"<i>None of the items you find are of use, but they do provide additional context to your surroundings</i>\n\nGain 2 clue tokens."
+EventGetItem9.button1,{qst:CONTINUE}
+EventGetItem10.text,"<i>None of the items you find are of use, but they do provide additional context to your surroundings</i>\n\nGain 2 clue tokens."
+EventGetItem10.button1,{qst:CONTINUE}
+EventClue1A.text,"<i>You are consumed by a vision of Walter leading a seance to communicate with his dead son.  You watch as an uninvited spirit wraps around his mind with one command: ""FEED ME SOULS!""</i>"
+EventClue1A.button1,{qst:CONTINUE}
+EventClue1BShoggoth.text,"<i>Somewhere in the house, Walter attempts to use your won flesh and blood to enact an ancient summoning.  The gound shakes, knocking books and trinkets off the shelves.</i>"
+EventClue1BShoggoth.button1,{qst:CONTINUE}
+EventClue1BNoShoggoth.text,"<i>Somewhere in the house, Walter attempts to use your won flesh and blood to enact an ancient summoning.  The gound shakes, knocking books and trinkets off the shelves.</i>\n\nObjective: Prevent maniacs from taking samples."
+EventClue1BNoShoggoth.button1,{qst:CONTINUE}
+EventClue1C.text,"<i>Walter's voice echoes through the mansion: ""WE MUST FEED IT!"" Then a painful chorus of sickly groans fills the manor.  It is an unnerving sound, almost, but not quite, human.</i>\n\nPlace 1 Explore token as show.\nObjective: Escape through the foyer."
+EventClue1C.button1,{qst:CONTINUE}
+EventClue2A.text,"<i>You find a journal entry dated July 5th 1918.\n""My wife's condition has begun to deteriorate as of late.  I know it is only a matter of time, and have prepared a place for her along with the other bodies deep within the ground.""</i>\n\nGain Unique Item: Cult Sigil"
+EventClue2A.button1,{qst:CONTINUE}
+EventClue2B.text,"<i>Your sight blurs and you collapse to the ground as a vision consumes you.  A man whistles a cheerful tunes as he drags a woman's limp body along the floor.  You shiver as the body is dragged into the rain, through a muddy puddle.  A shovel comes down on her head as the vision ends.</i>\n\nGain Unique Item: Cult Sigil"
+EventClue2B.button1,{qst:CONTINUE}
+EventClue3A.text,"<i>The room is empty except for the burnt outline of a human on the kitchen table.  Upon closer examination, you find a simple silver key hidden in the soot.\nA trail of blackened footprints leads up the foyer stairs and right down the hall.</i>\n\nGain Unique Item: Silver Key"
+EventClue3A.button1,{qst:CONTINUE}
+EventClue3B.text,"<i>The bloody mess of a man's body lies on the operating table.  Rusted instruments and crude tools lie all around him.\nThe skinless man whispers to you in horror through his lipless mouth.  ""Oh god, he wanted my flesh...""\nWith his last breath he murmurs, ""He let me stay the night..."" and hands you a key.</i>\n\nGain Unique Item: Silver Key"
+EventClue3B.button1,{qst:CONTINUE}
+SpawnManiac.text,<i>The door explodes into splinters as a crazed madman enters the room.</i>\n\nPlace a maniac in the same space as {rnd:hero}.
+SpawnManiac.button1,{qst:CONTINUE}
+EventShoggothMove.text,Is the shoggoth on the indicated space?
+EventShoggothMove.button1,{qst:YES}
+EventShoggothMove.button2,{qst:NO}
+EventShoggothMoveTowards.text,The Shoggoth moves 2 spaces towards the indicated space.
+EventShoggothMoveTowards.button1,{qst:CONTINUE}
+EventEndLose1B.text,"<i>High in the attic, Walter, having finished his task, hangs himself.</i>"
+EventEndLose1B.button1,{qst:THEEND}
+EventManiacSample.text,<i>The maniac pulls at your hair.</i>\n\nThe investigator in the same space as a Maniac with the lowest {agility} tests ({agility}; 1).
+EventManiacSample.button1,None in Space
+EventManiacSample.button2,Success
+EventManiacSample.button3,Fail
+EventManiacSampleFail.text,<i>The maniac rips out some of your hair.</i>
+EventManiacSampleFail.button1,{qst:CONTINUE}
+SpawnShoggothBasement.text,Place a Shoggoth in the indicated space.\nObjective: Prevent the Shoggoth from escaping.
+SpawnShoggothBasement.button1,{qst:CONTINUE}
+SpawnShoggothBasementEnter.text,{qst:SpawnShoggothBasement.text}
+SpawnShoggothBasementEnter.button1,{qst:CONTINUE}
+SpawnShoggothBasementStair.text,{qst:SpawnShoggothBasementEnter.text}
+SpawnShoggothBasementStair.button1,{qst:CONTINUE}
+SpawnShoggothBasementStairEnter.text,{qst:SpawnShoggothBasement.text}
+SpawnShoggothBasementStairEnter.button1,{qst:CONTINUE}
+SpawnShoggothFoyer.text,{qst:SpawnShoggothBasement.text}
+SpawnShoggothFoyer.button1,{qst:CONTINUE}
+EventEndWin1B.text,<i>The shoggoth falls to the ground in a writhing mass of tentacles.  Whatever madness Walter contracted on his journey is destroyed forever.</i>
+EventEndWin1B.button1,{qst:THEEND}
+EventTimer1NoClue.text,<b>Clock Strikes 10</b>\n\nEach investigator takes 1 horror.
+EventTimer1NoClue.button1,{qst:CONTINUE}
+EventTimer22ANoManiac.text,<b>Clock Strikes 11</b>\n\n<i>The clock disturbs the uneasy silience.</i>
+EventTimer22ANoManiac.button1,{qst:CONTINUE}
+EventTimer22A.text,<b>Clock Strikes 11</b>\n\n<i>A madman picks up his axe and runs down the hall.</i>\n\nThe maniac moves up to 2 spaces towards the nearest investigator.
+EventTimer22A.button1,{qst:CONTINUE}
+EventTimer22B.text,<b>Clock Strikes 11</b>\n\n<i>The lights momentarily go out as an explosion of gunfire echoes down the hall.</i>\n\nEach investigator in a bedroom space is dealt 2 damage.
+EventTimer22B.button1,{qst:CONTINUE}
+EventTimer2NoClue.text,<b>Clock Strikes 11</b>\n\nEach investigator takes 1 horror.
+EventTimer2NoClue.button1,{qst:CONTINUE}
+EventTimer41A.text,<b>Clock Strikes 1</b>\n\n<i>The ground shakes violently.</i>
+EventTimer41A.button1,{qst:CONTINUE}
+EventTimer41B.text,<b>Clock Strikes 1</b>\n\n<i>The old house groans.</i>\n\nObjective: Prevent maniacs from taking samples.
+EventTimer41B.button1,{qst:CONTINUE}
+EventTimer41BShoggoth.text,<b>Clock Strikes 1</b>\n\n<i>The old house groans.</i>
+EventTimer41BShoggoth.button1,{qst:CONTINUE}
+EventTimer41CClue.text,<b>Clock Strikes 1</b>\n\n<i>The front door locks wih a loud click.</i>
+EventTimer41CClue.button1,{qst:CONTINUE}
+EventTimer41C.text,<b>Clock Strikes 1</b>\n\n<i>The front door locks wih a loud click.</i>\n\nPlace 1 Explore token as show.\nObjective: Escape through the foyer.
+EventTimer41C.button1,{qst:CONTINUE}
+EventEndLose1A.text,"<b>Clock Strikes 2</b>\n\n<i>As the clock strikes 2 the ground begins to shake.\nSomething ancient and deep beneath the house rapidly pulls the foundation down into the ground.  The answers no longer matter as the investigators and monsters struggle for their lives.\nDeep in the pile of rubble and bodies, a possessed Walter Lynch cackles weakly with his last breath.</i>"
+EventEndLose1A.button1,{qst:THEEND}
+EventEndWinTime1B.text,<b>Clock Strikes 2</b>\n\n<i>As the clock strikes 2 the ground begins to shake.\nSomething ancient and deep beneath the house rapidly pulls the foundation down into the ground.  The answers no longer matter as the investigators and monsters struggle for their lives.\nThe shoggoth falls to the ground in a writhing mass of tentacles.  Whatever madness Walter contracted on his journey is destroyed forever.</i>
+EventEndWinTime1B.button1,{qst:THEEND}
+EventEndLoseTime1C.text,<b>Clock Strikes 2</b>\n\n<i>As the clock strikes 2 the ground begins to shake.\nSomething ancient and deep beneath the house rapidly pulls the foundation down into the ground.  The answers no longer matter as the investigators and monsters struggle for their lives.</i>
+EventEndLoseTime1C.button1,{qst:THEEND}
+EventDarkRoom.text,"<i>You open the door and see nothing through the pitch blackness.  You reach for the light switch, but nothing happens.</i>\n\nPlace a darkness token in each space of the newly explored room."
+EventDarkRoom.button1,{qst:CONTINUE}
+EventDarkRoomGuest.text,"<i>You open the door and see nothing through the pitch blackness.  You reach for the light switch, but nothing happens.</i>\n\nPlace a darkness token in the Guest Bedroom."
+EventDarkRoomGuest.button1,{qst:CONTINUE}
+EventMoveIn.text,You may move one space in to the explored area.
+EventMoveIn.button1,{qst:CONTINUE}
+TokenFoyer.text,<i>A hall stand is against the wall on this landing.</i>
+TokenFoyer.button1,{qst:ACTIONSEARCH}
+TokenDiningDoor.text,<i>This door leads to the kitchen.</i>
+TokenDiningDoor.button1,{qst:ACTIONEXPLORE}
+TokenBasementStairDoor.text,<i>This door leads down to the basement.</i>
+TokenBasementStairDoor.button1,{qst:ACTIONEXPLORE}
+TokenHallDoor.text,<i>This door leads to the hallway.</i>
+TokenHallDoor.button1,{qst:ACTIONEXPLORE}
+TokenLabDoor.text,<i>This door leads to the laboritory and through to the garden.</i>
+TokenLabDoor.button1,{qst:ACTIONEXPLORE}
+TokenEntryDoor.text,<i>This door leads to the garden.</i>
+TokenEntryDoor.button1,{qst:ACTIONEXPLORE}
+TokenDining.text,<i>Assorted Items are scattered across the table.</i>
+TokenDining.button1,{qst:ACTIONSEARCH}
+TokenKitchenStorage.text,<i>Various junk lies among the pots and pans.</i>
+TokenKitchenStorage.button1,{qst:ACTIONSEARCH}
+TokenLab.text,<i>Much of the equipment here is beyond your knowledge.</i>
+TokenLab.button1,{qst:ACTIONSEARCH}
+TokenSearchHall2.text,<i>A cupboard stands against the wall.</i>
+TokenSearchHall2.button1,{qst:ACTIONSEARCH}
+TokenSearchHall4.text,<i>An old chest lies in the corner.</i>
+TokenSearchHall4.button1,{qst:ACTIONSEARCH}
+TokenBasementStoreSearch.text,<i>Some tools can be seen among the scattered paint cans.</i>
+TokenBasementStoreSearch.button1,{qst:ACTIONSEARCH}
+EventPowerFailure.text,<i>The lights in this room refuse to turn on</i>\n\nPlace a darkness marker in Operating Room.
+EventPowerFailure.button1,{qst:CONTINUE}
+EventPowerRestore.text,Remove any darkness markers in the Operating Room.
+EventPowerRestore.button1,{qst:CONTINUE}
+SpawnTimer1Zombie3A.text,<b>Clock Strikes 10</b>\n\n<i>A fiery figure bolts down the hallway towards the bedroom.</i>\n\nPlace 1 zombie in the indicated space with a fire token on him.  When he is dealt damage place the fire token in his space.
+SpawnTimer1Zombie3A.button1,{qst:CONTINUE}
+SpawnTimer1Zombie3AFoyer.text,<b>Clock Strikes 10</b>\n\n<i>A fiery figure bolts down the hallway.</i>\n\nPlace 1 zombie in the indicated space with a fire token on him.  When he is dealt damage place the fire token in his space.
+SpawnTimer1Zombie3AFoyer.button1,{qst:CONTINUE}
+SpawnTimer1Zombie3B.text,<b>Clock Strikes 10</b>\n\n<i>The skinless remains of a man throws open the door of the labratory.</i>\n\nPlace a zombie in the indicated space.  Each investigator then takes 1 horror.
+SpawnTimer1Zombie3B.button1,{qst:CONTINUE}
+SpawnTimer3Zombie2A.text,"<b>Clock Strikes 12</b>\n\n<i>A living corpse rises up from its resting place.\nJudging from the pictures you've seen, the corpse is Edith Lynch, albeit dead for weeks.</i>\n\nPlace 1 zombie in the indicated space."
+SpawnTimer3Zombie2A.button1,{qst:CONTINUE}
+SpawnTimer3Zombie2B.text,{qst:SpawnTimer3Zombie2A.text}
+SpawnTimer3Zombie2B.button1,{qst:CONTINUE}
+SpawnTimer3Zombie2AFoyer.text,{qst:SpawnTimer3Zombie2A.text}
+SpawnTimer3Zombie2AFoyer.button1,{qst:CONTINUE}
+SpawnTimer3Zombie2BLab.text,{qst:SpawnTimer3Zombie2A.text}
+SpawnTimer3Zombie2BLab.button1,{qst:CONTINUE}
+SpawnTimer3Zombie2BFoyer.text,{qst:SpawnTimer3Zombie2A.text}
+SpawnTimer3Zombie2BFoyer.button1,{qst:CONTINUE}
+CustomMonsterEdith.monstername,Edith Lynch
+SpawnWalter2.text,Place a maniac in the same space as {rnd:hero}. This is Walter Lynch.\n\nObjective: Defeat Walter Lynch.
+SpawnWalter2.button1,{qst:CONTINUE}
+SpawnWalter3.text,{qst:SpawnWalter2.text}
+SpawnWalter3.button1,{qst:CONTINUE}
+SpawnWalter4.text,{qst:SpawnWalter2.text}
+SpawnWalter4.button1,{qst:CONTINUE}
+SpawnWalter5.text,{qst:SpawnWalter2.text}
+SpawnWalter5.button1,{qst:CONTINUE}
+EventEndWin1A2.text,"<i>As he collapses to the ground, the investigators breathe a sign of relief.  Your employer will not be happy, but at least you eliminated the evil spitit's vessel into our world.</i>"
+EventEndWin1A2.button1,{qst:THEEND}
+EventEndWin1A3.text,{qst:EventEndWin1A2.text}
+EventEndWin1A3.button1,{qst:THEEND}
+EventEndWin1A4.text,{qst:EventEndWin1A2.text}
+EventEndWin1A4.button1,{qst:THEEND}
+EventEndWin1A5.text,{qst:EventEndWin1A2.text}
+EventEndWin1A5.button1,{qst:THEEND}
+CustomMonsterWalter2.monstername,{qst:WALTERLYNCH}
+CustomMonsterWalter3.monstername,{qst:WALTERLYNCH}
+CustomMonsterWalter4.monstername,{qst:WALTERLYNCH}
+CustomMonsterWalter5.monstername,{qst:WALTERLYNCH}
+CustomMonsterShoggoth.monstername,Shoggoth
+ActivationShoggoth1.ability,The Shoggoth attacks the investigator in its space or an adjacent space with the lowest {observation}.
+ActivationShoggoth1.master,"With alarming speed, the creature tries to overwhelm you with its enormous bulk ({agility}; 2). If you pass, you narrowly avoid being crushed by a wave of amorphous gel swarming with eyes; suffer 1 facedown Horror. If you fail, the creature pins you to the floor under its tremendous weight, numerous maws gnashing at your flesh; suffer 2 Damage and become Restrained."
+ActivationShoggoth1.movebutton,{qst:UNABLETOATTACK}
+ActivationShoggoth2.ability,The Shoggoth attacks the investigator in its space or an adjacent space who has suffered the most Damage.
+ActivationShoggoth2.master,"The creature thrashes toward you, bits of flesh and ooze splattering your face and body ({will}; 2). If you pass, you swallow your fear and throw yourself out of the creature's path; flip 2 Damage faceup. If you fail, the scent of the stuff is too much for you and the thing slams its bulk against you; suffer 2 Damage, become Dazed, and move 1 space away from the Shoggoth."
+ActivationShoggoth2.movebutton,{qst:UNABLETOATTACK}
+ActivationShoggoth3.ability,The Shoggoth attacks each investigator in its space or an adjacent space.
+ActivationShoggoth3.master,"A multitude of gelatinous tendrils whip outward, grasping anything and everything they can and dragging it toward the creature's horrid maw ({strength}; 2). If you pass, you wrestle free from its slimy grip. If you fail, the creeping appendages drag you kicking and screaming toward the creature; suffer 1 facedown Horror, move 1 space toward the Shoggoth, and become Restrained."
+ActivationShoggoth3.movebutton,{qst:UNABLETOATTACK}
+TokenBasementStairs.text,<i>You notice something in the shadows.</i>
+TokenBasementStairs.button1,{qst:ACTIONSEARCH}
+TokenEntry.text,<i>There is something under the chair.</i>
+TokenEntry.button1,{qst:ACTIONSEARCH}
+EventEndLose1C.text,<i>The pile of corpses stinks of decay.  The pile is high enough to appease the virus for the time being.  More visitors can always be invited when the need arises.</i>
+EventEndLose1C.button1,{qst:THEEND}
+EventEndLoseEliminated.text,<i>The remaining investigators barely escape certain doom.  Unfortunately evil overcome this day and the scars inflicted will not easily heal.</i>
+EventEndLoseEliminated.button1,{qst:THEEND}
+TokenFrontDoor.text,An investigator may use an action to escape the mansion.
+TokenFrontDoor.button1,{action} Escape
+EventEscape.text,Have all investigators escaped the mansion?
+EventEscape.button1,{qst:YES}
+EventEscape.button2,{qst:NO}
+EventEndWin3C.text,"<i>Against an insane killer and an army of undead, you decide to return to your employer empty-handed.  For good measure, you burn the house down on your way out.</i>"
+EventEndWin3C.button1,{qst:THEEND}
+Spawn1CZombie1.text,Place 1 Zombie in the indicated space.
+Spawn1CZombie1.button1,{qst:CONTINUE}
+Spawn1CZombie2.text,{qst:Spawn1CZombie1.text}
+Spawn1CZombie2.button1,{qst:CONTINUE}
+Spawn1CZombie3.text,{qst:Spawn1CZombie1.text}
+Spawn1CZombie3.button1,{qst:CONTINUE}
+Spawn1CZombie4.text,{qst:Spawn1CZombie1.text}
+Spawn1CZombie4.button1,{qst:CONTINUE}
