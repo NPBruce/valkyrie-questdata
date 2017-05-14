@@ -1,4 +1,10 @@
 .,English
+quest.name,Exotic Material
+quest.description,Exotic Material
+EventStart.text,"A collector of rare metals tracked a meteorite which fell near the town of Rowley.\n\nOn visiting the town she found the locals to be very unhelpful and slightly disturbing, and has tasked you with finding and retrieving the meteorite.\n\nYou arrive at Rowley in the morning and spend the entire day questioning the locals with no progress being made."
+EventStart.button1,{qst:CONTINUE}
+CONTINUE,Continue
+EventAddSquare.text,Add {ffg:TILE_TOWN_SQUARE_MAD20} and {ffg:TILE_STOREFRONT_MAD20} tiles as shown.  Investigators gain 2 clues each.
 EventGetItem1.text,Take Common Item: {c:QItemWeapon}.
 EventGetItem2.text,"Take Common Item: {c:QItemLight}, gain 1 clue."
 EventGetItem3.text,Take Common Item: {c:QItemEquip}.
@@ -7,10 +13,7 @@ EventGetItem5.text,"Take Common Item: {c:QItemEquipLight}, gain 1 clue."
 EventGetItem6.text,Take Common Item: {c:QItemWeapon2}.
 EventGetItem7.text,<i>You come across an old tome.</i>\n\nTest {lore}.
 EventGetSpell.text,Receive Spell: {c:QItemSpell}.
-quest.name,Exotic Material
-quest.description,Exotic Material
 ATTACK,Attack
-CONTINUE,Continue
 EXPLORE,{action} Explore
 FAIL,Fail
 HIDDEN,Hidden
@@ -51,7 +54,6 @@ TokenSearchShop.text,<i>The shop keeper wouldn't mind if you look around...</i>
 TokenSearchWarehouse.text,<i>This crate may contain something useful.</i>
 TokenSearchBasement.text,<i>A box on the floor has been opened.</i>
 TokenSearchCellar.text,<i>Various items fill this shelf.</i>
-EventStart.text,"A collector of rare metals tracked a meteorite which fell near the town of Rowley.\n\nOn visiting the town she found the locals to be very unhelpful and slightly disturbing, and has tasked you with finding and retrieving the meteorite.\n\nYou arrive at Rowley in the morning and spend the entire day questioning the locals with no progress being made."
 EventRock.text,<i>You grab the object which appears to have no weight.</i>\n\nPlace the Interact Token on their investigators sheet.  The investigator may spend an Action ({action}) to give the token to another investigator in their space.
 EventRockPool.button1,{qst:HIDDEN}
 EventGetItem.button1,{qst:HIDDEN}
@@ -100,8 +102,6 @@ SpawnAttackWarehouseCultist.button1,{qst:CONTINUE}
 SpawnAttackBasementCultist.button1,{qst:CONTINUE}
 SpawnAttackPondRiot.button1,{qst:CONTINUE}
 SpawnAttackPriest.button1,{qst:CONTINUE}
-EventStart.button1,{qst:CONTINUE}
-EventAddSquare.text,Add {ffg:TILE_TOWN_SQUARE_MAD20} and {ffg:TILE_STOREFRONT_MAD20} tiles as shown.  Investigators gain 2 clues each.
 EventAddSquare.button1,{qst:CONTINUE}
 EventSquareRiot.text,"<i>After night falls an otherworldly music can be heard drifting through the streets.  The locals who are still outdoors stop and stare, enchanted by the strange sounds.</i>\n\nPlace the monster {ffg:MONSTER_RIOT} in the indicated space.  Investigators do not need to perform horror or evade checks for this monster."
 EventSquareRiot.button1,{qst:CONTINUE}

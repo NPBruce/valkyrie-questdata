@@ -1,4 +1,9 @@
 .,German
+quest.name,Exotisches Material
+quest.description,Exotisches Material
+EventStart.text,"Eine Sammlerin von seltenen Metallen hat herausgefunden, dass ein Meteorit nahe der Stadt Rowley eingeschlagen ist.\n\nAls sie die Stadt besuchte und Nachforschungen anstellte, waren die Bewohner nicht sehr hilfreich und etwas verstörend. Daher hat sie euch die Aufgabe übertragen den Meteoriten zu finden und zu ihr zu bringen.\n\nIm Morgengrauen kommt ihr in Rowley an und verbringt den Rest des Tages damit die Einwohner zu befragen, ohne dabei wirkliche Fortschritte zu machen."
+CONTINUE,Weiter
+EventAddSquare.text,"Lege die Spielplanteile {ffg:TILE_TOWN_SQUARE_MAD20} und {ffg:TILE_STOREFRONT_MAD20} aus, wie gezeigt. Jeder Ermittler erhält zwei Hinweismarker."
 EventGetItem1.text,Nimm den Gegenstand: {c:QItemWeapon}.
 EventGetItem2.text,"Nimm den Gegenstand: {c:QItemLight}, erhalte einen Hinweismarker."
 EventGetItem3.text,Nimm den Gegenstand: {c:QItemEquip}.
@@ -7,10 +12,7 @@ EventGetItem5.text,"Nimm den Gegenstand: {c:QItemEquipLight}, erhalte einen Hinw
 EventGetItem6.text,Nimm den Gegenstand: {c:QItemWeapon2}.
 EventGetItem7.text,<i>Du findest einen alten Folianten.</i>\n\n{lore}-Test.
 EventGetSpell.text,Nimm den Zauber: {c:QItemSpell}.
-quest.name,Exotisches Material
-quest.description,Exotisches Material
 ATTACK,Angriff
-CONTINUE,Weiter
 EXPLORE,{action} Erkunden
 FAIL,Misserfolg
 HIDDEN,Versteckt
@@ -37,7 +39,6 @@ TokenSearchShop.text,"<i>Der Besitzers des Ladens hat sicher nichts dagegen, wen
 TokenSearchWarehouse.text,<i>Diese Kiste könnte etwas Nützliches enthalten.</i>
 TokenSearchBasement.text,<i>Auf dem Boden steht eine geöffnete Kiste.</i>
 TokenSearchCellar.text,<i>Das Regal ist mit verschiedenen Gegenständen gefüllt.</i>
-EventStart.text,"Eine Sammlerin von seltenen Metallen hat herausgefunden, dass ein Meteorit nahe der Stadt Rowley eingeschlagen ist.\n\nAls sie die Stadt besuchte und Nachforschungen anstellte, waren die Bewohner nicht sehr hilfreich und etwas verstörend. Daher hat sie euch die Aufgabe übertragen den Meteoriten zu finden und zu ihr zu bringen.\n\nIm Morgengrauen kommt ihr in Rowley an und verbringt den Rest des Tages damit die Einwohner zu befragen, ohne dabei wirkliche Fortschritte zu machen."
 EventRock.text,"<i>Du greifst ihn dir und bist überrascht, er scheint so gut wie kein Gewicht zu haben.</i>\n\nPlatziere den Interaktionsmarker auf deiner Ermittlerkarte. Jeder Ermittler kann eine Aktion ({action}) ausgeben um den Marker einen anderen Ermittler auf seinem Feld zu geben."
 EventRockBonusFocus.text,<i>Deine Ziele sind nun klarer denn je.</i>\n\nDer Ermittler mit dem Interaktionsmarker wird Fokussiert.
 EventRockBonusEvade.text,"<i>Das Objekt ströhmt eine usichtbare Kraft aus, welche den Weg freimacht.</i>\n\nDer Ermittler mit dem Interaktionsmarker auf seiner Ermittlerkarte muss diese Runde keine Ausweichtests durchführen."
@@ -55,7 +56,6 @@ SpawnAttackSquareRiot.text,<i>Die Gruppe erwacht zu leben.</i>\n\nDie Ermittler 
 TokenRock.text,"<i>Es scheint ein schwarzer Stein zu sein, auch wenn es aus unerklärlichen Gründen nicht ganz klar zu sehen ist.</i>\n\nEin Ermittler auf dem Feld kann versuchen nach dem Stein zu greifen."
 TokenRock.button1,{action} Nehmen
 SpawnAttackShopCultist.text,<i>Der Ladenbesitzter reagiert plötzlich auf deine Anwesenheit.</i>\n\nDie Ermittler müssen nun Ausweich- und Horrortests gegen das Monster durchführen. Benutze das Monstersymbol zum Angriff.
-EventAddSquare.text,"Lege die Spielplanteile {ffg:TILE_TOWN_SQUARE_MAD20} und {ffg:TILE_STOREFRONT_MAD20} aus, wie gezeigt. Jeder Ermittler erhält zwei Hinweismarker."
 EventSquareRiot.text,"<i>Als die Nacht anbricht kann man eine fremdartige Musik in den Straßen hören. Die Anwohner, welche noch immer nicht heimgekehrt sind starren verzückt durch die seltsamen Töne vor sich hin.</i>\n\nPlatziere das Monster {ffg:MONSTER_RIOT} auf den angegebenen Feld. Die Ermittler müssen keine Horror- oder Ausweichtests gegen das Monster ausführen."
 EventAddShopExplore.text,"<i>Das Innere des Ladens ist hell erleuchtet.</i>\n\nPlatziere einen Erkundungsmarker, wie gezeigt."
 EventAddSearchSquare.text,"<i>Der Wind hat dafür gesorgt, dass sich ein kleiner Haufen aus Müll in der Ecke gebildet hat.</i>\n\nPlatziere einen Durchsuchungsmarker, wie gezeigt."

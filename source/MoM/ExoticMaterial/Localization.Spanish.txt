@@ -1,4 +1,9 @@
 .,Spanish
+quest.name,Material Exótico
+quest.description,Material Exótico
+EventStart.text,"Una coleccionista de metales extraños siguió el rastro de un meteorito caido cerca de la aldea de Rowley.\n\nTras una visita donde los lugareños se negaron a colaborar y se comportaban de forma inquietante, decidió encargaros a vosotros la tarea de encontrar y recuperar el meteorito.\n\nLlegais a Rowley por la mañana y dedicais el dia entero a preguntar a los lugareños. Aunque no conseguís ninguna información al respecto."
+CONTINUE,Continuar
+EventAddSquare.text,Coloca los módulos {ffg:TILE_TOWN_SQUARE_MAD20} y {ffg:TILE_STOREFRONT_MAD20} en los lugares señalados. Cada investigador obtiene 2 pistas.
 EventGetItem1.text,Obtienes el Objeto Común: {c:QItemWeapon}.
 EventGetItem2.text,"Obtienes el Objeto Común: {c:QItemLight}, Obtienes 1 pista."
 EventGetItem3.text,Obtienes el Objeto Común: {c:QItemEquip}.
@@ -7,10 +12,7 @@ EventGetItem5.text,"Obtienes el Objeto Común: {c:QItemEquipLight}, Obtienes 1 p
 EventGetItem6.text,Obtienes el Objeto Común: {c:QItemWeapon2}.
 EventGetItem7.text,<i>Encuentras un viejo libro.</i> Lo examinas ({lore}).
 EventGetSpell.text,Recibes el Hechizo: {c:QItemSpell}.
-quest.name,Material Exótico
-quest.description,Material Exótico
 ATTACK,Atacar
-CONTINUE,Continuar
 EXPLORE,{action} Explorar
 FAIL,Fallo
 HIDDEN,Oculto
@@ -37,7 +39,6 @@ TokenSearchShop.text,<i>Al tendero no le importará si echas un vistazo...</i>
 TokenSearchWarehouse.text,<i>Este contenedor puede que contenga algo útil.</i>
 TokenSearchBasement.text,<i>Hay una caja abierta en el suelo.</i>
 TokenSearchCellar.text,<i>Varios objetos ocupan la estantería.</i>
-EventStart.text,"Una coleccionista de metales extraños siguió el rastro de un meteorito caido cerca de la aldea de Rowley.\n\nTras una visita donde los lugareños se negaron a colaborar y se comportaban de forma inquietante, decidió encargaros a vosotros la tarea de encontrar y recuperar el meteorito.\n\nLlegais a Rowley por la mañana y dedicais el dia entero a preguntar a los lugareños. Aunque no conseguís ninguna información al respecto."
 EventRock.text,<i>Coges el objeto. Es ligero como una pluma.</i>\n\nColoca una ficha de Interacción en la ficha del investigador. El investigador puede gastar una Accion ({action}) para darle el marcador a otro investigador en su espacio.
 EventRockBonusFocus.text,<i>Tus objetivos son ahora mas claros de lo que nunca antes habias experimentado.</i>\n\nEl investigador con el Marcador de Interacción adquiere el estado Concentrado.
 EventRockBonusEvade.text,"<i>Una fuerza invisible se agita desde el objeto, despejando la zona ante ti.</i>\n\nEl investigador con el Marcador de Interacción no necesita realizar pruebas de evasión esta ronda."
@@ -55,7 +56,6 @@ SpawnAttackSquareRiot.text,<i>El grupo recupera la vitalidad.</i>\n\nA partir de
 TokenRock.text,"<i>Parece ser una roca oscura, aunque , por alguna extraña razón, es dificil verla con claridad.</i>\n\nUn investigador en su mismo espacio puede intentar recoger la roca."
 TokenRock.button1,{action} Recoger
 SpawnAttackShopCultist.text,<i>Tus acciones han interrumpido el trance.</i>\n\nA partir de ahora este monstruo requiere pruebas de evasión y de horror.  Utiliza el panel de monstruos para atacar.
-EventAddSquare.text,Coloca los módulos {ffg:TILE_TOWN_SQUARE_MAD20} y {ffg:TILE_STOREFRONT_MAD20} en los lugares señalados. Cada investigador obtiene 2 pistas.
 EventSquareRiot.text,"<i>Después de ponerse el sol, se empieza a escuchar a traves de las calles una melodía propia de otro mundo.  Los lugareños que se encuentran en la calle se quedan paralizados, embrujados por los estraños sonidos.</i>\n\nColoca al monstruo {ffg:MONSTER_RIOT} en el espacio indicado.  Los investigadores no tienen que hacer pruebas de evasión ni de horror contra este monstruo."
 EventAddShopExplore.text,<i>Esta pequeña tienda aún tiene las luces encendidas.</i>\n\nColoca una ficha de Exploración en el lugar señalado.
 EventAddSearchSquare.text,<i>El viento ha atraido hasta esta esquina un pequeño monton de basura.</i>\n\nColoca una ficha de Búsqueda en el lugar señalado.
