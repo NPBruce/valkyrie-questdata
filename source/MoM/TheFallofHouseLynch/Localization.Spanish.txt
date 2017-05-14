@@ -1,0 +1,166 @@
+.,Spanish
+CONTINUE,Continuar
+UIText1.uitext,"El despacho está inundado de humo de tabaco. Hay varios ficheros alineados en las paredes, y calzando la pata de un escritorio de madera barata soma un montón de revistas apiladas. Tras el escritorio hay un hombre calvo y rollizo en estado de incontenible nerviosismo.\n\n-Ya iba siendo hora -dice mientras tamborilea con los dedos sobre la mesa-. El tiempo es oro, y lo estamos perdiendo a espuertas. Nuestro socio ha desaparecido, y necesito vuestra ayuda para encontrarlo.\n\nEl hombre os arroja una carpeta de papel manila bastante sucia.\n\n-Su nombre es Walter Lynch. Siempre ha sido el cerebro de esta empresa, y sin él no tardaremos en irnos a pique. Hace mucho que no responde nuestras cartas, y todas nuestras investigaciones han resultado... -hace una pausa, como buscando la palabra adecuada-... infructuosas. Este informe contiene todo lo que sabemos del tema -continúa, señalando a la carpeta con la mirada-. Averiguad qué ha sido de él y traedlo de vuelta. Aquí hay mucho más en juego de lo que imagináis."
+UIText2.uitext,"Más tarde, ya en vuestro coche, abrís con cuidado la mugrienta carpeta. En su interior halláis un mapa dibujado con indicaciones para llegar a una mansión situada en las afueras de Arkham, Massachusetts. El dibujo es bastante rudimentario, como si lo hubiese hecho un niño. Además del mapa, encontráis una página arrancada de lo que parece ser un diario.\n\n""8 de junio de 1918. Ha pasado casi un año desde que la enfermedad se llevó a mi hijo. Los médicos estaban desconcertados y no alcanzaban a entender qué era aquello que consumía paulatinamente su carne. Yo siempre he sido un hombre de acción, y me negué a quedarme de brazos cruzados mientras mi único heredero se marchitaba.\n\nPasé nueve meses recorriendo el mundo en busca de una cura. Indagué por todas partes, desde el corazón de las selvas hasta la sabiduría del lejano oriente, mas no hallé nada. Proseguí la búsqueda, adentrándome en parajes cada vez más ignotos y aún más allá.\n\nPresencié numerosos misterios y horrores, pero la cura me eludió constantemente.\n\nPoco podía yo sospechar que ya era demasiado tarde: mi pobre hijo falleció mientras yo exploraba los rincones del mundo. Murió, y su padre no estuvo junto a él para consolarle en sus últimos momentos.\n\nRegresé a casa, junto a mi esposa Edith, con la intención de quedarme en ella para siempre. Lloramos a nuestro hijo. Poco a poco la vida volvió a su cauce y yo me reincorporé al trabajo. Emprendí un nuevo negocio, y mi fortuna aumentó a medida que mi alma languidecía.\n\nNo fue fácil superar la pérdida de mi hijo, pero descubri que consolar a mi pobre Edith me ayudaba a ignorar mi propio dolor."""
+UIText3.uitext,"En la otra cara de la página hay una anotación, más breve.\n\n""21 de enero de 1919. ¿Cómo ha podido pasar? ¿Por qué a mí?\n\nIntenté protegerme. Intenté proteger a mi familia, pero no había nada que hacer.\n\nOh, Edith, tú eres todo lo que me queda. ¿Por qué te ha tenido que pasar a tí?\n\nDebo profundizar aún más. No dejaré piedra sin remover, por graves que sean las consecuencias. ¡Debo hallar una respuesta!"""
+quest.name,La Caída de la Casa Lynch
+quest.description,Conversión del escenario de la primera edición de Las Mansiones de la Locura.
+EventGetElderSign3A.text,Ganas el Objeto común {ffg:COMMON_ITEM_ELDER_SIGN_PENDANT}.
+EventGetExtinguisher.text,Ganas el Objeto común {ffg:COMMON_ITEM_FIRE_EXTINGUISHER} y 1 Pista.
+EventGetShotgun3A.text,Ganas el Objeto común {ffg:COMMON_ITEM_SHOTGUN}.
+EventClue3B.text,"<i>Sobre la mesa de operaciones yace el cuerpo ensangrentado de un hombre. A su alrededor hay dispuesto instrumental quirúrgico oxidado y herramientas rudimentarias.\n\n-Dios mío... quería mi piel, quería mi carne... yo sólo buscaba un sitio donde pasar la noche... -masculla, entregándote una llavecita antes de exhalar su último suspiro.</i>\n\nGanas el Objeto Único: {ffg:UNIQUE_ITEM_SILVER_KEY}"
+EventClue2B.text,"<i>Se te nubla la vista y te desplomas, asaltado por una repentina visión. En ella, un hombre silba una alegre melodía mientras arrastra el cuerpo inerte de una mujer por el suelo. Te estremeces cuando saca el cadáver al exterior, bajo una intensa lluvia, y lo pasa sobre un charco fangoso. La visión termina con la imagen de una pala descendiendo a toda velocidad hacia su cabeza.</i>\n\nGanas el Objeto Único: {ffg:UNIQUE_ITEM_CULT_SIGIL}"
+EventClue3A.text,"<i>La habitación está vacía, a excepción de la silueta cenicienta de un ser humano sobre la mesa de la cocina.\n\nAl examinarla más de cerca, encuentras una sencilla llave de plata entre el hollín.\n\nLuego descubres un rastro de huellas ennegrecidas que suben por la escalera del vestíbulo y se adentran pasillo abajo.</i>\n\nGanas el Objeto Único: {ffg:UNIQUE_ITEM_SILVER_KEY}"
+EventGetLantern.text,Ganas el Objeto común {ffg:COMMON_ITEM_KEROSENE_LANTERN}.
+EventClue2A.text,"<i>Encuentras una anotación de un diario fechada el 5 de julio de 1918.\n""El estado de mi mujer empeora por momentos. Sé que es sólo cuestión de tiempo, y le he preparado un lugar de descanso en las profundidades de la mansión, junto a los demás cuerpos.""</i>\n\nGanas el Objeto Único: {ffg:UNIQUE_ITEM_CULT_SIGIL}"
+EventGetItem5.text,Ganas el Objeto común {ffg:COMMON_ITEM_KEROSENE_LANTERN}.
+EventGetAxe.text,Ganas el Objeto común {ffg:COMMON_ITEM_AXE}.
+EventGetItem4.text,Ganas el Objeto común {ffg:COMMON_ITEM_AXE}.
+EventGetHeal.text,Ganas el Hechizo {ffg:SPELL_FLESH_WARD}.
+EventGetItem2.text,Ganas el Objeto común {ffg:COMMON_ITEM_WHISKEY}.
+EventGetItem1.text,Ganas el Objeto común {ffg:COMMON_ITEM_SEDATIVES}.
+ACTIONSEARCH,{action} Búsqueda
+ACTIONEXPLORE,{action} Explorar
+FORFEIT,Abandonar
+NO,No
+PLACE1BARRICADE,Coloca una ficha de Obstrucción en el lugar señalado.
+PLACE1EXPLORETOKEN,Coloca una ficha de Exploración en el lugar señalado.
+PLACE2EXPLORETOKEN,Coloca 2 fichas de Exploración en los lugares señalados.
+PLACE4EXPLORETOKEN,Coloca 4 fichas de Exploración en los lugares señalados.
+PLACE2SEARCHTOKEN,Coloca 2 fichas de Búsqueda en los lugares señalados.
+PLACE3SEARCHTOKEN,Coloca 3 fichas de Búsqueda en los lugares señalados.
+PLACE1WALLTOKEN,Coloca una ficha de Pared en el lugar señalado.
+PLACEWALLTOKEN,Coloca fichas de Pared en los lugares señalados.
+THEEND,Fin
+UNABLETOATTACK,No puede Atacar
+UNLOCK,Abrir
+YES,Si
+TokenCeremonyBarred.text,<i>Esta puerta lleva a lo más profundo de la casa.</i>
+TokenBasement2A.text,<i>En la mesa hay unos extraños viales</i>
+TokenBasementDoor2A.text,<i>Al pie de las escaleras hay una puerta.</i>
+TokenBasementDoor2ALocked.text,"<i>La puerta que conduce a esta habitación está cerrada, y el mecanismo sólo se abrirá si posees el Emblema adecuado</i>\n\nEsta ficha solo puede ser explorada por un investigador con el {ffg:UNIQUE_ITEM_CULT_SIGIL}."
+TokenGuest3A.text,<i>Puede que los cajones contengan algo de interés.</i>
+TokenGuestDoor3A.text,<i>Esta puerta conduce a la habitación de invitados.</i>
+TokenGuestDoor3BLocked.text,<i>Esta puerta conduce a la habitación de invitados pero está cerrada.</i>\n\nEsta ficha sólo puede ser explorada por un investigador con la {ffg:UNIQUE_ITEM_SILVER_KEY}
+TokenStorage3A.text,<i>Una de las cajas tiene unas marcas extrañas.</i>
+TokenStorageDoor.text,<i>Esta puerta conduce a la despensa.</i>
+TokenMaster3A.text,<i>Puede que los cajones contengan algo de interés.</i>
+TokenMaster3B.text,<i>Puedes ver una maleta bajo la silla.</i>
+TokenMasterDoor3A.text,<i>Esta puerta lleva al dormitorio principal.</i>
+TokenMasterDoor3ALocked.text,<i>Esta puerta lleva al dormitorio principal.</i>\n\nSólo puede ser explorada por un investigador con la {ffg:UNIQUE_ITEM_SILVER_KEY}
+TokenKitchen3A.text,<i>Algo siniestro yace sobre la mesa.</i>
+TokenKitchen3B.text,<i>La puerta de la alacena de la cocina está entreabierta.</i>
+TokenFreezer3A.text,<i>El hielo de la nevera se derrite lentamente y está goteando en el suelo</i>
+TokenOperating3A.text,<i>Esta habitación parece haber sido el escenario de hechos siniestros.</i>
+TokenGarden2A.text,<i>En la pared hay algo clavado.</i>
+TokenGarden2B.text,<i>Aqui la tierra ha sido revuelta.</i>
+TokenGardenDoor2A.text,<i>Esta puerta sale al jardín.</i>
+TokenGardenDoor2BLocked.text,"<i>La puerta que conduce al jardín está cerrada, y el mecanismo sólo se abrirá si posees el Emblema adecuado</i>\n\nEsta ficha solo puede ser explorada por un investigador con el {ffg:UNIQUE_ITEM_CULT_SIGIL}."
+EventNo1E.text,"No has seleccionado Las Mansiones de la Locura Primera Edición en tu colección.\n\nEste escenario no está preparado para la segunda edición, será necesario reemplazar piezas de tablero."
+EventPrologue.text,"Una suave lluvia os acaricia el rostro al dejar vuestro coche frente a la finca. La mansión es inmensa y no parece que nadie se encargue de su mantenimiento. Reina un silencio sepulcral, roto únicamente por vuestras pisadas al aproximaros. Llamáis a la puerta y no obteneis respuesta. Un instante después se abre con un chirrido, como por voluntad propia, y entráis en el vestíbulo del majestuoso caserón."
+EventFoyerTile.text,Coloca el módulo {ffg:TILE_FOYER_MAD01} en el lugar señalado.
+EventInvestigators.text,Coloca a los investigadores en el espacio indicado. Cada investigador obtiene 2 pistas.
+EventFoyerSearchToken.text,<i>Hay un recibidor en este lado de la pared.</i>\n\nColoca una ficha de Búsqueda en el lugar señalado.
+EventPrologue3A.text,"Al poner pie en el interior de la residencia vacía, advertís un leve olor a comida quemada. ¿Se habrán dejado el fogón encendido?"
+EventPrologue3B.text,"Pese a la antigüedad de la casa, no oís ni un solo crujido de madera. Parece como si la mansión estuviese conteniendo el aliento, a la espera de que suceda algo terrible. De repente, un alarido escalofriante rompe el silencio; parece provenir del laboratorio. La casa entera se sacude como si se produjera un terremoto, y varios cuadros polvorientos se descuelgan de las paredes."
+EventKitchenTile.text,Coloca el módulo {ffg:TILE_DINING_ROOM_MAD01} en el lugar señalado.
+EventExporeLabTile.text,Coloca el módulo {ffg:TILE_LABORATORY_MAD01} en el lugar señalado.
+EventHallTile.text,Coloca los módulos {ffg:TILE_HALLWAY_1_MAD01} y {ffg:TILE_HALLWAY_4_MAD01} en los lugares señalados.
+EventGardenTile.text,Coloca el módulo {ffg:TILE_GARDEN_MAD01} en el lugar señalado.
+EventGardenAddSearch.text,<i>Hay algo debajo de la silla.</i>\n\nColoca una ficha de Búsqueda en el lugar señalado.
+EventBasementTile.text,Coloca el módulo {ffg:TILE_BASEMENT_LANDING_MAD01} en el lugar señalado.
+EventBasementAddSearch.text,<i>Percibes algo en las sombras.</i>\n\nColoca una ficha de Búsqueda en el lugar señalado.
+EventMasterLock.text,"<i>Esta puerta está cerrada, necesitas encontrar la llave.</i>"
+EventMasterLockKey.text,"<i>Esta puerta está cerrada, sólo puede ser explorada por un investigador con la {ffg:UNIQUE_ITEM_SILVER_KEY}.</i>"
+EventMasterTile.text,Coloca el módulo {ffg:TILE_MASTER_BEDROOM_MAD01} en el lugar señalado.
+EventMasterSearch3A.text,<i>Puede que los cajones contengan algo de interés.</i>\n\nColoca una ficha de Búsqueda en el lugar señalado.
+EventMasterSearch3B.text,<i>Puedes ver una maleta bajo la silla.</i>\n\nColoca una ficha de Búsqueda en el lugar señalado.
+EventGuestTile.text,Coloca el módulo {ffg:TILE_GUEST_BEDROOM_MAD01} en el lugar señalado.
+EventGuestSearch3A.text,<i>Puede que los cajones contengan algo de interés.</i>\n\nColoca una ficha de Búsqueda en el lugar señalado.
+EventStorageExplore3A.text,<i>Una de las cajas tiene unas marcas extrañas.</i>\n\nColoca una ficha de Búsqueda en el lugar señalado.
+EventGardenLock.text,"<i>La puerta que conduce al jardín está cerrada, y el mecanismo sólo se abrirá si conoces el Santo y Seña.</i>"
+EventGardenLockKey.text,"<i>La puerta que conduce al jardín está cerrada, y el mecanismo sólo se abrirá si posees el Emblema adecuado</i>\n\nEsta ficha solo puede ser explorada por un investigador con el {ffg:UNIQUE_ITEM_CULT_SIGIL}."
+EventGardenLockUnlocked.text,<i>Aqui la tierra ha sido revuelta.</i>\n\nColoca una ficha de Búsqueda en el lugar señalado.
+EventGardenJammed.text,"<i>Con un gruñido de esfuerzo, tratas de abrir la puerta a las bravas.</i>\n\nPrueba {strength}."
+EventGardenExplore2A.text,<i>En la pared hay algo clavado.</i>\n\nColoca una ficha de Búsqueda en el lugar señalado.
+EventBasementLock.text,"<i>La puerta que conduce a esta habitación está cerrada, y el mecanismo sólo se abrirá si posees el Emblema adecuado</i>"
+EventBasementLockKey.text,"<i>La puerta que conduce a esta habitación está cerrada, y el mecanismo sólo se abrirá si posees el Emblema adecuado</i>\n\nEsta ficha solo puede ser explorada por un investigador con el {ffg:UNIQUE_ITEM_CULT_SIGIL}."
+EventCeremonyExplore.text,"<i>Cuando agarras el picaporte de la puerta, notas que emana de ella una siniestra maldad.  respiras aliviado cuando compruebas que se niega a abrirse.</i>"
+EventGuestStorageDoor.text,<i>La puerta que conduce a esta habitación está cerrada con un herrumbroso candado de combinación.</i>
+EventPuzzlebox.text,<i>Encuentras una caja cubierta de misteriosas runas.</i>
+EventSuitcase.text,<i>Encuentras un resistente maletín cerrado con una sencilla combinación.</i>
+EventGetEvidence3A.text,<i>Descubres pruebas sorprendentes.</i>\n\nGanas 3 pistas.
+EventGetItem3.text,<i>Encuentras un tomo antiguo.</i>\n\nPrueba {lore}.
+EventFailHeal.text,<i>Tu mente intenta visualizar los símbolos que no paran de moverse en la página. Parpadeas y cuando vuelves a mirar los símbolos ya no están ahi.</i>
+EventGetItem6.text,<i>No encuentras nada de interés.</i>
+EventGetItem7.text,"<i>Ninguno de los objetos es de utilidad, pero la búsqueda te ayuda a comprender un poco más la situación</i>\n\nGanas 1 pista."
+EventGetItem8.text,"<i>Ninguno de los objetos es de utilidad, pero la búsqueda te ayuda a comprender un poco más la situación</i>\n\nGanas 2 pistas."
+EventGetItem9.text,"<i>Ninguno de los objetos es de utilidad, pero la búsqueda te ayuda a comprender un poco más la situación</i>\n\nGanas 2 pistas."
+EventGetItem10.text,"<i>Ninguno de los objetos es de utilidad, pero la búsqueda te ayuda a comprender un poco más la situación</i>\n\nGanas 3 pistas."
+EventClue1A.text,"<i>Te asalta una visión de Walter celebrando una sesión de espiritismo para comunicarse con su difunto hijo. Observas que un espíritu aprovecha la ocasión para introducirse en su mente, sometiendo su voluntad a una única orden:  ""¡Consígueme almas!""</i>"
+EventClue1BShoggoth.text,"<i>En algún lugar de la casa, Walter trata de usar vuestra carne y vuestra sangre para llevar a cabo una antigua ceremonia de invocación. El suelo tiembla, derribando libros y demás trastos de las estanterías.</i>"
+EventClue1BNoShoggoth.text,"<i>En algún lugar de la casa, Walter trata de usar vuestra carne y vuestra sangre para llevar a cabo una antigua ceremonia de invocación. El suelo tiembla, derribando libros y demás trastos de las estanterías.</i>\n\nObjetivo: Evita que los maniacos tomen muestras."
+EventClue1C.text,"<i>La voz de Walter retumba por toda la mansión: ""¡DEBEMOS ALIMENTARLO!"". Luego un insoportable coro de gemidos agónicos resuena por doquier. Es un sonido perturbador, casi humano, pero sin llegar a serlo.</i>\n\nColoca una ficha de Exploración en el lugar indicado.\nObjetivo: Huir a través del {ffg:TILE_FOYER_MAD01}."
+SpawnManiac.text,<i>La puerta salta en pedazos y un psicópata rabioso entra en la habitación.</i>\n\nColoca un monstruo {ffg:MONSTER_MANIAC} en el espacio de {rnd:hero}.
+EventShoggothMove.text,¿Está el monstruo {ffg:MONSTER_SHOGGOTH} en el espacio indicado?
+EventShoggothMoveTowards.text,El monstruo {ffg:MONSTER_SHOGGOTH} se mueve 2 espacios hacia el espacio indicado.
+EventEndLose1B.text,"<i>Habiendo completado su misión, Walter sube al desván y se ahorca.</i>"
+EventManiacSample.text,<i>El maníaco te agarra por el pelo.</i>\n\nEl investigador en el mismo espacio que un maníaco con {agility} más bajo realiza una prueba: ({agility}; 1).
+EventManiacSample.button1,No hay nadie en su espacio
+EventManiacSample.button2,{ffg:UI_PASS}
+EventManiacSample.button3,{ffg:UI_FAIL}
+EventManiacSampleFail.text,<i>El maníaco te arranca un mechón de pelo.</i>
+SpawnShoggothBasement.text,Coloca un monstruo {ffg:MONSTER_SHOGGOTH} en el espacio indicado.\nObjetivo: Evita que el monstruo {ffg:MONSTER_SHOGGOTH} escape.
+EventEndWin1B.text,"<i>El shoggoth cae al suelo reducido a un palpitante amasijo de tentáculos. Fuera cual fuese la locura contraida por Walter en sus viajes, habeis conseguido erradicarla para siempre.</i>"
+EventTimer1NoClue.text,<b>El reloj marca las 10</b>\n\nTodos los investigadores sufren 1 de Horror.
+EventTimer22ANoManiac.text,<b>El reloj marca las 11</b>\n\n<i>El reloj interrumpe el silencio incómodo.</i>
+EventTimer22A.text,<b>El reloj marca las 11</b>\n\n<i>Un lunático empuña su hacha y corre escalera abajo.</i>\n\nEl maniaco se mueve 2 espacios hacia el investigador más cercano.
+EventTimer22B.text,<b>El reloj marca las 11</b>\n\n<i>Las luces parpadean momentáneamente al oirse el estampido de un disparo que resuena por toda la casa.</i>\n\nTodos los investigadores en un espacio de un Dormitorio sufren 2 de Daño
+EventTimer2NoClue.text,<b>El reloj marca las 11</b>\n\nTodos los investigadores sufren 1 de Horror.
+EventTimer41A.text,<b>El reloj marca la 1</b>\n\n<i>Un violento temblor de tierra sacude la mansión.</i>
+EventTimer41B.text,<b>El reloj marca la 1</b>\n\n<i>El viejo caserón cruje como si se lamentara.</i>. Objetivo: Evita que los maníacos tomen muestras.
+EventTimer41BShoggoth.text,<b>El reloj marca la 1</b>\n\n<i>El viejo caserón cruje como si se lamentara.</i>
+EventTimer41CClue.text,<b>El reloj marca la 1</b>\n\n<i>La puerta principal se cierra con un sonoro chasquido.</i>
+EventTimer41C.text,<b>El reloj marca la 1</b>\n\n<i>La puerta principal se cierra con un sonoro chasquido.</i>\n\nColoca una ficha de Exploración en el lugar indicado.\nObjetivo: Huir a través del {ffg:TILE_FOYER_MAD01}
+EventEndLose1A.text,"<b>El reloj marca las 2</b>\n\n<i>Cuando el reloj marca las 2 de la mañana, el suelo empieza a temblar.\nAlgo antiguo despierta de su letargo en las profundidades de la tierra y se abre paso a través de los cimientos de la mansión hasta salir al aire libre. La respuesta al misterio deja de tener importancia, y tanto los investigadores como los sectarios corren para salvar la vida.\nBajo el inmenso montón de escombros y cadáveres, el cuerpo poseído de Walter Lynch ríe débilmente con su último suspiro.</i>"
+EventEndWinTime1B.text,"<b>El reloj marca las 2</b>\n\n<i>Cuando el reloj marca las 2 de la mañana, el suelo empieza a temblar.\nAlgo antiguo despierta de su letargo en las profundidades de la tierra y se abre paso a través de los cimientos de la mansión hasta salir al aire libre. La respuesta al misterio deja de tener importancia, y tanto los investigadores como los sectarios corren para salvar la vida.\nEl shoggoth cae al suelo reducido a un palpitante amasijo de tentáculos. Fuera cual fuese la locura contraida por Walter en sus viajes, habeis conseguido erradicarla para siempre.</i>"
+EventEndLoseTime1C.text,"<b>El reloj marca las 2</b>\n\n<i>Cuando el reloj marca las 2 de la mañana, el suelo empieza a temblar.\nAlgo antiguo despierta de su letargo en las profundidades de la tierra y se abre paso a través de los cimientos de la mansión hasta salir al aire libre. La respuesta al misterio deja de tener importancia, y tanto los investigadores como los sectarios corren para salvar la vida.</i>"
+EventDarkRoom.text,"<i>Abres la puerta y no ves absolutamente nada más que una oscuridad negra como boca de lobo. Buscas a tientas el interruptor de la luz, pero no parece funcionar.</i>\n\nColoca una ficha de Oscuridad en cada espacio de la habitación recién explorada."
+EventDarkRoomGuest.text,"<i>Abres la puerta y no ves absolutamente nada más que una oscuridad negra como boca de lobo. Buscas a tientas el interruptor de la luz, pero no parece funcionar.</i>\n\nColoca una ficha de Oscuridad en cada espacio de la habitación de invitados."
+EventMoveIn.text,{ffg:EXPLORE_MOVE}
+TokenFoyer.text,<i>Hay un recibidor en este lado de la pared.</i>
+TokenDiningDoor.text,<i>Esta puerta conduce a la cocina.</i>
+TokenBasementStairDoor.text,<i>Esta puerta baja al sótano.</i>
+TokenHallDoor.text,<i>Esta puerta conduce al pasillo.</i>
+TokenLabDoor.text,<i>Esta puerta conduce al laboratorio que a su vez conecta con el jardín.</i>
+TokenEntryDoor.text,<i>Esta puerta conduce al jardín.</i>
+TokenDining.text,<i>Hay varios objetos esparcidos a lo largo de la mesa.</i>
+TokenKitchenStorage.text,<i>Las cacerolas y sartenes están llenas de restos de comida.</i>
+TokenLab.text,<i>La malloría de estos artilugios están fuera de tu conocimiento.</i>
+TokenSearchHall2.text,<i>Hay un armario contra la pared.</i>
+TokenSearchHall4.text,<i>En una de las esquinas hay un baúl.</i>
+TokenBasementStoreSearch.text,<i>Se pueden ver algunas herramientas entre los botes de pintura.</i>
+EventPowerFailure.text,[[[CARTA_CERRADURA_OSCURIDAD]]]
+EventPowerRestore.text,Retira todas las fichas de Oscuridad en la Sala de Operaciones.
+SpawnTimer1Zombie3A.text,"<b>El reloj marca las 10</b>\n\n<i>Una figura envuelta en llamas recorre el pasillo a toda velocidad y se dirige hacia el dormitorio.</i>\n\nColoca un monstruo {ffg:MONSTER_ZOMBIE} en el espacio indicado con una ficha de Fuego junto a su miniatura. Cuando sufra daño, coloca la ficha de fuego en su espacio."
+SpawnTimer1Zombie3AFoyer.text,"<b>El reloj marca las 10</b>\n\n<i>Una figura envuelta en llamas recorre el pasillo a toda velocidad.</i>\n\nColoca un monstruo {ffg:MONSTER_ZOMBIE} en el espacio indicado con una ficha de Fuego junto a su miniatura. Cuando sufra daño, coloca la ficha de fuego en su espacio."
+SpawnTimer1Zombie3B.text,<b>El Reloj marca las 10</b>\n\n<i>El cadáver despellejado de un hombre abre de par en par las puertas del laboratorio.</i>\n\nColoca un monstruo  {ffg:MONSTER_ZOMBIE} en el espacio indicado.\nTodos los investigadores sufren 1 de Horror.
+SpawnTimer3Zombie2A.text,"<b>El Reloj marca las 12</b>\n\n<i>Un muerto viviente despierta de su letargo y abandona el lugar de reposo.\nA juzgar por las fotos que habeis visto, se trata sin duda de Edith Lynch, pese a llevar muerta varias semanas.</i>\n\nColoca un monstruo {ffg:MONSTER_ZOMBIE} en el espacio indicado."
+SpawnWalter2.text,Coloca un monstruo {ffg:MONSTER_MANIAC} en el mismo espacio que {rnd:hero}. Él es Walter Lynch.\n\nObjetivo: Derrotar a Walter Lynch.
+EventEndWin1A2.text,"<i>Respirais aliviados cuando Walter se desploma sin vida. Vuestro cliente no estará muy satisfecho, pero al menos habéis eliminado al avatar del maligno espíritu.</i>"
+CustomMonsterShoggoth.monstername,{ffg:MONSTER_SHOGGOTH}
+ActivationShoggoth1.ability,El monstruo {ffg:MONSTER_SHOGGOTH} ataca al investigador con la puntuación más baja de {observation} en su espacio o en un espacio adyacente.
+ActivationShoggoth1.master,"Con una rapidez alarmante, la criatura intenta envolverte con su voluminoso cuerpo ({agility}; 2). Si superas la tirada, a duras penas evitas que la mole gelatinosa cubierta de ojos te aplaste; sufres 1 de Horror boca abajo. Si fallas la tirada, la criatura te inmoviliza contra el suelo bajo su tremendo peso, y sus numerosas fauces roen tu carne; sufres 2 de Daño y adquieres el estado Retenido."
+ActivationShoggoth2.ability,El monstruo {ffg:MONSTER_SHOGGOTH} ataca al investigador de su espacio o de un espacio adyacente que haya sufrido más Daño.
+ActivationShoggoth2.master,"La criatura avanza hacia ti dando violentas sacudidas, rociándote la cara y el cuerpo con trozos de su carne y otros fluidos ({will}; 2). Si superas la tirada, te tragas el miedo y te arrojas a un lado para apartarte de su camino; pon boca arriba 2 de Daño. Si fallas la tirada, el hedor de esas sustancias es demasiado para ti y la criatura te aplasta con toda su mole; sufres 2 de Daño, adquieres el estado Desconcertado y te mueves 1 espacio para alejarte de el {ffg:MONSTER_SHOGGOTH}."
+ActivationShoggoth3.ability,El monstruo {ffg:MONSTER_SHOGGOTH} ataca a cada investigador que haya en su espacio o en un espacio adyacente
+ActivationShoggoth3.master,"La criatura proyecta multitud de gelatinosos tentáculos que agarran todo lo que encuentran y lo arrastran hasta sus espantosas fauces ({strength}; 2). Si superas la tirada, logras zafarte de su viscosa presa. Si fallas la tirada, los reptantes apéndices te arrastran hacia la criatura por mucho que gritas y pataleas; sufres 1 de Horror boca abajo, muévete 1 espacio hacia {0} y adquieres el estado Retenido."
+TokenBasementStairs.text,<i>Percibes algo en las sombras.</i>
+TokenEntry.text,<i>Hay algo debajo de la silla.</i>
+EventEndLose1C.text,"<i>La montaña de cadáveres apesta a descomposición. Es lo bastante alta como para satisfacer al virus, al menos por el momento. Siempre se pueden invitar más víctimas en caso de necesidad...</i>"
+EventEndLoseEliminated.text,<i>Los supervivientes han huido a duras penas de la perdición. Desafortunadamente el mal ha vencido hoy y las heridas hoy infringidas no tendrán cura fácil.</i>
+TokenFrontDoor.text,Un investigador puede realizar una acción para escapar de la mansión.
+TokenFrontDoor.button1,{action} Huir
+EventEscape.text,¿Han escapado todos los investigadores?
+EventEndWin3C.text,"<i>Enfrentados a un psicópata asesino y a un ejército de muertos vivientes, optáis por regresar junto a vuestro cliente con las manos vacías. Antes de iros, tomáis la precaucion de quemar la casa entera hasta los cimientos.</i>"
+Spawn1CZombie1.text,Coloca un monstruo {ffg:MONSTER_ZOMBIE} en el espacio indicado.
