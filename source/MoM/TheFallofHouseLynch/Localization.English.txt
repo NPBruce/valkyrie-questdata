@@ -1,7 +1,14 @@
 .,English
+UIBegin.uitext,{qst:CONTINUE}
+CONTINUE,Continue
+UIText1.uitext,"The office is thick with cigarette smoke.  Filing cabinets line the wall, and a pile of magazines sticks out from under the leg of a cheap wooden desk.  Behind the desk sits a pudgy, bald man full of nervous energy.\n\n""It's about time you got here,"" he says while tapping his fingers on the desk.  ""Time is money, and we're losing it by the truckload.""\n\n""I need your help finding our missing business parter.""\nHe tosses you a dirty manila folder.  ""Our missing man is named Walter Lynch.  He's always been the brains of this operation, and without him, this business venture is a bust.  He hasn't been answering letters, and all our other investigations have been..."" he pauses, choosing his next word carefully, ""unsuccessful.""\n\nHe glances at the folder.  ""You have everything we know.  Bring him back to use, more than you know is at stake."
+UIContinue1.uitext,{qst:CONTINUE}
+UIText2.uitext,"Later, in your car, you carefully open the soiled folder.  You find a crude map with directions to a mansion just outside Arkham, Massachusetts.  The drawing is primitive, as if sketched by a child.  Behind the map lies a torn journal entry:\n\n""June 8, 1918: It has been nearly a year since the illness came for my son.  The doctors were mystified as it slowly consumed his flesh.  I am a man of action and could not sit around and wait for my heir to deteriorate.\nNine months I spent traveling the globe. Searching for a cure. From the depths of the jungles to the wisdom of the orient, I found nothing. I kept searching, deeper and deeper into the lost places of the world and beyond. I witnessed many mysteries and horrors, but the cure still eluded me.\n\nLittle did I know that it was already too late.  Back home, my son passed from this world with no father there to comfort him.\n\nI returned home to my wife Edith, intending to stay for good.  We grieved.  Life slowly returned to normal and I returned to work.  I started up new business ventures and grew my fortune while my soul languished.\n\nThe healing process was not easy, but I found that helping mend Edith's heart helped me ignore my own pain."""
+UIText3.uitext,"A breifer entry lies on the back.\n\n""January 21, 1919: How could this happen?  Why could this happen?\n\nYou try to protect yourself.  You try to protect your family, but it doesn't matter.\n\nOh Edith, your're all I have.  How could it happen to you?\n\nI MUST dig deeper.  I will turn over stones that I dared not touch.  I WILL find answers!"""
+UIContinue2.uitext,{qst:CONTINUE}
 quest.name,The Fall of House Lynch
 quest.description,Conversion of the Mansions Of Madness first edition scenario.
-UIBegin.uitext,Begin
+UIBegin.button1,Button1
 EventGetElderSign3B.text,{qst:EventGetElderSign3A.text}
 EventGetElderSign3A.text,Take Common Item: {c:QItemPendant}.
 EventGetExtinguisher.text,Take Common Item: {c:QItemExtinguisher}.
@@ -25,7 +32,6 @@ PuzzleFrontDoor.button1,{qst:CONTINUE}
 PuzzlePowerFailure.button1,{qst:CONTINUE}
 ACTIONSEARCH,{action} Search
 ACTIONEXPLORE,{action} Explore
-CONTINUE,Continue
 FORFEIT,Forfeit
 NO,No
 PLACE1BARRICADE,Place 1 barricade as shown.
@@ -103,12 +109,6 @@ TokenGardenDoor2BLocked.text,<i>The door leading out to the Garden is sealed wit
 TokenGardenDoor2BLocked.button1,{qst:ACTIONEXPLORE}
 EventNo1E.text,"You have not selected Mansions of Madness First Edition in the content selection.\n\nThis scenario does not yet have a pure second editon version, substitute tiles will be required."
 EventNo1E.button1,{qst:CONTINUE}
-EventIntro1.text,"The office is thick with cigarette smoke.  Filing cabinets line the wall, and a pile of magazines sticks out from under the leg of a cheap wooden desk.  Behind the desk sits a pudgy, bald man full of nervous energy.\n\n""It's about time you got here,"" he says while tapping his fingers on the desk.  ""Time is money, and we're losing it by the truckload.""\n\n""I need your help finding our missing business parter.""\nHe tosses you a dirty manila folder.  ""Our missing man is named Walter Lynch.  He's always been the brains of this operation, and without him, this business venture is a bust.  He hasn't been answering letters, and all our other investigations have been..."" he pauses, choosing his next word carefully, ""unsuccessful.""\n\nHe glances at the folder.  ""You have everything we know.  Bring him back to use, more than you know is at stake."
-EventIntro1.button1,{qst:CONTINUE}
-EventIntro2.text,"Later, in your car, you carefully open the soiled folder.  You find a crude map with directions to a mansion just outside Arkham, Massachusetts.  The drawing is primitive, as if sketched by a child.  Behind the map lies a torn journal entry:\n\n""June 8, 1918: It has been nearly a year since the illness came for my son.  The doctors were mystified as it slowly consumed his flesh.  I am a man of action and could not sit around and wait for my heir to deteriorate.\nNine months I spent traveling the globe. Searching for a cure. From the depths of the jungles to the wisdom of the orient, I found nothing. I kept searching, deeper and deeper into the lost places of the world and beyond. I witnessed many mysteries and horrors, but the cure still eluded me.\n\nLittle did I know that it was already too late.  Back home, my son passed from this world with no father there to comfort him.\n\nI returned home to my wife Edith, intending to stay for good.  We grieved.  Life slowly returned to normal and I returned to work.  I started up new business ventures and grew my fortune while my soul languished.\n\nThe healing process was not easy, but I found that helping mend Edith's heart helped me ignore my own pain."""
-EventIntro2.button1,{qst:CONTINUE}
-EventIntro3.text,"A breifer entry lies on the back.\n\n""January 21, 1919: How could this happen?  Why could this happen?\n\nYou try to protect yourself.  You try to protect your family, but it doesn't matter.\n\nOh Edith, your're all I have.  How could it happen to you?\n\nI MUST dig deeper.  I will turn over stones that I dared not touch.  I WILL find answers!"""
-EventIntro3.button1,{qst:CONTINUE}
 EventPrologue.text,"Light rain falls on your face as you exit your car in front of the estate.  The house is huge, unkept, and shrouded in eerie silence as you approach.  You rap on the door, and there is no response.  A moment later, the door creaks open of its own accord, and you enter the foyer of the enormous mansion."
 EventPrologue.button1,{qst:CONTINUE}
 EventFoyerTile.text,Place {MAD01}Foyer tile as shown.
