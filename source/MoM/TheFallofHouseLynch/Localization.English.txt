@@ -1,6 +1,23 @@
 .,English
 quest.name,The Fall of House Lynch
 quest.description,Conversion of the Mansions Of Madness first edition scenario.
+UIBegin.uitext,Begin
+EventGetElderSign3B.text,{qst:EventGetElderSign3A.text}
+EventGetElderSign3A.text,Take Common Item: {c:QItemPendant}.
+EventGetExtinguisher.text,Take Common Item: {c:QItemExtinguisher}.
+EventGetShotgun3B.text,{qst:EventGetShotgun3A.text}
+EventGetShotgun3A.text,Take Common Item: {c:QItemShotgun}.
+EventClue3B.text,"<i>The bloody mess of a man's body lies on the operating table.  Rusted instruments and crude tools lie all around him.\nThe skinless man whispers to you in horror through his lipless mouth.  ""Oh god, he wanted my flesh...""\nWith his last breath he murmurs, ""He let me stay the night..."" and hands you a key.</i>\n\nGain Unique Item: {c:QItemSilverKey}."
+EventClue2B.text,"<i>Your sight blurs and you collapse to the ground as a vision consumes you.  A man whistles a cheerful tunes as he drags a woman's limp body along the floor.  You shiver as the body is dragged into the rain, through a muddy puddle.  A shovel comes down on her head as the vision ends.</i>\n\nGain Unique Item: {c:QItemCultSigil}."
+EventClue3A.text,"<i>The room is empty except for the burnt outline of a human on the kitchen table.  Upon closer examination, you find a simple silver key hidden in the soot.\nA trail of blackened footprints leads up the foyer stairs and right down the hall.</i>\n\nGain Unique Item: {c:QItemSilverKey}."
+EventGetLantern.text,Take Common Item: {c:QItemLantern}.
+EventClue2A.text,"<i>You find a journal entry dated July 5th 1918.\n""My wife's condition has begun to deteriorate as of late.  I know it is only a matter of time, and have prepared a place for her along with the other bodies deep within the ground.""</i>\n\nGain Unique Item: {c:QItemCultSigil}."
+EventGetItem5.text,Take Common Item: {c:QItemLantern}.
+EventGetAxe.text,Take Common Item: {c:QItemAxe}.
+EventGetItem4.text,Take Common Item: {c:QItemAxe}.
+EventGetHeal.text,Receive Spell: {c:QItemFleshWard}.
+EventGetItem2.text,Take Common Item: {c:QItemWhiskey}.
+EventGetItem1.text,Take Common Item: {c:QItemSedative}.
 PuzzleGuestStorage.button1,{qst:CONTINUE}
 PuzzlePuzzlebox.button1,{qst:CONTINUE}
 PuzzleSuitcase.button1,{qst:CONTINUE}
@@ -210,38 +227,26 @@ EventPuzzlebox.text,<i>You find a box covered in cryptic runes.</i>
 EventPuzzlebox.button1,{qst:CONTINUE}
 EventSuitcase.text,<i>You find a sturdy suitcase sealed by a simple combination lock.</i>
 EventSuitcase.button1,{qst:CONTINUE}
-EventGetLantern.text,Take Common Item: Kerosene Lantern.
 EventGetLantern.button1,{qst:CONTINUE}
-EventGetAxe.text,Take Common Item: Axe.
 EventGetAxe.button1,{qst:CONTINUE}
-EventGetShotgun3A.text,Take Common Item: Shotgun.
 EventGetShotgun3A.button1,{qst:CONTINUE}
-EventGetShotgun3B.text,{qst:EventGetShotgun3A.text}.
 EventGetShotgun3B.button1,{qst:CONTINUE}
 EventGetEvidence3A.text,<i>You uncover startling evidence.</i>\n\nGain 2 clue tokens.
 EventGetEvidence3A.button1,{qst:CONTINUE}
 EventGetEvidence3B.text,{qst:EventGetEvidence3A.text}
 EventGetEvidence3B.button1,{qst:CONTINUE}
-EventGetElderSign3A.text,Take Common Item: Elder Sign Pendant.
 EventGetElderSign3A.button1,{qst:CONTINUE}
-EventGetElderSign3B.text,{qst:EventGetElderSign3A.text}
 EventGetElderSign3B.button1,{qst:CONTINUE}
-EventGetExtinguisher.text,Take Common Item: Fire Extinguisher and gain 1 clue token.
 EventGetExtinguisher.button1,{qst:CONTINUE}
-EventGetItem1.text,Take Common Item: Sedative
 EventGetItem1.button1,{qst:CONTINUE}
-EventGetItem2.text,Take Common Item: Whiskey
 EventGetItem2.button1,{qst:CONTINUE}
 EventGetItem3.text,<i>You come across an old tome.</i>\n\nTest {lore}.
 EventGetItem3.button1,{qst:CONTINUE}
 EventGetItem3.button2,{qst:CONTINUE}
-EventGetHeal.text,Receive Spell: Flesh Ward.
 EventGetHeal.button1,{qst:CONTINUE}
 EventFailHeal.text,<i>Your mind is lost in the symbols that will not stay still on the page.  You break your gaze and when you look back the symbols are gone.</i>
 EventFailHeal.button1,{qst:CONTINUE}
-EventGetItem4.text,Take Common Item: Axe
 EventGetItem4.button1,{qst:CONTINUE}
-EventGetItem5.text,Take Common Item: Kerosene Lantern
 EventGetItem5.button1,{qst:CONTINUE}
 EventGetItem6.text,<i>You find nothing of interest.</i>
 EventGetItem6.button1,{qst:CONTINUE}
@@ -261,13 +266,9 @@ EventClue1BNoShoggoth.text,"<i>Somewhere in the house, Walter attempts to use yo
 EventClue1BNoShoggoth.button1,{qst:CONTINUE}
 EventClue1C.text,"<i>Walter's voice echoes through the mansion: ""WE MUST FEED IT!"" Then a painful chorus of sickly groans fills the manor.  It is an unnerving sound, almost, but not quite, human.</i>\n\nPlace 1 Explore token as show.\nObjective: Escape through the foyer."
 EventClue1C.button1,{qst:CONTINUE}
-EventClue2A.text,"<i>You find a journal entry dated July 5th 1918.\n""My wife's condition has begun to deteriorate as of late.  I know it is only a matter of time, and have prepared a place for her along with the other bodies deep within the ground.""</i>\n\nGain Unique Item: Cult Sigil"
 EventClue2A.button1,{qst:CONTINUE}
-EventClue2B.text,"<i>Your sight blurs and you collapse to the ground as a vision consumes you.  A man whistles a cheerful tunes as he drags a woman's limp body along the floor.  You shiver as the body is dragged into the rain, through a muddy puddle.  A shovel comes down on her head as the vision ends.</i>\n\nGain Unique Item: Cult Sigil"
 EventClue2B.button1,{qst:CONTINUE}
-EventClue3A.text,"<i>The room is empty except for the burnt outline of a human on the kitchen table.  Upon closer examination, you find a simple silver key hidden in the soot.\nA trail of blackened footprints leads up the foyer stairs and right down the hall.</i>\n\nGain Unique Item: Silver Key"
 EventClue3A.button1,{qst:CONTINUE}
-EventClue3B.text,"<i>The bloody mess of a man's body lies on the operating table.  Rusted instruments and crude tools lie all around him.\nThe skinless man whispers to you in horror through his lipless mouth.  ""Oh god, he wanted my flesh...""\nWith his last breath he murmurs, ""He let me stay the night..."" and hands you a key.</i>\n\nGain Unique Item: Silver Key"
 EventClue3B.button1,{qst:CONTINUE}
 SpawnManiac.text,<i>The door explodes into splinters as a crazed madman enters the room.</i>\n\nPlace a maniac in the same space as {rnd:hero}.
 SpawnManiac.button1,{qst:CONTINUE}

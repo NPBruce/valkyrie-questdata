@@ -1,6 +1,20 @@
 .,German
 quest.name,Der Fall des Hauses Lynch
 quest.description,Konvertierung des Szenarios der ersten Edition von Villen des Wahnsinns.
+EventGetElderSign3A.text,Nimm den Gegenstand: Ältestes-Zeichen-Anhänger
+EventGetExtinguisher.text,Nimm den Gegenstand: Feuerlöscher und erhalte einen Hinweismarker.
+EventGetShotgun3A.text,Nimm den Gegenstand: Schrotflinte
+EventClue3B.text,"<i>Die blutigen Überreste eines Männerkörpers liegen auf dem Operationstisch. Verrostetes Operationsbesteck und primitive Werkzeuge liegen um ihn herum.\nDer hautlose Mann flüstert dir ängstlich mit seinem lippenlosen Mund zu. ""Oh Gott, er wollte mein Fleisch...""\nDann murmelt er mit letztem Atem, ""Er bot mir ein Zimmer zur Übernachtung an..."" und gibt euch einen Schlüssel.</i>\n\nNimm den besonderen Gegenstand: Silberner Schlüssel"
+EventClue2B.text,"<i>Deine Sicht verschwimmt, du wirst ohnmächtig und fällst zu Boden, als du plötzlich eine Vision hast. Ein Mann pfeift fröhlich daher, während er den leblosen Körper einer Frau hinter sich her, über den Flur zieht. Dir fröstelt es, als du mitansehen musst, dass er die Leiche im Regen durch eine Matschpfütze zieht. Du kannst noch sehen, wie er ihren Kopf zuschaufelt, als die Vision endet.</i>\n\nErhalte den besonderen Gegenstand: Kultsiegel"
+EventClue3A.text,"<i>Der Raum ist leer, mit Außnahme der verbrannten Umrisse eines Meschen auf dem Küchentisch. Bei näherer Betrachtung findest du einen Silbernen Schlüssel in den rußigen Überresten.\nSchwarze Fußspuren führen die Foyertreppen hinauf und weiter rechts den Flur entlang. Erhalte den besonderen Gegenstand: Silberner Schlüssel</i>"
+EventGetLantern.text,Nimm den Gegenstand: Keronsinlampe
+EventClue2A.text,"<i>Du findest einen Tagebucheintrag, datiert auf den 5. Juli 1918.\n""Der Zustand meine Frau hat begonnen sich zu verschlechtern. Da ich weiß, dass es für sie nur eine Frage der Zeit ist, habe ich einen Ort für sie und die anderen Leichen tief in der Erde vorbereitet.""</i>\n\nErhalte einen Hinweismarker und den besonderen Gegenstand: Kultsiegel"
+EventGetItem5.text,Nimm den Gegenstand: Kerosinlampe
+EventGetAxe.text,Nimm den Gegenstand: Axt
+EventGetItem4.text,Nimm den Gegenstand: Axt
+EventGetHeal.text,Erhalte Zauber: Vertrocknen.
+EventGetItem2.text,Nimm den Gegenstand: Whisky
+EventGetItem1.text,Nimm den Gegenstand: Beruhigungsmittel
 ACTIONSEARCH,{action} Durchsuchen
 ACTIONEXPLORE,{action} Erkunden
 CONTINUE,Weiter
@@ -75,19 +89,9 @@ EventCeremonyExplore.text,"<i>Als du nach dem Türgriff fasst, durchzieht eine d
 EventGuestStorageDoor.text,<i>Die Tür in diesen Raum ist mit einem verrosteten Kombinationsschloß gesichert.</i>
 EventPuzzlebox.text,"<i>Du findest eine Kiste, die mit kryptischen Runen verziert ist.</i>"
 EventSuitcase.text,"<i>Du findest einen robusten Koffer, der mit einem simplen Kombinationsschloß gesichert ist.</i>"
-EventGetLantern.text,Nimm den Gegenstand: Keronsinlampe
-EventGetAxe.text,Nimm den Gegenstand: Axt
-EventGetShotgun3A.text,Nimm den Gegenstand: Schrotflinte
 EventGetEvidence3A.text,<i>Du entdeckst beunruhigende Beweise.</i>\n\nNimm drei Hinweismarker.
-EventGetElderSign3A.text,Nimm den Gegenstand: Ältestes-Zeichen-Anhänger
-EventGetExtinguisher.text,Nimm den Gegenstand: Feuerlöscher und erhalte einen Hinweismarker.
-EventGetItem1.text,Nimm den Gegenstand: Beruhigungsmittel
-EventGetItem2.text,Nimm den Gegenstand: Whisky
 EventGetItem3.text,<i>Du findest einen alten Folianten.</i>\n\n{lore}-Test
-EventGetHeal.text,Erhalte Zauber: Vertrocknen.
 EventFailHeal.text,"<i>Gedankenverloren siehst du vor dir Symbole, welche du zuordnen möchtest, doch sie halten nicht still. Als du aus deine Trance erwachst sind die Symbole verschwunden.</i>"
-EventGetItem4.text,Nimm den Gegenstand: Axt
-EventGetItem5.text,Nimm den Gegenstand: Kerosinlampe
 EventGetItem6.text,<i>Du findest nichts interessantes.</i>
 EventGetItem7.text,"<i>Keiner der Gegenstände die du findest ist nützlich, aber sie bieten dir neue Einsichten zum aktuellen Fall.</i>\n\nErhalte einen Hinweismarker."
 EventGetItem8.text,"<i>Keiner der Gegenstände die du findest ist nützlich, aber sie bieten dir neue Einsichten zum aktuellen Fall.</i>\n\nErhalte zwei Hinweismarker."
@@ -97,10 +101,6 @@ EventClue1A.text,"<i>Du hast eine Vision von Walter, der eine Seance durchführt
 EventClue1BShoggoth.text,<i>Irgendwo im Haus benutzt Walter dein Fleisch und Blut für eine alte Beschwörung. Der Boden bebt und fegt Bücher und allerlei anderen Tand auf den Boden.</i>
 EventClue1BNoShoggoth.text,<i>Irgendwo im Haus benutzt Walter dein Fleisch und Blut für eine alte Beschwörung. Der Boden bebt und fegt Bücher und allerlei anderen Tand auf den Boden.</i>\n\nAufgabe: Hindere die Verrückten dabei Proben zu nehmen.
 EventClue1C.text,"<i>Walters Stimme hallt durch die Villa: ""WIR MÜSSEN ES FÜTTERN!"" Dann erfüllt ein schmerzhafter Chor aus krankhaften Grunzen das Anwesen. Ein nevenzerreißender Ton, fast, jedoch nicht ganz menschlich.</i>\n\nPlatziere einen Erkundungsmarker wie gezeigt.\nAufgabe: Entkomme durch den Eingang."
-EventClue2A.text,"<i>Du findest einen Tagebucheintrag, datiert auf den 5. Juli 1918.\n""Der Zustand meine Frau hat begonnen sich zu verschlechtern. Da ich weiß, dass es für sie nur eine Frage der Zeit ist, habe ich einen Ort für sie und die anderen Leichen tief in der Erde vorbereitet.""</i>\n\nErhalte einen Hinweismarker und den besonderen Gegenstand: Kultsiegel"
-EventClue2B.text,"<i>Deine Sicht verschwimmt, du wirst ohnmächtig und fällst zu Boden, als du plötzlich eine Vision hast. Ein Mann pfeift fröhlich daher, während er den leblosen Körper einer Frau hinter sich her, über den Flur zieht. Dir fröstelt es, als du mitansehen musst, dass er die Leiche im Regen durch eine Matschpfütze zieht. Du kannst noch sehen, wie er ihren Kopf zuschaufelt, als die Vision endet.</i>\n\nErhalte den besonderen Gegenstand: Kultsiegel"
-EventClue3A.text,"<i>Der Raum ist leer, mit Außnahme der verbrannten Umrisse eines Meschen auf dem Küchentisch. Bei näherer Betrachtung findest du einen Silbernen Schlüssel in den rußigen Überresten.\nSchwarze Fußspuren führen die Foyertreppen hinauf und weiter rechts den Flur entlang. Erhalte den besonderen Gegenstand: Silberner Schlüssel</i>"
-EventClue3B.text,"<i>Die blutigen Überreste eines Männerkörpers liegen auf dem Operationstisch. Verrostetes Operationsbesteck und primitive Werkzeuge liegen um ihn herum.\nDer hautlose Mann flüstert dir ängstlich mit seinem lippenlosen Mund zu. ""Oh Gott, er wollte mein Fleisch...""\nDann murmelt er mit letztem Atem, ""Er bot mir ein Zimmer zur Übernachtung an..."" und gibt euch einen Schlüssel.</i>\n\nNimm den besonderen Gegenstand: Silberner Schlüssel"
 SpawnManiac.text,<i>Die Tür zerberstet in Splittern und ein wahnsinniger Mann betritt das Zimmer.</i>\n\nPlatziere einen Wahnsinnigen auf den Feld von {rnd:hero}
 EventShoggothMove.text,Ist ein Shoggothe auf dem angegebenen Feld?
 EventShoggothMoveTowards.text,Der Shoggothe bewegt sich zwei Felder auf das angegebene Feld zu.

@@ -1,6 +1,20 @@
 .,Spanish
 quest.name,La Caída de la Casa Lynch
 quest.description,Conversión del escenario de la primera edición de Las Mansiones de la Locura.
+EventGetElderSign3A.text,Ganas el Objeto común {ffg:COMMON_ITEM_ELDER_SIGN_PENDANT}.
+EventGetExtinguisher.text,Ganas el Objeto común {ffg:COMMON_ITEM_FIRE_EXTINGUISHER} y 1 Pista.
+EventGetShotgun3A.text,Ganas el Objeto común {ffg:COMMON_ITEM_SHOTGUN}.
+EventClue3B.text,"<i>Sobre la mesa de operaciones yace el cuerpo ensangrentado de un hombre. A su alrededor hay dispuesto instrumental quirúrgico oxidado y herramientas rudimentarias.\n\n-Dios mío... quería mi piel, quería mi carne... yo sólo buscaba un sitio donde pasar la noche... -masculla, entregándote una llavecita antes de exhalar su último suspiro.</i>\n\nGanas el Objeto Único: {ffg:UNIQUE_ITEM_SILVER_KEY}"
+EventClue2B.text,"<i>Se te nubla la vista y te desplomas, asaltado por una repentina visión. En ella, un hombre silba una alegre melodía mientras arrastra el cuerpo inerte de una mujer por el suelo. Te estremeces cuando saca el cadáver al exterior, bajo una intensa lluvia, y lo pasa sobre un charco fangoso. La visión termina con la imagen de una pala descendiendo a toda velocidad hacia su cabeza.</i>\n\nGanas el Objeto Único: {ffg:UNIQUE_ITEM_CULT_SIGIL}"
+EventClue3A.text,"<i>La habitación está vacía, a excepción de la silueta cenicienta de un ser humano sobre la mesa de la cocina.\n\nAl examinarla más de cerca, encuentras una sencilla llave de plata entre el hollín.\n\nLuego descubres un rastro de huellas ennegrecidas que suben por la escalera del vestíbulo y se adentran pasillo abajo.</i>\n\nGanas el Objeto Único: {ffg:UNIQUE_ITEM_SILVER_KEY}"
+EventGetLantern.text,Ganas el Objeto común {ffg:COMMON_ITEM_KEROSENE_LANTERN}.
+EventClue2A.text,"<i>Encuentras una anotación de un diario fechada el 5 de julio de 1918.\n""El estado de mi mujer empeora por momentos. Sé que es sólo cuestión de tiempo, y le he preparado un lugar de descanso en las profundidades de la mansión, junto a los demás cuerpos.""</i>\n\nGanas el Objeto Único: {ffg:UNIQUE_ITEM_CULT_SIGIL}"
+EventGetItem5.text,Ganas el Objeto común {ffg:COMMON_ITEM_KEROSENE_LANTERN}.
+EventGetAxe.text,Ganas el Objeto común {ffg:COMMON_ITEM_AXE}.
+EventGetItem4.text,Ganas el Objeto común {ffg:COMMON_ITEM_AXE}.
+EventGetHeal.text,Ganas el Hechizo {ffg:SPELL_FLESH_WARD}.
+EventGetItem2.text,Ganas el Objeto común {ffg:COMMON_ITEM_WHISKEY}.
+EventGetItem1.text,Ganas el Objeto común {ffg:COMMON_ITEM_SEDATIVES}.
 ACTIONSEARCH,{action} Búsqueda
 ACTIONEXPLORE,{action} Explorar
 CONTINUE,Continuar
@@ -75,19 +89,9 @@ EventCeremonyExplore.text,"<i>Cuando agarras el picaporte de la puerta, notas qu
 EventGuestStorageDoor.text,<i>La puerta que conduce a esta habitación está cerrada con un herrumbroso candado de combinación.</i>
 EventPuzzlebox.text,<i>Encuentras una caja cubierta de misteriosas runas.</i>
 EventSuitcase.text,<i>Encuentras un resistente maletín cerrado con una sencilla combinación.</i>
-EventGetLantern.text,Ganas el Objeto común {ffg:COMMON_ITEM_KEROSENE_LANTERN}.
-EventGetAxe.text,Ganas el Objeto común {ffg:COMMON_ITEM_AXE}.
-EventGetShotgun3A.text,Ganas el Objeto común {ffg:COMMON_ITEM_SHOTGUN}.
 EventGetEvidence3A.text,<i>Descubres pruebas sorprendentes.</i>\n\nGanas 3 pistas.
-EventGetElderSign3A.text,Ganas el Objeto común {ffg:COMMON_ITEM_ELDER_SIGN_PENDANT}.
-EventGetExtinguisher.text,Ganas el Objeto común {ffg:COMMON_ITEM_FIRE_EXTINGUISHER} y 1 Pista.
-EventGetItem1.text,Ganas el Objeto común {ffg:COMMON_ITEM_SEDATIVES}.
-EventGetItem2.text,Ganas el Objeto común {ffg:COMMON_ITEM_WHISKEY}.
 EventGetItem3.text,<i>Encuentras un tomo antiguo.</i>\n\nPrueba {lore}.
-EventGetHeal.text,Ganas el Hechizo {ffg:SPELL_FLESH_WARD}.
 EventFailHeal.text,<i>Tu mente intenta visualizar los símbolos que no paran de moverse en la página. Parpadeas y cuando vuelves a mirar los símbolos ya no están ahi.</i>
-EventGetItem4.text,Ganas el Objeto común {ffg:COMMON_ITEM_AXE}.
-EventGetItem5.text,Ganas el Objeto común {ffg:COMMON_ITEM_KEROSENE_LANTERN}.
 EventGetItem6.text,<i>No encuentras nada de interés.</i>
 EventGetItem7.text,"<i>Ninguno de los objetos es de utilidad, pero la búsqueda te ayuda a comprender un poco más la situación</i>\n\nGanas 1 pista."
 EventGetItem8.text,"<i>Ninguno de los objetos es de utilidad, pero la búsqueda te ayuda a comprender un poco más la situación</i>\n\nGanas 2 pistas."
@@ -97,10 +101,6 @@ EventClue1A.text,"<i>Te asalta una visión de Walter celebrando una sesión de e
 EventClue1BShoggoth.text,"<i>En algún lugar de la casa, Walter trata de usar vuestra carne y vuestra sangre para llevar a cabo una antigua ceremonia de invocación. El suelo tiembla, derribando libros y demás trastos de las estanterías.</i>"
 EventClue1BNoShoggoth.text,"<i>En algún lugar de la casa, Walter trata de usar vuestra carne y vuestra sangre para llevar a cabo una antigua ceremonia de invocación. El suelo tiembla, derribando libros y demás trastos de las estanterías.</i>\n\nObjetivo: Evita que los maniacos tomen muestras."
 EventClue1C.text,"<i>La voz de Walter retumba por toda la mansión: ""¡DEBEMOS ALIMENTARLO!"". Luego un insoportable coro de gemidos agónicos resuena por doquier. Es un sonido perturbador, casi humano, pero sin llegar a serlo.</i>\n\nColoca una ficha de Exploración en el lugar indicado.\nObjetivo: Huir a través del {ffg:TILE_FOYER_MAD01}."
-EventClue2A.text,"<i>Encuentras una anotación de un diario fechada el 5 de julio de 1918.\n""El estado de mi mujer empeora por momentos. Sé que es sólo cuestión de tiempo, y le he preparado un lugar de descanso en las profundidades de la mansión, junto a los demás cuerpos.""</i>\n\nGanas el Objeto Único: {ffg:UNIQUE_ITEM_CULT_SIGIL}"
-EventClue2B.text,"<i>Se te nubla la vista y te desplomas, asaltado por una repentina visión. En ella, un hombre silba una alegre melodía mientras arrastra el cuerpo inerte de una mujer por el suelo. Te estremeces cuando saca el cadáver al exterior, bajo una intensa lluvia, y lo pasa sobre un charco fangoso. La visión termina con la imagen de una pala descendiendo a toda velocidad hacia su cabeza.</i>\n\nGanas el Objeto Único: {ffg:UNIQUE_ITEM_CULT_SIGIL}"
-EventClue3A.text,"<i>La habitación está vacía, a excepción de la silueta cenicienta de un ser humano sobre la mesa de la cocina.\n\nAl examinarla más de cerca, encuentras una sencilla llave de plata entre el hollín.\n\nLuego descubres un rastro de huellas ennegrecidas que suben por la escalera del vestíbulo y se adentran pasillo abajo.</i>\n\nGanas el Objeto Único: {ffg:UNIQUE_ITEM_SILVER_KEY}"
-EventClue3B.text,"<i>Sobre la mesa de operaciones yace el cuerpo ensangrentado de un hombre. A su alrededor hay dispuesto instrumental quirúrgico oxidado y herramientas rudimentarias.\n\n-Dios mío... quería mi piel, quería mi carne... yo sólo buscaba un sitio donde pasar la noche... -masculla, entregándote una llavecita antes de exhalar su último suspiro.</i>\n\nGanas el Objeto Único: {ffg:UNIQUE_ITEM_SILVER_KEY}"
 SpawnManiac.text,<i>La puerta salta en pedazos y un psicópata rabioso entra en la habitación.</i>\n\nColoca un monstruo {ffg:MONSTER_MANIAC} en el espacio de {rnd:hero}.
 EventShoggothMove.text,¿Está el monstruo {ffg:MONSTER_SHOGGOTH} en el espacio indicado?
 EventShoggothMoveTowards.text,El monstruo {ffg:MONSTER_SHOGGOTH} se mueve 2 espacios hacia el espacio indicado.
