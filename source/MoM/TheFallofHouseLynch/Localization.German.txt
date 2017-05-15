@@ -1,0 +1,166 @@
+.,German
+CONTINUE,Weiter
+UIText1.uitext,"Das Büro ist durchnebelt von Zigarettenrauch. Aktenschränke verdecken die Wände und ein Haufen Zeitschriften quillt unter dem billigen Holztisch hervor. Hinter dem Tisch sitzt ein dicklicher, glatzköpfiger Mann, voll mit nervöser Energie.\n\n""Das wird auch Zeit, dass ihr auftaucht"", sagt er während er mit seinen Fingern auf dem Tisch trommelt. ""Zeit ist Geld und das verlieren wir Karrenweise.""\n\n""Ich benötige eure Hilfe unseren vermissten Geschäftspartner ausfindig zu machen.""\nEr schiebt euch eine dreckige Aktenmappe rüber. ""Unser Vermisster heißt Walter Lynch. Er war schon immer das Gehirn dieser Organisation und ohne ihn ist dieses Unternehmen dem Untergang geweiht. Er beantwortet keinerlei Briefe und alle die wir hingeschickt haben sind..."", er hält kurz inne um Worte zu finden, ""nicht erfolgreich gewesen.""\n\nEr schaut auf die Mappe. ""Das ist alles, was wir darüber wissen. Bringt ihn zurück. Es steht mehr auf dem Spiel, als ihr glaubt."""
+UIText2.uitext,"Später, im Auto, öffnet ihr vorsichtig die schmutzige Aktenmappe. Darin findet ihr eine grob-skizzierte Karte, welche den Weg zu einer Villa am Rande von Arkham, Massachusetts weist. Diese Wegbeschreibung ist primitiv, als hätte sie ein Kind aufgezeichnet. Auf der Rückseite der Karte ist ein Tagebucheintrag zu lesen:\n\n""8. Juni, 1918: Es ist beinahe ein Jahr her, dass die Krankheit meinen Sohn befallen hat. Die Ärzte waren ratlos, während die Krankheit ihn wortwörtlich auffraß. Als Mann der Tat konnte ich nicht einfach dasitzen und darauf warten, dass mein Erbe langsam dahinsiecht. Neun Monate reiste ich auf der Suche nach einem Heilmittel rund um den Globus. Von den Tiefen des Urwalds bis zu den Weisen des Orients, doch ich fand nichts. Ich hörte nicht auf zu suchen, drang tiefer und tiefer in die verlorenen Orte dieser Welt vor und über sie hinaus. Ich wurde Zeuge so mancher Schrecken und Mysterien, doch das Heilmittel blieb mir weiterhin fern. Ich ahnte nicht, dass es bereits zu spät war. Zuhause war mein Sohn aus dieser Welt geschieden, ohne einen Vater, der ihn hätte trösten können. Ich kehrte heim zu Edith, meiner Frau, und beabsichtigte dort auch zu bleiben. Wir trauerten. Langsam kehrte in unser Leben wieder Normalität ein und ich begann wieder zu arbeiten. Ich gründete ein neues Unternehmen und mehrte Reichtümer, während meine Seele verwelkte. Der Heilungsprozess war kein einfacher, aber Ediths Schmerz zu lindern erwies sich als hilfreich, um meinen eigenen zu vergessen."""
+UIText3.uitext,"Ein kurzer Eintrag ist auf der Rückseite geschrieben.\n\n""21. Januar, 1919: Wie konnte das nur passieren? Warum musste es passieren?\n\nMan versucht, sich selbst zu schützen. Man versucht, die Familie zu beschützen. Aber alles ist vergeblich.\n\nOh Edith, du bist alles was ich habe! Wie konnte dir das nur passieren?\n\nIch muss tiefer schürfen. Ich werde jeden einzelnen Stein umdrehen, den ich zuvor nicht zu berühren wagte. Ich WERDE Antworten finden!"""
+quest.name,Der Fall des Hauses Lynch
+quest.description,Konvertierung des Szenarios der ersten Edition von Villen des Wahnsinns.
+EventGetElderSign3A.text,Nimm den Gegenstand: Ältestes-Zeichen-Anhänger
+EventGetExtinguisher.text,Nimm den Gegenstand: Feuerlöscher und erhalte einen Hinweismarker.
+EventGetShotgun3A.text,Nimm den Gegenstand: Schrotflinte
+EventClue3B.text,"<i>Die blutigen Überreste eines Männerkörpers liegen auf dem Operationstisch. Verrostetes Operationsbesteck und primitive Werkzeuge liegen um ihn herum.\nDer hautlose Mann flüstert dir ängstlich mit seinem lippenlosen Mund zu. ""Oh Gott, er wollte mein Fleisch...""\nDann murmelt er mit letztem Atem, ""Er bot mir ein Zimmer zur Übernachtung an..."" und gibt euch einen Schlüssel.</i>\n\nNimm den besonderen Gegenstand: Silberner Schlüssel"
+EventClue2B.text,"<i>Deine Sicht verschwimmt, du wirst ohnmächtig und fällst zu Boden, als du plötzlich eine Vision hast. Ein Mann pfeift fröhlich daher, während er den leblosen Körper einer Frau hinter sich her, über den Flur zieht. Dir fröstelt es, als du mitansehen musst, dass er die Leiche im Regen durch eine Matschpfütze zieht. Du kannst noch sehen, wie er ihren Kopf zuschaufelt, als die Vision endet.</i>\n\nErhalte den besonderen Gegenstand: Kultsiegel"
+EventClue3A.text,"<i>Der Raum ist leer, mit Außnahme der verbrannten Umrisse eines Meschen auf dem Küchentisch. Bei näherer Betrachtung findest du einen Silbernen Schlüssel in den rußigen Überresten.\nSchwarze Fußspuren führen die Foyertreppen hinauf und weiter rechts den Flur entlang. Erhalte den besonderen Gegenstand: Silberner Schlüssel</i>"
+EventGetLantern.text,Nimm den Gegenstand: Keronsinlampe
+EventClue2A.text,"<i>Du findest einen Tagebucheintrag, datiert auf den 5. Juli 1918.\n""Der Zustand meine Frau hat begonnen sich zu verschlechtern. Da ich weiß, dass es für sie nur eine Frage der Zeit ist, habe ich einen Ort für sie und die anderen Leichen tief in der Erde vorbereitet.""</i>\n\nErhalte einen Hinweismarker und den besonderen Gegenstand: Kultsiegel"
+EventGetItem5.text,Nimm den Gegenstand: Kerosinlampe
+EventGetAxe.text,Nimm den Gegenstand: Axt
+EventGetItem4.text,Nimm den Gegenstand: Axt
+EventGetHeal.text,Erhalte Zauber: Vertrocknen.
+EventGetItem2.text,Nimm den Gegenstand: Whisky
+EventGetItem1.text,Nimm den Gegenstand: Beruhigungsmittel
+ACTIONSEARCH,{action} Durchsuchen
+ACTIONEXPLORE,{action} Erkunden
+FORFEIT,Aufgeben
+NO,Nein
+PLACE1BARRICADE,"Platziere einen Barrikadenmarker, wie gezeigt."
+PLACE1EXPLORETOKEN,"Platziere einen Erkundungsmarker, wie gezeigt."
+PLACE2EXPLORETOKEN,"Platziere zwei Erkundungsmarker, wie gezeigt."
+PLACE4EXPLORETOKEN,"Platziere vier Erkundungsmarker, wie gezeigt."
+PLACE2SEARCHTOKEN,"Platziere zwei Durchsuchungsmarker, wie gezeigt."
+PLACE3SEARCHTOKEN,"Platziere drei Durchsuchungsmarker, wie gezeigt."
+PLACE1WALLTOKEN,"Platziere einen Wandmarker, wie gezeigt."
+PLACEWALLTOKEN,"Platziere die Wandmarker, wie gezeigt."
+THEEND,Ende
+UNABLETOATTACK,Angriff nicht möglich
+UNLOCK,Aufschließen
+YES,Ja
+TokenCeremonyBarred.text,<i>Diese Tür führt tiefer unter das Haus.</i>
+TokenBasement2A.text,<i>Seltsame Fläschchen stehen auf einer Bank</i>
+TokenBasementDoor2A.text,<i>Am Fuße der Treppe befindet sich eine Tür.</i>
+TokenBasementDoor2ALocked.text,"<i>Die Tür des Zimmers ist verschlossen. Das Schloss lässt sich nur öffnen, wenn man das richtige Siegel besitzt.</i>\n\nDer Marker kann nur von einem Ermittler erkundet werden, welcher den Gegenstand Kultsiegel besitzt."
+TokenGuest3A.text,<i>Die Schränke könnten etwas Interessantes enthalten.</i>
+TokenGuestDoor3A.text,<i>Diese Tür führt ins Gästezimmer.</i>
+TokenGuestDoor3BLocked.text,<i>Diese Tür führt ins Gästezimmer.</i>\n\nDieser Marker kann nur von einem Ermittler mit dem Gegenstand Silberner Schlüssel erkundet werden.
+TokenStorage3A.text,<i>Eine der Kisten hat seltsame Markierungen.</i>
+TokenStorageDoor.text,<i>Diese Tür führt in den Lagerraum.</i>
+TokenMaster3A.text,<i>Die Schränke könnten etwas Interessantes enthalten.</i>
+TokenMaster3B.text,<i>Hinter dem Stuhl siehst du einen Koffer.</i>
+TokenMasterDoor3A.text,<i>Diese Tür führt zum Schlafzimmer.</i>
+TokenMasterDoor3ALocked.text,"<i>Diese Tür führt zum Schlafzimmer, sie kann von einem Ermittler erkundet werden, der den Silbernen Schlüssel besitzt.</i>"
+TokenKitchen3A.text,<i>Etwas unheimliches liegt auf dem Tisch.</i>
+TokenKitchen3B.text,<i>Die Tür des Küchenschranks wurde offen gelassen.</i>
+TokenFreezer3A.text,<i>Das Eis des Kühlfachs schmilzt langsam vor sich hin und tropft auf den Boden.</i>
+TokenOperating3A.text,<i>Dieser Raum scheint der Schauplatz dunkler Machenschaften gewesen zu sein.</i>
+TokenGarden2A.text,<i>Etwas ist gegen die Wand gelehnt.</i>
+TokenGarden2B.text,<i>Die Erde hier wurde aufgewühlt.</i>
+TokenGardenDoor2A.text,<i>Diese Tür führt nach draußen in den Garten.</i>
+TokenGardenDoor2BLocked.text,"<i>Die Tür, welche nach draußen in den Garten führt ist verschlossen. Das Schloss lässt sich nur öffnen, wenn man das richtige Siegel besitzt.</i>\n\nDieser Marker kann nur von einem Ermittler mit dem Gegenstand Silberner Schlüssel erkundet werden."
+EventNo1E.text,"Villen des Wahnsinns, erste Edition wurde nicht aktiviert.\n\nDieses Szenario ist noch nicht für die zweite Edition angepasst."
+EventPrologue.text,"Leichter Regen fällt auf eure Gesichter, als ihr euer Auto vor dem Anwesen verlasst. Das Haus ist riesig, ungepflegt und umgeben von unheimlicher Stille, als ihr darauf zugeht. Ihr poltert an der Tür, aber es gibt keine Antwort. Einen Moment darauf geht sie knarrend von alleine auf und ihr betretet das Foyer der riesigen Villa."
+EventFoyerTile.text,"Platziere das Spielplanteil {MAD01}Foyer, wie gezeigt."
+EventInvestigators.text,"Platziere die Ermittler, wie gezeigt. Jeder Ermittler bekommt zwei Hinweismarker."
+EventFoyerSearchToken.text,<i>Eine Garderobe ist am Ende des Flurs zu sehen.</i>\n\nPlatziere einen Durchsuchungsmarker wie gezeigt.
+EventPrologue3A.text,"Als ihr einen Fuß in das leerstehende Heim setzt, bemerkt ihr den leichten Geruch von verbranntem Fleisch. Vielleicht hat jemand vergessen die Ofen auszustellen?"
+EventPrologue3B.text,"Obwohl das Gebäude steinalt ist, ist es mucksmäuschenstill. Als ob es wartend auf ein Unheil den Atem anhalten würde. Die Stille wird plötzlich von einem markerschütternden Schrei, welcher aus der Richtung des Labors herüberhallt durchbrochen. Das Haus wackelt wie bei einem Erdbeben und staubige Gemälde fallen von den Wänden."
+EventKitchenTile.text,"Platziere das Spielplanteil {MAD01}Speisesaal, wie gezeigt."
+EventExporeLabTile.text,"Platziere das {MAD01}Laboratorium, wie gezeigt."
+EventHallTile.text,"Platziere die Spielplanteile {MAD01}Flur 2 und {MAD01}Flur 4, wie gezeigt."
+EventGardenTile.text,Platziere das Spielplanteil {MAD01}Eingangsbereich wie gezeigt.
+EventGardenAddSearch.text,"<i>Da ist etwas unter dem Stuhl.</i>\n\nPlatziere einen Erkundungsmarker, wie gezeigt."
+EventBasementTile.text,"Platziere das Spielplanteil {MAD01}Kellertreppe, wie gezeigt."
+EventBasementAddSearch.text,"<i>Im Schatten fällt dir etwas auf.</i>\n\nPlatziere einen Erkundungsmarker, wie gezeigt."
+EventMasterLock.text,"<i>Die Tür ist verschlossen, du benötigst einen Schlüssel.</i>"
+EventMasterLockKey.text,<i>Die Tür ist verschlossen. Dieser Marker kann nur von einem Ermittler mit dem Gegenstand Silberner Schlüssel erkundet werden.</i>
+EventMasterTile.text,"Platziere das Spielplanteil {MAD01}Schlafzimmer des Hausherren, wie gezeigt."
+EventMasterSearch3A.text,"<i>Die Schränke könnten etwas Interessantes enthalten.</i>\n\nPlatziere einen Durchsuchungsmarker, wie gezeigt."
+EventMasterSearch3B.text,"<i>Hinter dem Stuhl siehst du einen Koffer.</i>\n\nPlatziere einen Durchsuchungsmarker, wie gezeigt."
+EventGuestTile.text,"Platziere das Spielplanteil {MAD01}Gästezimmer, wie gezeigt."
+EventGuestSearch3A.text,"<i>Die Schränke könnten etwas interessantes enthalten.</i>\n\nPlatziere einen Durchsuchungsmarker, wie gezeigt."
+EventStorageExplore3A.text,"<i>Eine der Kisten hat seltsame Markierungen.</i>\n\nPlatziere einen Durchsuchungsmarker, wie gezeigt."
+EventGardenLock.text,"<i>Die Tür, welche nach draußen zum Garten führt ist mit einem Schloss versehen, welches sich nur öffnen lässt, wenn man die richtige Kombination kennt.</i>"
+EventGardenLockKey.text,"<i>Die Tür, welche nach draußen zum Garten führt ist mit einem Schloss versiegelt.</i>\n\nSie lässt sich nur von einem Ermittler mit dem Gegenstand Kultsiegel öffnen."
+EventGardenLockUnlocked.text,"<i>Die Erde hier wurde aufgewühlt.</i>\n\nPlatziere einen Durchsuchungsmarker, wie gezeigt."
+EventGardenJammed.text,<i>Du ächzt schwer bei dem Versuch die Tür aufzustemmen.</i>\n\n{strength}-Test.
+EventGardenExplore2A.text,"<i>Etwas ist gegen die Wand gelehnt.</i>\n\nPlatziere einen Durchsuchungsmarker, wie gezeigt."
+EventBasementLock.text,"<i>Die Tür des Zimmers ist verschlossen. Das Schloss lässt sich nur öffnen, wenn man das richtige Siegel besitzt.</i>"
+EventBasementLockKey.text,"<i>Die Tür, welche in den Raum führt ist mit einem Schloss versiegelt.</i>\n\nSie lässt sich nur von einem Ermittler mit dem Gegenstand Kultsiegel öffnen."
+EventCeremonyExplore.text,"<i>Als du nach dem Türgriff fasst, durchzieht eine dunkle Präsenz die Tür. Du beruhigst dich erst wieder, als du feststellst, dass die Tür sich lediglich nicht aufmachen lässt.</i>"
+EventGuestStorageDoor.text,<i>Die Tür in diesen Raum ist mit einem verrosteten Kombinationsschloß gesichert.</i>
+EventPuzzlebox.text,"<i>Du findest eine Kiste, die mit kryptischen Runen verziert ist.</i>"
+EventSuitcase.text,"<i>Du findest einen robusten Koffer, der mit einem simplen Kombinationsschloß gesichert ist.</i>"
+EventGetEvidence3A.text,<i>Du entdeckst beunruhigende Beweise.</i>\n\nNimm drei Hinweismarker.
+EventGetItem3.text,<i>Du findest einen alten Folianten.</i>\n\n{lore}-Test
+EventFailHeal.text,"<i>Gedankenverloren siehst du vor dir Symbole, welche du zuordnen möchtest, doch sie halten nicht still. Als du aus deine Trance erwachst sind die Symbole verschwunden.</i>"
+EventGetItem6.text,<i>Du findest nichts interessantes.</i>
+EventGetItem7.text,"<i>Keiner der Gegenstände die du findest ist nützlich, aber sie bieten dir neue Einsichten zum aktuellen Fall.</i>\n\nErhalte einen Hinweismarker."
+EventGetItem8.text,"<i>Keiner der Gegenstände die du findest ist nützlich, aber sie bieten dir neue Einsichten zum aktuellen Fall.</i>\n\nErhalte zwei Hinweismarker."
+EventGetItem9.text,"<i>Keiner der Gegenstände die du findest ist nützlich, aber sie bieten dir neue Einsichten zum aktuellen Fall.</i>\n\nErhalte zwei Hinweismarker."
+EventGetItem10.text,"<i>Keiner der Gegenstände die du findest ist nützlich, aber sie bieten dir neue Einsichten zum aktuellen Fall.</i>\n\nErhalte drei Hinweismarker."
+EventClue1A.text,"<i>Du hast eine Vision von Walter, der eine Seance durchführt um Kontakt zu seinem toten Sohn aufzunehmen. Du siehst zu, wie sich ein ungebetener Geist über seine Gedanken legt und ihm befiehlt: ""BRING MIR SEELEN!""</i>"
+EventClue1BShoggoth.text,<i>Irgendwo im Haus benutzt Walter dein Fleisch und Blut für eine alte Beschwörung. Der Boden bebt und fegt Bücher und allerlei anderen Tand auf den Boden.</i>
+EventClue1BNoShoggoth.text,<i>Irgendwo im Haus benutzt Walter dein Fleisch und Blut für eine alte Beschwörung. Der Boden bebt und fegt Bücher und allerlei anderen Tand auf den Boden.</i>\n\nAufgabe: Hindere die Verrückten dabei Proben zu nehmen.
+EventClue1C.text,"<i>Walters Stimme hallt durch die Villa: ""WIR MÜSSEN ES FÜTTERN!"" Dann erfüllt ein schmerzhafter Chor aus krankhaften Grunzen das Anwesen. Ein nevenzerreißender Ton, fast, jedoch nicht ganz menschlich.</i>\n\nPlatziere einen Erkundungsmarker wie gezeigt.\nAufgabe: Entkomme durch den Eingang."
+SpawnManiac.text,<i>Die Tür zerberstet in Splittern und ein wahnsinniger Mann betritt das Zimmer.</i>\n\nPlatziere einen Wahnsinnigen auf den Feld von {rnd:hero}
+EventShoggothMove.text,Ist ein Shoggothe auf dem angegebenen Feld?
+EventShoggothMoveTowards.text,Der Shoggothe bewegt sich zwei Felder auf das angegebene Feld zu.
+EventEndLose1B.text,<i>Walter hat oben im Dachboden seine Aufgabe erledigt und erhängt sich selbst.</i>
+EventManiacSample.text,<i>Der Wahnsinnige zieht an deinen Haaren.</i>\n\nDer Ermittler auf dem selben Feld wie der Wahnsinnige mit der geringsten {agility} muss einen Test auf ({agility}; 1) druchführen.
+EventManiacSample.button1,Kein Ermittler auf dem Feld
+EventManiacSample.button2,Erfolg
+EventManiacSample.button3,Misserfolg
+EventManiacSampleFail.text,<i>Der Wahnsinnige reißt dir einige Haare aus.</i>
+SpawnShoggothBasement.text,"Platziere den Shoggothen auf den angegebenen Feld.\nAufgabe: Verhindere, dass der Shoggothe flieht."
+EventEndWin1B.text,"<i>Der Shoggothe fällt zu Boden und bildet eine sich krümmende Masse aus Tentakeln. Der Wahnsinn, den Walter von seiner Reise mitgebracht hat, ist für immer vernichtet.</i>"
+EventTimer1NoClue.text,<b>Die Uhr schlägt 10</b>\n\nJeder Ermittler erleidet einen Horror.
+EventTimer22ANoManiac.text,<b>Die Uhr schlägt 11</b>\n\nDer Uhrschlag durchbricht die unheimliche Stille.
+EventTimer22A.text,<b>Die Uhr schlägt 11</b>\n\n<i>Ein Wahnsinniger nimmt seine Axt und läuft den Flur herunter.</i>\n\nDer Wahnsinnige bewegt sich zwei Felder auf den nahesten Ermittler zu.
+EventTimer22B.text,"<b>Die Uhr schlägt 11</b>\n\n<i>Die Lampen gehen für eine Moment aus, als die Einschläge von Schusswaffen durch den Flur hallen.</i>\n\nJeder Ermittler auf einem Feld im einem Schlafzimmer erhält zwei Schaden."
+EventTimer2NoClue.text,<b>Die Uhr schlägt 11</b>\n\nJeder Ermittler erleidet einen Horror.
+EventTimer41A.text,<b>Die Uhr schlägt 1</b>\n\n<i>Der Boden bebt gewaltig.</i>
+EventTimer41B.text,<b>Die Uhr schlägt 1</b>\n\n<i>Das alte Haus ächzt.</i>\n\nAufgabe: Hindert die Wahnsinnigen daran Proben zu sammeln.
+EventTimer41BShoggoth.text,<b>Die Uhr schlägt 1</b>\n\n<i>Das alte Haus ächzt.</i>
+EventTimer41CClue.text,<b>Die Uhr schlägt 1</b>\n\nDie Vordertür verschließt sich mit einem lauten Klicken.
+EventTimer41C.text,"<b>Die Uhr schlägt 1</b>\n\nDie Vordertür verschließt sich mit einem lauten Klicken.\n\nPlatziere einen Erkundungsmarker, wie gezeigt.\nAufgabe: Entkomme durch den Ausgang im Foyer."
+EventEndLose1A.text,"<b>Die Uhr schlägt 2</b>\n\n<i>Als die Uhr 2 schlägt beginnt der Boden zu beben.\nEtwas uraltes tief unter dem Haus zerrt am Fundament und zieht es tiefer in den Erdboden hinein. Alle Fragen nach dem Warum werden hinten angestellt, da die Ermittler und Monstrositäten immernoch verzweifelt um ihr Leben kämpfen.\nUnter einem Haufen von Schutt und Leichen gackert der besessene Walter Lynch schwach vor sich hin und haucht seine letzten Atemzüge aus.</i>"
+EventEndWinTime1B.text,"<b>Die Uhr schlägt 2</b>\n\n<i>Als die Uhr 2 schlägt beginnt der Boden zu beben.\nEtwas uraltes tief unter dem Haus zerrt am Fundament und zieht es tiefer in den Erdboden hinein. Alle Fragen nach dem Warum werden hinten angestellt, da die Ermittler und Monstrositäten immernoch verzweifelt um ihr Leben kämpfen.\nDer Shoggothe fällt zu Boden und bildet eine sich krümmende Masse aus Tentakeln. Der Wahnsinn, welchen Walter von seiner Reise mitgebracht hat, ist für immer vernichtet.</i>"
+EventEndLoseTime1C.text,"<b>Die Uhr schlägt 2</b>\n\n<i>Als die Uhr 2 schlägt beginnt der Boden zu beben.\nEtwas uraltes tief unter dem Haus zerrt am Fundament und zieht es tiefer in den Erdboden hinein. Alle Fragen nach dem Warum werden hinten angestellt, da die Ermittler und Monstrositäten immernoch verzweifelt um ihr Leben kämpfen.</i>"
+EventDarkRoom.text,"<i>Du öffnest die Tür, doch kannst du in der Dunkelheit nichts erkennen. Du tastest nach einem Lichtschalter, doch findest keinen.</i>\n\nPlatziere einen Dunkelheitsmarker auf jedem Feld des neu erkundeten Raumes."
+EventDarkRoomGuest.text,"<i>Du öffnest die Tür, doch kannst du in der Dunkelheit nichts erkennen. Du tastest nach einem Lichtschalter, doch findest keinen.</i>\n\nPlatziere einen Dunkelheitsmarker auf jedem Feld des Gästezimmers."
+EventMoveIn.text,Du darfst dich ein Feld in den erkundeten Raum bewegen.
+TokenFoyer.text,<i>Eine Gardrobe ist am Ende des Flurs zu sehen.</i>
+TokenDiningDoor.text,<i>Diese Tür führt in die Küche.</i>
+TokenBasementStairDoor.text,<i>Diese Tür führt in den Keller.</i>
+TokenHallDoor.text,<i>Diese Tür führt in den Flur.</i>
+TokenLabDoor.text,"<i>Diese Tür führt durch den Garten, in das Labor.</i>"
+TokenEntryDoor.text,<i>Diese Tür führt in den Garten</i>
+TokenDining.text,<i>Verschiedene Gegenstände liegen auf dem Tisch.</i>
+TokenKitchenStorage.text,<i>Unterschiedlicher Müll liegt zwischen den dreckigen Töpfen und Pfannen.</i>
+TokenLab.text,<i>Das meiste der Ausrüstung ist dir ganz und gar unbekannt.</i>
+TokenSearchHall2.text,<i>Ein Schränkchen steht an einer Wand.</i>
+TokenSearchHall4.text,<i>In einer Ecke steht eine Kiste.</i>
+TokenBasementStoreSearch.text,<i>Ein paar Werkzeuge liegen verstreut zwischen Farbtöpfen.</i>
+EventPowerFailure.text,<i>Die Lampen in diesen Zimmer wollen sich partout nicht anschalten lassen.</i>\n\nPlatziere einen Dunkelheitsmarker im Operationsraum.
+EventPowerRestore.text,Entferne alle Dunkelheitsmarker des Operationsraums.
+SpawnTimer1Zombie3A.text,"<b>Die Uhr schlägt 10</b>\n\n<i>Eine feurige Gestalt poltert den Flur herunter, Richtung Schlafzimmer.</i>\n\nPlatziere einen Zombie und einen Feuermarker auf dem angegebenen Feld. Platziere einen Feuermarker auf jedem Feld, auf welchen der Zombie angegriffen wird und dabei Schaden nimmt."
+SpawnTimer1Zombie3AFoyer.text,"<b>Die Uhr schlägt 10</b>\n\n<i>Eine feurige Gestalt poltert den Flur herunter.</i>\n\nPlatziere einen Zombie und einen Feuermarker auf dem angegebenen Feld. Platziere einen Feuermarker auf jedem Feld, auf welchen der Zombie angegriffen wird und dabei Schaden nimmt."
+SpawnTimer1Zombie3B.text,<b>Die Uhr schlägt 10</b>\n\n<i>Die hautlosen Überreste in erbärmlicher Gestalt eines Mannes schlagen die Tür zum Labor auf.</i>\n\nPlatziere einen Zombie auf dem angegebenen Feld. Jeder Ermittler erleidet einen Horror.
+SpawnTimer3Zombie2A.text,"<b>Die Uhr schlägt 12</b>\n\n<i>Ein belebter Leichnahm erhebt sich von seinem Liegeplatz.\nDen Bildern nach zu urteilen handelt es sich um den Körper von Edith Lynch, die bereits Wochen tot ist.</i>\n\nPlatziere einen Zombie auf dem angegebenen Feld."
+SpawnWalter2.text,Platziere einen Wahnsinnigen auf dem Feld von {rnd:hero}. Der Wahnsinnige ist Walter Lynch.\n\nAufgabe: Besiege Walter Lynch.
+EventEndWin1A2.text,"<i>Als er am Boden zusammenbricht beruhigt sich euer Atem und ihr seid erleichtert. Eurem Auftraggeber wird das gar nicht gefallen, aber wenigstens habt ihr den Einfluss des bösen Geistes in dieser Welt beseitigt.</i>"
+CustomMonsterShoggoth.monstername,Shoggothe
+ActivationShoggoth1.ability,Der Shoggothe greift den Ermittler auf seinem oder einem angrenzenden Feld mit der niedrigsten {observation} an.
+ActivationShoggoth1.master,"Mit alarmierender Geschwindigkeit versucht die Kreatur dich mit seiner schieren Masse zu überwältigen ({agility}; 2). Bist du erfolgreicht, hast du es knapp geschafft nicht von der Welle einer amorphen, geligen Masse wabernder Augen zerdrückt zu werden; erleide einen Horror. Bist du nicht erfolgreicht, drückt dich die Kreatur zu flach Boden und deine Lugen werden unter dem gewaltigen Gewicht zusammengepresst. Vielzählige Münder nagen an deinem Fleisch; Erleide zwei schaden und werde Aufgehalten."
+ActivationShoggoth2.ability,"Der Shoggothe greift den Ermittler auf seinem oder einem angrenzenden Feld an, der am meisten Schaden genommen hat."
+ActivationShoggoth2.master,"Die Kreatur bewegt wie ein Mahlstrom auf dich zu. Teile von Fleisch und Schleim spritzen dir entgegen und bedecken Gesicht und Körper ({will}; 2). Bist du erfolgreich, schluckst du deine Angst runter und springst zur Seite um dem Malstrom zu entgehen; Erleide zwei verdeckten Schaden. Bist du nicht erfolgreich, wirst du vom Gestank der überwältigt und schlägst hart auf dem Leib der Monströsität auf; Erleide zwei Schaden, werde Benommen und bewege dich ein Feld vom Shoggothen weg."
+ActivationShoggoth3.ability,Der Shoggothe greift jeden Ermittler auf seinem oder einem angrenzenden Feld an.
+ActivationShoggoth3.master,"Verschiedene gallertartige peitschenartige Anhängsel schlagen um sich, greifen alles und jeden den und ziehen ihn zu den füchterlichen Schlund der Kreatur ({strength}; 2). Bist du erfolgreich, kämpfst du dich aus dem schleimigen Griff frei. Bist du nicht erfolgreich, ergreifen dich die suchenden Anhängsel und ziehen dich schreiend und umsichschlagend zu der Kreatur; Erleide einen verdeckten Schaden und bewege dich ein Feld auf den Shoggothen zu, werde Aufgehalten."
+TokenBasementStairs.text,<i>Im Schatten fällt dir etwas auf.</i>
+TokenEntry.text,<i>Da ist etwas unter dem Stuhl.</i>
+EventEndLose1C.text,"<i>Der Leichenhaufen stinkt vor Verwesung. Er ist groß genug um den Virus zu besänftigen. Mehr besucher können immernoch eingeladen werden, sollte sich die Notwendigkeit ergeben."
+EventEndLoseEliminated.text,<i>Die übrigen Ermittler entkommen nur knapp ihrem Untergang. Unglücklicherweise übersteht das Böse diesen Tag und diese tiefen Narben daraus werden nicht einfach heilen.</i>
+TokenFrontDoor.text,Ein Ermittler kann eine Aktion aufbringen um aus der Villa zu fliehen.
+TokenFrontDoor.button1,{action} Fliehen
+EventEscape.text,Sind alle Ermittler aus der Villa entflohen?
+EventEndWin3C.text,<i>Den Kampf gegen einen wahnsinnigen Killer und eine Armee von Untoten bezahlt euch keiner. Ihr beschließt zu euren Auftraggeber mit leeren Händen zurückzukommen. Auf eurer Flucht steckt ihr aber das Anwesen in Brand. Sicher ist sicher.</i>
+Spawn1CZombie1.text,Platziere einen Zombie auf dem angezeigten Feld.

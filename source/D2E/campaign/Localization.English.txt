@@ -1,0 +1,38 @@
+.,English
+UILorem.uitext,"We can use UI elements to add text, buttons and images.  While UI items are present heroes cannot end their turn.  When using UI elements test for 16x10 and 16x9 resolution (a number of alignment options are available).  Pressing start will change quest.\n\nLorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum."
+UIStart.uitext,Start
+quest.name,Valkyrie 1.1 Feature Demo
+quest.description,...
+EventTravel.text,This event sets $@travelevent which pulls up an included event then continues the event chain.\n\nThis method can also be used for custom triggers with quest defined vars.
+EventTravel.button1,Continue
+UICity.text,The next event will open up a shop by adding multiple QItems.  A shop event can have a number of buttons.
+UICity.button1,Continue
+EventFame.button1,Continue
+EventFame.text,"This sets item fame levels($%fameimpressive, $%famecelebrated, $%fameheroic and $%famelegendary)."
+EventRestock.text,This restocks all stores (reroll) and other QItems.  The current store must be readded.  This will also remove any sold items from the store.
+EventGold.text,+50 gold.  Note that the store must be reloaded for this to show
+EventGold.button1,Continue
+EventCity.button1,Action
+EventCity.button2,Leave
+EventCity.button3,XP
+EventCity.button4,Gold
+EventCity.button5,Relic
+EventCity.button6,Restock
+EventRestock.button1,Continue
+EventRelic.text,Get a random relic.  $restock must be set to get a different relic (which would also restock the store).  These events can be used to give any item.  We can use c:QItem to get the item name: {c:QItemrelic}.
+EventXP.text,All heroes get 1 XP
+EventXP.button1,Continue
+EventRelic.button1,Continue
+EventMap.text,Because $%fin is set we are doing something different now.\n\nWe can use UI images as a map.
+EventCityAction.text,This is a generic city action.
+EventCityAction.button1,Continue
+EventIcons.text,We can add images for quest and shop icons
+UIQuest.text,This is the last quest.
+UIQuest.button1,Continue
+EventMap.button1,Continue
+EventIcons.button1,Continue
+CustomMonster0.monstername,CustomMonster0
+CustomMonster0.info,-
+Activation0.ability,-
+Activation0.master,master
+Activation0.minion,minion
