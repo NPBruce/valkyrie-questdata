@@ -6,6 +6,13 @@ UIContinue1.uitext,{qst:CONTINUE}
 UIText2.uitext,"Later, in your car, you carefully open the soiled folder.  You find a crude map with directions to a mansion just outside Arkham, Massachusetts.  The drawing is primitive, as if sketched by a child.  Behind the map lies a torn journal entry:\n\n""June 8, 1918: It has been nearly a year since the illness came for my son.  The doctors were mystified as it slowly consumed his flesh.  I am a man of action and could not sit around and wait for my heir to deteriorate.\nNine months I spent traveling the globe. Searching for a cure. From the depths of the jungles to the wisdom of the orient, I found nothing. I kept searching, deeper and deeper into the lost places of the world and beyond. I witnessed many mysteries and horrors, but the cure still eluded me.\n\nLittle did I know that it was already too late.  Back home, my son passed from this world with no father there to comfort him.\n\nI returned home to my wife Edith, intending to stay for good.  We grieved.  Life slowly returned to normal and I returned to work.  I started up new business ventures and grew my fortune while my soul languished.\n\nThe healing process was not easy, but I found that helping mend Edith's heart helped me ignore my own pain."""
 UIText3.uitext,"A breifer entry lies on the back.\n\n""January 21, 1919: How could this happen?  Why could this happen?\n\nYou try to protect yourself.  You try to protect your family, but it doesn't matter.\n\nOh Edith, your're all I have.  How could it happen to you?\n\nI MUST dig deeper.  I will turn over stones that I dared not touch.  I WILL find answers!"""
 UIContinue2.uitext,{qst:CONTINUE}
+EventInvestigators.text,Place investigators in the space shown.  Each investigator gains two Clue tokens.
+EventInvestigators.button1,{qst:CONTINUE}
+EventFoyerExploreTokens.text,{qst:PLACE4EXPLORETOKEN}
+PLACE4EXPLORETOKEN,Place 4 Explore Tokens as shown.
+EventFoyerExploreTokens.button1,{qst:CONTINUE}
+EventPrologue3A.text,As you set foot in the vacant home you notice the faint smell of burnt food.  Perhaps someone forgot to turn off the stove?
+EventPrologue3A.button1,{qst:CONTINUE}
 quest.name,The Fall of House Lynch
 quest.description,Conversion of the Mansions Of Madness first edition scenario.
 UIBegin.button1,Button1
@@ -37,7 +44,6 @@ NO,No
 PLACE1BARRICADE,Place 1 barricade as shown.
 PLACE1EXPLORETOKEN,Place one Explore Token as shown.
 PLACE2EXPLORETOKEN,Place 2 Explore Tokens as shown.
-PLACE4EXPLORETOKEN,Place 4 Explore Tokens as shown.
 PLACE2SEARCHTOKEN,Place 2 Search Tokens as shown.
 PLACE3SEARCHTOKEN,Place 3 Search Tokens as shown.
 PLACE1WALLTOKEN,Place 1 Wall Token as shown.
@@ -113,14 +119,8 @@ EventPrologue.text,"Light rain falls on your face as you exit your car in front 
 EventPrologue.button1,{qst:CONTINUE}
 EventFoyerTile.text,Place {MAD01}Foyer tile as shown.
 EventFoyerTile.button1,{qst:CONTINUE}
-EventInvestigators.text,Place investigators in the space shown.  Each investigator gains two Clue tokens.
-EventInvestigators.button1,{qst:CONTINUE}
 EventFoyerSearchToken.text,<i>A hall stand is against the wall on this landing.</i>\n\nPlace a Search Token as shown.
 EventFoyerSearchToken.button1,{qst:CONTINUE}
-EventFoyerExploreTokens.text,{qst:PLACE4EXPLORETOKEN}
-EventFoyerExploreTokens.button1,{qst:CONTINUE}
-EventPrologue3A.text,As you set foot in the vacant home you notice the faint smell of burnt food.  Perhaps someone forgot to turn off the stove?
-EventPrologue3A.button1,{qst:CONTINUE}
 EventPrologue3B.text,"Although the house is ancient, it doesn't make a single groan.  It feels like the house is holding its breath, waiting for something awful to happen.  The silence is suddenly shattered by a bloodcurdling screaming, echoing from the direction of the laboratory.  The house shakes like there's an earthquake, and dusty paintings fall off the walls."
 EventPrologue3B.button1,{qst:CONTINUE}
 EventKitchenTile.text,Place {MAD01}Dining Room tile as shown.
