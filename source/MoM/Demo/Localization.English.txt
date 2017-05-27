@@ -1,7 +1,7 @@
 .,English
 quest.name,Valkyrie Feature Demo
 quest.description,"This is a demo to show off new features of Valkyrie for scenario developers.  If you are starting out the tutorials on the Valkyrie wiki are the best place to start\n\nThis will have new versions added as they are released, so check back for updates.  This scenario can be copied in the editor to see how things are done."
-quest.authors,<b>Author:</b> Bruce
+quest.authors,<b>[b]Author[/b]</b>\nBruce
 Event0.text,Which version would you like to see features for?
 Event0.button1,1.1
 Event0.button2,1.2
