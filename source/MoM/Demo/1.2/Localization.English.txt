@@ -1,0 +1,21 @@
+.,English
+quest.name,Valkyrie 1.2 Feature Demo
+quest.description,Demo
+Event2.text,This is a quota event that uses a var which has been set to 2.
+Event2.button1,Continue
+Event3.text,The var is :{var:quota}.
+Event3.button1,Continue
+CustomMonster0.monstername,CustomMonster0
+CustomMonster0.info,-
+Spawn0.text,This is a custom monster with custom evade and horror checks.  It also uses the new custom activations which are events and can do all event type things.
+Spawn0.button1,Continue
+Event4.text,This is a new style activation and is an event so it can do all event things.
+Event4.button1,Continue
+Event5.text,This is a custom evade test.
+Event5.button1,Continue
+Event6.text,This is a custom horror test.
+Event6.button1,Continue
+Event0.text,This is an item!
+Event0.button1,Continue
+Event1.text,The QItem this event adds has an 'inspect' event that can be triggered by an investigator in the inventory window.
+Event1.button1,Continue
