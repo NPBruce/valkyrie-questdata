@@ -1,0 +1,18 @@
+.,English
+UIText.uitext,"We can add UI test, images and buttons.  When UI components are present the next stage button doesn't work.  When using UI elements test for 16x10 and 16x9 resolutions (a number of alignment options are available).\n\nLorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.\n"
+UIButton.uitext,Start
+quest.name,Valkyrie 1.1 Feature Demo
+quest.description,Demo
+EventTokens.text,We now have Fire and Darkness tokens.  We can use c:Event to get the investigator selected earlier: {c:EventMusic}.
+EventMusic.text,We can set a custom music list.  {rnd:hero} is a random investigator to use later.
+EventQItem.text,We can give the investigators a QItem using Add components.  All QItems are unique (unless referencing another) so it won't be a starting item.  We can use c:QItem to get the item name: {c:QItem0} and c:Tile to get a tile name: {c:Tile0}.
+EventQItemBoard.text,We can use highlight to place a QItem on the board. Name: {c:QItem1}
+EventTokens.button1,Continue
+EventStartPuzzle.text,Code Puzzles can now use symbols.
+EventQItemBoard.button1,Button1
+EventStartPuzzle.button1,Continue
+Puzzle0.button1,Guess
+EventStart.button1,Continue
+UIButton.button1,Button1
+EventMusic.button1,Continue
+EventQItem.button1,Continue
