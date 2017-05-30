@@ -2,18 +2,115 @@
 quest.name,The Truth
 quest.description,"In a state of confusion a strange new friend sends you on a quest to find ""The Truth""."
 quest.authors,Sly Cozz
-EventRemoveThrall.text,"As you look over the room, the creature runs into the room on the left.\nThe creature ran away as if it was scared of you. Perhaps this is the monster the dog told you about.\n Remove the Thrall from the board."
-EventRemoveThrall.button1,Continue
+EventPipeTest.text,You muster up all your strength to pry the item from the ground ({strength}).
+EventPipeTest.button1,Continue
+EventPipeTest.button2,Fail
+EventGainPipe.text,You pull with all your strength and with one final pull it pops free. Gain the Lead Pipe Common Item then discard this token.
+EventGainPipe.button1,Continue
+EventPlaceSedative.text,On the cabinet you notice something you can use. Place the Sedative Common Item as indicated.
+EventPlaceSedative.button1,Continue
+EventDogYes.text," ""I knew you would. There is a terrible man that live here. He is trying to destroy the very world as we know it. You must stop him and the creatures that live here. If they survive you wont be able to perform the final cleansing of this house. Don't fall for their tricks and let them get away. Their strength will only grow as their ritual continues. But first you will have to gain access to the house. You should find the key you need in your pocket."" \n Confused by what you are hearing you reach into your pocket and sure enough there is the key you have been looking for, but how did it get there?\nGain the Brass Key Unique Item. \nAs you look up to ask the dog how he knew, he was gone.\nRemove the Dog Person Token."
+EventDogYes.button1,Continue
 EventDogNo.text," ""You don't have a choice"" the dog says growling as he snaps at you. You stand your ground but the dog frightens you to your core. Suffer 1 Sanity ({will} Negates). \nThe dog steps back ""There is a terrible man that live here. He is trying to destroy the very world as we know it. You must stop him and the creatures that live here. If they survive you wont be able to perform the final cleansing of this house. Don't fall for their tricks and let them get away. Their strength will only grow as their ritual continues. But first you will have to gain access to the house. You should find the key you need in your pocket."" \n Confused by what you are hearing you reach into your pocket and sure enough there is the key you have been looking for, but how did it get there?\nGain the Brass Key Unique Item. \nAs you look up to ask the dog how he knew, he was gone.\nRemove the Dog Person Token."
 EventDogNo.button1,Continue
+EventConservatoryDoorKey.button1,Continue
+EventGainAxe.text,The shelf drags across the floor and you are able to pull something out from behind it. You gained the Axe Common Item.\nDiscard this Token.
+EventGainAxe.button1,Confirm
+EventGainWrench.text,The shelf drags across the floor and you are able to pull something out from behind it. You gained the Wrench Common Item then discard this token.
+EventGainWrench.button1,Confirm
+EventPapersPass.text,"Digging through the stack of papers you find an address....Robert Jensen. You have heard the name, but you can't quite picture the face. I wonder if this is who I should be looking for? Gain the Circumstantial Evidence Unique Item and 1 Clue then discard this token."
+EventPapersPass.button1,Confirm
+EventPhotoTest.text,You scan over the pictures on the desk and look for anything of importance ({observation}).
+EventPhotoTest.button1,Continue
+EventPhotoTest.button2,Cancel
+EventPhotoPass.text,"Flipping through a photo album you find a picture that draws your eye. It's a picture of you. Why would this guy, Robert Jensen, have a picture of you?\nGain the Photographic Evidence and 1 Clue, then discard this token."
+EventPhotoPass.button1,Continue
+EventHandcuffPass.text,The chest is full of old uniforms and clothes. You drag out each article of clothing one at a time. Finally in the bottom of the chest you find some of his equipment.\nTake the Handcuff Unique Item then discard this token.
+EventHandcuffPass.button1,Continue
+EventHallPapersPass.text,"Searching over and over through a pile of what looks like legal documents you stumble upon a crayon drawing. Its a picture of a little girl standing with a police officer. It reads ""Have a great day at work"".\nGain the Incriminating Evidence Unique Item and 1 Clue, then discard this token."
+EventHallPapersPass.button1,Continue
+EventGainRope.text,You find what is left of an old used rope. There should be enough left to be of use.\n Gain the Rope Unique Item and discard this token.
+EventGainRope.button1,Continue
+EventGainKeysPass.text,"The figure finally drops its guard for just a second to speak to you, \n""I am not coming out. What you want is upstairs. Just leave us alone"".\nThe figure reaches into its pocket, pulls out a set of keys, and throws it at the window. Gain the Old Keys Unique Item and discard this token."
+EventGainKeysPass.button1,Continue
+EventFindRevolver.text,The safe opens and you find a small handgun.\nGain the .38 Revolver Common Item and discard this token.
+EventFindRevolver.button1,Continue
+EventMissingLinkPass.text,"You stumble across a card that wasn't written by a child.\nIt reads, ""Hope you have a great Birthday. Love Grandma and Grandpa J."".\nGain the Missing Link Unique Item and 1 Clue, then discard this token."
+EventMissingLinkPass.button1,Continue
+EventgainLuckyCigCase.text,Looking over the shelves you find something that seems to be of use.\nGain the Lucky Cigarette Case Common Item and remove this token.
+EventgainLuckyCigCase.button1,Continue
+EventGainBible.text,Looking over the shelves you find something that seems to be of use.\nGain the King James Bible Common Item and remove this token.
+EventGainBible.button1,Continue
+EventGainRabbitFoot.text,Looking over the shelves you find something that seems to be of use.\nGain the Lucky Rabbit's Foot Common Item and remove this token.
+EventGainRabbitFoot.button1,Continue
+EventFindMeatCleaver.text,You search through the shelf to find something of use. Gain the Meat Cleaver Common Item and discard this token.
+EventFindMeatCleaver.button1,Continue
+EventGainMagnifyingGlass.text,Looking over the shelves you find something that seems to be of use.\nGain the Magnifying Glass Common Item and remove this token.
+EventGainMagnifyingGlass.button1,Continue
+EventRitualPass.text,"Looking over the floor you see markings....in crayon. To the side of the markings you see a small box, a Ouija board.\nGain the Ritual Components Unique Item and discard this token."
+EventRitualPass.button1,Continue
+EventPriestDied.text,"The figure falls to the ground crying to you ""Why?""."
+EventPriestDied.button1,Continue
+EventThrallDied.text,"The creature falls to the ground lifeless. A part of you seems to feel empty, but you know you are doing what you need to."
+EventThrallDied.button1,Continue
+EventGuardDied.button1,Continue
+EventGainBlackJack.text,The large brute drops its weapon during its struggle. Place the Blackjack Common Item in the monsters space.
+EventGainBlackJack.button1,Continue
+EventGainOldKeys2.text,Wondering if the figure was carrying anything important you search its pockets for anything useful.\nGain the Old Keys Unique Item.
+EventGainOldKeys2.button1,Continue
+EventPlaceWhiskey.text,On the table sits a bottle of liquor. Place the Whiskey Bottle Common Item as indicated.
+EventPlaceWhiskey.button1,Continue
+EventPlacePocketWatch.text,A pocket watch sits on a small table. Place the Pocket Watch Common Item as indicated.
+EventPlacePocketWatch.button1,Continue
+EventPlaceSinkSearch.text,Water seems to be coming from a sink that is still running. Place a Search Token as indicated.
+EventPlaceSinkSearch.button1,Continue
+EventMedicalTextbook.text,On the cabinet you notice something you can use. Place the Medical Textbook Common item as indicated.
+EventMedicalTextbook.button1,Continue
+EventBandages.text,On the cabinet you notice something you can use. Place the Bandages Common Item as indicated.
+EventBandages.button1,Continue
+CustomMonsterPriest.monstername,Priest
+ActivationCustomAct.ability,The creature does not move. This creature will only attack an investigator in its space.
+ActivationCustomAct.movebutton,The monster hides.
+ActivationCustomAct.master,"Desperate to defend itself, the creature lunges at you trying to dig its claws into your eyes ({agility}, 2). If you pass, you kick the monster back as it charges at you. If you fail, the monster clings to your face as it digs its claws into your eyes. Take 2 Damage and become Dazed."
+ActivationCustomAct.move,The monster refuses to come out.
+EventAttack1.text,"Desperate to defend itself, the creature lunges at you trying to dig its claws into your eyes ({agility}, 2). If you pass, you kick the monster back as it charges at you. If you fail, the monster clings to your face as it digs its claws into your eyes. Take 2 Damage and become Dazed."
+EventAttack1.button1,Continue
+ActivationCustomAct2.ability,The creature does not move. This creature will only attack an investigator in its space.
+ActivationCustomAct2.movebutton,The monster hides.
+ActivationCustomAct2.master,"The monster reaches for anything in sight that might cause damage to you. It hurls glass and heavy objects at you hoping to fend you off ({agility}, 2). If you pass, you manage to dodge the items as they fly by your head. If you fail, you try to dodge the incoming projectiles as they fly towards you. A glass bottle hits you in the face drawing blood. Take 2 damage and become Stunned."
+ActivationCustomAct2.move,The monster refuses to come out.
+EventAttack2.text,"The monster reaches for anything in sight that might cause damage to you. It hurls glass and heavy objects at you hoping to fend you off ({agility}, 2). If you pass, you manage to dodge the items as they fly by your head. If you fail, you try to dodge the incoming projectiles as they fly towards you. A glass bottle hits you in the face drawing blood. Take 2 damage and become Stunned."
+EventAttack2.button1,Continue
+ActivationCustomAct3.ability,The creature does not move. This creature will only attack an investigator in its space.
+ActivationCustomAct3.movebutton,The monster hides.
+ActivationCustomAct3.master,"The creature rushes towards you chanting a mysterious message ({will}, 2). If you pass, you push the monster back tuning out the words it continues to recite. If you fail, you struggle to keep the monster off of you as it recites the mystic words ""one of us"". Take 2 damage and become Mesmorized."
+ActivationCustomAct3.move,The monster refuses to come out.
+EventAttack3.button1,Continue
+EventAttack3.text,"The creature rushes towards you chanting a mysterious message ({will}, 2). If you pass, you push the monster back tuning out the words it continues to recite. If you fail, you struggle to keep the monster off of you as it recites the mystic words ""one of us"". Take 2 damage and become Mesmorized."
+EventAttack.button1,Continue
+CustomMonsterCustomThrall.monstername,Creature
+EventActivation.button1,<i>The Monster Attacks</i>
+EventActivation.text,The creature does not move. This creature will only attack an investigator in its space.
+EventActivation.button2,<i>The Monster Hides</i>
+EventMonsterHides.text,The monster refuses to come out.
+EventMonsterHides.button1,Continue
+EventGain2x4.text,You pull with all your strength and with one final pull it pops free. Gain the 2x4 Common Item then discard this token.
+EventGainMachete.button1,Continue
+EventGainMachete.text,The shelf drags across the floor and you are able to pull something out from behind it. You gained the Machete Common Item then discard this token.
+EventGain2x4.button1,Continue
+EventSearchAxe.text,You look over the shelf and find nothing of interest but you notice something behind the shelves. You push as hard as you can against the shelf hoping to make enough room to reach behind it ({strength}).
+EventSearchAxe.button1,Continue
+EventSearchAxe.button2,Fail
+EventPlaceAxeShelf.text,A large shelf is stocked with several tools and gardening supplies.\n Place a Search Token as indicated.
+EventPlaceAxeShelf.button1,Continue
+EventRemoveThrall.text,"As you look over the room, the creature runs into the room on the left.\nThe creature ran away as if it was scared of you. Perhaps this is the monster the dog told you about.\n Remove the Thrall from the board."
+EventRemoveThrall.button1,Continue
 TokenDog.text,"A large black dog sits patiently, watching your every move. His thick coat shines in the moonlight."
 TokenDog.button1,{action} Approach Dog
 EventSpeaktoDog.text,"The dog looks up at you and as reach out to pet it, ""I knew you would come"". You jump back startled that the dog just spoke to you.  Wondering if you were still dreaming the dog speaks again ""Will you help me?"
 EventSpeaktoDog.button1,Yes
 EventSpeaktoDog.button2,No
 EventSpeaktoDog.button3,Cancel
-EventDogYes.text," ""I knew you would. There is a terrible man that live here. He is trying to destroy the very world as we know it. You must stop him and the creatures that live here. If they survive you wont be able to perform the final cleansing of this house. Don't fall for their tricks and let them get away. Their strength will only grow as their ritual continues. But first you will have to gain access to the house. You should find the key you need in your pocket."" \n Confused by what you are hearing you reach into your pocket and sure enough there is the key you have been looking for, but how did it get there?\nGain the Brass Key Unique Item. \nAs you look up to ask the dog how he knew, he was gone.\nRemove the Dog Person Token."
-EventDogYes.button1,Continue
 PuzzleFixLockPad.button1,Complete
 PuzzleFinalRitual.button1,Complete
 PuzzleFinalRitual.button2,Close
@@ -33,24 +130,8 @@ EventWhyKill.button1,Continue
 EventDogDisapears.text,"The dog growls ""You have everything you need. Now do what you came here for"". You raise your hands up to guard yourself fearing the dog could attack. Facing your fear you open your eyes to find the dog is no longer there.\nGain 1 Clues and discard the Dog Person Token."
 EventSearchBarricade.text,You tell the creature to come out but it won't listen. You look over the closet but you don't see a way in other than to bust through. Gain 1 Clues and discard this token.
 EventClosetSearch.text,The creature is locked up in the closet. You might be able to coax it out. Place a Search Token as indicated.
-EventPapersPass.text,"Digging through the stack of papers you find an address....Robert Jensen. You have heard the name, but you can't quite picture the face. I wonder if this is who I should be looking for? Gain the Circumstantial Evidence Unique Item and 1 Clue then discard this token."
-EventPhotoPass.text,"Flipping through a photo album you find a picture that draws your eye. It's a picture of you. Why would this guy, Robert Jensen, have a picture of you?\nGain the Photographic Evidence and 1 Clue, then discard this token."
 EventFlowersbedPipe.text,Something odd seems to be stuck in the bed of flowers.\nPlace a Search Token as indicated.
-EventHallPapersPass.text,"Searching over and over through a pile of what looks like legal documents you stumble upon a crayon drawing. Its a picture of a little girl standing with a police officer. It reads ""Have a great day at work"".\nGain the Incriminating Evidence Unique Item and 1 Clue, then discard this token."
-EventMissingLinkPass.text,"You stumble across a card that wasn't written by a child.\nIt reads, ""Hope you have a great Birthday. Love Grandma and Grandpa J."".\nGain the Missing Link Unique Item and 1 Clue, then discard this token."
 EventTurnOffSink.text,The water is still running and the plug is in the drain. Someone must have forgotten about it. You turn the water off and wonder who left the water running.\nGain 1 clues and discard this token.
-ActivationCustomAct.ability,The creature does not move. This creature will only attack an investigator in its space.
-ActivationCustomAct.movebutton,The monster hides.
-ActivationCustomAct.master,"Desperate to defend itself, the creature lunges at you trying to dig its claws into your eyes. Test ({agility}, 2). If you pass, you kick the monster back as it charges at you. If you fail, the monster clings to your face as it digs its claws into your eyes. Take 2 Damage and become Dazed."
-ActivationCustomAct.move,The monster refuses to come out.
-ActivationCustomAct2.ability,The creature does not move. This creature will only attack an investigator in its space.
-ActivationCustomAct2.movebutton,The monster hides.
-ActivationCustomAct2.master,"The monster reaches for anything in sight that might cause damage to you. It hurls glass and heavy objects at you hoping to fend you off. Test ({agility}, 2). If you pass, you manage to dodge the items as they fly by your head. If you fail, you try to dodge the incoming projectiles as they fly towards you. A glass bottle hits you in the face drawing blood. Take 2 damage and become Stunned."
-ActivationCustomAct2.move,The monster refuses to come out.
-ActivationCustomAct3.ability,The creature does not move. This creature will only attack an investigator in its space.
-ActivationCustomAct3.movebutton,The monster hides.
-ActivationCustomAct3.master,"The creature rushes towards you chanting a mysterious message. Test ({will}, 2). If you pass, you push the monster back tuning out the words it continues to recite. If you fail, you struggle to keep the monster off of you as it recites the mystic words ""one of us"". Take 2 damage and become Mesmorized."
-ActivationCustomAct3.move,The monster refuses to come out.
 EventThePriestMoves.text,"The figure moves across the room into the kitchen. ""Stay away"" the figure says as it barricades the entrance to the kitchen. Remove the Priest of Dagon and place a Barricade Token as indicated. "
 EventGameEnd.text,As the spirit fades from existence the weight on the house lifts and the horror is over.\n\nThe investigation is complete!\n\n{success}Thank You for Playing{success}
 EventThefall.text,"Your build your nerve and summon all your bravery. You feel a presence finally leave you as you realize, you are falling...to you death.\n\nThe investigation is complete!\n\n{success}Thank You for Playing{success}"
@@ -139,8 +220,6 @@ SpawnThrall.text, The creature starts barricading the door.\nPlace the Thrall an
 SpawnPriestKitchen.text,The figure moves to the back corner of the kitchen. You can hear it through the window. It sounds like it is summoning help. Place the Priest of Dagon as indicated.
 EventPlaceRestraintExplore.text,If you have an item to restrain another investigator you can use it to restrain a monster.
 EventPlaceRestraint.text,If you have an item to restrain another investigator you can use it to restrain a monster.
-EventPriestDied.text,"The figure falls to the ground crying to you ""Why?""."
-EventThrallDied.text,"The creature falls to the ground lifeless. A part of you seems to feel empty, but you know you are doing what you need to."
 EventRestrainThrall.text,You wrestle the figure to the ground and subdue it with the restraints.\nLeave the monster in its space and place the item card used under the monster.
 EventRestrainGuard.text,You wrestle the figure to the ground and subdue it with the restraints.\nLeave the monster in its space and place the item card used under the monster.
 EventRestrainPriest.text,You wrestle the figure to the ground and subdue it with the restraints.\nLeave the monster in its space and place the item card used under the monster.
@@ -150,15 +229,13 @@ SpawnCultist5.text,They just keep coming. Place a monster as indicated.
 SpawnPriestKitchen.button1,Continue
 EventPlaceOldKeys.text,You can see the figure through the window dividing the rooms. You might be able lure this figure out.\n Place a Interact Token as indicated.
 EventPlaceOldKeys.button1,Continue
-EventPlaceWhiskey.text,On the table sits a bottle of liquor. Place the Whiskey Bottle Common Item as indicated.
-EventPlaceWhiskey.button1,Continue
 EventPlaceMeatCleaver.text,A shelf on the wall contains several cooking items. Place a Search Token as indicated.
 EventPlaceMeatCleaver.button1,Continue
 EventPlaceLibrarySearch.text,Several items are scattered along the shelves.\nYou may be able to find something useful here.\nPlace a Search Token as indicated.
 EventPlaceLibrarySearch.button1,Continue
 EventLibraryBarricade.button1,Continue
 EventRemoveLibraryBarricade.button1,Continue
-PuzzleSmallSafe.text,Test your {observation} to open the safe.
+PuzzleSmallSafe.text,Tap to attempt the puzzle using {observation}.
 EventLargeManDied.text,"Now you start to come to grips with the choices you have made. Who was the large man in the foyer? Was it someone coming to help your family or was it all in your head? Whoever it was, you hope no one was actually killed, but you fear the worst."
 EventPlaceFoyer.text,You see a welcoming foyer and oddly feel at home.\nPlace the {MAD20} Entry Hall Tile and Wall Token as indicated.
 EventPlaceFoyer.button1,Confirm
@@ -166,14 +243,13 @@ EventAddStairsToken2.text,A small door to your left may lead to the upper level.
 EventAddStairsToken2.button1,Continue
 EventPlaceDiningAndBilliards2.button1,Button 1
 EventFoyerAddLibraryToken.text,You notice a door just to the right of you.\nPlace an Explore Token as indicated.
-EventGainMachete.text,The shelf drags across the floor and you are able to pull something out from behind it. You gained the Machete Common Item then discard this token.
 EventPlaceBadRitual.text,The dog has shown faith that you can finally cleanse this house of evil. \nPlace an Interact Token as indicated.
 EventSuicideFail.text,"You built up your courage and tried your best, but you just couldn't do it."
 EventSpawnDogThrall.text,The dog seems to be following you in the house. Place the Dog Person Token as indicated.
 EventPlaceKidsBed.text,You open the door and are surprised to see a kid's room.\nWhat has this creature done with this child?\nPlace the {MAD23}Bedroom Tile as indicated.
 EventSpawnDogPriest.text,The dog seems to have followed you into the house. Place the Dog Person Token as indicated.
 EventRevolation.text,"In a state of insanity you finally find clarity. Finally, <i>The Truth</i>. What you have been looking for. This is your house. This is your family. You were Robert Jensen the whole time. The monster terrorizing this family was you. What started off as a silly board game with your daughter, turned into a seance....a possession. The days after the event you felt different, disconnected from the world. Your family became more distant as you changed. They saw that you were becoming a monster and they were afraid. The anger was real, the rage was real, but it was something else entirely. "
-EventTestRitual.text,You gather your research and open your mind as you start performing the ritual.\n Test your {lore}. You can discard evidence to gain an extra attempt.
+EventTestRitual.text,You gather your research and open your mind as you start performing the ritual. Tap to attempt the puzzle using ({lore}).\n You can discard evidence to gain an extra attempt.
 EventTestRitual.button1,Continue
 EventSpawnGhost.button1,Continue
 EventRevolation.button1,Continue
@@ -184,27 +260,23 @@ EventHappy.text,You thank the Lord you were able to fight the urge long enough t
 EventHappy.button1,Continue
 EventLargeManDied.button1,Continue
 EventGirlDied.button1,Continue
-EventGainKeysPass.text,"The figure finally drops its guard for just a second to speak to you, \n""I am not coming out. What you want is upstairs. Just leave us alone"".\nThe figure reaches into its pocket, pulls out a set of keys, and throws it at the window. Gain the Old Keys Unique Item and discard this token."
 EventBeginBadRitual.text,"""You have done well"" says the dog, ""You are ready to begin the final step to cleanse this house""."
-EventSuicide.text,You close your eyes and dig deep down in your soul. Test your {will}. You may discard any evidence to convert a {clue} into a {success}. 
+EventSuicide.text,You close your eyes and dig deep down in your soul ({will}). You may discard any evidence to convert a {clue} into a {success}. 
 EventFailPapers.text,You search and search but there just doesn't seem to be anything of interest.\n
 EventHallPapersFail.text,"You look at the pages over and over, but there is just nothing there."
-EventGainKeysTest.text,You hear the figure calling our for help. You plead with it stop. Test your {influence}.
-CustomMonsterCustomThrall.monstername,Creature
-CustomMonsterPriest.monstername,Priest
+EventGainKeysTest.text,You hear the figure calling our for help. You plead with it stop ({influence}).
 EventHelpComes.button1,Button 1
 EventPlaceAttic.text,You open the door to a small attic. Place the {MAD23} Attic Storage Tile as indicated.
 EventPlaceBarSearch.text,A small bar seems to be stocked with several bottles. Place a Search Token as indicated.
 Tokengun.text,The bar is well stocked with whiskey and scotch.
 EventPlaceBarSearch.button1,Continue
-EventFindSafe.text,"You find a small safe under the bar. \nThere could be something of use in it, if you can get it open.\nTest your {observation} to open the safe."
+EventFindSafe.text,"You find a small safe under the bar. \nThere could be something of use in it, if you can get it open.\nTap to attempt the puzzle using {observation}."
 EventPlaceDining.text,The door opens to a large dining hall. Place the {MAD20} Dining Room Tile and Wall Tokens as indicated.
 EventPlaceAtticStairsExplore.text,A door at the top of the stairs appears to be locked. Place an Explore Token as indicated.
 EventHandcuff.text,A small chest sits at the end of the bed. Place a Search Token as indicated.
-EventRitualPass.text,"Looking over the floor you see markings....in crayon. To the side of the markings you see a small box, a Ouija board.\nGain the Ritual Components Unique Item and discard this token."
 TokenRitual.text,A small area has been cleared out on the floor.
 TokenPerformRitual.text,This is the ritual they were keeping from you. You can complete their ritual.
-EventRitualTest.text,You look over the floor trying to find out what happened here. Test your {lore}.
+EventRitualTest.text,You look over the floor trying to find out what happened here ({lore}).
 EventPlaceRitualThrall.text,The ritual is ready for you to complete. Place an Interact Token as indicated.
 EventPlaceRitualThrall.button1,Continue
 TokenPerformRitual.button1,{action} Perform Ritual
@@ -214,29 +286,24 @@ TokenBilliardsExplore.text,The door has the subtle sound of music coming from be
 EventKidsSearch.text,A small dresser surrounded by toys sits across the room.\nPlace a Search Token as indicated.
 EventKidsSearch.button1,Continue
 SpawnThrall.button1,Continue
-EventPlaceSinkSearch.text,Water seems to be coming from a sink that is still running. Place a Search Token as indicated.
 SpawnSpawnThrall.text,"A creature appears in the distance. ""What are you doing?"" the creature screams as it backs away from you.\nPlace a Thrall as indicated."
-EventPorchSearchTest.text,Several items are stored in a crate against the wall. Test your {observation}.
+EventPorchSearchTest.text,Several items are stored in a crate against the wall ({observation}).
 TokenPorchSearch.text,You see a large box of old stuff lying on the porch. You might be able to find something useful.
 TokenPorchSearch.button1,{action} Search
-EventBreakDoor.text,You use whatever you can find to pry the door open. \nTest your {strength}. If you have a Heavy Weapon Common Item test your {strength} + 2.
-EventGainRope.text,You find what is left of an old used rope. There should be enough left to be of use.\n Gain the Rope Unique Item and discard this token.
+EventBreakDoor.text,You use whatever you can find to pry the door open ({strength}). If you have a Heavy Weapon Common Item ({strength} + 2).
 EventStackofPapers.text,You notice a small stack of papers piled up on the corner table.\nPlace a Search Token as indicated.
 EventSolvePuzzle.text,You managed to guess the code as if you knew it all along. \nThe house opens to a small entry way. Place the {MAD20} Bathroom Tile as indicated.
 EventSolvePuzzle2.text,You managed to reroute the wires and you hear a click. \nThe house opens to a small entry way. Place the {MAD20} Bathroom Tile as indicated.
 EventExploreRoom.text,You may move 1 space into the explored area.
 EventStart4Conservatory.text,You notice a door in front of you that leads to the Conservatory.\nPerhaps you can get into the house through this door.\nPlace an Explore Token as indicated.
 EventPlaceAtticStairsExplore.button1,Continue
-EventSearchPapers.text,You shuffle through the papers looking for something of interest. Test your {observation}.
+EventSearchPapers.text,You shuffle through the papers looking for something of interest ({observation}).
 EventSearchPapers.button1,Continue
 EventSearchPapers.button2,Fail
-EventPhotoTest.text,You scan over the pictures on the desk and look for anything of importance.\nTest your {observation}.
-EventPhotoTest.button1,Continue
-EventPhotoTest.button2,Cancel
-EventMissingLinkTest.text,Your eyes scan over a dresser covered with crayon colored drawings hoping to find something that stands out. Test your {observation}.
+EventMissingLinkTest.text,Your eyes scan over a dresser covered with crayon colored drawings hoping to find something that stands out ({observation}).
 EventMissingLinkTest.button1,Continue
 EventMissingLinkTest.button2,Button 2
-EventHallSearchPapers.text,Gathering the papers up you look for something important. Test your {observation}.
+EventHallSearchPapers.text,Gathering the papers up you look for something important ({observation}).
 EventHallSearchPapers.button1,Continue
 EventHallSearchPapers.button2,Button 2
 EventWhereisRitual.text,"""That's not important. They want to perform a sacrifice to complete the ritual. They may try to lead you there. It is a trap. Do not trust them."""
@@ -250,9 +317,6 @@ EventPlaceHallwayTile2.button1,Continue
 SpawnSpawnThrall.button1,Continue
 TokenStairs2.text,A door leads further into the house.
 TokenStairs2.button1,{action} Explore
-EventgainLuckyCigCase.text,Looking over the shelves you find something that seems to be of use.\nGain the Lucky Cigarette Case Common Item and remove this token.
-EventPlacePocketWatch.text,A pocket watch sits on a small table. Place the Pocket Watch Common Item as indicated.
-EventPlacePocketWatch.button1,Continue
 EventPhoto.text,The owner's personal items sit on the end table. Place a Search Token as indicated.
 EventPhoto.button1,Continue
 TokenDiningExplore.text,The door has a sweet aroma coming from behind it.
@@ -263,7 +327,6 @@ EventSearchPainting.button1,Continue
 EventPlacePainting.button1,Continue
 EventPlacePainting.text,A large painting hangs on the far end of the pool room. Place a Search Token as indicated.
 EventPlaceBilliards.text,The door opens to a small room with a pool table. Place the {MAD20} Billiards Room as indicated.
-EventRitualPass.button1,Continue
 EventEvidenceRequired5Player.button1,Continue
 EventPlaceRitualMain.button1,Continue
 SpawnCultist2.text,They have surrounded the house. Place the monster as indicated.
@@ -287,40 +350,30 @@ TokenBushes.text,You hear a loud rustle in the bushes.
 EventSpawnDogPriest.button1,Continue
 TokenDogPriest.text,The dog sits in the foyer watching your every movement.
 TokenDogPriest.button1,Speak to the Dog
-EventSearchChest.text,Digging through the chest you find an officers uniform. \nYou search for any other equipment he may have left here.\nTest your {observation}.
+EventSearchChest.text,Digging through the chest you find an officers uniform. \nYou search for any other equipment he may have left here ({observation}).
 EventSearchChest.button1,Continue
 EventSearchChest.button2,Button 2
 TokenHandcuffs.text,A small chest sits at the foot of the bed.
 TokenHandcuffs.button1,{action} Search
-EventHandcuffPass.text,The chest is full of old uniforms and clothes. You drag out each article of clothing one at a time. Finally in the bottom of the chest you find some of his equipment.\nTake the Handcuff Unique Item then discard this token.
-EventConservatoryDoorKey.button1,Continue
 EventYardView.text,Now that the dog is gone it might be safe for you to look around the yard. Place a Sight Token as indicated.
 EventFlowersbedPipe.button1,Continue
 TokenKidBedSearch.text,A small kid's dresser sits against the wall.
 TokenKidBedSearch.button1,{action} Search
 EventThrallMoves.text,The creature backs towards a small closet at the end of the room.\nRemove the Thrall from the board.
 EventStart1Tile.button1,Continue
-EventSearchAxe.text,You look over the shelf and find nothing of interest but you notice something behind the shelves. You push as hard as you can against the shelf hoping to make enough room to reach behind it.\nTest your {strength}.
 EventOpenHouseExplore.text,You notice a door across the room. It probably leads into the house.\n Place an Explore Token as indicated.
 TokenConservatoryKey.text,You might be able to access the house through the Conservatory. You can only explore if you have the Brass Key Unique Item.
 TokenConservatoryKey.button1,{action} Explore Observatory
-EventPlaceAxeShelf.text,A large shelf is stocked with several tools and gardening supplies.\n Place a Search Token as indicated.
-EventPlaceAxeShelf.button1,Continue
-EventGainMachete.button1,Continue
 EventBathroomToken.text,A small door looks like it leads to small bathroom.\nPlace an Explore Token as indicated.
-EventPlaceSedative.text,On the cabinet you notice something you can use. Place the Sedative Common Item as indicated.
-EventBandages.text,On the cabinet you notice something you can use. Place the Bandages Common Item as indicated.
-EventMedicalTextbook.text,On the cabinet you notice something you can use. Place the Medical Textbook Common item as indicated.
 EventPhotoFail.text,You look and look but nothing seems of any importance.
 EventPhotoFail.button1,Continue
 TokenRitual.button1,{action} Search
 EventRitualTest.button1,Continue
 EventRitualTest.button2,Button 2
 TokenBushes.button1,{action} Search Bushes
-EventGuessKeyPad.text,The door seems to be locked by a key pad. Perhaps it will open if you can guess the right combination. Use your {observation} to open the door.
-EventRewirePad.text,The door seems to be locked by a key pad. Perhaps it will open if you can reroute the wires. Use your {observation} to open the door.
+EventGuessKeyPad.text,The door seems to be locked by a key pad. Perhaps it will open if you can guess the right combination. Tap to attempt the puzzle using {observation}.
+EventRewirePad.text,The door seems to be locked by a key pad. Perhaps it will open if you can reroute the wires. Tap to attempt the puzzle using {observation}.
 EventPlaceLibraryExploreToken.text,You notice a door across the room that may gain you access to the house.\nPlace an Explore Token as indicated.
-EventHandcuffPass.button1,Continue
 EventPorchSearchTest.button1,Continue
 EventPorchSearchTest.button2,Cancel
 TokenAtticStairs.button1,Continue
@@ -335,9 +388,6 @@ TokenAtticNoKey.text,A small door at the top of the steps appears to be locked.
 TokenAtticNoKey.button1,Continue
 TokenOpenHouse.text,A door you believe leads into the house.
 TokenOpenHouse.button1,{action} Explore
-EventGain2x4.text,You pull with all your strength and with one final pull it pops free. Gain the 2x4 Common Item then discard this token.
-EventGainPipe.text,You pull with all your strength and with one final pull it pops free. Gain the Lead Pipe Common Item then discard this token.
-EventGainWrench.text,The shelf drags across the floor and you are able to pull something out from behind it. You gained the Wrench Common Item then discard this token.
 TokenPorch.text,The porch is locked but seems to have a large enough gap to pry it open. You might be able to force it open.
 TokenPorch.button1,{action} Explore
 EventBreakDoor.button1,Continue
@@ -346,32 +396,25 @@ EventGuessKeyPad.button1,Attempt Key Pad
 EventGuessKeyPad.button2,Cancel
 EventRewirePad.button1,Rewire the Pad
 EventRewirePad.button2,Cancel
-PuzzleKeyCode.text,Use your {observation} to open the door.
+PuzzleKeyCode.text,Tap to attempt the puzzle using {observation}.
 PuzzleKeyCode.button1,Complete
 PuzzleKeyCode.button2,Close
 EventSolvePuzzle2.button1,Continue
 TokenAxe.button1,{action} Search
-EventSearchAxe.button2,Fail
-EventSearchAxe.button1,Continue
 EventFailAxe.text,You push with all your might but the shelf is just too heavy
-EventGainRope.button1,Continue
 EventBalconySight.text,"You are overcome by a gorgeous view, but quickly the fear sets in as you look down. A fall would certainly spell doom."
 EventPlaceBalcony2.button1,Continue
 EventGameEnd.button1,Continue
-EventGuardDied.button1,Continue
-EventGainBlackJack.text,The large brute drops its weapon during its struggle. Place the Blackjack Common Item in the monsters space.
 EventNoneCaptured.button1,Continue
 EventKillMonster.button1,Continue
 EventPlaceRestraintExplore.button1,Continue
 EventNoRestraints.button1,Continue
 EventPlaceStairsFromHallway.text,A set of stairs leads to the lower level of the house. Place the {MAD23} Hall Stairs Tile and Door Token as indicated.
 EventPlaceStairs2.text,A set of stairs leads to the upper level of the house. Place the {MAD23} Hall Stairs Tile and Door Token as indicated.
-EventFindMeatCleaver.text,You search through the shelf to find something of use. Gain the Meat Cleaver Common Item and discard this token.
 EventPlaceStairsFromHallway.button1,Continue
 EventAddStairDoors2.text,A door at the far end of the stairs leads further into the house. Add an Explore Token as indicated.
 TokenKitchenSearch.text,Several cooking items are stored on the shelf.
 TokenKitchenSearch.button1,{action} Search
-EventFindMeatCleaver.button1,Continue
 TokenBarricadeInfo.text,The creature has barricaded itself in the closet.
 TokenBarricadeInfo.button1,{action} Search
 EventClosetSearch.button1,Continue
@@ -387,7 +430,6 @@ TokenFindPipe.button1,{action} Search Flowers
 TokenStackofPapers.text,A stack of papers on the corner desk. You may be able to find out who lives here.
 TokenStackofPapers.button1,{action} Search
 TokenBalconyDoor.button1,TokenBalconyDoor.button1
-EventGainOldKeys2.text,Wondering if the figure was carrying anything important you search its pockets for anything useful.\nGain the Old Keys Unique Item.
 EventGainKeysTest.button1,Continue
 EventGainKeysTest.button2,Button 2
 EventPlaceMasterBed.text,The door opens to an adult's bedroom. Place the {MAD20} Bedroom 2 Tile as indicated.
@@ -408,12 +450,7 @@ EventPlaceBalconySight.text,A balcony overlooks the estate. Place a Sight Token 
 EventPlaceRitualPriest.text,The ritual is ready for you to complete. Place an Interact Token as indicated.
 EventPlaceBadRitual.button1,Continue
 EventDogMad.button1,Continue
-EventPapersPass.button1,Confirm
-EventPhotoPass.button1,Continue
-EventMissingLinkPass.button1,Continue
-EventHallPapersPass.button1,Continue
 EventRestrainMonster.button1,Continue
-EventGainKeysPass.button1,Continue
 EventPlaceStairs2.button1,Confirm
 TokenAtticStairsKey.text,The door leads to what you believe is top floor of the house. You can explore this room if you have the Old Keys Unique Item.
 TokenAtticStairsKey.button1,{action} Explore
@@ -425,12 +462,8 @@ EventSuicideFail.button1,Continue
 EventPlaceRitualPriest.button1,Continue
 EventRestrainPriest.button1,Continue
 EventPlaceRestraint.button1,Continue
-EventPriestDied.button1,Continue
-EventThrallDied.button1,Continue
-EventGainOldKeys2.button1,Continue
 EventRestrainThrall.button1,Continue
 EventRestrainGuard.button1,Continue
-EventGainBlackJack.button1,Continue
 EventDogDisapears.button1,Continue
 TokenAtticExplore.text,A door leads to a room at the top of the house.
 TokenAtticExplore.button1,{action} Explore
@@ -439,13 +472,6 @@ EventRitualFail.text,Your focus shifts from the floor to look over the cluttered
 EventRitualFail.button1,Continue
 EventPlaceBalconySight.button1,Continue
 TokenBalconySight.text,A balcony overlooks the estate. You may view this if you are on the {MAD23} Balcony Tile.
-EventgainLuckyCigCase.button1,Continue
-EventGainBible.text,Looking over the shelves you find something that seems to be of use.\nGain the King James Bible Common Item and remove this token.
-EventGainBible.button1,Continue
-EventGainRabbitFoot.button1,Continue
-EventGainRabbitFoot.text,Looking over the shelves you find something that seems to be of use.\nGain the Lucky Rabbit's Foot Common Item and remove this token.
-EventGainMagnifyingGlass.button1,Continue
-EventGainMagnifyingGlass.text,Looking over the shelves you find something that seems to be of use.\nGain the Magnifying Glass Common Item and remove this token.
 EventThePriestMoves.button1,Continue
 SpawnSpawnPriest.button1,Continue
 EventPlaceAtticStairs.button1,Continue
@@ -459,20 +485,14 @@ CustomMonsterPriest.info,-
 EventPlaceDining.button1,Continue
 PuzzleSmallSafe.button1,Complete
 PuzzleSmallSafe.button2,Close
-EventFindRevolver.text,The safe opens and you find a small handgun.\nGain the .38 Revolver Common Item and discard this token.
 EventFindSafe.button1,Continue
 Tokengun.button1,{action} Search
 TokenBilliardsExplore.button1,{action} Explore
 TokenBalconyExplore.text,You feel a cool breeze coming from the bottom of the door.
 TokenBalconyExplore.button1,{action} Explore
 EventPlaceBilliards.button1,Continue
-EventFindRevolver.button1,Continue
 TokenBalconySight.button1,Continue
 EventBalconySight.button1,Continue
-EventPlaceSedative.button1,Continue
-EventBandages.button1,Continue
-EventMedicalTextbook.button1,Continue
-EventPlaceSinkSearch.button1,Continue
 SpawnSpawnThrall2.text,"The creature backs away from you, ""Just go away"".\nPlace a Thrall as indicated."
 SpawnSpawnThrall2.button1,Continue
 EventThrallMoves.button1,Continue
@@ -514,18 +534,10 @@ EventPlaceYardSight.text,The yard continues to the lower floor of the house.\nPl
 EventPlaceYardSight.button1,Confirm
 EventOpenHouseExplore.button1,Continue
 EventFailAxe.button1,Continue
-EventGainPipe.button1,Continue
 EventFailedGainPipe.text,You pulled with all your strength but could not pry the item loose.
 EventFailedGainPipe.button1,Continue
-EventPipeTest.text,You muster up all your strength to pry the item from the ground. Test your {strength}.
-EventPipeTest.button1,Continue
-EventPipeTest.button2,Fail
-EventGain2x4.button1,Continue
 EventSolvePuzzle.button1,Continue
 EventBathroomToken.button1,Continue
-EventGainAxe.text,The shelf drags across the floor and you are able to pull something out from behind it. You gained the Axe Common Item.\nDiscard this Token.
-EventGainAxe.button1,Confirm
-EventGainWrench.button1,Confirm
 EventFailPapers.button1,Confirm
 EventPlaceHallway.button1,Continue
 EventExploreHall.text,There is a door across the room leading further into the house.\nPlace an Explore Token as indicated.
