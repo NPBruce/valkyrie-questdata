@@ -2,15 +2,41 @@
 quest.name,The Truth
 quest.description,"In a state of confusion a strange new friend sends you on a quest to find ""The Truth""."
 quest.authors,Sly Cozz
-EventGainMachete.text,The shelf drags across the floor and you are able to pull something out from behind it. You gained the Machete Common Item then discard this token.
-EventGainMachete.button1,Continue
+CustomMonsterPriest.monstername,Priest
+ActivationCustomAct.ability,The creature does not move. This creature will only attack an investigator in its space.
+ActivationCustomAct.movebutton,The monster hides.
+ActivationCustomAct.master,"Desperate to defend itself, the creature lunges at you trying to dig its claws into your eyes ({agility}, 2). If you pass, you kick the monster back as it charges at you. If you fail, the monster clings to your face as it digs its claws into your eyes. Take 2 Damage and become Dazed."
+ActivationCustomAct.move,The monster refuses to come out.
+EventAttack1.text,"Desperate to defend itself, the creature lunges at you trying to dig its claws into your eyes ({agility}, 2). If you pass, you kick the monster back as it charges at you. If you fail, the monster clings to your face as it digs its claws into your eyes. Take 2 Damage and become Dazed."
+EventAttack1.button1,Continue
+ActivationCustomAct2.ability,The creature does not move. This creature will only attack an investigator in its space.
+ActivationCustomAct2.movebutton,The monster hides.
+ActivationCustomAct2.master,"The monster reaches for anything in sight that might cause damage to you. It hurls glass and heavy objects at you hoping to fend you off ({agility}, 2). If you pass, you manage to dodge the items as they fly by your head. If you fail, you try to dodge the incoming projectiles as they fly towards you. A glass bottle hits you in the face drawing blood. Take 2 damage and become Stunned."
+ActivationCustomAct2.move,The monster refuses to come out.
+EventAttack2.text,"The monster reaches for anything in sight that might cause damage to you. It hurls glass and heavy objects at you hoping to fend you off ({agility}, 2). If you pass, you manage to dodge the items as they fly by your head. If you fail, you try to dodge the incoming projectiles as they fly towards you. A glass bottle hits you in the face drawing blood. Take 2 damage and become Stunned."
+EventAttack2.button1,Continue
+ActivationCustomAct3.ability,The creature does not move. This creature will only attack an investigator in its space.
+ActivationCustomAct3.movebutton,The monster hides.
+ActivationCustomAct3.master,"The creature rushes towards you chanting a mysterious message ({will}, 2). If you pass, you push the monster back tuning out the words it continues to recite. If you fail, you struggle to keep the monster off of you as it recites the mystic words ""one of us"". Take 2 damage and become Mesmorized."
+ActivationCustomAct3.move,The monster refuses to come out.
+EventAttack3.button1,Continue
+EventAttack3.text,"The creature rushes towards you chanting a mysterious message ({will}, 2). If you pass, you push the monster back tuning out the words it continues to recite. If you fail, you struggle to keep the monster off of you as it recites the mystic words ""one of us"". Take 2 damage and become Mesmorized."
+EventAttack.button1,Continue
+CustomMonsterCustomThrall.monstername,Creature
+EventActivation.button1,<i>The Monster Attacks</i>
+EventActivation.text,The creature does not move. This creature will only attack an investigator in its space.
+EventActivation.button2,<i>The Monster Hides</i>
+EventMonsterHides.text,The monster refuses to come out.
+EventMonsterHides.button1,Continue
 EventGain2x4.text,You pull with all your strength and with one final pull it pops free. Gain the 2x4 Common Item then discard this token.
+EventGainMachete.button1,Continue
+EventGainMachete.text,The shelf drags across the floor and you are able to pull something out from behind it. You gained the Machete Common Item then discard this token.
 EventGain2x4.button1,Continue
 EventGainAxe.text,The shelf drags across the floor and you are able to pull something out from behind it. You gained the Axe Common Item.\nDiscard this Token.
 EventGainAxe.button1,Confirm
 EventGainWrench.text,The shelf drags across the floor and you are able to pull something out from behind it. You gained the Wrench Common Item then discard this token.
 EventGainWrench.button1,Confirm
-EventSearchAxe.text,You look over the shelf and find nothing of interest but you notice something behind the shelves. You push as hard as you can against the shelf hoping to make enough room to reach behind it.\nTest your {strength}.
+EventSearchAxe.text,You look over the shelf and find nothing of interest but you notice something behind the shelves. You push as hard as you can against the shelf hoping to make enough room to reach behind it ({strength}).
 EventSearchAxe.button1,Continue
 EventSearchAxe.button2,Fail
 EventPlaceAxeShelf.text,A large shelf is stocked with several tools and gardening supplies.\n Place a Search Token as indicated.
@@ -52,18 +78,6 @@ EventFlowersbedPipe.text,Something odd seems to be stuck in the bed of flowers.\
 EventHallPapersPass.text,"Searching over and over through a pile of what looks like legal documents you stumble upon a crayon drawing. Its a picture of a little girl standing with a police officer. It reads ""Have a great day at work"".\nGain the Incriminating Evidence Unique Item and 1 Clue, then discard this token."
 EventMissingLinkPass.text,"You stumble across a card that wasn't written by a child.\nIt reads, ""Hope you have a great Birthday. Love Grandma and Grandpa J."".\nGain the Missing Link Unique Item and 1 Clue, then discard this token."
 EventTurnOffSink.text,The water is still running and the plug is in the drain. Someone must have forgotten about it. You turn the water off and wonder who left the water running.\nGain 1 clues and discard this token.
-ActivationCustomAct.ability,The creature does not move. This creature will only attack an investigator in its space.
-ActivationCustomAct.movebutton,The monster hides.
-ActivationCustomAct.master,"Desperate to defend itself, the creature lunges at you trying to dig its claws into your eyes. Test ({agility}, 2). If you pass, you kick the monster back as it charges at you. If you fail, the monster clings to your face as it digs its claws into your eyes. Take 2 Damage and become Dazed."
-ActivationCustomAct.move,The monster refuses to come out.
-ActivationCustomAct2.ability,The creature does not move. This creature will only attack an investigator in its space.
-ActivationCustomAct2.movebutton,The monster hides.
-ActivationCustomAct2.master,"The monster reaches for anything in sight that might cause damage to you. It hurls glass and heavy objects at you hoping to fend you off. Test ({agility}, 2). If you pass, you manage to dodge the items as they fly by your head. If you fail, you try to dodge the incoming projectiles as they fly towards you. A glass bottle hits you in the face drawing blood. Take 2 damage and become Stunned."
-ActivationCustomAct2.move,The monster refuses to come out.
-ActivationCustomAct3.ability,The creature does not move. This creature will only attack an investigator in its space.
-ActivationCustomAct3.movebutton,The monster hides.
-ActivationCustomAct3.master,"The creature rushes towards you chanting a mysterious message. Test ({will}, 2). If you pass, you push the monster back tuning out the words it continues to recite. If you fail, you struggle to keep the monster off of you as it recites the mystic words ""one of us"". Take 2 damage and become Mesmorized."
-ActivationCustomAct3.move,The monster refuses to come out.
 EventThePriestMoves.text,"The figure moves across the room into the kitchen. ""Stay away"" the figure says as it barricades the entrance to the kitchen. Remove the Priest of Dagon and place a Barricade Token as indicated. "
 EventGameEnd.text,As the spirit fades from existence the weight on the house lifts and the horror is over.\n\nThe investigation is complete!\n\n{success}Thank You for Playing{success}
 EventThefall.text,"Your build your nerve and summon all your bravery. You feel a presence finally leave you as you realize, you are falling...to you death.\n\nThe investigation is complete!\n\n{success}Thank You for Playing{success}"
@@ -171,7 +185,7 @@ EventPlaceLibrarySearch.text,Several items are scattered along the shelves.\nYou
 EventPlaceLibrarySearch.button1,Continue
 EventLibraryBarricade.button1,Continue
 EventRemoveLibraryBarricade.button1,Continue
-PuzzleSmallSafe.text,Test your {observation} to open the safe.
+PuzzleSmallSafe.text,Tap to attempt the puzzle using {observation}.
 EventLargeManDied.text,"Now you start to come to grips with the choices you have made. Who was the large man in the foyer? Was it someone coming to help your family or was it all in your head? Whoever it was, you hope no one was actually killed, but you fear the worst."
 EventPlaceFoyer.text,You see a welcoming foyer and oddly feel at home.\nPlace the {MAD20} Entry Hall Tile and Wall Token as indicated.
 EventPlaceFoyer.button1,Confirm
@@ -185,7 +199,7 @@ EventSpawnDogThrall.text,The dog seems to be following you in the house. Place t
 EventPlaceKidsBed.text,You open the door and are surprised to see a kid's room.\nWhat has this creature done with this child?\nPlace the {MAD23}Bedroom Tile as indicated.
 EventSpawnDogPriest.text,The dog seems to have followed you into the house. Place the Dog Person Token as indicated.
 EventRevolation.text,"In a state of insanity you finally find clarity. Finally, <i>The Truth</i>. What you have been looking for. This is your house. This is your family. You were Robert Jensen the whole time. The monster terrorizing this family was you. What started off as a silly board game with your daughter, turned into a seance....a possession. The days after the event you felt different, disconnected from the world. Your family became more distant as you changed. They saw that you were becoming a monster and they were afraid. The anger was real, the rage was real, but it was something else entirely. "
-EventTestRitual.text,You gather your research and open your mind as you start performing the ritual.\n Test your {lore}. You can discard evidence to gain an extra attempt.
+EventTestRitual.text,You gather your research and open your mind as you start performing the ritual. Tap to attempt the puzzle using ({lore}).\n You can discard evidence to gain an extra attempt.
 EventTestRitual.button1,Continue
 EventSpawnGhost.button1,Continue
 EventRevolation.button1,Continue
@@ -198,25 +212,23 @@ EventLargeManDied.button1,Continue
 EventGirlDied.button1,Continue
 EventGainKeysPass.text,"The figure finally drops its guard for just a second to speak to you, \n""I am not coming out. What you want is upstairs. Just leave us alone"".\nThe figure reaches into its pocket, pulls out a set of keys, and throws it at the window. Gain the Old Keys Unique Item and discard this token."
 EventBeginBadRitual.text,"""You have done well"" says the dog, ""You are ready to begin the final step to cleanse this house""."
-EventSuicide.text,You close your eyes and dig deep down in your soul. Test your {will}. You may discard any evidence to convert a {clue} into a {success}. 
+EventSuicide.text,You close your eyes and dig deep down in your soul ({will}). You may discard any evidence to convert a {clue} into a {success}. 
 EventFailPapers.text,You search and search but there just doesn't seem to be anything of interest.\n
 EventHallPapersFail.text,"You look at the pages over and over, but there is just nothing there."
-EventGainKeysTest.text,You hear the figure calling our for help. You plead with it stop. Test your {influence}.
-CustomMonsterCustomThrall.monstername,Creature
-CustomMonsterPriest.monstername,Priest
+EventGainKeysTest.text,You hear the figure calling our for help. You plead with it stop ({influence}).
 EventHelpComes.button1,Button 1
 EventPlaceAttic.text,You open the door to a small attic. Place the {MAD23} Attic Storage Tile as indicated.
 EventPlaceBarSearch.text,A small bar seems to be stocked with several bottles. Place a Search Token as indicated.
 Tokengun.text,The bar is well stocked with whiskey and scotch.
 EventPlaceBarSearch.button1,Continue
-EventFindSafe.text,"You find a small safe under the bar. \nThere could be something of use in it, if you can get it open.\nTest your {observation} to open the safe."
+EventFindSafe.text,"You find a small safe under the bar. \nThere could be something of use in it, if you can get it open.\nTap to attempt the puzzle using {observation}."
 EventPlaceDining.text,The door opens to a large dining hall. Place the {MAD20} Dining Room Tile and Wall Tokens as indicated.
 EventPlaceAtticStairsExplore.text,A door at the top of the stairs appears to be locked. Place an Explore Token as indicated.
 EventHandcuff.text,A small chest sits at the end of the bed. Place a Search Token as indicated.
 EventRitualPass.text,"Looking over the floor you see markings....in crayon. To the side of the markings you see a small box, a Ouija board.\nGain the Ritual Components Unique Item and discard this token."
 TokenRitual.text,A small area has been cleared out on the floor.
 TokenPerformRitual.text,This is the ritual they were keeping from you. You can complete their ritual.
-EventRitualTest.text,You look over the floor trying to find out what happened here. Test your {lore}.
+EventRitualTest.text,You look over the floor trying to find out what happened here ({lore}).
 EventPlaceRitualThrall.text,The ritual is ready for you to complete. Place an Interact Token as indicated.
 EventPlaceRitualThrall.button1,Continue
 TokenPerformRitual.button1,{action} Perform Ritual
@@ -228,10 +240,10 @@ EventKidsSearch.button1,Continue
 SpawnThrall.button1,Continue
 EventPlaceSinkSearch.text,Water seems to be coming from a sink that is still running. Place a Search Token as indicated.
 SpawnSpawnThrall.text,"A creature appears in the distance. ""What are you doing?"" the creature screams as it backs away from you.\nPlace a Thrall as indicated."
-EventPorchSearchTest.text,Several items are stored in a crate against the wall. Test your {observation}.
+EventPorchSearchTest.text,Several items are stored in a crate against the wall ({observation}).
 TokenPorchSearch.text,You see a large box of old stuff lying on the porch. You might be able to find something useful.
 TokenPorchSearch.button1,{action} Search
-EventBreakDoor.text,You use whatever you can find to pry the door open. \nTest your {strength}. If you have a Heavy Weapon Common Item test your {strength} + 2.
+EventBreakDoor.text,You use whatever you can find to pry the door open ({strength}). If you have a Heavy Weapon Common Item ({strength} + 2).
 EventGainRope.text,You find what is left of an old used rope. There should be enough left to be of use.\n Gain the Rope Unique Item and discard this token.
 EventStackofPapers.text,You notice a small stack of papers piled up on the corner table.\nPlace a Search Token as indicated.
 EventSolvePuzzle.text,You managed to guess the code as if you knew it all along. \nThe house opens to a small entry way. Place the {MAD20} Bathroom Tile as indicated.
@@ -239,16 +251,16 @@ EventSolvePuzzle2.text,You managed to reroute the wires and you hear a click. \n
 EventExploreRoom.text,You may move 1 space into the explored area.
 EventStart4Conservatory.text,You notice a door in front of you that leads to the Conservatory.\nPerhaps you can get into the house through this door.\nPlace an Explore Token as indicated.
 EventPlaceAtticStairsExplore.button1,Continue
-EventSearchPapers.text,You shuffle through the papers looking for something of interest. Test your {observation}.
+EventSearchPapers.text,You shuffle through the papers looking for something of interest ({observation}).
 EventSearchPapers.button1,Continue
 EventSearchPapers.button2,Fail
-EventPhotoTest.text,You scan over the pictures on the desk and look for anything of importance.\nTest your {observation}.
+EventPhotoTest.text,You scan over the pictures on the desk and look for anything of importance ({observation}).
 EventPhotoTest.button1,Continue
 EventPhotoTest.button2,Cancel
-EventMissingLinkTest.text,Your eyes scan over a dresser covered with crayon colored drawings hoping to find something that stands out. Test your {observation}.
+EventMissingLinkTest.text,Your eyes scan over a dresser covered with crayon colored drawings hoping to find something that stands out ({observation}).
 EventMissingLinkTest.button1,Continue
 EventMissingLinkTest.button2,Button 2
-EventHallSearchPapers.text,Gathering the papers up you look for something important. Test your {observation}.
+EventHallSearchPapers.text,Gathering the papers up you look for something important ({observation}).
 EventHallSearchPapers.button1,Continue
 EventHallSearchPapers.button2,Button 2
 EventWhereisRitual.text,"""That's not important. They want to perform a sacrifice to complete the ritual. They may try to lead you there. It is a trap. Do not trust them."""
@@ -299,7 +311,7 @@ TokenBushes.text,You hear a loud rustle in the bushes.
 EventSpawnDogPriest.button1,Continue
 TokenDogPriest.text,The dog sits in the foyer watching your every movement.
 TokenDogPriest.button1,Speak to the Dog
-EventSearchChest.text,Digging through the chest you find an officers uniform. \nYou search for any other equipment he may have left here.\nTest your {observation}.
+EventSearchChest.text,Digging through the chest you find an officers uniform. \nYou search for any other equipment he may have left here ({observation}).
 EventSearchChest.button1,Continue
 EventSearchChest.button2,Button 2
 TokenHandcuffs.text,A small chest sits at the foot of the bed.
@@ -325,8 +337,8 @@ TokenRitual.button1,{action} Search
 EventRitualTest.button1,Continue
 EventRitualTest.button2,Button 2
 TokenBushes.button1,{action} Search Bushes
-EventGuessKeyPad.text,The door seems to be locked by a key pad. Perhaps it will open if you can guess the right combination. Use your {observation} to open the door.
-EventRewirePad.text,The door seems to be locked by a key pad. Perhaps it will open if you can reroute the wires. Use your {observation} to open the door.
+EventGuessKeyPad.text,The door seems to be locked by a key pad. Perhaps it will open if you can guess the right combination. Tap to attempt the puzzle using {observation}.
+EventRewirePad.text,The door seems to be locked by a key pad. Perhaps it will open if you can reroute the wires. Tap to attempt the puzzle using {observation}.
 EventPlaceLibraryExploreToken.text,You notice a door across the room that may gain you access to the house.\nPlace an Explore Token as indicated.
 EventHandcuffPass.button1,Continue
 EventPorchSearchTest.button1,Continue
@@ -352,7 +364,7 @@ EventGuessKeyPad.button1,Attempt Key Pad
 EventGuessKeyPad.button2,Cancel
 EventRewirePad.button1,Rewire the Pad
 EventRewirePad.button2,Cancel
-PuzzleKeyCode.text,Use your {observation} to open the door.
+PuzzleKeyCode.text,Tap to attempt the puzzle using {observation}.
 PuzzleKeyCode.button1,Complete
 PuzzleKeyCode.button2,Close
 EventSolvePuzzle2.button1,Continue
@@ -521,7 +533,7 @@ EventFailAxe.button1,Continue
 EventGainPipe.button1,Continue
 EventFailedGainPipe.text,You pulled with all your strength but could not pry the item loose.
 EventFailedGainPipe.button1,Continue
-EventPipeTest.text,You muster up all your strength to pry the item from the ground. Test your {strength}.
+EventPipeTest.text,You muster up all your strength to pry the item from the ground ({strength}).
 EventPipeTest.button1,Continue
 EventPipeTest.button2,Fail
 EventSolvePuzzle.button1,Continue
