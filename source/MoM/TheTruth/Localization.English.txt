@@ -2,6 +2,19 @@
 quest.name,The Truth
 quest.description,"In a state of confusion a strange new friend sends you on a quest to find ""The Truth""."
 quest.authors,Sly Cozz
+EventGainMachete.text,The shelf drags across the floor and you are able to pull something out from behind it. You gained the Machete Common Item then discard this token.
+EventGainMachete.button1,Continue
+EventGain2x4.text,You pull with all your strength and with one final pull it pops free. Gain the 2x4 Common Item then discard this token.
+EventGain2x4.button1,Continue
+EventGainAxe.text,The shelf drags across the floor and you are able to pull something out from behind it. You gained the Axe Common Item.\nDiscard this Token.
+EventGainAxe.button1,Confirm
+EventGainWrench.text,The shelf drags across the floor and you are able to pull something out from behind it. You gained the Wrench Common Item then discard this token.
+EventGainWrench.button1,Confirm
+EventSearchAxe.text,You look over the shelf and find nothing of interest but you notice something behind the shelves. You push as hard as you can against the shelf hoping to make enough room to reach behind it.\nTest your {strength}.
+EventSearchAxe.button1,Continue
+EventSearchAxe.button2,Fail
+EventPlaceAxeShelf.text,A large shelf is stocked with several tools and gardening supplies.\n Place a Search Token as indicated.
+EventPlaceAxeShelf.button1,Continue
 EventRemoveThrall.text,"As you look over the room, the creature runs into the room on the left.\nThe creature ran away as if it was scared of you. Perhaps this is the monster the dog told you about.\n Remove the Thrall from the board."
 EventRemoveThrall.button1,Continue
 EventDogNo.text," ""You don't have a choice"" the dog says growling as he snaps at you. You stand your ground but the dog frightens you to your core. Suffer 1 Sanity ({will} Negates). \nThe dog steps back ""There is a terrible man that live here. He is trying to destroy the very world as we know it. You must stop him and the creatures that live here. If they survive you wont be able to perform the final cleansing of this house. Don't fall for their tricks and let them get away. Their strength will only grow as their ritual continues. But first you will have to gain access to the house. You should find the key you need in your pocket."" \n Confused by what you are hearing you reach into your pocket and sure enough there is the key you have been looking for, but how did it get there?\nGain the Brass Key Unique Item. \nAs you look up to ask the dog how he knew, he was gone.\nRemove the Dog Person Token."
@@ -166,7 +179,6 @@ EventAddStairsToken2.text,A small door to your left may lead to the upper level.
 EventAddStairsToken2.button1,Continue
 EventPlaceDiningAndBilliards2.button1,Button 1
 EventFoyerAddLibraryToken.text,You notice a door just to the right of you.\nPlace an Explore Token as indicated.
-EventGainMachete.text,The shelf drags across the floor and you are able to pull something out from behind it. You gained the Machete Common Item then discard this token.
 EventPlaceBadRitual.text,The dog has shown faith that you can finally cleanse this house of evil. \nPlace an Interact Token as indicated.
 EventSuicideFail.text,"You built up your courage and tried your best, but you just couldn't do it."
 EventSpawnDogThrall.text,The dog seems to be following you in the house. Place the Dog Person Token as indicated.
@@ -300,13 +312,9 @@ TokenKidBedSearch.text,A small kid's dresser sits against the wall.
 TokenKidBedSearch.button1,{action} Search
 EventThrallMoves.text,The creature backs towards a small closet at the end of the room.\nRemove the Thrall from the board.
 EventStart1Tile.button1,Continue
-EventSearchAxe.text,You look over the shelf and find nothing of interest but you notice something behind the shelves. You push as hard as you can against the shelf hoping to make enough room to reach behind it.\nTest your {strength}.
 EventOpenHouseExplore.text,You notice a door across the room. It probably leads into the house.\n Place an Explore Token as indicated.
 TokenConservatoryKey.text,You might be able to access the house through the Conservatory. You can only explore if you have the Brass Key Unique Item.
 TokenConservatoryKey.button1,{action} Explore Observatory
-EventPlaceAxeShelf.text,A large shelf is stocked with several tools and gardening supplies.\n Place a Search Token as indicated.
-EventPlaceAxeShelf.button1,Continue
-EventGainMachete.button1,Continue
 EventBathroomToken.text,A small door looks like it leads to small bathroom.\nPlace an Explore Token as indicated.
 EventPlaceSedative.text,On the cabinet you notice something you can use. Place the Sedative Common Item as indicated.
 EventBandages.text,On the cabinet you notice something you can use. Place the Bandages Common Item as indicated.
@@ -335,9 +343,7 @@ TokenAtticNoKey.text,A small door at the top of the steps appears to be locked.
 TokenAtticNoKey.button1,Continue
 TokenOpenHouse.text,A door you believe leads into the house.
 TokenOpenHouse.button1,{action} Explore
-EventGain2x4.text,You pull with all your strength and with one final pull it pops free. Gain the 2x4 Common Item then discard this token.
 EventGainPipe.text,You pull with all your strength and with one final pull it pops free. Gain the Lead Pipe Common Item then discard this token.
-EventGainWrench.text,The shelf drags across the floor and you are able to pull something out from behind it. You gained the Wrench Common Item then discard this token.
 TokenPorch.text,The porch is locked but seems to have a large enough gap to pry it open. You might be able to force it open.
 TokenPorch.button1,{action} Explore
 EventBreakDoor.button1,Continue
@@ -351,8 +357,6 @@ PuzzleKeyCode.button1,Complete
 PuzzleKeyCode.button2,Close
 EventSolvePuzzle2.button1,Continue
 TokenAxe.button1,{action} Search
-EventSearchAxe.button2,Fail
-EventSearchAxe.button1,Continue
 EventFailAxe.text,You push with all your might but the shelf is just too heavy
 EventGainRope.button1,Continue
 EventBalconySight.text,"You are overcome by a gorgeous view, but quickly the fear sets in as you look down. A fall would certainly spell doom."
@@ -520,12 +524,8 @@ EventFailedGainPipe.button1,Continue
 EventPipeTest.text,You muster up all your strength to pry the item from the ground. Test your {strength}.
 EventPipeTest.button1,Continue
 EventPipeTest.button2,Fail
-EventGain2x4.button1,Continue
 EventSolvePuzzle.button1,Continue
 EventBathroomToken.button1,Continue
-EventGainAxe.text,The shelf drags across the floor and you are able to pull something out from behind it. You gained the Axe Common Item.\nDiscard this Token.
-EventGainAxe.button1,Confirm
-EventGainWrench.button1,Confirm
 EventFailPapers.button1,Confirm
 EventPlaceHallway.button1,Continue
 EventExploreHall.text,There is a door across the room leading further into the house.\nPlace an Explore Token as indicated.
