@@ -1,6 +1,6 @@
 .,English
 quest.name,The Truth
-quest.description,"A strange new friend sends you on a quest for ""The Truth""."
+quest.description,"In a state of confusion a strange new friend sends you on a quest to find ""The Truth""."
 quest.authors,Sly Cozz
 EventRemoveThrall.text,"As you look over the room, the creature runs into the room on the left.\nThe creature ran away as if it was scared of you. Perhaps this is the monster the dog told you about.\n Remove the Thrall from the board."
 EventRemoveThrall.button1,Continue
