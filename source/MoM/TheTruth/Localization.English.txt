@@ -290,7 +290,7 @@ SpawnSpawnThrall.text,"A creature appears in the distance. ""What are you doing?
 EventPorchSearchTest.text,Several items are stored in a crate against the wall ({observation}).
 TokenPorchSearch.text,You see a large box of old stuff lying on the porch. You might be able to find something useful.
 TokenPorchSearch.button1,{action} Search
-EventBreakDoor.text,You use whatever you can find to pry the door open ({strength}). If you have a Heavy Weapon Common Item ({strength} + 2).
+EventBreakDoor.text,You use whatever you can find to pry the door open ({strength}). If you have a Heavy Weapon Common Item ({strength}+2).
 EventStackofPapers.text,You notice a small stack of papers piled up on the corner table.\nPlace a Search Token as indicated.
 EventSolvePuzzle.text,You managed to guess the code as if you knew it all along. \nThe house opens to a small entry way. Place the {MAD20} Bathroom Tile as indicated.
 EventSolvePuzzle2.text,You managed to reroute the wires and you hear a click. \nThe house opens to a small entry way. Place the {MAD20} Bathroom Tile as indicated.
