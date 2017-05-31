@@ -1,0 +1,27 @@
+.,English
+EventPlaceInteriorHall.text,Now that this room has been found it will remove all existing Explore Tokens and prevent new ones from spawning.
+EventPlaceInteriorHall.button1,Continue
+quest.name,Token Spawns for Variables
+quest.description,This is a demonstration to show how Explore Tokens can be added and removed depending on when a room is discovered. For the sake of demonstration this is simplified to show how it works for doors leading into the Interior Hall.
+quest.authors,LordPyrex
+EventPlaceHallPart2.text,Here's the hall wrapping around
+EventPlaceHallPart2.button1,Continue
+EventStartingPlace.text,This is to demonstrate how variables can be used to prevent duplicate doors from spawning.
+EventStartingPlace.button1,Continue
+TokenExitThisScenario.text,This Token will take you back to the demo menu.
+TokenExitThisScenario.button1,Continue
+TokenExitThisScenario.button2,Cancel
+EventPlaceHallPart3.text,The 3rd Hall is placed.
+EventPlaceHallPart3.button1,Continue
+TokenSight1.text,When this sight icon is clicked it will place the next part of the hall. Then it will check a Variable to see if the Interior Hall has been uncovered before placing an Explore Token 
+TokenSight1.button1,Continue
+TokenSight2.text,This sight Token continues the hall wrap and places the last portion of the hall. The even that happens after the Tile is placed checks to see if the Interior Hall has been placed before creating the explore Token.
+TokenSight2.button1,Continue
+EventSecondDoorToInteriorHall.text,This Token only appears if the Interior Hall hasn't been revealed.
+EventSecondDoorToInteriorHall.button1,Continue
+TokenDoor1ToInteriorHall.text,This is door 1 to the Interior Hall
+TokenDoor1ToInteriorHall.button1,{action} Open
+TokenDoor2ToInteriorHall.text,The second door to the Interior Hall
+TokenDoor2ToInteriorHall.button1,{action} Open
+TokenDoor3ToInteriorHall.text,This is door 3 to the Interior Hall.
+TokenDoor3ToInteriorHall.button1,{action} Open
