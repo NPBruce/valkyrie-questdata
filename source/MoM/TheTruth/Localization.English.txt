@@ -2,6 +2,39 @@
 quest.name,The Truth
 quest.description,"In a state of confusion a strange new friend sends you on a quest to find ""The Truth""."
 quest.authors,Sly Cozz
+EventDogYes.text," ""I knew you would. There is a terrible man that live here. He is trying to destroy the very world as we know it. You must stop him and the creatures that live here. If they survive you won't be able to perform the final cleansing of this house. Don't fall for their tricks and let them get away. Their strength will only grow as their ritual continues. But first you will have to gain access to the house. You should find the key you need in your pocket."" \n Confused by what you are hearing you reach into your pocket and sure enough there is the key you have been looking for, but how did it get there?\nGain the Brass Key Unique Item. \nAs you look up to ask the dog how he knew, he was gone.\nRemove the Dog Person Token."
+EventDogYes.button1,Continue
+EventDogNo.text," ""You don't have a choice"" the dog says growling as he snaps at you. You stand your ground but the dog frightens you to your core. Suffer 1 Sanity ({will} Negates). \nThe dog steps back ""There is a terrible man that live here. He is trying to destroy the very world as we know it. You must stop him and the creatures that live here. If they survive you won't be able to perform the final cleansing of this house. Don't fall for their tricks and let them get away. Their strength will only grow as their ritual continues. But first you will have to gain access to the house. You should find the key you need in your pocket."" \n Confused by what you are hearing you reach into your pocket and sure enough there is the key you have been looking for, but how did it get there?\nGain the Brass Key Unique Item. \nAs you look up to ask the dog how he knew, he was gone.\nRemove the Dog Person Token."
+EventDogNo.button1,Continue
+SpawnSpawnThrall.text,"A creature appears in the distance. ""What are you doing?"" the creature screams as it backs away from you.\nPlace a Thrall as indicated."
+SpawnSpawnThrall.button1,Continue
+EventAddHallwayDoors.text,You notice several doors throughout the hallway. Place Explore Tokens as indicated.
+EventAddHallwayDoors.button1,Continue
+EventHallSearch.text,Papers have been scattered across the floor. Place a Search Token as indicated.
+EventHallSearch.button1,Continue
+EventRemoveThrall.text,"As you look over the room, the creature runs into the room on the left.\nThe creature ran away as if it was scared of you. Perhaps this is the monster the dog told you about.\n Remove the Thrall from the board."
+EventRemoveThrall.button1,Continue
+EventStart1Tile.text,You wake from a weird dream and find yourself outside a strange house. \nPlace the {MAD20} Garden Path Tile.
+EventStart1Tile.button1,Continue
+EventStart2Placefigs.text,You enter the court yard but do not remember how you got here.\nPlace your investigators as indicated. Each investigator gains 2 clues.
+EventStart2Placefigs.button1,Continue
+EventStart3Bushes.text,You hear something rummaging in the bushes along the house.\nPlace a Search Token as indicated.
+EventStart3Bushes.button1,Continue
+EventStart4Conservatory.text,You notice a door in front of you that leads to the Conservatory.\nPerhaps you can get into the house through this door.\nPlace an Explore Token as indicated.
+EventStart4Conservatory.button1,Continue
+EventFlowersbedPipe.text,Something odd seems to be stuck in the bed of flowers.\nPlace a Search Token as indicated.
+EventFlowersbedPipe.button1,Continue
+TokenFindPipe.text,You notice something stuck in the ground propping up the tall flowers.\nPerhaps you could use it.
+TokenFindPipe.button1,{action} Search Flowers
+EventPlaceRestraintExplore.text,If you have an item to restrain another investigator you can use it to restrain a monster. The investigator holding this item can interact with it to restrain a monster by click on the item in the app.
+EventPlaceRestraintExplore.button1,Continue
+EventRestaintItems.button1,Continue
+EventPlaceRestraint.text,If you have an item to restrain another investigator you can use it to restrain a monster. The investigator holding this item can interact with it to restrain a monster by click on the item in the app.
+EventPlaceRestraint.button1,Continue
+EventPlaceWhiskey.text,On the table sits a bottle of liquor. Place the Whiskey Bottle Common Item as indicated.
+EventPlaceWhiskey.button1,Continue
+EventPlaceMeatCleaver.text,A shelf on the wall contains several cooking items. Place a Search Token as indicated.
+EventPlaceMeatCleaver.button1,Continue
 EventActivation.text,The creature does not move. This creature will only attack an investigator in its space.
 EventActivation.button1,The monster attacks.
 EventActivation.button2,The monster hides.
@@ -9,8 +42,6 @@ EventAttack1.text,"Desperate to defend itself, the creature lunges at you trying
 EventAttack1.button1,Continue
 EventAttack.button1,Continue
 CustomMonsterPriest.monstername,Priest
-EventPlaceRestraintExplore.text,If you have an item to restrain another investigator you can use it to restrain a monster. To restrain a monster click on the item using the app.
-EventPlaceRestraintExplore.button1,Continue
 EventRestraint.text,"If you have an item to restrain another investigator you can use it to restrain a monster. Select <i>Restrain a Monster</i> to verify the monster you want to restrain is an available option. Use the item's text to resolve its action as normal. If your attempt is successful place the card under the monster. The monster will no longer activate.\nIf you decide to kill a monster that has been restrained, use the <i>Kill a Restrained Monster</i> action and select the monster to kill. You must be in the same space to perform this action. Once a restrained monster has been killed remove its figure from the board and leave the item used to restrain the monster. It is now free to pick up."
 EventRestraint.button1,Restrain a Monster
 EventRestraint.button2,Kill a Restrained Monster
@@ -49,8 +80,6 @@ EventHandcuffPass.text,The chest is full of old uniforms and clothes. You drag o
 EventHandcuffPass.button1,Continue
 EventExploreRoom.text,You may move 1 space into the explored area.
 EventExploreRoom.button1,Continue
-EventPlaceRestraint.text,If you have an item to restrain another investigator you can use it to restrain a monster. To restrain a monster click on the item using the app.
-EventPlaceRestraint.button1,Continue
 SpawnThrall.text, The creature starts barricading the door.\nPlace the Thrall and a Barricade Token as indicated.
 SpawnThrall.button1,Continue
 EventClosetSearch.text,The creature is locked up in the closet. You might be able to coax it out. Place a Search Token as indicated.
@@ -82,7 +111,6 @@ EventGainBlackJack.text,The large brute drops its weapon during its struggle. Pl
 EventGainBlackJack.button1,Continue
 EventSacrificeGuard.text,The hulking brute pleads for its life but you don't listen. You refuse to fall for its tricks.
 EventSacrificeGuard.button1,Continue
-EventRestaintItems.button1,Continue
 EventRestrainGuard.text,You wrestle the figure to the ground and subdue it with the restraints.\nLeave the monster in its space and place the item card used under the monster.
 EventRestrainGuard.button1,Continue
 EventRestrainThrall.text,You wrestle the figure to the ground and subdue it with the restraints.\nLeave the monster in its space and place the item card used under the monster.
@@ -108,10 +136,6 @@ EventGainPipe.text,You pull with all your strength and with one final pull it po
 EventGainPipe.button1,Continue
 EventPlaceSedative.text,On the cabinet you notice something you can use. Place the Sedative Common Item as indicated.
 EventPlaceSedative.button1,Continue
-EventDogYes.text," ""I knew you would. There is a terrible man that live here. He is trying to destroy the very world as we know it. You must stop him and the creatures that live here. If they survive you wont be able to perform the final cleansing of this house. Don't fall for their tricks and let them get away. Their strength will only grow as their ritual continues. But first you will have to gain access to the house. You should find the key you need in your pocket."" \n Confused by what you are hearing you reach into your pocket and sure enough there is the key you have been looking for, but how did it get there?\nGain the Brass Key Unique Item. \nAs you look up to ask the dog how he knew, he was gone.\nRemove the Dog Person Token."
-EventDogYes.button1,Continue
-EventDogNo.text," ""You don't have a choice"" the dog says growling as he snaps at you. You stand your ground but the dog frightens you to your core. Suffer 1 Sanity ({will} Negates). \nThe dog steps back ""There is a terrible man that live here. He is trying to destroy the very world as we know it. You must stop him and the creatures that live here. If they survive you wont be able to perform the final cleansing of this house. Don't fall for their tricks and let them get away. Their strength will only grow as their ritual continues. But first you will have to gain access to the house. You should find the key you need in your pocket."" \n Confused by what you are hearing you reach into your pocket and sure enough there is the key you have been looking for, but how did it get there?\nGain the Brass Key Unique Item. \nAs you look up to ask the dog how he knew, he was gone.\nRemove the Dog Person Token."
-EventDogNo.button1,Continue
 EventConservatoryDoorKey.button1,Continue
 EventGainAxe.text,The shelf drags across the floor and you are able to pull something out from behind it. You gained the Axe Common Item.\nDiscard this Token.
 EventGainAxe.button1,Confirm
@@ -148,8 +172,6 @@ EventThrallDied.text,"The creature falls to the ground lifeless. A part of you s
 EventThrallDied.button1,Continue
 EventGainOldKeys2.text,Wondering if the figure was carrying anything important you search its pockets for anything useful.\nGain the Old Keys Unique Item.
 EventGainOldKeys2.button1,Continue
-EventPlaceWhiskey.text,On the table sits a bottle of liquor. Place the Whiskey Bottle Common Item as indicated.
-EventPlaceWhiskey.button1,Continue
 EventPlacePocketWatch.text,A pocket watch sits on a small table. Place the Pocket Watch Common Item as indicated.
 EventPlacePocketWatch.button1,Continue
 EventPlaceSinkSearch.text,Water seems to be coming from a sink that is still running. Place a Search Token as indicated.
@@ -182,8 +204,6 @@ EventSearchAxe.button1,Continue
 EventSearchAxe.button2,Fail
 EventPlaceAxeShelf.text,A large shelf is stocked with several tools and gardening supplies.\n Place a Search Token as indicated.
 EventPlaceAxeShelf.button1,Continue
-EventRemoveThrall.text,"As you look over the room, the creature runs into the room on the left.\nThe creature ran away as if it was scared of you. Perhaps this is the monster the dog told you about.\n Remove the Thrall from the board."
-EventRemoveThrall.button1,Continue
 TokenDog.text,"A large black dog sits patiently, watching your every move. His thick coat shines in the moonlight."
 TokenDog.button1,{action} Approach Dog
 EventSpeaktoDog.text,"The dog looks up at you and as reach out to pet it, ""I knew you would come"". You jump back startled that the dog just spoke to you.  Wondering if you were still dreaming the dog speaks again ""Will you help me?"
@@ -206,12 +226,10 @@ EventWhyKill.text,"""These monsters are trying to complete a terrible ritual. Ev
 EventWhyKill.button1,Continue
 EventDogDisapears.text,"The dog growls ""You have everything you need. Now do what you came here for"". You raise your hands up to guard yourself fearing the dog could attack. Facing your fear you open your eyes to find the dog is no longer there.\nGain 1 Clues and discard the Dog Person Token."
 EventSearchBarricade.text,You tell the creature to come out but it won't listen. You look over the closet but you don't see a way in other than to bust through. Gain 1 Clues and discard this token.
-EventFlowersbedPipe.text,Something odd seems to be stuck in the bed of flowers.\nPlace a Search Token as indicated.
 EventTurnOffSink.text,The water is still running and the plug is in the drain. Someone must have forgotten about it. You turn the water off and wonder who left the water running.\nGain 1 clues and discard this token.
 EventGameEnd.text,As the spirit fades from existence the weight on the house lifts and the horror is over.\n\nThe investigation is complete!\n\n{success}Thank You for Playing{success}
 EventThefall.text,"Your build your nerve and summon all your bravery. You feel a presence finally leave you as you realize, you are falling...to you death.\n\nThe investigation is complete!\n\n{success}Thank You for Playing{success}"
 EventThefall.button1,Continue
-EventStart1Tile.text,You wake from a strange dream and find yourself outside a strange house. \nPlace the {MAD20} Garden Path Tile.
 SpawnCultist.text,Your suspicions are confirmed. The figure has summoned servants to stop you from cleansing this house. Place a monster as indicated.
 EventBreakDoorPass.text,You manage to get just enough leverage to pry the lock and the door breaks open.
 EventBreakDoorPass.button1,Continue
@@ -221,7 +239,6 @@ EventPlacePorch.button1,Continue
 TokenLibrary.text,A door that may lead you further into the house.
 TokenLibrary.button1,{action} Explore
 EventPlaceLibrary.text,"You open the door and find a small library. \nPlace the {MAD20} Library Tile, Wall, and Door Tokens as indicated."
-EventStart2Placefigs.text,You enter the court yard but do not remember how you got here.\nPlace your investigators as indicated. Each investigator gains 2 clues.
 EventPlaceYard2.text,A small path extends down to the lower level of the house.\nPlace the {MAD23} Yard 2 Tile as indicated.
 EventOpenLockedPorchfromLibrary.text,The door opens to a small Porch.
 EventPlaceYard2.button1,Continue
@@ -255,8 +272,6 @@ SpawnCultist4.text,They just keep coming. Place a monster as indicated.
 SpawnCultist5.text,They just keep coming. Place a monster as indicated.
 EventPlaceOldKeys.text,You can see the figure through the window dividing the rooms. You might be able lure this figure out.\n Place a Interact Token as indicated.
 EventPlaceOldKeys.button1,Continue
-EventPlaceMeatCleaver.text,A shelf on the wall contains several cooking items. Place a Search Token as indicated.
-EventPlaceMeatCleaver.button1,Continue
 EventPlaceLibrarySearch.text,Several items are scattered along the shelves.\nYou may be able to find something useful here.\nPlace a Search Token as indicated.
 EventPlaceLibrarySearch.button1,Continue
 EventLibraryBarricade.button1,Continue
@@ -309,7 +324,6 @@ TokenPerformRitual.button1,{action} Perform Ritual
 TokenSink.text,A sink is overflowing with water.
 TokenSink.button1,{action} Search
 TokenBilliardsExplore.text,The door has the subtle sound of music coming from behind it.
-SpawnSpawnThrall.text,"A creature appears in the distance. ""What are you doing?"" the creature screams as it backs away from you.\nPlace a Thrall as indicated."
 EventPorchSearchTest.text,Several items are stored in a crate against the wall ({observation}).
 TokenPorchSearch.text,You see a large box of old stuff lying on the porch. You might be able to find something useful.
 TokenPorchSearch.button1,{action} Search
@@ -317,7 +331,6 @@ EventBreakDoor.text,You use whatever you can find to pry the door open ({strengt
 EventStackofPapers.text,You notice a small stack of papers piled up on the corner table.\nPlace a Search Token as indicated.
 EventSolvePuzzle.text,You managed to guess the code as if you knew it all along. \nThe house opens to a small entry way. Place the {MAD20} Bathroom Tile as indicated.
 EventSolvePuzzle2.text,You managed to reroute the wires and you hear a click. \nThe house opens to a small entry way. Place the {MAD20} Bathroom Tile as indicated.
-EventStart4Conservatory.text,You notice a door in front of you that leads to the Conservatory.\nPerhaps you can get into the house through this door.\nPlace an Explore Token as indicated.
 EventPlaceAtticStairsExplore.button1,Continue
 EventSearchPapers.text,You shuffle through the papers looking for something of interest ({observation}).
 EventSearchPapers.button1,Continue
@@ -336,7 +349,6 @@ EventAddHallDoors3.text,You notice several doors throughout the hallway. Place E
 TokenExploreStairs.text,A door leads further into the house.
 TokenExploreStairs.button1,{action} Explore
 EventPlaceHallwayTile2.button1,Continue
-SpawnSpawnThrall.button1,Continue
 TokenStairs2.text,A door leads further into the house.
 TokenStairs2.button1,{action} Explore
 EventPhoto.text,The owner's personal items sit on the end table. Place a Search Token as indicated.
@@ -377,11 +389,9 @@ EventSearchChest.button2,Button 2
 TokenHandcuffs.text,A small chest sits at the foot of the bed.
 TokenHandcuffs.button1,{action} Search
 EventYardView.text,Now that the dog is gone it might be safe for you to look around the yard. Place a Sight Token as indicated.
-EventFlowersbedPipe.button1,Continue
 TokenKidBedSearch.text,A small kid's dresser sits against the wall.
 TokenKidBedSearch.button1,{action} Search
 EventThrallMoves.text,The creature backs towards a small closet at the end of the room.\nRemove the Thrall from the board.
-EventStart1Tile.button1,Continue
 EventOpenHouseExplore.text,You notice a door across the room. It probably leads into the house.\n Place an Explore Token as indicated.
 TokenConservatoryKey.text,You might be able to access the house through the Conservatory. You can only explore if you have the Brass Key Unique Item.
 TokenConservatoryKey.button1,{action} Explore Observatory
@@ -442,8 +452,6 @@ TokenConservatoryDoor.text,A locked door keeps you from entering the Conservator
 TokenConservatoryDoor.button1,Continue
 TokenBathroom.text,You hear the sound of running water coming from what seems like a bathroom.
 TokenBathroom.button1,{action} Explore
-TokenFindPipe.text,You notice something stuck in the ground propping up the tall flowers.\nPerhaps you could use it.
-TokenFindPipe.button1,{action} Search Flowers
 TokenStackofPapers.text,A stack of papers on the corner desk. You may be able to find out who lives here.
 TokenStackofPapers.button1,{action} Search
 TokenBalconyDoor.button1,TokenBalconyDoor.button1
@@ -536,10 +544,6 @@ TokenHall.text,A door leads further into the house.
 TokenHall.button1,{action} Explore
 EventPlaceLibraryExploreToken.button1,Continue
 EventFoyerAddLibraryToken.button1,Confirm
-EventStart3Bushes.text,You hear something rummaging in the bushes.\nPlace a Search Token as indicated.
-EventStart2Placefigs.button1,Continue
-EventStart3Bushes.button1,Continue
-EventStart4Conservatory.button1,Continue
 EventPlaceYardSight.text,The yard continues to the lower floor of the house.\nPlace a Sight Token as indicated.
 EventPlaceYardSight.button1,Confirm
 EventOpenHouseExplore.button1,Continue
@@ -552,10 +556,6 @@ EventFailPapers.button1,Confirm
 EventPlaceHallway.button1,Continue
 EventExploreHall.text,There is a door across the room leading further into the house.\nPlace an Explore Token as indicated.
 EventExploreHall.button1,Continue
-EventAddHallwayDoors.text,You notice several doors throughout the hallway. Place Explore Tokens as indicated.
-EventAddHallwayDoors.button1,Continue
-EventHallSearch.text,Papers have been scattered across the floor. Place a Search Token as indicated.
-EventHallSearch.button1,Continue
 EventYardView.button1,Continue
 EventPorchExplore.button1,Continue
 EventPapers2.text,You notice a small stack of papers stacked on the corner table.\nPlace a Search Token as indicated.
