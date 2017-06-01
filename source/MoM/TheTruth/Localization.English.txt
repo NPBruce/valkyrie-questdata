@@ -2,6 +2,47 @@
 quest.name,The Truth
 quest.description,"In a state of confusion a strange new friend sends you on a quest to find ""The Truth""."
 quest.authors,Sly Cozz
+EventRestraint.text,"If you have an item to restrain another investigator you can use it to restrain a monster. Select <i>Restrain a Monster</i> to verify the monster you want to restrain is an available option. Use the item's text to resolve its action as normal. If your attempt is successful place the card under the monster. The monster will no longer activate.\nIf you decide to kill a monster that has been restrained, use the <i>Kill a Restrained Monster</i> option and select the monster to kill. You must be in the same space to perform this action. Once a restrained monster has been killed remove its figure from the board and leave the item used to restrain the monster. It is now free to pick up."
+EventRestraint.button1,Restrain a Monster
+EventRestraint.button2,Kill a Restrained Monster
+EventRestraint.button3,Cancel
+EventKillPriestThrall.text,Select the monster to kill.
+EventKillPriestThrall.button1,{action} <i>Priest of Dagon</i>
+EventKillPriestThrall.button2,{action} <i>Thrall</i>
+EventKillPriestThrall.button3,Cancel
+EventPriestGuard.text,Select the monster to kill.
+EventPriestGuard.button1,{action} <i>Priest of Dagon</i>
+EventPriestGuard.button2,{action} <i>Deep One Hybrid</i>
+EventPriestGuard.button3,Cancel
+EventKillThrallGuard.text,Select a monster to kill.
+EventKillThrallGuard.button1,{action} <i>Thrall</i>
+EventKillThrallGuard.button2,{action} <i>Deep One Hybrid</i>
+EventKillThrallGuard.button3,Cancel
+EventKillPriestSelect.text,Select the monster to kill.
+EventKillPriestSelect.button1,{action} <i>Priest of Dagon</i>
+EventKillPriestSelect.button2,Cancel
+EventKillThrallSelect.text,Select the monster to kill.
+EventKillThrallSelect.button1,{action} <i>Thrall</i>
+EventKillThrallSelect.button2,Cancel
+EventKillGuardSelect.text,Select the monster to kill.
+EventKillGuardSelect.button1,{action} <i>Deep One Hybrid</i>
+EventKillGuardSelect.button2,Cancel
+TokenOpenHouse.text,A door you believe leads into the house.
+TokenOpenHouse.button1,{action} Explore
+EventGuessKeyPad.text,The door seems to be locked by a key pad. Perhaps it will open if you can guess the right combination. Tap to attempt the puzzle using {observation}.
+EventGuessKeyPad.button1,Attempt Key Pad
+EventGuessKeyPad.button2,Cancel
+EventRewirePad.text,The door seems to be locked by a key pad. Perhaps it will open if you can reroute the wires. Tap to attempt the puzzle using {observation}.
+EventRewirePad.button1,Rewire the Pad
+EventRewirePad.button2,Cancel
+Tokengun.text,The bar is well stocked with whiskey and scotch.
+Tokengun.button1,{action} Search
+EventFindSafe.text,"A small safe sits in the corner beneath the bar. \nThere could be something of use in it, if you can get it open.\nTap to attempt the puzzle using {observation}."
+EventFindSafe.button1,Continue
+TokenPerformRitual.text,This is the ritual they were keeping from you. You can complete their ritual.
+TokenPerformRitual.button1,{action} Perform Ritual
+EventTestRitual.text,You gather your research and open your mind as you start performing the ritual. Tap to attempt the puzzle using ({lore}).\n You can discard evidence to gain an extra attempt.
+EventTestRitual.button1,Continue
 PuzzleFamPic.button1,Complete
 EventPhotoTest.text,You scan over the desk looking for anything of importance when you stumble upon an old photo album. Flipping through the pages of the album you notice several pieces of a torn picture fall to the floor. Perhaps you can peice it together.\nTap to attempt the puzzle using {observation}.
 EventPhotoTest.button1,Attempt Puzzle
@@ -25,11 +66,6 @@ EventSolvePuzzle.text,You managed to guess the code as if you knew it all along.
 EventSolvePuzzle.button1,Continue
 TokenConservatoryDoor.text,A locked door keeps you from entering the Conservatory. There may be a key close by.
 TokenConservatoryDoor.button1,Continue
-TokenOpenHouse.text,A door you believe leads into the house.
-TokenOpenHouse.button1,{action} Explore
-EventGuessKeyPad.text,The door seems to be locked by a key pad. Perhaps it will open if you can guess the right combination. Tap to attempt the puzzle using {observation}.
-EventGuessKeyPad.button1,Attempt Key Pad
-EventGuessKeyPad.button2,Cancel
 EventStart1Tile.text,You wake from a weird dream and find yourself outside a strange house. \nPlace the {MAD20} Garden Path Tile.
 EventStart1Tile.button1,Continue
 EventStart2Placefigs.text,You enter the court yard but do not remember how you got here.\nPlace your investigators as indicated. Each investigator gains 2 clues.
@@ -64,10 +100,6 @@ EventAttack1.text,"Desperate to defend itself, the creature lunges at you trying
 EventAttack1.button1,Continue
 EventAttack.button1,Continue
 CustomMonsterPriest.monstername,Priest
-EventRestraint.text,"If you have an item to restrain another investigator you can use it to restrain a monster. Select <i>Restrain a Monster</i> to verify the monster you want to restrain is an available option. Use the item's text to resolve its action as normal. If your attempt is successful place the card under the monster. The monster will no longer activate.\nIf you decide to kill a monster that has been restrained, use the <i>Kill a Restrained Monster</i> action and select the monster to kill. You must be in the same space to perform this action. Once a restrained monster has been killed remove its figure from the board and leave the item used to restrain the monster. It is now free to pick up."
-EventRestraint.button1,Restrain a Monster
-EventRestraint.button2,Kill a Restrained Monster
-EventRestraint.button3,Cancel
 EventRestrainAll.text,Select the Monster to restrain.
 EventRestrainAll.button1,<i>Priest of Dagon</i>
 EventRestrainAll.button2,<i>Thrall</i>
@@ -114,20 +146,10 @@ EventNoRestraints.text,There are no available monsters for you to restrain.
 EventNoRestraints.button1,Continue
 EventRestrainPriest.text,You wrestle the figure to the ground and subdue it with the restraints.\nLeave the monster in its space and place the item card used under the monster.
 EventRestrainPriest.button1,Continue
-EventKillPriestThrall.text,Select the monster to kill.
-EventKillPriestThrall.button1,{action} <i>Priest of Dagon</i>
-EventKillPriestThrall.button2,{action} <i>Thrall</i>
-EventKillPriestThrall.button3,Cancel
 EventPriestDied.text,"The figure falls to the ground crying to you ""Why?""."
 EventPriestDied.button1,Continue
 SpawnPriestKitchen.text,The figure moves to the back corner of the kitchen. You can hear it through the window. It sounds like it is summoning help. Place the Priest of Dagon as indicated.
 SpawnPriestKitchen.button1,Continue
-EventKillPriestSelect.text,Select the monster to kill.
-EventKillPriestSelect.button1,{action} <i>Priest of Dagon</i>
-EventKillPriestSelect.button2,Cancel
-EventKillGuardSelect.text,Select the monster to kill.
-EventKillGuardSelect.button1,{action} <i>Deep One Hybrid</i>
-EventKillGuardSelect.button2,Cancel
 EventGuardDied.button1,Continue
 EventGainBlackJack.text,The large brute drops its weapon during its struggle. Place the Blackjack Common Item in the monsters space.
 EventGainBlackJack.button1,Continue
@@ -273,17 +295,6 @@ EventLibrary2.button1,Continue
 EventPlaceLibaryExploretoPorch.text,You notice a door to your right. Place an Explore Token as indicated.
 EventPlaceLibaryExploretoPorch.button1,Continue
 EventPlacePorchSearch.button1,Continue
-EventKillThrallSelect.text,Select the monster to kill.
-EventKillThrallSelect.button1,{action} <i>Thrall</i>
-EventKillThrallSelect.button2,Cancel
-EventPriestGuard.text,Select the monster to kill.
-EventPriestGuard.button1,{action} <i>Priest of Dagon</i>
-EventPriestGuard.button2,{action} <i>Deep One Hybrid</i>
-EventPriestGuard.button3,Cancel
-EventKillThrallGuard.text,Select a monster to kill.
-EventKillThrallGuard.button1,{action} <i>Thrall</i>
-EventKillThrallGuard.button2,{action} <i>Deep One Hybrid</i>
-EventKillThrallGuard.button3,Cancel
 EventLibraryBarricade.text,A small desk sits along the wall by the shelves. Place a Barricade Token as indicated.
 SpawnCultist4.text,They just keep coming. Place a monster as indicated.
 SpawnCultist5.text,They just keep coming. Place a monster as indicated.
@@ -307,8 +318,6 @@ EventSpawnDogThrall.text,The dog seems to be following you in the house. Place t
 EventPlaceKidsBed.text,You open the door and are surprised to see a kid's room.\nWhat has this creature done with this child?\nPlace the {MAD23}Bedroom Tile as indicated.
 EventSpawnDogPriest.text,The dog seems to have followed you into the house. Place the Dog Person Token as indicated.
 EventRevolation.text,"In a state of insanity you finally find clarity. Finally, <i>The Truth</i>. What you have been looking for. This is your house. This is your family. You were Robert Jensen the whole time. The monster terrorizing this family was you. What started off as a silly board game with your daughter, turned into a seance....a possession. The days after the event you felt different, disconnected from the world. Your family became more distant as you changed. They saw that you were becoming a monster and they were afraid. The anger was real, the rage was real, but it was something else entirely. "
-EventTestRitual.text,You gather your research and open your mind as you start performing the ritual. Tap to attempt the puzzle using ({lore}).\n You can discard evidence to gain an extra attempt.
-EventTestRitual.button1,Continue
 EventSpawnGhost.button1,Continue
 EventRevolation.button1,Continue
 EventWifeDied.text,But the truth comes at the cost of your very soul. Your wife. Your beautiful wife. Your poor wife is dead and you killed her.
@@ -326,18 +335,14 @@ EventGainKeysTest.text,You hear the figure calling our for help. You plead with 
 EventHelpComes.button1,Button 1
 EventPlaceAttic.text,You open the door to a small attic. Place the {MAD23} Attic Storage Tile as indicated.
 EventPlaceBarSearch.text,A small bar seems to be stocked with several bottles. Place a Search Token as indicated.
-Tokengun.text,The bar is well stocked with whiskey and scotch.
 EventPlaceBarSearch.button1,Continue
-EventFindSafe.text,"You find a small safe under the bar. \nThere could be something of use in it, if you can get it open.\nTap to attempt the puzzle using {observation}."
 EventPlaceDining.text,The door opens to a large dining hall. Place the {MAD20} Dining Room Tile and Wall Tokens as indicated.
 EventPlaceAtticStairsExplore.text,A door at the top of the stairs appears to be locked. Place an Explore Token as indicated.
 EventHandcuff.text,A small chest sits at the end of the bed. Place a Search Token as indicated.
 TokenRitual.text,A small area has been cleared out on the floor.
-TokenPerformRitual.text,This is the ritual they were keeping from you. You can complete their ritual.
 EventRitualTest.text,You look over the floor trying to find out what happened here ({lore}).
 EventPlaceRitualThrall.text,The ritual is ready for you to complete. Place an Interact Token as indicated.
 EventPlaceRitualThrall.button1,Continue
-TokenPerformRitual.button1,{action} Perform Ritual
 TokenSink.text,A sink is overflowing with water.
 TokenSink.button1,{action} Search
 TokenBilliardsExplore.text,The door has the subtle sound of music coming from behind it.
@@ -416,7 +421,6 @@ TokenRitual.button1,{action} Search
 EventRitualTest.button1,Continue
 EventRitualTest.button2,Button 2
 TokenBushes.button1,{action} Search Bushes
-EventRewirePad.text,The door seems to be locked by a key pad. Perhaps it will open if you can reroute the wires. Tap to attempt the puzzle using {observation}.
 EventPlaceLibraryExploreToken.text,You notice a door across the room that may gain you access to the house.\nPlace an Explore Token as indicated.
 EventPorchSearchTest.button1,Continue
 EventPorchSearchTest.button2,Cancel
@@ -434,8 +438,6 @@ TokenPorch.text,The porch is locked but seems to have a large enough gap to pry 
 TokenPorch.button1,{action} Explore
 EventBreakDoor.button1,Continue
 EventBreakDoor.button2,Fail
-EventRewirePad.button1,Rewire the Pad
-EventRewirePad.button2,Cancel
 PuzzleKeyCode.text,Tap to attempt the puzzle using {observation}.
 PuzzleKeyCode.button1,Complete
 PuzzleKeyCode.button2,Close
@@ -511,8 +513,6 @@ CustomMonsterPriest.info,-
 EventPlaceDining.button1,Continue
 PuzzleSmallSafe.button1,Complete
 PuzzleSmallSafe.button2,Close
-EventFindSafe.button1,Continue
-Tokengun.button1,{action} Search
 TokenBilliardsExplore.button1,{action} Explore
 TokenBalconyExplore.text,You feel a cool breeze coming from the bottom of the door.
 TokenBalconyExplore.button1,{action} Explore
