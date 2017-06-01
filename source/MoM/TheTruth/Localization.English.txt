@@ -2,6 +2,38 @@
 quest.name,The Truth
 quest.description,"In a state of confusion a strange new friend sends you on a quest to find ""The Truth""."
 quest.authors,Sly Cozz
+PuzzleFamPic.button1,Complete
+EventPhotoTest.text,You scan over the desk looking for anything of importance when you stumble upon an old photo album. Flipping through the pages of the album you notice several pieces of a torn picture fall to the floor. Perhaps you can peice it together.\nTap to attempt the puzzle using {observation}.
+EventPhotoTest.button1,Attempt Puzzle
+EventPhotoTest.button2,Cancel
+EventPhotoTest2.text,Pieces of a torn picture are skattered on the floor. Perhaps you can peice it together.\nTap to attempt the puzzle using {observation}.
+EventPhotoTest2.button1,Attempt Puzzle
+EventPhotoTest2.button2,Cancel
+TokenPhotoEv.text,Several personal items sit on the corner table.
+TokenPhotoEv.button1,{action} Search
+EventPhotoPass.text,"After organizing the torn peices together you notice something you can't believe. It's a picture of you. Why would this guy, Robert Jensen, have a picture of you?\nGain the Photographic Evidence and 1 Clue, then discard this token."
+EventPhotoPass.button1,Continue
+EventStart3Bushes.text,You hear something rummaging in the bushes along the house.\nPlace a Search Token as indicated.
+EventStart3Bushes.button1,Continue
+EventStart4Conservatory.text,You notice a door in front of you that leads to the Conservatory.\nPerhaps you can get into the house through this door.\nPlace an Explore Token as indicated.
+EventStart4Conservatory.button1,Continue
+EventFlowersbedPipe.text,Something odd seems to be stuck in the bed of flowers.\nPlace a Search Token as indicated.
+EventFlowersbedPipe.button1,Continue
+EventPhoto.text,The owner's personal items sit on the end table. Place a Search Token as indicated.
+EventPhoto.button1,Continue
+EventSolvePuzzle.text,You managed to guess the code as if you knew it all along. \nThe house opens to a small entry way. Place the {MAD20} Bathroom Tile as indicated.
+EventSolvePuzzle.button1,Continue
+TokenConservatoryDoor.text,A locked door keeps you from entering the Conservatory. There may be a key close by.
+TokenConservatoryDoor.button1,Continue
+TokenOpenHouse.text,A door you believe leads into the house.
+TokenOpenHouse.button1,{action} Explore
+EventGuessKeyPad.text,The door seems to be locked by a key pad. Perhaps it will open if you can guess the right combination. Tap to attempt the puzzle using {observation}.
+EventGuessKeyPad.button1,Attempt Key Pad
+EventGuessKeyPad.button2,Cancel
+EventStart1Tile.text,You wake from a weird dream and find yourself outside a strange house. \nPlace the {MAD20} Garden Path Tile.
+EventStart1Tile.button1,Continue
+EventStart2Placefigs.text,You enter the court yard but do not remember how you got here.\nPlace your investigators as indicated. Each investigator gains 2 clues.
+EventStart2Placefigs.button1,Continue
 EventDogYes.text," ""I knew you would. There is a terrible man that live here. He is trying to destroy the very world as we know it. You must stop him and the creatures that live here. If they survive you won't be able to perform the final cleansing of this house. Don't fall for their tricks and let them get away. Their strength will only grow as their ritual continues. But first you will have to gain access to the house. You should find the key you need in your pocket."" \n Confused by what you are hearing you reach into your pocket and sure enough there is the key you have been looking for, but how did it get there?\nGain the Brass Key Unique Item. \nAs you look up to ask the dog how he knew, he was gone.\nRemove the Dog Person Token."
 EventDogYes.button1,Continue
 EventDogNo.text," ""You don't have a choice"" the dog says growling as he snaps at you. You stand your ground but the dog frightens you to your core. Suffer 1 Sanity ({will} Negates). \nThe dog steps back ""There is a terrible man that live here. He is trying to destroy the very world as we know it. You must stop him and the creatures that live here. If they survive you won't be able to perform the final cleansing of this house. Don't fall for their tricks and let them get away. Their strength will only grow as their ritual continues. But first you will have to gain access to the house. You should find the key you need in your pocket."" \n Confused by what you are hearing you reach into your pocket and sure enough there is the key you have been looking for, but how did it get there?\nGain the Brass Key Unique Item. \nAs you look up to ask the dog how he knew, he was gone.\nRemove the Dog Person Token."
@@ -14,16 +46,6 @@ EventHallSearch.text,Papers have been scattered across the floor. Place a Search
 EventHallSearch.button1,Continue
 EventRemoveThrall.text,"As you look over the room, the creature runs into the room on the left.\nThe creature ran away as if it was scared of you. Perhaps this is the monster the dog told you about.\n Remove the Thrall from the board."
 EventRemoveThrall.button1,Continue
-EventStart1Tile.text,You wake from a weird dream and find yourself outside a strange house. \nPlace the {MAD20} Garden Path Tile.
-EventStart1Tile.button1,Continue
-EventStart2Placefigs.text,You enter the court yard but do not remember how you got here.\nPlace your investigators as indicated. Each investigator gains 2 clues.
-EventStart2Placefigs.button1,Continue
-EventStart3Bushes.text,You hear something rummaging in the bushes along the house.\nPlace a Search Token as indicated.
-EventStart3Bushes.button1,Continue
-EventStart4Conservatory.text,You notice a door in front of you that leads to the Conservatory.\nPerhaps you can get into the house through this door.\nPlace an Explore Token as indicated.
-EventStart4Conservatory.button1,Continue
-EventFlowersbedPipe.text,Something odd seems to be stuck in the bed of flowers.\nPlace a Search Token as indicated.
-EventFlowersbedPipe.button1,Continue
 TokenFindPipe.text,You notice something stuck in the ground propping up the tall flowers.\nPerhaps you could use it.
 TokenFindPipe.button1,{action} Search Flowers
 EventPlaceRestraintExplore.text,If you have an item to restrain another investigator you can use it to restrain a monster. The investigator holding this item can interact with it to restrain a monster by click on the item in the app.
@@ -143,11 +165,6 @@ EventGainWrench.text,The shelf drags across the floor and you are able to pull s
 EventGainWrench.button1,Confirm
 EventPapersPass.text,"Digging through the stack of papers you find an address....Robert Jensen. You have heard the name, but you can't quite picture the face. I wonder if this is who I should be looking for? Gain the Circumstantial Evidence Unique Item and 1 Clue then discard this token."
 EventPapersPass.button1,Confirm
-EventPhotoTest.text,You scan over the pictures on the desk and look for anything of importance ({observation}).
-EventPhotoTest.button1,Continue
-EventPhotoTest.button2,Cancel
-EventPhotoPass.text,"Flipping through a photo album you find a picture that draws your eye. It's a picture of you. Why would this guy, Robert Jensen, have a picture of you?\nGain the Photographic Evidence and 1 Clue, then discard this token."
-EventPhotoPass.button1,Continue
 EventHallPapersPass.text,"Searching over and over through a pile of what looks like legal documents you stumble upon a crayon drawing. Its a picture of a little girl standing with a police officer. It reads ""Have a great day at work"".\nGain the Incriminating Evidence Unique Item and 1 Clue, then discard this token."
 EventHallPapersPass.button1,Continue
 EventGainKeysPass.text,"The figure finally drops its guard for just a second to speak to you, \n""I am not coming out. What you want is upstairs. Just leave us alone"".\nThe figure reaches into its pocket, pulls out a set of keys, and throws it at the window. Gain the Old Keys Unique Item and discard this token."
@@ -329,7 +346,6 @@ TokenPorchSearch.text,You see a large box of old stuff lying on the porch. You m
 TokenPorchSearch.button1,{action} Search
 EventBreakDoor.text,You use whatever you can find to pry the door open ({strength}). If you have a Heavy Weapon Common Item ({strength}+2).
 EventStackofPapers.text,You notice a small stack of papers piled up on the corner table.\nPlace a Search Token as indicated.
-EventSolvePuzzle.text,You managed to guess the code as if you knew it all along. \nThe house opens to a small entry way. Place the {MAD20} Bathroom Tile as indicated.
 EventSolvePuzzle2.text,You managed to reroute the wires and you hear a click. \nThe house opens to a small entry way. Place the {MAD20} Bathroom Tile as indicated.
 EventPlaceAtticStairsExplore.button1,Continue
 EventSearchPapers.text,You shuffle through the papers looking for something of interest ({observation}).
@@ -351,8 +367,6 @@ TokenExploreStairs.button1,{action} Explore
 EventPlaceHallwayTile2.button1,Continue
 TokenStairs2.text,A door leads further into the house.
 TokenStairs2.button1,{action} Explore
-EventPhoto.text,The owner's personal items sit on the end table. Place a Search Token as indicated.
-EventPhoto.button1,Continue
 TokenDiningExplore.text,The door has a sweet aroma coming from behind it.
 TokenPainting.text,A large painting hangs on the wall behind the pool table.
 TokenPainting.button1,{action} Search
@@ -402,7 +416,6 @@ TokenRitual.button1,{action} Search
 EventRitualTest.button1,Continue
 EventRitualTest.button2,Button 2
 TokenBushes.button1,{action} Search Bushes
-EventGuessKeyPad.text,The door seems to be locked by a key pad. Perhaps it will open if you can guess the right combination. Tap to attempt the puzzle using {observation}.
 EventRewirePad.text,The door seems to be locked by a key pad. Perhaps it will open if you can reroute the wires. Tap to attempt the puzzle using {observation}.
 EventPlaceLibraryExploreToken.text,You notice a door across the room that may gain you access to the house.\nPlace an Explore Token as indicated.
 EventPorchSearchTest.button1,Continue
@@ -417,14 +430,10 @@ EventAtticLocked.text,A small door at the top of the steps appears to be locked.
 EventAtticLocked.button1,Continue
 TokenAtticNoKey.text,A small door at the top of the steps appears to be locked.
 TokenAtticNoKey.button1,Continue
-TokenOpenHouse.text,A door you believe leads into the house.
-TokenOpenHouse.button1,{action} Explore
 TokenPorch.text,The porch is locked but seems to have a large enough gap to pry it open. You might be able to force it open.
 TokenPorch.button1,{action} Explore
 EventBreakDoor.button1,Continue
 EventBreakDoor.button2,Fail
-EventGuessKeyPad.button1,Attempt Key Pad
-EventGuessKeyPad.button2,Cancel
 EventRewirePad.button1,Rewire the Pad
 EventRewirePad.button2,Cancel
 PuzzleKeyCode.text,Tap to attempt the puzzle using {observation}.
@@ -448,8 +457,6 @@ TokenBarricadeInfo.button1,{action} Search
 EventSearchBarricade.button1,Continue
 EventPlaceDogBalcony.text,The dog sits on the balcony as if he is waiting for something. Place the Dog Person Token as indicated.
 EventAddDog.button1,Continue
-TokenConservatoryDoor.text,A locked door keeps you from entering the Conservatory. There may be a key close by.
-TokenConservatoryDoor.button1,Continue
 TokenBathroom.text,You hear the sound of running water coming from what seems like a bathroom.
 TokenBathroom.button1,{action} Explore
 TokenStackofPapers.text,A stack of papers on the corner desk. You may be able to find out who lives here.
@@ -532,8 +539,6 @@ EventHallPapersFail.button1,Continue
 EventTurnOffSink.button1,Continue
 EventExploreBath.text,You open the door and immediately see water rushing by your feet.
 EventExploreBath.button1,Continue
-TokenPhotoEv.text,Several personal items sit on the corner table.
-TokenPhotoEv.button1,{action} Search
 EventHandCuffFail.text,You dig through the entire chest but you just can't find anything of use.
 EventHandCuffFail.button1,Continue
 TokenmasterBedExplore.text,The door leads to a room at the end of the hallway.
@@ -550,7 +555,6 @@ EventOpenHouseExplore.button1,Continue
 EventFailAxe.button1,Continue
 EventFailedGainPipe.text,You pulled with all your strength but could not pry the item loose.
 EventFailedGainPipe.button1,Continue
-EventSolvePuzzle.button1,Continue
 EventBathroomToken.button1,Continue
 EventFailPapers.button1,Confirm
 EventPlaceHallway.button1,Continue
