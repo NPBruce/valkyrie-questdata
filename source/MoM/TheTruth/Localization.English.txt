@@ -112,7 +112,7 @@ TokenFindPipe.button1,{qst:ACTIONSEARCH} Flowers
 EventPlaceRestraintExplore.text,{qst:EventPlaceRestraint.text}
 EventPlaceRestraintExplore.button1,{qst:CONTINUE}
 EventRestaintItems.button1,{qst:CONTINUE}
-EventPlaceRestraint.text,If you have an item to restrain another investigator you can use it to restrain a monster. The investigator holding this item can interact with it to restrain a monster by click on the item in the app.
+EventPlaceRestraint.text,If you have an item to restrain another investigator you can use it to restrain a monster. The investigator holding this item can interact with it to restrain a monster by clicking on the item in the app.
 EventPlaceRestraint.button1,{qst:CONTINUE}
 EventPlaceWhiskey.text,On the table sits a bottle of liquor. Place the Whiskey Bottle Common Item as indicated.
 EventPlaceWhiskey.button1,{qst:CONTINUE}
