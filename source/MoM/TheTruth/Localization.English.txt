@@ -20,7 +20,7 @@ FAIL,Fail
 KILLRESTRAINEDMONSTER,Kill a Restrained Monster
 RESTRAINMONSTER,Restrain a Monster
 SELECTMONSTERTOKILL,Select the Monster to kill.
-SELECTMONSTERTORESTRAIN,Select the Monster to restrain.
+SELECTMONSTERTORESTRAIN,Select the monster below if your action to restrain was successful.
 MONSTERDEEPONEHYBRID,<i>{ffg:MONSTER_DEEP_ONE_HYBRID}</i>
 MONSTERPRIEST,<i>{ffg:UNIQUE_MONSTER_PRIEST_OF_DAGON}</i>
 MONSTERTHRALL,<i>{ffg:MONSTER_THRALL}</i>
