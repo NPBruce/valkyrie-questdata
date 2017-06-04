@@ -1,0 +1,256 @@
+﻿.,German
+quest.authors,<b>Autor</b>\nSly Cozz\n\n<b>Übersetzer</b>\nDeutsch: redwolf2
+quest.description,"Ein merkwürdiger, neuer Freund entsendet dich auf die Suche nach ""Der Wahrheit""."
+quest.name,Die Wahrheit
+ACTIONINTERACT,{action} Interagieren
+ACTIONEXPLORE,{action} Erkunden
+ACTIONSEARCH,{action} Durchsuchen
+ATTEMPTPUZZLE,Puzzle Lösen
+BUTTON1,Knopf 1
+BUTTON2,Knopf 2
+CANCEL,Abbrechen
+CLOSE,Schließen
+COMPLETE,Erledigt
+CONFIRM,Bestätigen
+CONTINUE,Weiter
+FAIL,Versagt
+KILLRESTRAINEDMONSTER,Töte gefesseltes Monster
+RESTRAINMONSTER,Fessele Monster
+SELECTMONSTERTOKILL,Monster zum Töten auswählen
+SELECTMONSTERTORESTRAIN,Monster zum Fesseln auswählen
+NO,Nein
+YES,Ja
+YOUMAYMOVE1SPACE,Du darfst dich ein Feld in den erkundeten Raum bewegen.
+ActivationCustomAct.ability,"Die Kreatur bewegt sich nicht. Diese Kreatur wird nur angreifen, wenn sich ein Ermittler auf seinem Feld befindet."
+ActivationCustomAct.master,"Die verzweifelt, in die Ecke gedrängte Kreatur langt nach dir um seine Klauen in deine Augen zu bohren ({agility}, 2). Bist du erfolgreich, trittst du das Monster zurück, als es auf dich zugestürmt. Versagst du, reift sich das Monster dein Gesicht und steckt eine Klauen tief in deine Augen. Erleide 2 Schaden und werde Benommen."
+ActivationCustomAct.move,Das Monster weigert sich herauszukommen.
+ActivationCustomAct.movebutton,Das Monster versteckt sich.
+ActivationCustomAct2.master,"Die Kreatur sieht sich nach Gegenständen um, welche sie nach dir werfen kann. Dann schleudert sie Glas und schwere Objekte nach dir, in der Hoffnung sich damit vor dir verteidigen zu können ({agility}, 2). Bist du erfolgreich, schaffst du es den Gegenständen auszuweichen, welche auf deine Kopf zurasen. Versagst du, trifft dich eine Glasflasche am Kopf und ihre Splitter bohren sich in dein Gesicht. Erleide 2 Schaden und werde Aufgehalten."
+ActivationCustomAct3.master,"Die Kreatur hastet auf dich zu und singt dabei eine seltsame Botschaft ({will}, 2). Bist du erfolgreich, stoßt du das Monster zurück, wodurch es verstummt. Versagst du, schaffst du es nicht das Monster aufzuhalten und es spricht die mystischen Worte ""Einer von uns"" aus. Erleide 2 Schaden und werde Betäubt."
+CustomMonsterCustomThrall.monstername,Kreatur
+CustomMonsterPriest.monstername,Priester
+EventActivation.button1,<i>Das Monster greift an</i>
+EventActivation.button2,<i>Das Monster versteckt sich</i>
+EventAddDog.text,"Als du dir das Gebüsch näher ansiehst, bemerkst du darin eine Bewegung. Du schreist ""Komm raus!"". Du erschrickst, als aus den Büschen ein Hund hervorspringt. Entferne diesen Durchsuchungsmarker. Platziere den Personenmarker des Hundes, wie gezeigt."
+EventAddHallDoors3.text,"Du siehst mehrere Türen, welche an diese Flur anschließen. Platziere Erkundungsmarker, wie gezeigt."
+EventAddStairDoors2.text,"Eine Tür befindet sich am äußersten Ende der Treppe, welche tiefer hinein ins Haus führt. Platziere einen Erkundungsmarker, wie gezeigt."
+EventAddStairsToken2.text,"Eine kleine Tür zu deine Linken könnte ins nächste Stockwerk führen.\nPlatziere einen Erkundungsmarker, wie gezeigt."
+EventAtticLocked.text,Die kleine Tür oberhalb der Treppe scheint verschlossen zu sein.
+EventAtticwithKeys.text,"Du glaubst, dass diese Tür in das oberste Stockwerk des Hauses führt. Du kannst den Raum durchsuchen, wenn du den Besonderen Gegenstand {ffg:UNIQUE_ITEM_OLD_KEYS} hast."
+EventBalconySight.text,"Du bist von der großartigen Aussicht überwältigt, doch schnell wechselt deine Stimmung zu Angst, als du nach unten guckst. Ein Fall aus dieser Höhe währe wohl tödlich."
+EventBandages.text,"Auf dem Schrank siehst du etwas, dass du gebrauchen kannst. Platziere den Gegenstand {ffg:COMMON_ITEM_BANDAGES}, wie gezeigt."
+EventBathroomToken.text,Eine kleine Tür scheint in ein kleines Badezimmer zu führen.\nPlatziere einen Erkundungsmarker, wie gezeigt."
+EventBeginBadRitual.text,"""Das hast du gut gemacht"", sagt der Hund, ""Du bist nun bereit den letzten Schritt zu gehen, um das Haus zu reinigen."""
+EventBreakDoor.text,"Du probierst alles was hier rumliegt aus, um damit die Tür aufzustemmen.({strength}). Du hast bessere Chancen, wenn du über eine Schwere Waffe als Gegenstand verfügst ({strength}+2)."
+EventBreakDoorFail.text,"Du hast dein Bestes gegeben, schaffst es aber nicht die Tür auf zu bekommen."
+EventBreakDoorPass.text,"Du schaffst es gerade genug Hebelkraft aufzubringen, um das Schloss aufzubrechen."
+EventClosetSearch.text,"Die Kreatur ist im Schrank gefangen. Vielleicht kannst du sie überreden herauszukommen. Platziere einen Durchsuchungsmarker, wie gezeigt."
+EventDeepOneHybridSelection.text,"Wähle das Monster, welches du aufhalten willst."
+EventDogDisapears.text,"Der Hund bellt ""Du hast alles was du brauchst, nun erledige das, wofür du hier her gekommen bist"". Du hebst deine Hände in Abwehrhaltung, aus Angst, dass der Hund dich angreifen könnte. Als du deine Augen wieder öffnest, stellst du fest, dass der Hund nirgendwo zu sehen ist. Erhalte einen Hinweismarker und entferne den Personenmarker des Hundes."
+EventDogMad.text,"Der Hund knurrt dich an, als du auf ihn zugehst und sagt: ""Du hast deinen Auftrag nicht durchgezogen. Du musst zurückgehen und deinen Job machen, oder ich muss jemanden finden, der das kann""."
+EventDogNo.text,"""Du hast keine Wahl"", sagt der Hund bellend, als er nach dir schnappt. Der Hund verängstigt dich bis ins Mark, du bleibst wo du bist. Erleide 1 Horror ({will} negiert)\nDer Hund tritt einen Schritt zurück. ""Hier wohnt ein schrecklicher Mann. Er versucht die Welt, wie wir sie kennen zu zerstören. Du musst ihn und die Kreaturen, die hier leben aufhalten. Überleben sie, schaffst du es nicht das Haus vom seinem Fluch zu bereinigen. Falle nicht auf ihre Tricksereien herein und lass sie entkommen. Ihre Stärke wird wachsen, solange ihr Ritual weiter durchgeführt wird. Aber zunächst brauchst du Zutritt zum Haus. Den Schlüssel für die Eingangstür solltest du in deiner Jacke finden.""\nImmernoch verwirrt von dem Gehörten, fasst du in deine Tasche und findest den besagten Schlüssel, aber wie ist der überhaupt dort hin gekommen?\nErhalte den Besonderen Gegenstand {ffg:UNIQUE_ITEM_BRASS_KEY}.\nAls du dich wieder fragend zum Hund umdrehst, ist dieser verschwunden.\nEntferne den Personenmarker des Hundes."
+EventDogOrders.button1,{action} <i>Warum sollte ich das Monster töten?</i>
+EventDogOrders.button2,{action} <i>Wo findet das Ritual statt?</i>
+EventDogOrders.button3,Nichts sagen
+EventDogOrders.text,"Der Hund sieht dich verärgert an. ""Du hast eine Aufgabe zu erledigen. Komm wieder zurück und erledige was du angefangen hast""."
+EventDogPriestRemove.text,Der Hund verschwindet im Haus.
+EventDogYes.text,"""Das ist die Antwort, die ich erwartet habe. Hier wohnt ein schrecklicher Mann. Er versucht die Welt, wie wir sie kennen zu zerstören. Du musst ihn und die Kreaturen, die hier leben aufhalten. Überleben sie, schaffst du es nicht das Haus vom seinem Fluch zu bereinigen. Falle nicht auf ihre Tricksereien herein und lass sie entkommen. Ihre Stärke wird wachsen, solange ihr Ritual weiter durchgeführt wird. Aber zunächst brauchst du Zutritt zum Haus. Den Schlüssel für die Eingangstür solltest du in deiner Jacke finden.""\nImmernoch verwirrt von dem gehörten, fasst du in deine Tasche und findest den besagten Schlüssel, aber wie ist der überhaupt dort hin gekommen?\nErhalte den Einzigartigen Gegenstand {ffg:UNIQUE_ITEM_BRASS_KEY}.\nAls du dich wieder fragend zum Hund umdrehst, ist dieser verschwunden.\nEntferne den Personenmarker des Hundes."
+EventExploreBath.text,"Als du dir Tür öffnen entströmt ihr ein Schwall von Wasser, welcher deine Füße nass werden lässt."
+EventExploreHall.text,"An der gegenüberliegenden Seite des Raumes ist eine Tür, welche tiefer ins Haus führt.\nPlatziere einen Erkundungsmarker, wie gezeigt."
+EventFailAxe.text,"Mit deiner ganzen Kraft lehnst du dich gegen den Schrank, aber er ist einfach zu schwer."
+EventFailPapers.text,"Du suchst und suchst, aber hier scheint es nichts Interessantes zu geben."
+EventFailedGainPipe.text,"Du ziehst mit deine ganzen Kraft, schaffst es aber nicht den Gegenstand herauszulösen."
+EventFindMeatCleaver.text,"Du durchsuchst den Schrank nach etwas Nützlichem. Erhalte den Gegenstand {ffg:COMMON_ITEM_MEAT_CLEAVER}, danach entferne diesen Marker."
+EventFindRevolver.text,"Der Tresor öffnet sich und du findest eine kleine Handfeuerwaffe.\nErhalte den Gegenstand {ffg:COMMON_ITEM_38_REVOLVER}, danach entferne diesen Marker."
+EventFindSafe.text,"Unter der Bar findest du einen kleinen Tresor.\nDarin könnte sich etwas Nützliches befinden, wenn du ihn auf bekommst ({observation})."
+EventFlowersbedPipe.text,"Da steckt etwas Seltsames im Blumenbeet.\nPlatziere einen Durchsuchungsmarker, wie gezeigt."
+EventFoyerAddLibraryToken.text,"Zu deiner Rechten bemerkst du eine Tür.\nPlatziere einen Erkundungsmarker, wie gezeigt."
+EventGain2x4.text,"Du ziehst mit deiner ganzen Kraft und mit dem letzten Ruck gelingt es dir den Gegenstand zu lösen. Erhalte den Gegenstand {ffg:COMMON_ITEM_2x4}, danach entferne diesen Marker."
+EventGainAxe.text,"Der Schrank lässt sich verrücken und du schaffst es etwas dahinter hervorzuziehen. Erhalte den Gegenstand {ffg:COMMON_ITEM_AXE}, danach entferne diesen Marker."
+EventGainBible.text,"Als du die Schränke durchsuchst, findest du etwas Nützliches. Erhalte den Gegenstand {ffg:COMMON_ITEM_KING_JAMES_BIBLE}, danach entferne diesen Marker."
+EventGainBlackJack.text,Der große Typ verliert im Kampf seine Waffe. Platziere den Gegenstand {ffg:COMMON_ITEM_BLACKJACK} auf dem Feld des Monsters.
+EventGainKeysFail.text,"Du bettelst und bittest, aber ohne Erfolg. Die Figur bleibt in der Ecke und spricht mit jemandem."
+EventGainKeysPass.text,"Endlich bricht die Figur ihr Schweigen und sagt dir: ""Ich werde nicht nach draußen gehen. Was du suchst ist oben. Lass uns einfach in Ruhe. Die Figur greift in ihre Tasche und ziehst daraus einen Schlüsselbund hervor, den sie dir zuschmeißt. Erhalte den Besonderen Gegenstand {ffg:UNIQUE_ITEM_OLD_KEYS}, danach entferne diesen Marker."
+EventGainKeysTest.text,"Du hörst, wie die Figur nach Hilfe ruft. Du bittest sie leise zu sein ({influence})."
+EventGainMachete.text,"Der Schrank lässt sich verrücken und du schaffst es etwas dahinter hervorzuziehen. Erhalte den Gegenstand {ffg:COMMON_ITEM_MACHETE}, danach entferne diesen Marker."
+EventGainMagnifyingGlass.text,"Als du die Schränke durchsuchst, findest du etwas Nützliches. Erhalte den Gegenstand {ffg:COMMON_ITEM_MAGNIFYING_GLASS}, danach entferne diesen Marker."
+EventGainOldKeys2.text,"Du fragst dich, ob die Figur etwas wichtiges bei sich trägt und durchsuchst ihre Taschen.\nErhalte den Besonderen Gegenstand {ffg:UNIQUE_ITEM_OLD_KEYS}."
+EventGainPipe.text,"Du ziehst mit deiner ganzen Kraft und mit dem letzten Ruck gelingt es dir den Gegenstand zu lösen. Erhalte den Gegenstand {ffg:COMMON_ITEM_LEAD_PIPE}, danach entferne diesen Marker."
+EventGainRabbitFoot.text,"Als du die Schränke durchsuchst, findest du etwas Nützliches. Erhalte den Gegenstand {ffg:COMMON_ITEM_LUCKY_RABBITS_FOOT}, danach entferne diesen Marker."
+EventGainRope.text,"Du findest den Rest eines alten Seils. Es scheint noch lang genug zu sein um es gebrauchen zu können. Erhalte den Besonderen Gegenstand {ffg:UNIQUE_ITEM_ROPE}, danach entferne diesen Marker."
+EventGainWrench.text,"Der Schrank lässt sich verrücken und du schaffst es etwas dahinter hervorzuziehen. Erhalte den Gegenstand {ffg:COMMON_ITEM_WRENCH}, danach entferne diesen Marker."
+EventGameEnd.text,"Als sich der Geist auflöst, verschwindet auch die dunkle Präsenz des Hauses und der Schrecken ist vorbei.\n\nDie Ermittlungen sind abgeschlossen!\n\n{success}Danke fürs Spielen{success}"
+EventGirlDied.text,"Doch mit der Realität kommt auch die schreckliche Wahrheit. Deine Tochter ist tot. Wegen dir. Obwohl sie so viel hatte, wofür es sich zu leben lohnte. Sie wahr klug und lieb....und nun ist sie nicht mehr."
+EventGuessKeyPad.button1,Kombinationen ausprobieren
+EventGuessKeyPad.text,Die Tür scheint durch ein Nummernschloss gesichert zu sein. Vielleicht kannst du die richtige Kombination erraten ({observation}).
+EventHallPapersFail.text,"Du schaust dir die Seite immer und immer wieder an, aber sie ist einfach leer."
+EventHallPapersPass.text,"Du durchsuchst den Stapel, der scheinbar aus Arbeitsberichten besteht, als du dazwischen eine Wachsmalstiftzeichung findest. Auf dem Bild ist eines kleinen Mädchens neben einem Polizisten zu sehen, darunter steht geschrieben ""Viel Spaß auf der Arbeit.""\nErhalte den Besonderen Gegenstand {ffg:UNIQUE_ITEM_INCRIMINATING_EVIDENCE} und einen Hinweismarker, danach entferne diesen Durchsuchungsmarker."
+EventHallSearch.text,"Papiere liegen zerstreut auf dem Boden. Platziere einen Durchsuchungsmarker, wie gezeigt."
+EventHallSearchPapers.text,"Während du die Papiere aufhebst, siehst du sie durch ({observation})."
+EventHandCuffFail.text,"Du durchwühlst die gesamte Kiste, kannst aber nichts Nützliches finden."
+EventHandcuff.text,"Eine kleine Kiste steht am Ende des Bettes. Platziere einen Durchsuchungsmarker, wie gezeigt."
+EventHandcuffPass.text,"Die Kiste ist voll mit alten Uniformen. Du nimmst jede heraus und schaust sie dir an. Als du am Boden der Kiste ankommst findest du einen seiner Gegenstände. Nimm den Besonderen Gegenstand {ffg:UNIQUE_ITEM_HANDCUFFS}, danach entferne diesen Marker."
+EventHappy.text,"Du dankst Gott, dass er dein Verlangen lang genug hinausgezögert hat, so dass du dich des Dämons entledigen konntest. Du betest um Vergebung für deine Taten."
+EventKidsSearch.text,"Am anderen Ende des Zimmers steht eine kleine Kommode. Spielzeuge liegen um sie verstreut.\nPlatziere einen Durchsuchungsmarker, wie gezeigt."
+EventKillGuardSelect.text,"Wähle das Monster, welches du töten willst."
+EventLargeManDied.text,"Jetzt scheinen sich deine Entscheidungen endlich zu einem Bild zu formen. Wer wahr der große Mann im Foyer? War das jemand, der gekommen war, um deiner Familie zu helfen oder entspringt das alles deiner Fantasie? Wer auch immer das war, du hoffst, dass Niemand getötet wurde, fürchtest aber das Schlimmste."
+EventLibrary2.text,"Die Tür führt aus der Bibliothek hinaus und tiefer ins Haus hinein. Platziere einen Durchsuchungsmarker, wie gezeigt."
+EventLibraryBarricade.text,"Am anderen Ende der Wand steht neben den Schränken ein kleiner Schreibtisch. Platziere einen Barrikadenmarker, wie gezeigt."
+EventMedicalTextbook.text,"Auf dem Schrank entdeckst du etwas Nützliches. Platziere den Gegenstand {ffg:COMMON_ITEM_MEDICAL_TEXTBOOK}, wie gezeigt."
+EventMissingLinkFail.text,Alles was du findest sind Zeichnungen von Kindern. Nichts was dir nützlich wäre.
+EventMissingLinkPass.text,"Dir fällt eine Gratulationskarte auf, welche für ein Kind geschrieben wurde.\nAuf ihr steht: ""Ich hoffe du hattest den besten Geburtstag aller Zeiten. In Liebe Oma und Opa J."". Erhalte den Besonderen Gegenstand {ffg:UNIQUE_ITEM_MISSING_LINK} und einen Hinweismarker, danach entferne diesen Durchsuchungsmarker."
+EventMissingLinkTest.text,"Deine Augen wandern über die Kommode, welche mit bunten Wachsmalzeichnungen bedeckt ist. Du achtest auf etwas, was heraus-sticht ({observation})."
+EventNoRestraints.text,"Hier gibt eine keine Monster, die du fesseln kannst."
+EventNoneCaptured.text,"Hier gibt es keine gefangenen Monster, die du töten kannst."
+EventOpenHouseExplore.text,"Du bemerkst eine Tür am anderen Ende des Raums. Wahrscheinlich führt sie tiefer in Innere des Hauses.\nPlatziere einen Durchsuchungsmarker, wie gezeigt."
+EventOpenLockedPorchfromLibrary.text,Die Tür führt zu einer kleinen Veranda.
+EventPapers2.text,"Du siehst einen kleinen Papierstapel auf dem Ecktisch.\nPlatziere einen Durchsuchungsmarker, wie gezeigt."
+EventPapersPass.text,"Als du den Papierstapel durchwühlst, findest du eine Adresse....Robert Jensen. Du hast den Namen schon einmal gehört, dir fällt dazu aber kein Gesicht ein. Du fragst dich, ob dies die Person ist, nach der du suchen sollst. Erhalte den Besonderen Gegenstand {ffg:UNIQUE_ITEM_CIRCUMSTANTIAL_EVIDENCE} und einen Hinweismarker. Entferne danach diesen Marker."
+EventPhoto.text,"Die persönlichen Gegenstände des Besitzers liegen auf dem Tisch. Platziere einen Durchsuchungsmarker, wie gezeigt."
+EventPhotoFail.text,"Du suchst und suchst, aber findest nichts von Interesse."
+EventPhotoPass.text,"Beim Blättern durch das Fotoalbum fällt dir ein Bild ins Auge. Es ist ein Bild von dir selbst. Warum sollte dieser Robert Jensen ein Bild von dir besitzen?\nErhalte den besonderen Gegenstand {ffg:UNIQUE_ITEM_PHOTOGRAPHIC_EVIDENCE} und einen Hinweismarker, danach entferne diesen Durchsuchungsmarker."
+EventPhotoTest.text,Du durchsuchst die Bilder auf dem Schreibtisch nach etwas Relevantem ({observation}).
+EventPhotoTest2.text,"Teile einen zerrissenen Fotos liegen auf dem Boden verstreut herum. Vielleicht kannst du es wieder zusammensetzen.\nDrücke auf die Schaltfläche, um sich am Puzzle zu versuchen ({observation})."
+EventPipeTest.text,"Du bringst deine ganze Kraft auf, um den Gegenstand aus dem Boden zu ziehen ({strength})."
+EventPlace3rdLevelDoors.text,Oberhalb der Treppen siehst du zwei Türen.
+EventPlaceAttic.text,"Als du die Tür öffnest, befindet sich dahinter ein kleiner Dachboden. Platziere das Spielplanteil {ffg:TILE_ATTIC_STORAGE_MAD23}, wie gezeigt."
+EventPlaceAtticStairs.text,"Die Tür öffnet sich und dahinter liegt eine weitere Treppe, die ins oberste Stockwerk führt. Platziere das Spielplanteil {ffg:TILE_HALL_STAIRS_MAD20}, wie gezeigt."
+EventPlaceAtticStairsExplore.text,"Die Tür oberhalb der Treppe scheint abgeschlossen zu sein. Platziere einen Durchsuchungsmarker, wie gezeigt."
+EventPlaceAxeShelf.text,"Ein großes Regal ist vollgestopft mit Werkzeug und Gartenutensilien.\nPlatziere einen Durchsuchungsmarker, wie gezeigt."
+EventPlaceBadRitual.text,"Der Hund ist zuversichtlich, dass du es endlich schaffst, das Haus vom Bösen zu bereinigen.\nPlatziere einen Interaktionsmarker, wie gezeigt."
+EventPlaceBalcony.text,"Du öffnest die Tür zum großen Balkon des obersten Stockwerks. Platziere das Spielplanteil {ffg:TILE_BALCONY_MAD23}, wie gezeigt."
+EventPlaceBalconySight.text,"Vom Balkon aus kann man das ganze Anwesen überblicken. Platziere einen Sichtungsmarker, wie gezeigt."
+EventPlaceBarSearch.text,"Eine kleine Bar scheint mit mehreren Flaschen bestückt zu sein. Platziere einen Durchsuchungsmarker, wie gezeigt."
+EventPlaceBilliards.text,"Die Tür führt in einen kleinen Raum mit einem Billiardtisch. Platziere das Spielplanteil {ffg:TILE_BILLIARDS_ROOM_MAD20}, wie gezeigt."
+EventPlaceBilliardsandDiningExp.text,"Am Ende des Flurs siehst du zwei Türen. Platziere Erkundungsmarker, wie gezeigt."
+EventPlaceDining.text,"Die Tür führt in ein großes Esszimmer. Platziere das Spielplanteil {ffg:TILE_DINING_ROOM_MAD20}, wie gezeigt."
+EventPlaceDogBalcony.text,"Der Hund sitzt auf dem Balkon, als würde er auf etwas warten. Platziere den Personenmarker des Hundes, wie gezeigt."
+EventPlaceExploreLeave.text,"Eine Tür am anderen Ende des Raumes führt nach Draußen. Platziere einen Erkundungsmarker, wie gezeigt."
+EventPlaceFoyer.text,"Du siehst ein gemütliches Foyer und fühlst dich seltsamerweise wie zu hause.\nPlatziere des Spielplanteil {ffg:TILE_ENTRY_HALL_MAD20}, wie gezeigt."
+EventPlaceHallDoors2.text,"Du siehst mehrere Türen, die an den Flur anschließen. Platziere Erkundungsmarker, wie gezeigt."
+EventPlaceHallway.text,"Die Tür öffnet führt in einen Flur. Platziere das Spielplanteil {ffg:TILE_HALL_END_MAD20}, wie gezeigt."
+EventPlaceKidsBed.text,"Du öffnest die Tür und bist überrascht dahinter ein Kinderzimmer zu vorzufinden.\nWas hat die Kreatur diesem Kind nur angetan?\nPlatziere das Spielplanteil {ffg:TILE_BEDROOM_MAD23}, wie gezeigt"
+EventPlaceLibaryExploretoPorch.text,"Du bemerkst eine Tür zu deiner Rechten. Platziere einen Erkundungsmarker, wie gezeigt."
+EventPlaceLibrary.text,"Du öffnest die Tür und findest dahinter eine kleine Bibliothek.\nPlatziere das Spielplanteil {ffg:TILE_LIBRARY_MAD20}, wie gezeigt."
+EventPlaceLibraryExploreToken.text,"Am gegenüberliegenden Ende des Zimmers siehst du eine Tür, welche dir Zutritt zum Haus verschaffen könnte.\nPlatziere einen Erkundungsmarker, wie gezeigt."
+EventPlaceLibrarySearch.text,"Diverse Gegenstände liegen verstreut in den Regalen herum.\nVielleicht befindet sich etwas Nützliches darunter.\nPlatziere einen Durchsuchungsmarker, wie gezeigt."
+EventPlaceMasterBed.text,"Die Tür führt in ein Schlafzimmer eines Erwachsenen. Platziere das Spielplanteil {ffg:TILE_BEDROOM_2_MAD20}, wie gezeigt."
+EventPlaceMeatCleaver.text,"Ein Regal an der Wand enthält verschiedene Kochutensilien. Platziere einen Durchsuchungsmarker, wie gezeigt."
+EventPlaceOldKeys.text,"Durch das Fenster, welches die Räume von einander teilt, siehst du eine Figur. Du könntest versuchen sie herauszulocken.\nPlatziere einen Interaktionsmarker, wie gezeigt."
+EventPlacePainting.text,"Ein großes Gemälde hängt am Ende des Billiardzimmers an der Wand.\nPlatziere einen Durchsuchungsmarker, wie gezeigt."
+EventPlacePocketWatch.text,"Eine Taschenuhr liegt auf dem kleinen Tisch. Platziere den Gegenstand {ffg:COMMON_ITEM_POCKET_WATCH}, wie gezeigt."
+EventPlacePorch.text,"Die Tür führt zu einer kleinen Veranda. Platziere das Spielplanteil {ffg:TILE_YARD_2_MAD20}, wie gezeigt."
+EventPlacePorchSearch.text,"Eine große Kiste mit altem Zeug steht auf der Veranda.\nDu könntest darin etwas Nützliches finden. Platziere einen Durchsuchungsmarker, wie gezeigt."
+EventPlaceRestraint.text,"Wenn du einen Gegenstand hast, um einen anderen Ermittler zu fesseln, kannst du ihn einsetzten, um damit ein Monster zu fesseln."
+EventPlaceRitual.text,"Ein kleiner Bereich des Boden wurde geräumt. Platziere einen Durchsuchungsmarker, wie gezeigt."
+EventPlaceRitualPriest.text,"Das Ritual nähert sich der Vollendung. Platziere einen Interaktionsmarker, wie gezeigt."
+EventPlaceSedative.text,"Auf dem Schrank entdeckst du etwas Nützliches. Platziere den Gegenstand {ffg:COMMON_ITEM_SEDATIVES}, wie gezeigt."
+EventPlaceSinkSearch.text,"Aus dem Waschbecken, dessen Wasserhahn immer noch läuft, rinnt Wasser herunter. Platziere einen Durchsuchungsmarker, wie gezeigt."
+EventPlaceStairs2.text,"Mehrere Treppen führen in ein höheres Stockwerk des Hauses. Platziere das Spielplanteil {ffg:TILE_HALL_STAIRS_MAD23}, wie gezeigt."
+EventPlaceStairsExploreToken.text,"Eine Tür am ende der Treppe führt tiefer in das Haus hinein. Platziere einen Erkundungsmarker, wie gezeigt."
+EventPlaceStairsFromHallway.text,"Mehrere Treppen führen in ein tieferes Stockwerk des Hauses. Platziere das Spielplanteil {ffg:TILE_HALL_STAIRS_MAD23}, wie gezeigt."
+EventPlaceWhiskey.text,"Auf dem Tisch steht eine Flasche vom Guten. Platziere den Gegenstand {ffg:COMMON_ITEM_WHISKEY}, wie gezeigt."
+EventPlaceYard2.text,"Ein schmaler Weg führt in die untere Ebene des Hauses.\nPlatziere das Spielplanteil {ffg:TILE_PORCH_MAD23}, wie gezeigt."
+EventPlaceYardSight.text,"Der Garten führt zur unteren Ebene des Hauses.\nPlatziere einen Sichtungsmarker, wie gezeigt."
+EventPorchExplore.text,"Die Tür am anderen Ende des Gartens scheint zu einer Veranda zu führen.\nPlatziere einen Erkundungsmarker, wie gezeigt."
+EventPorchSearchTest.text,Einige Gegenstände werden in der Kiste an der Wand aufbewahrt ({observation}).
+EventPriestDied.text,"Die Figur fällt zu Boden und fragt dich weinend: ""Warum?""."
+EventRemoveThrall.text,"Als du dich im Zimmer umschaust, flüchtet die Kreatur in das Zimmer zu deiner Linken.\nDie Kreatur sah aus, als hätte sie Angst vor dir gehabt. Höchstwahrscheinlich handelt es sich dabei um das Monster, von dem dir der Hund erzählt hat. Entferne den Thrall vom Spielbrett."
+EventRestrainGuard.text,"Du ringst die Figur zu Boden, überwältigst und fesselst sie.\nLasse das Monster auf seinem Feld und lege den dazu benutzten Gegenstand unter das Monster."
+EventRestraint.text,"Wenn du einen Gegenstand hast, um einen anderen Ermittler zu fesseln, kannst du ihn einsetzten, um damit ein Monster zu fesseln. Wähle <i>Monster fesseln</i> um sicherzustellen, dass das Monster erlaubt ist zu fesseln. Benutze den Text auf der Karte für Anweisungen, wie die Fesselung durchzuführen ist. Das gefesselte Monster wird sich nicht weiter bewegen. Tötest du ein Monster, das gefesselt ist, wird es aus dem Spiel entfernt und die Karte bleibt liegen. Du kannst regulär eine Aktion ausgeben um sie wieder aufzuheben."
+EventRestraintNotReady.text,Dieser Gegenstand hat aktuell keine Funktion.
+EventRevolation.text,"In einem Anfall von Wahnsinn erlangst du endlich Klarheit. Endlich, <i>Die Wahrheit</i>. Das wonach du gesucht hast. Das hier ist dein Haus. Deine Familie. Du warst die ganze Zeit schon Robert Jensen. Das Monster, was deine Familie terrorisiert hast warst du. Aus einem simplen Brettspiel zusammen mit deiner Tochter wurde eine Seance....eine Besessenheit. Die Tage darauf fühlten sich seltsam, entfremdet, an. Deine Familie distanzierte sicher immer mehr von dir. Sie merkten deine Veränderung zum Monster und lebten in stetiger Furcht. Die Wut war real, der Zorn war Real, aber es war etwas gänzlich Anderes."
+EventRewirePad.button1,Die Tastatur überbrücken
+EventRewirePad.text,"Die Tür ist mit einem Nummernschloss gesichert. Vielleicht lässt sich dieses öffnen und überbrücken, um die Tür zu öffnen ({observation})."
+EventRitualFail.text,Deine Aufmerksamkeit lenkt sich vom Boden hin zum vollgeferchten Dachboden. Darin kannst du aber nichts Wichtiges finden.
+EventRitualNotComplete.text,Du hast es nicht geschafft das Ritual zu beenden.
+EventRitualPass.text,"Als du dir den Boden anschaust, siehst du Markierungen....aus Wachsmalkreide. Neben den Markierungen findest du eine Schachtel – ein Quija-Brett.\nErhalte den Besonderen Gegenstand {ffg:UNIQUE_ITEM_RITUAL_COMPONENTS} und entferne diesen Marker."
+EventRitualTest.text,"Du schaust dir den Boden ganz genau an, um herauszufinden, was hier passiert ist ({lore})."
+EventRopeFail.text,"Du leerst die ganze Kiste über den Boden aus, findest aber nichts Brauchbares."
+EventSacrificeGuard.text,"Die große Kreatur fleht um ihr Leben, aber du hörst ihr nicht zu. Du wirst nicht auf ihre Tricks hereinfallen."
+EventSearchAxe.text,"Du schaust dir das Regal an und findest nichts von Interesse. Du bemerkst aber etwas hinter dem Regal und versuchst das Regal mit aller Kraft wegzuschieben um an den Gegenstand zu gelangen ({strength})."
+EventSearchBarricade.text,"Du sagst der Kreatur, sie soll herauskommen, aber sie hört dir nicht zu. Du schaust dir den Schrank an, kannst aber keine Möglichkeit finden ihn zu öffnen, außer ihn aufzubrechen. Erhalte einen Hinweismarker und entferne den Durchsuchungsmarker."
+EventSearchChest.text,"Als du die Kiste durchwühlst, findest du eine Polizeiuniform.\nDu durchsuchst den Rest der Ausrüstung ({observation})."
+EventSearchPainting.text,"An der hinteren Wand hängt ein großes Gemälde von fünf Hunden, die Poker spielen. Sekündlich kommt dir der Gedanke ob einer von ihnen deinen neuen Freund kennt. Du suchst alles ab, sogar hinter dem Gemälde, kannst aber nichts finden. Erhalte einen Hinweismarker und entferne den Durchsuchungsmarker."
+EventSearchPapers.text,"Du durchblätterst den Stapel um etwas zu finden, was dich weiter bringt ({observation})."
+EventSolvePuzzle.text,"Du hast es geschafft den Code beim ersten Mal zu erraten.\nEin schmaler Zugang führt ins Haus. Platziere das Spielplanteil {ffg:TILE_BATHROOM_MAD20}, wie gezeigt."
+EventSolvePuzzle2.text,"Du hast es geschafft die Kabel zu überbrücken und hörst ein Klicken.\n\nEin schmaler Zugang führt ins Haus. Platziere das Spielplanteil {ffg:TILE_BATHROOM_MAD20}, wie gezeigt."
+EventSpawnDogPriest.text,"Der Hund scheint dir ins Haus gefolgt zu sein. Platziere den Personenmarker, wie gezeigt."
+EventSpeaktoDog.text,"Der Hund schaut zu dir hoch, als du nach ihm greifst um ihn zu streicheln, ""Ich wusste, dass du kommen würdest"". Du weichst erschreckt zurück, der Hund hat gerade mit dir gesprochen. Du fragst dich ob du immer noch träumst, dann fängt der Hund wieder an zu sprechen ""Wirst du mir helfen?"""
+EventStart1Tile.text,"Du erwachst von einem seltsamen Traum und befindest dich vor einem seltsamen Haus. Platziere das Spielplanteil {ffg:TILE_CONSERVATORY_MAD20}, wie gezeigt."
+EventStart2Placefigs.text,"Du betrittst den Vorhof, ohne dich daran erinnern zu können, wie du hier her gekommen bist.\nPlatziere deine Ermittler, wie gezeigt. Jeder Ermittler erhält zwei Hinweismarker."
+EventStart3Bushes.text,"Im Busch hörst du etwas herumkramen.\nPlatziere einen Durchsuchungsmarker, wie gezeigt."
+EventStart4Conservatory.text,"Du siehst eine Tür, welche in das Gewächshaus führt.\nVielleicht kannst du über diese Tür ins Haus hinein gelangen. Platziere einen Erkundungsmarker, wie gezeigt."
+EventSuicide.text,"Du schließt die Augen versinkst tief in deiner eigenen Seele ({will}). Du kannst so viele Beweise ablegen um einen {clue} in einen {success} umzuwandeln."
+EventSuicideFail.text,"Du hast deinen ganzen Mut zusammengenommen und dein Bestes gegeben, aber du hast es trotzdem nicht geschafft."
+EventTestRitual.text,"Du konzentrierst dich auf deine Hinweise und öffnest deinen Geist, als du das Ritual beginnst. Drücke um das Puzzle mit ({lore}) zu beginnen.\nDu kannst Beweise ablegen, um einen zusätzlichen Versuch zu bekommen."
+EventThePriestMoves.text,"Die Figur bewegt sich durch das Zimmer in die Küche. ""Hau ab"", sagt sie, während sie den Eingang zur Küche verbarrikadiert. Entferne den {ffg:UNIQUE_MONSTER_PRIEST_OF_DAGON} und platziere einen Barrikadenmarker, wie gezeigt."
+EventThefall.text,"Du beruhigst dich und sammelst allen deinen Mut. Du fühlst, wie die Präsenz dich langsam verlässt, als du bemerkst, dass du fällst...in den Tod.\n\nDie Ermittlung ist abgeschlossen!\n\n{success}Vielen Dank fürs Spielen{success}"
+EventThrallDied.text,"Die Kreatur fällt leblos zu Boden. Du fühlst dich leer an, aber du tust, was du tun musst."
+EventThrallMoves.text,"Die Kreatur zieht sich in einen kleinen Schrank am Ende des Zimmers zurück. Entferne das Monster {ffg:MONSTER_THRALL} vom Spielbrett."
+EventTurnOffSink.text,"Das Wasser läuft immer noch und der Stöpsel steckt im Becken. Jemand muss es vergessen haben. Du drehst das Wasser ab und fragst dich, wer es angelassen hat.\nErhalte einen Hinweismarker und lege danach diesen Durchsuchungsmarker ab."
+EventWhereisRitual.text,"""Das ist nicht wichtig. Sie wollen ein Opfer darbringen, um das Ritual abzuschließen. Vielleicht wollen sie dich nur dahin locken. Das ist eine Falle. Traue ihnen nicht."""
+EventWhyKill.text,"""Die Monster versuchen ein schreckliches Ritual abzuschließen. Jede Sekunden, die du verschwendest werden sie stärker, bis das Ritual sich seiner Vollendung nähert. Glaub mir, du willst nicht erleben, was passiert, wenn das Ritual vollendet ist."""
+EventWifeDied.text,"Aber die Wahrheit kommt auf Kosten deiner Seele. Deine Frau. Deine wunderhübsche Frau. Deine arme Frau ist tot und du hast sie ermordet."
+EventYardView.text,"Jetzt da der Hund weg ist, könnte es sicher sein sich im Garten umzusehen. Platziere einen Sichtungsmarker, wie gezeigt."
+EventgainLuckyCigCase.text,"Als du dir die Regale anschaust, findest du etwas, dass dir nützlich erscheint.\nNimm den Gegenstand {ffg:COMMON_ITEM_LUCKY_CIGARETTE_CASE}, danach entferne diesen Marker."
+PuzzleKeyCode.text,"Drücken, um das Puzzle zu beginnen ({observation})."
+SpawnCultist.text,"Deine Befürchtungen werden bestätigt. Die Figur beschwor ein paar Diener um dein Reinigungsritual aufzuhalten. Platziere ein Monster, wie gezeigt."
+SpawnCultist2.text,"Sie haben das Haus umstellt. Platziere das Monster, wie gezeigt."
+SpawnCultist3.text,"Es kommen einfach mehr. Du musst dich beeilen. Platziere das Monster, wie gezeigt."
+SpawnCultist4.text,"Es kommen einfach mehr. Platziere das Monster, wie gezeigt."
+SpawnGhost.text,"Als dein Verstand mit der Wirklichkeit in Berührung kommt, verschwinden die Männer, die zu dir gekommen waren und lösen sich in Luft auf. Sie waren nichts anderes als Dämonen die versuchten dich aufzuhalten. Deine Erleichterung währt nur kurz, weil dir klar wird, dass der Geist, der sie verlassen hat, jetzt zu seiner vollen Kraft zurückgekehrt ist, während der Hund sich in seine wahre Form verwandelt hat. Platziere das Monster {ffg:MONSTER_GHOST}, wie gezeigt, entferne alle übrigen Kultisten und den Personenmarker des Hundes."
+SpawnPriestKitchen.text,"Die Figur bewegt sich zur hinteren Ecke der Küche. Du kannst sie durch das Fenster hören. Sie hört sich an, als wenn um Hilfe ruft. Platziere das Monster {ffg:UNIQUE_MONSTER_PRIEST_OF_DAGON}, wie gezeigt."
+SpawnSpawnHybrid.text,"Eine große, breitschultrige Kreatur erscheint aus einer der Türen. Sie gröhlt dir mit tiefer Stimme zu ""Verschwinde hier!"". Platziere das Monster {ffg:MONSTER_DEEP_ONE_HYBRID}, wie gezeigt."
+SpawnSpawnPriest.text,"Eine Figur erscheint im Raum. ""Warum tust du das?"", fragt sie dich. Platziere das Monster {ffg:MONSTER_DEEP_ONE_HYBRID}, wie gezeigt."
+SpawnSpawnThrall.text,"Eine Kreatur erscheint vor dir. ""Was tust du da?", fragt sie schreiend, als sie vor dir flüchtet. Platziere das Monster {ffg:MONSTER_THRALL}, wie gezeigt."
+SpawnSpawnThrall2.text,"Die Kreatur zieht sich vor dir zurück. ""Geh einfach weg"". Platziere das Monster {ffg:MONSTER_THRALL}, wie gezeigt."
+SpawnThrall.text,"Die Kreatur beginnt sich zu verbarrikadieren.\nPlatziere das Monster {ffg:MONSTER_THRALL} und einen Barrikadenmarker, wie gezeigt."
+TokenAtticExplore.text,Eine Tür führt zum obersten Raum des Hauses.
+TokenAtticNoKey.text,Die kleine Tür oberhalb der Treppe scheint verschlossen zu sein.
+TokenAtticStairsKey.text,"Du glaubst, dass die Tür ins oberste Stockwerk des Hauses führt. Du kannst diesen Raum erkunden, wenn du den Besonderen Gegenstand {ffg:UNIQUE_ITEM_OLD_KEYS} bei dir hast."
+TokenAxe.text,Ein großes Regal ist vollgestopft mit Werkzeug und Gartenutensilien.
+TokenBadRitual.button1,{action} Reinigung durchführen
+TokenBadRitual.text,Du bist nun bereit zum letzten Schritt der Reinigung des Hauses.
+TokenBalconyDog.button1,{action} Hund ansprechen
+TokenBalconyDog.text,Der Hund sitzt geduldig auf dem Balkon.
+TokenBalconyDoor.button1,TokenBalconyDoor.button1
+TokenBalconyExplore.text,"Du spürst, wie ein kalter Luftzug unterhalb der Tür hervor dringt."
+TokenBalconySight.text,"Ein Balkon überragt das Anwesen. Du kannst dir einen Überblick verschaffen, wenn du dich auf dem Spielplanteil {ffg:TILE_BASEMENT_STORAGE_MAD23} befindest."
+TokenBarricadeInfo.text,Die Kreatur hat sich im Schrank verbarrikadiert.
+TokenBathroom.text,Du hörst das Geräusch von laufenden Wasser aus dem Badezimmer.
+TokenBilliardsExplore.text,Subtile Musik dringt durch die Tür.
+TokenBushes.text,Du hörst ein lautes Rascheln in den Büschen.
+TokenBushes.button1,{action} Büsche durchsuchen
+TokenConservatoryDoor.text,Eine verschlossene Tür hindert dich daran das Gewächshaus zu betreten. Vielleicht ist der Schlüssel hier irgendwo in der Nähe zu finden.
+TokenConservatoryKey.text,"Vielleicht kannst du über das Gewächshaus ins Haus gelangen. Du kannst den Raum weiter erkunden, wenn du den Besonderen Gegenstand {ffg:UNIQUE_ITEM_BRASS_KEY} bei dir hast."
+TokenDiningExplore.text,Aus der Tür dringt ein süßlicher Duft.
+TokenDog.button1,{action} Hund streicheln
+TokenDog.text,"Ein großer, schwarzer Hund sitzt ruhig da und beobachtet jeden deiner Schritte. Sein dickes Fell glänzt im Mondlicht."
+TokenDogPriest.button1,Rede mit dem Hund
+TokenDogPriest.text,Der Hund sitzt im Foyer und beobachtet jeden deiner Schritte.
+TokenDogThrall.text,Der Hund sitzt im Flur und achtet auf jede deiner Bewegungen.
+TokenExploreStairs.text,Die Tür führt tiefer ins Haus hinein.
+TokenFindPipe.text,"In der Erde bemerkst du etwas, was als Stütze der Blumen genutzt wurde und tief im Boden steckt.\nVielleicht ist es nützlich."
+TokenFindPipe.button1,{action} Blumenbeet durchsuchen
+TokenHallPapers.text,Papier ist über den Boden verteilt.
+TokenHandcuffs.text,Eine kleine Kiste befindet sich am Fuße des Bettes.
+TokenKidBedSearch.text,Eine Kinderkommode befindet sich an der Wand.
+TokenKitchenSearch.text,Einige Kochutensilien befinden sich auf dem Regal.
+TokenLibrarySearch.text,Verschiedene Gegenstände sind auf den Regalen gestapelt.
+TokenOpenHouse.text,"Eine Tür, die ins Haus führt."
+TokenPainting.text,"Ein großes Gemälde hängt an der Wand hinter dem Billiardtisch."
+TokenPerformRitual.button1,{action} Ritual durchführen
+TokenPerformRitual.text,"Das ist das Ritual, was sie vor dir geheim halten wollten. Du kannst es zu Ende bringen."
+TokenPhotoEv.text,"Auf dem Tisch liegen verschiedene, persönliche Gegenstände."
+TokenPorch.text,"Die Veranda ist verschlossen, aber da ist ein Spalt, der groß genug wäre ihn aufzustemmen."
+TokenPorchSearch.text,"Auf der Veranda siehst du eine große Kiste mit altem Zeug. Vielleicht befindet sich darin etwas Nützliches."
+TokenRitual.text,Ein kleiner Bereich des Bodens wurde freigeräumt.
+TokenSearchYard.text,"Der Garten führt um das Haus herum."
+TokenSink.text,Das Waschbecken läuft über.
+TokenSmallBedRoomExplore.text,Hinter der Tür hörst du ein leises Schluchzen.
+TokenStackofPapers.text,"Ein Stapel Papier liegt auf der Ecke des Tisches. Vielleicht findest du heraus, wer hier wohnt."
+TokenStairsAtticKey.text,"Du glaubst, dass die Tür in das oberste Stockwerk des Hauses führt. Du kannst den Raum durchsuchen, wenn du den Besonderen Gegenstand {ffg:UNIQUE_ITEM_OLD_KEYS} bei dir hast."
+Tokengun.text,Die Bar ist mit Scotch und Whiskey gut ausgestattet.
+TokenmasterBedExplore.text,"Am Ende des Flurs, führt eine Tür in ein Zimmer."
+TokenoldKeys.text,Ein kleines Fenster teilt die Zimmer.
