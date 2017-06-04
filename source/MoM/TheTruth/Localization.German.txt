@@ -148,7 +148,7 @@ EventPlaceSedative.text,"Auf dem Schrank entdeckst du etwas Nützliches. Platzie
 EventPlaceSinkSearch.text,"Aus dem Waschbecken, dessen Wasserhahn immer noch läuft, rinnt Wasser herunter. Platziere einen Durchsuchungsmarker, wie gezeigt."
 EventPlaceStairs2.text,"Mehrere Treppen führen in ein höheres Stockwerk des Hauses. Platziere das Spielplanteil {ffg:TILE_HALL_STAIRS_MAD23}, wie gezeigt."
 EventPlaceStairsExploreToken.text,"Eine Tür am ende der Treppe führt tiefer in das Haus hinein. Platziere einen Erkundungsmarker, wie gezeigt."
-EventPlaceStairsFromHallway.text,"Mehrere Treppen führen in ein tieferes Stockwerk des Hauses. Platziere das Spielplanteil {ffg:TILE_HALL_STAIRS_MAD23}, wie gezeigt."
+EventPlaceStairsFromHallway.text,"Mehrere Treppen führen in ein tieferes Stockwerk des Hauses. Platziere das Spielplanteil {ffg:TILE_HALL_STAIRS_MAD20}, wie gezeigt."
 EventPlaceWhiskey.text,"Auf dem Tisch steht eine Flasche vom Guten. Platziere den Gegenstand {ffg:COMMON_ITEM_WHISKEY}, wie gezeigt."
 EventPlaceYard2.text,"Ein schmaler Weg führt in die untere Ebene des Hauses.\nPlatziere das Spielplanteil {ffg:TILE_PORCH_MAD23}, wie gezeigt."
 EventPlaceYardSight.text,"Der Garten führt zur unteren Ebene des Hauses.\nPlatziere einen Sichtungsmarker, wie gezeigt."
