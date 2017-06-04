@@ -75,19 +75,19 @@ TokenPhotoEv.text,Several personal items sit on the corner table.
 TokenPhotoEv.button1,{action} Search
 EventPhotoPass.text,"After organizing the torn peices together you notice something you can't believe. It's a picture of you. Why would this guy, Robert Jensen, have a picture of you?\nGain the Photographic Evidence and 1 Clue, then discard this token."
 EventPhotoPass.button1,Continue
-EventStart3Bushes.text,You hear something rummaging in the bushes along the house.\nPlace a Search Token as indicated.
+EventStart3Bushes.text,You hear something rummaging in the bushes along the house.\nPlace a Search token as indicated.
 EventStart3Bushes.button1,Continue
-EventStart4Conservatory.text,You notice a door in front of you that leads to the Conservatory.\nPerhaps you can get into the house through this door.\nPlace an Explore Token as indicated.
+EventStart4Conservatory.text,You notice a door in front of you that leads to the Conservatory.\nPerhaps you can get into the house through this door.\nPlace an Explore token as indicated.
 EventStart4Conservatory.button1,Continue
-EventFlowersbedPipe.text,Something odd seems to be stuck in the bed of flowers.\nPlace a Search Token as indicated.
+EventFlowersbedPipe.text,Something odd seems to be stuck in the bed of flowers.\nPlace a Search token as indicated.
 EventFlowersbedPipe.button1,Continue
-EventPhoto.text,The owner's personal items sit on the end table. Place a Search Token as indicated.
+EventPhoto.text,The owner's personal items sit on the end table. Place a Search token as indicated.
 EventPhoto.button1,Continue
-EventSolvePuzzle.text,You managed to guess the code as if you knew it all along. \nThe house opens to a small entry way. Place the {MAD20} Bathroom Tile as indicated.
+EventSolvePuzzle.text,You managed to guess the code as if you knew it all along. \nThe house opens to a small entry way. Place the Bathroom {MAD20} tile as indicated.
 EventSolvePuzzle.button1,Continue
 TokenConservatoryDoor.text,A locked door keeps you from entering the Conservatory. There may be a key close by.
 TokenConservatoryDoor.button1,Continue
-EventStart1Tile.text,You wake from a weird dream and find yourself outside a strange house. \nPlace the {MAD20} Garden Path Tile.
+EventStart1Tile.text,You wake from a weird dream and find yourself outside a strange house. \nPlace the Garden Path {MAD20} tile.
 EventStart1Tile.button1,Continue
 EventStart2Placefigs.text,You enter the court yard but do not remember how you got here.\nPlace your investigators as indicated. Each investigator gains 2 clues.
 EventStart2Placefigs.button1,Continue
@@ -97,9 +97,9 @@ EventDogNo.text," ""You don't have a choice"" the dog says growling as he snaps 
 EventDogNo.button1,Continue
 SpawnSpawnThrall.text,"A creature appears in the distance. ""What are you doing?"" the creature screams as it backs away from you.\nPlace a Thrall as indicated."
 SpawnSpawnThrall.button1,Continue
-EventAddHallwayDoors.text,You notice several doors throughout the hallway. Place Explore Tokens as indicated.
+EventAddHallwayDoors.text,You notice several doors throughout the hallway. Place Explore tokens as indicated.
 EventAddHallwayDoors.button1,Continue
-EventHallSearch.text,Papers have been scattered across the floor. Place a Search Token as indicated.
+EventHallSearch.text,Papers have been scattered across the floor. Place a Search token as indicated.
 EventHallSearch.button1,Continue
 EventRemoveThrall.text,"As you look over the room, the creature runs into the room on the left.\nThe creature ran away as if it was scared of you. Perhaps this is the monster the dog told you about.\n Remove the Thrall from the board."
 EventRemoveThrall.button1,Continue
@@ -112,7 +112,7 @@ EventPlaceRestraint.text,If you have an item to restrain another investigator yo
 EventPlaceRestraint.button1,Continue
 EventPlaceWhiskey.text,On the table sits a bottle of liquor. Place the Whiskey Bottle Common Item as indicated.
 EventPlaceWhiskey.button1,Continue
-EventPlaceMeatCleaver.text,A shelf on the wall contains several cooking items. Place a Search Token as indicated.
+EventPlaceMeatCleaver.text,A shelf on the wall contains several cooking items. Place a Search token as indicated.
 EventPlaceMeatCleaver.button1,Continue
 EventActivation.text,The creature does not move. This creature will only attack an investigator in its space.
 EventActivation.button1,The monster attacks.
@@ -134,11 +134,11 @@ EventHandcuffPass.text,The chest is full of old uniforms and clothes. You drag o
 EventHandcuffPass.button1,Continue
 EventExploreRoom.text,You may move 1 space into the explored area.
 EventExploreRoom.button1,Continue
-SpawnThrall.text, The creature starts barricading the door.\nPlace the Thrall and a Barricade Token as indicated.
+SpawnThrall.text, The creature starts barricading the door.\nPlace the Thrall and a Barricade token as indicated.
 SpawnThrall.button1,Continue
-EventClosetSearch.text,The creature is locked up in the closet. You might be able to coax it out. Place a Search Token as indicated.
+EventClosetSearch.text,The creature is locked up in the closet. You might be able to coax it out. Place a Search token as indicated.
 EventClosetSearch.button1,Continue
-EventKidsSearch.text,A small dresser surrounded by toys sits across the room.\nPlace a Search Token as indicated.
+EventKidsSearch.text,A small dresser surrounded by toys sits across the room.\nPlace a Search token as indicated.
 EventKidsSearch.button1,Continue
 EventNoneCaptured.text,There are no captured monsters to kill.
 EventNoneCaptured.button1,Continue
@@ -164,7 +164,7 @@ SpawnSpawnPriest.text,"A figure appears across the room. ""Why are you doing thi
 SpawnSpawnPriest.button1,Continue
 EventRestraintNotReady.text,This item has no special use at this time.
 EventRestraintNotReady.button1,Continue
-EventThePriestMoves.text,"The figure moves across the room into the kitchen. ""Stay away"" the figure says as it barricades the entrance to the kitchen. Remove the Priest of Dagon and place a Barricade Token as indicated. "
+EventThePriestMoves.text,"The figure moves across the room into the kitchen. ""Stay away"" the figure says as it barricades the entrance to the kitchen. Remove the Priest of Dagon and place a Barricade token as indicated. "
 EventThePriestMoves.button1,Continue
 TokenRestrain.text,"If you have an item to restrain another investigator you can use it to restrain a monster. Select <i>Restrain a Monster</i> to verify the monster you want to restrain is an available option. Use the item's text to resolve its action as normal. If your attempt is successful place the card under the monster. The monster will no longer activate.\nIf you decide to kill a monster that has been restrained, use the <i>Kill a Restrained Monster</i> action and select the monster to kill. You must be in the same space to perform this action. Once a restrained monster has been killed remove its figure from the board and leave the item used to restrain the monster. It is now free to pick up."
 TokenRestrain.button1,Restrain a Monster
@@ -213,7 +213,7 @@ EventGainOldKeys2.text,Wondering if the figure was carrying anything important y
 EventGainOldKeys2.button1,Continue
 EventPlacePocketWatch.text,A pocket watch sits on a small table. Place the Pocket Watch Common Item as indicated.
 EventPlacePocketWatch.button1,Continue
-EventPlaceSinkSearch.text,Water seems to be coming from a sink that is still running. Place a Search Token as indicated.
+EventPlaceSinkSearch.text,Water seems to be coming from a sink that is still running. Place a Search token as indicated.
 EventPlaceSinkSearch.button1,Continue
 EventMedicalTextbook.text,On the cabinet you notice something you can use. Place the Medical Textbook Common item as indicated.
 EventMedicalTextbook.button1,Continue
@@ -241,7 +241,7 @@ EventGain2x4.button1,Continue
 EventSearchAxe.text,You look over the shelf and find nothing of interest but you notice something behind the shelves. You push as hard as you can against the shelf hoping to make enough room to reach behind it ({strength}).
 EventSearchAxe.button1,Continue
 EventSearchAxe.button2,Fail
-EventPlaceAxeShelf.text,A large shelf is stocked with several tools and gardening supplies.\n Place a Search Token as indicated.
+EventPlaceAxeShelf.text,A large shelf is stocked with several tools and gardening supplies.\n Place a Search token as indicated.
 EventPlaceAxeShelf.button1,Continue
 TokenDog.text,"A large black dog sits patiently, watching your every move. His thick coat shines in the moonlight."
 TokenDog.button1,{action} Approach Dog
@@ -272,51 +272,51 @@ EventThefall.button1,Continue
 SpawnCultist.text,Your suspicions are confirmed. The figure has summoned servants to stop you from cleansing this house. Place a monster as indicated.
 EventBreakDoorPass.text,You manage to get just enough leverage to pry the lock and the door breaks open.
 EventBreakDoorPass.button1,Continue
-EventPlacePorchSearch.text,You see a large box of old stuff lying on the porch.\nYou might be able to find something useful.\nPlace a Search Token as indicated.
-EventPlacePorch.text,The door opens to a small porch. \nPlace the {MAD23} Yard 2 Tile as indicated.
+EventPlacePorchSearch.text,You see a large box of old stuff lying on the porch.\nYou might be able to find something useful.\nPlace a Search token as indicated.
+EventPlacePorch.text,The door opens to a small porch. \nPlace the Yard 2 {MAD23} tile as indicated.
 EventPlacePorch.button1,Continue
 TokenLibrary.text,A door that may lead you further into the house.
 TokenLibrary.button1,{action} Explore
-EventPlaceLibrary.text,"You open the door and find a small library. \nPlace the {MAD20} Library Tile, Wall, and Door Tokens as indicated."
-EventPlaceYard2.text,A small path extends down to the lower level of the house.\nPlace the {MAD23} Yard 2 Tile as indicated.
+EventPlaceLibrary.text,"You open the door and find a small library. \nPlace the Library {MAD20} tile, Wall, and Door tokens as indicated."
+EventPlaceYard2.text,A small path extends down to the lower level of the house.\nPlace the Yard 2 {MAD23} tile as indicated.
 EventOpenLockedPorchfromLibrary.text,The door opens to a small Porch.
 EventPlaceYard2.button1,Continue
-EventPorchExplore.text,A door across the yard leads to what looks like a porch. \nPlace an Explore Token as indicated.
+EventPorchExplore.text,A door across the yard leads to what looks like a porch. \nPlace an Explore token as indicated.
 EventBreakDoorFail.text,You gave it everything you had but you couldn't get the door to open.
-TokenSearchYard.text,The yard continues around the house. You can view this sight token if you are on the {MAD20} Garden Path Tile.
+TokenSearchYard.text,The yard continues around the house. You can view this sight token if you are on the Garden Path {MAD20} tile.
 TokenSearchYard.button1,Continue
 EventOpenLockedPorchfromLibrary.button1,Continue
 TokenAxe.text,A large shelf stocked with gardening supplies and tools sits against the wall.
 TokenLibrary2.text,A door leads you further into the house.
 TokenLibrary2.button1,{action} Explore
 EventPlaceLibrary.button1,Continue
-EventLibrary2.text,A door leads out of the Library and into the house. Place an Explore Token as indicated.
+EventLibrary2.text,A door leads out of the Library and into the house. Place an Explore token as indicated.
 EventLibrary2.button1,Continue
-EventPlaceLibaryExploretoPorch.text,You notice a door to your right. Place an Explore Token as indicated.
+EventPlaceLibaryExploretoPorch.text,You notice a door to your right. Place an Explore token as indicated.
 EventPlaceLibaryExploretoPorch.button1,Continue
 EventPlacePorchSearch.button1,Continue
-EventLibraryBarricade.text,A small desk sits along the wall by the shelves. Place a Barricade Token as indicated.
+EventLibraryBarricade.text,A small desk sits along the wall by the shelves. Place a Barricade token as indicated.
 SpawnCultist4.text,They just keep coming. Place a monster as indicated.
 SpawnCultist5.text,They just keep coming. Place a monster as indicated.
-EventPlaceOldKeys.text,You can see the figure through the window dividing the rooms. You might be able lure this figure out.\n Place a Interact Token as indicated.
+EventPlaceOldKeys.text,You can see the figure through the window dividing the rooms. You might be able lure this figure out.\n Place a Interact token as indicated.
 EventPlaceOldKeys.button1,Continue
-EventPlaceLibrarySearch.text,Several items are scattered along the shelves.\nYou may be able to find something useful here.\nPlace a Search Token as indicated.
+EventPlaceLibrarySearch.text,Several items are scattered along the shelves.\nYou may be able to find something useful here.\nPlace a Search token as indicated.
 EventPlaceLibrarySearch.button1,Continue
 EventLibraryBarricade.button1,Continue
 EventRemoveLibraryBarricade.button1,Continue
 PuzzleSmallSafe.text,Tap to attempt the puzzle using {observation}.
 EventLargeManDied.text,"Now you start to come to grips with the choices you have made. Who was the large man in the foyer? Was it someone coming to help your family or was it all in your head? Whoever it was, you hope no one was actually killed, but you fear the worst."
-EventPlaceFoyer.text,You see a welcoming foyer and oddly feel at home.\nPlace the {MAD20} Entry Hall Tile and Wall Token as indicated.
+EventPlaceFoyer.text,You see a welcoming foyer and oddly feel at home.\nPlace the Entry Hall {MAD20} tile and Wall token as indicated.
 EventPlaceFoyer.button1,Confirm
-EventAddStairsToken2.text,A small door to your left may lead to the upper level.\nPlace an Explore Token as indicated.
+EventAddStairsToken2.text,A small door to your left may lead to the upper level.\nPlace an Explore token as indicated.
 EventAddStairsToken2.button1,Continue
 EventPlaceDiningAndBilliards2.button1,Button 1
-EventFoyerAddLibraryToken.text,You notice a door just to the right of you.\nPlace an Explore Token as indicated.
-EventPlaceBadRitual.text,The dog has shown faith that you can finally cleanse this house of evil. \nPlace an Interact Token as indicated.
+EventFoyerAddLibraryToken.text,You notice a door just to the right of you.\nPlace an Explore token as indicated.
+EventPlaceBadRitual.text,The dog has shown faith that you can finally cleanse this house of evil. \nPlace an Interact token as indicated.
 EventSuicideFail.text,"You built up your courage and tried your best, but you just couldn't do it."
-EventSpawnDogThrall.text,The dog seems to be following you in the house. Place the Dog Person Token as indicated.
-EventPlaceKidsBed.text,You open the door and are surprised to see a kid's room.\nWhat has this creature done with this child?\nPlace the {MAD23}Bedroom Tile as indicated.
-EventSpawnDogPriest.text,The dog seems to have followed you into the house. Place the Dog Person Token as indicated.
+EventSpawnDogThrall.text,The dog seems to be following you in the house. Place the Dog Person token as indicated.
+EventPlaceKidsBed.text,You open the door and are surprised to see a kid's room.\nWhat has this creature done with this child?\nPlace the Bedroom {MAD23} tile as indicated.
+EventSpawnDogPriest.text,The dog seems to have followed you into the house. Place the Dog Person token as indicated.
 EventRevolation.text,"In a state of insanity you finally find clarity. Finally, <i>The Truth</i>. What you have been looking for. This is your house. This is your family. You were Robert Jensen the whole time. The monster terrorizing this family was you. What started off as a silly board game with your daughter, turned into a seance....a possession. The days after the event you felt different, disconnected from the world. Your family became more distant as you changed. They saw that you were becoming a monster and they were afraid. The anger was real, the rage was real, but it was something else entirely. "
 EventSpawnGhost.button1,Continue
 EventRevolation.button1,Continue
@@ -333,15 +333,15 @@ EventFailPapers.text,You search and search but there just doesn't seem to be any
 EventHallPapersFail.text,"You look at the pages over and over, but there is just nothing there."
 EventGainKeysTest.text,You hear the figure calling our for help. You plead with it stop ({influence}).
 EventHelpComes.button1,Button 1
-EventPlaceAttic.text,You open the door to a small attic. Place the {MAD23} Attic Storage Tile as indicated.
-EventPlaceBarSearch.text,A small bar seems to be stocked with several bottles. Place a Search Token as indicated.
+EventPlaceAttic.text,You open the door to a small attic. Place the Attic Storage {MAD23} tile as indicated.
+EventPlaceBarSearch.text,A small bar seems to be stocked with several bottles. Place a Search token as indicated.
 EventPlaceBarSearch.button1,Continue
-EventPlaceDining.text,The door opens to a large dining hall. Place the {MAD20} Dining Room Tile and Wall Tokens as indicated.
-EventPlaceAtticStairsExplore.text,A door at the top of the stairs appears to be locked. Place an Explore Token as indicated.
-EventHandcuff.text,A small chest sits at the end of the bed. Place a Search Token as indicated.
+EventPlaceDining.text,The door opens to a large dining hall. Place the Dining Room {MAD20} tile and Wall tokens as indicated.
+EventPlaceAtticStairsExplore.text,A door at the top of the stairs appears to be locked. Place an Explore token as indicated.
+EventHandcuff.text,A small chest sits at the end of the bed. Place a Search token as indicated.
 TokenRitual.text,A small area has been cleared out on the floor.
 EventRitualTest.text,You look over the floor trying to find out what happened here ({lore}).
-EventPlaceRitualThrall.text,The ritual is ready for you to complete. Place an Interact Token as indicated.
+EventPlaceRitualThrall.text,The ritual is ready for you to complete. Place an Interact token as indicated.
 EventPlaceRitualThrall.button1,Continue
 TokenSink.text,A sink is overflowing with water.
 TokenSink.button1,{action} Search
@@ -350,8 +350,8 @@ EventPorchSearchTest.text,Several items are stored in a crate against the wall (
 TokenPorchSearch.text,You see a large box of old stuff lying on the porch. You might be able to find something useful.
 TokenPorchSearch.button1,{action} Search
 EventBreakDoor.text,You use whatever you can find to pry the door open ({strength}). If you have a Heavy Weapon Common Item ({strength}+2).
-EventStackofPapers.text,You notice a small stack of papers piled up on the corner table.\nPlace a Search Token as indicated.
-EventSolvePuzzle2.text,You managed to reroute the wires and you hear a click. \nThe house opens to a small entry way. Place the {MAD20} Bathroom Tile as indicated.
+EventStackofPapers.text,You notice a small stack of papers piled up on the corner table.\nPlace a Search token as indicated.
+EventSolvePuzzle2.text,You managed to reroute the wires and you hear a click. \nThe house opens to a small entry way. Place the Bathroom {MAD20} tile as indicated.
 EventPlaceAtticStairsExplore.button1,Continue
 EventSearchPapers.text,You shuffle through the papers looking for something of interest ({observation}).
 EventSearchPapers.button1,Continue
@@ -364,9 +364,9 @@ EventHallSearchPapers.button1,Continue
 EventHallSearchPapers.button2,Button 2
 EventWhereisRitual.text,"""That's not important. They want to perform a sacrifice to complete the ritual. They may try to lead you there. It is a trap. Do not trust them."""
 EventWhereisRitual.button1,Continue
-EventPlaceHallway.text,The door opens to a hallway. Place the {MAD20} Hall End Tile as indicated. 
-EventPlaceHallwayTile2.text,The door opens to a hallway. Place the {MAD20} Hall End Tile as indicated.
-EventAddHallDoors3.text,You notice several doors throughout the hallway. Place Explore Tokens as indicated.
+EventPlaceHallway.text,The door opens to a hallway. Place the Hall End {MAD20} tile as indicated. 
+EventPlaceHallwayTile2.text,The door opens to a hallway. Place the Hall End {MAD20} tile as indicated.
+EventAddHallDoors3.text,You notice several doors throughout the hallway. Place Explore tokens as indicated.
 TokenExploreStairs.text,A door leads further into the house.
 TokenExploreStairs.button1,{action} Explore
 EventPlaceHallwayTile2.button1,Continue
@@ -377,8 +377,8 @@ TokenPainting.text,A large painting hangs on the wall behind the pool table.
 TokenPainting.button1,{action} Search
 EventSearchPainting.button1,Continue
 EventPlacePainting.button1,Continue
-EventPlacePainting.text,A large painting hangs on the far end of the pool room. Place a Search Token as indicated.
-EventPlaceBilliards.text,The door opens to a small room with a pool table. Place the {MAD20} Billiards Room as indicated.
+EventPlacePainting.text,A large painting hangs on the far end of the pool room. Place a Search token as indicated.
+EventPlaceBilliards.text,The door opens to a small room with a pool table. Place the Billiards Room {MAD20} tile as indicated.
 EventEvidenceRequired5Player.button1,Continue
 EventPlaceRitualMain.button1,Continue
 SpawnCultist2.text,They have surrounded the house. Place the monster as indicated.
@@ -393,11 +393,11 @@ TokenDogThrall.text,The dog sits in the hallway watching your every movement.
 TokenDogThrall.button1,Speak to the Dog
 EventDogPriestRemove.text,The dog vanishes into the house.
 EventDogThrallRemove.text,The dog vanishes into the house.
-EventPlaceExploreLeave.text,A door on the other end of the room looks to lead outside. Place an Explore Token as indicated.
+EventPlaceExploreLeave.text,A door on the other end of the room looks to lead outside. Place an Explore token as indicated.
 TokenDiningExplore.button1,{action} Explore
 EventDogPriestRemove.button1,Continue
 EventDogThrallRemove.button1,Continue
-EventAddDog.text,"As you stare closer at the bushes you notice something moving. You yell into the bush ""Come out!""\nYou are startled as a dog jumps from the bushes.\nDiscard this Token. Place a Dog Person Token as indicated."
+EventAddDog.text,"As you stare closer at the bushes you notice something moving. You yell into the bush ""Come out!""\nYou are startled as a dog jumps from the bushes.\nDiscard this Token. Place a Dog Person token as indicated."
 TokenBushes.text,You hear a loud rustle in the bushes.
 EventSpawnDogPriest.button1,Continue
 TokenDogPriest.text,The dog sits in the foyer watching your every movement.
@@ -407,21 +407,21 @@ EventSearchChest.button1,Continue
 EventSearchChest.button2,Button 2
 TokenHandcuffs.text,A small chest sits at the foot of the bed.
 TokenHandcuffs.button1,{action} Search
-EventYardView.text,Now that the dog is gone it might be safe for you to look around the yard. Place a Sight Token as indicated.
+EventYardView.text,Now that the dog is gone it might be safe for you to look around the yard. Place a Sight token as indicated.
 TokenKidBedSearch.text,A small kid's dresser sits against the wall.
 TokenKidBedSearch.button1,{action} Search
 EventThrallMoves.text,The creature backs towards a small closet at the end of the room.\nRemove the Thrall from the board.
-EventOpenHouseExplore.text,You notice a door across the room. It probably leads into the house.\n Place an Explore Token as indicated.
+EventOpenHouseExplore.text,You notice a door across the room. It probably leads into the house.\n Place an Explore token as indicated.
 TokenConservatoryKey.text,You might be able to access the house through the Conservatory. You can only explore if you have the Brass Key Unique Item.
 TokenConservatoryKey.button1,{action} Explore Observatory
-EventBathroomToken.text,A small door looks like it leads to small bathroom.\nPlace an Explore Token as indicated.
+EventBathroomToken.text,A small door looks like it leads to small bathroom.\nPlace an Explore token as indicated.
 EventPhotoFail.text,You look and look but nothing seems of any importance.
 EventPhotoFail.button1,Continue
 TokenRitual.button1,{action} Search
 EventRitualTest.button1,Continue
 EventRitualTest.button2,Button 2
 TokenBushes.button1,{action} Search Bushes
-EventPlaceLibraryExploreToken.text,You notice a door across the room that may gain you access to the house.\nPlace an Explore Token as indicated.
+EventPlaceLibraryExploreToken.text,You notice a door across the room that may gain you access to the house.\nPlace an Explore token as indicated.
 EventPorchSearchTest.button1,Continue
 EventPorchSearchTest.button2,Cancel
 TokenAtticStairs.button1,Continue
@@ -448,16 +448,16 @@ EventBalconySight.text,"You are overcome by a gorgeous view, but quickly the fea
 EventPlaceBalcony2.button1,Continue
 EventGameEnd.button1,Continue
 EventKillMonster.button1,Continue
-EventPlaceStairsFromHallway.text,A set of stairs leads to the lower level of the house. Place the {MAD23} Hall Stairs Tile and Door Token as indicated.
-EventPlaceStairs2.text,A set of stairs leads to the upper level of the house. Place the {MAD23} Hall Stairs Tile and Door Token as indicated.
+EventPlaceStairsFromHallway.text,A set of stairs leads to the lower level of the house. Place the Hall Stairs {MAD23} tile and Door token as indicated.
+EventPlaceStairs2.text,A set of stairs leads to the upper level of the house. Place the Hall Stairs {MAD23} tile and Door token as indicated.
 EventPlaceStairsFromHallway.button1,Continue
-EventAddStairDoors2.text,A door at the far end of the stairs leads further into the house. Add an Explore Token as indicated.
+EventAddStairDoors2.text,A door at the far end of the stairs leads further into the house. Add an Explore token as indicated.
 TokenKitchenSearch.text,Several cooking items are stored on the shelf.
 TokenKitchenSearch.button1,{action} Search
 TokenBarricadeInfo.text,The creature has barricaded itself in the closet.
 TokenBarricadeInfo.button1,{action} Search
 EventSearchBarricade.button1,Continue
-EventPlaceDogBalcony.text,The dog sits on the balcony as if he is waiting for something. Place the Dog Person Token as indicated.
+EventPlaceDogBalcony.text,The dog sits on the balcony as if he is waiting for something. Place the Dog Person token as indicated.
 EventAddDog.button1,Continue
 TokenBathroom.text,You hear the sound of running water coming from what seems like a bathroom.
 TokenBathroom.button1,{action} Explore
@@ -466,22 +466,22 @@ TokenStackofPapers.button1,{action} Search
 TokenBalconyDoor.button1,TokenBalconyDoor.button1
 EventGainKeysTest.button1,Continue
 EventGainKeysTest.button2,Button 2
-EventPlaceMasterBed.text,The door opens to an adult's bedroom. Place the {MAD20} Bedroom 2 Tile as indicated.
-EventPlaceAtticStairs.text,The door opens to another set of stairs leading to the top level of the house. Place the {MAD20} Hall Stairs and Door Token as indicated.
+EventPlaceMasterBed.text,The door opens to an adult's bedroom. Place the Bedroom 2 {MAD20} tile as indicated.
+EventPlaceAtticStairs.text,The door opens to another set of stairs leading to the top level of the house. Place the Hall Stairs {MAD20} tile and Door token as indicated.
 EventDogActions.button1,Continue
 TokenBalconyDog.text,The dog sits patiently on the balcony.
 TokenBalconyDog.button1,{action} Speak to Dog
 EventRitualNotComplete.text,You were unable to complete the ritual.
 EventRitualNotComplete.button1,Continue
-EventPlaceBalcony.text,You open the door to a large balcony on the top floor of the house. Place the {MAD23} Balcony Tile as indicated.
+EventPlaceBalcony.text,You open the door to a large balcony on the top floor of the house. Place the Balcony {MAD23} tile as indicated.
 EventDogMad.text,"The dog growls at you as you approach it. ""You have not done your job"" says the dog. ""You need to go back and do your job or I need to find someone else who can""."
 EventBeginBadRitual.button1,Continue
 EventPlaceAttic.button1,Continue
-EventPlaceRitual.text,A small area has been cleared out on the floor. Place a Search Token as indicated.
+EventPlaceRitual.text,A small area has been cleared out on the floor. Place a Search token as indicated.
 EventPlaceBalcony.button1,Continue
 EventPlaceDogBalcony.button1,Continue
-EventPlaceBalconySight.text,A balcony overlooks the estate. Place a Sight Token as indicated.
-EventPlaceRitualPriest.text,The ritual is ready for you to complete. Place an Interact Token as indicated.
+EventPlaceBalconySight.text,A balcony overlooks the estate. Place a Sight token as indicated.
+EventPlaceRitualPriest.text,The ritual is ready for you to complete. Place an Interact token as indicated.
 EventPlaceBadRitual.button1,Continue
 EventDogMad.button1,Continue
 EventRestrainMonster.button1,Continue
@@ -501,7 +501,7 @@ EventPlaceRitual.button1,Continue
 EventRitualFail.text,Your focus shifts from the floor to look over the cluttered attic but you don't see anything important.
 EventRitualFail.button1,Continue
 EventPlaceBalconySight.button1,Continue
-TokenBalconySight.text,A balcony overlooks the estate. You may view this if you are on the {MAD23} Balcony Tile.
+TokenBalconySight.text,A balcony overlooks the estate. You may view this if you are on the Balcony {MAD23} tile.
 EventPlaceAtticStairs.button1,Continue
 EventPlace3rdLevelDoors.text,You see two doors at the top of the steps.
 EventPlace3rdLevelDoors.button1,Continue
@@ -524,7 +524,7 @@ SpawnSpawnThrall2.button1,Continue
 EventThrallMoves.button1,Continue
 EventMissingLinkFail.text,All you see are a kid's drawings. Nothing of importance.
 EventMissingLinkFail.button1,Continue
-EventPlaceBilliardsandDiningExp.text,At the other end of the hall you notice two other doors. Place Explore Tokens as indicated.
+EventPlaceBilliardsandDiningExp.text,At the other end of the hall you notice two other doors. Place Explore tokens as indicated.
 EventPlaceBilliardsandDiningExp.button1,Continue
 EventRopeFail.text,You empty the crate on the floor but there is nothing worth using.
 EventRopeFail.button1,Continue
@@ -549,7 +549,7 @@ TokenHall.text,A door leads further into the house.
 TokenHall.button1,{action} Explore
 EventPlaceLibraryExploreToken.button1,Continue
 EventFoyerAddLibraryToken.button1,Confirm
-EventPlaceYardSight.text,The yard continues to the lower floor of the house.\nPlace a Sight Token as indicated.
+EventPlaceYardSight.text,The yard continues to the lower floor of the house.\nPlace a Sight token as indicated.
 EventPlaceYardSight.button1,Confirm
 EventOpenHouseExplore.button1,Continue
 EventFailAxe.button1,Continue
@@ -558,16 +558,16 @@ EventFailedGainPipe.button1,Continue
 EventBathroomToken.button1,Continue
 EventFailPapers.button1,Confirm
 EventPlaceHallway.button1,Continue
-EventExploreHall.text,There is a door across the room leading further into the house.\nPlace an Explore Token as indicated.
+EventExploreHall.text,There is a door across the room leading further into the house.\nPlace an Explore token as indicated.
 EventExploreHall.button1,Continue
 EventYardView.button1,Continue
 EventPorchExplore.button1,Continue
-EventPapers2.text,You notice a small stack of papers stacked on the corner table.\nPlace a Search Token as indicated.
+EventPapers2.text,You notice a small stack of papers stacked on the corner table.\nPlace a Search token as indicated.
 EventPapers2.button1,Continue
-EventPlaceHallDoors2.text,You notice several doors throughout the hallway. Place Explore Tokens as indicated.
+EventPlaceHallDoors2.text,You notice several doors throughout the hallway. Place Explore tokens as indicated.
 EventPlaceHallDoors2.button1,Continue
 EventAddHallDoors3.button1,Continue
-EventPlaceStairsExploreToken.text,A door at the far end of the stairs leads further into the house. Add an Explore Token as indicated.
+EventPlaceStairsExploreToken.text,A door at the far end of the stairs leads further into the house. Add an Explore token as indicated.
 EventPlaceStairsExploreToken.button1,Continue
 EventAddStairDoors2.button1,Continue
 EventExploreBathInPlay.text,You may move 1 space into the explored area.
