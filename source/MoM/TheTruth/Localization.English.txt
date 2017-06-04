@@ -2,12 +2,26 @@
 quest.name,The Truth
 quest.description,"In a state of confusion a strange new friend sends you on a quest to find ""The Truth""."
 quest.authors,<b>Author</b>\nSly Cozz\n\n<b>Translator</b>\nGerman: redwolf2
+EventPlaceLibrary.text,"You open the door and find a small library.\nPlace the {ffg:TILE_LIBRARY_MAD20} tile, Wall, and Explore tokens as indicated."
+EventPlaceLibrary.button1,{qst:CONTINUE}
+CONTINUE,Continue
+EventPlaceLibrarySearch.text,Several items are scattered along the shelves.\nYou may be able to find something useful here.\nPlace a Search token as indicated.
+EventPlaceLibrarySearch.button1,{qst:CONTINUE}
+TokenLibrarySearch.text,Several items are stacked on the shelves.
+TokenLibrarySearch.button1,{qst:ACTIONSEARCH}
+ACTIONSEARCH,{action} Search
+EventDogYes.text," ""I knew you would. There is a terrible man that live here. He is trying to destroy the very world as we know it. You must stop him and the creatures that live here. If they survive you won't be able to perform the final cleansing of this house. Don't fall for their tricks and let them get away. Their strength will only grow as their ritual continues. But first you will have to gain access to the house. You should find the key you need in your pocket.""\nConfused by what you are hearing you reach into your pocket and sure enough there is the key you have been looking for, but how did it get there?\nGain the Brass Key Unique Item.\nAs you look up to ask the dog how he knew, he was gone.\nRemove the Dog Person token."
+EventDogYes.button1,{qst:CONTINUE}
+EventConservatoryDoorKey.button1,{qst:CONTINUE}
+EventYardView.text,Now that the dog is gone it might be safe for you to look around the yard. Place a Sight token as indicated.
+EventYardView.button1,{qst:CONTINUE}
+TokenSearchYard.text,The yard continues around the house. You can view this Sight token if you are on the Garden Path {MAD20} tile.
+TokenSearchYard.button1,{qst:CONTINUE}
 ACTIONINTERACT,{action} Interact
 ACTIONMONSTERDEEPONEHYBRID,{action} <i>{ffg:MONSTER_DEEP_ONE_HYBRID}</i>
 ACTIONEXPLORE,{action} Explore
 ACTIONMONSTERPRIEST,{action} <i>{ffg:UNIQUE_MONSTER_PRIEST_OF_DAGON}</i>
 ACTIONMONSTERTHRALL,{action} <i>{ffg:MONSTER_THRALL}</i>
-ACTIONSEARCH,{action} Search
 ATTEMPTPUZZLE,Attempt Puzzle
 BUTTON1,Button 1
 BUTTON2,Button 2
@@ -15,7 +29,6 @@ CANCEL,Cancel
 CLOSE,Close
 COMPLETE,Complete
 CONFIRM,Confirm
-CONTINUE,Continue
 FAIL,Fail
 KILLRESTRAINEDMONSTER,Kill a Restrained Monster
 RESTRAINMONSTER,Restrain a Monster
@@ -95,8 +108,6 @@ EventStart1Tile.text,You wake from a weird dream and find yourself outside a str
 EventStart1Tile.button1,{qst:CONTINUE}
 EventStart2Placefigs.text,You enter the court yard but do not remember how you got here.\nPlace your investigators as indicated. Each investigator gains 2 clues.
 EventStart2Placefigs.button1,{qst:CONTINUE}
-EventDogYes.text," ""I knew you would. There is a terrible man that live here. He is trying to destroy the very world as we know it. You must stop him and the creatures that live here. If they survive you won't be able to perform the final cleansing of this house. Don't fall for their tricks and let them get away. Their strength will only grow as their ritual continues. But first you will have to gain access to the house. You should find the key you need in your pocket.""\nConfused by what you are hearing you reach into your pocket and sure enough there is the key you have been looking for, but how did it get there?\nGain the Brass Key Unique Item.\nAs you look up to ask the dog how he knew, he was gone.\nRemove the Dog Person token."
-EventDogYes.button1,{qst:CONTINUE}
 EventDogNo.text," ""You don't have a choice"" the dog says growling as he snaps at you. You stand your ground but the dog frightens you to your core. Suffer 1 Sanity ({will} Negates).\nThe dog steps back ""There is a terrible man that live here. He is trying to destroy the very world as we know it. You must stop him and the creatures that live here. If they survive you won't be able to perform the final cleansing of this house. Don't fall for their tricks and let them get away. Their strength will only grow as their ritual continues. But first you will have to gain access to the house. You should find the key you need in your pocket.""\nConfused by what you are hearing you reach into your pocket and sure enough there is the key you have been looking for, but how did it get there?\nGain the Brass Key Unique Item.\nAs you look up to ask the dog how he knew, he was gone.\nRemove the Dog Person token."
 EventDogNo.button1,{qst:CONTINUE}
 SpawnSpawnThrall.text,"A creature appears in the distance. ""What are you doing?"" the creature screams as it backs away from you.\nPlace a Thrall as indicated."
@@ -205,7 +216,6 @@ EventGainPipe.text,You pull with all your strength and with one final pull it po
 EventGainPipe.button1,{qst:CONTINUE}
 EventPlaceSedative.text,On the cabinet you notice something you can use. Place the Sedative Common Item as indicated.
 EventPlaceSedative.button1,{qst:CONTINUE}
-EventConservatoryDoorKey.button1,{qst:CONTINUE}
 EventGainAxe.text,The shelf drags across the floor and you are able to pull something out from behind it. You gained the Axe Common Item.\nDiscard this token.
 EventGainAxe.button1,{qst:CONFIRM}
 EventGainWrench.text,The shelf drags across the floor and you are able to pull something out from behind it. You gained the Wrench Common Item then discard this token.
@@ -279,8 +289,6 @@ PuzzleFinalRitual.button1,{qst:COMPLETE}
 PuzzleFinalRitual.button2,{qst:CLOSE}
 SpawnGhost.text,As your mind comes to grips with reality the men coming for you fade away into thin air. They were nothing more than your demons trying to stop you. Your relief is short lived knowing the spirit that left you has now returned to its full strength as the dog transforms to its true form. Place the Ghost as indicated and remove any remaining Cultists and Dog Person token.
 SpawnGhost.button1,{qst:CONTINUE}
-TokenLibrarySearch.text,Several items are stacked on the shelves.
-TokenLibrarySearch.button1,{qst:ACTIONSEARCH}
 EventSearchPainting.text,"A large painting of five dogs playing poker is displayed on the back wall. For a second you wonder if any of them know your new friend. You search all over and even behind the painting, but you find nothing but a good laugh. Gain 1 Clue and discard this token."
 EventDogOrders.text,"The dog seems angered at you. ""You are not doing your job. Get back in there and finish what you started""."
 EventDogOrders.button1,{action} <i>Why should I kill this monster?</i>
@@ -302,19 +310,15 @@ EventPlacePorch.text,The door opens to a small porch.\nPlace the {ffg:TILE_YARD_
 EventPlacePorch.button1,{qst:CONTINUE}
 TokenLibrary.text,{qst:TokenExploreStairs.text}
 TokenLibrary.button1,{qst:ACTIONEXPLORE}
-EventPlaceLibrary.text,"You open the door and find a small library.\nPlace the {ffg:TILE_LIBRARY_MAD20} tile, Wall, and Explore tokens as indicated."
 EventPlaceYard2.text,A small path extends down to the lower level of the house.\nPlace the {ffg:TILE_PORCH_MAD23} tile as indicated.
 EventOpenLockedPorchfromLibrary.text,The door opens to a small Porch.
 EventPlaceYard2.button1,{qst:CONTINUE}
 EventPorchExplore.text,A door across the yard leads to what looks like a porch.\nPlace an Explore token as indicated.
 EventBreakDoorFail.text,You gave it everything you had but you couldn't get the door to open.
-TokenSearchYard.text,The yard continues around the house. You can view this Sight token if you are on the {MAD20} Garden Path tile.
-TokenSearchYard.button1,{qst:CONTINUE}
 EventOpenLockedPorchfromLibrary.button1,{qst:CONTINUE}
 TokenAxe.text,A large shelf stocked with gardening supplies and tools sits against the wall.
 TokenLibrary2.text,{qst:TokenExploreStairs.text}
 TokenLibrary2.button1,{qst:ACTIONEXPLORE}
-EventPlaceLibrary.button1,{qst:CONTINUE}
 EventLibrary2.text,A door leads out of the Library and into the house. Place an Explore token as indicated.
 EventLibrary2.button1,{qst:CONTINUE}
 EventPlaceLibaryExploretoPorch.text,You notice a door to your right. Place an Explore token as indicated.
@@ -325,19 +329,17 @@ SpawnCultist4.text,They just keep coming. Place a monster as indicated.
 SpawnCultist5.text,{qst:SpawnCultist4.text}
 EventPlaceOldKeys.text,You can see the figure through the window dividing the rooms. You might be able lure this figure out.\n Place a Interact token as indicated.
 EventPlaceOldKeys.button1,{qst:CONTINUE}
-EventPlaceLibrarySearch.text,Several items are scattered along the shelves.\nYou may be able to find something useful here.\nPlace a Search token as indicated.
-EventPlaceLibrarySearch.button1,{qst:CONTINUE}
 EventLibraryBarricade.button1,{qst:CONTINUE}
 EventRemoveLibraryBarricade.button1,{qst:CONTINUE}
 PuzzleSmallSafe.text,{qst:PuzzleKeyCode.text}
 EventLargeManDied.text,"Now you start to come to grips with the choices you have made. Who was the large man in the foyer? Was it someone coming to help your family or was it all in your head? Whoever it was, you hope no one was actually killed, but you fear the worst."
-EventPlaceFoyer.text,You see a welcoming foyer and oddly feel at home.\nPlace the {ffg:TILE_ENTRY_HALL_MAD20} tile and Wall Token as indicated.
+EventPlaceFoyer.text,You see a welcoming foyer and oddly feel at home.\nPlace the {ffg:TILE_ENTRY_HALL_MAD20} tile and Wall token as indicated.
 EventPlaceFoyer.button1,{qst:CONFIRM}
 EventAddStairsToken2.text,A small door to your left may lead to the upper level.\nPlace an Explore token as indicated.
 EventAddStairsToken2.button1,{qst:CONTINUE}
 EventPlaceDiningAndBilliards2.button1,{qst:BUTTON1}
 EventFoyerAddLibraryToken.text,You notice a door just to the right of you.\nPlace an Explore token as indicated.
-EventPlaceBadRitual.text,The dog has shown faith that you can finally cleanse this house of evil.\nPlace an Interact Token as indicated.
+EventPlaceBadRitual.text,The dog has shown faith that you can finally cleanse this house of evil.\nPlace an Interact token as indicated.
 EventSuicideFail.text,"You built up your courage and tried your best, but you just couldn't do it."
 EventSpawnDogThrall.text,{qst:EventSpawnDogPriest.text}
 EventPlaceKidsBed.text,You open the door and are surprised to see a kid's room.\nWhat has this creature done with this child?\nPlace the {ffg:TILE_BEDROOM_MAD23} tile as indicated.
@@ -432,7 +434,6 @@ EventSearchChest.button1,{qst:CONTINUE}
 EventSearchChest.button2,{qst:BUTTON2}
 TokenHandcuffs.text,A small chest sits at the foot of the bed.
 TokenHandcuffs.button1,{qst:ACTIONSEARCH}
-EventYardView.text,Now that the dog is gone it might be safe for you to look around the yard. Place a Sight token as indicated.
 TokenKidBedSearch.text,A small kid's dresser sits against the wall.
 TokenKidBedSearch.button1,{qst:ACTIONSEARCH}
 EventThrallMoves.text,The creature backs towards a small closet at the end of the room.\nRemove the Thrall from the board.
@@ -482,7 +483,7 @@ TokenKitchenSearch.button1,{qst:ACTIONSEARCH}
 TokenBarricadeInfo.text,The creature has barricaded itself in the closet.
 TokenBarricadeInfo.button1,{qst:ACTIONSEARCH}
 EventSearchBarricade.button1,{qst:CONTINUE}
-EventPlaceDogBalcony.text,The dog sits on the balcony as if he is waiting for something. Place the Dog Person Token as indicated.
+EventPlaceDogBalcony.text,The dog sits on the balcony as if he is waiting for something. Place the Dog Person token as indicated.
 EventAddDog.button1,{qst:CONTINUE}
 TokenBathroom.text,You hear the sound of running water coming from what seems like a bathroom.
 TokenBathroom.button1,{qst:ACTIONEXPLORE}
@@ -585,7 +586,6 @@ EventFailPapers.button1,{qst:CONFIRM}
 EventPlaceHallway.button1,{qst:CONTINUE}
 EventExploreHall.text,There is a door across the room leading further into the house.\nPlace an Explore token as indicated.
 EventExploreHall.button1,{qst:CONTINUE}
-EventYardView.button1,{qst:CONTINUE}
 EventPorchExplore.button1,{qst:CONTINUE}
 EventPapers2.text,You notice a small stack of papers stacked on the corner table.\nPlace a Search token as indicated.
 EventPapers2.button1,{qst:CONTINUE}
