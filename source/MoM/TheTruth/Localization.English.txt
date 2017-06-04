@@ -6,27 +6,6 @@ EventRestraint.text,"If you have an item to restrain another investigator you ca
 EventRestraint.button1,Restrain a Monster
 EventRestraint.button2,Kill a Restrained Monster
 EventRestraint.button3,Cancel
-EventRestrainPriestThrall.text,Select the monster below if your action to restrain was successful.
-EventRestrainPriestThrall.button1,<i>Priest of Dagon</i>
-EventRestrainPriestThrall.button2,<i>Thrall</i>
-EventRestrainPriestThrall.button3,Cancel
-EventRestrainPriestGuard.text,Select the monster below if your action to restrain was successful.
-EventRestrainPriestGuard.button1,<i>Priest of Dagon</i>
-EventRestrainPriestGuard.button2,<i>Deep One Hybrid</i>
-EventRestrainPriestGuard.button3,Cancel
-EventRestrainThrallGuard.text,Select the monster below if your action to restrain was successful.
-EventRestrainThrallGuard.button1,<i>Thrall</i>
-EventRestrainThrallGuard.button2,<i>Deep One Hybrid</i>
-EventRestrainThrallGuard.button3,Cancel
-EventRestrainThrallSelection.text,Select the monster below if your action to restrain was successful.
-EventRestrainThrallSelection.button1,<i>Thrall</i>
-EventRestrainThrallSelection.button2,Cancel
-EventRestrainPriestSelection.text,Select the monster below if your action to restrain was successful.
-EventRestrainPriestSelection.button1,<i>Priest of Dagon</i>
-EventRestrainPriestSelection.button2,Cancel
-EventDeepOneHybridSelection.text,Select the monster below if your action to restrain was successful.
-EventDeepOneHybridSelection.button1,<i>Deep One Hybrid</i>
-EventDeepOneHybridSelection.button2,Cancel
 EventKillPriestThrall.text,Select the monster to kill.
 EventKillPriestThrall.button1,{action} <i>Priest of Dagon</i>
 EventKillPriestThrall.button2,{action} <i>Thrall</i>
@@ -105,10 +84,10 @@ EventRemoveThrall.text,"As you look over the room, the creature runs into the ro
 EventRemoveThrall.button1,Continue
 TokenFindPipe.text,You notice something stuck in the ground propping up the tall flowers.\nPerhaps you could use it.
 TokenFindPipe.button1,{action} Search Flowers
-EventPlaceRestraintExplore.text,If you have an item to restrain another investigator you can use it to restrain a monster. The investigator holding this item can interact with it to restrain a monster by clicking on the item in the app.
+EventPlaceRestraintExplore.text,If you have an item to restrain another investigator you can use it to restrain a monster. The investigator holding this item can interact with it to restrain a monster by click on the item in the app.
 EventPlaceRestraintExplore.button1,Continue
 EventRestaintItems.button1,Continue
-EventPlaceRestraint.text,If you have an item to restrain another investigator you can use it to restrain a monster. The investigator holding this item can interact with it to restrain a monster by clicking on the item in the app.
+EventPlaceRestraint.text,If you have an item to restrain another investigator you can use it to restrain a monster. The investigator holding this item can interact with it to restrain a monster by click on the item in the app.
 EventPlaceRestraint.button1,Continue
 EventPlaceWhiskey.text,On the table sits a bottle of liquor. Place the Whiskey Bottle Common Item as indicated.
 EventPlaceWhiskey.button1,Continue
@@ -126,6 +105,27 @@ EventRestrainAll.button1,<i>Priest of Dagon</i>
 EventRestrainAll.button2,<i>Thrall</i>
 EventRestrainAll.button3,<i>Deep One Hybrid</i>
 EventRestrainAll.button4,Cancel
+EventRestrainPriestThrall.text,Select the Monster to restrain.
+EventRestrainPriestThrall.button1,<i>Priest of Dagon</i>
+EventRestrainPriestThrall.button2,<i>Thrall</i>
+EventRestrainPriestThrall.button3,Cancel
+EventRestrainPriestGuard.text,Select the Monster to restrain.
+EventRestrainPriestGuard.button1,<i>Priest of Dagon</i>
+EventRestrainPriestGuard.button2,<i>Deep One Hybrid</i>
+EventRestrainPriestGuard.button3,Cancel
+EventRestrainThrallGuard.text,Select the Monster to restrain.
+EventRestrainThrallGuard.button1,<i>Thrall</i>
+EventRestrainThrallGuard.button2,<i>Deep One Hybrid</i>
+EventRestrainThrallGuard.button3,Cancel
+EventRestrainThrallSelection.text,Select the Monster to restrain.
+EventRestrainThrallSelection.button1,<i>Thrall</i>
+EventRestrainThrallSelection.button2,Cancel
+EventRestrainPriestSelection.text,Select the Monster to restrain.
+EventRestrainPriestSelection.button1,<i>Priest of Dagon</i>
+EventRestrainPriestSelection.button2,Cancel
+EventDeepOneHybridSelection.text,Select the Monster to restrain.
+EventDeepOneHybridSelection.button1,<i>Deep One Hybrid</i>
+EventDeepOneHybridSelection.button2,Cancel
 SpawnSpawnHybrid.text,"A large, broad shouldered creature appears from one of the doors. It orders you with a deep growl ""Get out!"". Place the Deep One Hybrid as indicated."
 SpawnSpawnHybrid.button1,Continue
 EventGainRope.text,You find what is left of an old used rope. There should be enough left to be of use.\n Gain the Rope Unique Item and discard this token.\nYou can interact with this item using the app.
