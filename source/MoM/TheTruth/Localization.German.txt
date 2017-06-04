@@ -180,7 +180,7 @@ EventSpeaktoDog.text,"Der Hund schaut zu dir hoch, als du nach ihm greifst um ih
 EventStart1Tile.text,"Du erwachst von einem seltsamen Traum und befindest dich vor einem seltsamen Haus. Platziere das Spielplanteil {ffg:TILE_CONSERVATORY_MAD20}, wie gezeigt."
 EventStart2Placefigs.text,"Du betrittst den Vorhof, ohne dich daran erinnern zu können, wie du hier her gekommen bist.\nPlatziere deine Ermittler, wie gezeigt. Jeder Ermittler erhält zwei Hinweismarker."
 EventStart3Bushes.text,"Im Busch hörst du etwas herumkramen.\nPlatziere einen Durchsuchungsmarker, wie gezeigt."
-EventStart4Conservatory.text,"Du siehst eine Tür, welche in das Gewächshaus führt.\nVielleicht kannst du über diese Tür ins Haus hinein gelangen. Platziere einen Erkundungsmarker, wie gezeigt."
+EventStart4Conservatory.text,"Du siehst eine Tür, welche in das Treibhaus führt.\nVielleicht kannst du über diese Tür ins Haus hinein gelangen. Platziere einen Erkundungsmarker, wie gezeigt."
 EventSuicide.text,"Du schließt die Augen versinkst tief in deiner eigenen Seele ({will}). Du kannst so viele Beweise ablegen um einen {clue} in einen {success} umzuwandeln."
 EventSuicideFail.text,"Du hast deinen ganzen Mut zusammengenommen und dein Bestes gegeben, aber du hast es trotzdem nicht geschafft."
 EventTestRitual.text,"Du konzentrierst dich auf deine Hinweise und öffnest deinen Geist, als du das Ritual beginnst. Drücke um das Puzzle mit ({lore}) zu beginnen.\nDu kannst Beweise ablegen, um einen zusätzlichen Versuch zu bekommen."
@@ -222,8 +222,9 @@ TokenBathroom.text,Du hörst das Geräusch von laufenden Wasser aus dem Badezimm
 TokenBilliardsExplore.text,Subtile Musik dringt durch die Tür.
 TokenBushes.text,Du hörst ein lautes Rascheln in den Büschen.
 TokenBushes.button1,{action} Büsche durchsuchen
-TokenConservatoryDoor.text,Eine verschlossene Tür hindert dich daran das Gewächshaus zu betreten. Vielleicht ist der Schlüssel hier irgendwo in der Nähe zu finden.
-TokenConservatoryKey.text,"Vielleicht kannst du über das Gewächshaus ins Haus gelangen. Du kannst den Raum weiter erkunden, wenn du den Besonderen Gegenstand {ffg:UNIQUE_ITEM_BRASS_KEY} bei dir hast."
+TokenConservatoryDoor.text,Eine verschlossene Tür hindert dich daran das Treibhaus zu betreten. Vielleicht ist der Schlüssel hier irgendwo in der Nähe zu finden.
+TokenConservatoryKey.text,"Vielleicht kannst du über das Treibhaus ins Haus gelangen. Du kannst den Raum weiter erkunden, wenn du den Besonderen Gegenstand {ffg:UNIQUE_ITEM_BRASS_KEY} bei dir hast."
+TokenConservatoryKey.button1,{action} Treibhaus erkunden
 TokenDiningExplore.text,Aus der Tür dringt ein süßlicher Duft.
 TokenDog.button1,{action} Hund streicheln
 TokenDog.text,"Ein großer, schwarzer Hund sitzt ruhig da und beobachtet jeden deiner Schritte. Sein dickes Fell glänzt im Mondlicht."
