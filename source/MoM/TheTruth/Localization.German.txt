@@ -102,7 +102,7 @@ EventMissingLinkPass.text,"Dir fällt eine Gratulationskarte auf, welche für ei
 EventMissingLinkTest.text,"Deine Augen wandern über die Kommode, welche mit bunten Wachsmalzeichnungen bedeckt ist. Du achtest auf etwas, was heraus-sticht ({observation})."
 EventNoRestraints.text,"Hier gibt eine keine Monster, die du fesseln kannst."
 EventNoneCaptured.text,"Hier gibt es keine gefangenen Monster, die du töten kannst."
-EventOpenHouseExplore.text,"Du bemerkst eine Tür am anderen Ende des Raums. Wahrscheinlich führt sie tiefer in Innere des Hauses.\nPlatziere einen Durchsuchungsmarker, wie gezeigt."
+EventOpenHouseExplore.text,"Du bemerkst eine Tür am anderen Ende des Raums. Wahrscheinlich führt sie tiefer in das Innere des Hauses.\nPlatziere einen Durchsuchungsmarker, wie gezeigt."
 EventOpenLockedPorchfromLibrary.text,Die Tür führt zu einer kleinen Veranda.
 EventPapers2.text,"Du siehst einen kleinen Papierstapel auf dem Ecktisch.\nPlatziere einen Durchsuchungsmarker, wie gezeigt."
 EventPapersPass.text,"Als du den Papierstapel durchwühlst, findest du eine Adresse....Robert Jensen. Du hast den Namen schon einmal gehört, dir fällt dazu aber kein Gesicht ein. Du fragst dich, ob dies die Person ist, nach der du suchen sollst. Erhalte den Besonderen Gegenstand {ffg:UNIQUE_ITEM_CIRCUMSTANTIAL_EVIDENCE} und einen Hinweismarker. Entferne danach diesen Marker."
