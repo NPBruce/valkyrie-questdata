@@ -15,7 +15,7 @@ EventDogYes.button1,{qst:CONTINUE}
 EventConservatoryDoorKey.button1,{qst:CONTINUE}
 EventYardView.text,Now that the dog is gone it might be safe for you to look around the yard. Place a Sight token as indicated.
 EventYardView.button1,{qst:CONTINUE}
-TokenSearchYard.text,The yard continues around the house. You can view this Sight token if you are on the Garden Path {MAD20} tile.
+TokenSearchYard.text,The yard continues around the house. An Investigator in the Garden Path {MAD20} may reveal the adjacent area.
 TokenSearchYard.button1,{qst:CONTINUE}
 ACTIONINTERACT,{action} Interact
 ACTIONMONSTERDEEPONEHYBRID,{action} <i>{ffg:MONSTER_DEEP_ONE_HYBRID}</i>
@@ -527,7 +527,7 @@ EventPlaceRitual.button1,{qst:CONTINUE}
 EventRitualFail.text,Your focus shifts from the floor to look over the cluttered attic but you don't see anything important.
 EventRitualFail.button1,{qst:CONTINUE}
 EventPlaceBalconySight.button1,{qst:CONTINUE}
-TokenBalconySight.text,A balcony overlooks the estate. You may view this if you are on the {ffg:TILE_BALCONY_MAD23} tile.
+TokenBalconySight.text,A balcony overlooks the estate. An Investigator on the {ffg:TILE_BALCONY_MAD23} may reveal the adjacent area.
 EventPlaceAtticStairs.button1,{qst:CONTINUE}
 EventPlace3rdLevelDoors.text,You see two doors at the top of the steps.
 EventPlace3rdLevelDoors.button1,{qst:CONTINUE}
