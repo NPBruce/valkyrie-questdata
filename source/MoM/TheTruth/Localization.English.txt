@@ -7,7 +7,7 @@ TokenAtticExplore.button1,{qst:ACTIONEXPLORE}
 ACTIONEXPLORE,{action} Explore
 TokenAtticStairsKey.text,The door leads to what you believe is top floor of the house. You can explore this room if you have the Old Keys Unique Item.
 TokenAtticStairsKey.button1,{qst:ACTIONEXPLORE}
-EventPlaceAtticStairs.text,The door opens to another set of stairs leading to the top level of the house. Place the {ffg:TILE_HALL_STAIRS_MAD20} and a Door token as indicated.
+EventPlaceAtticStairs.text,The door opens to another set of stairs leading to the top level of the house. Place the {ffg:TILE_HALL_STAIRS_MAD20} tile and a Door token as indicated.
 EventPlaceAtticStairs.button1,{qst:CONTINUE}
 CONTINUE,Continue
 TokenAtticStairs.button1,{qst:CONTINUE}
