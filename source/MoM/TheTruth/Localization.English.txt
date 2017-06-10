@@ -2,9 +2,19 @@
 quest.name,The Truth
 quest.description,"In a state of confusion a strange new friend sends you on a quest to find ""The Truth""."
 quest.authors,<b>Author</b>\nSly Cozz\n\n<b>Translator</b>\nGerman: redwolf2
+TokenAtticExplore.text,A door leads to a room at the top of the house.
+TokenAtticExplore.button1,{qst:ACTIONEXPLORE}
+ACTIONEXPLORE,{action} Explore
+TokenAtticStairsKey.text,The door leads to what you believe is top floor of the house. You can explore this room if you have the Old Keys Unique Item.
+TokenAtticStairsKey.button1,{qst:ACTIONEXPLORE}
+EventPlaceAtticStairs.text,The door opens to another set of stairs leading to the top level of the house. Place the {ffg:TILE_HALL_STAIRS_MAD20} and a Door token as indicated.
+EventPlaceAtticStairs.button1,{qst:CONTINUE}
+CONTINUE,Continue
+TokenAtticStairs.button1,{qst:CONTINUE}
+EventPlace3rdLevelDoors.text,You see two doors at the top of the steps. Place Explore tokens as indicated.
+EventPlace3rdLevelDoors.button1,{qst:CONTINUE}
 EventPlaceLibrary.text,"You open the door and find a small library.\nPlace the {ffg:TILE_LIBRARY_MAD20} tile, Wall, and Explore tokens as indicated."
 EventPlaceLibrary.button1,{qst:CONTINUE}
-CONTINUE,Continue
 EventPlaceLibrarySearch.text,Several items are scattered along the shelves.\nYou may be able to find something useful here.\nPlace a Search token as indicated.
 EventPlaceLibrarySearch.button1,{qst:CONTINUE}
 TokenLibrarySearch.text,Several items are stacked on the shelves.
@@ -19,7 +29,6 @@ TokenSearchYard.text,The yard continues around the house. An Investigator in the
 TokenSearchYard.button1,{qst:CONTINUE}
 ACTIONINTERACT,{action} Interact
 ACTIONMONSTERDEEPONEHYBRID,{action} <i>{ffg:MONSTER_DEEP_ONE_HYBRID}</i>
-ACTIONEXPLORE,{action} Explore
 ACTIONMONSTERPRIEST,{action} <i>{ffg:UNIQUE_MONSTER_PRIEST_OF_DAGON}</i>
 ACTIONMONSTERTHRALL,{action} <i>{ffg:MONSTER_THRALL}</i>
 ATTEMPTPUZZLE,Attempt Puzzle
@@ -450,7 +459,6 @@ TokenBushes.button1,{qst:ACTIONSEARCH} Bushes
 EventPlaceLibraryExploreToken.text,You notice a door across the room that may gain you access to the house.\nPlace an Explore token as indicated.
 EventPorchSearchTest.button1,{qst:CONTINUE}
 EventPorchSearchTest.button2,{qst:CANCEL}
-TokenAtticStairs.button1,{qst:CONTINUE}
 EventAtticwithKeys.text,The door leads to what you believe is top floor of the house. You can explore this room if you have the Old Keys Unique Item.
 EventAtticwithKeys.button1,{qst:ACTIONEXPLORE}
 EventAtticwithKeys.button2,{qst:CANCEL}
@@ -474,10 +482,10 @@ EventBalconySight.text,"You are overcome by a gorgeous view, but quickly the fea
 EventPlaceBalcony2.button1,{qst:CONTINUE}
 EventGameEnd.button1,{qst:CONTINUE}
 EventKillMonster.button1,{qst:CONTINUE}
-EventPlaceStairsFromHallway.text,A set of stairs leads to the lower level of the house. Place the {ffg:TILE_HALL_STAIRS_MAD20} and Explore token as indicated.
-EventPlaceStairs2.text,A set of stairs leads to the upper level of the house. Place the {ffg:TILE_HALL_STAIRS_MAD23} tile and Explore token as indicated.
+EventPlaceStairsFromHallway.text,A set of stairs leads to the lower level of the house. Place the {ffg:TILE_HALL_STAIRS_MAD23} tile and a Door token as indicated.
+EventPlaceStairs2.text,A set of stairs leads to the upper level of the house. Place the {ffg:TILE_HALL_STAIRS_MAD23} tile and a Door token as indicated.
 EventPlaceStairsFromHallway.button1,{qst:CONTINUE}
-EventAddStairDoors2.text,A door at the far end of the stairs leads further into the house. Add an Explore token as indicated.
+EventAddStairDoors2.text,A door at the far end of the stairs leads further into the house. Place an Explore token as indicated.
 TokenKitchenSearch.text,Several cooking items are stored on the shelf.
 TokenKitchenSearch.button1,{qst:ACTIONSEARCH}
 TokenBarricadeInfo.text,The creature has barricaded itself in the closet.
@@ -493,7 +501,6 @@ TokenBalconyDoor.button1,TokenBalconyDoor.button1
 EventGainKeysTest.button1,{qst:CONTINUE}
 EventGainKeysTest.button2,{qst:BUTTON2}
 EventPlaceMasterBed.text,The door opens to an adult's bedroom. Place the {ffg:TILE_BEDROOM_2_MAD20} tile as indicated.
-EventPlaceAtticStairs.text,The door opens to another set of stairs leading to the top level of the house. Place the {ffg:TILE_HALL_STAIRS_MAD20} and Explore token as indicated.
 EventDogActions.button1,{qst:CONTINUE}
 TokenBalconyDog.text,The dog sits patiently on the balcony.
 TokenBalconyDog.button1,{action} Speak to Dog
@@ -512,8 +519,6 @@ EventPlaceBadRitual.button1,{qst:CONTINUE}
 EventDogMad.button1,{qst:CONTINUE}
 EventRestrainMonster.button1,{qst:CONTINUE}
 EventPlaceStairs2.button1,{qst:CONFIRM}
-TokenAtticStairsKey.text,The door leads to what you believe is top floor of the house. You can explore this room if you have the Old Keys Unique Item.
-TokenAtticStairsKey.button1,{qst:ACTIONEXPLORE}
 TokenBadRitual.text,You are now ready for the final step to cleanse this house.
 TokenBadRitual.button1,{action} Perform Cleansing
 EventSuicide.button1,{qst:CONTINUE}
@@ -521,16 +526,11 @@ EventSuicide.button2,{qst:BUTTON2}
 EventSuicideFail.button1,{qst:CONTINUE}
 EventPlaceRitualPriest.button1,{qst:CONTINUE}
 EventDogDisapears.button1,{qst:CONTINUE}
-TokenAtticExplore.text,A door leads to a room at the top of the house.
-TokenAtticExplore.button1,{qst:ACTIONEXPLORE}
 EventPlaceRitual.button1,{qst:CONTINUE}
 EventRitualFail.text,Your focus shifts from the floor to look over the cluttered attic but you don't see anything important.
 EventRitualFail.button1,{qst:CONTINUE}
 EventPlaceBalconySight.button1,{qst:CONTINUE}
 TokenBalconySight.text,A balcony overlooks the estate. An Investigator on the {ffg:TILE_BALCONY_MAD23} may reveal the adjacent area.
-EventPlaceAtticStairs.button1,{qst:CONTINUE}
-EventPlace3rdLevelDoors.text,You see two doors at the top of the steps.
-EventPlace3rdLevelDoors.button1,{qst:CONTINUE}
 TokenoldKeys.text,A small window divides the rooms.
 TokenoldKeys.button1,{qst:ACTIONINTERACT}
 EventGainKeysFail.button1,{qst:CONTINUE}
@@ -592,7 +592,7 @@ EventPapers2.button1,{qst:CONTINUE}
 EventPlaceHallDoors2.text,You notice several doors throughout the hallway. Place Explore tokens as indicated.
 EventPlaceHallDoors2.button1,{qst:CONTINUE}
 EventAddHallDoors3.button1,{qst:CONTINUE}
-EventPlaceStairsExploreToken.text,A door at the far end of the stairs leads further into the house. Add an Explore token as indicated.
+EventPlaceStairsExploreToken.text,A door at the far end of the stairs leads further into the house. Place an Explore token as indicated.
 EventPlaceStairsExploreToken.button1,{qst:CONTINUE}
 EventAddStairDoors2.button1,{qst:CONTINUE}
 EventExploreBathInPlay.text,{qst:YOUMAYMOVE1SPACE}
