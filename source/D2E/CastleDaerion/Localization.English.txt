@@ -1,0 +1,198 @@
+.,English
+ActivationPalamonAssault1.ability,Gains 1 extra {surge}. If a minon or a master defeats a guard the entire group deals 2 extra {heart} for the remainder of this activation.
+ActivationPalamonAssault1.master,{action}Engage closets guard or Sir Palamon if there are no guards adjacent to him.\n{action}Attack closest guard with lowest {heart} or Sir Palamon if there are no guards adjacent to him.\n{action}Attack closest guard with lowest {heart}or Sir Palamon if there are no guards adjacent to him.\n{action}Engage closets hero.\n{action}Attack closest hero with lowest {heart}\n{action}Attack closest hero with lowest {heart}
+ActivationPalamonAssault1.minion,{action}Engage closets guard or Sir Palamon if there are no guards adjacent to him.\n{action}Attack closest guard with lowest {heart}\n{action}Attack closest guard with lowest {heart}\n{action}Engage closets hero.\n{action}Attack closest hero with lowest {heart}\n{action}Attack closest hero with lowest {heart}
+quest.name,Castle Daerion
+quest.description,My own version of Castle Daerion. Based on the original quest but modified to fit the Road to Legend rules/feel. Not playtested for difficulty balance yet (I was aiming for something more on the hard side) but it should work perfectly mechanically. May contain typos as English is not my first language.
+quest.authors,Dakon Blackblade
+CustomMonsterSirPalamonEttin.monstername,Ettin
+CustomMonsterSirPalamonEttin.info,"Ettins use {surge} in the follwing order\n{surge} + {heart}\nEttins have ""Reach"""
+ActivationSirPalamonAssault2.ability,Attacks cause every figure (allies and enemies) adjacent to the target to loose 2{heart}.
+ActivationSirPalamonAssault2.master,"{action}Engage Sir Palamon\n{action}Attack Sir Palmon\n{action}Engage a guard adjacent to Sir Palamon\n{action} Use ""throw""\n{action}Engage a hero adjacent to Sir Palamon with lowest {might}\n{action} Use ""throw""\n{action} Engage closest hero\n{action} Attack closest hero"
+ActivationSirPalamonAssault2.minion,{action}Engage Sir Palamon\n{action}Attack Sir Palmon\n{action}Engage closest hero with the lowest {heart} remaining\n{action}Attack closest hero with the lowest {heart} remaining
+EventOpenDoor1.text,"Place tile 7A (this is the Gatehouse), an extension, a door and a Red Objective Token (beacon) as indicated."
+EventOpenDoor1.button1,Continue
+EventOpenDoor2.text,"Place tile 4A, an extension, a Red Objective Token and a door as indicated."
+EventOpenDoor2.button1,Continue
+EventPlaceEntrance.text,"Place tile 3A, an entrance and an end cap as indicated"
+EventPlaceEntrance.button1,Continue
+EventPlaceHeroes.text,Place the heroes on the entrance
+EventPlaceHeroes.button1,Continue
+EventPlaceBeacon1.text,"Place the Door as Indicated. Place a Red Objective Token, this is a beacon. Beacons are obstacles and block movement and line of sight. An adjacent hero can spend an {action} to light the beacon. The hero can also try to light the beacon speedly, without spending an {action}, by passing on a {knowledge} or {will} test."
+EventPlaceBeacon1.button1,Continue
+SpawnIronbound.text,Place the Ironbound group ignoring group limits.
+SpawnIronbound.button1,Continue
+SpawnSorcerer.text,Spawn the Sorcerer group as indicated.
+SpawnSorcerer.button1,Continue
+EventPlaceSearch1.text,Place a Search Token as indicated.
+EventPlaceSearch1.button1,Continue
+EventObjective1.text,Setup concluded\n\nObjective: Explore the area and light the beacons (Red Objective Tokens)
+EventObjective1.button1,Continue
+EventBanditReinforcement.text,Bandits jump in the Gatehouse taking advantage of the comontion to loot and pilage. Place 1 bandit on any square of the Gatehouse (7A) ignoring group limits.
+EventBanditReinforcement.button1,Continue
+EventOpenDoor3.text,"Place tile 13A, an exit and a Red Objective Token as indicated."
+EventOpenDoor3.button1,Continue
+SpawnBandits.text,Spawn the Bandits group ignoring group limits.
+SpawnBandits.button1,Continue
+EventPlaceSearch2.text,Place the search token as indicated
+EventPlaceSearch2.button1,Continue
+SpawnWildBeasts.text,Wild creatures jump from the woods nearby and advance on the heroes. Place the monster group as indicated.
+SpawnWildBeasts.button1,Continue
+EventPlaceSearch34.text,Place the search tokens as indicated
+EventPlaceSearch34.button1,Continue
+SpawnCursed.text,The cabin is guarded by evil creatures. Place the monster group as indicated.
+SpawnCursed.button1,Continue
+EventStart.text,"Set aside tiles 1B, 3A, 4A, 7A, 13A, 14B, 18B, 19B."
+EventStart.button1,Continue
+TokenSirPalamon.text,"Any guard adjacent to Sir Palamon gets 1 extra {shield} on defense rolls and grant 1 extra {shield} to sir Palamon's defense roll. Sir Palamon can be target as a hero, does not act, has 15{heart}, rolls a grey and a brown defense die, cannot recover {heart} in any way and automaticaly succeeds at any atribute test. \n\nWas Sir Palamon defeated ?"
+TokenSirPalamon.button1,Yes
+TokenSirPalamon.button2,No
+TokenSafePalamon.text,An asjacent hero may grab the key from Sir Palamon without spending 1 {action}. \n\nGrab the key ?
+TokenSafePalamon.button1,Yes
+TokenBeacon4.text,"As an {action} a hero adjecent to a beacon may light it. And adjacent hero may also attempt to light the beacon speedily, without spending an {action}, by passing on a {knowledge} or {will} test.\n\nLight the beacon ?"
+TokenBeacon4.button1,Yes
+EventHaveKey.text,In possession of the key the heroes may now open the door.\n\nOpen Door ?
+EventHaveKey.button1,Yes
+TokenBeacon1.text,"As an {action} a hero adjecent to a beacon may light it. And adjacent hero may also attempt to light the beacon speedily, without spending an {action}, by passing on a {knowledge} or {will} test.\n\nLight the beacon ?"
+TokenBeacon1.button1,Yes
+TokenBeacon2.text,"As an {action} a hero adjecent to a beacon may light it. And adjacent hero may also attempt to light the beacon speedily, without spending an {action}, by passing on a {knowledge} or {will} test.\n\nLight the beacon ?"
+TokenBeacon2.button1,Yes
+TokenBeacon3.text,"As an {action} a hero adjecent to a beacon may light it. And adjacent hero may also attempt to light the beacon speedily, without spending an {action}, by passing on a {knowledge} or {will} test.\n\nLight the beacon ?"
+TokenBeacon3.button1,Yes
+SpawnShade.text,Place the Shade group as indicated.
+SpawnShade.button1,Continue
+Door1.text,Open door ?
+Door1.button1,Open
+Door2.text,Open Door ?
+Door2.button1,Open
+Door3.text,Open Door ?
+Door3.button1,Open
+Door4.text,Sir Alric Farrow has locked himself inside the Laboratory where he performs his nefarious experiments. This door is locked.
+Door4.button1,Continue
+EventVictory.text,Sir Alric Farrow curses you as he hurriedly retreats inside the laboratory and escapes trough a secret passage. Too tired and bruised to follow you are content with having defended the castle. Each hero gains 25 gold and 1 XP.
+EventVictory.button1,Continue
+EventMajorPerilE2.text,Major Peril: \n\nCoalescing Darkness \n\nThe dark magical mists coalesce and form corporeal shades. 
+EventMajorPerilE2.button1,Continue
+SpawnSirAlricFarrow.text,"A dark magical mist covers the corridors. This is certainly the twisted work of Sir Alric Farrow. The guards colapse to the ground, remove every remaining guard from play."
+SpawnSirAlricFarrow.button1,Continue
+EventObjective4.text,Objective: Defeat Sir Alric Farrow.
+EventObjective4.button1,Continue
+EventGuardReinforcement.text,Sir Palamon rallys the guardsmen to fight at his side. Place 1 guard (Vilager Token) adjacent to Sir Palamon (White Objective Token).
+EventGuardReinforcement.button1,Continue
+EventPlaceDoor4.text,"Place a door as indicated. This door is locked, the heroes need a key to open it."
+EventPlaceDoor4.button1,Continue
+EventPlaceSirPalamon.text,"And aged soldier hoding a banner with the kingdoms colors, stands injuried amongst a pile of guard's bodies. One lonely defender stands besides him. When the aged soldier sees the heroes and the reinfocements they brought he stands upright again with renewed vigor. "
+EventPlaceSirPalamon.button1,Continue
+EventSirpalamonInfo1.text,Place the White Objective Token. This is Sir Palamon. Place 1 Vilager Token next to him representing a Guard (who will be under the heroes controll). 
+EventSirpalamonInfo1.button1,Continue
+EventSirpalamonInfo2.text,"Any guard adjacent to Sir Palamon gets 1 extra {shield} on defense rolls and grant 1 extra {shield} to sir Palamon's defense roll. Sir Palamon can be target as a hero, does not act, has 15{heart}, rolls a grey and a brown defense die, cannot recover {heart} in any way and automaticaly succeeds at any atribute test."
+EventSirpalamonInfo2.button1,Continue
+EventSirpalamoninfo3.text,"Sir Palamon has the key to the locked door. Once he is safe an adjacent hero may grab the key from Sir Palamon, this does not require an {action}."
+EventSirpalamoninfo3.button1,Continue
+SpawnGuards2.button1,Continue
+EventDeadlyPerilE2.text,"Deadly Peril: \n\nChoking Mists\n\n The dark magical mists become dense and breathing is almost impossible, the heroes must colective suffer 10{heart} damage"
+EventDeadlyPerilE2.button1,Continue
+EventSpawnShadePrep.button1,Continue
+EventSecondMinorPerilE2.text,Minor Peril: \n\nNoxious Fumes \n\nA poisonous magical mist emanates from under the locked door leading to the laboratory. Every hero inside the throne room (tile 1B) including guards suffer 1{heart} and must test {might} or {awareness}. Anyone who fails is poisoned.
+EventSecondMinorPerilE2.button1,Continue
+EventMinorPerilE2.text,Minor Peril: \n\nNoxious Fumes \n\nA poisonous magical mist emanates from under the locked door leading to the laboratory. Every hero inside the throne room (tile 1B) including guards suffer 1{heart} and must test {might} or {awareness}. Anyone who fails is poisoned.
+EventMinorPerilE2.button1,Continue
+EventAlricHeal.text,"The wierd magical mists saps te vitality of the heroes and transfers it to the corpses of the dead soldiers and to Sir Alric Farrow, reanimating the dead and healling the lieutenant. Place 1 minion zombie on the laboratory ignoring group limits. Sir Alric Farrow recovers 2{heart}."
+EventAlricHeal.button1,Continue
+EventDefeat.text,"Sir Palamons colapses to the ground, the guardsmen look at each other in horror. Tired and without their leader to rally them, they are quickly defeated, the heroes have no option but to retreat. You loose the quest but each hero gains 1 XP."
+EventDefeat.button1,Continue
+EventPlaceSearch6.text,Place a Search Token as indicated.
+EventPlaceSearch6.button1,Continue
+EventBeastamenReinforce.text,More creatures join the fight jumping in the throne room trough a hole in the wall. Place 2 beastmen (1 in a 2 players game) in the indicated spot respecting group limits.
+EventBeastamenReinforce.button1,Continue
+EventStalkerDefeated.text,"The beast falls to the ground, the path ahead is clear. With the help the guards the heroes can now advance on the castle and free it from the overlord's forces. Remove every enemy from the game. "
+EventStalkerDefeated.button1,Continue
+EventPlaceEntrance2.text,"The way to the castle gates give you enought thime to patch your wounds and catch your breath. Every hero recover half his {heart} and {fatigue} (round the results down) Place an entrance as indicated, this is the castle entance. Remove the heroes from the board and place them at the castle's entrance."
+EventPlaceEntrance2.button1,Continue
+EventPlaceThrone.text,"Place tiles 19B, 1B and an end cap as indicated."
+EventPlaceThrone.button1,Continue
+SpawnPalamonEttin.uniquetitle,BatteringRam
+SpawnPalamonEttin.uniquetext, Battering Ram can ignore spaces ocupied by enemies figured when moving and when he moves trough enemies he deals them 1{heart} damage. Battering Ram has 2 extra {heart} per hero
+SpawnPalamonEttin.text,A hulking beast stands at the entrance of the throne room amongst a pile of bodies and rubbles. This is the ettin known as Battering Ram. Place ettins as indicated ignoring group limits. Defeating Battering Ram does not defeat the entire ettin group.
+SpawnPalamonEttin.button1,Continue
+SpawnTheStalker.uniquetitle,SpawnTheStalker
+SpawnTheStalker.uniquetext,"The Stalker uses surges as follow:\n{surge} Pierce 2\n{surge} +1 {heart}\nAlways use ""Skirmish"" if possible/necessary\n""Ravage"" allows Stalker to attack twice on the same turn\nStalker rolls 1 extra grey defense die and has 4 extra {heart} per hero."
+SpawnTheStalker.text,"The smoke and the lights have attracted the atention of a group of vicious creatures. Place the Volucrix reaver group as indicated ignoring group limits, the master is Stalker. Stalker has 4 extra {heart} per hero and rolls 1 extra grey defense die."
+SpawnTheStalker.button1,Continue
+EventObjective2.text,Objective: defeat Stalker while protecting as many guards as possible
+EventObjective2.button1,Continue
+EventMorale0.text,You are forced to retreat. You loose the quest but each hero gains 1 XP.
+EventPlaceLaboratory.text,"A stench of death and decay reaches your nostrills as you open the door, you hear the shifting of feet comming from the room ahead. Place tiles 18B, 14B(this is the Laboratory) and an end cap as indicated."
+EventPlaceLaboratory.button1,Continue
+SpawnZombie.text,Place the zombie group as indicated.
+SpawnZombie.button1,Continue
+EventKeytracker.text,"The heroes are now in possession of the key to the laboratory, and may free the castle from the Overlord's forces once and for all. Sir Palamon leaves to tend his wounds."
+EventKeytracker.button1,Continue
+EventPlaceSearch5.text,Place a Search Token as indicated.
+EventPlaceSearch5.button1,Continue
+SpawnPalamonBeastmen.text,Beastmen feast on the carcass of the dead guards. Place the beastmen group as indicated.
+SpawnPalamonBeastmen.button1,Continue
+EventRemoveSearch1.text,Draw a card from the Search Deck.
+EventRemoveSearch1.button1,Continue
+EventRemovesearch5.text,Draw a card from the Search Deck.
+EventRemovesearch5.button1,Continue
+TokenSearch5.text,Search ?
+TokenSearch5.button1,Continue
+TokenSearch6.text,Search ?
+TokenSearch6.button1,Continue
+EventRemoveSearch6.text,Draw a card from the Search Deck.
+EventRemoveSearch6.button1,Continue
+EventRemoveSearch4.text,Draw a card from the Search Deck.
+EventRemoveSearch4.button1,Continue
+EventRemoveSearch3.text,You search trought the shelves but come out empty handed. You find nothing.
+EventRemoveSearch3.button1,Continue
+EventRemoveSearch2.button1,Continue
+EventRemoveSearch2.text,Draw a card from the Search Deck.
+TokenSearch3.text,Search?
+TokenSearch3.button1,Continue
+EventSafePalamon.text,Sir Palamon is now safe. An adjacent hero may grab the key from him. This does not require an {action}.
+EventSafePalamon.button1,Continue
+SpawnGuards.text,The signal fires burn bright and the flames fliker on the night skies. Guards have heard your calling and have come to your aid. Place 6 guards (4 guards if playing with 2 players - use a Vilager Token to represent each guard) on the indicated spot. Players can controll the guards as if they were heroes.
+SpawnGuards.button1,Continue
+EventDefeatEttinSafety.button1,Continue
+EventDefeatBeatmenSafety.button1,Continue
+EventReinforceStalker.text,Place one minion Volucrix Reaver on the location indicated ignoring group limits.
+EventReinforceStalker.button1,Continue
+EventObjective3.text,Objective: defeat every enemy in order to get the key from Sir Palamon. If sir Palamon is defeated the heroes loose.
+EventObjective3.button1,Continue
+CustomMonsterPalamonsBeastmen.monstername,Beastmen
+CustomMonsterPalamonsBeastmen.info,"Beastmen use {surge} as follows:\n{surge} + {heart}\nBeastmen have ""Ravage""\nIf a minion rolls just 1 {heart} on his red power die or a X on his blue attack die he takes advantage of ""Command"" if possible and rerolls that die (giving priority to rerolling the X)."
+CustomMonsterTheStalker.monstername,TheStalker
+CustomMonsterTheStalker.info,"Volucrix reavers use {surge} as follows:\n{surge} Pierce 2\n{surge} +1 {heart}\nAlways use ""Skirmish"" if possible/necessary\n""Ravage"" allows a Volucrix Reaver to attack twice on the same turn"
+CustomMonsterGuards.monstername,Guards
+CustomMonsterGuards.info,"The guards have 6 {heart}, 4speed, attack from melee rolling a blue and a red die and for defense they roll a grey die. They can only make one attack action per turn (as if they were a monster). Guards cannot interact with tokens, are immune to conditions and if asked to attempt a skill check they automatically fail. Guards cannot spend {surge} and cannot recover {heart} by any means."
+EventDoor4Key.text,You have found the Key. Open the Door ?
+EventDoor4Key.button1,Open
+ActivationGuardAction.ability,A guard deals 1 extra {heart} if there is at least 1 other guard adjacent to his target.
+ActivationGuardAction.master,The guards are under the controll of the heroes and will act as the heroes see fit.
+ActivationGuardAction.minion,The guards are under the controll of the heroes and will act as the heroes see fit.
+EventLightBeacon1.text,"You set the oil in the brazier on fire, the heat warms your skin as a collun of smoke starts to form. The beacon is lit."
+EventLightBeacon1.button1,Continue
+EventLightBeacon2.text,"You set the oil in the brazier on fire, the heat warms your skin as a collun of smoke starts to form. The beacon is lit."
+EventLightBeacon2.button1,Continue
+EventLightBeacon3.text,"You set the oil in the brazier on fire, the heat warms your skin as a collun of smoke starts to form. The beacon is lit."
+EventLightBeacon3.button1,Continue
+TokenSearch4.text,Search ?
+TokenSearch4.button1,Continue
+EventLightBeacon4.text,"You set the oil in the brazier on fire, the heat warms your skin as a collun of smoke starts to form. The beacon is lit."
+EventLightBeacon4.button1,Continue
+ActivationStalker3.ability,Stalker Skirmish allows him to move 6 squares before attacking. Minions deal 1 extra {heart} per enemy adjacent to their target
+ActivationStalker3.master,{action}Skirmish closest guard\n{action}Skirmish closest guard\n{action} Spot as many guards as possible\n{action}Skirmish closest hero with lowest {will}\n{action}Skirmish closets hero with lowest {will}\n{action} Spot as many heroes as possible
+ActivationStalker3.minion,{action}Spot hero withim 7 squares with most enemies adjacent to him\n{action}Skirmish hero withim 4 squares with most enemies adjacent to him
+ActivationStalker2.ability,Stalker gets 1 extra red power die on each of his attack rolls
+ActivationStalker2.master,{action}Spot hero withim 7 squares with least remaining health\n{action} Skirmish hero withim 4 squares with least remaining health\n{action}Attack closest hero with least remaining health
+ActivationStalker2.minion,{action}Spot hero withim 7 squares with least remaining health\n{action} Skirmish hero withim 4 squares with least remaining health\n
+ActivationStalker1.ability,If Stalker kills a guard he recovers 4{heart}
+ActivationStalker1.master,{action}Spot as many guards as possible\n{action}Skirmish a guard\n{action}Skirmish a guard\n{action}Skirmish closest hero
+ActivationStalker1.minion,{action}Spot closest hero\n{action}Skirmish closest hero\n
+EventDoorTrap.text,"A poisoned dart fires from an opening on the wall behind you. Test {awareness}, if you fail loose 2{heart} and 2{fatigue} then test {might}, if you fail the second test you are poisoned."
+EventDoorTrap.button1,Continue
+TokenSearch1.text,Search ?
+TokenSearch1.button1,Continue
+TokenSearch2.text,Search ?
+TokenSearch2.button1,Continue
