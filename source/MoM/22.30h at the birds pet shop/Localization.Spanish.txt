@@ -8,6 +8,44 @@ UITxtFINAL3.uitext,"La imagen del sr. Ford se desvanece ante tus ojos, del mismo
 UITxtFINAL2.uitext,Sigues a la mujer y entras en el bosque. De repente los arboles empiezan a desvanecerse del mismo modo que el suelo y el cielo. Por unos momentos todo es oscuridad. Poco a poco eres consciente de todas las partes de tu cuerpo. Mueves los dedos de manos y pies asegurándote que todo sigue en su sitio.\n\nOs despertáis en una pequeña habitación poco iluminada. Sólo la luz de la mesita de noche y el escritorio os dejan ver que las paredes están llenas de cuadros de rostros desconocidos que parecen seguiros con la mirada.\n\n Elimina todos los módulos del tablero. Coloca el módulo Dormitorio 1 {MAD20} y una ficha de pared en el lugar señalado. Cada investigador gana una Pista {clue}.\n\nNo habéis completado la investigación con éxito.
 UIButtonFIN2.uitext,Despertar
 UITextoGameOver.uitext,"Las paredes se desvanecen ante tus ojos, del mismo modo que el suelo y el techo. Por unos momentos todo es oscuridad. Abres los ojos y la figura de un hombre con traje y el rostro en la oscuridad aparece ante ti.\n\n<i>-Buenas noches, Pajaritos. ¿os apetece un whisky? Aunque parece que aún no os lo habéis ganado- </i>\n\nAvanza un paso para dejar su rostro a la vista. El señor Ford os sonríe y en su mano aparece un vaso lleno con dos hielos y le da un sorbo. \n\n<i>-¡Me encanta tener invitados! ¡Y si son cómo vosotros, nunca me aburro!-</i>. \n\nAvanza desafiante hacia vosotros mientras os examina \n\n<i>- A ver si la próxima vez lo hacéis un poco mejor.-</i>\n\nNo habéis completado la investigación."
+EventRESBusqueda2Sotano.text,Apartas algunos trastos que se deshacen entre tus dedos hasta encontrar una vieja herramienta manchada de sangre. \n\nObtén el objeto común <b>Almádena</b>. Descarta esta ficha de Búsqueda.
+EventRESBusqueda2Sotano.button1,Continuar
+TokenLibroBiblioteca.text,"Un libro decorosamente abierto por la página 3, descansa en una de las butacas."
+TokenLibroBiblioteca.button1,{action} Coger libro
+EventResBusquedaLibroBiblio.text,"En la portada pone: <i>Las metamorfosis: Libro III, de  Ovidio</i>. Te dispones a leer la página abierta, pero te das cuenta que el libro tiene una letra demasiado pequeña. En el  reposabrazos llama tu atención un objeto, que alguien ha debido usar para leerlo. \n\nObtén el objeto común <b>Lupa</b> y 1 Pista {clue}. Descarta esta ficha de Búsqueda."
+EventResBusquedaLibroBiblio.button1,Continuar
+EventAmariosCocina.text,"Al mirar dentro del armario, encuentras un nido de pájaro lleno de plumas de colores y restos de los cristales rotos. Con cuidado de no cortarte sacas del nido un huevo de color negro. En seguida te das cuenta que no se trata de un huevo, sino de una piedra pulida. \n\n Obtén el objeto común <b>Talismán Protector</b>. Descarta esta ficha de Búsqueda."
+EventAmariosCocina.button1,Continuar
+EventBuscarCajasCampanario.text,Retiras la gruesa capa de polvo para poder abrir cada una de la cajas. Pierdes la noción del tiempo al inspeccionar uno por uno los libros que encuentras en su interior ({lore}).
+EventBuscarCajasCampanario.button1,Continuar
+EventBuscarCajasCampanario.button2,Oculto
+EventBIBLIA.text,"Después de lo que parece horas revisando cajas, abres una llena de plumas de colores. Entre las plumas encuentras una cajita con forma de sarcófago. \n\nObtén el objeto único <b>Caja Enigmática</b> y 1 Pista {clue}. \nSi has conseguido al menos 3 éxitos, obtén el objeto común <b>Biblia del Rey Jaime</b>. Descarta esta ficha de Búsqueda."
+EventBIBLIA.button1,Continuar
+EventSOLRebuscarMuebleComedor.text,"Después de un rato apartando botellas vacías, descubres un doble fondo con la única botella llena del armario. Al sacarla te das cuenta que tiene algo enrollado en el cuello. \n\n Obtén el objeto común <b>Agua Bendita</b>  y el objeto único <b>Emblema de Sectario</b>. Ganas 1 Pista {clue}. Descarta esta ficha de Búsqueda."
+EventSOLRebuscarMuebleComedor.button1,Continuar
+EventResMarcadorFake3.text,Coges el archivador con mucho cuidado. Parece que en cualquier momento va a desvanecerse entre tus dedos. Lo abres y un montón de plumas de colores caen al suelo y entre ellas un papiro enrollado y lacado. \n\nObtén el objeto único <b>Viejo diario</b> y adquieres el estado <b>Desconcertado</b>. Descarta esta ficha de Búsqueda.
+EventResMarcadorFake3.button1,Continuar
+EventBuscarNevera.text,"Toda la comida se ha estropeado y unos enormes gusanos se abren paso entre los restos. Abres el pequeño congelador y sacas una botella del fondo que te resulta familiar. \n\nObtén el objeto común <b>Whisky</b>, adquieres el estado <b>Desconcertado</b>. Descarta esta ficha de Búsqueda."
+EventBuscarNevera.button1,Continuar
+EventBuscarMesaDespacho.text,"Entre los pétalos de flores de colores que llenan el cajón, brilla un la esfera de un viejo reloj y un manojo de llaves oxidadas. \n\nObtén el objeto común <b>Reloj de bolsillo</b> y el objeto único <b>Llaves antiguas</b>, adquieres el estado <b>Desconcertado</b>. Descarta esta ficha de Búsqueda."
+EventBuscarMesaDespacho.button1,Continuar
+EventLibroBiblio1.text,"Sacas el libro y en la portada puedes leer: <i> Las metamorfosis: Libro XI, de Ovidio </i>. Al retirar el libro descubres un panel metálico con 4 botones retro iluminados. Están todos apagados. \n\nGanas 1 Pista {clue}. Descarta esta ficha de Búsqueda y coloca la ficha de Interacción en el lugar señalado."
+EventLibroBiblio1.button1,Continuar
+EventBuscarSotano1RES.text,Te pones de rodillas para escarbar cómodamente en el barro hasta que consigues desenterrar una enorme caja metálica. La abres con facilidad y dentro hay varios objetos que pueden ser de utilidad. \n\nObtén el objeto común <b>Vendas</b> y el objeto común <b>Pitillera de la Suerte</b>. Descarta esta ficha de Búsqueda.
+EventBuscarSotano1RES.button1,Continuar
+EventMythosFlavor03.text,"<b>{rnd:hero}</b>, no puede apartar la mirada de los ojos verdes del cuadro que tiene enfrente. Su sonrisa le llama y no puede evitar acercarse. \n<b>{rnd:hero}</b> puede decidir seguir mirando el cuadro y obtener el estado <b>Retenido</b> o bien, luchar contra su atracción y arrancar el retrato del marco; Si lo hace obtiene el objeto común <b>Manuscrito Arcano</b> y sufre 2 de Horror boca abajo."
+EventMythosFlavor03.button1,Continuar
+quest.name,En la pajarería a las 22.30h
+quest.description,"La familia Gordon se ha puesto en contacto contigo para que encuentras a su hija, Felicia. Lleva unos días desaparecida y aunque la policía cree que ha huido con su novio, sus padres no están tan seguros. La última pista es una cita en su agenda personal: <i>En la pajarería a las 22.30h</i>."
+quest.authors,Miss Fernwood & EtiCarasoft
+EventMeterManoDebajoCama.text,"Te agachas y tientas a ciegas debajo de la cama hasta que encuentras algo rígido y frío. Cuando te dispones a sacarlo a la luz, notas que te empieza a arrastrar con fuerza hacia la oscuridad. Sin soltarlo y ayudándote de todo el peso de tu cuerpo, forcejeas unos instantes hasta que consigues salir de debajo de la cama. \n\nSufres 2 de Daño boca abajo anulado por ({agility}). Ganas el Objeto común <b>Palanca</b>. Luego descarta esta ficha de Búsqueda."
+EventMeterManoDebajoCama.button1,Continuar
+EventResolucionTirarAlfHAB1.text,"Aún con el sudor en la frente por el esfuerzo, vislumbras un brillo metálico dentro del agujero que escondía la tablilla. Metes la mano para tantear el interior y tus dedos se cierran en torno a una pequeña llave metálica. \n\nGanas el objeto único <b>Llave de Plata</b> y una Pista {clue}. Luego descarta esta ficha de Búsqueda."
+EventResolucionTirarAlfHAB1.button1,Continuar
+EventResolucionPuzzle1.text,"Abres el cajón y registras lo que hay dentro. Encuentras una nota en la que se puede leer: <i>1,2,3,4... 3 maneras de morir 1 de salir.</i> Debajo de la nota, una pequeña llave.\n\nSufres 1 de Horror y consigues el objeto único <b>Prueba circunstancial</b>, el objeto único <b>Llave de latón</b> y una Pista {clue}. Descarta esta ficha de Búsqueda."
+EventResolucionPuzzle1.button1,Continuar
+EventRESObjetosEsquina.text,Examinas las plumas y algo brillante llama tu atención. Las apartas y con cuidado de no cortarte coges un cuchillo ornamentado enterrado en ellas. \n\n Obtén el objeto común <b>Daga ritual</b>. Descarta esta ficha de Búsqueda.
+EventRESObjetosEsquina.button1,Continuar
 TokenPuertaHAB11.text,La puerta está cerrada con llave. Un cerrojo plateado resalta debajo del pomo.
 TokenPuertaHAB11.button1,{action} Examinar
 TokenPuertaHAB12.text,La puerta está cerrada con llave. Un cerrojo plateado resalta debajo del pomo.
@@ -53,15 +91,6 @@ EventFailBuscarBar.text,No consigues encontrar nada de interés.
 EventFailBuscarBar.button1,Continuar
 EventFailFake4.text,"Tiras de la cadena, pero no consigues desenterrarla."
 EventFailFake4.button1,Continuar
-quest.name,En la pajarería a las 22.30h
-quest.description,"La familia Gordon se ha puesto en contacto contigo para que encuentras a su hija, Felicia. Lleva unos días desaparecida y aunque la policía cree que ha huido con su novio, sus padres no están tan seguros. La última pista es una cita en su agenda personal: <i>En la pajarería a las 22.30h</i>."
-quest.authors,Miss Fernwood & EtiCarasoft
-EventBuscarSotano1RES.text,Te pones de rodillas para escarbar cómodamente en el barro hasta que consigues desenterrar una enorme caja metálica. La abres con facilidad y dentro hay varios objetos que pueden ser de utilidad. \n\nObtén el objeto común <b>Vendas</b> y el objeto común <b>Pitillera de la Suerte</b>. Descarta esta ficha de Búsqueda.
-EventBuscarSotano1RES.button1,Continuar
-EventRESBusqueda2Sotano.text,Apartas algunos trastos que se deshacen entre tus dedos hasta encontrar una vieja herramienta manchada de sangre. \n\nObtén el objeto común <b>Almádena</b>. Descarta esta ficha de Búsqueda.
-EventRESBusqueda2Sotano.button1,Continuar
-EventResBusquedaLibroBiblio.text,"En la portada pone: <i>Las metamorfosis: Libro III, de  Ovidio</i>. Te dispones a leer la página abierta, pero te das cuenta que el libro tiene una letra demasiado pequeña. En el  reposabrazos llama tu atención un objeto, que alguien ha debido usar para leerlo. \n\nObtén el objeto común <b>Lupa</b> y 1 Pista {clue}. Descarta esta ficha de Búsqueda."
-EventResBusquedaLibroBiblio.button1,Continuar
 EventMALTentaculo.text,"Al abrir la pesada puerta, la visión de una gran ciudad en llamas bajo el mar inmoviliza tu mente y tus cuerpo. Un tentáculo verde se enrolla alrededor de tu cuerpo, tira de ti con rapidez y te arrastra hacia la ciudad en llamas. Por un instante, puedes ver como la niña del vestido blanco cierra, sonriendo, la puerta.\n\nEl investigador ha sido eliminado. El resto de los investigadores disponen de un solo turno adicional para completar la investigación."
 EventMALTentaculo.button1,Adiós
 EventMALTentaculo2.text,"La puerta está entreabierta. Cuando te dispones a volver a abrirla, la niña del vestido blanco la cierra suavemente con una mano y mirándote a los ojos dice:\n<i>-Ya es suficiente, hoy ya ha cenado.- </i>"
@@ -84,8 +113,6 @@ EventMythosFlavor01.text,De repente la luz de la mesita de noche empieza a tinti
 EventMythosFlavor01.button1,Continuar
 EventMythosFlavor02.text,"El ambiente de la habitación empieza a asfixiarte. Cada investigador debe resolver una tirada de observación ({observation}:2). \nSi superas la tirada, te das cuenta que las ondulantes paredes de la habitación no dejan de encoger el espacio. Una fuerte sensación de claustrofobia invade tu mente; Sufres 1 de Horror y adquieres el estado <b>Desconcertado</b>. \nSi fallas la tirada, el tintineo de la luz de lámpara de la mesita de noche, sigue llamando tu atención. Adquieres el estado <b>Concentrado</b>."
 EventMythosFlavor02.button1,Continuar
-EventMythosFlavor03.text,"<b>{rnd:hero}</b>, no puede apartar la mirada de los ojos verdes del cuadro que tiene enfrente. Su sonrisa le llama y no puede evitar acercarse. \n<b>{rnd:hero}</b> puede decidir seguir mirando el cuadro y obtener el estado <b>Retenido</b> o bien, luchar contra su atracción y arrancar el retrato del marco; Si lo hace obtiene el objeto común <b>Manuscrito Arcano</b> y sufre 2 de Horror boca abajo."
-EventMythosFlavor03.button1,Continuar
 EventMythosFlavor04.text,El suelo empieza a humedecerse. Una arcada sube desde tu estomago al darte cuenta de que lo que tiñe tus zapatos es sangre podrida. Oyes un leve chapoteo y las pisadas de unos pies descalzos empiezan a recorrer las paredes de la habitación. \n\nCada investigador sufre 2 de Horror boca abajo anulado por ({will}-1).
 EventMythosFlavor04.button1,Continuar
 EventMythosSoft01.text,"Este evento de los mitos afecta a todos los investigadores en un espacio de pasillo. \n Notas unos dedos largos y fríos que rodean tu cuello, pero no consigues ver nada. Aprietan tanto que te falta el aire y la cabeza te da vueltas. Un sudor frío te cae por la nuca y temes desmayarte en cualquier momento. ({strength}:2); \nSi fallas, te desmayas; sufres 2 Daño boca abajo y adquieres el estado <b>Aturdido</b>. \nSi tienes éxito, consigues liberarte aunque no puedes parar de toser. Intentas sacar algo de tu garganta que te esta molestando, hasta que escupes una pluma de pájaro; Sufres 1 Daño boca abajo y ganas 1 Pista {clue}."
@@ -215,8 +242,6 @@ EventDentroSotano2.text,"El olor a estiércol te provoca nauseas y la humedad im
 EventDentroSotano2.button1,Continuar
 EventBusquedaFake1.text,"Al inspeccionarlos más de cerca, te das cuenta que están en blanco y negro, tienen la tez extremadamente pálida y los ojos cosidos. \n\n Sufres 1 de Horror boca abajo y adquieres el estado <b>Desconcertado</b>."
 EventBusquedaFake1.button1,Continuar
-EventResMarcadorFake3.text,Coges el archivador con mucho cuidado. Parece que en cualquier momento va a desvanecerse entre tus dedos. Lo abres y un montón de plumas de colores caen al suelo y entre ellas un papiro enrollado y lacado. \n\nObtén el objeto único <b>Viejo diario</b> y adquieres el estado <b>Desconcertado</b>. Descarta esta ficha de Búsqueda.
-EventResMarcadorFake3.button1,Continuar
 EventResMarcadorFake2.text,"Rebuscas entre los papeles y no encuentras nada de interés, están todos en unos caracteres que parecen orientales. Ganas 1 Pista {clue} y adquieres el estado <b>Desconcertado</b>."
 EventResMarcadorFake2.button1,Continuar
 EventRes1MarcadorFake4.text,Excavas hasta que encuentras un trozo de cadena que se hunde aún más en la tierra. Crees que tirando con fuerza podrás desenterrarla ({strength}).
@@ -250,14 +275,10 @@ EventEstas1Pieza.text,"Coloca al investigador perdido en el pasadizo secreto det
 EventEstas1Pieza.button1,Continuar
 EventEstas1Pieza2.text,"Coloca al investigador perdido en el pasadizo secreto detrás del armario, en el espacio de el Sótano."
 EventEstas1Pieza2.button1,Continuar
-EventRESObjetosEsquina.text,Examinas las plumas y algo brillante llama tu atención. Las apartas y con cuidado de no cortarte coges un cuchillo ornamentado enterrado en ellas. \n\n Obtén el objeto común <b>Daga ritual</b>. Descarta esta ficha de Búsqueda.
-EventRESObjetosEsquina.button1,Continuar
 EventMostrarBiblioteca.text,Las bisagras de la puerta chirrían cuando la abres para dar paso a la biblioteca. Una bocanada de aire frío te hace tiritar. Todas las paredes están cubiertas con estanterías llenas de libros. \n\nRetira la ficha de exploración y coloca el módulo <b>Biblioteca</b> {MAD20}.
 EventMostrarBiblioteca.button1,Continuar
 EventDentroBiblioteca.text,Un par de butacas rojas y una alfombra persa enorme le dan un toque acogedor a una biblioteca abarrotada de libros. Llama tu atención que alguien se ha dejado uno abierto en una de las butacas. La estantería parece tener una buena colección de libros antiguos. \n\nColoca las fichas de Búsqueda en los lugares señalados. Tienes la oportunidad de moverte un espacio a la zona explorada.
 EventDentroBiblioteca.button1,Continuar
-EventLibroBiblio1.text,"Sacas el libro y en la portada puedes leer: <i> Las metamorfosis: Libro XI, de Ovidio </i>. Al retirar el libro descubres un panel metálico con 4 botones retro iluminados. Están todos apagados. \n\nGanas 1 Pista {clue}. Descarta esta ficha de Búsqueda y coloca la ficha de Interacción en el lugar señalado."
-EventLibroBiblio1.button1,Continuar
 EventLuzVerdeSalidaON.text,Una luz verde se enciende en el pulsador. Oyes un breve sonido mecánico a lo lejos.
 EventLuzVerdeSalidaON.button1, Continuar
 EventLuzAmarilloSalidaON.text,Una luz amarilla se enciende en el  pulsador. Oyes un breve sonido mecánico a no muy lejos de donde te encuentras ahora.
@@ -270,8 +291,6 @@ EventLuzVerdeSalidaOFF.text,Una luz verde se enciende en el pulsador. Oyes un br
 EventLuzVerdeSalidaOFF.button1,Continuar
 EventMostrarSotanoCaida.text,"Te preguntas cuanto tiempo llevas cayendo y si esta madriguera tiene fondo. Al pensarlo, la velocidad de caída aumenta rápidamente hasta que aterrizas en un duro y frío suelo.\n\nColoca el módulo de <b>Sótano</b> {MAD20}, la ficha de puerta y la ficha de pasadizo secreto en los lugares señalados."
 EventMostrarSotanoCaida.button1,Continuar
-EventBIBLIA.text,"Después de lo que parece horas revisando cajas, abres una llena de plumas de colores. Entre las plumas encuentras una cajita con forma de sarcófago. \n\nObtén el objeto único <b>Caja Enigmática</b> y 1 Pista {clue}. \nSi has conseguido al menos 3 éxitos, obtén el objeto común <b>Biblia del Rey Jaime</b>. Descarta esta ficha de Búsqueda."
-EventBIBLIA.button1,Continuar
 EventBusquedaCampana.text,La campana no parece tener una mota de polvo encima. Hay una palanca justo debajo. \n\nDescarta esta ficha de Búsqueda y coloca una de Interacción en el lugar señalado.
 EventBusquedaCampana.button1,Continuar
 EventAccionarAdelante2.text,"Antes de terminar el primer tañido de la campana, el suelo desaparece bajo tus pies y caes por un oscuro túnel."
@@ -288,9 +307,6 @@ EventAccionarAdelante.text,Mueves la palanca hacia delante (+). Un mecanismo acc
 EventAccionarAdelante.button1,Continuar
 EventDentroCampanario.text,"Echas un vistazo mientras te levantas un poco aturdido, por el impacto. Una campana de bronce se alza en lo alto del campanario, parece que ha estado usándose como almacén. \n\nColoca las fichas de Búsqueda en los lugares señalados."
 EventDentroCampanario.button1,Continuar
-EventBuscarCajasCampanario.text,Retiras la gruesa capa de polvo para poder abrir cada una de la cajas. Pierdes la noción del tiempo al inspeccionar uno por uno los libros que encuentras en su interior ({lore}).
-EventBuscarCajasCampanario.button1,Continuar
-EventBuscarCajasCampanario.button2,Oculto
 EventForzarPuertaCampanario.text,La puerta no se abre. La humedad ha hecho que la madera se hinche y quede trabada. Empujas con todas tus fuerzas para desatascar la puerta.\n\nTira 2 dados adicionales ({strength}) si tienes el objeto común <b>palanca</b>.
 EventForzarPuertaCampanario.button1,Continuar
 EventForzarPuertaCampanario.button2,Oculto
@@ -308,8 +324,6 @@ EventDentroDespacho.text,El escritorio del centro de la sala tiene dos cajones a
 EventDentroDespacho.button1,Continuar
 EventSolucionPuzzleBIBLIO.text,"Al encajar los símbolos, estos desaparecen y oyes el chasquido de la puerta al abrirse."
 EventSolucionPuzzleBIBLIO.button1,Continuar
-EventBuscarMesaDespacho.text,"Entre los pétalos de flores de colores que llenan el cajón, brilla un la esfera de un viejo reloj y un manojo de llaves oxidadas. \n\nObtén el objeto común <b>Reloj de bolsillo</b> y el objeto único <b>Llaves antiguas</b>, adquieres el estado <b>Desconcertado</b>. Descarta esta ficha de Búsqueda."
-EventBuscarMesaDespacho.button1,Continuar
 EventMostrarPasilloLavabo.text,Un pequeño y poco iluminado distribuidor decorado con una butaca en una esquina. \n\nRetira la ficha de exploración y coloca el módulo <b>Esquina de pasillo 3</b> {MAD20}.
 EventMostrarPasilloLavabo.button1,Continuar
 EventDentroPasilloLavabo.text,"A un lado, una puerta conduce a un baño. Enfrente puedes ver una puerta de madera combada por la humedad. Llama tu atención que la butaca de la esquina está cubierta de plumas de colores. \n\nColoca las fichas de Exploración y Búsqueda en los lugares señalados. Tienes la oportunidad de moverte un espacio a la zona explorada."
@@ -322,17 +336,11 @@ EventPuertaOculta12.text,Descarta la ficha de pared con cuadro y coloca una fich
 EventPuertaOculta12.button1,Continuar
 EventAbrirPuertaFAKE2.text,"La puerta se abre hacia dentro. Por unos instantes, te ciega la luz que viene del otro lado. Al recuperarte te das cuenta que unos barrotes te impiden traspasar el umbral y lo que identificas claramente como el rostro de un niño de tamaño descomunal, pasa por el otro lado mientras te señala y grita:\n\n<i>-¡Mamá, mamá! ¡Quiero este!¡Quiero este pajarito!</i>\n \nCierras la puerta de golpe y la bloqueas con una silla. Sufres 3 de Horror boca abajo anulado por ({lore}-1) y ganas 2 Pistas {clue}. Luego descarta esta ficha de exploración."
 EventAbrirPuertaFAKE2.button1,Continuar
-EventBuscarNevera.text,"Toda la comida se ha estropeado y unos enormes gusanos se abren paso entre los restos. Abres el pequeño congelador y sacas una botella del fondo que te resulta familiar. \n\nObtén el objeto común <b>Whisky</b>, adquieres el estado <b>Desconcertado</b>. Descarta esta ficha de Búsqueda."
-EventBuscarNevera.button1,Continuar
-EventAmariosCocina.text,"Al mirar dentro del armario, encuentras un nido de pájaro lleno de plumas de colores y restos de los cristales rotos. Con cuidado de no cortarte sacas del nido un huevo de color negro. En seguida te das cuenta que no se trata de un huevo, sino de una piedra pulida. \n\n Obtén el objeto común <b>Talismán Protector</b>. Descarta esta ficha de Búsqueda."
-EventAmariosCocina.button1,Continuar
 EventMostrarDespacho1.text,La luz del escritorio ilumina el penumbroso pero acogedor despacho. Descarta esta ficha de exploración y coloca el módulo de <b>Despacho</b> {MAD20}.
 EventMostrarDespacho1.button1,Continuar
 EventRebuscarMuebleBar.text,Parece que todas las botellas están vacías ({observation}).
 EventRebuscarMuebleBar.button1,Continuar
 EventRebuscarMuebleBar.button2,Oculto
-EventSOLRebuscarMuebleComedor.text,"Después de un rato apartando botellas vacías, descubres un doble fondo con la única botella llena del armario. Al sacarla te das cuenta que tiene algo enrollado en el cuello. \n\n Obtén el objeto común <b>Agua Bendita</b>  y el objeto único <b>Emblema de Sectario</b>. Ganas 1 Pista {clue}. Descarta esta ficha de Búsqueda."
-EventSOLRebuscarMuebleComedor.button1,Continuar
 EventDentroCocina.text,"Al fondo del comedor hay una puerta y a su lado, un elegante mueble bar. A través del paso a la cocina, ves que alguien se ha dejado la nevera abierta y se ha formado un charco en el suelo. Los armarios de la cocina tienen los cristales rotos. Al fondo, una puerta de madera cerrada con lo que parece un candado.\n\nColoca las fichas de Exploración y Búsqueda en los lugares señalados. Tienes la oportunidad de moverte un espacio a la zona explorada."
 EventDentroCocina.button1,Continuar
 EventMostrarPuertaOculta1.text,"Este evento solo afecta a los investigadores en el final del pasillo. \n\nOyes una risita. Cuando te das cuenta que proviene del retrato al fondo del pasillo, la imagen de la niña te sonríe y el cuadro empieza a desvanecerse. Donde estaba el retrato, aparece una puerta tan real que incluso puedes oler la madera.\n\nSufres 3 de Horror boca abajo anulados por ({will}-1)."
@@ -362,10 +370,6 @@ EventFantasmaVerdeHABLA3.text,<i>-Yo no soy yo ni tu eres tu. Aún no puedes ver
 EventFantasmaVerdeHABLA3.button1,Continuar
 EventMostrarCocina.text,Abres la puerta y ves una larga mesa que preside el comedor y una cocina anexa. \n\nRetira la ficha de exploración y coloca el módulo Comedor/Cocina {MAD20}.
 EventMostrarCocina.button1,Continuar
-EventResolucionPuzzle1.text,"Abres el cajón y registras lo que hay dentro. Encuentras una nota en la que se puede leer: <i>1,2,3,4... 3 maneras de morir 1 de salir.</i> Debajo de la nota, una pequeña llave.\n\nSufres 1 de Horror y consigues el objeto único <b>Prueba circunstancial</b>, el objeto único <b>Llave de latón</b> y una Pista {clue}. Descarta esta ficha de Búsqueda."
-EventResolucionPuzzle1.button1,Continuar
-EventResolucionTirarAlfHAB1.text,"Aún con el sudor en la frente por el esfuerzo, vislumbras un brillo metálico dentro del agujero que escondía la tablilla. Metes la mano para tantear el interior y tus dedos se cierran en torno a una pequeña llave metálica. \n\nGanas el objeto único <b>Llave de Plata</b> y una Pista {clue}. Luego descarta esta ficha de Búsqueda."
-EventResolucionTirarAlfHAB1.button1,Continuar
 EventSalirHAB1.text,"Un largo y estrecho pasillo poco iluminado se abre ante ti. \n\nDescarta esta ficha de Exploración y coloca los módulos de <b>Pasillo 2</b> {MAD20} y <b>Final de pasillo </b> {MAD20}, así como las fichas de pared en los lugares señalados. \nTienes la oportunidad de moverte un espacio a la zona explorada."
 EventSalirHAB1.button1,Continuar
 EventVistazo1.text,El pasillo gira y sigue en la penumbra.\n\nColoca el módulo de <b>Esquina de pasillo 2</b> {MAD20} y la ficha de pared en los lugares señalados.
@@ -374,8 +378,6 @@ EventINTRO2.text,Colocad las miniaturas de los investigadores en el lugar señal
 EventINTRO2.button1,Continuar
 EventBusquedaHAB11.text,"Miras por el agujero del cerrojo pero no consigues ver nada. Golpeas la puerta con fuerza, pero sigue sin moverse. Ni tan solo cimbrea. De repente te das cuenta de que el tacto de la madera es inusualmente frio y un escalofrió recorre tu espalda, como si te estuvieran observando. Instintivamente te giras y algo llama tu atención. \n\nSufres 1 de Horror boca abajo anulado por ({will}).\nColoca las fichas de Búsqueda en los lugares señalados."
 EventBusquedaHAB11.button1,Continuar
-EventMeterManoDebajoCama.text,"Te agachas y tientas a ciegas debajo de la cama hasta que encuentras algo rígido y frío. Cuando te dispones a sacarlo a la luz, notas que te empieza a arrastrar con fuerza hacia la oscuridad. Sin soltarlo y ayudándote de todo el peso de tu cuerpo, forcejeas unos instantes hasta que consigues salir de debajo de la cama. \n\nSufres 2 de Daño boca abajo anulado por ({agility}). Ganas el Objeto común <b>Palanca</b>. Luego descarta esta ficha de Búsqueda."
-EventMeterManoDebajoCama.button1,Continuar
 EventDebajoAlfombraHAB1.text,Levantas la alfombra y llama tu atención que una de las tablillas del suelo parece recién reparada. Crees que con un poco de fuerza quizás logres arrancarla. \n\nTira 2 dados adicionales ({strength}) si tienes el objeto común <b>palanca</b>.
 EventDebajoAlfombraHAB1.button1,Tirar 
 EventDebajoAlfombraHAB1.button2,Oculto
@@ -478,8 +480,6 @@ TokenPuertaSotanoLuz.text,Una  puerta de madera con trozos de pintura desconchad
 TokenPuertaSotanoLuz.button1,{action} Abrir
 TokenPuertaFAKE3.text,"Un cartel en el que se puede leer <b>Almacén</b>, cuelga de una puerta en mal estado por las condiciones de la estancia."
 TokenPuertaFAKE3.button1,{action} Abrir
-TokenLibroBiblioteca.text,"Un libro decorosamente abierto por la página 3, descansa en una de las butacas."
-TokenLibroBiblioteca.button1,{action} Coger libro
 PuzzleCajonMesaPasillo.text,Puedes intentar resolver el cifrado del pestillo. Usando ({observation}) como pasos para el rompecabezas.
 PuzzleCajonMesaPasillo.button1,Continuar
 TokenVistazo2.text,Un investigador que se encuentre en este espacio de la <b>Esquina de pasillo</b> {MAD20} puede echar un <b>Vistazo</b>.
