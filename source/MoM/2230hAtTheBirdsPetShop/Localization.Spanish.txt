@@ -1,0 +1,535 @@
+.,Spanish
+UITxTinicial.uitext,"Miras la foto de la joven Felicia, una chica rubia de grandes ojos marrones, antes de entrar.\nDetrás del mostrador, un hombre bajito señala con un dedo la cortina del fondo. Con mucho cuidado te tambaleas en silencio entre las viejas jaulas de madera y solo la luz de la luna te deja entrever que algunas de ellas están habitadas por extrañas aves de colores. Apartas la cortina y bajas las escaleras hasta a una puerta roja de madera. Llamas 4 veces, esta se abre y algo te bloquea el paso. Tienes que levantar la cabeza para poder apreciar los rasgos orientales del hombre que te registra de arriba abajo. Te invita a seguir adelante, pero cierra la puerta detrás de ti antes de abrir la siguiente. \n\n Necesitas unos segundos para volver a adaptarte a la luz y ver los músicos al fondo tocando un animado Charleston, mientras una pareja joven baila en el centro del pequeño sótano. A tu izquierda, una barra de bar que destaca por su opulencia, te invita a tomarte una copa.\n\n Buscas un espacio entre la multitud y antes de que te des cuenta, el camarero te sirve un Bourbon con dos hielos. Con una sonrisa te señala un caballero sentado en la esquina: \n\n<i>- De parte del Señor Ford. -</i>\n\n Levantas el vaso como muestra de agradecimiento y te diriges hacia él. Avanzas entre la gente. Antes parecían actuar como si no existieras y ahora forman un pasillo hasta tu destino, aunque ni te miran a la cara.\n\n Saludas al Señor Ford con una sonrisa y te dispones a dar el primer sorbo de tu whisky."
+UIBottonInicial.uitext,Empezar
+UITextFINAL1.uitext,"Al entrar en el bosque la imagen de la mujer se desvanece ante tus ojos, del mismo modo que los arboles, el suelo y el cielo. Por unos momentos todo es oscuridad. Poco a poco eres consciente de todas las partes de tu cuerpo. Mueves los dedos de manos y pies asegurándote que todo sigue en su sitio.\n\nTu cuerpo siente la necesidad de levantarse. Reconoces la suave sensación de la alfombra bajo tus pies y la cálida luz del sol en tu rostro. Abres los ojos lentamente. Estás en tu habitación, llevas el pijama puesto y todo está tranquilo. Ha sido solo una larga y horrible pesadilla. \n\n Abres el periódico durante el desayuno y de entre sus páginas caen plumas de colores. En la página que has abierto llama tu atención una extraña noticia. Han hallado a varias personas que estaban desaparecidas y nadie es capaz de despertarlas. En sus manos han encontrado un puñado de plumas de colores que agarran con fuerza. Reconoces el rostro de Felicia Gordon en las fotos.\n\nHabéis completado la investigación con éxito."
+UIButtonEND.uitext,Despertar
+UITXTFIN.uitext,- Buenas Noches Soñador. -
+UITxtFINAL3.uitext,"La imagen del sr. Ford se desvanece ante tus ojos, del mismo modo que el bosque, la casa, el suelo y el cielo. Por unos momentos todo es oscuridad. Poco a poco eres consciente de todas las partes de tu cuerpo. Mueves los dedos de manos y pies asegurándote que todo sigue en su sitio.\n\nTu cuerpo siente la necesidad de levantarse. Reconoces la suave sensación de la alfombra bajo tus pies y la cálida luz del sol en tu rostro. Abres los ojos lentamente. Estás en tu habitación, llevas el pijama puesto y todo está tranquilo. Ha sido solo una larga y horrible pesadilla. \n\nAbres el periódico durante el desayuno y de entre sus páginas caen plumas de colores. En la página que has abierto llama tu atención una extraña noticia. Han hallado a varias personas que estaban desaparecidas y nadie es capaz de despertarlas. En sus manos han encontrado un puñado de plumas de colores que agarran con fuerza. Reconoces el rostro de Felicia Gordon y de tus compañeros de investigación en las fotos. \n\nSolo los que hayan despertado han completado la investigación con éxito."
+UITxtFINAL2.uitext,Sigues a la mujer y entras en el bosque. De repente los arboles empiezan a desvanecerse del mismo modo que el suelo y el cielo. Por unos momentos todo es oscuridad. Poco a poco eres consciente de todas las partes de tu cuerpo. Mueves los dedos de manos y pies asegurándote que todo sigue en su sitio.\n\nOs despertáis en una pequeña habitación poco iluminada. Sólo la luz de la mesita de noche y el escritorio os dejan ver que las paredes están llenas de cuadros de rostros desconocidos que parecen seguiros con la mirada.\n\n Elimina todos los módulos del tablero. Coloca el módulo Dormitorio 1 {MAD20} y una ficha de pared en el lugar señalado. Cada investigador gana una Pista {clue}.\n\nNo habéis completado la investigación con éxito.
+UIButtonFIN2.uitext,Despertar
+UITextoGameOver.uitext,"Las paredes se desvanecen ante tus ojos, del mismo modo que el suelo y el techo. Por unos momentos todo es oscuridad. Abres los ojos y la figura de un hombre con traje y el rostro en la oscuridad aparece ante ti.\n\n<i>-Buenas noches, Pajaritos. ¿os apetece un whisky? Aunque parece que aún no os lo habéis ganado- </i>\n\nAvanza un paso para dejar su rostro a la vista. El señor Ford os sonríe y en su mano aparece un vaso lleno con dos hielos y le da un sorbo. \n\n<i>-¡Me encanta tener invitados! ¡Y si son cómo vosotros, nunca me aburro!-</i>. \n\nAvanza desafiante hacia vosotros mientras os examina \n\n<i>- A ver si la próxima vez lo hacéis un poco mejor.-</i>\n\nNo habéis completado la investigación."
+EventRESBusqueda2Sotano.text,Apartas algunos trastos que se deshacen entre tus dedos hasta encontrar una vieja herramienta manchada de sangre. \n\nObtén el objeto común <b>Almádena</b>. Descarta esta ficha de Búsqueda.
+EventRESBusqueda2Sotano.button1,Continuar
+TokenLibroBiblioteca.text,"Un libro decorosamente abierto por la página 3, descansa en una de las butacas."
+TokenLibroBiblioteca.button1,{action} Coger libro
+EventResBusquedaLibroBiblio.text,"En la portada pone: <i>Las metamorfosis: Libro III, de  Ovidio</i>. Te dispones a leer la página abierta, pero te das cuenta que el libro tiene una letra demasiado pequeña. En el  reposabrazos llama tu atención un objeto, que alguien ha debido usar para leerlo. \n\nObtén el objeto común <b>Lupa</b> y 1 Pista {clue}. Descarta esta ficha de Búsqueda."
+EventResBusquedaLibroBiblio.button1,Continuar
+EventAmariosCocina.text,"Al mirar dentro del armario, encuentras un nido de pájaro lleno de plumas de colores y restos de los cristales rotos. Con cuidado de no cortarte sacas del nido un huevo de color negro. En seguida te das cuenta que no se trata de un huevo, sino de una piedra pulida. \n\n Obtén el objeto común <b>Talismán Protector</b>. Descarta esta ficha de Búsqueda."
+EventAmariosCocina.button1,Continuar
+EventBuscarCajasCampanario.text,Retiras la gruesa capa de polvo para poder abrir cada una de la cajas. Pierdes la noción del tiempo al inspeccionar uno por uno los libros que encuentras en su interior ({lore}).
+EventBuscarCajasCampanario.button1,Continuar
+EventBuscarCajasCampanario.button2,Oculto
+EventBIBLIA.text,"Después de lo que parece horas revisando cajas, abres una llena de plumas de colores. Entre las plumas encuentras una cajita con forma de sarcófago. \n\nObtén el objeto único <b>Caja Enigmática</b> y 1 Pista {clue}. \nSi has conseguido al menos 3 éxitos, obtén el objeto común <b>Biblia del Rey Jaime</b>. Descarta esta ficha de Búsqueda."
+EventBIBLIA.button1,Continuar
+EventSOLRebuscarMuebleComedor.text,"Después de un rato apartando botellas vacías, descubres un doble fondo con la única botella llena del armario. Al sacarla te das cuenta que tiene algo enrollado en el cuello. \n\n Obtén el objeto común <b>Agua Bendita</b>  y el objeto único <b>Emblema de Sectario</b>. Ganas 1 Pista {clue}. Descarta esta ficha de Búsqueda."
+EventSOLRebuscarMuebleComedor.button1,Continuar
+EventResMarcadorFake3.text,Coges el archivador con mucho cuidado. Parece que en cualquier momento va a desvanecerse entre tus dedos. Lo abres y un montón de plumas de colores caen al suelo y entre ellas un papiro enrollado y lacado. \n\nObtén el objeto único <b>Viejo diario</b> y adquieres el estado <b>Desconcertado</b>. Descarta esta ficha de Búsqueda.
+EventResMarcadorFake3.button1,Continuar
+EventBuscarNevera.text,"Toda la comida se ha estropeado y unos enormes gusanos se abren paso entre los restos. Abres el pequeño congelador y sacas una botella del fondo que te resulta familiar. \n\nObtén el objeto común <b>Whisky</b>, adquieres el estado <b>Desconcertado</b>. Descarta esta ficha de Búsqueda."
+EventBuscarNevera.button1,Continuar
+EventBuscarMesaDespacho.text,"Entre los pétalos de flores de colores que llenan el cajón, brilla un la esfera de un viejo reloj y un manojo de llaves oxidadas. \n\nObtén el objeto común <b>Reloj de bolsillo</b> y el objeto único <b>Llaves antiguas</b>, adquieres el estado <b>Desconcertado</b>. Descarta esta ficha de Búsqueda."
+EventBuscarMesaDespacho.button1,Continuar
+EventLibroBiblio1.text,"Sacas el libro y en la portada puedes leer: <i> Las metamorfosis: Libro XI, de Ovidio </i>. Al retirar el libro descubres un panel metálico con 4 botones retro iluminados. Están todos apagados. \n\nGanas 1 Pista {clue}. Descarta esta ficha de Búsqueda y coloca la ficha de Interacción en el lugar señalado."
+EventLibroBiblio1.button1,Continuar
+EventBuscarSotano1RES.text,Te pones de rodillas para escarbar cómodamente en el barro hasta que consigues desenterrar una enorme caja metálica. La abres con facilidad y dentro hay varios objetos que pueden ser de utilidad. \n\nObtén el objeto común <b>Vendas</b> y el objeto común <b>Pitillera de la Suerte</b>. Descarta esta ficha de Búsqueda.
+EventBuscarSotano1RES.button1,Continuar
+EventMythosFlavor03.text,"<b>{rnd:hero}</b>, no puede apartar la mirada de los ojos verdes del cuadro que tiene enfrente. Su sonrisa le llama y no puede evitar acercarse. \n<b>{rnd:hero}</b> puede decidir seguir mirando el cuadro y obtener el estado <b>Retenido</b> o bien, luchar contra su atracción y arrancar el retrato del marco; Si lo hace obtiene el objeto común <b>Manuscrito Arcano</b> y sufre 2 de Horror boca abajo."
+EventMythosFlavor03.button1,Continuar
+quest.name,En la pajarería a las 22.30h
+quest.description,"La familia Gordon se ha puesto en contacto contigo para que encuentras a su hija, Felicia. Lleva unos días desaparecida y aunque la policía cree que ha huido con su novio, sus padres no están tan seguros. La última pista es una cita en su agenda personal: <i>En la pajarería a las 22.30h</i>."
+quest.authors,Miss Fernwood & EtiCarasoft
+EventMeterManoDebajoCama.text,"Te agachas y tientas a ciegas debajo de la cama hasta que encuentras algo rígido y frío. Cuando te dispones a sacarlo a la luz, notas que te empieza a arrastrar con fuerza hacia la oscuridad. Sin soltarlo y ayudándote de todo el peso de tu cuerpo, forcejeas unos instantes hasta que consigues salir de debajo de la cama. \n\nSufres 2 de Daño boca abajo anulado por ({agility}). Ganas el Objeto común <b>Palanca</b>. Luego descarta esta ficha de Búsqueda."
+EventMeterManoDebajoCama.button1,Continuar
+EventResolucionTirarAlfHAB1.text,"Aún con el sudor en la frente por el esfuerzo, vislumbras un brillo metálico dentro del agujero que escondía la tablilla. Metes la mano para tantear el interior y tus dedos se cierran en torno a una pequeña llave metálica. \n\nGanas el objeto único <b>Llave de Plata</b> y una Pista {clue}. Luego descarta esta ficha de Búsqueda."
+EventResolucionTirarAlfHAB1.button1,Continuar
+EventResolucionPuzzle1.text,"Abres el cajón y registras lo que hay dentro. Encuentras una nota en la que se puede leer: <i>1,2,3,4... 3 maneras de morir 1 de salir.</i> Debajo de la nota, una pequeña llave.\n\nSufres 1 de Horror y consigues el objeto único <b>Prueba circunstancial</b>, el objeto único <b>Llave de latón</b> y una Pista {clue}. Descarta esta ficha de Búsqueda."
+EventResolucionPuzzle1.button1,Continuar
+EventRESObjetosEsquina.text,Examinas las plumas y algo brillante llama tu atención. Las apartas y con cuidado de no cortarte coges un cuchillo ornamentado enterrado en ellas. \n\n Obtén el objeto común <b>Daga ritual</b>. Descarta esta ficha de Búsqueda.
+EventRESObjetosEsquina.button1,Continuar
+TokenPuertaHAB11.text,La puerta está cerrada con llave. Un cerrojo plateado resalta debajo del pomo.
+TokenPuertaHAB11.button1,{action} Examinar
+TokenPuertaHAB12.text,La puerta está cerrada con llave. Un cerrojo plateado resalta debajo del pomo.
+TokenPuertaHAB12.button1,Continuar
+TokenDebajoCama.text,Antes te ha parecido ver un destello debajo de la cama.
+TokenDebajoCama.button1,{action} Buscar
+TokenDebajoAlfombra.text,"El color vivo de la alfombra, no cuadra con el estado polvoriento de la habitación."
+TokenDebajoAlfombra.button1,{action} Buscar
+TokenPuertaHAB13.text,"El investigador que posea el objeto único <b>llave de plata</b> puede abrir esta puerta. \n\nLa llave encaja a la perfección. Con el sonido del cerrojo al abrirse, te invade la esperanza de encontrar un poco de aire fresco al otro lado."
+TokenPuertaHAB13.button1,{action} Abrir
+TokenVistazo1.text,El pasillo sigue al doblar la esquina. \n\nUn investigador que este en el espacio del <b>Pasillo 2</b> {MAD20} puede dar un <b>Vistazo.</b>
+TokenVistazo1.button1,Vistazo
+TokenSalidaFINAL3.text,La mujer ha huido rápidamente hacia el bosque.
+TokenSalidaFINAL3.button1,{action} Huir
+EventResEntregarObj4.text,"Le muestras la caja enigmática. La gata suspira y te pide que la abras. Dentro solo hay cenizas. \n<i>-Demasiada pequeña para que quepa dentro. Esto no es lo que estoy buscando. Tengo poca paciencia.-</i> \nVuelve a sentarse. \n\n Sufres 1 de Horror anulado por ({will}-1). Ganas 1 Pista {clue}, después coloca la ficha de gato el lugar señalado."
+EventResEntregarObj4.button1,Continuar
+EventBlessBast.text,"<i>- De acuerdo, pero que se den prisa.-</i> \nLa mujer apoya el dedo índice y corazón en tu frente y estos empiezan a brillar y a ponerse calientes hasta que te quema la frente, aunque no consigues apartarte. \n<i>- Bien, creo que así nos iremos antes.-</i> \nAparta los dedos y te sonríe afablemente. \n \nEl investigador activo sufre 1 de Daño y 1  de Horror y puede descartar una carta de Locura de cualquier otro jugador. Coloca la ficha de personaje en el lugar señalado."
+EventBlessBast.button1,Continuar
+Event2nFailObjBast.text,"El animal se levanta sobre sus patas traseras. Sigue mirándote fijamente pero ahora su mirada es fría, oscura y distante <i>\n-Puede que lo hagáis mejor la próxima vez. -</i> \nA cada palabra que pronuncia su tamaño aumenta. El pelo deja lugar a la piel y las garras a manos y pies. Ante ti, la esbelta figura de una mujer joven de ojos felinos con unas orejas de gato que sobresalen de su oscura melena. Se vuelve y ves como se aleja mientras desaparece en la oscuridad. \n\n Descarta la ficha de gato y coloca la ficha de interacción en el lugar señalado."
+Event2nFailObjBast.button1,Continuar
+EventPrefinal1.text,"<i>- Bien, ya es hora de abrir los ojos.-</i> \nLa mujer empieza a andar hacia el bosque. <i>\n-Seguidme.-</i> \n\n Descarta la ficha de personaje y coloca la ficha de interacción en el lugar señalado."
+EventPrefinal1.button1,Continuar
+EventPrefinal3A.text,"<i>- Sabes que si me mientes estarás encerrando a los demás pajaritos para toda la eternidad… -</i> \nAntes de terminar la frase, oyes una carcajada detrás de ti. La mujer desaparece en el bosque de un brinco. Un hombre, con un rostro que te es familiar, bien vestido y con un baso de whiskey con dos hielos en la mano, aparece detrás de ti. \n\nRetira la ficha de gato y coloca la de personaje en el lugar señalado."
+EventPrefinal3A.button1,Continuar
+EventPrefinal3B.text,"<i>- Oh… Ya te marchas? La salida es por allí. Sigue al gatito.-</i> Da un largo trago a su copa y con una sonrisa burlona, dice como pensando en voz alta mientras entra en la casa: \n<i>-Bien, parece que tenemos nuevos pajaritos en la tienda...- </i> \n\nRetira del tablero a todos los investigadores que no estén en el espacio exterior del vivero. Han sido eliminados. \n\n Descarta la ficha de personaje y coloca la ficha de interacción en el lugar señalado."
+EventPrefinal3B.button1,Continuar
+EventFinalRound3.text,"<b> {rnd:hero} </b> ve como la figura translucida de un niño se le aparece delante, ladea la cabeza y con una vocecita estridente dice: <i>\n- 3.- </i>\n\n<b> {rnd:hero} </b> sufre 1 de Horror anulado por ({will}-2)."
+EventFinalRound3.button1,Continuar
+EventFinalRound4.text,"<b> {rnd:hero} </b> ve como la figura translucida de un niño se le aparece delante, ladea la cabeza y con una vocecita estridente dice: <i>\n- 4.- </i>\n\n<b> {rnd:hero} </b> sufre 1 de Horror anulado por ({will}-2)."
+EventFinalRound4.button1,Continuar
+EventFinalRound2.text,"<b> {rnd:hero} </b> ve como la figura translucida de un niño se le aparece delante, ladea la cabeza y con una vocecita estridente dice: <i>\n- 2.- </i>\n\n<b> {rnd:hero} </b> sufre 1 de Horror anulado por ({will}-2)."
+EventFinalRound2.button1,Continuar
+EventFinalRounEnd.text,"<b> {rnd:hero} </b> ve como la figura translucida de un niño se le aparece delante, ladea la cabeza y con una vocecita estridente dice: <i>\n- 1.- </i>\n\n<b> {rnd:hero} </b> sufre 1 de Horror anulado por ({will}-2)."
+EventFinalRounEnd.button1,Continuar
+EventMostrarRESET.text,Os despertáis en una pequeña habitación poco iluminada. La luz de la mesita de noche ilumina un bonito jarrón de porcelana lleno de amapolas rojas. Sólo la luz de un viejo escritorio os dejan ver que las paredes están llenas de cuadros de rostros desconocidos que parecen seguiros con la mirada. \n\n Coloca el módulo Dormitorio 1 {MAD20} y una ficha de pared en el lugar señalado. Cada investigador empieza con 1 Pista {clue}.
+EventMostrarRESET.button1,Continuar
+EventFailTablaSuelta.text,"La tablilla de madera cruje, pero no consigues arrancarla."
+EventFailTablaSuelta.button1,Continuar
+EventFailPuertaCampanario.text,"Te abalanzas contra la puerta, pero parece que tus esfuerzos no son suficiente para abrirla."
+EventFailPuertaCampanario.button1,Continuar
+EventFailBuscarCajas.text,"Pasas las horas buscando entre los libros, pero no hallas nada de interés."
+EventFailBuscarBar.text,No consigues encontrar nada de interés.
+EventFailBuscarBar.button1,Continuar
+EventFailFake4.text,"Tiras de la cadena, pero no consigues desenterrarla."
+EventFailFake4.button1,Continuar
+EventMALTentaculo.text,"Al abrir la pesada puerta, la visión de una gran ciudad en llamas bajo el mar inmoviliza tu mente y tus cuerpo. Un tentáculo verde se enrolla alrededor de tu cuerpo, tira de ti con rapidez y te arrastra hacia la ciudad en llamas. Por un instante, puedes ver como la niña del vestido blanco cierra, sonriendo, la puerta.\n\nEl investigador ha sido eliminado. El resto de los investigadores disponen de un solo turno adicional para completar la investigación."
+EventMALTentaculo.button1,Adiós
+EventMALTentaculo2.text,"La puerta está entreabierta. Cuando te dispones a volver a abrirla, la niña del vestido blanco la cierra suavemente con una mano y mirándote a los ojos dice:\n<i>-Ya es suficiente, hoy ya ha cenado.- </i>"
+EventMALTentaculo2.button1,Continuar
+EventSalidaJardin.text,"Atraviesas en umbral de la puerta y el aire fresco llena tus pulmones. Sientes una leve brisa en la cara que trae consigo el sonido de un riachuelo lejano. A tus pies, un sendero empedrado que conduce al bosque de enfrente. Sigues con la mirada el camino y la esbelta figura de un gato blanco sentado delante de ti, te mira fijamente."
+EventSalidaJardin.button1,Continuar
+EventAzazoth1.text,"Abres la puerta y la agradable melodía de una flauta y unos tambores acompaña un intenso fogonazo de luz que te ciega momentáneamente. Intentas abrir los ojos de nuevo para darte cuenta que la mancha negra que ves en el centro no es un efecto del destello, sino un abismo negro que no para de crecer y proviene del centro de la estrella que estás contemplando. El calor es insoportable y la luz te quema. Empiezan a brotar ampollas en la piel que te queda al descubierto.\n\n Este investigador descarta todas sus cartas de Daño y Horror boca abajo y coge una carta de Herido y de Locura. Queda <b>HERIDO</b> y <b>LOCO</b>.  Ganas 2 Pistas {clue}. \n\nSi el investigador ya estaba herido y/o loco, este es retirado de la partida. El resto de los investigadores disponen de un solo turno adicional para completar la investigación."
+EventAzazoth1.button1,Continuar
+EventAzazoth2.text,"La melodía deja de sonar de repente. Un latigazo de luz te golpea en el pecho y caes de espaldas contra el suelo. Acto seguido, el pequeño tentáculo de luz cierra la puerta de golpe y el silencio vuelve a reinar en el Sótano.\n\n Sufres 2 de Daño anulados por ({strength}-1) y 1 de Horror. Ganas 1 Pista {clue}. Descarta esta ficha de Exploración."
+EventAzazoth2.button1,Continuar
+EventMostrarSotanoAmarillo.text,Unas escaleras de madera bajan a un sótano con el suelo lleno barro. Huele a estiércol y humedad. \n\nColoca el módulo de <b>Sótano</b> {MAD20} y la ficha de puerta y pared en los lugares señalados. Tienes la oportunidad de moverte un espacio a la zona explorada.
+EventMostrarSotanoAmarillo.button1,Continuar
+EventEntrarSotanoAmarillo.text,"Una puerta de madera abierta de par en par. \n\n Si el módulo de sótano está activo este turno, puedes atravesar la puerta sin gastar una acción ({action})."
+EventEntrarSotanoAmarillo.button1,Continuar
+EventDentroSotano3.text,"El olor a estiércol te provoca nauseas y la humedad impregna la estancia. No hay ninguna ventana que permita airear el espacio, solo las puertas permiten la ventilación del mismo. El suelo de barro parece recién removido en algunas partes. \n\nColoca las fichas de Exploración y Búsqueda en los lugares señalados."
+EventDentroSotano3.button1,Continuar
+EventMostrarInvernadero.text,El viejo vivero esta rodeado de tiestos con flores secas y ennegrecidas. Unos grandes ventanales que permiten ver un jardín exterior. Una puerta blanca conduce al jardín.\n\n Coloca el módulo de <b>Vivero</b> {MAD20}.
+EventMostrarInvernadero.button1,Continuar
+EventMythosFlavor01.text,De repente la luz de la mesita de noche empieza a tintinear como si fuera a apagarse en cualquier momento. No hay ningún efecto inmediato.
+EventMythosFlavor01.button1,Continuar
+EventMythosFlavor02.text,"El ambiente de la habitación empieza a asfixiarte. Cada investigador debe resolver una tirada de observación ({observation}:2). \nSi superas la tirada, te das cuenta que las ondulantes paredes de la habitación no dejan de encoger el espacio. Una fuerte sensación de claustrofobia invade tu mente; Sufres 1 de Horror y adquieres el estado <b>Desconcertado</b>. \nSi fallas la tirada, el tintineo de la luz de lámpara de la mesita de noche, sigue llamando tu atención. Adquieres el estado <b>Concentrado</b>."
+EventMythosFlavor02.button1,Continuar
+EventMythosFlavor04.text,El suelo empieza a humedecerse. Una arcada sube desde tu estomago al darte cuenta de que lo que tiñe tus zapatos es sangre podrida. Oyes un leve chapoteo y las pisadas de unos pies descalzos empiezan a recorrer las paredes de la habitación. \n\nCada investigador sufre 2 de Horror boca abajo anulado por ({will}-1).
+EventMythosFlavor04.button1,Continuar
+EventMythosSoft01.text,"Este evento de los mitos afecta a todos los investigadores en un espacio de pasillo. \n Notas unos dedos largos y fríos que rodean tu cuello, pero no consigues ver nada. Aprietan tanto que te falta el aire y la cabeza te da vueltas. Un sudor frío te cae por la nuca y temes desmayarte en cualquier momento. ({strength}:2); \nSi fallas, te desmayas; sufres 2 Daño boca abajo y adquieres el estado <b>Aturdido</b>. \nSi tienes éxito, consigues liberarte aunque no puedes parar de toser. Intentas sacar algo de tu garganta que te esta molestando, hasta que escupes una pluma de pájaro; Sufres 1 Daño boca abajo y ganas 1 Pista {clue}."
+EventMythosSoft01.button1,Continuar
+EventMythosHABOUT.text,"Este evento de los mitos afecta a todos los investigadores en un espacio de pasillo. \n\n A cada paso que das el pasillo se alarga más y más, las puertas se desvanecen mientras avanzas y solo puedes distinguir lo que parece una pequeña puerta al fondo ({will}:2). \n\nSeleccionad fallo si algún jugador ha tenido un fracaso. Los efectos de <b>Fallo</b> Solo se aplicarán a los investigadores que no hayan superado la tirada."
+EventMythosHABOUT.button1,Fallo
+EventMythosHABOUT.button2,Éxito
+EventMythosHABOUT02.text,"Echas a correr presa del pánico en dirección a la única salida que ves, hasta que un fuerte impacto en la cara te detiene en seco. Te incorporas de nuevo y ves un final de pasillo, pero no hay ninguna puerta... \n\nColoca a tu investigador en el final de pasillo, sufres 1 de Horror, ganas 1 Pista {clue} y adquieres el estado <b>Aturdido</b>."
+EventMythosHABOUT02.button1,Continuar
+EventMythosSoft02.text,"<b>{rnd:hero}</b> se da la vuelta al oír el piar de un pajarillo, pero al girarse no encuentra nada. \n\n¿Que hace <b>{rnd:hero}</b>?"
+EventMythosSoft02.button1,Investigar
+EventMythosSoft02.button2,Ignorar
+EventMythosSoft02Consolar.text,"Examinas meticulosamente el espacio hasta que encuentras una pluma de color verde. Al cogerla, un escalofrío recorre tu cuerpo cuando ves que se trata de pequeño tentáculo verde que se retuerce como la cola de un lagarto recién cortada. La sueltas instintivamente y vuelve a convertirse en una pluma verde que cae lentamente hasta el suelo.\n\nGanas 1 Pista {clue} y sufres 1 de Horror anulado por ({will}-2)."
+EventMythosSoft02Consolar.button1,Continuar
+EventMythosSoft02Ignorar.text,"No ves nada a simple vista, así que decides seguir tu camino. Aunque a cada paso que das, el suave piar sigue llamándote y poco a poco se va clavando cada vez más en tus oídos, como si se tratara de pequeñas agujas de metal. ({will}:2)."
+EventMythosSoft02Ignorar.button1,Éxito
+EventMythosSoft02Ignorar.button2,Fallo
+EventMythosSoft02IgnorarBIEN.text,"Respiras profundamente. Hace demasiadas horas que no comes ni duermes, tu cerebro te esta haciendo una mala pasada. Sigues andando y a medida que te alejas, el piar desaparece y un profundo alivio se apodera de ti.\n\nPuedes descartar una de tus cartas de Horror boca abajo o poner una carta de Horror boca abajo."
+EventMythosSoft02IgnorarBIEN.button1,Continuar
+EventMythosSoft03.text,"Este evento de los mitos afecta al investigador con más objetos. \n\n Un sonido estridente se acerca, de repente estás envuelto en una masa negra de plumas y picos que graznan a tu alrededor. Empiezan a picarte e intentan colarse debajo de tus ropas. Sufres 2 de Daño boca abajo anulado por  ({agility}-2); Sueltas tantos objetos como puntos de Daño que hayas sufrido +1. Luego sufres 1 de Horror boca abajo."
+EventMythosSoft03.button1,Continuar
+EventMythosSoft04.text,"Hay mucho polvo blanco en suspensión. Levantas la mirada. De repente oyes un fuerte crujido y ves como el techo de la casa sale despedido hacia arriba. \nMientras se eleva, explota en mil pedazos, dejando a la vista un una gran masa de agua marrón y una sombra que se mueve al otro lado. \nHuele a tabaco y a alcohol ({lore}:2); \nSi superas la tirada reconoces el rostro al otro lado del agua. Es el del Sr. Ford que mira dentro y sonríe. Ganas 2 Pistas {clue} y sufres 2 de Horror boca abajo. Luego todos los investigadores ponen boca arriba 3 de Horror."
+EventMythosSoft04.button1,Continuar
+EventMythosSoft05.text,El estallido de las bombillas te pilla por sorpresa. \n\nEste evento de los mitos afecta a todos los investigadores que no estén en un espacio de pasillo. Coloca fichas de oscuridad en tu espacio y aquellos a tu alcance. Sufres 2 de Horror boca abajo anulado por Saber ({lore}-1).
+EventMythosSoft05.button1,Continuar
+EventMythosSoft06.text,El suelo cruje y empieza a romperse en mil pedazos bajos los pies de <b> {rnd:hero} </b>. A cada paso que da hay otro trozo que se rompe ({agility}:2).
+EventMythosSoft06.button1,Éxito
+EventMythosSoft06.button2,Fallo
+EventMythosSoft06T.text,Empieza a correr y saltar de tabla en tabla hasta que alcanza de nuevo el suelo firme de la casa. Sufre 2 de Horror boca abajo; luego pones 1 de Horror boca arriba y ganas una Pista {clue}.
+EventMythosSoft06T.button1,Continuar
+EventMythosSoft06F.text,"Cae y sigue cayendo en lo que parece una eternidad. \n\nRetira al investigador del tablero de juego. \nUn investigador fuera del tablero de juego no puede sufrir Daño, ni Horror y no puede realizar pruebas de mitos."
+EventMythosSoft06F.button1,Continuar
+EventVistazo2.text,Unas escaleras descienden al piso inferior. Están flanqueadas de paredes repletas de retratos de niños de aspecto pálido y con los ojos cerrados. \n\nRetira esta ficha de <b>Vistazo</b> y coloca el módulo de <b>Escalera de pasillo</b> {MAD20}.
+EventVistazo2.button1,Continuar
+EventRegresoMythos6.text,"Abres los ojos y reconoces el pasillo de la casa. La ansiedad hace que te cueste respirar. ¿Habrá sido todo un sueño? \n\nColoca a tu investigador que estaba fuera del tablero, por el evento de los mitos anterior, en el lugar señalado. Luego coge el mazo de Horror y roba la primera carta de Horror que se mantenga boca arriba. Añádela al Horror de tu personaje."
+EventRegresoMythos6.button1,Continuar
+EventMythosCocina.text,"Este evento de los mitos afecta a todos los investigadores en la cocina y/o comedor. \n\nLa mesa del comedor, esta puesta para ocho comensales, la vajilla es de buena calidad y la reluciente cubertería de plata está dispuesta meticulosamente. Mientras estás absorto analizando los intrincados relieves del decantador de vino, oyes un silbido y un lacerante dolor hace que instintivamente pongas la mano en cuello. Al apartarla ves como un hilo de sangre la ha teñido de rojo. Levantas la vista y ves un cuchillo calvado en la pared de enfrente. Te vuelves rápidamente, pero no ves a nadie. Sufres 3 de Daño boca abajo anulado por ({agility}-1). Si sufres al menos 1 de Daño adquieres el estado <b>Aturdido</b>. Luego sufres 1 de Horror boca abajo anulado por ({will}-2). "
+EventMythosCocina.button1,Continuar
+EventMythosSoft07.text,"<b> {rnd:hero} </b> se apoya un momento en la pared, para retomar aire. Suspira profundamente y  trata de relajarse, cuando unas manos salen de la pared y le agarran por detrás tirando hacia adentro. \n\nSufre 2 de Horror boca abajo. Luego realiza una prueba de ({strength}:2); Si falla suelta 2 objetos aleatorios y queda <b>Aturdido</b>."
+EventMythosSoft07.button1,Continuar
+EventMythosBiblioteca.text,"Este evento de los mitos afecta a todos los investigadores en la biblioteca. \n\nUna niña rubia de grandes ojos marrones, un elegante vestido y un osito de peluche sin ojos en la mano, se aparece ante ti y empieza a cantar: <i>- 1,2,3,4,… Escoge un número y lee un rato… 4,3,2,1 no te equivoques o serás humo.</i>\n\nColoca el token de niña verde en el lugar señalado."
+EventMythosBiblioteca.button1,1
+EventMythosBiblioteca.button2,2
+EventMythosBiblioteca.button3,3
+EventMythosBiblioteca.button4,4
+EventMythosBiblioteca12.text,"<i>- Ese cuento no me gustó! Tuve un montón de pesadillas! -</i> Dice sollozando con la cara hinchada y roja como un tomate. Ves como no para de hinchársele la vena de la frente, hasta que de repente le explota la cabeza, llenando la habitación de vísceras y sangre. \n\nPon boca arriba todas tus cartas de Horror y Daño. Descarta el personaje de niña verde."
+EventMythosBiblioteca12.button1,Continuar
+EventMythosBiblioteca3.text,"<i>- Ese es también mi cuento preferido! -</i> Dice dulcemente, mientras se eleva del suelo. Se acerca levitando y te acaricia la cara con suavidad. El miedo te paraliza y notas como el resplandor que emana de sus manos alivia tu dolor. \n\n Puedes descartar 2 de Daño que tengas boca abajo o poner 2 de Daño boca abajo. Luego Sufres 1 de Horror anulado por ({observation}-2). Descarta el personaje de niña verde."
+EventMythosBiblioteca3.button1,Continuar
+EventMythosBiblioteca4.text,<i> -¡Jolin! Ese cuento era muy aburrido. Solo palabras raras que no entendí y no conseguí dormirme…-</i> \n Frunze el ceño mientras se desvanece.\n\n Sufres 1 de Horror anulado por ({lore}-2) y quedas <b>Desconcertado</b>. Descarta el personaje de niña verde.
+EventMythosBiblioteca4.button1,Continuar
+EventMythosSoft08.text,"La puerta lateral de la cocina salta por los aires y deja ver el exterior de la casa; donde un aplique de pared ilumina un camino empedrado. \n\nRetira la ficha de exploración y coloca el módulo <b>Parcela</b> {MAD20}. \nCada investigador debe resolver una prueba de ({observation}:1); \nSi superas te das cuenta unos ojos rojos que brillan en la oscuridad. Sufres 1 de Horror boca abajo y quedas <b>Desconcertado</b>. \nSi fallas el crujir de la casa te pilla por sorpresa, te caes y te golpeas la cabeza con la pared. Sufres 3 de Daño boca abajo y quedas <b>Aturdido</b>."
+EventMythosSoft08.button1,Continuar
+EventPostMythos8.text,"Un perro negro, parecido a un chacal, surge de la oscuridad y se planta delante de la parcela exterior, lleva algo en la boca. \n\nColoca la ficha de perro en el lugar señalado."
+EventPostMythos8.button1,Continuar
+EventYogDogBites.text,"El perro gruñe y te enseña los colmillos, intentas que se calme acercándole la mano, pero te muerde y luego echa a correr hacia la oscuridad. \n\nSufres 1 Daño boca abajo y adquieres el estado <b>Concentrado</b>."
+EventYogDogBites.button1,Continuar
+EventYodDogOler.text,El perro te olisquea la mano y luego echa a correr hacia la oscuridad asustado como un cachorro.\n\n Sufres 1 de Horror y quedas <b>Desconcertado</b>.
+EventYodDogOler.button1,Continuar
+EventMythosSoft09.text,"<b> {rnd:hero} </b> ya no puede evitar hacer lo que le dicen las voces en su cabeza. Le susurran verdades que nadie debería conocer y lleva demasiado rato evitándolas. \n<b> {rnd:hero} </b> se quita toda su ropa mientras grita en un idioma que nadie mas puede entender. Le prende fuego y echa a correr. \n\n <b> {rnd:hero} </b> Suelta todos sus objetos, coloca una ficha de fuego en el espacio y mueve a <b> {rnd:hero} </b> 2 espacios en una misma dirección. <b> {rnd:hero} </b> Sufre 2 de Horror boca abajo y 2 de Daño boca abajo. Luego gana 2 Pistas {clue}."
+EventMythosSoft09.button1,Continuar
+EventMythosLavabo.text,"Este evento de los mitos afecta a los investigadores dentro del lavabo. \n\n Una niebla espesa y húmeda llena el espacio. La puerta no se abre y no puedes ver más allá de tu nariz ({observation}:2). \nSi superas la tirada, te tiras al suelo justo por debajo de la niebla buscando el aire fresco.\nSi fallas, no consigues encontrar una salida. La temperatura ha bajado rápidamente y te das cuenta que ya no sientes los brazos y piernas. Pierdes el conocimiento. Quedas <b>Retenido</b> y sufres 1 de Daño."
+EventMythosLavabo.button1,Continuar
+EventMythosCampanario.text,Este evento de los mitos afecta a todos los investigadores que no estén en el campanario. \n\n La casa empieza a crujir y un fuerte ruido de campana te ensordece ({agility}:2); Si fallas quedas <b>Aturdido</b> y sufres 1 de Daño.
+EventMythosCampanario.button1,Continuar
+EventMythosSotano01.text,"Este evento de los mitos afecta a todos los investigadores en el Sótano. \n\nEl suelo del sótano empieza a burbujear y una pátina brillante lo impregna todo. Como si fuesen arenas movedizas, el suelo empieza a tragarse todo lo que se apoya en él. Te hundes en el barro y crees que vas a desaparecer, pero consigues agarrarte a la barandilla de las escaleras. Te despiertas sentado en las escaleras del sótano con la cara manchada de barro y estiércol y con un hilo de baba aún cayendo del lateral de tu boca. \n\nColoca al investigador en las escaleras y sufres 1 de Horror y 2 de Daño."
+EventMythosSotano01.button1,Continuar
+EventMythosHard01.text,"Este evento de los mitos afecta a todos los investigadores. \n\nEmpiezas a estornudar, se te ha metido algo en la nariz y los ojos te lloran. Parece alergia, pero no recuerdas tener alergia a nada. Una sombra cruza por las paredes, luego por el techo, luego por el suelo. Intentas seguirlo con la mirada, pero es demasiado rápida ({observation}-1); \nSi superas la tirada, te das cuenta que se trata de la sombra de un gato y aunque no tiene relieve, puedes ver sus luminosos ojos azules clavados en ti. Sufres 2 de Horror y ganas 1 Pista {clue}. \nSi fallas no consigues esquivar la sombra y te ataca. Sufres 2 de Daño."
+EventMythosHard01.button1,Continuar
+EventMythosHard02PACT.text,"Un niño pequeño con una camisa blanca y unos pantalones bombachos sujetados por unos tirantes aparece delante de <b> {rnd:hero} </b>. Se quita la boina y le pregunta con una sonrisa afable: \n <i>- Disculpe, parece cansado... -</i>\n El niño saca del bolsillo del pantalón un frasco de cristal con un líquido amarillo. Se lo ofrece: \n <i> - Con esto se sentirá mucho mejor. Se lo doy si luego juega un rato con nosotros. -</i>"
+EventMythosHard02PACT.button1,Aceptar
+EventMythosHard02PACT.button2,Ignorar
+EventMythosHard02BPACT.text,"Coges el pequeño frasco y bebes todo el contenido. Notas como el líquido te quema mientras cae por el esófago, pero pocos segundos después empiezas a sentirte mucho mejor. Giras la cabeza y te ves reflejado en un espejo. Te das cuenta que tus ojos han cambiado de color, ahora tus pupilas son de color púrpura.\n\n Puedes descartar todas las cartas de Horror y de Daño que tengas boca abajo, luego coge el indicador violeta de monstruo y colócalo sobre tu hoja de personaje."
+EventMythosHard02BPACT.button1,Continuar
+EventMythosHard02CPACT.text,"Se hace el silencio. Su cuerpo empieza a flotar. Mientras se eleva del suelo, extiende el brazo derecho señalándote con el dedo índice: \n<i> -¿Por qué no quieres jugar con nosotros, pajarito? - </i>–\nTe mira fijamente con unos ojos que se han vuelto completamente negros ({will}:3)."
+EventMythosHard02CPACT.button1,Éxito
+EventMythosHard02CPACT.button2,Fallo
+EventMythosHard02NoPact.text,"Sacas fuerza de lo más profundo de tu ser. Agarras el mango de una pala que esta apoyada en la pared y golpeas al niño en la cabeza. La pala atraviesa tu objetivo y pierdes el equilibrio, mientras ves como el niño se desvanece en una niebla desdibujada por el trazo de tu embestida. \n\nSufres 1 de Horror anulado por ({will}-2) y 1 de Daño boca abajo anulado por ({agility}-2)."
+EventMythosHard02NoPact.button1,Continuar
+EventMythosHard03A.text,"Este evento de los mitos afecta a todos los investigadores. \n\nUna siniestra melodía te provoca un punzante dolor de cabeza, las orejas te sangran y te agarras la cabeza con fuerza, crees te va a estallar en cualquier momento. Unas manos se apoyan suavemente en las tuyas, levantas la mirada y una niña te dice: \n <i>-Los espíritus se niegan a escuchar.-</i> \n\nSufres 3 de Daño anulado por ({strength}-1) y 3 de Horror anulado por ({will}-1)."
+EventMythosHard03A.button1,Continuar
+EventMythosHard03B.text,"<b> {rnd:hero}</b> ve algo que brilla en el suelo. Se agacha para examinarlo y recoge un colgante con una pequeña herradura. Parece que la suerte le acompaña esta noche, pues no ha visto como durante unos segundos, el papel de la pared ha desaparecido dejando a la vista como los muros de la casa están hechos de huesos y vísceras aún latentes y sangrantes. \n\nTodos los investigadores excepto <b> {rnd:hero}</b> sufren 3 de Horror boca abajo anulado por ({influence}-1)."
+EventMythosHard03B.button1,Continuar
+EventMythosHard03C.text,"Solo el crujir de la madera a cada paso que das, te acompaña esta noche. No hay ningún efecto inmediato."
+EventMythosHard03C.button1,Continuar
+EventMythosHard04.text,"Este evento de los mitos afecta a todos los investigadores que no tengan una ficha violeta sobre su personaje. \n\nTus pertenencias te susurran, advirtiéndote de una grave amenaza. Sufres 1 de Horror boca abajo por cada objeto que tengas."
+EventMythosHard04.button1,Continuar
+EventMythosHard05A.text,"Este evento de los mitos afecta al investigador que tenga una ficha violeta sobre su personaje. \n\nEl niño con la camisa blanca y los pantalones bombachos aparece de nuevo ante ti, flotando a un palmo del suelo: \n<i>- Hola soñador. Hemos venido a jugar. Voy a llamar al resto.- </i>\nEl niño hace un chasquido con los dedos y unos gritos agónicos recorren toda la casa. Aparecen ante ti las figuras de un grupo de niños y niñas con los ojos en blanco, que susurran tu nombre. Aunque ahora son niños, reconoces a algunos de ellos como tus compañeros. \n\nTodos los investigadores excepto tú, han sido eliminados."
+EventMythosHard05A.button1,Continuar
+EventMythosHard05B.text,"<b> {rnd:hero} </b>, se paraliza al ver como una masa negra revolotea a sus pies. Rápidamente aumenta su tamaño y unos apéndices, que se convierten en brazos, se apoyan en el suelo para ponerse de pie. Una figura humana, alta y vestida con un traje elegante, estira el brazo y ofrece un whisky a <b> {rnd:hero} </b>: \n<i>- ¿Un última copa? –</i>. \nEl señor Ford despliega unas majestuosas alas negras a su espalda y le abraza suavemente con ellas mientras <b> {rnd:hero} </b> da un largo trago. \n\n<b> {rnd:hero} </b> queda eliminado y los investigadores disponen de un solo turno para completar la investigación."
+EventMythosHard05B.button1,Continuar
+EventMythosHypnos.text,Este evento de los mitos afecta a todos los investigadores en el vivero. \nColoca la ficha de personaje azul en el lugar señalado.\n\nEl joven eremita de ojos vidriosos que has visto antes te ofrece una flor de amapola ({influence}:2).\nSelecciona éxito o fracaso en función de la mayoría de los resultados entre los investigadores. En caso de empate selecciona fracaso.
+EventMythosHypnos.button1,Éxito
+EventMythosHypnos.button2,Fallo
+EventDentroInvernaderoGOOD.text,"A través de los enormes ventanales que rodean el vivero, una gigantesca luna azul brilla en lo alto del cielo. Enfrente un apuesto joven con unas tijeras en la mano, está podando las amapolas que se extienden y decoran las paredes. No puedes apartar la mirada de la tranquila visión. \n\nColoca la ficha de Exploración y de personaje en los lugares señalados. Tienes la oportunidad de moverte un espacio a la zona explorada."
+EventDentroInvernaderoGOOD.button1,Continuar
+EventHypnosGOOD.text,"Aceptas la amapola ye te la colocas sobre la oreja. El joven sonríe y desaparece, la calma se apodera de ti y te sientes aliviado.\n\n Uno de los investigadores en el vivero puede descartar una carta de Horror boca abajo o poner una carta de Horror boca abajo. Luego gana 1 Pista {clue} y descarta la ficha de personaje azul."
+EventHypnosGOOD.button1,Continuar
+EventHypnosBAD.text,No aceptas la amapola y de un manotazo la tiras al suelo. El joven enfurecido te apuñala con las tijeras de podar y luego desaparece en un pestañeo.\n\n Uno de los investigadores en el vivero sufre 4 de Daño anulado por ({strength}-2). Descarta la ficha de personaje azul.
+EventHypnosBAD.button1,Continuar
+EventMythosDespacho.text,"Este evento de los mitos afecta a todos los investigadores en el despacho. \n\nParece el despacho de un coleccionista. Puedes ver varios tomos antiguos en la estantería del fondo, uno de ellos con el lomo muy ornamentado con relieves dorados. Lo sacas con sumo cuidado y lo empiezas a leer. Contiene una loca teoría sobre un mal sin mente que reside en el centro del universo. \n\n Cada investigador en el despacho puede ganar 1 o 2 Pistas {clue}, sufre 1 de Horror boca abajo por cada Pista ganada."
+EventMythosDespacho.button1,Continuar
+EventDentroInvernaderoBAD.text,"A través de los enormes ventanales que rodean el vivero, una gigantesca luna azul brilla en lo alto del cielo. Enfrente un apuesto joven con unas tijeras en la mano, está podando las amapolas que se extienden y decoran las paredes. No puedes apartar la mirada de la tranquila visión. \n\nColoca la ficha de Exploración y de personaje en los lugares señalados. Tienes la oportunidad de moverte un espacio a la zona explorada."
+EventDentroInvernaderoBAD.button1,Continuar
+EventRondaFinal.text,Ésta es la última fase de investigadores.
+EventRondaFinal.button1,Continuar
+EventTextLore00.button1,Continuar
+EventIntroMission01.text,Os despertáis en una pequeña habitación poco iluminada. La luz de la mesita de noche ilumina un bonito jarrón de porcelana lleno de amapolas rojas. Sólo la luz de un viejo escritorio os dejan ver que las paredes están llenas de cuadros de rostros desconocidos que parecen seguiros con la mirada. \n\n Coloca el módulo Dormitorio 1 {MAD20} y una ficha de pared en el lugar señalado. Cada investigador empieza con 1 Pista {clue}.
+EventIntroMission01.button1,Continuar
+EventDesarrolloPasillo1.text,Hay dos puertas que dan al pasillo. Coloca las fichas de exploración en los lugares los lugares señalados.
+EventDesarrolloPasillo1.button1,Continuar
+EventDesarrolloPasillo1B.text,Coloca una ficha de <b>Vistazo</b> en el lugar señalado.
+EventDesarrolloPasillo1B.button1,Continuar
+EventVistazo1B.text,"Un gran escritorio de madera descansa en la pared, junto a una puerta blanca de madera.\n\n Coloca las fichas de Búsqueda y Exploración en los lugares señalados."
+EventVistazo1B.button1,Continuar
+EventVistazo1C.text,El pasillo sigue al fondo. Coloca la ficha de <b>Vistazo</b> en el lugar señalado.
+EventVistazo1C.button1,Continuar
+EventVistazo2B.text,"En la parte baja de la escalera, hay una elegante puerta de madera. Coloca una ficha de Exploración en el lugar señalado."
+EventVistazo2B.button1,Continuar
+EventEventoLuckyJugar.text,Pasas un buen rato jugando con la niña. Te reconforta oír el feliz sonido de su risa y sientes que ahora todo puede ir mejor. No puedes evitar sonreír también.
+EventEventoLuckyJugar.button1,Continuar
+EventHeridoCaidaSotano2.text,"Coloca al investigador que estaba cayendo por la trampilla del Campanario en el espacio del Sótano. Este investigador descarta todas sus cartas de Daño boca abajo y coge una carta de Herido. Queda <b>HERIDO</b>. A causa del golpe contra el suelo adquiere el estado <b>Aturdido</b>. \n\nSi el investigador ya estaba herido, este es retirado de la partida. El resto de los investigadores disponen de un solo turno adicional para completar la investigación. "
+EventHeridoCaidaSotano2.button1,Continuar
+EventSustoBiblioteca.text,El crujir de la madera te hace clavar la mirada al fondo de la biblioteca. Las paredes se desplazan hacia los lados y una puerta surge de la nada.\n\nCada Investigador en un espacio de Biblioteca o Comedor sufre 3 de Horror anulado por ({will}-1).
+EventSustoBiblioteca.button1,Continuar
+EventDentroSotano2.text,"El olor a estiércol te provoca nauseas y la humedad impregna la estancia. No hay ninguna ventana que permita airear el espacio, solo las puertas permiten la ventilación del mismo. El suelo de barro parece recién removido en algunas partes. \n\nColoca las fichas de Exploración y Búsqueda en los lugares señalados."
+EventDentroSotano2.button1,Continuar
+EventBusquedaFake1.text,"Al inspeccionarlos más de cerca, te das cuenta que están en blanco y negro, tienen la tez extremadamente pálida y los ojos cosidos. \n\n Sufres 1 de Horror boca abajo y adquieres el estado <b>Desconcertado</b>."
+EventBusquedaFake1.button1,Continuar
+EventResMarcadorFake2.text,"Rebuscas entre los papeles y no encuentras nada de interés, están todos en unos caracteres que parecen orientales. Ganas 1 Pista {clue} y adquieres el estado <b>Desconcertado</b>."
+EventResMarcadorFake2.button1,Continuar
+EventRes1MarcadorFake4.text,Excavas hasta que encuentras un trozo de cadena que se hunde aún más en la tierra. Crees que tirando con fuerza podrás desenterrarla ({strength}).
+EventRes1MarcadorFake4.button1,Desenterrar
+EventRes1MarcadorFake4.button2,Oculto
+EventRes2MarcadorFake4.text,"La cadena cede. Hay algo unido a ella. Sigues tirando hasta que empiezas a desenterrar una hilera de pequeñas calaveras humanas, aún con restos de piel, unidas a la cadena por el pelo. Parece no tener fin. \n\nSufres 2 de Horror y adquieres el estado <b>Desconcertado</b>."
+EventRes2MarcadorFake4.button1,Continuar
+EventResMarcadorFake5.text,"Con cuidado deja las tijeras a un lado y se gira lentamente. Sus enormes y desproporcionados ojos de cristal se clavan en los tuyos. Por un instante dudas, si esos enormes ojos de cristal realmente no ven nada. Parece que quiere decirte algo, pero al abrir la boca te das cuenta que no tiene lengua y un graznido de cuervo sale de su interior. Sonríe plácidamente y se desvanece ante tu ojos. \n\n Sufres 2 de Horror anulado por ({will}-1) y adquieres el estado <b>Desconcertado</b>."
+EventResMarcadorFake5.button1,Continuar
+EventGatoHabla1.text,"<i>-Buenas noches, soñador. Que bien sienta el aire fresco, ¿verdad?-</i> Dice el gato blanco con una voz femenina y clara. \n\n Sufres 1 de Horror anulado por ({lore}-1)."
+EventGatoHabla1.button1,Continuar
+EventResEntregarObj1.text,"La gata se levanta sobre sus patas traseras y con sus manos que ahora parecen humanas, abre el pergamino. \nTe dice muy seria: \n<i>-Pensaba que estaría enrollado entro. Esto no es lo que estoy buscando, no me hagas perder el tiempo.-</i> \nY vuelve a sentarse. \n\n Sufres 1 de Horror anulado por ({will}-1). Ganas 1 {clue} después coloca la ficha de gato el lugar señalado."
+EventResEntregarObj1.button1,Continuar
+EventResEntregarObj2.text,"<i>-Parece que ningún pajarito nacerá de este huevo. Esto no es lo que necesito, pero me lo voy a quedar de todos modos. Demasiado poder en unas manos tan pequeñas.-</i> Con una gracia felina te arrebata el objeto y vuelve a sentarse.. \n\n Descarta el Objeto Común <b>Talismán Protector</b>. \n Sufres 1 de Horror anulado por ({will}-1). Ganas 1 Pista {clue}, después coloca la ficha de gato el lugar señalado."
+EventResEntregarObj2.button1,Continuar
+EventResEntregarDaga.text,"Le enseñas la daga ornamentada. La gata agacha la cabeza y su tamaño empieza a aumentar. El pelo deja lugar a la piel y las garras a manos y pies. Ante ti, la esbelta figura de una mujer joven que sonríe y te mira con sus ojos felinos. Dos orejas de gato sobresalen entre su melena oscura: \n<i>-Se va poner furioso, pero al fin la he recuperado. Buen trabajo soñador.-</i> \n Sufres 2 de Horror anulado por ({will}). Ganas 1 Pista {clue}. Descarta la ficha de gato y coloca la ficha de personaje en el lugar señalado."
+EventResEntregarDaga.button1,Continuar
+EventHeridoCaidaSotano.text,"Coloca al investigador que estaba cayendo por la trampilla del Campanario en el espacio del Sótano. Este investigador descarta todas sus cartas de Daño boca abajo y coge una carta de Herido. Queda <b>HERIDO</b>. A causa del golpe contra el suelo adquiere el estado <b>Aturdido</b>. \n\nSi el investigador ya estaba herido, este es retirado de la partida. El resto de los investigadores disponen de un solo turno adicional para completar la investigación."
+EventHeridoCaidaSotano.button1,Continuar
+EventEntrarPasadizoSecreto.text,"Tragas saliva y te adentras en las profundidades de la pared. Avanzas con cautela en una absoluta oscuridad. \n\nRetira al investigador del tablero.\nUn investigador fuera del tablero de juego no puede sufrir Daño, Horror ni ser afectado por eventos durante la fase de mitos."
+EventEntrarPasadizoSecreto.button1,Continuar
+EventSotanoCaida2.text,"Te preguntas cuanto tiempo llevas cayendo y si esta madriguera tiene fondo. Al pensarlo, la velocidad de caída aumenta rápidamente hasta que aterrizas en un duro y frío fondo."
+EventSotanoCaida2.button1,Continuar
+EventMostrarSotanoPasadizo.text,Doblas una esquina y aparece una tenue luz amarilla al final del túnel. Te diriges hacia ella para llegar a lo que parece el Sótano. \n\nColoca la ficha de pasadizo secreto en el lugar señalado.
+EventMostrarSotanoPasadizo.button1,Continuar
+EventDentroSotano1.text,"El olor a estiércol te provoca nauseas y la humedad impregna la estancia. No hay ninguna ventana que permita airear el espacio, solo las puertas permiten la ventilación del mismo. El suelo de barro parece recién removido en algunas partes. \n\nColoca las fichas de Exploración y Búsqueda en los lugares señalados."
+EventDentroSotano1.button1,Continuar
+EventLlegarSotanoPasadizo.text,Doblas una esquina y aparece una tenue luz amarilla al final del túnel. Te diriges hacia ella para llegar a lo que parece un sótano. 
+EventLlegarSotanoPasadizo.button1,Continuar
+EventEstas1Pieza.text,"Coloca al investigador perdido en el pasadizo secreto detrás del armario, en el espacio de el Sótano."
+EventEstas1Pieza.button1,Continuar
+EventEstas1Pieza2.text,"Coloca al investigador perdido en el pasadizo secreto detrás del armario, en el espacio de el Sótano."
+EventEstas1Pieza2.button1,Continuar
+EventMostrarBiblioteca.text,Las bisagras de la puerta chirrían cuando la abres para dar paso a la biblioteca. Una bocanada de aire frío te hace tiritar. Todas las paredes están cubiertas con estanterías llenas de libros. \n\nRetira la ficha de exploración y coloca el módulo <b>Biblioteca</b> {MAD20}.
+EventMostrarBiblioteca.button1,Continuar
+EventDentroBiblioteca.text,Un par de butacas rojas y una alfombra persa enorme le dan un toque acogedor a una biblioteca abarrotada de libros. Llama tu atención que alguien se ha dejado uno abierto en una de las butacas. La estantería parece tener una buena colección de libros antiguos. \n\nColoca las fichas de Búsqueda en los lugares señalados. Tienes la oportunidad de moverte un espacio a la zona explorada.
+EventDentroBiblioteca.button1,Continuar
+EventLuzVerdeSalidaON.text,Una luz verde se enciende en el pulsador. Oyes un breve sonido mecánico a lo lejos.
+EventLuzVerdeSalidaON.button1, Continuar
+EventLuzAmarilloSalidaON.text,Una luz amarilla se enciende en el  pulsador. Oyes un breve sonido mecánico a no muy lejos de donde te encuentras ahora.
+EventLuzAmarilloSalidaON.button1,Continuar
+EventLuzAzulSalidaON.text,Una luz azul se enciende en el  pulsador. El silencio envuelve la habitación.
+EventLuzAzulSalidaON.button1, Continuar
+EventLuzApagadoSalidaON.text,"Las luces del panel se apagan. Oyes un sonido mecánico que se recorre las habitaciones, como si algo se acercara a ti, hasta que cesa de golpe cuando más fuerte lo oyes."
+EventLuzApagadoSalidaON.button1,Continuar
+EventLuzVerdeSalidaOFF.text,Una luz verde se enciende en el pulsador. Oyes un breve sonido mecánico a lo lejos.
+EventLuzVerdeSalidaOFF.button1,Continuar
+EventMostrarSotanoCaida.text,"Te preguntas cuanto tiempo llevas cayendo y si esta madriguera tiene fondo. Al pensarlo, la velocidad de caída aumenta rápidamente hasta que aterrizas en un duro y frío suelo.\n\nColoca el módulo de <b>Sótano</b> {MAD20}, la ficha de puerta y la ficha de pasadizo secreto en los lugares señalados."
+EventMostrarSotanoCaida.button1,Continuar
+EventBusquedaCampana.text,La campana no parece tener una mota de polvo encima. Hay una palanca justo debajo. \n\nDescarta esta ficha de Búsqueda y coloca una de Interacción en el lugar señalado.
+EventBusquedaCampana.button1,Continuar
+EventAccionarAdelante2.text,"Antes de terminar el primer tañido de la campana, el suelo desaparece bajo tus pies y caes por un oscuro túnel."
+EventAccionarAdelante2.button1,Continuar
+EventAccionarAtras2.text,Oyes el ruido de algo que se arrastra el en pasillo. Ganas 1 Pista {clue} y sufres 1 de Horror boca abajo anulado por ({will}-1).\nColoca el token de pasadizo secreto en el espacio de pasillo. Puedes interaccionar con él.
+EventAccionarAtras2.button1,Continuar
+EventAccionarAtras.text,"Mueves la palanca hacia atrás (-). Un mecanismo acciona la campana y aunque esta empieza a balancearse, no suena."
+EventAccionarAtras.button1,Continuar
+EventCaidaTrampillaCampanario.text,"Aunque sigues cayendo, parece que lo haces a cámara lenta, como flotando pero siempre hacia abajo. \n\nRetira al investigador del tablero. \nUn investigador fuera del tablero de juego no puede sufrir Daño, Horror ni ser afectado por eventos durante la fase de mitos."
+EventCaidaTrampillaCampanario.button1,Continuar
+EventAbrirPuertaCampanario.text,"La puerta se parte en dos, te desequilibras y caes encima de los restos astillados de la puerta. \n\nSufres 4 de Daño boca abajo anulado por ({agility}-1). \n\nRetira la ficha de exploración y coloca el módulo <b>Campanario</b> {MAD20}. Coloca a tu investigador un espacio dentro del campanario."
+EventAbrirPuertaCampanario.button1,Continuar
+EventAccionarAdelante.text,Mueves la palanca hacia delante (+). Un mecanismo acciona la campana y esta empieza a balancearse. La campana suena.
+EventAccionarAdelante.button1,Continuar
+EventDentroCampanario.text,"Echas un vistazo mientras te levantas un poco aturdido, por el impacto. Una campana de bronce se alza en lo alto del campanario, parece que ha estado usándose como almacén. \n\nColoca las fichas de Búsqueda en los lugares señalados."
+EventDentroCampanario.button1,Continuar
+EventForzarPuertaCampanario.text,La puerta no se abre. La humedad ha hecho que la madera se hinche y quede trabada. Empujas con todas tus fuerzas para desatascar la puerta.\n\nTira 2 dados adicionales ({strength}) si tienes el objeto común <b>palanca</b>.
+EventForzarPuertaCampanario.button1,Continuar
+EventForzarPuertaCampanario.button2,Oculto
+EventMALMAL.text,"El niño te abraza con fuerza y te susurra al oído: <i>\nYo soy tu y tu eres yo, ahora lo verás</i>.\n\nTe ves a ti mismo tumbado, pareces dormido y debería haber alguien llorando a tu lado, pero estas solo, en medio de la nada, todo es oscuridad y te falta el aire. Te diriges hacia un punto de luz que no quieres alcanzar y ves la cara de ese hombre, con los ojos rasgados, te agarra la cabeza con sus enormes y frías manos para arrastrarte hacia la luz. Te señala la cortina roja y una bandada de pájaros de colores la atraviesa dirigiéndose directo hacia ti. \nCierras los ojos y oyes la voz de un niño pequeño: \n-<i>Bienvenido a casa, Pajarito.-</i>. \n\nGanas el hechizo <b>Alimentar la mente</b>. \nEl investigador descarta todas sus cartas de Horror boca abajo y coge una carta de Locura, pasa a estar <b>LOCO</b>.\nSi el investigador ya estaba loco, este es retirado de la partida y los investigadores disponen de un turno adicional para completar la investigación."
+EventMALMAL.button1,Continuar
+EventMAL.text,"<i>-¡¡Yo quería ese pajarito!!-</i> \nGrita el niño mientras te mira con la cara roja de llorar. Lo envuelves entre tus brazos y sus llantos cesan. Levanta la cabeza, sonríe y dice mirándote a los ojos: \n <i>-Ya se que haremos,… tu vas a ser mi pajarito.-</i>"
+EventMAL.button1,Continuar
+EventBorrarBaho.text,Borras el escrito con el antebrazo y sientes que tu acción te alivia. \n\nDescarta 1 de Horror boca abajo o pon 1 de Horror boca abajo. Descarta esta ficha de Búsqueda.
+EventBorrarBaho.button1,Continuar
+EventDescifrarBaho2.text,Las luces del lavabo se apagan de repente y el aire se congela. \n\n Coloca una ficha de oscuridad en este espacio. Todos los investigadores en el espacio de lavabo sufren 2 de Horror anulado por ({will}-1).
+EventDescifrarBaho2.button1,Continuar
+EventDescifrarBaho3.text,"Las luces vuelven a encenderse. Oyes el sollozo de un niño pequeño que ha aparecido de repente, hecho un ovillo en el centro del baño. \n\nDescarta la ficha de oscuridad y coloca la ficha de personaje en el lugar señalado."
+EventDescifrarBaho3.button1,Continuar
+EventDentroDespacho.text,El escritorio del centro de la sala tiene dos cajones a un lado. Al fondo una puerta de color rojizo que parece fabricada con algún tipo de madera tropical. \n\nColoca las fichas de Exploración y Búsqueda en los lugares señalados. Tienes la oportunidad de moverte un espacio a la zona explorada.
+EventDentroDespacho.button1,Continuar
+EventSolucionPuzzleBIBLIO.text,"Al encajar los símbolos, estos desaparecen y oyes el chasquido de la puerta al abrirse."
+EventSolucionPuzzleBIBLIO.button1,Continuar
+EventMostrarPasilloLavabo.text,Un pequeño y poco iluminado distribuidor decorado con una butaca en una esquina. \n\nRetira la ficha de exploración y coloca el módulo <b>Esquina de pasillo 3</b> {MAD20}.
+EventMostrarPasilloLavabo.button1,Continuar
+EventDentroPasilloLavabo.text,"A un lado, una puerta conduce a un baño. Enfrente puedes ver una puerta de madera combada por la humedad. Llama tu atención que la butaca de la esquina está cubierta de plumas de colores. \n\nColoca las fichas de Exploración y Búsqueda en los lugares señalados. Tienes la oportunidad de moverte un espacio a la zona explorada."
+EventDentroPasilloLavabo.button1,Continuar
+EventDentroLavabo.text,"Un inodoro, una bañera sin cortina y un lavamanos forman este modesto, pero practico baño. En el espejo del lavamanos parece que hay algo escrito. \n\nColoca la ficha de Búsqueda en el lugar señalado. Tienes la oportunidad de moverte un espacio a la zona explorada."
+EventDentroLavabo.button1,Continuar
+EventDescifrarBaho.text,"Miras con atención las letras unos segundos. Cuanto más las miras, más pareces entenderlas. Sin darte cuenta empiezas a recitar la letanía que vas leyendo en un idioma que ni tan solo conoces."
+EventDescifrarBaho.button1,Confirmar
+EventPuertaOculta12.text,Descarta la ficha de pared con cuadro y coloca una ficha de exploración en el lugar señalado.
+EventPuertaOculta12.button1,Continuar
+EventAbrirPuertaFAKE2.text,"La puerta se abre hacia dentro. Por unos instantes, te ciega la luz que viene del otro lado. Al recuperarte te das cuenta que unos barrotes te impiden traspasar el umbral y lo que identificas claramente como el rostro de un niño de tamaño descomunal, pasa por el otro lado mientras te señala y grita:\n\n<i>-¡Mamá, mamá! ¡Quiero este!¡Quiero este pajarito!</i>\n \nCierras la puerta de golpe y la bloqueas con una silla. Sufres 3 de Horror boca abajo anulado por ({lore}-1) y ganas 2 Pistas {clue}. Luego descarta esta ficha de exploración."
+EventAbrirPuertaFAKE2.button1,Continuar
+EventMostrarDespacho1.text,La luz del escritorio ilumina el penumbroso pero acogedor despacho. Descarta esta ficha de exploración y coloca el módulo de <b>Despacho</b> {MAD20}.
+EventMostrarDespacho1.button1,Continuar
+EventRebuscarMuebleBar.text,Parece que todas las botellas están vacías ({observation}).
+EventRebuscarMuebleBar.button1,Continuar
+EventRebuscarMuebleBar.button2,Oculto
+EventDentroCocina.text,"Al fondo del comedor hay una puerta y a su lado, un elegante mueble bar. A través del paso a la cocina, ves que alguien se ha dejado la nevera abierta y se ha formado un charco en el suelo. Los armarios de la cocina tienen los cristales rotos. Al fondo, una puerta de madera cerrada con lo que parece un candado.\n\nColoca las fichas de Exploración y Búsqueda en los lugares señalados. Tienes la oportunidad de moverte un espacio a la zona explorada."
+EventDentroCocina.button1,Continuar
+EventMostrarPuertaOculta1.text,"Este evento solo afecta a los investigadores en el final del pasillo. \n\nOyes una risita. Cuando te das cuenta que proviene del retrato al fondo del pasillo, la imagen de la niña te sonríe y el cuadro empieza a desvanecerse. Donde estaba el retrato, aparece una puerta tan real que incluso puedes oler la madera.\n\nSufres 3 de Horror boca abajo anulados por ({will}-1)."
+EventMostrarPuertaOculta1.button1,Continuar
+EventAbrirPuertaFAKE1.text,"Abres la puerta y apenas te da tiempo a reaccionar cuando un montón de ladrillos te caen encima. Al recuperarte de los golpes te das cuenta que la puerta está tapiada con ladrillos macizos. \n\n Sufres 2 de Daño, ganas 1 Pista {clue} y adquieres el estado <b>Desconcertado.</b> Descarta esta ficha de Exploración."
+EventAbrirPuertaFAKE1.button1,Llorar
+EventInspeccionarPuertaSOTANO11.text,"Examinas la puerta y un olor a tierra húmeda y estiércol, te llenan la nariz. Una tenue luz amarilla se filtra por las rendijas, pero no se abre. Ganas 2 Pistas {clue}."
+EventInspeccionarPuertaSOTANO11.button1,Continuar
+EventAparicionFantasmaVerde.button1,Continuar
+EventAparicionFantasmaVerde.text,"Consigues darte la vuelta a pesar del temblor de tus piernas, para ver en lo alto de las escaleras la silueta de una niña con una elegante vestido blanco, unos lacitos en el pelo y un osito de peluche sin ojos en la mano. Ves claramente a través de ella. Sufres 1 de Horror. \n\nColoca la ficha de Personaje en el lugar indicado."
+EventInvestigarPuertaESC11.text,"Mientras estas examinando la puerta, tu cuerpo se paraliza al oír detrás de ti unas risas infantiles y juguetonas que pronuncian tu nombre. Los rostros de los cuadros a tu alrededor han desaparecido.\n\nSufres 2 de Horror anulado por ({will})."
+EventInvestigarPuertaESC11.button1,Continuar
+TokenPuertaVerdeOFF.text,"Un haz de luz verdosa muy tenue se cuela por debajo de la puerta, pero te das cuenta que no tiene pomo ni cerrojo para abrirla."
+TokenPuertaVerdeOFF.button1,Continuar
+TokenPuertaVerdeLuzON.text,"Un haz de luz verdosa muy tenue se cuela por debajo de la puerta, sin pomo ni cerrojo. La puerta está entreabierta."
+TokenPuertaVerdeLuzON.button1,{action} Abrir
+EventFantasmaVerdeHABLA1.text,<i>-Cada vez que os veo aquí dentro me doy cuenta de que ya no recuerdo el rostro de mi mamá… Nuestro peor enemigo es el aburrimiento ¿A qué queréis jugar hoy?-</i>.
+EventFantasmaVerdeHABLA1.button1,{action} ¿Dónde estamos?
+EventFantasmaVerdeHABLA1.button2,{action} Jugar
+EventFantasmaVerdeHABLA1.button3,Dejar para luego
+EventFantasmaVerdeHABLA2.text,"<i>-Siempre me ha gustado escucharos hablar de lo ultimo que recordáis antes de llegar aquí. Tranquilos, es normal. Recuerdo que a mi papá también le gustaba mucho beber whisky con dos hielos. A veces se lo servía yo misma, pero ahora ya no puedo porque no estoy en casa.-</i>\n\n Ganas 1 {clue} y sufres 2 de Horror boja abajo anulados por ({will}-1)."
+EventFantasmaVerdeHABLA2.button1,Dejar para luego
+EventFantasmaVerdeHABLA2.button2,{action} ¿Quien eres?
+EventINTRO3.text,Al fondo de la habitación hay una puerta blanca de madera. Parece que es la única manera de salir del dormitorio. Coloca la ficha de exploración en el lugar señalado.
+EventINTRO3.button1,Continuar
+EventFantasmaVerdeHABLA3.text,<i>-Yo no soy yo ni tu eres tu. Aún no puedes verlo pero lo harás.-</i>\n La niña ríe mientras desaparece ante tus ojos.
+EventFantasmaVerdeHABLA3.button1,Continuar
+EventMostrarCocina.text,Abres la puerta y ves una larga mesa que preside el comedor y una cocina anexa. \n\nRetira la ficha de exploración y coloca el módulo Comedor/Cocina {MAD20}.
+EventMostrarCocina.button1,Continuar
+EventSalirHAB1.text,"Un largo y estrecho pasillo poco iluminado se abre ante ti. \n\nDescarta esta ficha de Exploración y coloca los módulos de <b>Pasillo 2</b> {MAD20} y <b>Final de pasillo </b> {MAD20}, así como las fichas de pared en los lugares señalados. \nTienes la oportunidad de moverte un espacio a la zona explorada."
+EventSalirHAB1.button1,Continuar
+EventVistazo1.text,El pasillo gira y sigue en la penumbra.\n\nColoca el módulo de <b>Esquina de pasillo 2</b> {MAD20} y la ficha de pared en los lugares señalados.
+EventVistazo1.button1,Continuar
+EventINTRO2.text,Colocad las miniaturas de los investigadores en el lugar señalado.
+EventINTRO2.button1,Continuar
+EventBusquedaHAB11.text,"Miras por el agujero del cerrojo pero no consigues ver nada. Golpeas la puerta con fuerza, pero sigue sin moverse. Ni tan solo cimbrea. De repente te das cuenta de que el tacto de la madera es inusualmente frio y un escalofrió recorre tu espalda, como si te estuvieran observando. Instintivamente te giras y algo llama tu atención. \n\nSufres 1 de Horror boca abajo anulado por ({will}).\nColoca las fichas de Búsqueda en los lugares señalados."
+EventBusquedaHAB11.button1,Continuar
+EventDebajoAlfombraHAB1.text,Levantas la alfombra y llama tu atención que una de las tablillas del suelo parece recién reparada. Crees que con un poco de fuerza quizás logres arrancarla. \n\nTira 2 dados adicionales ({strength}) si tienes el objeto común <b>palanca</b>.
+EventDebajoAlfombraHAB1.button1,Tirar 
+EventDebajoAlfombraHAB1.button2,Oculto
+TokenParetSecreta2.text,Detrás del armario hay un pasadizo que se adentra en la pared. Tus ojos no alcanzan a ver el final.
+TokenParetSecreta2.button1,{action} Adentrarse
+UIBottonInicial.button1,Botón1
+Detrás del mostrador, un hombre bajito señala con un dedo la cortina del fondo. Con mucho cuidado te tambaleas en silencio entre las viejas jaulas de madera y solo la luz de la luna te deja entrever que algunas de ellas están habitadas por extrañas aves de colores. Apartas la cortina y bajas las escaleras hasta a una puerta roja de madera. Llamas 4 veces
+UIButtonFIN2.button1,Botón1
+TokenSalidaFINAL1.text,La mujer se ha adentrado en el bosque.
+TokenSalidaFINAL1.button1,{action} Seguir
+TokenBastEntrega01.text,"Los brillantes y despiertos ojos del gato blanco, siguen todos tus movimientos sin pestañear. Un bello animal, de un tamaño mas grande de lo habitual, sentado elegantemente sobre sus patas traseras te pregunta: <i>-¿Lo habéis encontrado?-</i>."
+TokenBastEntrega01.button1,{action} Entregar Viejo Diario
+TokenBastEntrega01.button2,{action} Entregarel Talismán Protector
+TokenBastEntrega01.button3,{action} Entregar Daga
+TokenBastEntrega01.button4,{action} Entregar Caja Enigmática
+TokenBastEntrega01.button5,Recapitular
+TokenBastObj1.text,La expresión de la gata se ha enfriado y la impaciencia aflora en sus ojos. <i>-Dadme lo que es mío.-</i> 
+TokenBastObj1.button1,{action} Entregar el Talismán Protector
+TokenBastObj1.button2,{action} Entregar la Daga Ritual
+TokenBastObj1.button3,{action} Entregar la Caja Enigmática
+TokenBastObj2.text,La expresión de la gata se ha enfriado y la impaciencia aflora en sus ojos. <i>-Dadme lo que es mío.-</i>
+TokenBastObj2.button1,{action} Entregar el Viejo Diario
+TokenBastObj2.button2,{action} Entregar la Daga Ritual
+TokenBastObj2.button3,{action} Entregar la Caja Enigámtica
+TokenMarcadorFake5.text,Un joven apuesto concentrado en el cuidado de las amapolas.
+TokenMarcadorFake5.button1,{action} Saludar
+TokenSalidaFINAL2.text,La extraña criatura se ha adentrado en el bosque.
+TokenSalidaFINAL2.button1,{action} Perseguir
+TokenSrFord.text,"Un hombre con una vestimenta elegante y un rostro que te es familiar, con un baso de whiskey con dos hielos en la mano."
+TokenSrFord.button1,{action} ¿Le conozco?
+TokenBastDaga.text,<i>-Os lo prometí. ¿Estamos  todos?.-</i>. Pregunta la mujer.
+TokenBastDaga.button1,{action} Estamos todos
+TokenBastDaga.button2,{action} Solo he sobrevivido yo
+TokenBastDaga.button3,{action} Todavía falta gente
+TokenMujerBast02.text,"Una criatura con cuerpo de mujer, de figura joven y esbelta, pero con cabeza de gato se alza imponente ante ti."
+TokenMujerBast02.button1,{action} Estamos Todos
+TokenMujerBast02.button2,{action} Solo he sobrevivido yo
+EventLuzAzulSalidaOFF.text,Una luz azul se enciende en el  pulsador. El silencio envuelve la habitación.
+UIButtonEND.button1,Botón1
+EventLuzAmarillaSalidaOFF.text,Una luz amarilla se enciende en el  pulsador. Oyes un breve sonido mecánico a no muy lejos de donde te encuentras ahora.
+EventLuzApagadoSalidaOFF.text,"Las luces del panel se apagan. Oyes un sonido mecánico que se recorre las habitaciones, como si algo se acercara a ti, hasta que cesa de golpe cuando más fuerte lo oyes."
+TokenBastCaja.button1,{action} Entregar el Viejo Diario
+TokenBastCaja.button2,{action} Entregar el Talismán Protector
+TokenBastCaja.button3,{action} Entregar la Daga Ritual
+TokenBastCaja.text,La expresión de la gata se ha enfriado y la impaciencia aflora en sus ojos. <i>-Dadme lo que es mío.-</i> 
+EventTextLore01.text,"Tienes un dolor de cabeza horrible. Crees que si abres los ojos aún será peor.\n\n Intentas averiguar porque te sabe la boca a sangre. Lo último que recuerdas es saludar al Señor Ford en la barra de aquel bar clandestino, en el sótano de la pajarería."
+EventFailBuscarCajas.button1,Continuar
+TokenPuertaCampanario.text,Una puerta de madera maltratada por la humedad.
+TokenPuertaCampanario.button1,{action} Forzar
+TokenMuebleBar.text,"Un lujoso mueble bar, lleno de botellas con etiquetas escritas en varios idiomas."
+TokenMuebleBar.button1,{action}Buscar
+TokenPuertaLlavesOLDtrue.text,Una puerta blanca de madera que conduce al jardín. El candado de hierro que cierra la puerta está desgastado por el uso. \n\n Solo el investigador que posea el objeto único <b>llaves antiguas</b> puede abrir esta puerta.
+TokenPuertaLlavesOLDtrue.button1,{action} Abrir
+TokenPanelControlBiblioteca.text,Un pequeño panel de control oculto detrás de los libros. Tiene 4 botones y parece haber sido usado recientemente.
+TokenPanelControlBiblioteca.button1,{action} Boton Verde
+TokenPanelControlBiblioteca.button2,{action} Boton Amarillo
+TokenPanelControlBiblioteca.button3,{action} Boton Azul
+TokenPanelControlBiblioteca.button4,{action} Apagar
+TokenPuertaCocinaPasillo.text,"Una puerta de madera, ennegrecida por el humo de la cocina."
+TokenPuertaAzulLuzON.text,Una puerta blanca manchada de barro. Por debajo de ella se filtra una tenue luz azul.
+TokenPuertaAzulLuzON.button1,{action} Abrir
+TokenPuertaLlavesOLDFalse.text,Una puerta blanca de madera que conduce al jardín. El candado de hierro que cierra la puerta está desgastado por el uso.
+TokenPuertaLlavesOLDFalse.button1,Continuar
+TokenPuertaCocinaPasillo.button1,{action} Abrir
+TokenPuertaAmarilloOFF.text,"Una  puerta de madera con trozos de pintura desconchada. Una tenue luz amarilla se filtra por las rendijas, pero no se abre."
+TokenMarcadorFake2.text,"Un escritorio de madera rojiza, apoyado en la pared del pasillo. Alguien ha dejado unos papeles tirados encima."
+TokenMarcadorFake2.button1,{action} Buscar
+TokenMarcadorFake3.button1,{action} Buscar
+TokenMarcadorFake3.text,Una estantería repleta de tomos. Llama tu atención que el más antiguo tiene fecha del 2000 a.C.
+TokenMarcadorFake4.text,El suelo de barro parece recién removido.
+TokenMarcadorFake4.button1,{action} Excavar
+TokenMarcadorFake1.button1,{action} Examinar
+TokenMarcadorFake1.text,Una colección de retratos de niños y niñas.
+TokenPuertaESC11.text,"Una elegante puerta de madera sin pomo, ni cerradura."
+TokenPuertaESC11.button1,{action} Examinar
+TokenPuertaVerde01.text,Una puerta con la luz verde debajo explicat bé
+TokenPuertaVerde01.button1,{action} Examinar
+TokenPuertaLavabo11.button1,{action} Abrir
+TokenPuertaLavabo11.text,"En la puerta hay colgada una placa metálica, grabada con la imagen de un niño pequeño haciendo pis en un orinal."
+TokenFantasmaVerde1.text,<i>-¿A qué queréis jugar hoy?-</i>
+TokenFantasmaVerde1.button1,Dejar para luego
+TokenFantasmaVerde1.button2,{action} ¿Dónde estamos?
+TokenFantasmaVerde1.button3,{action} Jugar
+TokenMesitaEsquinaPasillo.text,"Inspeccionas los cajones pero no encuentras nada de interés, aunque uno de ellos esta cerrado con un cierre de combinación. Con un poco de maña y paciencia, crees que podrías descifrarlo."
+TokenMesitaEsquinaPasillo.button1,{action} Resolver
+TokenPuertaBIBLIOTECA12.text,Una corriente de aire caliente y un leve olor a mar se cuela por la puerta entreabierta.
+TokenPuertaBIBLIOTECA12.button1,{action} Abrir
+EventTextLore01.button1,Continuar
+La mesa del comedor, esta puesta para ocho comensales
+TokenFantasmaNaranja1.text,"Un niño hecho un ovillo en el centro del lavabo, llora desconsoladamente."
+TokenFantasmaNaranja1.button1,Ignorar
+TokenFantasmaNaranja1.button2,{action} Hola pequeño
+TokenFantasmaNaranja1.button3,{action} Rezar 
+TokenYogDog.text,Un precioso perro negro que parece un chacal.
+TokenYogDog.button1,{action} Dejar que se acerque
+TokenYogDog.button2,{action} Tocarlo
+TokenPuertaCocina10.text,Una puerta blanca de madera. Debajo del pomo puedes ver un pequeño cerrojo de latón.
+TokenPuertaCocina10.button1,Continuar
+TokenPuertaSotanoLuz.text,Una  puerta de madera con trozos de pintura desconchada. Una tenue luz amarilla se filtra por las rendijas.
+TokenPuertaSotanoLuz.button1,{action} Abrir
+TokenPuertaFAKE3.text,"Un cartel en el que se puede leer <b>Almacén</b>, cuelga de una puerta en mal estado por las condiciones de la estancia."
+TokenPuertaFAKE3.button1,{action} Abrir
+PuzzleCajonMesaPasillo.text,Puedes intentar resolver el cifrado del pestillo. Usando ({observation}) como pasos para el rompecabezas.
+PuzzleCajonMesaPasillo.button1,Continuar
+TokenVistazo2.text,Un investigador que se encuentre en este espacio de la <b>Esquina de pasillo</b> {MAD20} puede echar un <b>Vistazo</b>.
+TokenVistazo2.button1,Vistazo
+TokenPuertaSOTANO11.text,Una puerta de madera con trozos de pintura desconchada.
+TokenPuertaSOTANO11.button1,{action} Examinar
+TokenPuertaCOCINA11.text,"Al acercarte a la puerta, un fuerte olor a pastel recién horneado te recuerda que no sabes cuantas horas llevas sin comer. Hay luz debajo de la puerta pero parece que esta cerrada con llave. Debajo del pomo puedes ver un pequeño cerrojo de latón. \n\n Solo el investigador que posea el objeto único <b>llave de latón</b> puede abrir esta puerta. "
+TokenPuertaCOCINA11.button1,{action} Abrir
+TokenFantasmaVerde12.text,"<i>- 1,2,3,4... No crees que deberías saber ya porqué estáis aquí.</i>"
+TokenFantasmaVerde12.button1,Ignorar
+TokenFantasmaVerde12.button2,{action} ¿Quien eres?
+TokenPuertaFAKE1.text,"Una puerta blanca de madera, un poco deteriorada por el paso del tiempo."
+TokenPuertaFAKE1.button1,{action} Abrir
+TokenPuertaAmarilloOFF.button1,Continuar
+TokenPuertaFAKE2.text,Una luz blanca se filtra por debajo de la puerta.
+TokenPuertaFAKE2.button1,{action}Abrir
+TokenNevera.text,La puerta de la nevera está entreabierta y se ha formado un pequeño charco de agua sucia delante.
+TokenNevera.button1,{action} Buscar
+TokenArmarioCocina.text,"Unos armarios encima del fregadero, con los cristales de las puertas rotos."
+TokenArmarioCocina.button1,{action} Buscar
+TokenPuertaDESPACHO11.text,En la placa de la puerta puedes leer: <i>Despacho</i>.
+TokenPuertaDESPACHO11.button1,{action}Abrir
+TokenPuertaBIBLIOTECA11.text,Al acercarte puedes ver que la puerta tiene unos extraños símbolos grabados. \n\nEl investigador que posea el <b>Emblema de sectario</b> puede interactuar con la puerta para resolver el enigma.
+TokenPuertaBIBLIOTECA11.button1,{action} Resolver
+PuzzlePuertaBIBLIO.text,El investigador que posea el <b>Emblema de sectario</b> puede intentar resolver el rompecabezas usando ({influence}) como pasos del rompecabezas.
+PuzzlePuertaBIBLIO.button1,Continuar
+TokenMesaDespacho.text,"La mesa está limpia y ordenada. Un cajón entreabierto, llama tu atención."
+TokenMesaDespacho.button1,{action} Buscar
+TokenBahoLavabo.text,"Alguien ha escrito algo en una lengua antigua, crees que podrías descifrarlo."
+TokenBahoLavabo.button1,{action} Descifrar
+TokenBahoLavabo.button2,{action} Borrar
+TokenCajasCamapanario.text,"En un rincón, unas enormes cajas polvorientas de madera, parece que llevan un siglo esperando a ser descubiertas."
+TokenCajasCamapanario.button1,{action} Buscar
+TokenCampana.text,"Una campana en perfecto estado, decorada con relieves de fantásticas criaturas medio animales, medio humanas."
+TokenCampana.button1,{action} Inspeccionar
+TokenPalancaCampana.text,La palanca esta en posición neutra. Parece que tiene puede moverse hacia adelante (+) o hacia atras (-).
+TokenPalancaCampana.button1,{action} Accionar +
+TokenPalancaCampana.button2,{action} Accionar -
+TokenTrampillaCampanario.text,"Una trampilla se ha abierto en el, tus ojos no alcanzan a ver el fondo y no encuentras ninguna manera de bajar."
+TokenTrampillaCampanario.button1,{action} Tirarse
+TokenButacaPasillo.text,"Una butaca colocada en la esquina del pasillo distribuidor, cubierta de plumas de colores."
+TokenButacaPasillo.button1,{action} Buscar
+TokenEstanteriaBiblio1.text,Una estantería repleta de grandes clásicos de la literatura. Un libro con las tapas azules llama tu atención por tener menos polvo que los de su alrededor.
+TokenEstanteriaBiblio1.button1,{action} Coger Libro
+TokenPuertaAzulOFF.text,Una puerta blanca manchada de barro. Por debajo de ella se filtra una tenue luz azul.
+TokenPuertaAzulOFF.button1,Continuar
+EventLuzAmarillaSalidaOFF.button1,Continuar
+EventLuzAzulSalidaOFF.button1,Continuar
+EventLuzApagadoSalidaOFF.button1,Continuar
+TokenBusquedaSotano1.text,Hay algo brillante sobresale del barro.
+TokenBusquedaSotano1.button1,{action} Buscar
+TokenBusqueda2Sotano.text,"Un montón de trastos viejos ennegrecidos por el estiércol, apilados en frente de la escalera."
+TokenBusqueda2Sotano.button1,{action} Buscar
