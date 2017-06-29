@@ -1,381 +1,405 @@
 .,Portuguese
-TokenSearchLobby1.text,Você observa alguns papéis na mesinha a esquerda 
-TokenSearchLobby1.button1,Continuar {action}
+ACTIONCONTINUE,Continuar {action}
+ACTIONEXPLORE,Explorar {action}
+ACTIONENTER,Passar {action}
+ACTIONTRYTOOPEN,Tentar abrir {action}
+BUTTON1,Botão1
+CANCEL,Cancelar
+CONTINUE,Continuar
+EXPLOREROOM,Deseja observar o restante do corredor?
+FAIL,Falhar
+FAILCANCEL,Falhar/Cancelar
+NO,Não
+NOSUCCESS,Nenhum sucesso
+PLACE1EXPLORETOKEN,Coloque 1 marcador de exploração como indicado
+PLACE1SEARCHTOKEN,Coloque 1 marcardor de procura conforme indicado
+PLACE1SIGHTTOKEN,Coloque um marcador de observação conforme indicado
+PLACE2EXPLORETOKEN,Coloque 2 marcadores de exploração conforme indicador
+PLACEWALLTOKEN,Adicione um marcador de parede conforme indicado
+RECEIVEITEM,Você ganhou: {0}.
+RECEIVESPELL,Você ganhou um feitiço: {0}.
+SUCCESS,Passar
+TESTAGILITY,Você está prestes a sair da mansão. Faça um teste [{agility};{0}] para tentar escapar sem ser percebido
+REMOVE1SIGHTTOKEN,Remova este marcador de observação
+REMOVEWALLTOKEN,Remova este marcador de procura
+YES,Sim
+TokenSearchLobby1.text,Você observa alguns papéis na mesinha a esquerda
+TokenSearchLobby1.button1,{qst:ACTIONCONTINUE}
 quest.name,O Roubo do Idolo Kadakian
 quest.description,"Vocês foram presos injustamente e conseguem fugir da prisão, mas precisam fazer um favor a um guarda para que não sejam presos novamente e consigam reaver seus pertences."
-quest.authors,Priscila Gonzaga
-EventPapeisLobby.button1,Continuar
+quest.authors,<b>Autor</b>\nPriscila Gonzaga\n\n<b>Tradutor</b>\nAlemão: redwolf2
+EventPapeisLobby.button1,{qst:CONTINUE}
 EventPapeisLobby.text,"Você observa alguns papéis na mesinha a esquerda, faça um teste de [{lore};2]. Se passar, você consegue identificar que são papéis imporantes sobre a Lady Cotington e obtém 1 pista. Se falhar, você amassa os papéis e os joga no lixo. Remova este marcador de procura"
 EventMito18B.text,"Vocês param diante do quadro de uma mulher nua. Faça um teste de {observation}. Se passar, você repara que é a sua mãe, sofra um horror. Se falhar, a mulher não lhe chama atenção e nada acontece."
-EventMito18B.button1,Continuar
-EventMitoPrincipal.button1,Botão1
-EventAddSalaJantar.text,Coloque a peça Sala de jantar {MAD01} e remova este marcador de exploração
-EventAddSalaJantar.button1,Continuar
+EventMito18B.button1,{qst:CONTINUE}
+EventMitoPrincipal.button1,{qst:BUTTON1}
+EventAddSalaJantar.text,Coloque a peça {ffg:TILE_DINING_ROOM_MAD01} e remova este marcador de exploração
+EventAddSalaJantar.button1,{qst:CONTINUE}
 EventMitoJardim.text,Tudo parece tranquilo aqui fora. Sem efeito
-EventMitoJardim.button1,Continuar
+EventMitoJardim.button1,{qst:CONTINUE}
 EventLOSE.text,Vocês saíram sem levar o ídolo! O alferes Ramom ficou muito insatisfeito e prendeu vocês novamente.\n\nVocês perderam!
-EventLOSE.button1,Continuar
+EventLOSE.button1,{qst:CONTINUE}
 EventMito23B.text,"Você acha que ja sabe tudo o que estã acontecendo e sente-se confiante. Faça um teste de [{lore};2]. Se passar, nada acontece. Se falhar, você sente-se solidário e dá 1 pista para o jogador com menos pistas"
-EventMito23B.button1,Continuar
+EventMito23B.button1,{qst:CONTINUE}
 EventMito22B.text,"Você está perdidinho, sem saber direito o que estã acontecendo. Faça um teste de [{observation};2]. Se passar, você observa atentamente ao seu redor e começa a entender algo, receba uma pista. Se falhar, você se sente desorientado por não saber o que estã acontecendo. Fique atordoado"
-EventMito22B.button1,Continuar
+EventMito22B.button1,{qst:CONTINUE}
 EventMito21B.text,Um gato passou correndo e Duke foi atrás. Largue a carta contendo o item único Duke em um espaço adjacente ao que estiver
-EventMito21B.button1,Continuar
+EventMito21B.button1,{qst:CONTINUE}
 EventMito19.text,Este evento afeta o jogador com o Duke (cão)
-EventMito19.button1,Continuar
+EventMito19.button1,{qst:CONTINUE}
 EventMito11B.text,Estes investigadores resolveram se pegar e vão passar o próximo turno transando. Ambos perdem suas ações
-EventMito11B.button1,Continuar
-TokenSearchCozinha.text,Vasculhando os objetos da dispensa você encontra algo 
-TokenSearchCozinha.button1,Continuar {action}
-EventMito8.text,Este evento afeta os jogares que estão no Lobby. Você ouve passos e fica assutado. Receba 1 horror negado por {observation}
-EventMito8.button1,Continuar
-EventAddJardim.text,"Ao chegar na mansão, vocês planejam entrar pela porta dos fundos para que não sejam notados. Coloque a peça Jardim  como indicado. Cada investigador ganha 2 pistas. Se houver algum investigador sem item, este investigador ganha mais 2 pistas."
-EventAddJardim.button1,Continuar
+EventMito11B.button1,{qst:CONTINUE}
+TokenSearchCozinha.text,Vasculhando os objetos da dispensa você encontra algo
+TokenSearchCozinha.button1,{qst:ACTIONCONTINUE}
+EventMito8.text,Este evento afeta os jogares que estão no {ffg:TILE_LOBBY_MAD20}. Você ouve passos e fica assutado. Receba 1 horror negado por {observation}
+EventMito8.button1,{qst:CONTINUE}
+EventAddJardim.text,"Ao chegar na mansão, vocês planejam entrar pela porta dos fundos para que não sejam notados. Coloque a peça {ffg:TILE_YARD_2_MAD20} como indicado. Cada investigador ganha 2 pistas. Se houver algum investigador sem item, este investigador ganha mais 2 pistas."
+EventAddJardim.button1,{qst:CONTINUE}
 EventCocoCao2.text,O cachorro cagou aqui. O jogador que estiver com o Duke vai ter que limpar o cocô e não poderá jogar no próximo turno. Remova este marcador de procura
-EventCocoCao2.button1,Continuar
+EventCocoCao2.button1,{qst:CONTINUE}
 EventMito25.text,"O mordomo se aproxima. Faça um teste de [{agility};2]. Quem passar: Você conseguiu se esconder atrás de um móvel e ele não te viu. Quem falhar: Você correu para se esconder na dispensa, coloque sua miniatura lá"
-EventMito25.button1,Continuar
+EventMito25.button1,{qst:CONTINUE}
 EventMito24.text,"Todos os investigadores com, ao menos, 2 pistas recebem 2 horrores voltados para baixo, negados por {lore}"
-EventMito24.button1,Continuar
+EventMito24.button1,{qst:CONTINUE}
 EventMito23.text,Este evento afeta o jogador com mais pistas
-EventMito23.button1,Continuar
+EventMito23.button1,{qst:CONTINUE}
 EventMito20.text,"Um espírito aparece e quer conversar com vocês. Sofra 2 horrores, negados por {influence} + 1"
-EventMito20.button1,Continuar
+EventMito20.button1,{qst:CONTINUE}
 EventMito16.text,"Uma batida na porta dá um susto em {rnd:hero}. {rnd:hero} sofre um horror voltado para baixo, negado por {will}"
-EventMito16.button1,Continuar
+EventMito16.button1,{qst:CONTINUE}
 EventMito15.text,Sem efeito
-EventMito15.button1,Continuar
+EventMito15.button1,{qst:CONTINUE}
 EventMito14.text,"Este evento afeta o jogador com menos {strength}. \nVocê se sente fraco e acha que não terá forças para continuar. Peça para o jogador com maior {strength} fazer um teste [{strength};2]. Se ele passar, você sente que pode contar com ele e isso lhe deixa motivado. Se ele falhar, você se desespera completamente. Receba um horror"
-EventMito14.button1,Continuar
+EventMito14.button1,{qst:CONTINUE}
 EventMito13.text,"Rolem um dado cada. Os investigadores que obtiverem {success} recebem uma pista. Os investigadores que obtiverem {clue}, nada acontece. Os demais recebem 1 dano ou 1 horror"
 EventMito12.text,"Este evento afeta o investigador que sofreu mais danos. \n\nVocê está com medo de morrer e começa a se desesperar. Sofra 2 horrores voltados para baixo, negados por {strength}"
-EventMito12.button1,Continuar
+EventMito12.button1,{qst:CONTINUE}
 EventMito10.text,{rnd:hero} está apertad@ para urinar mas não consegue encontrar o banheiro. Receba 1 dano voltado para baixo
-EventMito10.button1,Continuar
+EventMito10.button1,{qst:CONTINUE}
 EventStart.text,"Ao escaparem da prisão, vocês precisam subornar o alferes Ramon para que devolva seus pertences e não os prenda novamente. Para isso, ele propõe que vocês roubem a estátua de um ídolo que se encontra na mansão de Lady Cotington"
-EventStart.button1,Continuar
-UIFIM.button1,Continuar
+EventStart.button1,{qst:CONTINUE}
+UIFIM.button1,{qst:CONTINUE}
 TokenSearchSalaoJogos.text,Você observa algo embaixo da mesa {observation}
-TokenSearchSalaoJogos.button1,Continuar
+TokenSearchSalaoJogos.button1,{qst:CONTINUE}
 EventMito17B.text,"Você ouve vozes e acha que são seus amigos. Faça um teste de [{observation};2]. Se passar, você percebe que não há ninguem, sofra 1 horror. Se falhar, nada acontece"
-EventMito17B.button1,Continuar
+EventMito17B.button1,{qst:CONTINUE}
 EventMito19B.text,"Duke surtou e te deu uma mordida! Receba 1 dano e 1 horror, negados por {will}"
-EventMito19B.button1,Continuar
+EventMito19B.button1,{qst:CONTINUE}
 EventMito9B.text,"Você sente-se claustrofóbico. Sofra 3 horrores voltados para baixo, negados por {agility}"
-EventMito9B.button1,Continuar
-EventAddCocoCao.text,Adicione um marcador de procura conforme indicado
-EventAddCocoCao.button1,Continuar
+EventMito9B.button1,{qst:CONTINUE}
+EventAddCocoCao.text,{qst:PLACE1SEARCHTOKEN}
+EventAddCocoCao.button1,{qst:CONTINUE}
 EventAddInvestigadores.text,Coloque suas miniaturas de invstigador como indicado
-EventAddInvestigadores.button1,Continuar
-EventAddCocoCao2.text,Coloque 1 marcador de procura conforme indicado
-EventAddCocoCao2.button1,Continuar
-EventAddSearchSalaoJogos.text,Coloque 1 marcardor de procura conforme indicado
-EventAddSearchSalaoJogos.button1,Continuar
+EventAddInvestigadores.button1,{qst:CONTINUE}
+EventAddCocoCao2.text,{qst:PLACE1SEARCHTOKEN}
+EventAddCocoCao2.button1,{qst:CONTINUE}
+EventAddSearchSalaoJogos.text,{qst:PLACE1SEARCHTOKEN}
+EventAddSearchSalaoJogos.button1,{qst:CONTINUE}
 EventWIN.text,Vocês venceram o jogo
-EventWIN.button1,Continuar
+EventWIN.button1,{qst:CONTINUE}
 EventTodosEscaparam.text,Vocês conseguiram escapar do cachorro e podem entrar na casa.
-EventTodosEscaparam.button1,Continuar
+EventTodosEscaparam.button1,{qst:CONTINUE}
 EventPassForcaP.text,Você o deixou atordoado por alguns segundos e aproveita este momento para esscapar. Retire sua miniatura do tabuleiro
-EventPassForcaP.button1,Continuar
-EventFailAgilidadeP.text,Você fez muito barulho ao tentar sair da mansão e chamou a atenção do mordomo. Faça um teste de [{strength};2] 
-EventFailAgilidadeP.button1,Passar
-EventFailAgilidadeP.button2,Falhar
+EventPassForcaP.button1,{qst:CONTINUE}
+EventFailAgilidadeP.text,Você fez muito barulho ao tentar sair da mansão e chamou a atenção do mordomo. Faça um teste de [{strength};2]
+EventFailAgilidadeP.button1,{qst:SUCCESS}
+EventFailAgilidadeP.button2,{qst:FAIL}
 EventPassAgilidadeP.text,Você conseguiu escapar da mansão. Retire sua miniatura do tabuleiro.
-EventPassAgilidadeP.button1,Continuar
+EventPassAgilidadeP.button1,{qst:CONTINUE}
 EventPassInfluence1.text,"Você diz para ela que você estava consertando o encanamento do banheiro. Ela acredita e volta para os seus afazeres. Você consegue escapar da mansão, retire sua miniatura do tabuleiro."
-EventPassInfluence1.button1,Continuar
+EventPassInfluence1.button1,{qst:CONTINUE}
 EventPassInfluence2.text,"Você diz para ela que você veio fazer a contagem das bolinhas da mesa de sinuca. Ela acredita e volta para os seus afazeres. Você consegue escapar da mansão, retire sua miniatura do tabuleiro."
-EventPassInfluence2.button1,Continuar
+EventPassInfluence2.button1,{qst:CONTINUE}
 EventPassInfluence3.text,"Você diz para ela que você veio consertar a mesinha quebrada do corredor. Ela acredita e volta para os seus afazeres. Você consegue escapar da mansão, retire sua miniatura do tabuleiro."
-EventPassInfluence3.button1,Continuar
+EventPassInfluence3.button1,{qst:CONTINUE}
 TokenSearchCocoCao.text,Você percebe que algo não está cheirando muito bem
-TokenSearchCocoCao.button1,Continuar {action}
+TokenSearchCocoCao.button1,{qst:ACTIONCONTINUE}
 EventMito22.text,Este evento afeta o jogador com menos pistas
-EventMito22.button1,Continuar
+EventMito22.button1,{qst:CONTINUE}
 EventMito21.text,Este evento afeta o investigador com o Duke (cão)
-EventMito21.button1,Continuar
-EventPassFalarDog.text,"	Você oferece rosbife para o cachorro e ele torna-se seu amigo. Pegue o item único Duke. Se ele já estiver em jogo, receba 1 pista e fique compenetrado. Em seguida, remova o marcador de cão"
-EventPassFalarDog.button1,Continuar
-EventMito18.text,Este evento afeta os investigadores (personagens) do sexo masculino 
-EventMito18.button1,Continuar
+EventMito21.button1,{qst:CONTINUE}
+EventPassFalarDog.text,"Você oferece rosbife para o cachorro e ele torna-se seu amigo. Pegue o item único Duke. Se ele já estiver em jogo, receba 1 pista e fique compenetrado. Em seguida, remova o marcador de cão"
+EventPassFalarDog.button1,{qst:CONTINUE}
+EventMito18.text,Este evento afeta os investigadores (personagens) do sexo masculino
+EventMito18.button1,{qst:CONTINUE}
 EventAddCachorro.text,Vocês se deparam com um cachorro feroz rodeando a mansão. Coloque o tokem de cão no local indicado
-EventAddCachorro.button1,Continuar
+EventAddCachorro.button1,{qst:CONTINUE}
 EventMito17.text,Este evento afeta o jogador com maior {influence}
-EventMito17.button1,Continuar
-EventMito13.button1,Continuar
+EventMito17.button1,{qst:CONTINUE}
+EventMito13.button1,{qst:CONTINUE}
 EventMito11.text,Escolha 2 investigadores: um do sexo masculino e um do sexo feminino que estejam no mesmo espaço (se houver).
-EventMito11.button1,Continuar
+EventMito11.button1,{qst:CONTINUE}
 EventMito9.text,Este evento afeta o(s) jogador(es) em um comodo com apenas uma porta
-EventMito9.button1,Continuar
-EventAddLobby.text,"Você acessa a entrada principal da mansão, agora é possivel ir para os demais cômodos da casa. Coloque a peça Lobby  como indicado. "
-EventAddLobby.button1,Continuar
-TokenCocoCao.button1,Continuar {action}
+EventMito9.button1,{qst:CONTINUE}
+EventAddLobby.text,"Você acessa a entrada principal da mansão, agora é possivel ir para os demais cômodos da casa. Coloque a peça Lobby  como indicado."
+EventAddLobby.button1,{qst:CONTINUE}
+TokenCocoCao.button1,{qst:ACTIONCONTINUE}
 EventRemoverCocoCao.text,"O cachorro cagou aqui e você pisou no cocô, receba 1 dano negado por {agility} e remova este marcador de procura"
-EventGetItensCozinha.button1,Continuar
-EventRemoverCocoCao.button1,Continuar
+EventGetItensCozinha.button1,{qst:CONTINUE}
+EventRemoverCocoCao.button1,{qst:CONTINUE}
 EventItensConfiscados.text,O ídolo foi confiscado. Devolva a carta de estátua grotesca e adicione um marcador de procura em cada espaço dos quartos e corredores
-EventItensConfiscados.button1,Continuar
+EventItensConfiscados.button1,{qst:CONTINUE}
 EventAddSalaLeitura.text,"Você e todos os jogadores ao seu alcance foram pegos e trancados na sala de leitura. Coloque a peça Sala de Leitura no local indicado. Em seguida, coloque sua miniatura e a dos jogadores nesta peça, onde desejarem"
-EventAddSalaLeitura.button1,Continuar
+EventAddSalaLeitura.button1,{qst:CONTINUE}
 EventAddQuartoP.text,A porta revela mais um quarto da mansão. Coloque a peça Quarto Principal {MAD01} e remova este marcador de exploração.
-EventAddQuartoP.button1,Continuar
-EventAddSearchQuarto.text,Coloque 1 marcardor de procura conforme indicado
-EventAddSearchQuarto.button1,Continuar
-EventAddParedeQuartoP2.text,Adicione um marcador de parede conforme indicado
-EventAddParedeQuartoP2.button1,Continuar
-EventAddParedeQuartoP.text,Adicione um marcador de parede conforme indicado
-EventAddParedeQuartoP.button1,Continuar
-EventAddParedeQuartoP1.text,Adicione um marcador de parede conforme indicado
-EventAddParedeQuartoP1.button1,Continuar
-EventGetCaixaEnigmatica.text,"Você encontrou uma caixa trancada. Para abri-la, você precisa da chave dourada. Pegue o item único Caixa Enigmática e remova este marcador de procura"
-EventGetCaixaEnigmatica.button1,Continuar
-EventMinCam.button1,Botão1
-EventMaxCam.button1,Botão1
-EventAddExpEscritorio.text,Coloque um marcador de exploração no local indicado
-EventAddExpEscritorio.button1,Continuar
+EventAddQuartoP.button1,{qst:CONTINUE}
+EventAddSearchQuarto.text,{qst:PLACE1SEARCHTOKEN}
+EventAddSearchQuarto.button1,{qst:CONTINUE}
+EventAddParedeQuartoP2.text,{qst:PLACEWALLTOKEN}
+EventAddParedeQuartoP2.button1,{qst:CONTINUE}
+EventAddParedeQuartoP.text,{qst:PLACEWALLTOKEN}
+EventAddParedeQuartoP.button1,{qst:CONTINUE}
+EventAddParedeQuartoP1.text,{qst:PLACEWALLTOKEN}
+EventAddParedeQuartoP1.button1,{qst:CONTINUE}
+EventGetCaixaEnigmatica.text,"Você encontrou uma caixa trancada. Para abri-la, você precisa da {ffg:UNIQUE_ITEM_GOLD_KEY}. Pegue o item único {ffg:UNIQUE_ITEM_PUZZLE_BOX} e remova este marcador de procura"
+EventGetCaixaEnigmatica.button1,{qst:CONTINUE}
+EventMinCam.button1,{qst:BUTTON1}
+EventMaxCam.button1,{qst:BUTTON1}
+EventAddExpEscritorio.text,{qst:PLACE1EXPLORETOKEN}
+EventAddExpEscritorio.button1,{qst:CONTINUE}
 EventAskIdoloConfiscado.text,O jogador que está com o ídolo (estátua grotesca) foi preso na sala de leitura?
-EventAskIdoloConfiscado.button1,Sim 
-EventAskIdoloConfiscado.button2,Não
+EventAskIdoloConfiscado.button1,{qst:YES}
+EventAskIdoloConfiscado.button2,{qst:NO}
 EventProcurarIdolo1.text,Não há nada aqui
-EventProcurarIdolo1.button1,Continuar
+EventProcurarIdolo1.button1,{qst:CONTINUE}
 EventFailInfluenceF.text,A cozinheira não acreditou nem um pouquinho na sua lorota. Receba 1 horror
-EventFailInfluenceF.button1,Continuar
-EventProcurarIdolo.button1,Continuar
-EventFailAgilidadeF.text,Você fez muito barulho ao tentar sair da mansão e chamou a atenção da cozinheira. Faça um teste de [{influence};2] 
-EventFailAgilidadeF.button1,Passar
-EventFailAgilidadeF.button2,Falhar
+EventFailInfluenceF.button1,{qst:CONTINUE}
+EventProcurarIdolo.button1,{qst:CONTINUE}
+EventFailAgilidadeF.text,Você fez muito barulho ao tentar sair da mansão e chamou a atenção da cozinheira. Faça um teste de [{influence};2]
+EventFailAgilidadeF.button1,{qst:SUCCESS}
+EventFailAgilidadeF.button2,{qst:FAIL}
 EventAddEscritorio.text,Adicione a peça Escritório {MAD20} e remova este marcador de exploração
-EventAddEscritorio.button1,Continuar
+EventAddEscritorio.button1,{qst:CONTINUE}
 EventAddSaidaP.text,"Vocês já têm o que precisam para sair da mansão. Vocês podem optar por sair pela porta da frente, ou sair pela porta dos fundos, por onde entraram. Coloque um marcador de interação no local indicado"
-EventAddSaidaP.button1,Continuar
+EventAddSaidaP.button1,{qst:CONTINUE}
 EventAddSaida2.text,"Coloque outro marcador de interação, no local indicado"
-EventAddSaida2.button1,Continuar
+EventAddSaida2.button1,{qst:CONTINUE}
 EventAvisoFim.text,A missão termina se o ídolo estiver com um de vocês e quando todos os investigadores saírem da mansão.
-EventAvisoFim.button1,Continuar
+EventAvisoFim.button1,{qst:CONTINUE}
 EventGetEstatua.text,Você conseguiu abrir a caixa e encontrou exatamente o que estavam procurando! O ídolo que precisavam roubar estava nesta caixa. Pegue o item único Estátua Grotesca
-EventGetEstatua.button1,Continuar
-EventAddExploreLobbySuperior.text,Coloque 2 marcadores de exploração conforme indicador
-EventAddExploreLobbySuperior.button1,Continuar
-EventAddFimCorredor.text,Você avista o fim do corredor com um porta ao fundo. Adicione a peça Corredor 3 {MAD01} e em seguida remova este marcador de observação
-EventAddFimCorredor.button1,Continuar
-EventAddExploreQuartoP.text,Coloque 1 marcador de exploração como indicado
-EventAddExploreQuartoP.button1,Continuar
-EventAddOBS1.text,Coloque um marcador de observação conforme indicado
-EventAddOBS1.button1,Continuar
-TokenSearchQuarto.button1,Continuar
-EventOBSMovIN.text,Remova este marcador de observação
-EventOBSMovIN.button1,Continuar
-EventAddOBS2.text,Coloque um marcador de observação conforme indicado
-EventAddOBS2.button1,Continuar
-EventGetArmaFogo.text, Você ganhou {c:QItemArmaFogo}.
-EventGetArmaFogo.button1,Continuar
+EventGetEstatua.button1,{qst:CONTINUE}
+EventAddExploreLobbySuperior.text,{qst:PLACE2EXPLORETOKEN}
+EventAddExploreLobbySuperior.button1,{qst:CONTINUE}
+EventAddFimCorredor.text,Você avista o fim do corredor com um porta ao fundo. Adicione a peça {ffg:TILE_HALLWAY_3_MAD01} e em seguida remova este marcador de observação
+EventAddFimCorredor.button1,{qst:CONTINUE}
+EventAddExploreQuartoP.text,{qst:PLACE1EXPLORETOKEN}
+EventAddExploreQuartoP.button1,{qst:CONTINUE}
+EventAddOBS1.text,{qst:PLACE1SIGHTTOKEN}
+EventAddOBS1.button1,{qst:CONTINUE}
+TokenSearchQuarto.button1,{qst:CONTINUE}
+EventOBSMovIN.text,{qst:REMOVE1SIGHTTOKEN}
+EventOBSMovIN.button1,{qst:CONTINUE}
+EventAddOBS2.text,{qst:PLACE1SIGHTTOKEN}
+EventAddOBS2.button1,{qst:CONTINUE}
+EventGetArmaFogo.text,{qst:RECEIVEITEM:{0}:{c:QItemArmaFogo}}
+EventGetArmaFogo.button1,{qst:CONTINUE}
 EventAddSearchCozinha.text,Há uma grande bagunça na dispensa da cozinha. Coloque um marcador de exporação conforme indicado.
-EventAddSearchCozinha.button1,Continuar
+EventAddSearchCozinha.button1,{qst:CONTINUE}
 SpawnAbissal.text,Um bicho feio apareceu! Coloque um Abissal no local indicado
-SpawnAbissal.button1,Continuar
-EventGetFeitico.text,Você ganhou um feitiço: {c:QItemFeitico}.
-EventGetFeitico.button1,Continuar
+SpawnAbissal.button1,{qst:CONTINUE}
+EventGetFeitico.text,{qst:RECEIVESPELL:{0}:{c:QItemFeitico}}
+EventGetFeitico.button1,{qst:CONTINUE}
 TokenCachorro.text,Au! Au! Au!\nEscolha uma das opções abaixo
 TokenCachorro.button1,Passar pelo cachorro
 TokenCachorro.button2,Falar com o cachorro
 TokenCachorro.button3,Atacar o cachorro
-EventAddCorredor2.text,"Não parece haver nada aqui, apenas um pedaço do corredor da mansão. Adicione a peça Corredor 2  e em seguida remova os marcadores de exploração da parte inferior desta peça"
-EventAddCorredor2.button1,Continuar
+EventAddCorredor2.text,"Não parece haver nada aqui, apenas um pedaço do corredor da mansão. Adicione a peça {ffg:TILE_HALL_2_MAD20} e em seguida remova os marcadores de exploração da parte inferior desta peça"
+EventAddCorredor2.button1,{qst:CONTINUE}
 EventAddQuarto1.text,Realmente tratava-se de um dos quartos da mansão. Coloque a peça Quarto 1  e remova este marcador de exploração 
-EventAddQuarto1.button1,Continuar
+EventAddQuarto1.button1,{qst:CONTINUE}
 EventFim.text,"O Sr. Ramon fica muito satisfeito com o trabalho de vocês, parabens, agora deem o fora antes que sejam presos novamente. FIM"
-EventFim.button1,Continuar
+EventFim.button1,{qst:CONTINUE}
 EventMito7.text,"{rnd:hero} Tropeça, cai e bate a cabeça em um móvel, receba 1 dano. Faça um teste de [{will};1], se falhar fique Atordoado"
-EventMito7.button1,Continuar
+EventMito7.button1,{qst:CONTINUE}
 EventMito6.text,Vocês começam a ouvir vozes. Recebam 2 horrores negados por {observation}
-EventMito6.button1,Continuar
-EventMito2.text,"Este evento afeta o jogador com mais itens. Faça um teste de [{strength};2]. Se passar, você sente-se forte o suficiente para carregar tudo que possui. Se falhar, você sente que não possui forças para carregar tantas coisas, largue um item "
-EventMito2.button1,Continuar
+EventMito6.button1,{qst:CONTINUE}
+EventMito2.text,"Este evento afeta o jogador com mais itens. Faça um teste de [{strength};2]. Se passar, você sente-se forte o suficiente para carregar tudo que possui. Se falhar, você sente que não possui forças para carregar tantas coisas, largue um item"
+EventMito2.button1,{qst:CONTINUE}
 EventMito3.text,"Este evento afeta o jogador que possuir mais feitiços. Você está muito confuso diante de tanta magia. Receba 3 horrores voltados para baixo, negados por {will}"
-EventMito3.button1,Continuar
+EventMito3.button1,{qst:CONTINUE}
 EventMito4.text,"Este evento afeta um jogador que não possua item algum. Você sente-se muito pobre por não possuir nada, mas não fica desanimado com isso, pelo contrário, fique compenetrado"
-EventMito4.button1,Continuar
+EventMito4.button1,{qst:CONTINUE}
 EventMito5.text,{rnd:hero} Está muito encantad@ com a beleza da mansão e perde algum tempo observando as coisas ao redor. Fique Pres@ durante o próximo turno
-EventMito5.button1,Continuar
+EventMito5.button1,{qst:CONTINUE}
 EventMito1.text,"{rnd:hero} sente-se sem esperança e pensa em desistir. Receba 2 horrores, negados por {will}"
-EventMito1.button1,Continuar
-EventAddExploreNada.text,Adicione um marcador de exploração conforme indicado
-EventAddExploreNada.button1,Continuar
-EventAddSearchLobby1.text,Coloque 1 marcardor de procura conforme indicado
-EventAddSearchLobby1.button1,Continuar
-EventAddExploreCozinha.text,Coloque um marcador de exploração conforme indicado
-EventAddExploreCozinha.button1,Continuar
+EventMito1.button1,{qst:CONTINUE}
+EventAddExploreNada.text,{qst:PLACE1EXPLORETOKEN}
+EventAddExploreNada.button1,{qst:CONTINUE}
+EventAddSearchLobby1.text,{qst:PLACE1SEARCHTOKEN}
+EventAddSearchLobby1.button1,{qst:CONTINUE}
+EventAddExploreCozinha.text,{qst:PLACE1EXPLORETOKEN}
+EventAddExploreCozinha.button1,{qst:CONTINUE}
 EventMoveIn.text,Você tem a opção de se mover 1 espaço para a área explorada
-EventMoveIn.button1,Continuar
+EventMoveIn.button1,{qst:CONTINUE}
 TokenExploreLobby.text,Essa porta dá para o hall principal da mansão. Deseja explorar o local?
-TokenExploreLobby.button1,Explorar {action}
+TokenExploreLobby.button1,{qst:ACTIONEXPLORE}
 TokenSearchLobby2.text,Você observa atentamente o quadro na parede [{observation};1]
-TokenSearchLobby2.button1,Passar
-TokenSearchLobby2.button2,Falhar
-EventAddSearchLobby2.text,Coloque 1 marcardor de procura conforme indicado
-EventAddSearchLobby2.button1,Continuar
+TokenSearchLobby2.button1,{qst:SUCCESS}
+TokenSearchLobby2.button2,{qst:FAIL}
+EventAddSearchLobby2.text,{qst:PLACE1SEARCHTOKEN}
+EventAddSearchLobby2.button1,{qst:CONTINUE}
 EventFailFalarCao.text,Você atira algo para que o cachorro vá pegar mas ele apenas observa o objeto e o ignora
-EventFailFalarCao.button1,Continuar
-PuzzleCaixa.button1,Continue
+EventFailFalarCao.button1,{qst:CONTINUE}
+PuzzleCaixa.button1,{qst:CONTINUE}
 EventFailEscaparCao.text,O cachorro percebeu seu movimento e lhe deu uma mordida. Receba 1 dano voltado para baixo e fique onde está
-EventFailEscaparCao.button1,Continuar
-Token9.button1,Continuar
-EventRemoverProcura.text,Remova este marcador de procura
-EventRemoverProcura.button1,Continuar
+EventFailEscaparCao.button1,{qst:CONTINUE}
+Token9.button1,{qst:CONTINUE}
+EventRemoverProcura.text,{qst:REMOVEWALLTOKEN}
+EventRemoverProcura.button1,{qst:CONTINUE}
 EventAcharIdolo.text,Você encontrou a estátua do ídolo! Corram para sair da mansão! Pegue a carta estátua grotesca e remova todos os marcadores de procura
-EventAcharIdolo.button1,Continuar
-Token0.button1,Continuar
-Token3.button1,Continuar
-Token2.button1,Continuar
-Token1.button1,Continuar
-Token4.button1,Continuar
-Token5.button1,Continuar
-Token6.button1,Continuar
-Token7.button1,Continuar
-Token8.button1,Continuar
+EventAcharIdolo.button1,{qst:CONTINUE}
+Token0.button1,{qst:CONTINUE}
+Token3.button1,{qst:CONTINUE}
+Token2.button1,{qst:CONTINUE}
+Token1.button1,{qst:CONTINUE}
+Token4.button1,{qst:CONTINUE}
+Token5.button1,{qst:CONTINUE}
+Token6.button1,{qst:CONTINUE}
+Token7.button1,{qst:CONTINUE}
+Token8.button1,{qst:CONTINUE}
 TokenExploreCozinha.text,Há barulhos estranhos vindos do outro lado da porta. Deseja mesmo explorar este local?
-TokenExploreCozinha.button1,Continuar {action}
-EventAddCantoDoCorredor1.text,Você avista apenas um corredor com uma porta logo a sua frente. Adicione a peça Canto do Corredor 1  e remova este marcador de exploração.
-EventAddCantoDoCorredor1.button1,Continuar
-TokenExploreLock1.text,A porta está trancada. 
-TokenExploreLock1.button1,Continuar
+TokenExploreCozinha.button1,{qst:ACTIONCONTINUE}
+EventAddCantoDoCorredor1.text,Você avista apenas um corredor com uma porta logo a sua frente. Adicione a peça {ffg:TILE_HALL_CORNER_1_MAD20} e remova este marcador de exploração.
+EventAddCantoDoCorredor1.button1,{qst:CONTINUE}
+TokenExploreLock1.text,A porta está trancada.
+TokenExploreLock1.button1,{qst:CONTINUE}
 EventAbrirLeitura.text,Você percebe que a porta é meio frágil e que talvez consiga arrombá-la. Faça um teste de [{strength};2]
-EventAbrirLeitura.button1,Passar {action}
-EventAbrirLeitura.button2,Falhar/Cancelar
+EventAbrirLeitura.button1,{qst:ACTIONENTER}
+EventAbrirLeitura.button2,{qst:FAILCANCEL}
 EventAbrirEscritorio.text,Você percebe que com um pouco de paciência conseguirá destrancar a fechadura. Faça um teste de [{will};2]
-EventAbrirEscritorio.button1,Passar {action}
-EventAbrirEscritorio.button2,Falhar/Cancelar
+EventAbrirEscritorio.button1,{qst:ACTIONENTER}
+EventAbrirEscritorio.button2,{qst:FAILCANCEL}
 EventFailForcaP.text,O mordomo o acertou em cheio. Receba 1 dano
-EventFailForcaP.button1,Continuar
+EventFailForcaP.button1,{qst:CONTINUE}
 EventPassAbrirEsc.text,Você conseguiu abrir a porta. Remova este marcador de exploração
-EventPassAbrirEsc.button1,Continuar
-EventPassAbrirLeitura.text,Você conseguiu abrir a porta. Remova este marcador de exploração
-EventPassAbrirLeitura.button1,Continuar
+EventPassAbrirEsc.button1,{qst:CONTINUE}
+EventPassAbrirLeitura.text,{qst:EventPassAbrirLeitura.text}
+EventPassAbrirLeitura.button1,{qst:CONTINUE}
 EventAbrirQuartoP.text,"Se você possuir alguma chave, pode tentar abrir essa porta"
-EventAbrirQuartoP.button1,Tentar abrir {action}
+EventAbrirQuartoP.button1,{qst:ACTIONTRYTOOPEN}
 EventAbrirQuartoP.button2,Não possuo chave
-TokenExploreQuartoP.text,A porta está trancada.
-TokenExploreQuartoP.button1,Continuar
-EventAbrirLock.text,"Se você possuir alguma chave, pode tentar abrir essa porta"
-EventAbrirLock.button1,Tentar abrir {action}
-EventAbrirLock.button2,Não possuo chave
+TokenExploreQuartoP.text,{qst:TokenExploreLock1.text}
+TokenExploreQuartoP.button1,{qst:CONTINUE}
+EventAbrirLock.text,{qst:EventAbrirQuartoP.text}
+EventAbrirLock.button1,{qst:ACTIONTRYTOOPEN}
+EventAbrirLock.button2,{qst:EventAbrirQuartoP.button2}
 EventAbrirComChaveB.text,Qual chave você possui?
 EventAbrirComChaveB.button1,Chave Dourada
 EventAbrirComChaveB.button2,Chave de Bronze
-EventAbrirComChaveB.button3,Não possuo chave
-EventNaoAbrirCom2chaves.text,Qual chave você possui?
-EventNaoAbrirCom2chaves.button1,Chave Dourada
-EventNaoAbrirCom2chaves.button2,Chave de Bronze
-EventNaoAbrirComChaveD.text,Qual chave você possui?
-EventNaoAbrirComChaveD.button1,Chave Dourada
-EventNaoAbrirComChaveD.button2,Cancelar
-EventVocenaotemchave.button1,Continuar
+EventAbrirComChaveB.button3,{qst:EventAbrirQuartoP.button2}
+EventNaoAbrirCom2chaves.text,{qst:EventAbrirComChaveB.text}
+EventNaoAbrirCom2chaves.button1,{qst:EventAbrirComChaveB.button1}
+EventNaoAbrirCom2chaves.button2,{qst:EventAbrirComChaveB.button2}
+EventNaoAbrirComChaveD.text,{qst:EventAbrirComChaveB.text}
+EventNaoAbrirComChaveD.button1,{qst:EventAbrirComChaveB.button1}
+EventNaoAbrirComChaveD.button2,{qst:CANCEL}
+EventVocenaotemchave.button1,{qst:CONTINUE}
 EventVocenaotemchave.text,"Para de roubar, você não possui chave nenhuma!"
-EventMatandoManiaco.text,Ao derrotar o maníaco você decide vasculhar a sua roupa e encontra uma chave! Receba o item único Chave de Bronze
-EventMatandoManiaco.button1,Continuar
+EventMatandoManiaco.text,Ao derrotar o maníaco você decide vasculhar a sua roupa e encontra uma chave! Receba o item único {c:QItemChaveDeBronze}
+EventMatandoManiaco.button1,{qst:CONTINUE}
 TokenExploreCorredor1.text,A porta parece entreaberta mas não é possivel ouvir o que se passa do outro lado
-TokenExploreCorredor1.button1,Continuar {action}
+TokenExploreCorredor1.button1,{qst:ACTIONCONTINUE}
 TokenExploreSalaJogos.text,A porta leva a um pequeno cômodo da mansão
-TokenExploreSalaJogos.button1,Explorar {action}
+TokenExploreSalaJogos.button1,{qst:ACTIONEXPLORE}
 TokenExploreCorredor2.text,A porta parece dar para um dos corredores da mansão
-TokenExploreCorredor2.button1,Explorar {action}
-TokenExploreCorredor3.text,A porta parece dar para um dos corredores da mansão
-TokenExploreCorredor3.button1,Continuar
+TokenExploreCorredor2.button1,{qst:ACTIONEXPLORE}
+TokenExploreCorredor3.text,{qst:TokenExploreCorredor2.text}
+TokenExploreCorredor3.button1,{qst:CONTINUE}
 TokenExploreQuarto1.text,Esta porta parece dar para um dos quartos da casa
-TokenExploreQuarto1.button1,Explorar {action}
-TokenSaidaF.text,Você está prestes a sair da mansão. Faça um teste [{agility};2] para tentar escapar sem ser percebido
-TokenSaidaF.button1,Passar
-TokenSaidaF.button2,Falhar
-TokenSaidaP.text,Você está prestes a sair da mansão. Faça um teste [{agility};3] para tentar escapar sem ser percebido
-TokenSaidaP.button1,Passar
-TokenSaidaP.button2,Falhar
+TokenExploreQuarto1.button1,{qst:ACTIONEXPLORE}
+TokenSaidaF.text,{qst:TESTAGILITY:{0}:2}
+TokenSaidaF.button1,{qst:SUCCESS}
+TokenSaidaF.button2,{qst:FAIL}
+TokenSaidaP.text,{qst:TESTAGILITY:{0}:3}
+TokenSaidaP.button1,{qst:SUCCESS}
+TokenSaidaP.button2,{qst:FAIL}
 TokenExploEscritorio.text,A porta lateral está aberta. Deseja entrar?
-TokenExploEscritorio.button1,Explorar {action}
-TokenExploreLock2.text,A porta está trancada.
-TokenExploreLock2.button1,Continuar
-EventSaidaP.text,Você está prestes a sair da mansão. Faça um teste [{agility};3] para tentar escapar sem ser percebido
-EventSaidaP.button1,Passar
-EventSaidaP.button2,Falhar
+TokenExploEscritorio.button1,{qst:ACTIONEXPLORE}
+TokenExploreLock2.text,{qst:TokenExploreLock1.text}
+TokenExploreLock2.button1,{qst:CONTINUE}
+EventSaidaP.text,{qst:TESTAGILITY:{0}:3}
+EventSaidaP.button1,{qst:SUCCESS}
+EventSaidaP.button2,{qst:FAIL}
 EventClickCaixaEnigmatica.text,"A caixa parece possuir um complexo mecanismo de abertura, alem da fechadura. Para abri-la você deve possuir a chave dourada e resolver o enigma usando {agility}"
-EventClickCaixaEnigmatica.button1,Continuar
-PuzzleQuadro.button1,Continuar
-EventAddParedeCorredor4.text,Coloque um marcador de parede conforme indicado
-EventAddParedeCorredor4.button1,Continuar
+EventClickCaixaEnigmatica.button1,{qst:CONTINUE}
+PuzzleQuadro.button1,{qst:CONTINUE}
+EventAddParedeCorredor4.text,{qst:PLACEWALLTOKEN}
+EventAddParedeCorredor4.button1,{qst:CONTINUE}
 EventFailSearchLobby2.text,Você observa atentamente a pintura e acha tudo muito bonito.
-EventFailSearchLobby2.button1,Continuar
-EventGetEquipamento.text,Você ganhou {c:QItemEquipamento}.
-EventGetEquipamento.button1,Continuar
-EventGetFaixas.text,Você ganhou {c:QItemFaixas}. 
-EventGetFaixas.button1,Continuar
+EventFailSearchLobby2.button1,{qst:CONTINUE}
+EventGetEquipamento.text,{qst:RECEIVEITEM:{0}:{c:QItemEquipamento}}
+EventGetEquipamento.button1,{qst:CONTINUE}
+EventGetFaixas.text,{qst:RECEIVEITEM:{0}:{c:QItemFaixas}}
+EventGetFaixas.button1,{qst:CONTINUE}
 SpawnCaoTindalo.text,"O cachorro percebeu seu ataque e ficou extremamente feroz. Adicione a miniatura do Cão de Tindalo e remova o marcador de cão. Em seguida, ataque-o sem gastar uma nova ação pra isso"
-SpawnCaoTindalo.button1,Continuar
+SpawnCaoTindalo.button1,{qst:CONTINUE}
 EventMatarCao.text,"Você matou o cachorro e perdeu a chance de torná-lo seu aliado, mas agora o caminho estã livre para entrarem na casa"
-EventMatarCao.button1,Continuar
-EventAddExploreSalaoJogos.text,Coloque 1 marcador de exporação conforme indicado
-EventAddExploreSalaoJogos.button1,Continuar
+EventMatarCao.button1,{qst:CONTINUE}
+EventAddExploreSalaoJogos.text,{qst:PLACE1EXPLORETOKEN}
+EventAddExploreSalaoJogos.button1,{qst:CONTINUE}
 EventEscaparCao.text,Faça um teste de [{agility};1] para passar pelo cachorro sem ser percebido
-EventEscaparCao.button1,Passar
-EventEscaparCao.button2,Falhar
+EventEscaparCao.button1,{qst:SUCCESS}
+EventEscaparCao.button2,{qst:FAIL}
 EventFalarCao.text,Faça um teste de [{influence};2] para conversar com o cachorro
-EventFalarCao.button1,Passar
-EventFalarCao.button2,Falhar
+EventFalarCao.button1,{qst:SUCCESS}
+EventFalarCao.button2,{qst:FAIL}
 EventPassEscaparCao.text,Você conseguiu passar pelo cachorro sem ser percebido. Mova sua miniatura para o espaço onde se encontra a porta
-EventPassEscaparCao.button1,Continuar
-EventAddExploreLock1.text,Coloque um marcador de exploração conforme indicado
-EventAddExploreLock1.button1,Continuar
+EventPassEscaparCao.button1,{qst:CONTINUE}
+EventAddExploreLock1.text,{qst:PLACE1EXPLORETOKEN}
+EventAddExploreLock1.button1,{qst:CONTINUE}
 EventChaveNaoServe.text,Sua chave não abre esta porta
-EventChaveNaoServe.button1,Continuar
+EventChaveNaoServe.button1,{qst:CONTINUE}
 EventAddChaveDourada.text,Você observa que em cima da mesa há uma chave. Coloque o item único Chave Dourada neste cômodo
-EventAddChaveDourada.button1,Continuar
-EventAddParedeQuarto1.text,Adicione um marcador de parede conforme indicado
-EventAddParedeQuarto1.button1,Continuar
-SpawnManiaco.button1,Continuar
+EventAddChaveDourada.button1,{qst:CONTINUE}
+EventAddParedeQuarto1.text,{qst:PLACEWALLTOKEN}
+EventAddParedeQuarto1.button1,{qst:CONTINUE}
+SpawnManiaco.button1,{qst:CONTINUE}
 SpawnManiaco.text,Um homem doido estava no quarto. Adicione um Maníaco no local indicado
 EventOpcSearchCorredorNS.text,Você não entendeu nada do que estava escrito
-EventOpcSearchCorredorNS.button1,Continuar
+EventOpcSearchCorredorNS.button1,{qst:CONTINUE}
 EventGetItensSearchLobby2.text,Você conseguiu acertar a combinação do cofre e pegar o que tinha dentro
-EventGetItensSearchLobby2.button1,Continuar
+EventGetItensSearchLobby2.button1,{qst:CONTINUE}
 TokenSearchCorredor.text,Você observa uma mesa caída com vários papeis espalhados. Faça um teste {will} e escolha a opção conforme o resultado. (você pode gastar pistas para converter lupa em sucesso normalmente)
-TokenSearchCorredor.button1,Nenhum sucesso
+TokenSearchCorredor.button1,{qst:NOSUCCESS}
 TokenSearchCorredor.button2,{clue}
 TokenSearchCorredor.button3,{clue}{clue}
 TokenSearchCorredor.button4,{success}
 TokenSearchCorredor.button5,{success}{clue}
 TokenSearchCorredor.button6,{success}{success}
-EventOpcSearchCorredorC.button1,Continuar
+EventOpcSearchCorredorC.button1,{qst:CONTINUE}
 EventOpcSearchCorredorC.text,"Você entende alguma coisa, mas não está muito claro pra você. Receba uma pista e remova este marcador de procura"
 EventOpcSearchCorredorCC.text,Você entende bem o que está escrito e obtem respostas sobre o que está procurando. Receba duas pistas e remova este marcador de procura
-EventOpcSearchCorredorCC.button1,Continuar
-EventOpcSearchCorredorCS.button1,Continuar
+EventOpcSearchCorredorCC.button1,{qst:CONTINUE}
+EventOpcSearchCorredorCS.button1,{qst:CONTINUE}
 EventOpcSearchCorredorCS.text,"Você entende alguma coisa mas não está muito claro pra você, no entanto você encontra um item. Receba uma pista e o item a seguir"
 EventOpcSearchCorredorS.text,"Você não entende nada do que está escrito, mas parece ter encontrado algo"
-EventOpcSearchCorredorS.button1,Continuar
+EventOpcSearchCorredorS.button1,{qst:CONTINUE}
 EventOpcSearchCorredorSS.text,No meio dos papéis você encontrou alguma coisa. Receba o item a seguir e fique compenetrado
-EventOpcSearchCorredorSS.button1,Continuar
+EventOpcSearchCorredorSS.button1,{qst:CONTINUE}
 EventPassQuadroLobby.text,"Você percebue que o quadro está meio torto. Ao tentar endireitá-lo, descobre que atras dele encontra-se um cofre"
-EventPassQuadroLobby.button1,Continuar
-EventGetItensSalaoJogos.button1,Continuar
-TokenOBS2.text,Deseja observar o restante do corredor?
-TokenOBS2.button1,Continuar
-TokenOBS2.button2,Cancelar
-TokenOBS1.button1,Continuar
-EventOBS1_Corredor2.text,Deseja observar o restante do corredor?
-EventOBS1_Corredor2.button1,Continuar
-EventOBS1_Corredor2.button2,Cancelar
-EventOBS1_CantoCorredor.text,Deseja observar o restante do corredor?
-EventOBS1_CantoCorredor.button1,Continuar
-EventOBS1_CantoCorredor.button2,Cancelar
-EventOBS2MovIn.text,Remova este marcador de observação
-EventOBS2MovIn.button1,Continuar
-EventAddSearchCorredor.text,Coloque 1 marcardor de procura conforme indicado
-EventAddSearchCorredor.button1,Continuar
-EventAddExploreQuarto1.text,Coloque 1 marcador de exploração como indicado
-EventAddExploreQuarto1.button1,Continuar
-EventAddExploreLock2.text,Coloque um marcador de exploração conforme indicado
-EventAddExploreLock2.button1,Continuar
-EventAddExploreCorredor1.text,Coloque 1 marcador de exploração conforme indicado
-EventAddExploreCorredor1.button1,Continuar
-EventAddParedeLobby.text,Coloque 1 marcador de parede na porta direita superior da peça Lobby 
-EventAddParedeLobby.button1,Continuar
-EventAddSalaoJogos.text,A porta se abre e revela um agradável salão de jogos com uma mesa de sinuca ao centro. Adicione a peça sala de bilhar  conforme indicado.
-EventAddSalaoJogos.button1,Continuar
+EventPassQuadroLobby.button1,{qst:CONTINUE}
+EventGetItensSalaoJogos.button1,{qst:CONTINUE}
+TokenOBS2.text,{qst:EXPLOREROOM}
+TokenOBS2.button1,{qst:CONTINUE}
+TokenOBS2.button2,{qst:CANCEL}
+TokenOBS1.button1,{qst:CONTINUE}
+EventOBS1_Corredor2.text,{qst:EXPLOREROOM}
+EventOBS1_Corredor2.button1,{qst:CONTINUE}
+EventOBS1_Corredor2.button2,{qst:CANCEL}
+EventOBS1_CantoCorredor.text,{qst:EXPLOREROOM}
+EventOBS1_CantoCorredor.button1,{qst:CONTINUE}
+EventOBS1_CantoCorredor.button2,{qst:CANCEL}
+EventOBS2MovIn.text,{qst:REMOVE1SIGHTTOKEN}
+EventOBS2MovIn.button1,{qst:CONTINUE}
+EventAddSearchCorredor.text,{qst:PLACE1SEARCHTOKEN}
+EventAddSearchCorredor.button1,{qst:CONTINUE}
+EventAddExploreQuarto1.text,{qst:PLACE1EXPLORETOKEN}
+EventAddExploreQuarto1.button1,{qst:CONTINUE}
+EventAddExploreLock2.text,{qst:PLACE1EXPLORETOKEN}
+EventAddExploreLock2.button1,{qst:CONTINUE}
+EventAddExploreCorredor1.text,{qst:PLACE1EXPLORETOKEN}
+EventAddExploreCorredor1.button1,{qst:CONTINUE}
+EventAddParedeLobby.text,Coloque 1 marcador de parede na porta direita superior da peça Lobby
+EventAddParedeLobby.button1,{qst:CONTINUE}
+EventAddSalaoJogos.text,A porta se abre e revela um agradável salão de jogos com uma mesa de sinuca ao centro. Adicione a peça {ffg:TILE_BILLIARDS_ROOM_MAD20} conforme indicado.
+EventAddSalaoJogos.button1,{qst:CONTINUE}
