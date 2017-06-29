@@ -1,0 +1,646 @@
+.,English
+UIIntroText.uitext,"After a long day on the beat, you find yourself able to take a break at your desk to catch up on some overdue reports. While you are working through the stack your phone begins to ring.\n\nOn the other end a woman speaks in hushed tones… almost in a whisper. <i>Hello. I know that it’s getting late but is there any way you can come help me? My name is Othera Gilman and my fiancé’s recent actions are starting to worry me.</i>\n\nBeing so close to the end of the day you think about putting it off until tomorrow, but something about the urgency in her voice makes you decide that it would probably be better to help immediately.\n\nYou jot down the address and let her know when you plan to arrive.\n"
+UIContinueIntro.uitext,Continue
+UIIntroText2.uitext,You drive to the outskirts of town where the fog is coalescing around an old-looking mansion. As you drive closer it begins to rain -- a dismal greeting to your arrival. You park your car and make a mad dash for the front door before you are soaked to the bone.
+UIContinueIntro2.uitext,Continue
+UIAct2Intro.uitext,"Sitting at an ornate table you go over everything with Othera. Together you ponder the purpose of the manuscript and other ritualistic items.\n\nOthera, looking more troubled than ever, voices her concerns. \n\n<i>There must be more going on. I will get Bobby to drive me into town to visit our friends for dinner. While we’re gone please see if you can get to the bottom of this. Please wait in this room until we’re gone.</i>\n"
+UIAct2Continue.uitext,Continue
+UIInterloperEndGood.uitext,"With that last strike the Interloper falls to the ground with a sickening thud. As the life flows out of the demon’s corpse it begins to swirl around the body, disolving it to ash. With a sudden pop the energy flares out wildly before vanishing into nothing."
+UIInterloperGoodContinue.uitext,Continue
+UIGoodbyeText.uitext,"As the sun begins to rise, washing away some of the terror, the magick around the house begins to wane. Knowing that Bobby will no longer be able to stay in this existence, the couple tearfully begins their final goodbyes.\n\nNot wanting to intrude upon what little time they have left you leave silently to compose your reports of what happened here. You doubt that you will get anyone at the police station to believe it, but then you’ve become accustomed to the unexplained being brushed off.\n"
+UIEndGame.uitext,Continue
+UIDeadFinalText.uitext,"After one of your own falls to the darkness you feel it sap your morale. You choose to flee before anyone else is taken from you, hoping that things will resolve themselves.\n\nA few days later while hiding in your flat from everyone around you, you stand up to get something from the medicine cabinet for your aches and pains. When the cabinet closes you see something watching you from the mirror, as if replacing your reflection. The glass buckles and wraps around you, slicing your battered body past the point of no return.\n\nGame Over\n"
+UIDeathByInterloper.uitext,"The strange creature looks at you from across the room, sitting on the corpse of one of your fellow investigators. It promises that this is just a taste of things to come.\n\nYou escape into the night before you are next. Later at home you wake from a terrible nightmare. Was it all a dream? You find that answer almost faster than you asked it as the darkness rushes toward you to swallow your fire.\n\nGame Over\n"
+UIStarSpawnCrushText.uitext,"The hulking monstrosity lashes out at one of your fellow investigators, smashing them into the ground. You can only watch in horror as the life drains from their eyes.\n\nYou close your eyes hoping that all the horror will just disappear. Should you be surprised that you got your wish? Crunch……………\n\nGame Over\n"
+UIStarAndIntKilledText.uitext,"You let out a long sigh as the beast falls next to the corpse of its faithful servant. Any other creatures lurking about have surely fled seeing your resolve in taking on such a formidable foe.\n\nAs you look across the room you see the once lively form of Othera and a great shame washes over you. While her call to you has helped prevent a much worse fate from occurring, you are sorry that you couldn’t protect her in the process.\n\nAll you can hope is that in destroying the beast, you may have released her stolen soul to find peace\n\nGame Over\n\n"
+UIStarKilledIntEscapesText.uitext,"The bloody battle finally comes to an end with the great beast succumbing to the onslaught of attacks that you have made against it. You look over just in time to see the Interloper tear another hole in the fabric of reality creating an escape for itself and its followers.\n\nYou fear that this may not be the last time these events play out and can only hope that whoever has to face it will be able to bring it down.\n\nAs you look across the room you see the once lively form of Othera, and a great shame washes over you. While her call to you has helped prevent a much worse fate from occurring, you are sorry that you couldn’t protect her in the process.\n\nAll you can hope is that in destroying the beast, you may have released her stolen soul to find peace.\n\nGame Over\n\n"
+quest.name,In Places Unseen
+quest.description,"An adventure for Mansion of Madness 2nd Edition. No expansions required.\n\nAs your day is coming to an end, one final call comes in requesting your help at the old Foster mansion. What lies in wait for you in the unseen spaces of the estate?"
+quest.authors,LordPyrex
+EventSetDeathCounter.button1,Button1
+EventPedestalsGoingDown.button1,Button 1
+EventCountThemDown.button1,Button 1
+SpawnBobbySacrificed.text,"\nOut of the mists a Star Spawn lumbers into view. In one swipe, it knocks a panel from the cage and grabs the soul of Bobby Foster. You watch in abject horror as it raises the spirit to its mouth and consumes the man’s soul whole… Only the man’s scream remains until that too is lost to the void. \n\nRemove the Blue Man Token from the board and spawn a \nStar Spawn as indicated."
+SpawnBobbySacrificed.button1,Continue
+SpawnAngryInterloperChangeB.text," The rest of the body begins peeling away, revealing a much more sinister creature in its place. Remove the Bobby Foster Token from the board.\n\nSpawn a Deep One as indicated. This represents the Dimensional Interloper."
+SpawnAngryInterloperChangeB.button1,Continue
+EventAngryInterloperToCage.text,"Taking a talon and moving it like a hook, the creature creates a tear in reality and jumps through the void landing next to the cage.\n\nMove the Interloper as indicated.\n"
+EventAngryInterloperToCage.button1,Continue
+EventInterloperDestroysPedestals.text,"The man begins chanting before letting out a maniacal laugh that echoes through the house. The words cause the pedestals to shake before shattering into stone fragments. In the distance, you hear a loud, deep growl as something approaches.\n\nRemove the remaining pedestal Interact Tokens from the board."
+EventInterloperDestroysPedestals.button1,Continue
+EventInterloperAngryReturn.text,<i>You fools! Did you truly believe that you could stop what was destined to come? I knew I was right to return and dispatch that insolent woman. \nWatch as the bearer of madness comes for you all!</i>
+EventInterloperAngryReturn.button1,Continue
+EventAngryInterloperChangeA.text,<i>I guess this ruse is no longer needed...</i>\n\nThe man pullls at the flesh surrounding his hand and exposes several sharp talons where fingers should be. He then drags one of the talons along his body leaving large gashes in many places.
+EventAngryInterloperChangeA.button1,Continue
+UIStarKilledIntEscapesText.button1,The End
+EventEneryDisperse.text,"As the energy clears a much different man stands in the place of the imposter. All that is left before you is a rotting corpse that had been held together with foul magick.\n<i>\nYou dare to use our power against us?!? Very well, if I can’t use the power of your soul then hers will do! </i> "
+EventEneryDisperse.button1,Continue
+EventPlaceBox.text,In the back corner of the basement sits a half opened box. Place a Search Token as indicated.
+EventPlaceBox.button1,Continue
+EventTooLongInterloperReturns.text,The front door flies open as the man in the body of Bobby Foster storms in.\n\nPlace the Bobby Foster Token on the board as indicated.\n
+EventTooLongInterloperReturns.button1,Continue
+SpawnWellMonster.text,A chill runs down your spine as you hear the sound of something slithering closer. Through the thick mists you begin to see a black
+SpawnWellMonster.button1,Continue
+TokenBaesmentToDark.text,A door that appears to be made from darkness itself.
+TokenBaesmentToDark.button1,{action} Explore
+EventDarkBasementReveal.text,"As you place a hand on the door the darkness latches onto it and the door flies open. On the other side is a realm that seems to be coated in dark ooze, pulsing with an almost alien, life-like appearance. Place the Alley Corner 1 {MAD20} as indicated. You are drawn one space into the explored area. Then discard the Explore Token leading to this space."
+EventDarkBasementReveal.button1,Continue
+EventPlaceBasementStatue.text,You notice that there is a statue sitting at the heart of the dark pulse. Place a Search Token as indicated.
+EventPlaceBasementStatue.button1,Continue
+TokenDarkBasementStatue.text,A statue that appears to be the embodiment of madness itself.
+TokenDarkBasementStatue.button1,{action} Take Statue
+EventDarkStatueBasementEvent.text,You lift the statue thinking that it is much heavier than it should be. Just as you begin to get used to the awkward weight it feels like it gets heavier. \n \n Test {strength}
+EventDarkStatueBasementEvent.button1,Confirm
+EventDarkStatueBasementEvent.button2,Fail
+EventMakeDarkDR.text,As the door swings open you feel yourself drawn into a space that is wrapped in darkness. Place the Side Street Corner 1 {MAD20} as indicated. Then remove the Explore Token leading into this space.\n\nMove your investigator one space into the explored area.
+EventMakeDarkDR.button1,Continue
+TokenWellToDark.text,A door that seems to be formed from the darkness itself is beside the well.
+TokenWellToDark.button1,{action} Explore
+EventPlaceSideStreet2.text,The door opens into a place that reeks of evil. In the distance you hear the howl of something not quite natural. \n \n Place the Side Street Corner 2 {MAD20} Tile as indicated and discard the Explore Token as indicated. You may move one space into the explored area.
+EventPlaceSideStreet2.button1,Continue
+EventWellStatue.text,Across the cursed space you see one of the statues. Place a Search Token as indicated.
+EventWellStatue.button1,Continue
+EventGardenStatuePull.text,"As you pull the statue from the vortex, you feel it start pulling you instead. You close your eyes as panic begins to set in.\n\nTest {observation}"
+EventGardenStatuePull.button1,Continue
+EventGardenStatuePull.button2,Fail
+TokenPatioToDark.text,A door stands in the grass without any frame.
+TokenPatioToDark.button1,{action} Explore
+EventPlaceDarkGarden.text,As your hand comes in contact with the knob the door flies open into a swirling void. You find that you cannot look away and feel yourself slipping within your own mind. All investigators in this space become Dazed and Stunned. \n\nAdd the Side Alley 2 {MAD20} as indicated and remove the Explore Token leading to this space. 
+EventPlaceDarkGarden.button1,Continue
+TokenDiningToDark.text,You swear this door wasn't here before. This must be what the spirit was talking about.
+TokenDiningToDark.button1,{action} Explore
+SpawnDRCultist.text,Appearing from the mists comes a robed figure brandishing some kind of arcane staff. He points it menacingly at you and screams <i> I will not let you take it! </i> \n \n Spawn a Cultist as indicated. 
+SpawnDRCultist.button1,Continue
+TokenDarkGardenStatue.text,Amidst a swirl of purple haze and dark energy sits a statue.
+TokenDarkGardenStatue.button1,{action} Take statue.
+SpawnDeckCultist.text,"Drawn to the disturbance of the power, a robed figure comes towards you from the swirl. Pointing a gnarled finger at you he says,\n<i>You should flee if you cherish your life!</i>\n\nSpawn a Cultist as indicated.\n"
+SpawnDeckCultist.button1,Continue
+EventPlaceDRStatue.text,Across the dark space sits one of the statues on a rough stone table. Place a Search Token as indicated.
+EventPlaceDRStatue.button1,Continue
+EventPlaceDarkDeck.text,<i>The only other place that I heard them speak of was deck by the bedrooms.</i> \n \n Add an Explore Token as indicated.
+EventPlaceDarkDeck.button1,Continue
+EventPedestalsAppear.text,"You can barely believe that you overlooked them, but at the mere mention of the other statues the other pedestals are suddenly there... or were they there all along?\n \n Place 4 Interact Tokens around the cage as indicated."
+EventPedestalsAppear.button1,Continue
+EventDarkPlacesRevealed.text,<i>This is what I've overheard them talking about.</i>
+EventDarkPlacesRevealed.button1,Continue
+EventPlaceDarkDR.text,<i>They made mention of the Dining room.</i> \n \n Remove the Wall Token and place an Explore Token as indicated.
+EventPlaceDarkDR.button1,Continue
+EventPlaceWellToDark.text,<i>They mentioned a point of power by the well.</i> \n \n Place an explore token beside the well as indicated.
+EventPlaceWellToDark.button1,Continue
+EventPlaceDarkBasement.text,<i>They also spoke of the basement.</i> \n \n Remove the Wall Token and place an Explore Token as indicated.
+EventPlaceDarkBasement.button1,Continue
+EventSpiritIntruducesStatues.text,"<i>I think that it has something to do with those statues. There used to be five of them, but since I’ve been trapped here I’ve watched as robed figures have come along and taken them off those pillars.  They spoke of hiding them throughout the manor to keep them safe until the beast arrives. I’ve also overheard them talking about using my soul's energy to break the barrier here that keeps the ancient one lost in this place.</i>"
+EventSpiritIntruducesStatues.button1,Continue
+EventSpiritsShowsStatueLocations.text,"<i>They’ve been using their occult magiks to create warped spaces all around. If the statue that you returned has allowed you to see me, then maybe the doors leading to these dark places can be seen.</i>"
+EventSpiritsShowsStatueLocations.button1,Continue
+EventSpiritTrusts.text,You reassure the man that you will do everything in your power to protect Othera. \n \n <i> I have a little more information that might help. </i>
+EventSpiritTrusts.button1,Continue
+EventSpiritAskedWhere.text,<i>I’m not quite sure how to answer that. I was cleaning the attic and after wiping the mirror I found myself here. I picked up that strange statue there and I was suddenly attacked by a monster that came from this cell. It jumped into my body and threw my spirit in here. Then I witnessed as it summoned all other manners of horrors to come to its aid.</i> 
+EventSpiritAskedWhere.button1,Continue
+EventWhoAfterWhere.text,<i>I am Bobby Foster. I stumbled upon this unusual space while searching my family’s manor a few weeks back.</i> 
+EventWhoAfterWhere.button1,Continue
+EventWhereAfterWho.text,<i>I’m not quite sure how to answer that. I was cleaning the attic and after wiping the mirror I found myself here. I picked up that strange statue there and I was suddenly attacked by a monster that came from this cell. It jumped into my body and threw my spirit in here. Then I witnessed as it summoned all other manners of horrors to come to its aid.</i> 
+EventWhereAfterWho.button1,Continue
+EventSpiritAskedWho.button1,Continue
+EventSpiritAskedWho.text,<i>I am Bobby Foster. I stumbled upon this unusual space while searching my family’s manor a few weeks back.</i> 
+EventCameraBack.text,<i>Search in those places and maybe you can find the hidden statues.</i>
+EventCameraBack.button1,Continue
+EventSpiritAfterTwo.text,"<i>Have you heard from Othera? I fear for her safety with these monsters lurking about. Please, you must get her out of here.</i> \n \n Test {influence}"
+EventSpiritAfterTwo.button1,Continue
+EventSpiritAfterTwo.button2,Fail
+EventSpiritUnsure.text,"	<i> I'm really concerned... Please, you have to get whatever that thing is away from her! </i>"
+EventSpiritUnsure.button1,Continue
+EventSpiritSpeaks.text,<i>Oh! Thank the stars you’ve found me. I was beginning to think I was truly lost forever.</i>
+EventSpiritSpeaks.button1,Continue
+TokenSpiritTwoQuestions.text,An investigator can use an action to speak with the spirit.
+TokenSpiritTwoQuestions.button1,{action} Who are you?
+TokenSpiritTwoQuestions.button2,{action} Where are we?
+EventPedestalOne.text,Before you lies a large gilded cage that appears to have no doors leading into it. In front of it sits a pedestal with an indentation that looks like it would hold the statue. Place an Interact Token as indicated.
+EventPedestalOne.button1,Continue
+TokenPedastalOne.text,A pedestal with an indentation.  \n \n The investigator carrying the Grotesque Stone can place it on the pedestal.
+TokenPedastalOne.button1,{action} Place Statue
+EventGetRidOfStoneOne.text,Discard the Grotesque Stone Unique item card.
+EventGetRidOfStoneOne.button1,Continue
+EventSummonBobbyFosterSpirit.text,As you place the statue on the pedestal it snaps down firmly. The smell of ozone and rotted earth fills the air. You see a gathering of shadows and light coalesce into the form of a man within the cage. \n \n Place the Blue Man Character Token as indicated.
+EventSummonBobbyFosterSpirit.button1,Continue
+TokenMirrorToVoid.text,This token represents the connection to the Unseen Realm. You can travel to marked space on the other side.
+TokenMirrorToVoid.button1,Continue
+TokenTheMirror.text,A large mirror in an ornate frame. 
+TokenTheMirror.button1,{action} Inspect
+EventMirrorInspection.text,Closer inspection reveals that there are many different runes and other occult symbols seared into the frame. It is what is in the mirror that has you most intrigued. Every time you look away you swear that you see the reflection doing something other than your own actions. You feel that you can make sense of these runes and solve that which is unseen. \n \n Test {lore}
+EventMirrorInspection.button1,Continue
+EventMirrorInspection.button2,Fail
+EventMitrrorIn.text,"As your fingertips connect to the various glyphs and signs, your mind races to make sure that every step is correct. The mirror glass wavers before your eyes and your find that the glass pulls inward before completely disappearing. "
+EventMitrrorIn.button1,Continue
+EventMirrorTransport.text,"All that is left of where the glass previously was is a black void. Before you can react, it draws you in to the realm unseen. \n \n All investigators in this space are drawn into the void. "
+EventMirrorTransport.button1,Continue
+EventPlaceConservatory.text,Place the Conservatory {MAD20} Tile as Shown.  This tile represents a place in the Unseen Realm. This tile should be treated as a void and is not an outdoor space.
+EventPlaceConservatory.button1,Continue
+EventInvestigatorsOutVoid.text,You land on the ground with a thud. As you try to get your bearings you get the sense that you are very lost. You are unable to see very far due to a dense layer of fog.
+EventInvestigatorsOutVoid.button1,Continue
+EventPlacePortalBack.text,Behind you the portal remains open. Place an Interact Token as indicated.
+EventPlacePortalBack.button1,Continue
+EventMirrorOut.text,"As your fingertips connect to the various glyphs and signs, your mind races to make sure that every step is correct. You begin to worry that you have made a mistake as the frame takes on an angry red glow. The glass begins to shake and before you can protect yourself shatters outward at you. All investigators in this space takes 1 Damage and 1 facedown Horror. \n"
+EventMirrorOut.button1,Continue
+EventMirrorRevealed.text,"You notice something glinting in the far corner of the room and jump back when you think you see someone else there with you. As you look closer you see it's just a mirror with an ornate wooden frame. You feel there is something wrong, and it seems to be giving off its own dark light. Place an Interact Token as indicated."
+EventMirrorRevealed.button1,Continue
+EventMoveIntoAttic.text,You may move 1 additional space into the explored area.
+EventMoveIntoAttic.button1,Continue
+TokenAtticSight.text,An investigator in this space may interact with this token to reveal the rest of the attic.
+TokenAtticSight.button1,Continue
+EventAtticRevealed.text,As you stand at the top of the stairs your eyes begin to adjust to the lower level of light. You begin looking around to see what could be so important up here. \n\nRemove the Sight Token from the Attic space.
+EventAtticRevealed.button1,Continue
+TokenLobbyAhead.button1,{action} Explore
+TokenLobbyAhead.text,A door leading into the bedroom at the top of the stairs.
+EventPlaceBedroom1.text,"Behind the door is a large bedroom. While most of the bedroom appears used on a regular basis, you notice that the bed seems to be a bit dusty as if it doesn’t get used. Place the Bedroom 1 {MAD20} as indicated, then remove the Explore Token leading to this space.\n\nMove one space into the explored area."
+EventPlaceBedroom1.button1,Confirm
+TokenAtticDoorOpen.text,The door is now slightly ajar.
+TokenAtticDoorOpen.button1,{action} Explore
+EventPlaceAttic.text,"Upon pushing the door the rest of the way, you find a set of dusty attic stairs. Place the Attic {MAD20} as shown."
+EventPlaceAttic.button1,Continue
+EventAtticWallToken.text,Place a Wall Token as indicated.
+EventAtticWallToken.button1,Continue
+EventAtticDarkness.text,The lights in the storage space appear to all be broken or blown out. Place Darkness Tokens in each of the Attic spaces.
+EventAtticDarkness.button1,Continue
+EventAtticUnseen.text,"From your current viewpoint you cannot see what lies at the top of the stairs. Place a Sight Token as indicated,"
+EventAtticUnseen.button1,Continue
+EventStartAct2.text,As you are studying everything you can about the mansion you are surprised to hear a bell coming from the Dining Room. You decide to make your way to see what Othera may need.\n\nMove all Investigators to the Dining Room with one Investigator per chair.
+EventStartAct2.button1,Continue
+EventGetRitualComponents.text,"As you rifle through the box you find a collection of candles, vials, and skulls - everything necessary for one to work with Dark Magick. Just holding them makes you feel uneasy, as if they have an energy of their own. Gain the Ritual Components Unique Item and 1 clue. Then discard this Search Token.\n\nIs this some of the proof Othera wants you to find?"
+EventGetRitualComponents.button1,Continue
+TokenBoxWithRitualStuff.text,A half-opened box pushed into the back corner of the basement.
+TokenBoxWithRitualStuff.button1,{action} Search
+EventOtherSeesRitualComponents.text,"	<i>So, this is what was in the basement… There is definitely something dark taking place here. You don’t think Bobby is involved, do you?</i>\n\nGain one clue."
+EventOtherSeesRitualComponents.button1,Continue
+EventOtheraSeesManuscript.text,"	<i>This was hidden in the well? What an unusual book… I can’t believe that Bobby could have anything to do with something like this….\n Please, keep this. I don't want to have something full of so much evil and horrible things near me.</i>\n\nGain one clue.\n"
+EventOtheraSeesManuscript.button1,Continue
+TokenChestRightIHBedroom.text,A sturdy chest sits in the corner. Upon closer inspection you believe that you can pick the lock.\n\nAttempt to solve the puzzle using {agility}.
+TokenChestRightIHBedroom.button1,Confirm
+TokenBasementDoorUnlocked.text,A sturdy metal door with a tag that reads 'Basement'. The door is currently locked. An Investigator with the Brass Key can explore this area.
+TokenBasementDoorUnlocked.button1,{action} Explore
+EventPlaceBasementTile.text,You peer down the stairs to see a dimly lit basement.
+EventPlaceBasementTile.button1,Confirm
+EventPlaceBasementWalls.text,Place 3 Wall Tokens covering the other doors.
+EventPlaceBasementWalls.button1,Confirm
+EventDarknessBasement.text,"You flick the switch on the wall to get a better look around the room. The lights start to come up, but just as quickly go dim before going out. When you try the switch again nothing changes, and the only light is what little is coming from the furnace. Place Darkness Tokens in each space of the Basement."
+EventDarknessBasement.button1,Continue
+EventPlaceCoalBin.text,At the bottom of the stairs you can see a coal bin. It looks recently turned over as if something could be hidden within.
+EventPlaceCoalBin.button1,Confirm
+EventMoveIntoBasement.button1,Continue
+EventMoveIntoBasement.text,You may move 1 additional space into the explored area.
+EventPlacePapers.text,Looking to your right you see a picture of a stately man standing in front of a large Victorian style home. Upon closer inspection you notice that there is a page sticking slightly out from behind the frame.
+EventPlacePapers.button1,Confirm
+PuzzleChestIHRightBedroom.button1,Confirm
+EventChestOpened.text,The lock springs open and you lift the lid to find what contents have been hidden. You rifle through the trinkets and scarves and find among them a brass key. Gain the Brass Key Unique item and 1 clue token. Then discard this Search Token.
+EventChestOpened.button1,Confirm
+EventWellPass.text,After what feels like hours of pulling you finally bring the bucket to the well's edge. Inside you are surprised to find an ancient-looking tome. \n\nGain the Arcane Manuscript Common Item and discard this search token. Treat this item as evidence.\n\nYou wonder if this is some of the proof Othera would like to see.
+EventWellPass.button1,Confirm
+TokenPapersBehindPicture.text,A piece of paper
+TokenPapersBehindPicture.button1,{action} Search
+TokenIHRightBedroom.text,A door on the right side of the Hall leading into a bedroom.
+TokenIHRightBedroom.button1,Continue
+EventUnlockBedroomDoor.text,An investigator with the Silver Key can unlock this door.
+EventUnlockBedroomDoor.button1,{action} Unlock Door
+EventUnlockBedroomDoor.button2,Cancel
+EventExploreIHBedroom2.text,You walk into a well-organized room. Remove the explore token leading into this room.
+EventExploreIHBedroom2.button1,Confirm
+EventPlaceChest.text,In one corner of the room sits a sturdy looking
+EventPlaceChest.button1,Confirm
+EventPlaceMagGlass.text,On the table sits a white lilac and next to it a magnifying glass. You’re beginning to think it's out of place until you notice the insect larvae in the plant on the table. \n\nPlace the Magnifying Glass common item as indicated. 
+EventPlaceMagGlass.button1,Confirm
+TokenWellInYard.text,You peer into the depths of the well wondering just how deep it runs into the ground. You find yourself shaken at the thought of finding out first hand. 
+TokenWellInYard.button1,{action} Search
+EventSearchWell.text,You notice rope attached to a bucket and begin to pull it up from the darkness. \n\nTest {strength}
+EventSearchWell.button1,Confirm
+EventSearchWell.button2,Fail
+EventWellFail.text,"You pull the rope, finding yourself winded after pulling for just a few moments. Luckily you see a place to tie the rope so that you can take a break."
+EventWellFail.button1,Confirm
+EventPlaceElderWard.text,Beside the house is a flower bed with blooms of many colors and shapes. It appears that someone may have recently been rooting through the bed.
+EventPlaceElderWard.button1,Confirm
+EventMoveIntoYard1.text,You may move 1 additional space into the explored area.
+EventMoveIntoYard1.button1,Continue
+TokenExploreYard1.text,Behind this door you hear the wind blowing.
+TokenExploreYard1.button1,{action} Explore
+EventPlaceYard1.text,The door opens onto a private patio. Across the yard sits a table that would probably be perfect for taking afternoon tea. Place the Yard 1 {MAD20} Tile as indicated. Discard the Explore token leading to this room. 
+EventPlaceYard1.button1,Confirm
+EventBibleInNightstand.text,As you open the nightstand the rest of the way you find an old Bible sitting in the drawer. As you look upon it a sense of calm washes over you. \n\nGain the King James Bible Common Item and discard this Search Token.
+EventBibleInNightstand.button1,Confirm
+EventMoveIntoLeftBedroom.text,You may move one additional space into the explored area.
+EventMoveIntoLeftBedroom.button1,Continue
+EventPlaceGunToken.text,On the other side of the room you see something just under the bed's edge. Add a Search Token as indicated.
+EventPlaceGunToken.button1,Confirm
+EventPlaceHalfOpenNightstand.text,To your right you notice a nightstand with a drawer partially opened. Place a Search Token as indicated.
+EventPlaceHalfOpenNightstand.button1,Confirm
+TokenHalfOpenedNightstand.text,A nightstand sits with a drawer half open.
+TokenHalfOpenedNightstand.button1,{action} Search
+Token18IHLeftBed.text,You see something sticking out just under the bed.
+Token18IHLeftBed.button1,{action} Search
+EventPlaceTokenToYard.text,Across the kitchen is a door. You can hear the sounds of the rain falling lightly from the otherside. Place an Explore Token as indicated.
+EventPlaceTokenToYard.button1,Confirm
+TokenKitchenYard.text,A door leading out from kitchen. You hear the rain sill coming down softly on the other side.
+TokenKitchenYard.button1,{action} Explore
+EventExploreYard.text,The door opens into a small side yard and it looks like the rain is starting to let up. \n\nPlace the Yard 2 {MAD20}  Tile as indicated. Then remove the Explore token leading to this space. You may move 1 additional space into the explored area.
+EventExploreYard.button1,Confirm
+EventShovelInYard.text,Off the edge of the path you see a shovel that was left from someone doing yardwork. Place the Shovel Common Item as indicated.
+EventShovelInYard.button1,Confirm
+EventPlaceWell.text,Across the yard you see a small well that was probably used to provide the kitchen with water prior to the modernization of indoor plumbing. Place a Search Token as indicated.
+EventPlaceWell.button1,Confirm
+TokenIHLeftRoom.text,A door on the left side of the Hall leading into a bedroom.
+TokenIHLeftRoom.button1,{action} Explore
+EventExploreIHBedroom1.text,A quaint tidy bedroom lies behind the door. Remove the explore token leading into this room.
+EventExploreIHBedroom1.button1,Confirm
+EventBobbyIntro.text,"<i>Who do you think you are barging into my room like this. I know that daft woman said she was calling exterminators, but she had no reason to send you here. There are no vermin of any kind upstairs. Now please leave me alone!</i>"
+EventBobbyIntro.button1,Continue
+TokenLobby1stLeft.text,A door leading away from the mansion's expansive Lobby.
+TokenLobby1stLeft.button1,{action} Explore
+EventPlaceDRKitchen.text,Opening the door reveals a lavish dining room. The table is decorated in swaths of delicate linens and fine china waiting for the next service. You can see a large kitchen just beyond the Butlers Service Station. \n\nPlace the Dining Room {MAD20} as indicated. Remove the Explore Token leading to this room. 
+EventPlaceDRKitchen.button1,Confirm
+EventPlaceWallDR.text,Place a Wall Token as indicated.
+EventPlaceWallDR.button1,Confirm
+EventOtheraAppearsInDR.text,"You find Othera where she said she'd be. Sitting at the table, she nods to you as you enter the room."
+EventOtheraAppearsInDR.button1,Continue
+EventBandagesInKitchen.text,It looks as if someone may have recently needed to take care of a kitchen incident. A roll of bandages sits on the counter.\n\nPlace the Bandages Common Item as indicated.
+EventBandagesInKitchen.button1,Continue
+EventMoveIntoDR.button1,Continue
+EventMoveIntoDR.text,You may move one additional space into the newly explored area.
+EventPlaceSafePicture.text,"On the wall you notice a picture, however something seems off about it. Parts of it seem out of place. You realize that you can slide the pieces back into place."
+EventPlaceSafePicture.button1,Continue
+EventDoorNoHandleClosed.text,To your left is a door without any handle. Why anyone would go to the trouble of building a door with no handle confounds you. Place an Explore Token as indicated.
+EventDoorNoHandleClosed.button1,Continue
+EventBobbyStartPoint.text,A man with a stern look on his face sits in the chair facing the door as if keeping watch.\n\nPlace the Bobby Foster Token as indicated.
+EventBobbyStartPoint.button1,Continue
+EventPlaceWhiskey.text,"On the bar sits a bottle of whiskey, half-full. Place the Whiskey Common Item as indicated."
+EventPlaceWhiskey.button1,Confirm
+EventMoveIntoIH.text,You may move 1 additional space into the newly explored area.
+EventMoveIntoIH.button1,Continue
+EventPlaceBilliards.text,The door opens into a small billiards room. Several chairs and a sofa provide places to relax and enjoy a drink from the well-stocked bar.\n\nPlace the Billiards {MAD20} tile as indicated. Remove the Explore Token leading into this room.
+EventPlaceBilliards.button1,Confirm
+EventAddPoolToken.text,As you move about the room you notice a glint of light from a corner of the pool table. Place a search token as indicated.
+EventAddPoolToken.button1,Confirm
+EventMoveIntoBilliards.button1,Continue
+EventMoveIntoBilliards.text,You may move one additional space into the newly explored area.
+EventPlaceInteriorHall.text,"Opening the door, you find yourself in a hallway. On one side pictures of the house's former occupants, on the other are a few doors leading to bedrooms. \n\nPlace the Interior Hall {MAD20} as indicated. Then remove the Explore token leading into the Hall.\n"
+EventPlaceInteriorHall.button1,Confirm
+EventPlaceIHWall.text,Place a wall token as indicated.
+EventPlaceIHWall.button1,Confirm
+EventPlaceIHExploreTokens.text,Add 3 Explore Tokens as indicated.
+EventPlaceIHExploreTokens.button1,Confirm
+TokenLobby1stRight.text,A sturdy metal door with a tag that reads 'Basement'. The door is locked securely and you cannot budge it no matter how hard you try.
+TokenLobby1stRight.button1,Confirm
+TokenLobby2ndRight.text,A solid oak door leads further into the mansion.
+TokenLobby2ndRight.button1,{action} Explore
+EventOtheraGivesKey.text,"	Gain the Silver Key Unique item.\n\n	<i>I hid the key to the basement in a chest in the second bedroom. I couldn’t bring myself to go down there. Something feels off down there, and because of the darkness I'm too afraid to go.\n</i>"
+EventOtheraGivesKey.button1,Continue
+EventOtheraMovesToDR.text,<i>I will wait for you in the dining room. If you find anything please bring it to me.</i>
+EventOtheraMovesToDR.button1,Continue
+EventStart.text,As you step in out of the rain you find yourself in a large hall. \n\n Place the Lobby Tile {MAD20} as shown. 
+EventStart.button1,Confirm
+EventOtheraCaged.button1,Continue
+EventOtheraCaged.text,With one clean toss the spirit of Othera lands in the cage.
+EventMoveToCage.text,With its free hand the Interloper tears a hole in the fabric of reality and moves through
+EventMoveToCage.button1,Continue
+EventStarKilledInterloperEscapes.button1,Continue
+EventOtheraTakenAway.text,"The Interloper curses loudly. <i>This has gone on long enough!</i>\nHe snaps a finger, disappearing, only to reappear next to Othera.\nHis hand takes on a violet glow as he lays it on her chest and pulls away a glowing orb."
+EventOtheraTakenAway.button1,Continue
+EventBodySlump.text,With her life force removed Othera's body drops to the floor. The spirit of Bobby
+EventBodySlump.button1,Continue
+EventInterHorrorCheck8.text,"The Interloper begins talking to you about the riches and power that it can offer you. All you have to do is submit your soul to the will of the great beast ({influence}, 2). If you pass, you deny him any consideration in the matter, become Focused. If you fail, you begin to consider the rewards before snapping back to you better judgment, suffer 1 Horror. Then suffer 1 Damage as the Interloper slaps you, laughing at you for believing he would truly offer you anything."
+EventInterHorrorCheck8.button1,Continue
+CustomMonsterInterloper.monstername,Dimensional Interloper
+EventInterloperHorrorChecks.button1,Button1
+EventInterHorrorCheck1.text,"Seeing that you are unnerved at his presence, the Interloper grabs at a few of the chunks of the flesh clinging to his body and tosses them at you. Suffer 2 Horror ({agility} negates)"
+EventInterHorrorCheck1.button1,Continue
+EventInterHorrorCheck2.text,The Interloper’s eyes take on a warped appearance. You find yourself transfixed as visions of the destruction of another world unfold in your mind. Suffer 2 facedown Horror ({will} negates). If you suffer more than 1 Horror become Dazed.
+EventInterHorrorCheck2.button1,Continue
+EventInterHorrorCheck3.text,As you try to keep your distance from the Interloper he begins to laugh. The sound echoes deep into the recess of your mind reminding you of past fear from your childhood. Suffer 3 Horror ({will}+1 negates). Then flip one facedown Horror.
+EventInterHorrorCheck3.button1,Continue
+EventInterHorroCheck4.text,"The creature’s shadow begins to grow, enveloping everything around it in darkness. You begin to feel petrified with fear ({strength}, 2). If you pass, you brush it off as you notice it’s just the lights flickering around the room. If you fail, suffer 1 facedown Horror, then become Restrained."
+EventInterHorroCheck4.button1,Continue
+EventInterHorrorCheck5.text,The Interloper locks eyes with you and begins speaking in an other-worldly tongue. You are horrified when you begin replying to him in a similar tongue. Suffer 2 Horror({influence} negates).
+EventInterHorrorCheck5.button1,Continue
+EventInterHorrorCheck6.text,"As you wait for the Interloper to move, you are surprised to get a blank stare in response. Suddenly his head twitches to one side and his body begins to turn into a mass of writhing bugs working their way towards you. ({observation}, 2) If you pass, you see through the cheap glamour for what it is. If you fail, thousands of tiny legs skitter across your body as you try to knock the bugs off, suffer 2 Horror and become Restrained."
+EventInterHorrorCheck6.button1,Continue
+EventInterHorrorCheck7.text,"The lights around you begin to dim and sound begins to fade. Colors fade and you begin to worry that you will fade away too. Everything snaps back with a pop as you hear the Interloper laugh. He states that this is just a taste of things to come. Suffer 2 facedown Horror. The vision stirs up old mental anguish, flip 1 facedown Horror up."
+EventInterHorrorCheck7.button1,Continue
+EventInterEvade7.text,"You hear a crash in the next room which draws the attention of the Interloper. You feel this is the moment to make a break for it. ({agility}+1, 3) If you pass, you creep off before he even notices you’re gone. If you fail, you stub your toe on a table leg. Take one Damage for each failed roll unless you forfeit your action."
+EventInterEvade7.button1,Continue
+EventInterloperEvadeChecks.button1,Button1
+EventInterloperMovesSelector.button1,Button1
+EventInterEvade1.text,"You turn to run from the Interloper and are surprised to find him standing behind you. He pulls his arm back to strike you ({agility}, 2). If you pass, you are able to duck and scramble away before he makes contact. If you fail, his strike knocks you to the floor. Suffer 1 damage and forfeit your action."
+EventInterEvade1.button1,Continue
+EventInterEvade2.text,"As if sensing your desire to escape his reach the Interloper swings his glowing fist around to strike the floor. ({agility}+1, 3) If you pass, your movements confuse the creature and he accidentally crashes his hand into a railing, the energy throws him back, and he falls taking one damage. If you fail, his fist strikes the ground causing all investigators in the space to fall to the floor taking one Damage and you forfeit your action."
+EventInterEvade2.button1,Continue
+EventInterEvade3.text,"You run at the creature, sliding at the last second as the creature kicks in your direction. Suffer 3 facedown damage({agility}+1 negates). If you suffer 2 or more damage, forfeit you action."
+EventInterEvade3.button1,Continue
+EventInterEvade4.text,"Leaping out of danger’s way, you tuck into a roll across the room. Move 1 space away from the Interloper. As you start to stand back up you notice that the creature has conjured a ball of energy to throw at you ({agility}, 2) If you pass, the ball of lighting moves past you on the right. If you fail, you misjudge the direction the ball will take, take 1 facedown damage and become restrained."
+EventInterEvade4.button1,Continue
+EventInterEvade5.text,"Making a dash to escape, you bolt across the room and are halfway there when you feel the room begin to shift. It suddenly feels like everything is moving in circles({agility},2). If you pass, you close your eyes and trust your gut to lead you away from danger. If you fail, when you open your eyes you find yourself right back where you started, only dizzier. Become dazed and forfeit your action."
+EventInterEvade5.button1,Continue
+EventInterEvade6.text,"Taking steps away from the Interloper, you hope to be able to put some distance in before he notices. ({agility}, 2) If you pass, you are able to sneak away without being caught. If you fail, the creature sees you out of the corner of his eye and rushes your direction swinging a clawed hand at you. Suffer 1 Damage. Suffer 1 additional Damage unless you forfeit your action."
+EventInterEvade6.button1,Continue
+EventInterMoves1.text,The Interloper moves up to two spaces to be in range to as many Investigators as possible. Then it attacks the Investigator with the highest {observation}.
+EventInterMoves1.button1,Continue
+EventInterMoves1.button2,Unable to Attack
+EventIntRangedAttack.button1,Button1
+EventInterMoves2.text,The Interloper moves two spaces to be in range of as many investigators as possible. Then it attacks the Investigator in range with the highest {lore}.
+EventInterMoves2.button1,Continue
+EventInterMoves2.button2,Unable to Attack
+EventInterMoves3.text,The Interloper moves two spaces to be in range of as many investigators as possible. Then it attacks the Investigator in range with the highest {observation}.
+EventInterMoves3.button1,Continue
+EventInterMoves3.button2,Unable to Attack
+EventInterMoves4.text,The Interloper moves two spaces to be in range of as many investigators as possible. Then it attacks the Investigator in range with the lowest {will}.
+EventInterMoves4.button1,Continue
+EventInterMoves4.button2,Unable to Attack
+EventInterMoves5.text,The Interloper moves two spaces towards the nearest investigator. Then it attacks the Investigator with the lowest remaining Sanity.
+EventInterMoves5.button1,Continue
+EventInterMoves5.button2,Unable to Attack
+EventInterMoves6.text,The Interloper moves up to two spaces towards the nearest investigator. Then it attacks the Investigator in its space with the lowest {will}.
+EventInterMoves6.button1,Continue
+EventInterMoves6.button2,Unable to Attack
+EventInterMoves7.text,The Interloper moves up to two spaces towards the nearest investigator. Then it attacks the Investigator in its space who has suffered the most horror.
+EventInterMoves7.button1,Continue
+EventInterMoves7.button2,Unable to Attack
+EventInterMoves8.text,The Interloper moves up to two spaces towards the nearest investigator. Then it attacks the Investigator in its space with the lowest {influence}.
+EventInterMoves8.button1,Continue
+EventInterMoves8.button2,Unable to Attack
+EventInterMoves9.text,"The Interloper moves up to two spaces towards the nearest investigator, then attacks the Investigator in its space who has suffered the most Damage."
+EventInterMoves9.button1,Continue
+EventInterMoves9.button2,Unable to Attack
+EventInterAltMoves.button1,Button1
+EventInterAltMove1.text,Sensing you from across the house the Interloper moves 2 spaces towards the nearest Investigator.
+EventInterAltMove1.button1,Continue
+EventInterAltMove2.text,The Interloper moves one space towards the nearest Investigator.
+EventInterAltMove2.button1,Continue
+EventInterAltMove3.text,Thinking he may have found the weak link in the Investigative team the Interloper moves 2 spaces towards {rnd:hero}.
+EventInterAltMove3.button1,Continue
+EventInterRangedAttack3.text,The creature slaps its hands together summoning a ball of swirling green and yellow energy. He tosses it across the room where it strikes your chest causing you to thrash wildly. Suffer 3 facedown damage({strength}+1 negates). If you suffer 2 or more damage the energy causes you to drop one of the items you are carrying.
+EventInterRangedAttack3.button1,Continue
+EventIntLocalAttack.button1,Button1
+EventInterRangedAttack1.button1,Continue
+EventInterRangedAttack1.text,"The Interloper pinches a point in the air and pulls open a tear in the fabric of reality. He reaches in and pulls out a long ritual dagger. With a sly grin, he tosses it across the room. Suffer 2 Damage({agility} negates)"
+EventInterRangedAttack2.text,Waving its arms wildly the Interloper crashes his palms to the floor creating a vent billowing in some of the most rotten and fetid gas. You and each Investigator in your space begin to choke on the unearthly poison. Suffer one Damage and one facedown Horror.({observation}-1 negates)
+EventInterRangedAttack2.button1,Continue
+EventInterLocalAttack3.text,"The creature takes out what appears to be a device that absorbs light, creating a curtain of darkness wherever it points. In the confusion you catch your foot on the carpet and wind up smashing your head into an oak davenport. Suffer 3 Damage, ({observation}+1 negates). If you suffer 2 or more Damage, your fear of the uncertainty of what lies in the dark rattles you, flip 1 Horror face-up and place a Darkness Tile in your space."
+EventInterLocalAttack3.button1,Continue
+EventInterLocalAttacks4.button1,Continue
+EventInterLocalAttacks4.text,As you stand ready to block whatever the creature will do next the space around you begins to warp. You realize that it is trying to accelerate the flow of time. You are horrified to see everything moving at inhuman speeds. Suffer 3 Horror({will} negates).
+EventInterLocalAttacks5.text,"As you watch to see what the Interloper will do you notice that he starts to fade from view. You start to look around when you notice he is right behind you. ({will},2) If you pass, you are able to dodge before being hit with a large rod. If you fail, the rod hits you on the back of your head. Take 2 facedown Damage and become Stunned."
+EventInterLocalAttacks5.button1,Continue
+EventInterLocalAttack6.text,From across the room the Interloper points at you and then the ceiling. Suddenly you feel your feet start to leave the floor as you begin to float off the floor. You try to stop yourself but find that you are only able to flap about. As you gain some height the creature swipes his hand as if cutting invisible cords and you fall back to the ground. Suffer 1 Damage and 1 Horror({observation} negates).
+EventInterLocalAttack6.button1,Continue
+EventInterLocalAttacks7.button1,Continue
+EventInterLocalAttacks7.text,The Interloper stares at you with cold
+EventInterLocalAttack1.button1,Continue
+EventInterLocalAttack1.text,The Interloper reaches out with sharp claws coming closer and closer to rake long gashes across your abdomen. Suffer 2 damage({agility}-1 negates)
+EventInterLocalAttack2.text,"Using its strong legs the creature propels into the air, crashing down upon you.({strength}, 2) If you pass, you are able to easily push the monster to the side. If you rolled 3 or higher, the monster crashes into a railing from the strength of your push taking 1 damage. If you fail, you get the wind knocked out of you. Take 2 damage, then become Stunned."
+EventInterLocalAttack2.button1,Continue
+EventRemoveOtheraTillLater.text,Othera turns and walks back through the door she came from.\n\nRemove the Othera Gilman Token from the board.
+EventRemoveOtheraTillLater.button1,Continue
+EventOtheraGreeting.text,"Othera greets you, <i>Thank you for coming on such short notice. I didn’t know who to turn to. My fiancé recently brought me here after this estate was left to him by his parents. He had been estranged from them for many years with no contact. After they died in rather horrible accidents, Bobby decided that he would come here and get the place ready to sell so we could prepare for our future. Now he barely leaves the room he has made his own at the top of the stairs. He seems like a completely different person.</i>\n"
+EventOtheraGreeting.button1,Continue
+SpawnInterloperComesAfterBobbyDies.text,"Deciding it would be wise to protect his master, the imposter Bobby reveals his true self. With a sharp talon exposed he makes a slice up his abdomen to free himself from the false skin form.\n\nPlace a Deep One as indicated. This represents the Dimensional Interloper. For the sake of this scenario the Interloper has an Evade of 7.\n"
+SpawnInterloperComesAfterBobbyDies.button1,Continue
+SpawnInterloper.text,<i> I guess this is useless now
+SpawnInterloper.button1,Continue
+EventStarSpawnKills.button1,Continue
+EventInterloperKills.button1,Continue
+EventStarAndInterloperKilled.button1,Continue
+EventEventEndWinGood.button1,Continue
+EventStarSpawnDies.button1,Button1
+EventInterloperKilled.button1,Button1
+EventFourthDown.text,<i>There is only one left! Please hurry!</n>
+EventFourthDown.button1,Continue
+SpawnRightHallCultist.text,"Coming to aid the forces of darkness as agreed, a cultist steps in from the shadows. Spawn a Cultist as indicated."
+SpawnRightHallCultist.button1,Continue
+SpawnLeftHallCultist.text,Sensing his master’s anger a cultist appears from the void ready to attack.
+SpawnLeftHallCultist.button1,Continue
+SpawnHuntingHorrorInternalHall.text,Slithering though a crack in reality a wretched snake-like beast come to the aid of evil.
+SpawnHuntingHorrorInternalHall.button1,Continue
+SpawnHuntingHorrorBilliards.text,Forcing its way onto our plane of existence another writhing snake beast appears. Spawn a Hunting Horror as indicated.
+SpawnHuntingHorrorBilliards.button1,Continue
+EventDefeatedInvestigatorLoss.button1,Button1
+EventGrumbleContinue.text,"You hear some grumblings and musings come from the other side of the door, but it sounds like Othera has gotten Bobby to leave with her. Once you hear their car pull away you consider it safe to continue your search. \n\nRemove the Bobby Foster and Othera Gilman tokens from the board."
+EventGrumbleContinue.button1,Continue
+EventRemovePedestalTwo.text,Discard the Grotesque Stone Unique item card and remove this Interact Token.
+EventRemovePedestalTwo.button1,Continue
+EventRemovePedestalThree.text,Discard the Grotesque Stone Unique item card and remove this Interact Token.
+EventRemovePedestalThree.button1,Continue
+EventRemovePedestalFour.text,Discard the Grotesque Stone Unique item card and remove this Interact Token.
+EventRemovePedestalFour.button1,Continue
+EventRemovePedestalFive.text,Discard the Grotesque Stone Unique item card and remove this Interact Token.
+EventRemovePedestalFive.button1,Continue
+EventExploreKitchen.text,. Remove the Explore Token leading to the Kitchen. You may move one space into the explored area.
+EventExploreKitchen.button1,Confirm
+EventPlaceTokenToKitchen.text,On the other side of the room you see a swinging door leading into the kitchen. \n \n Place an Explore Token as indicated.
+EventPlaceTokenToKitchen.button1,Confirm
+SpawnHearldOfStar.button1,Continue
+SpawnHearldOfStar.text,Acting as a herald of the coming darkness a man in robes steps out of the shadows to take his place in service to the beast.\n\nPlace a Cultist as indicated.
+SpawnHearldOfBeast2.button1,Continue
+SpawnHearldOfBeast2.text,Sensing it is time for him to fulfil his end of the dark bargain a man in robes steps forward.\n\nSpawn a Cultist as indicated.
+EventStarSpawnPage2NewWinComdition.text,"With a boost in energy from its wretched meal the beast easily knocks down a panel of the cell, opening a way to unleash his madness and terror upon the world.\n\nInvestigators win if they are able to destroy the Star Spawn.\n"
+EventStarSpawnEndGameInfo.text,While Othera and Bobby are both gone the Investigators can still prevent the hulking monstrosity from tearing reality apart.\n\n The Investigation is complete when the \nStar Spawn is destroyed.
+EventStarSpawnEndGameInfo.button1,Continue
+SpawnBeastFromBeyond.text,"Finding its way to the cage by following the power of the trapped spirit a most unimaginable, massive beast appears. Tentacles hang from where a mouth should be and piercing yellow eyes peer from above them. A massive clawed hand reaches out, grabs hold of the incorporeal form, and swallows the soul of the incarcerated."
+SpawnBeastFromBeyond.button1,Continue
+EventStarSpawnPage2NewWinComdition.button1,Continue
+EventDeadBeforeFinal.button1,Continue
+TokenWallSafe.text,You reach out to rearrange the tiles. \n \n \n Attempt to solve the puzzle using {observation} 
+EventOnlyHaveManuscript.text,<i>What have you found to show me?</n>
+EventOnlyHaveManuscript.button1,Show the Arcane Manuscript
+EventOnlyHaveManuscript.button2,Cancel
+EventWallSafeSwitch.text,Moving the pieces around you find yourself becoming more and more unnerved as each connecting piece reveals the visage of a monster - most maddening. As the last piece of the puzzle snaps into place you hear a loud click. The painting swings away from the wall like a door revealing a physical representation of the disturbing picture and a small button.\n\nGain the Grotesque Stone Unique item.\n
+EventPlaceOtheraIntro.text,Coming from the door directly to your left is a distressed looking young woman. Add the Othera Gilman Token to the board as indicated.
+EventPlaceOtheraIntro.button1,Continue
+EventSpiritAttacksBobby.text,The spirit of Bobby appears and attacks his former body in an attempt to protect Othera from the evil.\n<i>Get away from her you imposter</i>!\n\nPlace the Blue Man Token as indicated
+UIInterloperGoodContinue.button1,Button1
+EventOtheraChained.text,"The rotting figure makes a few symbols in the air while chanting in a language that seems far removed from anything of this world. Tilting his head back he lets out an evil cackle as Othera’s body flies back against the wall, metal shackles and chains sprouting out to hold her in place.\n\nMove Othera across the room as indicated."
+EventBobbyOtheraReturn.text,"The front door flies open, as the man pretending to be Bobby drags Othera in by her wrist.\n<i>Who do you think you are meddling in affairs that have nothing to do with you? </i>\nAdd the Bobby Foster and Othera Gilman tokens to the board as indicated."
+EventBobbyOtheraReturn.button1,Continue
+EventGoodFinalBattleBegin.button1,Continue
+EventSearchedCoalBin.text,"As you move the coal to one side of the bin you find a solid looking 2x4 that looks useful as a weapon or to board up a door.\n\nGain the 2x4 Common Item card, then discard this Search Token."
+CustomMonsterBeastFromBeyond.monstername,Star Spawn
+CustomMonsterBeastFromBeyond.info,-
+EventIsThisBoth.button1,Continue
+EventOtheraReceivesProof.button1,Button1
+EventCheckExploration.button1,Button1
+UIAct2Continue.button1,Button1
+EventRemovedAct2UI.button1,Button1
+TokenBobbyInChair.text,"As I've said, you have no reason to be in here. Now leave!"
+TokenBobbyInChair.button1,Continue
+EventOtherAnythingElse.text,	<i>Bobby spends his days in the room at the top of the stairs. Even when he leaves the room he barely interacts with me. The last time I saw him I managed to sneak some keys away from him. This one is to the bedrooms.</i>
+TokenNotTheAttic.button1,Continue
+TokenNotTheAttic.text,It would probably be better not to bother anything while Bobby is watching.
+TokenNotTheWallSafe.text,It would probably be better not to bother anything while Bobby is watching.
+TokenNotTheWallSafe.button1,Continue
+EventBedroomDoorLocked.text,"You try the handle, but find it to be locked."
+EventBedroomDoorLocked.button1,Continue
+TokenOtheraAfterProof.text,<i>Please see if you can find anything else... I'll see what I can do to get Bobby out of his room...</i>
+TokenOtheraAfterProof.button1,Continue
+EventOnlyHaveRitualComponents.text,<i>What have you found to show me?</i>
+EventOnlyHaveRitualComponents.button1,Show the Ritual Components
+EventOnlyHaveRitualComponents.button2,Cancel
+EventOptionForBothItems.text,<i>What have you found to show me?</i>
+EventOptionForBothItems.button1,Show the Arcane Manuscript
+EventOptionForBothItems.button2,Show the Ritual Components
+EventOptionForBothItems.button3,Cancel
+EventHaveNoItems.text,<i>Please let me know if you find anything...</i>
+TokenOtheraInDR.text,<i>Have you found anything?</i>
+TokenOtheraInDR.button1,Continue
+EventHaveNoItems.button1,Continue
+EventOtheraMovesImmediately.text,Move the Othera Gilman Token to the Dining Room as indicated.
+EventOtheraMovesImmediately.button1,Continue
+EventOtherAnythingElse.button1,Continue
+TokenOtherWhatAndAnything.button2,{action} Is there anything else we should know?
+TokenOtherWhatAndAnything.button1,{action} What can you tell me about this place?
+TokenOtherWhatAndAnything.text,An investigator may spend an action to talk to Othera.
+TokenOtheraWhyAndAnything.button2,{action} Is there anything else we should know?
+TokenOtheraWhyAndAnything.button1,{action} Why are we here?
+TokenOtheraWhyAndAnything.text,An investigator may spend an action to speak with Othera.
+TokenOtheraIntro.text,An Investigator may spend an action to speak with Othera.
+TokenOtheraIntro.button1,{action} Why are we here?
+TokenOtheraIntro.button2,{action} What can you tell me about this place?
+EventOtheraWhyHere.text,"	<i>My fiancé has changed since we arrived here at his family’s old estate. I’m not quite sure what has happened, but I feel there has to be something here. Can you please try to help him?</i>\n\nGain one clue.\n"
+EventOtheraWhatPlace.text,"	<i>The estate has been in Bobby’s family for some time. I know that he has avoided his family for many years, but he’s never told me why. Wherever I go in this place, I get the sense of being watched. And there are rooms that I'm too scared to even enter...</i>\n\nGain one clue.\n"
+EventOtheraWhatAndWhy.text,"	<i>My fiancé has changed since we arrived here at his family’s old estate. I’m not quite sure what has happened, but I feel there has to be something here. Can you please try to help him?</i>\n\nGain one clue.\n"
+EventOtheraWhyAndWhat.text,"	<i>The estate has been in Bobby’s family for some time. I know that he has avoided his family for many years, but he’s never told me why. Wherever I go in this place, I get the sense of being watched. And there are rooms that I'm too scared to even enter...</i>\n\nGain one clue.\n"
+TokenOtheraAnythingOnly.text,An investigator may spend an action to speak with Othera.
+TokenOtheraAnythingOnly.button1,{action} Is there anything else we should know?
+EventOtheraWhyHere.button1,Continue
+EventOtheraWhatPlace.button1,Continue
+EventOtheraWhyAndWhat.button1,Continue
+EventOtheraWhatAndWhy.button1,Continue
+EventLobbyExploreTokenPlacement.text,You can see multiple doors leading from the Lobby. \n \n Place five explore tokens as indicated.
+EventLobbyExploreTokenPlacement.button1,Confirm
+EventPlaceFlowersToken.text,In the middle of the room sits a vase containing flowers. Place a search token as indicated.
+EventPlaceFlowersToken.button1,Confirm
+UIContinueIntro.button1,Button1
+EventRemoveIntro1UI.button1,Button1
+UIContinueIntro2.button1,Button1
+TokenCoalBin.text,A coal bin sits across from the bottom of the stairs.
+TokenCoalBin.button1,{action} Search
+EventSpiritOut.text,The spirit rushes past you to search for his love.\n\nRemove the Blue Man Token from the board.
+EventSpiritAttacksBobby.button1,Continue
+EventOtheraChained.button1,Continue
+CustomMonsterInterloper.info,-
+EventFifthAndFinal.text,"As you place the last statue a large rush of power flows from the statues into the cage. The spirit of Bobby Foster takes on a bright green glow. \n \n <i> Now that I can get out of here I have to get to Othera! Please, you must help me stop that imposter! </i>"
+EventFifthAndFinal.button1,Continue
+EventSpiritOut.button1,Continue
+TokenSpiritAttacks.text,"The spirit is visibly weakened.\n<i>Please, I've done all I can. You must save her!</i>"
+TokenSpiritAttacks.button1,Continue
+EventEnergyStrike.text,The energy of the stones collects with the spirit's anger. He flies towards the man standing next to his fiancée in an attempt to keep her safe. As the wild energy comes into contact with the form the spirit once held the magicks cancel each other out.
+EventEnergyStrike.button1,Continue
+TokenOtheraChained.text,"<i>Help me, please!</i>"
+TokenOtheraChained.button1,Continue
+EventLobbyBlockedDoor.text,Place a wall token as indicated
+EventLobbyBlockedDoor.button1,Confirm
+SpawnAtticCultist.text,"Your gaze is drawn away from the mirror as a Cultist apparates from nothing. Energy crackling around him, he shouts across the room at you. \n <i>You will not stop his awakening!</i> \n Spawn a Cultist as indicated."
+EventBasementStatueFail.text,"The weight continues to increase until you cannot hold the statue and it drops from your hand onto your foot. Suffer 1 facedown damage. Upon picking it up you find it to be no heavier than something of its size should be. \n \n Gain the Grotesque Stone Unique Item card, then discard this Search Token."
+EventBasementStatuePass.text,"You realize just how tired running around this mansion has been making you. You find the strength to carry on. \n \n Gain the Grotesque Stone Unique Item card, then discard this Search Token."
+EventCloseDarkBasement.text,"With the statue in your possession you begin to see the darkness melt around you. Everything begins to collapse inwards. Fearing that you might be absorbed into the growing tide you rush for the door. \n\nMove any investigator or monster to the indicated space, then discard the Side Alley Corner 1 {MAD20} and replace the Wall Token\n"
+SpawnHuntingHorrorBasement.text,"Beside you the darkness begins to coalesce into the form of a foul snake-like creature, its fangs bared and ready to strike you. Spawn a Hunting Horror as indicated."
+EventInvestigatorsStartPoint.text,"You find the Lobby of the mansion to be large, but surprisingly warm. Place your Investigator figures in the starting room as indicated."
+EventInvestigatorsStartPoint.button1,Confirm
+TokenPedestalFive.text,An ancient pedestal sits with an indentation. It looks like something was recently removed. \n \n An investigator with a Grotesque Stone Unique Item can interact with this pedestal.
+EventCloseDarkGarden.text,"With no energy to sustain this place it begins to fall apart and turn to dust. Feeling like the time is speeding everything up, you quickly race to the door.\n\nMove any investigators or monsters into the highlighted space. Remove the Side Alley 2 {MAD20}."
+EventPlaceDarkGardenStatue.text,Coming to your senses you see that the swirling energy is coming from a statue sitting on a rotted tree log.\n\nPlace a Search Token as indicated.
+EventPlaceDarkGardenStatue.button1,Continue
+EventDarkGardenCultist.button1,Continue
+EventPedestalsFall.text,As you place the statue into the pedestal it clicks and locks into place.
+EventPedestalsFall.button1,Confirm
+EventSecondDown.text,"<i>That's two returned. It's a start, but you really need to hurry!</i>"
+EventSecondDown.button1,Continue
+TokenPedestalTwo.text,An ancient pedestal sits with an indentation. It looks like something was recently removed. \n \n An investigator with a Grotesque Stone Unique Item can interact with this pedestal.
+TokenPedestalThree.text,An ancient pedestal sits with an indentation. It looks like something was recently removed. \n \n An investigator with a Grotesque Stone Unique Item can interact with this pedestal.
+TokenPedestalFour.text,An ancient pedestal sits with an indentation. It looks like something was recently removed. \n \n An investigator with a Grotesque Stone Unique Item can interact with this pedestal.
+EventTakeStatueDR.text,As you begin to lift the statue you don’t even realize that it is connected to a trap. A sharp blade begins to extend toward you from the base of the stone the statue sat on. \n \n Test {agility}
+EventTakeStatueDR.button1,Continue
+EventTakeStatueDR.button2,Fail
+EventStatueDRPass.text,You react quickly and jump back before the blade has a chance to do any damage. \n\nGain the Grotesque Stone Unique Card and 1 clue. Then discard this search token.
+EventStatueDRFail.text,You find yourself staring as the blade impales your arm. Luckily you are far enough away that it doesn’t do you any major harm. \n\nSuffer 2 damage and gain the Grotesque Stone Unique Card. Then discard this search token.
+EventGetWellStatue.text,As you wrap your fingers around the statue you feel the darkness try to drive you mad. Suffer 2 facedown Horror({will} negates) \n \n Gain the Grotesque Stone Unique Item and discard the Search Token.
+EventStatuePullPass.text,You will yourself to move and using as much momentum as you can muster fling yourself out of the energy.\n\nGain the Grotesque Stone Unique Item card and then discard this Search Token.
+EventStatuePullPass.button1,Continue
+EventGain18Gun.text,"As you reach out to grasp what is under the bed you find your hand on the cold metal of the barrel of a gun. \n\nGain the .18 Derringer Common Item, then discard this Search Token."
+PuzzleWallSafe.button1,Confirm
+EventSearchFlowers.text,You move closer to the table so that you can see what the vase contains. \n \n Test {observation}
+EventPoolKnifePass.text,You cautiously reach into the pocket to find what could be inside. Your fingers grasp the handle of a knife and pull it deftly from its hiding place. \n\nGain one clue and the Knife Common Item. Then discard this search token.
+EventPoolFail.text,As you reach into the table you find you are overzealous in reaching for the item and slice the palm of your hand on a rather sharp knife. \n\nTake one facedown damage and gain the Knife Common Item. Then discard this search token.
+EventFlowerPass.text,"As you search the vase you notice that someone has created a bouquet of Wormwood, Yew sprigs, Dittany of Crete, and other flowers and plants that mediums use to communicate with and calm the spirits. \n\nGain 2 clues and discard this Search Token."
+EventFlowersFail.text,"You thumb through the vase of flowers and plants that adorn the vase. You take no notice that you are thumbing through a collection that mediums used to communicate with and calm the dead, that is until you get a large, heady whiff of the collective aroma and begin having visions of the dead surrounding you. The visions quickly pass, but not without leaving you visibly shaken. \n\nTake one facedown Horror and 1 clue. Then discard this Search Token."
+EventGetElderWard.text,As you look for anything of interest you almost overlook a stone etched with an ancient glyph. Gain the Elder Ward Common Item. Then discard this Search Token. 
+EventPapersPass.text,You find that your knowledge of the occult has once again helped you make sense of the otherworldly information. Knowledge of how to get stronger takes root in your mind. Gain the Flesh Ward Spell then discard this Search Token.
+EventStatuePullFail.button1,Continue
+EventCloseDarkGarden.button1,Continue
+EventCloseDarkBasement.button1,Continue
+EventGetWellStatue.button1,Continue
+EventCloseWellDark.text,"With the statue in your possesion the energy creating this place begins to dissipate. \n \n Move all investigators and monsters in the Side Street Corner 2 {MAD20} into the indicated space, then discard this tile."
+EventCloseDarkDR.text,With the statue in hand you start to feel the space around you start to draw in. You are pushed back through the portal that you came through. \n \n Move any investigators and monsters into the space as indicated. Then remove the Side Street Corner 1 {MAD20} Tile and add the Wall Token back to the Dining Room.
+EventBasementStatuePass.button1,Continue
+SpawnHuntingHorrorBasement.button1,Continue
+EventBasementStatueFail.button1,Continue
+TokenStatueDR.text,One of the missing statues. Its appearance alone causes you much distress.
+TokenStatueDR.button1,{action} Take Statue
+EventStatueDRPass.button1,Continue
+EventStatueDRFail.button1,Continue
+EventCloseDarkDR.button1,Continue
+TokenWellStatue.text,One of the missing statues. Its appearance alone causes you much distress.
+TokenSpiritShowsLocations.text,An investigator may use an action to speak with the spirit.
+TokenSpiritShowsLocations.button1,{action} 	Do you have any idea where the statues are hidden?
+TokenWellStatue.button1,{action} Take Statue
+EventCloseWellDark.button1,Continue
+TokenPedestalTwo.button1,{action} Place Statue
+EventThirdDown.text,"<i>Okay, that's three. You're over halfway there!</i>"
+TokenPedestalThree.button1,{action} Place Statue
+TokenPedestalFour.button1,{action} Place statue
+TokenPedestalFive.button1,{action} Place Statue
+EventThirdDown.button1,Continue
+TokenSpiritHelps.text,An Investigator can use an action to speak with the spirit.
+TokenSpiritHelps.button1,{action} Why are you stuck in this cage?
+TokenSpiritPleaseHelp.text,"<i>Please, you have to find those statues and bring them back here!</i>"
+TokenSpiritPleaseHelp.button1,Continue
+TokenSpiritAskedTwoInfluTest.button1,Button 1
+TokenSpiritAskedWhere.text,An Investigator can use an action to speak with the spirit.
+TokenSpiritAskedWhere.button1,{action} Who are you?
+TokenSpiritAskedWho.text,An Investigator can use an action to speak with the spirit.
+TokenSpiritAskedWho.button1,{action} Where are we?
+TokenPortalOut.text,This token represents the portal to the Mansion. You can travel to the marked space on the other side.
+TokenPortalOut.button1,Continue
+SpawnAtticCultist.button1,Continue
+EventAtticCultist.button1,Button 1
+EventButtonPushed.text,Another click comes from across the room as the door with no handle pops open slightly. Gain 1 clue and discard this Search Token.
+TokenAtticDoorLocked.text,A door without a handle is preventing you from exploring further.
+TokenAtticDoorLocked.button1,Continue
+EventWallSafeSwitch.button1,Continue
+TokenWallSafeSwitch.text,A small button is located within the safe.
+TokenWallSafeSwitch.button1,{action} Push Button
+EventButtonPushed.button1,Continue
+TokenWallSafe.button1,Confirm
+TokenLobby2ndLeft.text,A door leading from the Mansion's Lobby.
+TokenLobby2ndLeft.button1,{action} Explore
+TokenPoolTableKnife.text,Curiosity draws your attention to the pool table's pocket.
+TokenPoolTableKnife.button1,{action} Search
+EventPoolAgilityTest.text,You reach into the corner pocket to retrieve what it is holding. \n\n Test {agility}
+EventPoolAgilityTest.button1,Confirm
+EventPoolAgilityTest.button2,Fail
+EventPoolFail.button1,Confirm
+EventPoolKnifePass.button1,Confirm
+TokenExploreKitchen.text,A swinging door leads into the Kitchen.
+TokenExploreKitchen.button1,{action} Explore
+TokenLobbyFlowers.text,A vase of fresh-looking flowers sits on the table in the Lobby.
+TokenLobbyFlowers.button1,{action} Search
+EventFlowerPass.button1,Confirm
+EventFlowersFail.button1,Confirm
+EventSearchFlowers.button1,Confirm
+EventSearchFlowers.button2,Fail
+EventGain18Gun.button1,Confirm
+PuzzleChestIHRightBedroom.text,Where does this show?
+EventSearchedCoalBin.button1,Confirm
+EventSpellBehindPainting.text,As you move the painting several pages fall to the floor and you are unsure whether they are in the correct order. You pick them up and try your best to figure out what is correct. \n \n Test {lore}.
+EventSpellBehindPainting.button1,Confirm
+EventSpellBehindPainting.button2,Fail
+EventPapersPass.button1,Confirm
+EventPapersFail.text,As you try to sort out the pages you begin to read them aloud. Unfortunately you realize too late that they are not in the correct order. The pages burst into flames scorching your fingers causing you to cry out at the brief flash of pain. Take one facedown Damage. Then discard this Search Token.
+EventPapersFail.button1,Confirm
+TokenFindElderWard.text,"A bed of flowers, slightly disturbed."
+TokenFindElderWard.button1,{action} Search
+EventGetElderWard.button1,Confirm
