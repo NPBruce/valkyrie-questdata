@@ -16,6 +16,8 @@ PLACE1SEARCHTOKEN,Coloque 1 marcardor de procura conforme indicado
 PLACE1SIGHTTOKEN,Coloque um marcador de observação conforme indicado
 PLACE2EXPLORETOKEN,Coloque 2 marcadores de exploração conforme indicador
 PLACEWALLTOKEN,Adicione um marcador de parede conforme indicado
+RECEIVEITEM,Você ganhou: {0}.
+RECEIVESPELL,Você ganhou um feitiço: {0}.
 SUCCESS,Passar
 TESTAGILITY,Você está prestes a sair da mansão. Faça um teste [{agility};{0}] para tentar escapar sem ser percebido
 REMOVE1SIGHTTOKEN,Remova este marcador de observação
@@ -189,13 +191,13 @@ EventOBSMovIN.text,{qst:REMOVE1SIGHTTOKEN}
 EventOBSMovIN.button1,{qst:CONTINUE}
 EventAddOBS2.text,{qst:PLACE1SIGHTTOKEN}
 EventAddOBS2.button1,{qst:CONTINUE}
-EventGetArmaFogo.text,Você ganhou: {c:QItemArmaFogo}.
+EventGetArmaFogo.text,{qst:RECEIVEITEM:{0}:{c:QItemArmaFogo}}
 EventGetArmaFogo.button1,{qst:CONTINUE}
 EventAddSearchCozinha.text,Há uma grande bagunça na dispensa da cozinha. Coloque um marcador de exporação conforme indicado.
 EventAddSearchCozinha.button1,{qst:CONTINUE}
 SpawnAbissal.text,Um bicho feio apareceu! Coloque um Abissal no local indicado
 SpawnAbissal.button1,{qst:CONTINUE}
-EventGetFeitico.text,Você ganhou um feitiço: {c:QItemFeitico}.
+EventGetFeitico.text,{qst:RECEIVESPELL:{0}:{c:QItemFeitico}}
 EventGetFeitico.button1,{qst:CONTINUE}
 TokenCachorro.text,Au! Au! Au!\nEscolha uma das opções abaixo
 TokenCachorro.button1,Passar pelo cachorro
@@ -325,9 +327,9 @@ EventAddParedeCorredor4.text,{qst:PLACEWALLTOKEN}
 EventAddParedeCorredor4.button1,{qst:CONTINUE}
 EventFailSearchLobby2.text,Você observa atentamente a pintura e acha tudo muito bonito.
 EventFailSearchLobby2.button1,{qst:CONTINUE}
-EventGetEquipamento.text,Você ganhou: {c:QItemEquipamento}.
+EventGetEquipamento.text,{qst:RECEIVEITEM:{0}:{c:QItemEquipamento}}
 EventGetEquipamento.button1,{qst:CONTINUE}
-EventGetFaixas.text,Você ganhou: {c:QItemFaixas}.
+EventGetFaixas.text,{qst:RECEIVEITEM:{0}:{c:QItemFaixas}}
 EventGetFaixas.button1,{qst:CONTINUE}
 SpawnCaoTindalo.text,"O cachorro percebeu seu ataque e ficou extremamente feroz. Adicione a miniatura do Cão de Tindalo e remova o marcador de cão. Em seguida, ataque-o sem gastar uma nova ação pra isso"
 SpawnCaoTindalo.button1,{qst:CONTINUE}
