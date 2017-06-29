@@ -90,10 +90,8 @@ EventAddSaida2.text,"Platziere Interaktionsmarker, wie gezeigt."
 EventAvisoFim.text,"Die Raub ist erfolgreich, wenn alle Ermittler aus der Villa entkommen und einer das Idol bei sich trägt."
 EventGetEstatua.text,"Du schaffst es das Kästchen zu öffnen und findest darin, was du gesucht hast. Nimm den Besonderen Gegenstand {ffg:UNIQUE_ITEM_GROTESQUE_STONE} an dich."
 EventAddFimCorredor.text,"Du siehst eine Tür am Ende des Flurs. Platziere das Spielplanteil {ffg:TILE_HALLWAY_3_MAD01}, wie gezeigt. Danach entferne diesen Durchsuchungsmarker."
-EventGetArmaFogo.text,Erhalte den Gegenstand: {c:QItemArmaFogo}.
 EventAddSearchCozinha.text,"Die Speisekammer ist unaufgeräumt und unübersichtlich. Platziere einen Erkundungsmarker, wie gezeigt."
 SpawnAbissal.text,"Eine hässliche Kreatur erscheint. Platziere das Monster {ffg:MONSTER_DEEP_ONE}, wie gezeigt."
-EventGetFeitico.text,Erhalte den Zauberspruch: {c:QItemFeitico}.
 TokenCachorro.text,Wuff! Wuff! Wuff!\nWas willst du tun?
 TokenCachorro.button1,Den Hund ignorieren
 TokenCachorro.button2,Den Hund ansprechen
@@ -135,8 +133,6 @@ TokenExploreQuarto1.text,Die Tür scheint in einen der Räume der Villa zu führ
 TokenExploEscritorio.text,"Der Seiteneingang ist nicht verschlossen, möchtest du ihn betreten?"
 EventClickCaixaEnigmatica.text,"Das Schloss ist massiv und scheint einen komplexen Öffnungsmechanismus zu haben. Um einen Öffnungsversuch mit {agility} wagen zu können brauchst du einen den Besonderen Gegenstand {c:QItemChaveDourada}."
 EventFailSearchLobby2.text,Du betrachtest dir das Gemälde ganz genau und schwelgst in Gedanken.
-EventGetEquipamento.text,Erhalte den Gegenstand: {c:QItemEquipamento}.
-EventGetFaixas.text,Erhalte den Gegenstand: {c:QItemFaixas}.
 SpawnCaoTindalo.text,"Der Hund sieht deinen Angriff voraus und die Luft um ihn verschwimmt. Entferne den Personenmarker der Hundes und platziere das Monster {ffg:MONSTER_HOUND_OF_TINDALOS}. Du darfst diese Runde keine Aktion mehr durchführen."
 EventMatarCao.text,"Du tötest den Hund und verpasst damit die Chance ihn zu deinem Verbündeten zu machen. Immerhin ist jetzt der Weg frei."
 EventEscaparCao.text,"Vielleicht kannst du dich vorbei schleichen, so dass der Hund dich nicht bemerkt ({agility}; 1)."
