@@ -1,0 +1,163 @@
+.,German
+ACTIONCONTINUE,Weiter {action}
+ACTIONEXPLORE,Erkunden {action}
+ACTIONENTER,Betreten {action}
+ACTIONTRYTOOPEN,Öffnungsversuch {action}
+BUTTON1,Button1
+CANCEL,Abbrechen
+CONTINUE,Weiter
+EXPLOREROOM,Den Raum erkunden?
+FAIL,Versagt
+FAILCANCEL,Versagt/Abbrechen
+NO,Nein
+NOSUCCESS,Kein Erfolg
+PLACE1EXPLORETOKEN,"Platziere einen Erkundungsmarker, wie gezeigt."
+PLACE1SEARCHTOKEN,"Platziere einen Durchsuchungsmarker, wie gezeigt."
+PLACE2EXPLORETOKEN,"Platziere zwei Erkundungsmarker, wie gezeigt."
+PLACE1SIGHTTOKEN,"Platziere einen Sichtungsmarker, wie gezeigt."
+PLACEWALLTOKEN,"Platziere Wandmarker, wie gezeigt."
+SUCCESS,Erfolg
+TESTAGILITY,Sie versuchen die Villa heimlich zu verlassen um unbemerkt zu entkommen ({agility}; {0}).
+RECEIVEITEM,Erhalte den Gegenstand: {0}.
+RECEIVESPELL,Erhalte den Zauber: {0}.
+REMOVE1SIGHTTOKEN,"Entferne den Sichtungsmarker."
+REMOVEWALLTOKEN,"Entferne die Wandmarker."
+YES,Ja
+TokenSearchLobby1.text,"Du siehst einige Papiere, welche sich auf dem Tisch türmen."
+quest.name,Der Raub des Kadakian Idols
+quest.description,"Ihr wurdet zu Unrecht verurteilt und ins Gefängnis gesperrt. Ihr beschließt auszubrechen. Dazu müsst ihr aber zunächst Gefallen für die Wachen erledigen um mit euren eingelagerten Besitz zu entkommen."
+quest.authors,<b>Author</b>\nPriscila Gonzaga\n\n<b>Übersetzer</b>\nDeutsch: redwolf2
+EventPapeisLobby.text,"Du durchsuchst die Papiere, welche sich auf dem linken Tisch türmen ({lore}; 2). Wenn du es schaffst, findest du wichtige Hinweise zu Lady Cotington und bekommst einen Hinweismarker. Versagst du, gibst du auf, zerknüllst das Papier und wirfst es in den Papierkorb. Entferne danach den Durchsuchungsmarker."
+EventMito18B.text,"Du stoppst vor dem Bildnis einer nackten Frau. Führe einen {observation}-Test aus. Bei Erfolg stellst du fest, dass es sich bei der Frau um deine Mutter handelt und du erhältst einen Horror. Versagst du, gehst du weiter, ohne das Bild zu beachten."
+EventAddSalaJantar.text,"Platziere das Spielplanteil {ffg:TILE_DINING_ROOM_MAD01}, wie gezeigt."
+EventMitoJardim.text,Alles sieht ruhig aus. Nichts passiert.
+EventLOSE.text,"Ihr verlasst das Anwesen, ohne das Idol zu stehlen. Eure Auftraggeber nehmen euch wieder in Gewahrsam.\n\nVerloren!"
+EventMito23B.text,"Du glaubst mittlerweile zu wissen, was hier vor sich geht ({lore}; 2). Bei Erfolg passiert nichts. Bei Misserfolg erklärst du die Situation einem anderen Ermittler und gibst einen deiner Hinweismarker dem Ermittler mit den Wenigsten."
+EventMito22B.text,"Du bist fassungslos und verstehst die Welt nicht mehr ({observation}; 2). Bei Erfolg schaust du dich um, findest neue Anhaltspunkte. Versagst du, fühlst du dich desorientiert und verlierst den roten Faden, werde Benommen."
+EventMito21B.text,Duke rennt plötzlich einer Katze hinterher. Platziere den Gegenstand Duke auf dem markierten Spielfeld.
+EventMito19.text,Dieses Ereignis betrifft den Ermittler mit dem Gegenstand: Duke.
+EventMito11B.text,Die beiden Ermittler haben Sex und verlieren ihre Aktionen für diese Ermittlerphase.
+TokenSearchCozinha.text,"Du suchst nach etwas Nützlichem und wirst fündig."
+EventMito8.text,"Dieses Ereignis betrifft alles Ermittler auf dem Spielplanteil {ffg:TILE_LOBBY_MAD20}. Du hörst plotzlich Schritte, wo Niemand zu sehen ist. Erhalte einen Horror ({observation} negiert)."
+EventAddJardim.text,"Ihr kommt bei der Villa an und beschließt sie über die Hintertür zu betreten, damit ihr nicht bemerkt werdet. Platziere das Spielplanteil {ffg:TILE_YARD_2_MAD20}, wie gezeigt. Jeder Ermittler erhält zwei Hinweismarker. Ermittler ohne Gegenstände erhalten zwei weitere Hinweismarker."
+EventCocoCao2.text,Der Hund hat einen Haufen hinterlassen. Der Ermittler mit dem Gegenstand Duke wird Aufgehalten. Entferne danach diesen Durchsuchungsmarker.
+EventMito25.text,"Der Butler nähert sich ({agility}; 2). Bist du erfolgreich, hast du es geschafft dich zu verstecken. Versagst du, versteckst du dich lieber in der {ffg:TILE_DINING_ROOM_MAD01}, platziere deinen Ermittler auf einem der Felder."
+EventMito24.text,"Jeder Ermittler mit zwei Hinweismarkern erleidet zwei verdeckten Horror ({lore} negiert)."
+EventMito23.text,Dieses Ereignis betrifft den Ermittler mit den meisten Hinweismarkern.
+EventMito20.text,Ein Geist erscheint und versucht mit dir zu kommunizieren. Erleide zwei Horror ({influence} + 1 negiert).
+EventMito16.text,"{rnd:hero} erschreckt sich fürchterlich, als es an der Tür klopft. {rnd:hero} erleidet einen verdeckten Horror ({will} negiert)."
+EventMito15.text,Ohne Wirkung
+EventMito14.text,"Dieses Ereignis betrifft den Ermittler mit der geringsten {strength}.\nDu fühlst dich schwach und zweifelst daran, dass du der Aufgabe gewachsen bist. Daher fragst du den Ermittler mit der größten {strength} um Rat. Dieser macht einen Test auf ({strength}; 2) . Bei Erfolg glaubst du, dass du dich auf ihn verlassen kannst und bist wieder motiviert. Bei Misserfolg bist du völlig verzweifelt und erleidest einen Horror."
+EventMito13.text,"Jeder Ermittler rollt einen Würfel. Ermittler mit einem {success} erhalten einen Hinweismarker. Bei einem {clue} passiert nichts. Bei einem Fehlschlag, erleidet der Ermittler wahlweise einen Horror oder Schaden."
+EventMito12.text,"Dieses Ereignis betrifft den Ermittler mit dem größten erlittenen Schaden.\nDu hast Angst das du hier sterben wirst. Erleide zwei verdeckten Horror ({strength} negiert)."
+EventMito10.text,"{rnd:hero} muss pinkeln, kann aber eine Toilette finden. Werde Aufgehalten."
+EventStart.text,"Um der Haft zu entgehen, müsst ihr Leutnant Ramon bestechen. Nur so bekommt ihr euer Hab und Gut wieder. Dazu schlägt Ramon vor, ein wertvolles Idol aus der Villa von Lady Cotington zu stehlen."
+TokenSearchSalaoJogos.text,Du bemerkst etwas unter dem Tisch {observation}.
+EventMito17B.text,"Du hörst Stimmen und denkst es sind deine Freunde ({observation}; 2). Bei Erfolg bemerkst du, dass Niemand da ist und erleidest einen Horror. Versagst du, passiert nichts."
+EventMito19B.text,"Duke dreht durch und beißt dich. Erleide einen Schaden und einen Horror ({will} negiert)."
+EventMito9B.text,"Du fühlst dich beengt. Erleide drei Horror ({agility} negiert)."
+EventAddInvestigadores.text,"Platziere die Ermittler, wie gezeigt."
+EventWIN.text,"Ihr habt das Spiel gewonnen."
+EventTodosEscaparam.text,"Du hast es geschafft am Hund vorbei zu kommen und kannst das Haus betreten."
+EventPassForcaP.text,"Für einen Moment seid ihr wie betäubt. Diesen Moment nutzt die Kreatur zur Flucht. Entferne das Monster vom Spielbrett."
+EventFailAgilidadeP.text,"Du versuchst die Villa zu verlassen ohne dabei durch Lärm unnötige Aufmerksamkeit auf dich zu lenken ({strength}; 2)."
+EventPassAgilidadeP.text,Du entkommst aus der Villa. Entferne die Figur des Ermittlers vom Spielbrett.
+EventPassInfluence1.text,"Du gibst vor, du wärst wegen der Sanierung des Bades hier. Sie glaubt dir und wendet sich wieder ihrer Arbeit zu. Entferne die Figur des Ermittlers vom Spielbrett."
+EventPassInfluence2.text,"Du gibst vor, du wärst wegen der Zählung der Billardkugeln hier. Sie glaubt dir und wendet sich wieder ihrer Arbeit zu. Entferne die Figur des Ermittlers vom Spielbrett."
+EventPassInfluence3.text,"Du gibst vor, du wärst wegen der Reparatur des kaputten Tisches in der Halle hier. Sie glaubt dir und wendet sich wieder ihrer Arbeit zu. Entferne die Figur des Ermittlers vom Spielbrett."
+TokenSearchCocoCao.text,"Sie bemerkt, dass etwas nicht stimmt."
+EventMito22.text,Dieses Ereignis betrifft den Ermittler mit den wenigsten Hinweismarkern.
+EventMito21.text,Dieses Ereignis betrifft den Ermittler mit dem Gegenstand Duke.
+EventPassFalarDog.text,"Du gibst dem Hund etwas von deinem Roastbeef ab und er wird dein Freund. Nimm den Gegenstand: Duke. Hat diesen bereits ein anderer Ermittler, erhältst du einen Hinweismarker als Kompensation. Danach entferne den Personenmarker des Hundes."
+EventMito18.text,Dieses Ereignis betrifft alle männlichen Ermittler.
+EventAddCachorro.text,"Ihr seht einen steunenden Hund im Garten des Herrenhauses. Platziere den Personenmarker des Hundes, wie gezeigt."
+EventMito17.text,Dieses Ereignis betrifft den Ermittler mit dem meisten {influence}.
+EventMito11.text,"Dieses Ereignis betrifft zwei Ermittler (einen männlichen und einen weiblichen), welche im selben Raum sind (falls vorhanden)."
+EventMito9.text,"Dieses Ereignis betrifft alle Ermittler in einem Raum mit nur einer Tür."
+EventAddLobby.text,"Die Haupteingangstür kann nun geöffnet werden. Platziere das Spielplanteil {ffg:TILE_LOBBY_MAD20}, wie gezeigt."
+EventRemoverCocoCao.text,"Der Hund hat einen Haufen gemacht und du rutschst darauf aus. Erleide einen Schaden ({agility} negiert). Entferne danach diesen Durchsuchungsmarker."
+EventItensConfiscados.text,"Das Idol wurde dir weggenommen. Entferne den Besonderen Gegenstand {ffg:UNIQUE_ITEM_GROTESQUE_STONE} aus dem Spiel und platziere Durchsuchungsmarker, wie gezeigt."
+EventAddSalaLeitura.text,"Du und alle anderen Ermittler werden in der Bibliothek eingesperrt. Platziere das Spielplanteil {ffg:TILE_LIBRARY_MAD20}, wie gezeigt. Danach platziere alle Ermittler auf einem Feld der Bibliothek, nach Wahl des zugehörigen Spielers."
+EventAddQuartoP.text,"Die Tür führt in ein Schlafzimmer. Platziere das Spielplanteil {ffg:TILE_MASTER_BEDROOM_MAD01}, wie gezeigt. Danach entferne diesen Marker."
+EventGetCaixaEnigmatica.text,"Du findest eine verschlossene Kiste. Um einen Öffnungsversuch wagen zu können brauchst du den Besonderen Gegenstand {ffg:UNIQUE_ITEM_GOLD_KEY}. Nimm den Besonderen Gegenstand {ffg:UNIQUE_ITEM_PUZZLE_BOX}. Danach entferne diesen Durchsuchungsmarker."
+EventAskIdoloConfiscado.text,"Wurde der Ermittler mit dem Besonderen Gegenstand {ffg:UNIQUE_ITEM_GROTESQUE_STONE} in der {ffg:TILE_LIBRARY_MAD20} eingesperrt?"
+EventProcurarIdolo1.text,Hier gibt es nichts
+EventFailInfluenceF.text,"Der Koch glaubt deine Lügen nicht. Erleide einen Horror."
+EventFailAgilidadeF.text,"Du machst viel Lärm, bei dem Versuch die Villa zu verlassen, was die Aufmerksamkeit des Kochs auf sich ziehen könnte ({influence}; 2)."
+EventAddEscritorio.text,"Platziere das Spielplanteil {ffg:TILE_OFFICE_MAD20}, wie gezeigt. Danach entferne den Erkundungsmarker."
+EventAddSaidaP.text,"Ihr habt endlich das, wofür ihr hier seid. Ihr könnt aus dem Haupteingang oder aus dem Hintereingang entkommen. Platziere Interaktionsmarker, wie gezeigt."
+EventAddSaida2.text,"Platziere Interaktionsmarker, wie gezeigt."
+EventAvisoFim.text,"Die Raub ist erfolgreich, wenn alle Ermittler aus der Villa entkommen und einer das Idol bei sich trägt."
+EventGetEstatua.text,"Du schaffst es das Kästchen zu öffnen und findest darin, was du gesucht hast. Nimm den Besonderen Gegenstand {ffg:UNIQUE_ITEM_GROTESQUE_STONE} an dich."
+EventAddFimCorredor.text,"Du siehst eine Tür am Ende des Flurs. Platziere das Spielplanteil {ffg:TILE_HALLWAY_3_MAD01}, wie gezeigt. Danach entferne diesen Durchsuchungsmarker."
+EventGetArmaFogo.text,Erhalte den Gegenstand: {c:QItemArmaFogo}.
+EventAddSearchCozinha.text,"Die Speisekammer ist unaufgeräumt und unübersichtlich. Platziere einen Erkundungsmarker, wie gezeigt."
+SpawnAbissal.text,"Eine hässliche Kreatur erscheint. Platziere das Monster {ffg:MONSTER_DEEP_ONE}, wie gezeigt."
+EventGetFeitico.text,Erhalte den Zauberspruch: {c:QItemFeitico}.
+TokenCachorro.text,Wuff! Wuff! Wuff!\nWas willst du tun?
+TokenCachorro.button1,Den Hund ignorieren
+TokenCachorro.button2,Den Hund ansprechen
+TokenCachorro.button3,Den Hund angreifen
+EventAddCorredor2.text,"Hier scheint es nichts Interessantes zu geben, nur ein leerer Flur. Platziere das Spielplanteil {ffg:TILE_HALL_2_MAD20}, wie gezeigt. Danach entferne die Marker."
+EventAddQuarto1.text,"Die Tür führt in ein Quartier der Villa. Platziere das Spielplanteil {ffg:TILE_BEDROOM_1_MAD20}, wie gezeigt."
+EventFim.text,"Herr Ramon wird sehr zufrieden sein. Hoffentlich bleibt euch das Glück hold und ihr werdet nicht wieder verhaftet. ENDE"
+EventMito7.text,"{rnd:hero} stolpert und stößt sich den Kopf an einem Geländer. Erleide einen Schaden. Du greifst dir an den Kopf ({will}; 1). Versagst du, wirst du Benommen."
+EventMito6.text,Du beginnst Stimmen zu hören. Erleide zwei Horror ({observation} negiert).
+EventMito2.text,"Dieses Ereignis betrifft den Ermittler mit den meisten Gegenständen. Du ächtst unter deiner Last ({strength}; 2). Bei Erfolg bist du stark genug und kannst alles tragen. Versagst du, lässt du einen Gegenstand fallen (platziere ihn auf deinem Spielfeld)."
+EventMito3.text,"Dieses Ereignis betrifft den Ermittler mit den meisten Zaubern. Die ganzen Zauber verwirren dich. Erleide drei Horror ({will} negiert)."
+EventMito4.text,"Dieses Ereignis betrifft den Ermittler, der keine Gegenstände besitzt. Du fühlst dich schlecht nichts zu besitzen, bist gleichzeitig aber darauf stolz."
+EventMito5.text,"{rnd:hero} ist von der Schönheit der Villa berauscht. So verliert {rnd:hero} zu viel Zeit, mit dem Betrachten der Szenerie. Werde Aufgehalten."
+EventMito1.text,"{rnd:hero} verliert die Hoffnung die Aufgabe zu bewältigen und denkt übers Aufgeben nach. Erleide zwei Horror ({will} negiert)."
+EventMoveIn.text,Du darfst dich um ein Feld in den Raum bewegen.
+TokenExploreLobby.text,"Die Tür führt in die Haupthalle des Hauses. Möchtest du sie öffnen?"
+TokenSearchLobby2.text,Du schaust dir das Bild an der Wand ganz genau an ({observation}; 1).
+EventFailFalarCao.text,"Du beschließt ein Stück weiter zu gehen, damit der Hund nachkommt. Er bleibt jedoch starr auf das Objekt fixiert und ignoriert dich."
+EventFailEscaparCao.text,"Der Hund ahnt was du vor hast und schnappt nach dir. Du erleidest einen Schaden und bleibst regungslos stehen."
+EventAcharIdolo.text,"Du hast das Idol gefunden. Nimm den Besonderen Gegenstand {ffg:UNIQUE_ITEM_GROTESQUE_STONE} und fliehe aus der Villa. Entferne alle Durchsuchungsmarker vom Spielbrett."
+TokenExploreCozinha.text,"Die seltsamen Geräusche kommen von der anderen Seite der Tür. Willst du den Raum wirklich erkunden?"
+EventAddCantoDoCorredor1.text,"Du siehst einen abzweigenden Flur und eine Tür. Platziere das Spielplanteil {ffg:TILE_HALL_CORNER_1_MAD20}, wie gezeigt."
+TokenExploreLock1.text,Die Tür ist verschlossen.
+EventAbrirLeitura.text,Die Tür sieht nicht sehr stabil aus ({strength}; 2).
+EventAbrirEscritorio.text,Mit ein wenig Geduld könntest du es schaffen das Schloss zu knacken ({will}; 2).
+EventFailForcaP.text,Der Butler schlägt zu. Erleide einen Schaden.
+EventPassAbrirEsc.text,Du schaffst es die Tür zu öffnen. Entferne den Erkundungsmarker.
+EventAbrirQuartoP.text,"Wenn du einen Schlüssel hast, kannst du versuchen die Tür zu öffnen."
+EventAbrirQuartoP.button2,Ich habe keinen Schlüssel
+EventAbrirComChaveB.text,Welche Schlüssel hast du bei dir?
+EventAbrirComChaveB.button1,Goldener Schlüssel
+EventAbrirComChaveB.button2,Messingschlüssel
+EventVocenaotemchave.text,"Bevor hier etwas stehlen kannst, brauchst du einen Schlüssel."
+EventMatandoManiaco.text,"Nachdem der Wahnsinnige vor dir zusammenbricht, beschließt du ihn zu durchsuchen. Du findest einen Schlüssel. Nimm den Besonderen Gegenstand {c:QItemChaveDeBronze}."
+TokenExploreCorredor1.text,Die Tür steht halb offen. Es ist nichts zu hören.
+TokenExploreSalaJogos.text,Die Tür führt in ein kleines Zimmer.
+TokenExploreCorredor2.text,Die Tür führt zu einem Flur.
+TokenExploreQuarto1.text,Die Tür scheint in einen der Räume der Villa zu führen.
+TokenExploEscritorio.text,"Der Seiteneingang ist nicht verschlossen, möchtest du ihn betreten?"
+EventClickCaixaEnigmatica.text,"Das Schloss ist massiv und scheint einen komplexen Öffnungsmechanismus zu haben. Um einen Öffnungsversuch mit {agility} wagen zu können brauchst du einen den Besonderen Gegenstand {c:QItemChaveDourada}."
+EventFailSearchLobby2.text,Du betrachtest dir das Gemälde ganz genau und schwelgst in Gedanken.
+EventGetEquipamento.text,Erhalte den Gegenstand: {c:QItemEquipamento}.
+EventGetFaixas.text,Erhalte den Gegenstand: {c:QItemFaixas}.
+SpawnCaoTindalo.text,"Der Hund sieht deinen Angriff voraus und die Luft um ihn verschwimmt. Entferne den Personenmarker der Hundes und platziere das Monster {ffg:MONSTER_HOUND_OF_TINDALOS}. Du darfst diese Runde keine Aktion mehr durchführen."
+EventMatarCao.text,"Du tötest den Hund und verpasst damit die Chance ihn zu deinem Verbündeten zu machen. Immerhin ist jetzt der Weg frei."
+EventEscaparCao.text,"Vielleicht kannst du dich vorbei schleichen, so dass der Hund dich nicht bemerkt ({agility}; 1)."
+EventFalarCao.text,Mit beruhigen Worten und Gesten näherst du dich dem Hund ({influence}; 2).
+EventPassEscaparCao.text,Du hast es geschafft dich am Hund vorbei zu schleichen. Platziere deinem Ermittler auf dem Feld hinter der Tür.
+EventChaveNaoServe.text,Der Schlüssel passt nicht zu dieser Tür.
+EventAddChaveDourada.text,"Auf dem Tisch liegt ein Gegenstand. Platziere den Besonderen Gegenstand {c:QItemChaveDourada}, wie gezeigt."
+SpawnManiaco.text,"Der Mann in dem Zimmer scheint völlig durchgeknallt zu sein. Platziere das Monster {ffg:MONSTER_MANIAC}, wie gezeigt."
+EventOpcSearchCorredorNS.text,Du verstehst nichts von dem Geschriebenen.
+EventGetItensSearchLobby2.text,Du benötigst die richtige Kombination um an den Inhalt zu gelangen.
+TokenSearchCorredor.text,"Du siehst einen umgefallen Tisch. Um ihn herum liegen Papiere verstreut. Führe einen Test auf {will} durch (du kannst dabei Hinweismarker ausgeben um einen {clue} in einen {success} zu verwandeln)."
+TokenSearchCorredor.button2,{clue}
+TokenSearchCorredor.button3,{clue}{clue}
+TokenSearchCorredor.button4,{success}
+TokenSearchCorredor.button5,{success}{clue}
+TokenSearchCorredor.button6,{success}{success}
+EventOpcSearchCorredorC.text,"Du hast ein paar Ideen, wo das Idol sein könnte. Erhalte einen Hinweismarker. Danach entferne den Durchsuchungsmarker."
+EventOpcSearchCorredorCC.text,"Du kannst lesen, was darauf geschrieben steht. Endlich ein paar Antworten. Erhalte zwei Hinweismarker."
+EventOpcSearchCorredorCS.text,"Du kannst lesen, was darauf geschrieben steht, aber es stellt dir immer noch ein Rätsel. Erhalte einen Hinweismarker und folgenden Gegenstand."
+EventOpcSearchCorredorS.text,Du verstehst nichts von dem was da geschrieben steht. Scheinst aber was anderes gefunden zu haben.
+EventOpcSearchCorredorSS.text,Unter den Papieren findest du etwas. Nimm es dir und werde Konzentriert.
+EventPassQuadroLobby.text,"Der Bilderrahmen hängt schief. Als du ihn begradigst findest du etwas dahinter."
+EventAddParedeLobby.text,"Platziere einen Wandmarker, wie gezeigt."
+EventAddSalaoJogos.text,"Die Tür führt in ein schönes Spielzimmer mit einem Billiardtisch in der Mitte. Platziere das Spielplanteil {ffg:TILE_BILLIARDS_ROOM_MAD20}, wie gezeigt."
