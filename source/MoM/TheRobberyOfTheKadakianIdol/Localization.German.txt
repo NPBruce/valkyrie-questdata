@@ -26,7 +26,7 @@ YES,Ja
 TokenSearchLobby1.text,"Du siehst einige Papiere, welche sich auf dem Tisch türmen."
 quest.name,Der Raub des Kadakian Idols
 quest.description,"Ihr wurdet zu Unrecht verurteilt und ins Gefängnis gesperrt. Ihr beschließt auszubrechen. Dazu müsst ihr aber zunächst Gefallen für die Wachen erledigen um mit euren eingelagerten Besitz zu entkommen."
-quest.authors,<b>Author</b>\nPriscila Gonzaga\n\n<b>Übersetzer</b>\nDeutsch: redwolf2
+quest.authors,<b>Author</b>\nPriscila Gonzaga\n\n<b>Übersetzer</b>\nDeutsch: redwolf2\nEnglisch: redwolf2
 EventPapeisLobby.text,"Du durchsuchst die Papiere, welche sich auf dem linken Tisch türmen ({lore}; 2). Wenn du es schaffst, findest du wichtige Hinweise zu Lady Cotington und bekommst einen Hinweismarker. Versagst du, gibst du auf, zerknüllst das Papier und wirfst es in den Papierkorb. Entferne danach den Durchsuchungsmarker."
 EventMito18B.text,"Du stoppst vor dem Bildnis einer nackten Frau. Führe einen {observation}-Test aus. Bei Erfolg stellst du fest, dass es sich bei der Frau um deine Mutter handelt und du erhältst einen Horror. Versagst du, gehst du weiter, ohne das Bild zu beachten."
 EventAddSalaJantar.text,"Platziere das Spielplanteil {ffg:TILE_DINING_ROOM_MAD01}, wie gezeigt."
@@ -90,7 +90,7 @@ EventAddSaida2.text,"Platziere Interaktionsmarker, wie gezeigt."
 EventAvisoFim.text,"Die Raub ist erfolgreich, wenn alle Ermittler aus der Villa entkommen und einer das Idol bei sich trägt."
 EventGetEstatua.text,"Du schaffst es das Kästchen zu öffnen und findest darin, was du gesucht hast. Nimm den Besonderen Gegenstand {ffg:UNIQUE_ITEM_GROTESQUE_STONE} an dich."
 EventAddFimCorredor.text,"Du siehst eine Tür am Ende des Flurs. Platziere das Spielplanteil {ffg:TILE_HALLWAY_3_MAD01}, wie gezeigt. Danach entferne diesen Durchsuchungsmarker."
-EventAddSearchCozinha.text,"Die Speisekammer ist unaufgeräumt und unübersichtlich. Platziere einen Erkundungsmarker, wie gezeigt."
+EventAddSearchCozinha.text,"Die Speisekammer ist unaufgeräumt und unübersichtlich. Platziere einen Durchsuchungsmarker, wie gezeigt."
 SpawnAbissal.text,"Eine hässliche Kreatur erscheint. Platziere das Monster {ffg:MONSTER_DEEP_ONE}, wie gezeigt."
 TokenCachorro.text,Wuff! Wuff! Wuff!\nWas willst du tun?
 TokenCachorro.button1,Den Hund ignorieren
@@ -130,7 +130,7 @@ TokenExploreCorredor1.text,Die Tür steht halb offen. Es ist nichts zu hören.
 TokenExploreSalaJogos.text,Die Tür führt in ein kleines Zimmer.
 TokenExploreCorredor2.text,Die Tür führt zu einem Flur.
 TokenExploreQuarto1.text,Die Tür scheint in einen der Räume der Villa zu führen.
-TokenExploEscritorio.text,"Der Seiteneingang ist nicht verschlossen, möchtest du ihn betreten?"
+TokenExploEscritorio.text,"Der Seiteneingang ist nicht verschlossen. Möchtest du ihn betreten?"
 EventClickCaixaEnigmatica.text,"Das Schloss ist massiv und scheint einen komplexen Öffnungsmechanismus zu haben. Um einen Öffnungsversuch mit {agility} wagen zu können brauchst du einen den Besonderen Gegenstand {c:QItemChaveDourada}."
 EventFailSearchLobby2.text,Du betrachtest dir das Gemälde ganz genau und schwelgst in Gedanken.
 SpawnCaoTindalo.text,"Der Hund sieht deinen Angriff voraus und die Luft um ihn verschwimmt. Entferne den Personenmarker der Hundes und platziere das Monster {ffg:MONSTER_HOUND_OF_TINDALOS}. Du darfst diese Runde keine Aktion mehr durchführen."
