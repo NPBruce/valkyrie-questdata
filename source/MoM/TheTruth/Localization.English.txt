@@ -1,6 +1,7 @@
 .,English
 UIFallText.uitext,"Your build your nerve and summon all your bravery. You feel a presence finally leave you as you realize, you are falling...to you death.\n\nThe investigation is complete!\n\n{success}Thank You for Playing{success}"
 UIGhostDefeated.uitext,As the spirit fades from existence the weight on the house lifts and the horror is over.\n\nThe investigation is complete!\n\n{success}Thank You for Playing{success}
+UIDiedText.uitext,"Your worst fears are realized as your breath slows and your muscles weaken. The house, and all that resides here, have become too powerful to overcome. The ritual is finally over. Your life was the final step."
 quest.name,The Truth
 quest.description,"In a state of confusion a strange new friend sends you on a quest to find ""The Truth""."
 quest.authors,<b>Author</b>\nSly Cozz\n\n<b>Translator</b>\nGerman: redwolf2
