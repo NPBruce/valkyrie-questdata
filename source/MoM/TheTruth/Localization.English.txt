@@ -41,7 +41,7 @@ EventRitualTest.button2,{qst:BUTTON2}
 BUTTON2,Button 2
 EventRitualPass.text,"Looking over the floor you see markings....in crayon. To the side of the markings you see a small box, a Ouija board.\nGain the Ritual Components Unique Item and discard this token."
 EventRitualPass.button1,{qst:CONTINUE}
-EventStart1Tile.text,You wake from a weird dream and find yourself outside a strange house.\nPlace the {ffg:TILE_CONSERVATORY_MAD20} tile.
+EventStart1Tile.text,You wake from an unusual dream and find yourself outside a strange house.\nPlace the {ffg:TILE_CONSERVATORY_MAD20} tile.
 EventStart1Tile.button1,{qst:CONTINUE}
 EventPlaceRitualMain.button1,{qst:CONTINUE}
 EventExploreRoom.text,{qst:YOUMAYMOVE1SPACE}
