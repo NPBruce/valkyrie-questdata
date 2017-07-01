@@ -1,7 +1,56 @@
 .,English
+UIFallText.uitext,"Your build your nerve and summon all your bravery. You feel a presence finally leave you as you realize, you are falling...to you death.\n\nThe investigation is complete!\n\n{success}Thank You for Playing{success}"
+UIGhostDefeated.uitext,As the spirit fades from existence the weight on the house lifts and the horror is over.\n\nThe investigation is complete!\n\n{success}Thank You for Playing{success}
 quest.name,The Truth
 quest.description,"In a state of confusion a strange new friend sends you on a quest to find ""The Truth""."
 quest.authors,<b>Author</b>\nSly Cozz\n\n<b>Translator</b>\nGerman: redwolf2
+EventEvidenceRequired5Player.button1,{qst:CONTINUE}
+CONTINUE,Continue
+EventPhotoPass.text,"After organizing the torn peices together you notice something you can't believe. It's a picture of you. Why would this guy, Robert Jensen, have a picture of you?\nGain the Photographic Evidence and 1 Clue, then discard this token."
+EventPhotoPass.button1,{qst:CONTINUE}
+EventSearchPapers.text,You shuffle through the papers looking for something of interest ({observation}).
+EventSearchPapers.button1,{qst:CONTINUE}
+EventSearchPapers.button2,{qst:FAIL}
+FAIL,Fail
+EventPapersPass.text,"Digging through the stack of papers you find an address....Robert Jensen. You have heard the name, but you can't quite picture the face. I wonder if this is who I should be looking for? Gain the Circumstantial Evidence Unique Item and 1 Clue then discard this token."
+EventPapersPass.button1,{qst:CONFIRM}
+CONFIRM,Confirm
+EventHallPapersPass.text,"Searching over and over through a pile of what looks like legal documents you stumble upon a crayon drawing. Its a picture of a little girl standing with a police officer. It reads ""Have a great day at work"".\nGain the Incriminating Evidence Unique Item and 1 Clue, then discard this token."
+EventHallPapersPass.button1,{qst:CONTINUE}
+EventMissingLinkPass.text,"You stumble across a card that wasn't written by a child.\nIt reads, ""Hope you have a great Birthday. Love Grandma and Grandpa J."".\nGain the Missing Link Unique Item and 1 Clue, then discard this token."
+EventMissingLinkPass.button1,{qst:CONTINUE}
+EventTestRitual.text,You gather your research and open your mind as you start performing the ritual. Tap to attempt the puzzle using ({lore}).\nYou can discard evidence to gain an extra attempt.
+EventTestRitual.button1,{qst:CONTINUE}
+PuzzleFinalRitual.button1,{qst:COMPLETE}
+COMPLETE,Complete
+PuzzleFinalRitual.button2,{qst:CLOSE}
+CLOSE,Close
+EventRevolation.text,"In a state of insanity you finally find clarity. Finally, <i>The Truth</i>. What you have been looking for. This is your house. This is your family. You were Robert Jensen the whole time. The monster terrorizing this family was you. What started off as a silly board game with your daughter, turned into a seance....a possession. The days after the event you felt different, disconnected from the world. Your family became more distant as you changed. They saw that you were becoming a monster and they were afraid. The anger was real, the rage was real, but it was something else entirely. "
+EventRevolation.button1,{qst:CONTINUE}
+EventHappy.text,You thank the Lord you were able to fight the urge long enough to rid yourself of this demon. You pray they will forgive you for what you have done. 
+EventHappy.button1,{qst:CONTINUE}
+EventLargeManDied.text,"Now you start to come to grips with the choices you have made. Who was the large man in the foyer? Was it someone coming to help your family or was it all in your head? Whoever it was, you hope no one was actually killed, but you fear the worst."
+EventLargeManDied.button1,{qst:CONTINUE}
+TokenRitual.text,A small area has been cleared out on the floor.
+TokenRitual.button1,{qst:ACTIONSEARCH}
+ACTIONSEARCH,{action} Search
+EventRitualTest.text,You look over the floor trying to find out what happened here ({lore}).
+EventRitualTest.button1,{qst:CONTINUE}
+EventRitualTest.button2,{qst:BUTTON2}
+BUTTON2,Button 2
+EventRitualPass.text,"Looking over the floor you see markings....in crayon. To the side of the markings you see a small box, a Ouija board.\nGain the Ritual Components Unique Item and discard this token."
+EventRitualPass.button1,{qst:CONTINUE}
+EventStart1Tile.text,You wake from a weird dream and find yourself outside a strange house.\nPlace the {ffg:TILE_CONSERVATORY_MAD20} tile.
+EventStart1Tile.button1,{qst:CONTINUE}
+EventPlaceRitualMain.button1,{qst:CONTINUE}
+EventExploreRoom.text,{qst:YOUMAYMOVE1SPACE}
+YOUMAYMOVE1SPACE,You may move 1 space into the explored area.
+EventExploreRoom.button1,{qst:CONTINUE}
+EventStart2Placefigs.text,You enter the court yard but do not remember how you got here.\nPlace your investigators as indicated. Each investigator gains 2 clues.
+EventStart2Placefigs.button1,{qst:CONTINUE}
+EventPlaceAttic.text,You open the door to a small attic. Place the {ffg:TILE_ATTIC_STORAGE_MAD23} tile as indicated.
+EventPlaceAttic.button1,{qst:CONTINUE}
+EventKillMonster.button1,{qst:CONTINUE}
 TokenAtticExplore.text,A door leads to a room at the top of the house.
 TokenAtticExplore.button1,{qst:ACTIONEXPLORE}
 ACTIONEXPLORE,{action} Explore
@@ -9,7 +58,6 @@ TokenAtticStairsKey.text,The door leads to what you believe is top floor of the 
 TokenAtticStairsKey.button1,{qst:ACTIONEXPLORE}
 EventPlaceAtticStairs.text,The door opens to another set of stairs leading to the top level of the house. Place the {ffg:TILE_HALL_STAIRS_MAD20} tile and a Door token as indicated.
 EventPlaceAtticStairs.button1,{qst:CONTINUE}
-CONTINUE,Continue
 TokenAtticStairs.button1,{qst:CONTINUE}
 EventPlace3rdLevelDoors.text,You see two doors at the top of the steps. Place Explore tokens as indicated.
 EventPlace3rdLevelDoors.button1,{qst:CONTINUE}
@@ -19,7 +67,6 @@ EventPlaceLibrarySearch.text,Several items are scattered along the shelves.\nYou
 EventPlaceLibrarySearch.button1,{qst:CONTINUE}
 TokenLibrarySearch.text,Several items are stacked on the shelves.
 TokenLibrarySearch.button1,{qst:ACTIONSEARCH}
-ACTIONSEARCH,{action} Search
 EventDogYes.text," ""I knew you would. There is a terrible man that live here. He is trying to destroy the very world as we know it. You must stop him and the creatures that live here. If they survive you won't be able to perform the final cleansing of this house. Don't fall for their tricks and let them get away. Their strength will only grow as their ritual continues. But first you will have to gain access to the house. You should find the key you need in your pocket.""\nConfused by what you are hearing you reach into your pocket and sure enough there is the key you have been looking for, but how did it get there?\nGain the Brass Key Unique Item.\nAs you look up to ask the dog how he knew, he was gone.\nRemove the Dog Person token."
 EventDogYes.button1,{qst:CONTINUE}
 EventConservatoryDoorKey.button1,{qst:CONTINUE}
@@ -33,12 +80,7 @@ ACTIONMONSTERPRIEST,{action} <i>{ffg:UNIQUE_MONSTER_PRIEST_OF_DAGON}</i>
 ACTIONMONSTERTHRALL,{action} <i>{ffg:MONSTER_THRALL}</i>
 ATTEMPTPUZZLE,Attempt Puzzle
 BUTTON1,Button 1
-BUTTON2,Button 2
 CANCEL,Cancel
-CLOSE,Close
-COMPLETE,Complete
-CONFIRM,Confirm
-FAIL,Fail
 KILLRESTRAINEDMONSTER,Kill a Restrained Monster
 RESTRAINMONSTER,Restrain a Monster
 SELECTMONSTERTOKILL,Select the Monster to kill.
@@ -48,7 +90,6 @@ MONSTERPRIEST,<i>{ffg:UNIQUE_MONSTER_PRIEST_OF_DAGON}</i>
 MONSTERTHRALL,<i>{ffg:MONSTER_THRALL}</i>
 NO,No
 YES,Yes
-YOUMAYMOVE1SPACE,You may move 1 space into the explored area.
 EventRestraint.text,"If you have an item to restrain another investigator you can use it to restrain a monster. Select <i>Restrain a Monster</i> to verify the monster you want to restrain is an available option. Use the item's text to resolve its action as normal. If your attempt is successful place the card under the monster. The monster will no longer activate.\nIf you decide to kill a monster that has been restrained, use the <i>Kill a Restrained Monster</i> option and select the monster to kill. You must be in the same space to perform this action. Once a restrained monster has been killed remove its figure from the board and leave the item used to restrain the monster. It is now free to pick up."
 EventRestraint.button1,{qst:RESTRAINMONSTER}
 EventRestraint.button2,{qst:KILLRESTRAINEDMONSTER}
@@ -88,8 +129,6 @@ EventFindSafe.text,"A small safe sits in the corner beneath the bar.\nThere coul
 EventFindSafe.button1,{qst:CONTINUE}
 TokenPerformRitual.text,This is the ritual they were keeping from you. You can complete their ritual.
 TokenPerformRitual.button1,{action} Perform Ritual
-EventTestRitual.text,You gather your research and open your mind as you start performing the ritual. Tap to attempt the puzzle using ({lore}).\nYou can discard evidence to gain an extra attempt.
-EventTestRitual.button1,{qst:CONTINUE}
 PuzzleFamPic.button1,{qst:COMPLETE}
 EventPhotoTest.text,You scan over the desk looking for anything of importance when you stumble upon an old photo album. Flipping through the pages of the album you notice several pieces of a torn picture fall to the floor. Perhaps you can peice it together.\nTap to attempt the puzzle using {observation}.
 EventPhotoTest.button1,{qst:ATTEMPTPUZZLE}
@@ -99,8 +138,6 @@ EventPhotoTest2.button1,{qst:ATTEMPTPUZZLE}
 EventPhotoTest2.button2,{qst:CANCEL}
 TokenPhotoEv.text,Several personal items sit on the corner table.
 TokenPhotoEv.button1,{qst:ACTIONSEARCH}
-EventPhotoPass.text,"After organizing the torn peices together you notice something you can't believe. It's a picture of you. Why would this guy, Robert Jensen, have a picture of you?\nGain the Photographic Evidence and 1 Clue, then discard this token."
-EventPhotoPass.button1,{qst:CONTINUE}
 EventStart3Bushes.text,You hear something rummaging in the bushes along the house.\nPlace a Search token as indicated.
 EventStart3Bushes.button1,{qst:CONTINUE}
 EventStart4Conservatory.text,You notice a door in front of you that leads to the Conservatory.\nPerhaps you can get into the house through this door.\nPlace an Explore token as indicated.
@@ -113,10 +150,6 @@ EventSolvePuzzle.text,You managed to guess the code as if you knew it all along.
 EventSolvePuzzle.button1,{qst:CONTINUE}
 TokenConservatoryDoor.text,A locked door keeps you from entering the Conservatory. There may be a key close by.
 TokenConservatoryDoor.button1,{qst:CONTINUE}
-EventStart1Tile.text,You wake from a weird dream and find yourself outside a strange house.\nPlace the {ffg:TILE_CONSERVATORY_MAD20} tile.
-EventStart1Tile.button1,{qst:CONTINUE}
-EventStart2Placefigs.text,You enter the court yard but do not remember how you got here.\nPlace your investigators as indicated. Each investigator gains 2 clues.
-EventStart2Placefigs.button1,{qst:CONTINUE}
 EventDogNo.text," ""You don't have a choice"" the dog says growling as he snaps at you. You stand your ground but the dog frightens you to your core. Suffer 1 Sanity ({will} Negates).\nThe dog steps back ""There is a terrible man that live here. He is trying to destroy the very world as we know it. You must stop him and the creatures that live here. If they survive you won't be able to perform the final cleansing of this house. Don't fall for their tricks and let them get away. Their strength will only grow as their ritual continues. But first you will have to gain access to the house. You should find the key you need in your pocket.""\nConfused by what you are hearing you reach into your pocket and sure enough there is the key you have been looking for, but how did it get there?\nGain the Brass Key Unique Item.\nAs you look up to ask the dog how he knew, he was gone.\nRemove the Dog Person token."
 EventDogNo.button1,{qst:CONTINUE}
 SpawnSpawnThrall.text,"A creature appears in the distance. ""What are you doing?"" the creature screams as it backs away from you.\nPlace a Thrall as indicated."
@@ -177,8 +210,6 @@ EventGainRope.text,You find what is left of an old used rope. There should be en
 EventGainRope.button1,{qst:CONTINUE}
 EventHandcuffPass.text,The chest is full of old uniforms and clothes. You drag out each article of clothing one at a time. Finally in the bottom of the chest you find some of his equipment.\nTake the Handcuff Unique Item then discard this token.\nYou can interact with this item using the app.
 EventHandcuffPass.button1,{qst:CONTINUE}
-EventExploreRoom.text,{qst:YOUMAYMOVE1SPACE}
-EventExploreRoom.button1,{qst:CONTINUE}
 SpawnThrall.text, The creature starts barricading the door.\nPlace the Thrall and a Barricade token as indicated.
 SpawnThrall.button1,{qst:CONTINUE}
 EventClosetSearch.text,The creature is locked up in the closet. You might be able to coax it out. Place a Search token as indicated.
@@ -229,16 +260,10 @@ EventGainAxe.text,The shelf drags across the floor and you are able to pull some
 EventGainAxe.button1,{qst:CONFIRM}
 EventGainWrench.text,The shelf drags across the floor and you are able to pull something out from behind it. You gained the Wrench Common Item then discard this token.
 EventGainWrench.button1,{qst:CONFIRM}
-EventPapersPass.text,"Digging through the stack of papers you find an address....Robert Jensen. You have heard the name, but you can't quite picture the face. I wonder if this is who I should be looking for? Gain the Circumstantial Evidence Unique Item and 1 Clue then discard this token."
-EventPapersPass.button1,{qst:CONFIRM}
-EventHallPapersPass.text,"Searching over and over through a pile of what looks like legal documents you stumble upon a crayon drawing. Its a picture of a little girl standing with a police officer. It reads ""Have a great day at work"".\nGain the Incriminating Evidence Unique Item and 1 Clue, then discard this token."
-EventHallPapersPass.button1,{qst:CONTINUE}
 EventGainKeysPass.text,"The figure finally drops its guard for just a second to speak to you,\n""I am not coming out. What you want is upstairs. Just leave us alone"".\nThe figure reaches into its pocket, pulls out a set of keys, and throws it at the window. Gain the Old Keys Unique Item and discard this token."
 EventGainKeysPass.button1,{qst:CONTINUE}
 EventFindRevolver.text,The safe opens and you find a small handgun.\nGain the .38 Revolver Common Item and discard this token.
 EventFindRevolver.button1,{qst:CONTINUE}
-EventMissingLinkPass.text,"You stumble across a card that wasn't written by a child.\nIt reads, ""Hope you have a great Birthday. Love Grandma and Grandpa J."".\nGain the Missing Link Unique Item and 1 Clue, then discard this token."
-EventMissingLinkPass.button1,{qst:CONTINUE}
 EventgainLuckyCigCase.text,Looking over the shelves you find something that seems to be of use.\nGain the Lucky Cigarette Case Common Item and remove this token.
 EventgainLuckyCigCase.button1,{qst:CONTINUE}
 EventGainBible.text,Looking over the shelves you find something that seems to be of use.\nGain the King James Bible Common Item and remove this token.
@@ -249,8 +274,6 @@ EventFindMeatCleaver.text,You search through the shelf to find something of use.
 EventFindMeatCleaver.button1,{qst:CONTINUE}
 EventGainMagnifyingGlass.text,Looking over the shelves you find something that seems to be of use.\nGain the Magnifying Glass Common Item and remove this token.
 EventGainMagnifyingGlass.button1,{qst:CONTINUE}
-EventRitualPass.text,"Looking over the floor you see markings....in crayon. To the side of the markings you see a small box, a Ouija board.\nGain the Ritual Components Unique Item and discard this token."
-EventRitualPass.button1,{qst:CONTINUE}
 EventThrallDied.text,"The creature falls to the ground lifeless. A part of you seems to feel empty, but you know you are doing what you need to."
 EventThrallDied.button1,{qst:CONTINUE}
 EventGainOldKeys2.text,Wondering if the figure was carrying anything important you search its pockets for anything useful.\nGain the Old Keys Unique Item.
@@ -294,8 +317,6 @@ EventSpeaktoDog.button1,{qst:YES}
 EventSpeaktoDog.button2,{qst:NO}
 EventSpeaktoDog.button3,{qst:CANCEL}
 PuzzleFixLockPad.button1,{qst:COMPLETE}
-PuzzleFinalRitual.button1,{qst:COMPLETE}
-PuzzleFinalRitual.button2,{qst:CLOSE}
 SpawnGhost.text,As your mind comes to grips with reality the men coming for you fade away into thin air. They were nothing more than your demons trying to stop you. Your relief is short lived knowing the spirit that left you has now returned to its full strength as the dog transforms to its true form. Place the Ghost as indicated and remove any remaining Cultists and Dog Person token.
 SpawnGhost.button1,{qst:CONTINUE}
 EventSearchPainting.text,"A large painting of five dogs playing poker is displayed on the back wall. For a second you wonder if any of them know your new friend. You search all over and even behind the painting, but you find nothing but a good laugh. Gain 1 Clue and discard this token."
@@ -308,9 +329,6 @@ EventWhyKill.button1,{qst:CONTINUE}
 EventDogDisapears.text,"The dog growls ""You have everything you need. Now do what you came here for"". You raise your hands up to guard yourself fearing the dog could attack. Facing your fear you open your eyes to find the dog is no longer there.\nGain 1 Clues and discard the Dog Person token."
 EventSearchBarricade.text,You tell the creature to come out but it won't listen. You look over the closet but you don't see a way in other than to bust through. Gain 1 Clues and discard this token.
 EventTurnOffSink.text,The water is still running and the plug is in the drain. Someone must have forgotten about it. You turn the water off and wonder who left the water running.\nGain 1 clues and discard this token.
-EventGameEnd.text,As the spirit fades from existence the weight on the house lifts and the horror is over.\n\nThe investigation is complete!\n\n{success}Thank You for Playing{success}
-EventThefall.text,"Your build your nerve and summon all your bravery. You feel a presence finally leave you as you realize, you are falling...to you death.\n\nThe investigation is complete!\n\n{success}Thank You for Playing{success}"
-EventThefall.button1,{qst:CONTINUE}
 SpawnCultist.text,Your suspicions are confirmed. The figure has summoned servants to stop you from cleansing this house. Place a monster as indicated.
 EventBreakDoorPass.text,You manage to get just enough leverage to pry the lock and the door breaks open.
 EventBreakDoorPass.button1,{qst:CONTINUE}
@@ -341,7 +359,6 @@ EventPlaceOldKeys.button1,{qst:CONTINUE}
 EventLibraryBarricade.button1,{qst:CONTINUE}
 EventRemoveLibraryBarricade.button1,{qst:CONTINUE}
 PuzzleSmallSafe.text,{qst:PuzzleKeyCode.text}
-EventLargeManDied.text,"Now you start to come to grips with the choices you have made. Who was the large man in the foyer? Was it someone coming to help your family or was it all in your head? Whoever it was, you hope no one was actually killed, but you fear the worst."
 EventPlaceFoyer.text,You see a welcoming foyer and oddly feel at home.\nPlace the {ffg:TILE_ENTRY_HALL_MAD20} tile and Wall token as indicated.
 EventPlaceFoyer.button1,{qst:CONFIRM}
 EventAddStairsToken2.text,A small door to your left may lead to the upper level.\nPlace an Explore token as indicated.
@@ -353,15 +370,10 @@ EventSuicideFail.text,"You built up your courage and tried your best, but you ju
 EventSpawnDogThrall.text,{qst:EventSpawnDogPriest.text}
 EventPlaceKidsBed.text,You open the door and are surprised to see a kid's room.\nWhat has this creature done with this child?\nPlace the {ffg:TILE_BEDROOM_MAD23} tile as indicated.
 EventSpawnDogPriest.text,The dog seems to have followed you into the house. Place the Dog Person token as indicated.
-EventRevolation.text,"In a state of insanity you finally find clarity. Finally, <i>The Truth</i>. What you have been looking for. This is your house. This is your family. You were Robert Jensen the whole time. The monster terrorizing this family was you. What started off as a silly board game with your daughter, turned into a seance....a possession. The days after the event you felt different, disconnected from the world. Your family became more distant as you changed. They saw that you were becoming a monster and they were afraid. The anger was real, the rage was real, but it was something else entirely. "
 EventSpawnGhost.button1,{qst:CONTINUE}
-EventRevolation.button1,{qst:CONTINUE}
 EventWifeDied.text,But the truth comes at the cost of your very soul. Your wife. Your beautiful wife. Your poor wife is dead and you killed her.
 EventWifeDied.button1,{qst:CONTINUE}
 EventGirlDied.text,But the with reality comes my true horror. Your daughter is dead. She is dead because of you and she had so much to live for. She was smart and sweet....and now she is gone.
-EventHappy.text,You thank the Lord you were able to fight the urge long enough to rid yourself of this demon. You pray they will forgive you for what you have done. 
-EventHappy.button1,{qst:CONTINUE}
-EventLargeManDied.button1,{qst:CONTINUE}
 EventGirlDied.button1,{qst:CONTINUE}
 EventBeginBadRitual.text,"""You have done well"" says the dog, ""You are ready to begin the final step to cleanse this house""."
 EventSuicide.text,You close your eyes and dig deep down in your soul ({will}). You may discard any evidence to convert a {clue} into a {success}. 
@@ -369,14 +381,11 @@ EventFailPapers.text,You search and search but there just doesn't seem to be any
 EventHallPapersFail.text,"You look at the pages over and over, but there is just nothing there."
 EventGainKeysTest.text,You hear the figure calling our for help. You plead with it stop ({influence}).
 EventHelpComes.button1,{qst:BUTTON1}
-EventPlaceAttic.text,You open the door to a small attic. Place the {ffg:TILE_ATTIC_STORAGE_MAD23} tile as indicated.
 EventPlaceBarSearch.text,A small bar seems to be stocked with several bottles. Place a Search token as indicated.
 EventPlaceBarSearch.button1,{qst:CONTINUE}
 EventPlaceDining.text,The door opens to a large dining hall. Place the {ffg:TILE_DINING_ROOM_MAD20} tile and Wall Tokens as indicated.
 EventPlaceAtticStairsExplore.text,A door at the top of the stairs appears to be locked. Place an Explore token as indicated.
 EventHandcuff.text,A small chest sits at the end of the bed. Place a Search token as indicated.
-TokenRitual.text,A small area has been cleared out on the floor.
-EventRitualTest.text,You look over the floor trying to find out what happened here ({lore}).
 EventPlaceRitualThrall.text,{qst:EventPlaceRitualThrall.text}
 EventPlaceRitualThrall.button1,{qst:CONTINUE}
 TokenSink.text,A sink is overflowing with water.
@@ -389,9 +398,6 @@ EventBreakDoor.text,You use whatever you can find to pry the door open ({strengt
 EventStackofPapers.text,{qst:EventPapers2.text}
 EventSolvePuzzle2.text,You managed to reroute the wires and you hear a click.\nThe house opens to a small entry way. Place the {ffg:TILE_BATHROOM_MAD20} tile as indicated.
 EventPlaceAtticStairsExplore.button1,{qst:CONTINUE}
-EventSearchPapers.text,You shuffle through the papers looking for something of interest ({observation}).
-EventSearchPapers.button1,{qst:CONTINUE}
-EventSearchPapers.button2,{qst:FAIL}
 EventMissingLinkTest.text,Your eyes scan over a dresser covered with crayon colored drawings hoping to find something that stands out ({observation}).
 EventMissingLinkTest.button1,{qst:CONTINUE}
 EventMissingLinkTest.button2,{qst:BUTTON2}
@@ -415,8 +421,6 @@ EventSearchPainting.button1,{qst:CONTINUE}
 EventPlacePainting.button1,{qst:CONTINUE}
 EventPlacePainting.text,A large painting hangs on the far end of the pool room. Place a Search token as indicated.
 EventPlaceBilliards.text,The door opens to a small room with a pool table. Place the {ffg:TILE_BILLIARDS_ROOM_MAD20} as indicated.
-EventEvidenceRequired5Player.button1,{qst:CONTINUE}
-EventPlaceRitualMain.button1,{qst:CONTINUE}
 SpawnCultist2.text,They have surrounded the house. Place the monster as indicated.
 SpawnCultist.button1,{qst:CONTINUE}
 SpawnCultist2.button1,{qst:CONTINUE}
@@ -452,9 +456,6 @@ TokenConservatoryKey.button1,{qst:ACTIONEXPLORE} Observatory
 EventBathroomToken.text,A small door looks like it leads to small bathroom.\nPlace an Explore token as indicated.
 EventPhotoFail.text,You look and look but nothing seems of any importance.
 EventPhotoFail.button1,{qst:CONTINUE}
-TokenRitual.button1,{qst:ACTIONSEARCH}
-EventRitualTest.button1,{qst:CONTINUE}
-EventRitualTest.button2,{qst:BUTTON2}
 TokenBushes.button1,{qst:ACTIONSEARCH} Bushes
 EventPlaceLibraryExploreToken.text,You notice a door across the room that may gain you access to the house.\nPlace an Explore token as indicated.
 EventPorchSearchTest.button1,{qst:CONTINUE}
@@ -480,8 +481,6 @@ TokenAxe.button1,{qst:ACTIONSEARCH}
 EventFailAxe.text,You push with all your might but the shelf is just too heavy
 EventBalconySight.text,"You are overcome by a gorgeous view, but quickly the fear sets in as you look down. A fall would certainly spell doom."
 EventPlaceBalcony2.button1,{qst:CONTINUE}
-EventGameEnd.button1,{qst:CONTINUE}
-EventKillMonster.button1,{qst:CONTINUE}
 EventPlaceStairsFromHallway.text,A set of stairs leads to the lower level of the house. Place the {ffg:TILE_HALL_STAIRS_MAD23} tile and a Door token as indicated.
 EventPlaceStairs2.text,A set of stairs leads to the upper level of the house. Place the {ffg:TILE_HALL_STAIRS_MAD23} tile and a Door token as indicated.
 EventPlaceStairsFromHallway.button1,{qst:CONTINUE}
@@ -509,7 +508,6 @@ EventRitualNotComplete.button1,{qst:CONTINUE}
 EventPlaceBalcony.text,You open the door to a large balcony on the top floor of the house. Place the {ffg:TILE_BALCONY_MAD23} tile as indicated.
 EventDogMad.text,"The dog growls at you as you approach it. ""You have not done your job"" says the dog. ""You need to go back and do your job or I need to find someone else who can""."
 EventBeginBadRitual.button1,{qst:CONTINUE}
-EventPlaceAttic.button1,{qst:CONTINUE}
 EventPlaceRitual.text,A small area has been cleared out on the floor. Place a Search token as indicated.
 EventPlaceBalcony.button1,{qst:CONTINUE}
 EventPlaceDogBalcony.button1,{qst:CONTINUE}
