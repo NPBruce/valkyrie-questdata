@@ -1,6 +1,7 @@
 .,German
 UIFallText.uitext,"Du beruhigst dich und sammelst allen deinen Mut. Du fühlst, wie die Präsenz dich langsam verlässt, als du bemerkst, dass du fällst...in den Tod.\n\nDie Ermittlung ist abgeschlossen!\n\n{success}Vielen Dank fürs Spielen{success}"
 UIGhostDefeated.uitext,"Als sich der Geist auflöst, verschwindet auch die dunkle Präsenz des Hauses und der Schrecken ist vorbei.\n\nDie Ermittlungen sind abgeschlossen!\n\n{success}Danke fürs Spielen{success}"
+UIDiedText.uitext,"Deine schlimmsten Albträume werden wahr, als sich dein Atem verlangsamt und deine Muskeln langsam nachgeben. Das Haus und alles was ihm inne wohnt ist zu mächtig geworden um es zu besiegen. Das Ritual ist endlich vorbei. Dein Leben war der letzte Schritt dafür."
 quest.name,Die Wahrheit
 quest.description,"Ein merkwürdiger, neuer Freund entsendet dich auf die Suche nach ""Der Wahrheit""."
 quest.authors,<b>Autor</b>\nSly Cozz\n\n<b>Übersetzer</b>\nDeutsch: redwolf2
@@ -49,7 +50,6 @@ SELECTMONSTERTORESTRAIN,Monster zum Fesseln auswählen
 NO,Nein
 YES,Ja
 EventRestraint.text,"Wenn du einen Gegenstand hast, um einen anderen Ermittler zu fesseln, kannst du ihn einsetzten, um damit ein Monster zu fesseln. Wähle <i>Monster fesseln</i> um sicherzustellen, dass das Monster erlaubt ist zu fesseln. Benutze den Text auf der Karte für Anweisungen, wie die Fesselung durchzuführen ist. Das gefesselte Monster wird sich nicht weiter bewegen. Tötest du ein Monster, das gefesselt ist, wird es aus dem Spiel entfernt und die Karte bleibt liegen. Du kannst regulär eine Aktion ausgeben um sie wieder aufzuheben."
-EventKillGuardSelect.text,"Wähle das Monster, welches du töten willst."
 TokenOpenHouse.text,"Eine Tür, die ins Haus führt."
 EventGuessKeyPad.text,Die Tür scheint durch ein Nummernschloss gesichert zu sein. Vielleicht kannst du die richtige Kombination erraten ({observation}).
 EventGuessKeyPad.button1,Kombinationen ausprobieren
@@ -80,7 +80,6 @@ EventPlaceMeatCleaver.text,"Ein Regal an der Wand enthält verschiedene Kochuten
 EventActivation.button1,<i>Das Monster greift an</i>
 EventActivation.button2,<i>Das Monster versteckt sich</i>
 CustomMonsterPriest.monstername,Priester
-EventDeepOneHybridSelection.text,"Wähle das Monster, welches du aufhalten willst."
 SpawnSpawnHybrid.text,"Eine große, breitschultrige Kreatur erscheint aus einer der Türen. Sie gröhlt dir mit tiefer Stimme zu ""Verschwinde hier!"". Platziere das Monster {ffg:MONSTER_DEEP_ONE_HYBRID}, wie gezeigt."
 EventGainRope.text,"Du findest den Rest eines alten Seils. Es scheint noch lang genug zu sein um es gebrauchen zu können. Erhalte den Besonderen Gegenstand {ffg:UNIQUE_ITEM_ROPE}, danach entferne diesen Marker."
 EventHandcuffPass.text,"Die Kiste ist voll mit alten Uniformen. Du nimmst jede heraus und schaust sie dir an. Als du am Boden der Kiste ankommst findest du einen seiner Gegenstände. Nimm den Besonderen Gegenstand {ffg:UNIQUE_ITEM_HANDCUFFS}, danach entferne diesen Marker."
@@ -117,11 +116,12 @@ EventMedicalTextbook.text,"Auf dem Schrank entdeckst du etwas Nützliches. Platz
 EventBandages.text,"Auf dem Schrank siehst du etwas, dass du gebrauchen kannst. Platziere den Gegenstand {ffg:COMMON_ITEM_BANDAGES}, wie gezeigt."
 ActivationCustomAct.ability,"Die Kreatur bewegt sich nicht. Diese Kreatur wird nur angreifen, wenn sich ein Ermittler auf seinem Feld befindet."
 ActivationCustomAct.movebutton,Das Monster versteckt sich.
-ActivationCustomAct.master,"Die verzweifelt, in die Ecke gedrängte Kreatur langt nach dir um seine Klauen in deine Augen zu bohren ({agility}, 2). Bist du erfolgreich, trittst du das Monster zurück, als es auf dich zugestürmt. Versagst du, reift sich das Monster dein Gesicht und steckt eine Klauen tief in deine Augen. Erleide 2 Schaden und werde Benommen."
+ActivationCustomAct.master,"Die verzweifelt in die Ecke gedrängte Kreatur langt nach dir um seine Klauen in deine Augen zu bohren ({agility}, 2). Bist du erfolgreich, trittst du das Monster zurück, als es auf dich zugestürmt. Versagst du, reift sich das Monster dein Gesicht und steckt eine Klauen tief in deine Augen. Erleide 2 Schaden und werde Benommen."
 ActivationCustomAct.move,Das Monster weigert sich herauszukommen.
 ActivationCustomAct2.master,"Die Kreatur sieht sich nach Gegenständen um, welche sie nach dir werfen kann. Dann schleudert sie Glas und schwere Objekte nach dir, in der Hoffnung sich damit vor dir verteidigen zu können ({agility}, 2). Bist du erfolgreich, schaffst du es den Gegenständen auszuweichen, welche auf deine Kopf zurasen. Versagst du, trifft dich eine Glasflasche am Kopf und ihre Splitter bohren sich in dein Gesicht. Erleide 2 Schaden und werde Aufgehalten."
 ActivationCustomAct3.master,"Die Kreatur hastet auf dich zu und singt dabei eine seltsame Botschaft ({will}, 2). Bist du erfolgreich, stoßt du das Monster zurück, wodurch es verstummt. Versagst du, schaffst du es nicht das Monster aufzuhalten und es spricht die mystischen Worte ""Einer von uns"" aus. Erleide 2 Schaden und werde Betäubt."
 CustomMonsterCustomThrall.monstername,Kreatur
+EventMonsterHides.text,Das Monster weigert sich herauszukommen.
 EventGain2x4.text,"Du ziehst mit deiner ganzen Kraft und mit dem letzten Ruck gelingt es dir den Gegenstand zu lösen. Erhalte den Gegenstand {ffg:COMMON_ITEM_2x4}, danach entferne diesen Marker."
 EventGainMachete.text,"Der Schrank lässt sich verrücken und du schaffst es etwas dahinter hervorzuziehen. Erhalte den Gegenstand {ffg:COMMON_ITEM_MACHETE}, danach entferne diesen Marker."
 EventSearchAxe.text,Du schaust dir das Regal an und findest nichts von Interesse. Du bemerkst aber etwas hinter dem Regal und versuchst das Regal mit aller Kraft wegzuschieben um an den Gegenstand zu gelangen ({strength}).
