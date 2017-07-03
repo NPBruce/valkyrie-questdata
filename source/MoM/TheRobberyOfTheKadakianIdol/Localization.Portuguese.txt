@@ -27,7 +27,7 @@ TokenSearchLobby1.text,Você observa alguns papéis na mesinha a esquerda
 TokenSearchLobby1.button1,{qst:ACTIONCONTINUE}
 quest.name,O Roubo do Idolo Kadakian
 quest.description,"Vocês foram presos injustamente e conseguem fugir da prisão, mas precisam fazer um favor a um guarda para que não sejam presos novamente e consigam reaver seus pertences."
-quest.authors,<b>Autor</b>\nPriscila Gonzaga\n\n<b>Tradutor</b>\nAlemão: redwolf2
+quest.authors,<b>Autor</b>\nPriscila Gonzaga\n\n<b>Tradutor</b>\nInglês: redwolf2\nAlemão: redwolf2
 EventPapeisLobby.button1,{qst:CONTINUE}
 EventPapeisLobby.text,"Você observa alguns papéis na mesinha a esquerda, faça um teste de [{lore};2]. Se passar, você consegue identificar que são papéis imporantes sobre a Lady Cotington e obtém 1 pista. Se falhar, você amassa os papéis e os joga no lixo. Remova este marcador de procura"
 EventMito18B.text,"Vocês param diante do quadro de uma mulher nua. Faça um teste de {observation}. Se passar, você repara que é a sua mãe, sofra um horror. Se falhar, a mulher não lhe chama atenção e nada acontece."
