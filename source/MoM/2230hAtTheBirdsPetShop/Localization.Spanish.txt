@@ -8,6 +8,53 @@ UITxtFINAL3.uitext,"La imagen del sr. Ford se desvanece ante tus ojos, del mismo
 UITxtFINAL2.uitext,Sigues a la mujer y entras en el bosque. De repente los arboles empiezan a desvanecerse del mismo modo que el suelo y el cielo. Por unos momentos todo es oscuridad. Poco a poco eres consciente de todas las partes de tu cuerpo. Mueves los dedos de manos y pies asegurándote que todo sigue en su sitio.\n\nOs despertáis en una pequeña habitación poco iluminada. Sólo la luz de la mesita de noche y el escritorio os dejan ver que las paredes están llenas de cuadros de rostros desconocidos que parecen seguiros con la mirada.\n\n Elimina todos los módulos del tablero. Coloca el módulo Dormitorio 1 {MAD20} y una ficha de pared en el lugar señalado. Cada investigador gana una Pista {clue}.\n\nNo habéis completado la investigación con éxito.
 UIButtonFIN2.uitext,Despertar
 UITextoGameOver.uitext,"Las paredes se desvanecen ante tus ojos, del mismo modo que el suelo y el techo. Por unos momentos todo es oscuridad. Abres los ojos y la figura de un hombre con traje y el rostro en la oscuridad aparece ante ti.\n\n<i>-Buenas noches, Pajaritos. ¿os apetece un whisky? Aunque parece que aún no os lo habéis ganado- </i>\n\nAvanza un paso para dejar su rostro a la vista. El señor Ford os sonríe y en su mano aparece un vaso lleno con dos hielos y le da un sorbo. \n\n<i>-¡Me encanta tener invitados! ¡Y si son cómo vosotros, nunca me aburro!-</i>. \n\nAvanza desafiante hacia vosotros mientras os examina \n\n<i>- A ver si la próxima vez lo hacéis un poco mejor.-</i>\n\nNo habéis completado la investigación."
+EventBusquedaHAB11.text,"Miras por el agujero del cerrojo pero no consigues ver nada. Golpeas la puerta con fuerza, pero sigue sin moverse. Ni tan solo cimbrea. De repente te das cuenta de que el tacto de la madera es inusualmente frio y un escalofrió recorre tu espalda, como si te estuvieran observando. Instintivamente te giras y algo llama tu atención. \n\nSufres 1 de Horror boca abajo anulado por ({will}).\nColoca las fichas de Búsqueda en los lugares señalados."
+EventBusquedaHAB11.button1,Continuar
+quest.name,En la pajarería a las 22.30h
+quest.description,"La familia Gordon se ha puesto en contacto contigo para que encuentras a su hija, Felicia. Lleva unos días desaparecida y aunque la policía cree que ha huido con su novio, sus padres no están tan seguros. La última pista es una cita en su agenda personal: <i>En la pajarería a las 22.30h</i>."
+quest.authors,Miss Fernwood & EtiCarasoft
+EventFinalRounEnd.text,"<b> {rnd:hero} </b> ve como la figura translucida de un niño se le aparece delante, ladea la cabeza y con una vocecita estridente dice: <i>\n- 1.- </i>\n\n<b> {rnd:hero} </b> sufre 1 de Horror anulado por ({will}-2)."
+EventFinalRounEnd.button1,Continuar
+EventFinalRound4.text,"<b> {rnd:hero} </b> ve como la figura translucida de un niño se le aparece delante, ladea la cabeza y con una vocecita estridente dice: <i>\n- 4.- </i>\n\n<b> {rnd:hero} </b> sufre 1 de Horror anulado por ({will}-2)."
+EventFinalRound4.button1,Continuar
+EventSotanoCaida2.text,"Te preguntas cuanto tiempo llevas cayendo y si esta madriguera tiene fondo. Al pensarlo, la velocidad de caída aumenta rápidamente hasta que aterrizas en un duro y frío fondo."
+EventSotanoCaida2.button1,Continuar
+EventLlegarSotanoPasadizo.text,Doblas una esquina y aparece una tenue luz amarilla al final del túnel. Te diriges hacia ella para llegar a lo que parece un sótano. 
+EventLlegarSotanoPasadizo.button1,Continuar
+EventFinalRound3.text,"<b> {rnd:hero} </b> ve como la figura translucida de un niño se le aparece delante, ladea la cabeza y con una vocecita estridente dice: <i>\n- 3.- </i>\n\n<b> {rnd:hero} </b> sufre 1 de Horror anulado por ({will}-2)."
+EventFinalRound3.button1,Continuar
+EventFinalRound2.text,"<b> {rnd:hero} </b> ve como la figura translucida de un niño se le aparece delante, ladea la cabeza y con una vocecita estridente dice: <i>\n- 2.- </i>\n\n<b> {rnd:hero} </b> sufre 1 de Horror anulado por ({will}-2)."
+EventFinalRound2.button1,Continuar
+EventMythosHard02PACT.text,"Un niño pequeño con una camisa blanca y unos pantalones bombachos sujetados por unos tirantes aparece delante de <b> {rnd:hero} </b>. Se quita la boina y le pregunta con una sonrisa afable: \n <i>- Disculpe, parece cansado... -</i>\n El niño saca del bolsillo del pantalón un frasco de cristal con un líquido amarillo. Se lo ofrece: \n <i> - Con esto se sentirá mucho mejor. Se lo doy si luego juega un rato con nosotros. -</i>"
+EventMythosHard02PACT.button1,Aceptar
+EventMythosHard02PACT.button2,Ignorar
+EventMythosHard03A.text,"Este evento de los mitos afecta a todos los investigadores. \n\nUna siniestra melodía te provoca un punzante dolor de cabeza, las orejas te sangran y te agarras la cabeza con fuerza, crees te va a estallar en cualquier momento. Unas manos se apoyan suavemente en las tuyas, levantas la mirada y una niña te dice: \n <i>-Los espíritus se niegan a escuchar.-</i> \n\nSufres 3 de Daño anulado por ({strength}-1) y 3 de Horror anulado por ({will}-1)."
+EventMythosHard03A.button1,Continuar
+EventMythosHard03B.text,"<b> {rnd:hero}</b> ve algo que brilla en el suelo. Se agacha para examinarlo y recoge un colgante con una pequeña herradura. Parece que la suerte le acompaña esta noche, pues no ha visto como durante unos segundos, el papel de la pared ha desaparecido dejando a la vista como los muros de la casa están hechos de huesos y vísceras aún latentes y sangrantes. \n\nTodos los investigadores excepto <b> {rnd:hero}</b> sufren 3 de Horror boca abajo anulado por ({influence}-1)."
+EventMythosHard03B.button1,Continuar
+EventMythosHard03C.text,"Solo el crujir de la madera a cada paso que das, te acompaña esta noche. No hay ningún efecto inmediato."
+EventMythosHard03C.button1,Continuar
+EventMythosHard04.text,"Este evento de los mitos afecta a todos los investigadores que no tengan una ficha violeta sobre su personaje. \n\nTus pertenencias te susurran, advirtiéndote de una grave amenaza. Sufres 1 de Horror boca abajo por cada objeto que tengas."
+EventMythosHard04.button1,Continuar
+EventMythosHard05A.text,"Este evento de los mitos afecta al investigador que tenga una ficha violeta sobre su personaje. \n\nEl niño con la camisa blanca y los pantalones bombachos aparece de nuevo ante ti, flotando a un palmo del suelo: \n<i>- Hola soñador. Hemos venido a jugar. Voy a llamar al resto.- </i>\nEl niño hace un chasquido con los dedos y unos gritos agónicos recorren toda la casa. Aparecen ante ti las figuras de un grupo de niños y niñas con los ojos en blanco, que susurran tu nombre. Aunque ahora son niños, reconoces a algunos de ellos como tus compañeros. \n\nTodos los investigadores excepto tú, han sido eliminados."
+EventMythosHard05A.button1,Continuar
+EventMythosHard05B.text,"<b> {rnd:hero} </b>, se paraliza al ver como una masa negra revolotea a sus pies. Rápidamente aumenta su tamaño y unos apéndices, que se convierten en brazos, se apoyan en el suelo para ponerse de pie. Una figura humana, alta y vestida con un traje elegante, estira el brazo y ofrece un whisky a <b> {rnd:hero} </b>: \n<i>- ¿Un última copa? –</i>. \nEl señor Ford despliega unas majestuosas alas negras a su espalda y le abraza suavemente con ellas mientras <b> {rnd:hero} </b> da un largo trago. \n\n<b> {rnd:hero} </b> queda eliminado y los investigadores disponen de un solo turno para completar la investigación."
+EventMythosHard05B.button1,Continuar
+EventMythosHard01.text,"Este evento de los mitos afecta a todos los investigadores. \n\nEmpiezas a estornudar, se te ha metido algo en la nariz y los ojos te lloran. Parece alergia, pero no recuerdas tener alergia a nada. Una sombra cruza por las paredes, luego por el techo, luego por el suelo. Intentas seguirlo con la mirada, pero es demasiado rápida ({observation}-1); \nSi superas la tirada, te das cuenta que se trata de la sombra de un gato y aunque no tiene relieve, puedes ver sus luminosos ojos azules clavados en ti. Sufres 2 de Horror y ganas 1 Pista {clue}. \nSi fallas no consigues esquivar la sombra y te ataca. Sufres 2 de Daño."
+EventMythosHard01.button1,Continuar
+EventMythosSotano01.text,"Este evento de los mitos afecta a todos los investigadores en el Sótano. \n\nEl suelo del sótano empieza a burbujear y una pátina brillante lo impregna todo. Como si fuesen arenas movedizas, el suelo empieza a tragarse todo lo que se apoya en él. Te hundes en el barro y crees que vas a desaparecer, pero consigues agarrarte a la barandilla de las escaleras. Te despiertas sentado en las escaleras del sótano con la cara manchada de barro y estiércol y con un hilo de baba aún cayendo del lateral de tu boca. \n\nColoca al investigador en las escaleras y sufres 1 de Horror y 2 de Daño."
+EventMythosSotano01.button1,Continuar
+TokenAtajo.button1,Botón1
+EventCaidaTrampillaCampanario.text,"Aunque sigues cayendo, parece que lo haces a cámara lenta, como flotando pero siempre hacia abajo. \n\nRetira al investigador del tablero. \nUn investigador fuera del tablero de juego no puede sufrir Daño, Horror ni ser afectado por eventos durante la fase de mitos."
+EventCaidaTrampillaCampanario.button1,Continuar
+EventMostrarSotanoCaida.text,"Te preguntas cuanto tiempo llevas cayendo y si esta madriguera tiene fondo. Al pensarlo, la velocidad de caída aumenta rápidamente hasta que aterrizas en un duro y frío suelo.\n\nColoca el módulo de <b>Sótano</b> {MAD20}, la ficha de puerta y la ficha de pasadizo secreto en los lugares señalados."
+EventMostrarSotanoCaida.button1,Continuar
+EventHeridoCaidaSotano.text,"Coloca al investigador que estaba cayendo por la trampilla del Campanario en el espacio del Sótano. Este investigador descarta todas sus cartas de Daño boca abajo y coge una carta de Herido. Queda <b>HERIDO</b>. A causa del golpe contra el suelo adquiere el estado <b>Aturdido</b>. \n\nSi el investigador ya estaba herido, este es retirado de la partida. El resto de los investigadores disponen de un solo turno adicional para completar la investigación."
+EventHeridoCaidaSotano.button1,Continuar
+EventHeridoCaidaSotano2.text,"Coloca al investigador que estaba cayendo por la trampilla del Campanario en el espacio del Sótano. Este investigador descarta todas sus cartas de Daño boca abajo y coge una carta de Herido. Queda <b>HERIDO</b>. A causa del golpe contra el suelo adquiere el estado <b>Aturdido</b>. \n\nSi el investigador ya estaba herido, este es retirado de la partida. El resto de los investigadores disponen de un solo turno adicional para completar la investigación. "
+EventHeridoCaidaSotano2.button1,Continuar
+EventAccionarAdelante2.text,"Antes de terminar el primer tañido de la campana, el suelo desaparece bajo tus pies y caes por un oscuro túnel."
+EventAccionarAdelante2.button1,Continuar
 EventRESBusqueda2Sotano.text,Apartas algunos trastos que se deshacen entre tus dedos hasta encontrar una vieja herramienta manchada de sangre. \n\nObtén el objeto común <b>Almádena</b>. Descarta esta ficha de Búsqueda.
 EventRESBusqueda2Sotano.button1,Continuar
 TokenLibroBiblioteca.text,"Un libro decorosamente abierto por la página 3, descansa en una de las butacas."
@@ -35,9 +82,6 @@ EventBuscarSotano1RES.text,Te pones de rodillas para escarbar cómodamente en el
 EventBuscarSotano1RES.button1,Continuar
 EventMythosFlavor03.text,"<b>{rnd:hero}</b>, no puede apartar la mirada de los ojos verdes del cuadro que tiene enfrente. Su sonrisa le llama y no puede evitar acercarse. \n<b>{rnd:hero}</b> puede decidir seguir mirando el cuadro y obtener el estado <b>Retenido</b> o bien, luchar contra su atracción y arrancar el retrato del marco; Si lo hace obtiene el objeto común <b>Manuscrito Arcano</b> y sufre 2 de Horror boca abajo."
 EventMythosFlavor03.button1,Continuar
-quest.name,En la pajarería a las 22.30h
-quest.description,"La familia Gordon se ha puesto en contacto contigo para que encuentras a su hija, Felicia. Lleva unos días desaparecida y aunque la policía cree que ha huido con su novio, sus padres no están tan seguros. La última pista es una cita en su agenda personal: <i>En la pajarería a las 22.30h</i>."
-quest.authors,Miss Fernwood & EtiCarasoft
 EventMeterManoDebajoCama.text,"Te agachas y tientas a ciegas debajo de la cama hasta que encuentras algo rígido y frío. Cuando te dispones a sacarlo a la luz, notas que te empieza a arrastrar con fuerza hacia la oscuridad. Sin soltarlo y ayudándote de todo el peso de tu cuerpo, forcejeas unos instantes hasta que consigues salir de debajo de la cama. \n\nSufres 2 de Daño boca abajo anulado por ({agility}). Ganas el Objeto común <b>Palanca</b>. Luego descarta esta ficha de Búsqueda."
 EventMeterManoDebajoCama.button1,Continuar
 EventResolucionTirarAlfHAB1.text,"Aún con el sudor en la frente por el esfuerzo, vislumbras un brillo metálico dentro del agujero que escondía la tablilla. Metes la mano para tantear el interior y tus dedos se cierran en torno a una pequeña llave metálica. \n\nGanas el objeto único <b>Llave de Plata</b> y una Pista {clue}. Luego descarta esta ficha de Búsqueda."
@@ -72,14 +116,6 @@ EventPrefinal3A.text,"<i>- Sabes que si me mientes estarás encerrando a los dem
 EventPrefinal3A.button1,Continuar
 EventPrefinal3B.text,"<i>- Oh… Ya te marchas? La salida es por allí. Sigue al gatito.-</i> Da un largo trago a su copa y con una sonrisa burlona, dice como pensando en voz alta mientras entra en la casa: \n<i>-Bien, parece que tenemos nuevos pajaritos en la tienda...- </i> \n\nRetira del tablero a todos los investigadores que no estén en el espacio exterior del vivero. Han sido eliminados. \n\n Descarta la ficha de personaje y coloca la ficha de interacción en el lugar señalado."
 EventPrefinal3B.button1,Continuar
-EventFinalRound3.text,"<b> {rnd:hero} </b> ve como la figura translucida de un niño se le aparece delante, ladea la cabeza y con una vocecita estridente dice: <i>\n- 3.- </i>\n\n<b> {rnd:hero} </b> sufre 1 de Horror anulado por ({will}-2)."
-EventFinalRound3.button1,Continuar
-EventFinalRound4.text,"<b> {rnd:hero} </b> ve como la figura translucida de un niño se le aparece delante, ladea la cabeza y con una vocecita estridente dice: <i>\n- 4.- </i>\n\n<b> {rnd:hero} </b> sufre 1 de Horror anulado por ({will}-2)."
-EventFinalRound4.button1,Continuar
-EventFinalRound2.text,"<b> {rnd:hero} </b> ve como la figura translucida de un niño se le aparece delante, ladea la cabeza y con una vocecita estridente dice: <i>\n- 2.- </i>\n\n<b> {rnd:hero} </b> sufre 1 de Horror anulado por ({will}-2)."
-EventFinalRound2.button1,Continuar
-EventFinalRounEnd.text,"<b> {rnd:hero} </b> ve como la figura translucida de un niño se le aparece delante, ladea la cabeza y con una vocecita estridente dice: <i>\n- 1.- </i>\n\n<b> {rnd:hero} </b> sufre 1 de Horror anulado por ({will}-2)."
-EventFinalRounEnd.button1,Continuar
 EventMostrarRESET.text,Os despertáis en una pequeña habitación poco iluminada. La luz de la mesita de noche ilumina un bonito jarrón de porcelana lleno de amapolas rojas. Sólo la luz de un viejo escritorio os dejan ver que las paredes están llenas de cuadros de rostros desconocidos que parecen seguiros con la mirada. \n\n Coloca el módulo Dormitorio 1 {MAD20} y una ficha de pared en el lugar señalado. Cada investigador empieza con 1 Pista {clue}.
 EventMostrarRESET.button1,Continuar
 EventFailTablaSuelta.text,"La tablilla de madera cruje, pero no consigues arrancarla."
@@ -178,13 +214,6 @@ EventMythosLavabo.text,"Este evento de los mitos afecta a los investigadores den
 EventMythosLavabo.button1,Continuar
 EventMythosCampanario.text,Este evento de los mitos afecta a todos los investigadores que no estén en el campanario. \n\n La casa empieza a crujir y un fuerte ruido de campana te ensordece ({agility}:2); Si fallas quedas <b>Aturdido</b> y sufres 1 de Daño.
 EventMythosCampanario.button1,Continuar
-EventMythosSotano01.text,"Este evento de los mitos afecta a todos los investigadores en el Sótano. \n\nEl suelo del sótano empieza a burbujear y una pátina brillante lo impregna todo. Como si fuesen arenas movedizas, el suelo empieza a tragarse todo lo que se apoya en él. Te hundes en el barro y crees que vas a desaparecer, pero consigues agarrarte a la barandilla de las escaleras. Te despiertas sentado en las escaleras del sótano con la cara manchada de barro y estiércol y con un hilo de baba aún cayendo del lateral de tu boca. \n\nColoca al investigador en las escaleras y sufres 1 de Horror y 2 de Daño."
-EventMythosSotano01.button1,Continuar
-EventMythosHard01.text,"Este evento de los mitos afecta a todos los investigadores. \n\nEmpiezas a estornudar, se te ha metido algo en la nariz y los ojos te lloran. Parece alergia, pero no recuerdas tener alergia a nada. Una sombra cruza por las paredes, luego por el techo, luego por el suelo. Intentas seguirlo con la mirada, pero es demasiado rápida ({observation}-1); \nSi superas la tirada, te das cuenta que se trata de la sombra de un gato y aunque no tiene relieve, puedes ver sus luminosos ojos azules clavados en ti. Sufres 2 de Horror y ganas 1 Pista {clue}. \nSi fallas no consigues esquivar la sombra y te ataca. Sufres 2 de Daño."
-EventMythosHard01.button1,Continuar
-EventMythosHard02PACT.text,"Un niño pequeño con una camisa blanca y unos pantalones bombachos sujetados por unos tirantes aparece delante de <b> {rnd:hero} </b>. Se quita la boina y le pregunta con una sonrisa afable: \n <i>- Disculpe, parece cansado... -</i>\n El niño saca del bolsillo del pantalón un frasco de cristal con un líquido amarillo. Se lo ofrece: \n <i> - Con esto se sentirá mucho mejor. Se lo doy si luego juega un rato con nosotros. -</i>"
-EventMythosHard02PACT.button1,Aceptar
-EventMythosHard02PACT.button2,Ignorar
 EventMythosHard02BPACT.text,"Coges el pequeño frasco y bebes todo el contenido. Notas como el líquido te quema mientras cae por el esófago, pero pocos segundos después empiezas a sentirte mucho mejor. Giras la cabeza y te ves reflejado en un espejo. Te das cuenta que tus ojos han cambiado de color, ahora tus pupilas son de color púrpura.\n\n Puedes descartar todas las cartas de Horror y de Daño que tengas boca abajo, luego coge el indicador violeta de monstruo y colócalo sobre tu hoja de personaje."
 EventMythosHard02BPACT.button1,Continuar
 EventMythosHard02CPACT.text,"Se hace el silencio. Su cuerpo empieza a flotar. Mientras se eleva del suelo, extiende el brazo derecho señalándote con el dedo índice: \n<i> -¿Por qué no quieres jugar con nosotros, pajarito? - </i>–\nTe mira fijamente con unos ojos que se han vuelto completamente negros ({will}:3)."
@@ -192,18 +221,6 @@ EventMythosHard02CPACT.button1,Éxito
 EventMythosHard02CPACT.button2,Fallo
 EventMythosHard02NoPact.text,"Sacas fuerza de lo más profundo de tu ser. Agarras el mango de una pala que esta apoyada en la pared y golpeas al niño en la cabeza. La pala atraviesa tu objetivo y pierdes el equilibrio, mientras ves como el niño se desvanece en una niebla desdibujada por el trazo de tu embestida. \n\nSufres 1 de Horror anulado por ({will}-2) y 1 de Daño boca abajo anulado por ({agility}-2)."
 EventMythosHard02NoPact.button1,Continuar
-EventMythosHard03A.text,"Este evento de los mitos afecta a todos los investigadores. \n\nUna siniestra melodía te provoca un punzante dolor de cabeza, las orejas te sangran y te agarras la cabeza con fuerza, crees te va a estallar en cualquier momento. Unas manos se apoyan suavemente en las tuyas, levantas la mirada y una niña te dice: \n <i>-Los espíritus se niegan a escuchar.-</i> \n\nSufres 3 de Daño anulado por ({strength}-1) y 3 de Horror anulado por ({will}-1)."
-EventMythosHard03A.button1,Continuar
-EventMythosHard03B.text,"<b> {rnd:hero}</b> ve algo que brilla en el suelo. Se agacha para examinarlo y recoge un colgante con una pequeña herradura. Parece que la suerte le acompaña esta noche, pues no ha visto como durante unos segundos, el papel de la pared ha desaparecido dejando a la vista como los muros de la casa están hechos de huesos y vísceras aún latentes y sangrantes. \n\nTodos los investigadores excepto <b> {rnd:hero}</b> sufren 3 de Horror boca abajo anulado por ({influence}-1)."
-EventMythosHard03B.button1,Continuar
-EventMythosHard03C.text,"Solo el crujir de la madera a cada paso que das, te acompaña esta noche. No hay ningún efecto inmediato."
-EventMythosHard03C.button1,Continuar
-EventMythosHard04.text,"Este evento de los mitos afecta a todos los investigadores que no tengan una ficha violeta sobre su personaje. \n\nTus pertenencias te susurran, advirtiéndote de una grave amenaza. Sufres 1 de Horror boca abajo por cada objeto que tengas."
-EventMythosHard04.button1,Continuar
-EventMythosHard05A.text,"Este evento de los mitos afecta al investigador que tenga una ficha violeta sobre su personaje. \n\nEl niño con la camisa blanca y los pantalones bombachos aparece de nuevo ante ti, flotando a un palmo del suelo: \n<i>- Hola soñador. Hemos venido a jugar. Voy a llamar al resto.- </i>\nEl niño hace un chasquido con los dedos y unos gritos agónicos recorren toda la casa. Aparecen ante ti las figuras de un grupo de niños y niñas con los ojos en blanco, que susurran tu nombre. Aunque ahora son niños, reconoces a algunos de ellos como tus compañeros. \n\nTodos los investigadores excepto tú, han sido eliminados."
-EventMythosHard05A.button1,Continuar
-EventMythosHard05B.text,"<b> {rnd:hero} </b>, se paraliza al ver como una masa negra revolotea a sus pies. Rápidamente aumenta su tamaño y unos apéndices, que se convierten en brazos, se apoyan en el suelo para ponerse de pie. Una figura humana, alta y vestida con un traje elegante, estira el brazo y ofrece un whisky a <b> {rnd:hero} </b>: \n<i>- ¿Un última copa? –</i>. \nEl señor Ford despliega unas majestuosas alas negras a su espalda y le abraza suavemente con ellas mientras <b> {rnd:hero} </b> da un largo trago. \n\n<b> {rnd:hero} </b> queda eliminado y los investigadores disponen de un solo turno para completar la investigación."
-EventMythosHard05B.button1,Continuar
 EventMythosHypnos.text,Este evento de los mitos afecta a todos los investigadores en el vivero. \nColoca la ficha de personaje azul en el lugar señalado.\n\nEl joven eremita de ojos vidriosos que has visto antes te ofrece una flor de amapola ({influence}:2).\nSelecciona éxito o fracaso en función de la mayoría de los resultados entre los investigadores. En caso de empate selecciona fracaso.
 EventMythosHypnos.button1,Éxito
 EventMythosHypnos.button2,Fallo
@@ -234,8 +251,6 @@ EventVistazo2B.text,"En la parte baja de la escalera, hay una elegante puerta de
 EventVistazo2B.button1,Continuar
 EventEventoLuckyJugar.text,Pasas un buen rato jugando con la niña. Te reconforta oír el feliz sonido de su risa y sientes que ahora todo puede ir mejor. No puedes evitar sonreír también.
 EventEventoLuckyJugar.button1,Continuar
-EventHeridoCaidaSotano2.text,"Coloca al investigador que estaba cayendo por la trampilla del Campanario en el espacio del Sótano. Este investigador descarta todas sus cartas de Daño boca abajo y coge una carta de Herido. Queda <b>HERIDO</b>. A causa del golpe contra el suelo adquiere el estado <b>Aturdido</b>. \n\nSi el investigador ya estaba herido, este es retirado de la partida. El resto de los investigadores disponen de un solo turno adicional para completar la investigación. "
-EventHeridoCaidaSotano2.button1,Continuar
 EventSustoBiblioteca.text,El crujir de la madera te hace clavar la mirada al fondo de la biblioteca. Las paredes se desplazan hacia los lados y una puerta surge de la nada.\n\nCada Investigador en un espacio de Biblioteca o Comedor sufre 3 de Horror anulado por ({will}-1).
 EventSustoBiblioteca.button1,Continuar
 EventDentroSotano2.text,"El olor a estiércol te provoca nauseas y la humedad impregna la estancia. No hay ninguna ventana que permita airear el espacio, solo las puertas permiten la ventilación del mismo. El suelo de barro parece recién removido en algunas partes. \n\nColoca las fichas de Exploración y Búsqueda en los lugares señalados."
@@ -259,18 +274,12 @@ EventResEntregarObj2.text,"<i>-Parece que ningún pajarito nacerá de este huevo
 EventResEntregarObj2.button1,Continuar
 EventResEntregarDaga.text,"Le enseñas la daga ornamentada. La gata agacha la cabeza y su tamaño empieza a aumentar. El pelo deja lugar a la piel y las garras a manos y pies. Ante ti, la esbelta figura de una mujer joven que sonríe y te mira con sus ojos felinos. Dos orejas de gato sobresalen entre su melena oscura: \n<i>-Se va poner furioso, pero al fin la he recuperado. Buen trabajo soñador.-</i> \n Sufres 2 de Horror anulado por ({will}). Ganas 1 Pista {clue}. Descarta la ficha de gato y coloca la ficha de personaje en el lugar señalado."
 EventResEntregarDaga.button1,Continuar
-EventHeridoCaidaSotano.text,"Coloca al investigador que estaba cayendo por la trampilla del Campanario en el espacio del Sótano. Este investigador descarta todas sus cartas de Daño boca abajo y coge una carta de Herido. Queda <b>HERIDO</b>. A causa del golpe contra el suelo adquiere el estado <b>Aturdido</b>. \n\nSi el investigador ya estaba herido, este es retirado de la partida. El resto de los investigadores disponen de un solo turno adicional para completar la investigación."
-EventHeridoCaidaSotano.button1,Continuar
 EventEntrarPasadizoSecreto.text,"Tragas saliva y te adentras en las profundidades de la pared. Avanzas con cautela en una absoluta oscuridad. \n\nRetira al investigador del tablero.\nUn investigador fuera del tablero de juego no puede sufrir Daño, Horror ni ser afectado por eventos durante la fase de mitos."
 EventEntrarPasadizoSecreto.button1,Continuar
-EventSotanoCaida2.text,"Te preguntas cuanto tiempo llevas cayendo y si esta madriguera tiene fondo. Al pensarlo, la velocidad de caída aumenta rápidamente hasta que aterrizas en un duro y frío fondo."
-EventSotanoCaida2.button1,Continuar
 EventMostrarSotanoPasadizo.text,Doblas una esquina y aparece una tenue luz amarilla al final del túnel. Te diriges hacia ella para llegar a lo que parece el Sótano. \n\nColoca la ficha de pasadizo secreto en el lugar señalado.
 EventMostrarSotanoPasadizo.button1,Continuar
 EventDentroSotano1.text,"El olor a estiércol te provoca nauseas y la humedad impregna la estancia. No hay ninguna ventana que permita airear el espacio, solo las puertas permiten la ventilación del mismo. El suelo de barro parece recién removido en algunas partes. \n\nColoca las fichas de Exploración y Búsqueda en los lugares señalados."
 EventDentroSotano1.button1,Continuar
-EventLlegarSotanoPasadizo.text,Doblas una esquina y aparece una tenue luz amarilla al final del túnel. Te diriges hacia ella para llegar a lo que parece un sótano. 
-EventLlegarSotanoPasadizo.button1,Continuar
 EventEstas1Pieza.text,"Coloca al investigador perdido en el pasadizo secreto detrás del armario, en el espacio de el Sótano."
 EventEstas1Pieza.button1,Continuar
 EventEstas1Pieza2.text,"Coloca al investigador perdido en el pasadizo secreto detrás del armario, en el espacio de el Sótano."
@@ -289,18 +298,12 @@ EventLuzApagadoSalidaON.text,"Las luces del panel se apagan. Oyes un sonido mec�
 EventLuzApagadoSalidaON.button1,Continuar
 EventLuzVerdeSalidaOFF.text,Una luz verde se enciende en el pulsador. Oyes un breve sonido mecánico a lo lejos.
 EventLuzVerdeSalidaOFF.button1,Continuar
-EventMostrarSotanoCaida.text,"Te preguntas cuanto tiempo llevas cayendo y si esta madriguera tiene fondo. Al pensarlo, la velocidad de caída aumenta rápidamente hasta que aterrizas en un duro y frío suelo.\n\nColoca el módulo de <b>Sótano</b> {MAD20}, la ficha de puerta y la ficha de pasadizo secreto en los lugares señalados."
-EventMostrarSotanoCaida.button1,Continuar
 EventBusquedaCampana.text,La campana no parece tener una mota de polvo encima. Hay una palanca justo debajo. \n\nDescarta esta ficha de Búsqueda y coloca una de Interacción en el lugar señalado.
 EventBusquedaCampana.button1,Continuar
-EventAccionarAdelante2.text,"Antes de terminar el primer tañido de la campana, el suelo desaparece bajo tus pies y caes por un oscuro túnel."
-EventAccionarAdelante2.button1,Continuar
 EventAccionarAtras2.text,Oyes el ruido de algo que se arrastra el en pasillo. Ganas 1 Pista {clue} y sufres 1 de Horror boca abajo anulado por ({will}-1).\nColoca el token de pasadizo secreto en el espacio de pasillo. Puedes interaccionar con él.
 EventAccionarAtras2.button1,Continuar
 EventAccionarAtras.text,"Mueves la palanca hacia atrás (-). Un mecanismo acciona la campana y aunque esta empieza a balancearse, no suena."
 EventAccionarAtras.button1,Continuar
-EventCaidaTrampillaCampanario.text,"Aunque sigues cayendo, parece que lo haces a cámara lenta, como flotando pero siempre hacia abajo. \n\nRetira al investigador del tablero. \nUn investigador fuera del tablero de juego no puede sufrir Daño, Horror ni ser afectado por eventos durante la fase de mitos."
-EventCaidaTrampillaCampanario.button1,Continuar
 EventAbrirPuertaCampanario.text,"La puerta se parte en dos, te desequilibras y caes encima de los restos astillados de la puerta. \n\nSufres 4 de Daño boca abajo anulado por ({agility}-1). \n\nRetira la ficha de exploración y coloca el módulo <b>Campanario</b> {MAD20}. Coloca a tu investigador un espacio dentro del campanario."
 EventAbrirPuertaCampanario.button1,Continuar
 EventAccionarAdelante.text,Mueves la palanca hacia delante (+). Un mecanismo acciona la campana y esta empieza a balancearse. La campana suena.
@@ -376,8 +379,6 @@ EventVistazo1.text,El pasillo gira y sigue en la penumbra.\n\nColoca el módulo 
 EventVistazo1.button1,Continuar
 EventINTRO2.text,Colocad las miniaturas de los investigadores en el lugar señalado.
 EventINTRO2.button1,Continuar
-EventBusquedaHAB11.text,"Miras por el agujero del cerrojo pero no consigues ver nada. Golpeas la puerta con fuerza, pero sigue sin moverse. Ni tan solo cimbrea. De repente te das cuenta de que el tacto de la madera es inusualmente frio y un escalofrió recorre tu espalda, como si te estuvieran observando. Instintivamente te giras y algo llama tu atención. \n\nSufres 1 de Horror boca abajo anulado por ({will}).\nColoca las fichas de Búsqueda en los lugares señalados."
-EventBusquedaHAB11.button1,Continuar
 EventDebajoAlfombraHAB1.text,Levantas la alfombra y llama tu atención que una de las tablillas del suelo parece recién reparada. Crees que con un poco de fuerza quizás logres arrancarla. \n\nTira 2 dados adicionales ({strength}) si tienes el objeto común <b>palanca</b>.
 EventDebajoAlfombraHAB1.button1,Tirar 
 EventDebajoAlfombraHAB1.button2,Oculto
