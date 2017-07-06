@@ -13,7 +13,7 @@ NO,No
 NOSUCCESS,No Success
 PLACE1EXPLORETOKEN,"Place 1 Explore token as indicated."
 PLACE1SEARCHTOKEN,"Place 1 Search token as indicated."
-PLACE2EXPLORETOKEN,"Place 2 Explore token as indicated."
+PLACE2EXPLORETOKEN,"Place 2 Explore tokens as indicated."
 PLACE1SIGHTTOKEN,"Place 1 Sight token as indicated."
 PLACEWALLTOKEN,"Place 1 Wall token as indicated."
 SUCCESS,Success
@@ -23,101 +23,101 @@ RECEIVESPELL,Take the Spell: {0}.
 REMOVE1SIGHTTOKEN,"Remove the Sight token."
 REMOVEWALLTOKEN,"Remove the Wall token."
 YES,Yes
-TokenSearchLobby1.text,"You see some stacks of paper, that are piling up one the table."
+TokenSearchLobby1.text,"You see some stacks of paper that are piling up on the table."
 quest.name,The Robbery Of The Kadakian Idol
-quest.description,"In 1920, the investigators where sent to prison for a crime they didn't commit. They plan to break out. But first, they have to bribe the guards by taking on a mission to get their possessions back."
+quest.description,"In 1920, the investigators were sent to prison for a crime they didn't commit. They plan to break out. But first, they have to bribe the guards by taking on a mission to get their possessions back."
 quest.authors,<b>Autor</b>\nPriscila Gonzaga\n\n<b>Translation</b>\nEnglish: redwolf2\nGerman: redwolf2
-EventPapeisLobby.text,"You search through the stacks of paper, that are piling up on the left table ({lore}; 2). If you succeed, you find important leads of Lady Cotington and you get a Clue. If you fail, you crumbled the paper together and threw them in the rubbish bin. Remove the Search token."
-EventMito18B.text,"You suddenly stop right before the drawing of a woman, she is naked. Do a {observation}-Test. If you succeed, you noticed, that the woman in the drawing is actually your mother and suffer 1 Horror. If you fail, you pass the drawing, without noticing anything."
+EventPapeisLobby.text,"You search through the stacks of paper, that are piling up on the left table ({lore}; 2). If you succeed, you find important leads of Lady Cotington and you get a Clue. If you fail, you crumble the paper together and throw them in the rubbish bin. Remove the Search token."
+EventMito18B.text,"You suddenly stop right before the drawing of a naked woman. Do a {observation}-Test. If you succeed, you notice that the woman in the drawing is actually your mother; Suffer 1 Horror. If you fail, you pass by the drawing without noticing anything."
 EventAddSalaJantar.text,"Place the tile {ffg:TILE_DINING_ROOM_MAD01} as indicated."
 EventMitoJardim.text,All seem to be quiet. Nothing happens.
-EventLOSE.text,"You all leave the mansion, without the idol. Your client will be furious and will take you in again.\n\nYou lose!"
-EventMito23B.text,"You believe to know what's going on here ({lore}; 2). If you succeed, nothing happens. If you fail, you explain the situation to another investigator and give 1 of your Clue to him (Give your Clue to the one with the least)."
-EventMito22B.text,"You are bewildered and the world no longer make any sense to you ({observation}; 2). If you succeed, you gather more traces to keep going. If you fail, you loose the golden thread and become Dazed"
+EventLOSE.text,"You all leave the mansion without the idol. Your client will be furious and will take you in again.\n\nYou lose!"
+EventMito23B.text,"You believe to know what's going on here ({lore}; 2). If you succeed, nothing happens. If you fail, you explain the situation to another investigator and give 1 of your Clues to him (Give your Clue to the one with the least)."
+EventMito22B.text,"You are bewildered and the world no longer makes any sense to you ({observation}; 2). If you succeed, you gather more traces to keep going. If you fail, you loose the golden thread and become Dazed."
 EventMito21B.text,"Duke is suddenly chasing a cat. Plate the Item Duke on the marked field."
-EventMito19.text,"This event affects the investigator, with the Item: Duke."
+EventMito19.text,"This event affects the investigator with the Item: Duke."
 EventMito11B.text,"The two investigators have sex with each other and loose all action in this Investigator Phase."
 TokenSearchCozinha.text,"You search for something useful and make out something."
-EventMito8.text,"This event affects the investigator on the tile {ffg:TILE_LOBBY_MAD20}. You suddenly hear foot steps, where there shouldn't been any. Suffer 1 Horror ({observation} negates)."
-EventAddJardim.text,"You arrive at the mansion and decide to go in through the back door, to avoid to get caught. Place the tile {ffg:TILE_YARD_2_MAD20} as indicated. Every investigator gets two Clues. Investigators without items will get two additional Clues."
+EventMito8.text,"This event affects the investigator on the tile {ffg:TILE_LOBBY_MAD20}. You suddenly hear footsteps where there shouldn't been any. Suffer 1 Horror ({observation} negates)."
+EventAddJardim.text,"You arrive at the mansion and decide to go in through the back door to avoid getting caught. Place the tile {ffg:TILE_YARD_2_MAD20} as indicated. Every investigator gets two Clues. Investigators without items will get two additional Clues."
 EventCocoCao2.text,The dog did his business here. The investigator with the normal Item Duke gets Restrained. Remove this Search token.
-EventMito25.text,"The Butler is closing by ({agility}; 2). If you succeed, you managed to hide yourself unnoticed. If you fail, you thought it would be the best to hide in the {ffg:TILE_DINING_ROOM_MAD01}, place your investigator on the tile on one field of your choice."
+EventMito25.text,"The Butler is closing by ({agility}; 2). If you succeed, you managed to hide yourself unnoticed. If you fail, you thought it would be the best to hide in the {ffg:TILE_DINING_ROOM_MAD01}, place your investigator on the tile on a space of your choice."
 EventMito24.text,Every investigator with two Clues suffers two facedown Horror ({lore} negates).
 EventMito23.text,This event affects the investigator with the most Clues.
 EventMito20.text,A ghost appears in front of you and tries to communicate. Suffer two Horror ({influence} + 1 negates).
-EventMito16.text,"{rnd:hero} is scared to death, as somethings knocks on the door. {rnd:hero} suffers 1 facedown Horror ({will} negates)."
-EventMito15.text,Nothing happens
-EventMito14.text,"This event affects the investigator with the least {strength}.\nYou feel weak and doubt, that you are up for the job. You ask the investigator with the most {strength} for advice, to get out of your misery. This investigator might help out ({strength}; 2). If he succeeds, you are helped by the thought, that you could rely on him and feel more motivated. If you fail, you are now in total despair and suffer 1 Horror."
+EventMito16.text,"{rnd:hero} is scared to death, for something unknown knocks on the door. {rnd:hero} suffers 1 facedown Horror ({will} negates)."
+EventMito15.text,Nothing happens.
+EventMito14.text,"This event affects the investigator with the least {strength}.\nYou feel weak and doubt that you are up for the job. You ask the investigator with the most {strength} for advice to get out of your misery. This investigator might help out ({strength}; 2). If he succeeds, you are helped by the thought that you could rely on him and feel more motivated. If you fail, you are now in total despair and suffer 1 Horror."
 EventMito13.text,"Every investigator rolls a dice. If you roll one {success}, you get 1 Clue. If you roll a {clue}, nothing happens. If you fail, you suffer one Horror or one Damage (you choose which)."
-EventMito12.text,"This event affects the investigator, that suffered the most damage.\nYou live in fear, that you might die here. Suffer two facedown Horror ({strength} negates)."
-EventMito10.text,"{rnd:hero} have to take a piss. But there seem to be no toilet in reach. Get Restrained."
+EventMito12.text,"This event affects the investigator that suffered the most damage.\nYou live in fear that you might die here. Suffer two facedown Horror ({strength} negates)."
+EventMito10.text,"{rnd:hero} has to take a piss, but there seem to be no toilet in reach. Get Restrained."
 EventStart.text,"To escape the prison, you have to bribe Lieutenant Ramon. This is the only way to get your possessions back. Ramon suggests to steal a valuable idol from the mansion of Lady Cotington."
 TokenSearchSalaoJogos.text,You notice something under the table {observation}.
-EventMito17B.text,"You here voices and confuse them with your friends ({observation}; 2). If you succeed, you notice, that there is no one. If you fail, nothing happens."
+EventMito17B.text,"You hear voices and confuse them with your friends ({observation}; 2). If you succeed, you notice that there is no one around. If you fail, nothing happens."
 EventMito19B.text,"Duke goes berserk and bites you. Suffer 1 Damage and 1 Horror ({will} negates)."
 EventMito9B.text,"You feel stained. Suffer 3 Horror ({agility} negates)."
 EventAddInvestigadores.text,"Place the investigators as indicated."
-EventWIN.text,"You win the game"
+EventWIN.text,"You won the game"
 EventTodosEscaparam.text,"You managed to sneak past the dog and can enter the house."
-EventPassForcaP.text,For a moment you feel totally dazed. The creature takes this moment to her advantage and flees. Remove the monster from the board.
-EventFailAgilidadeP.text,You try to leave the mansion without alerting someone to avoid anyones attention ({strength}; 2).
-EventPassAgilidadeP.text,You managed to escape the mansion. Remove the miniature of the investigator from the board.
-EventPassInfluence1.text,"You tell her, that you are here to restorate the bathroom. She believes you and turns back to her work. Remove the miniature of the investigator from the board."
-EventPassInfluence2.text,"You tell her, that you are here to count the billiard balls. She believes you and turns back to her work. Remove the miniature of the investigator from the board."
-EventPassInfluence3.text,"You tell her, that you are here to repair the broken table in the hall. She believes you and turns back to her work. Remove the miniature of the investigator from the board."
-TokenSearchCocoCao.text,"She notices, that something is fishy."
+EventPassForcaP.text,For a moment you feel totally dazed. The creature seizes this moment to her advantage and flees. Remove the monster from the board.
+EventFailAgilidadeP.text,You try to leave the mansion without alerting someone to avoid attention ({strength}; 2).
+EventPassAgilidadeP.text,You managed to escape the mansion. Remove the investigator's miniature from the board.
+EventPassInfluence1.text,"You tell her that you are here to restorate the bathroom. She believes you and turns back to her work. Remove the investigator's miniature from the board."
+EventPassInfluence2.text,"You tell her that you are here to count the billiard balls. She believes you and turns back to her work. Remove the investigator's miniature from the board."
+EventPassInfluence3.text,"You tell her that you are here to repair the broken table in the hall. She believes you and turns back to her work. Remove the investigator's miniature from the board."
+TokenSearchCocoCao.text,"She notices that something is fishy."
 EventMito22.text,This event affects the investigator with the most Clues.
 EventMito21.text,This event affects the investigator with the normal Item Duke.
-EventPassFalarDog.text,"You give something of your Roastbeef to the dog and he becomes your friend. Take the normal Item: Duke. If some other investigator already have that item, you get 1 Clue as a compensation. Remove the Person token of the dog."
-EventMito18.text,"This event affects all investigators, that are male."
-EventAddCachorro.text,"You see a stay dog in the garden of the mansion. Place the Person token of the dog as indicated."
+EventPassFalarDog.text,"You give some of your Roastbeef to the dog and he becomes your friend. Take the normal Item: Duke. If some other investigator already has that item, you get 1 Clue as a compensation. Remove the dog's token from the board."
+EventMito18.text,"This event affects all investigators that are male."
+EventAddCachorro.text,"You see a stray dog in the mansion's garden. Place the Person token of the dog as indicated."
 EventMito17.text,"This event affects the investigator with the most {influence}."
 EventMito11.text,"This event affects two investigators (one male, one female) in the same room."
-EventMito9.text,"This event affects all investigators in a room, with only one door."
+EventMito9.text,"This event affects all investigators in a room with only one door."
 EventAddLobby.text,"The main entrance can now be opened. Place the tile {ffg:TILE_LOBBY_MAD20} as indicated."
-EventRemoverCocoCao.text,"You fall to ground, as you slip on a steaming pile of dog shit. Suffer 1 Damage ({agility} negates). Remove this Search token."
-EventItensConfiscados.text,"The idol was taken from you. Remove the Unique Item {ffg:UNIQUE_ITEM_GROTESQUE_STONE} from the game and place Search token as indicated."
-EventAddSalaLeitura.text,"You and every other investigator is imprisoned in the Library. Place the tile {ffg:TILE_LIBRARY_MAD20} as indicated. Then place all investigators on a field of that tile (you can choose which)."
-EventAddQuartoP.text,"The door is leading to a bedroom. Place the tile {ffg:TILE_MASTER_BEDROOM_MAD01} as indicated. Then remove this marker."
-EventGetCaixaEnigmatica.text,"You see a locked box. You could try to open it, if you got the Unique Item {ffg:UNIQUE_ITEM_GOLD_KEY}. Take the Unique Item {ffg:UNIQUE_ITEM_PUZZLE_BOX}. Then remove this Search token."
+EventRemoverCocoCao.text,"You fall to ground as you slip on a steaming pile of dog shit. Suffer 1 Damage ({agility} negates). Remove this Search token."
+EventItensConfiscados.text,"The idol was taken from you. Remove the Unique Item {ffg:UNIQUE_ITEM_GROTESQUE_STONE} from the game and place a Search token as indicated."
+EventAddSalaLeitura.text,"You and every other investigator is imprisoned in the Library. Place the tile {ffg:TILE_LIBRARY_MAD20} as indicated. Then place all the investigators on a space of your choice on that tile."
+EventAddQuartoP.text,"The door leads to a bedroom. Place the tile {ffg:TILE_MASTER_BEDROOM_MAD01} as indicated. Then remove this marker."
+EventGetCaixaEnigmatica.text,"You see a locked box. You could try to open it if you have the Unique Item {ffg:UNIQUE_ITEM_GOLD_KEY}. Take the Unique Item {ffg:UNIQUE_ITEM_PUZZLE_BOX}. Then remove this Search token."
 EventAskIdoloConfiscado.text,"Was the investigator with the Unique Item {ffg:UNIQUE_ITEM_GROTESQUE_STONE} imprisoned in the {ffg:TILE_LIBRARY_MAD20}?"
-EventProcurarIdolo1.text,There is nothing here
-EventFailInfluenceF.text,The cook don't believe any of your lies. Suffer 1 Horror.
+EventProcurarIdolo1.text,There is nothing here.
+EventFailInfluenceF.text,The cook doesn't believe any of your lies. Suffer 1 Horror.
 EventFailAgilidadeF.text,"You make a lot of noise on your attempt to leave the mansion, which could catch the attention of the cook ({influence}; 2)."
 EventAddEscritorio.text,Place the tile {ffg:TILE_OFFICE_MAD20} as indicated. Then remove the Search token.
-EventAddSaidaP.text,"You finally got the item, you where here for. You can leave thought the main entrance or take the back door, where you came from. Place Interaction token as indicated."
-EventAddSaida2.text,"Place Interaction token as indicated."
+EventAddSaidaP.text,"You finally acquire the item you came here for. You can leave through the main entrance or take the back door, where you came from. Place an Interaction token as indicated."
+EventAddSaida2.text,"Place an Interaction token as indicated."
 EventAvisoFim.text,"The robbery is successful, if all investigator could flee the mansion and one of them takes the idol with him."
-EventGetEstatua.text,"You managed to open the box and find item you are here for. Take the Unique Item: {ffg:UNIQUE_ITEM_GROTESQUE_STONE}."
+EventGetEstatua.text,"You managed to open the box and find the item you came here for. Take the Unique Item: {ffg:UNIQUE_ITEM_GROTESQUE_STONE}."
 EventAddFimCorredor.text,"You see a door at the end of the hall. Place the tile  {ffg:TILE_HALLWAY_3_MAD01} as indicated. Then remove the Search token."
 EventAddSearchCozinha.text,"The pantry is untidy and confusing. Place a Search token as indicated."
-SpawnAbissal.text,"A ugly creature appears. Place the monster {ffg:MONSTER_DEEP_ONE} as indicated."
+SpawnAbissal.text,"An ugly creature appears. Place the monster {ffg:MONSTER_DEEP_ONE} as indicated."
 TokenCachorro.text,Woof! Woof! Woof!\nWhat do you wnat to do?
 TokenCachorro.button1,Ignore the dog
 TokenCachorro.button2,Talk to the dog
 TokenCachorro.button3,Attack the dog
-EventAddCorredor2.text,"There don't seem to be something of interest. It's only an empty hall. Place the tile {ffg:TILE_HALL_2_MAD20} as indicated. Then remove the token."
-EventAddQuarto1.text,"The door is leading to one of the bedrooms of the mansion. Place the tile {ffg:TILE_BEDROOM_1_MAD20} as indicated."
-EventFim.text,"Mr. Ramon will be very pleased. You hope that this luck don't run out on you and you won't get imprisoned again.\nThe End"
-EventMito7.text,"{rnd:hero} stumbles and falls head first on a railing. Suffer one damage. You hold your head ({will}; 1). If you fail, you get Dazed."
-EventMito6.text,You begin to head voices. Suffer 1 Horror ({observation} negates).
-EventMito2.text,"This event affects the investigator with the most items. You suffer from all your weight ({strength}; 2). If you succeed, you are strong enough to take everything with you. If you fail, you have to drop one item (place it under you on the field)."
+EventAddCorredor2.text,"There doesn't seem to be anything of interest. It's only an empty hall. Place the tile {ffg:TILE_HALL_2_MAD20} as indicated. Then remove the token."
+EventAddQuarto1.text,"The door is leading to one of the mansion's bedrooms. Place the tile {ffg:TILE_BEDROOM_1_MAD20} as indicated."
+EventFim.text,"Mr. Ramon will be very pleased. You hope that this luck doesn't run out on you and won't get imprisoned again.\nThe End"
+EventMito7.text,"{rnd:hero} stumbles and falls head first on a railing. Suffer one Damage. You hold your head ({will}; 1). If you fail, you get Dazed."
+EventMito6.text,You begin to hear voices. Suffer 1 Horror ({observation} negates).
+EventMito2.text,"This event affects the investigator with the most items. You suffer from all your weight ({strength}; 2). If you succeed, you are strong enough to take everything with you. If you fail, you drop one random item (place it under you on the field)."
 EventMito3.text,"This event affects the investigator with the most spells. All those spell confuse you. Suffer 3 Horror ({will} negates)."
 EventMito4.text,"This event affects the investigator with no items. You feel bad for not having anything, but you are proud of it."
-EventMito5.text,"{rnd:hero} is intoxicated by the beauty of this mansions. This way {rnd:hero} is wasting a lot of time by looking at the surroundings. Get Restrained."
-EventMito1.text,"{rnd:hero} looses all hope to complete the mission and considers to give up. Suffer 2 Horror ({will} negates)."
-EventMoveIn.text,You can move one more space into the room.
+EventMito5.text,"{rnd:hero} is intoxicated by the beauty of this mansion. Therefore, {rnd:hero} is wasting a lot of time by looking at the surroundings. Become Restrained."
+EventMito1.text,"{rnd:hero} looses all hope to complete the mission and considers giving up. Suffer 2 Horror ({will} negates)."
+EventMoveIn.text,You can move one space into the room.
 TokenExploreLobby.text,"The door is leading to the main hall of the house. Do you want to open it?"
 TokenSearchLobby2.text,You inspect all details of the drawing on the wall ({observation}; 1).
-EventFailFalarCao.text,You "Du decide to go ahead, so that the dog follows you. But hes just sitting there, ignoring you and staring at the object."
-EventFailEscaparCao.text,"The dog is suspecting your move and snaps at you. You suffer 1 Damage and are afraid to move."
+EventFailFalarCao.text,You "You decide to go ahead, expecting the dog to follow you. But he sits still, ignoring you, and staring at the object."
+EventFailEscaparCao.text,"The dog antecipates your move and snaps at you. You suffer 1 Damage and are afraid to move."
 EventAcharIdolo.text,You have found the idol. Take the Unique Item {ffg:UNIQUE_ITEM_GROTESQUE_STONE} and escape the mansion. Remove all Search token from the board.
 TokenExploreCozinha.text,The strange sounds seem to come from the other side of the door. Do you want to explore the room?
 EventAddCantoDoCorredor1.text,You see a branching floor with a door. Place the tile {ffg:TILE_HALL_CORNER_1_MAD20} as indicated.
 TokenExploreLock1.text,The door is locked.
 EventAbrirLeitura.text,The door doesn't look very sturdy ({strength}; 2).
 EventAbrirEscritorio.text,"With some patience, you might be able to open the lock ({will}; 2)."
-EventFailForcaP.text,The butler is striking at you. Suffer 1 Damage.
+EventFailForcaP.text,The butler strikes you. Suffer 1 Damage.
 EventPassAbrirEsc.text,You succeed in opening the door. Remove the Explore token.
 EventAbrirQuartoP.text,"If you have a key, you could try to unlock the door."
 EventAbrirQuartoP.button2,I have no key.
@@ -125,25 +125,25 @@ EventAbrirComChaveB.text,Which key do you have in your possession.
 EventAbrirComChaveB.button1,Gold Key
 EventAbrirComChaveB.button2,Brass Key
 EventVocenaotemchave.text,"Before you can steal anything, you need a key."
-EventMatandoManiaco.text,"After the maniac is collapsing in front of you on the floor, you search through his clothes. You find a key. Take the Unique Item: {c:QItemChaveDeBronze}."
+EventMatandoManiaco.text,"After the maniac collapses on the floor in front of you, you search through his clothes. You find a key. Take the Unique Item: {c:QItemChaveDeBronze}."
 TokenExploreCorredor1.text,The door is half open. You can't hear anything from the other side.
-TokenExploreSalaJogos.text,The door is leading to a small room.
-TokenExploreCorredor2.text,The door is leading to a hall.
-TokenExploreQuarto1.text,The door seem to lead to one of the rooms of the mansion.
-TokenExploEscritorio.text,The side entrance isn't locked. Do you want to enter?
+TokenExploreSalaJogos.text,The door leads to a small room.
+TokenExploreCorredor2.text,The door leads to a hall.
+TokenExploreQuarto1.text,The door seems to lead to one of the mansion's rooms.
+TokenExploEscritorio.text,The side entrance isn't locked. Do you wish to enter?
 EventClickCaixaEnigmatica.text,"The lock is massive and seems to have a quite complex opening mechanism. You can try your luck with {agility}, if you have the Unique Item {c:QItemChaveDourada}."
 EventFailSearchLobby2.text,You inspect the painting and wallow in your thoughts.
-SpawnCaoTindalo.text,"The dogs noticed your attempt to attack him and the air around him swirls. Remove the Person token of the dog and place the monster {ffg:MONSTER_HOUND_OF_TINDALOS} as indicated. You are not allowed to do a action in this round."
-EventMatarCao.text,"You kill the dog and skipped your chance to make him your ally. But finally, the path to the mansion is cleared."
+SpawnCaoTindalo.text,"The dog notices your attempt to attack him and the air around him swirls. Remove the dog's Person token and place the monster {ffg:MONSTER_HOUND_OF_TINDALOS} as indicated. You are not allowed to do a action in this round."
+EventMatarCao.text,"You kill the dog and skipped your chance to make him your ally. But finally, the path to the mansion is clear."
 EventEscaparCao.text,Maybe you could sneak past the dog ({agility}; 1).
 EventFalarCao.text,You approach the dog with calming words and gestures ({influence}; 2).
-EventPassEscaparCao.text,"You managed to sneak past the dog. Place the investigator on a field behind the door."
+EventPassEscaparCao.text,"You manage to sneak past the dog. Place the investigator on a field behind the door."
 EventChaveNaoServe.text,The key doesn't fit in the lock of the door.
-EventAddChaveDourada.text,"You see a item laying on the table. Place the Unique Item {c:QItemChaveDourada} as indicated."
+EventAddChaveDourada.text,"You see an item laying on the table. Place the Unique Item {c:QItemChaveDourada} as indicated."
 SpawnManiaco.text,"The man in the room has lost his mind. Place the monster {ffg:MONSTER_MANIAC} as indicated."
 EventOpcSearchCorredorNS.text,You don't understand the writing.
 EventGetItensSearchLobby2.text,You need the right combination to get to it's content.
-TokenSearchCorredor.text,"You see a table, that have been knocked over. Papers are scattered around him. Test your {will} (you can use Clues to turn a {clue} to a {success})."
+TokenSearchCorredor.text,"You see a table that has been knocked over. Papers are scattered around it. Test your {will} (you can use Clues to turn a {clue} to a {success})."
 TokenSearchCorredor.button2,{clue}
 TokenSearchCorredor.button3,{clue}{clue}
 TokenSearchCorredor.button4,{success}
@@ -153,7 +153,7 @@ EventOpcSearchCorredorC.text,You have some ideas, where the idol might be hidden
 EventOpcSearchCorredorCC.text,You can read what's written on it. Finally some answers. You get 2 Clues.
 EventOpcSearchCorredorCS.text,"You can read what's written on it, but it's still a riddle to you. You get 1 Clue and the following item."
 EventOpcSearchCorredorS.text,"You can't read what's written on it. But you have found something."
-EventOpcSearchCorredorSS.text,"There is something nice under the stack of papers. Take it and get Focused."
-EventPassQuadroLobby.text,"The picture frame is crooked. As you staigten it, you find something behind it."
+EventOpcSearchCorredorSS.text,"There is something nice under the stack of papers. Take it and become Focused."
+EventPassQuadroLobby.text,"The picture frame is crooked. As you straighten it, you find something that is behind it."
 EventAddParedeLobby.text,"Place a Wall token as indicated."
-EventAddSalaoJogos.text,"The door leads to a nice play room with a billiard table at the center. Place the tile {ffg:TILE_BILLIARDS_ROOM_MAD20} as indicated."
+EventAddSalaoJogos.text,"The door leads to a nice playroom with a billiard table at the center. Place the tile {ffg:TILE_BILLIARDS_ROOM_MAD20} as indicated."
