@@ -1,0 +1,795 @@
+.,English
+quest.name,The Shadow Rune - Act I - A Fat Goblin
+EventCampaignRules.text,<b>Campaign Rules</b>\n\nPlease refer to the <i>Road to Legend</i> rule book regarding rules of play.
+EventCampaignRules.button1,Confirm
+EventEncounter1AllMaptiles.text,"<b>Setup:</b>\n\nSet aside the following tiles for encounter 1:\n\n3, 10, 11, 18, 20, 1 Entrance, 1 Exit, 1 end cap, 1 villager token, 4 search tokens, 2 blue objective tokens, and 4 red objective tokens."
+EventEncounter1AllMaptiles.button1,Confirm
+EventEncounter1Introduction.text,"<i>Reports of goblins besieging the farmlands north of Arhynn have brought you here, and judging by the smell of smoke in the air, none too soon! You ready your weapons and rush forward.</i>"
+EventEncounter1Introduction.button1,Confirm
+EventEncounter1PlaceSetupTiles.text,Place 1 Entrance and 11A. Place the heroes on the Entrance.
+EventEncounter1PlaceSetupTiles.button1,Confirm
+EventPlaceSetupSearchToken11A.text,Place 1 search token on 11A as shown.
+EventPlaceSetupSearchToken11A.button1,Confirm
+EventSetupEncounter1Complete.text,Setup complete.\n\n<b>Objective</b>: Defeat the Merriods.
+EventSetupEncounter1Complete.button1,Confirm
+EventDefeatMerriodGroup.text,"After defeating the last Merriod, you notice a blood-spattered man in rough, simple clothes lying on the ground nearby."
+EventDefeatMerriodGroup.button1,Confirm
+EventPlaceRevealTiles1.text,Place 18A.
+EventPlaceRevealTiles1.button1,Confirm
+EventPlaceTokenFarmer.text,"Place the villager token on 18A as shown. This is the blood-spattered man.\n\nAs an action, an adjacent hero can talk to him to learn what happened here."
+EventPlaceTokenFarmer.button1,Confirm
+EventObjective2.text,<b>Objective</b>: Speak with the blood-spattered man.
+EventObjective2.button1,Confirm
+EventFarmer.text,"<i>""Goblins, they're stealin' everything what isn't nailed down an' burnin' what is! They've got me brother; they've got Frederick!""</i>"
+EventFarmer.button1,Continue
+EventPlaceRevealTiles2.text,"Place 3A, 20A, 10A, 1 Exit and 1 end cap."
+EventPlaceRevealTiles2.button1,Confirm
+EventPlaceSearchToken3A.text,Place 2 search tokens on 11A as shown.
+EventPlaceSearchToken3A.button1,Confirm
+EventPlaceSearchToken20A.text,Place 1 search token on 20A as shown.
+EventPlaceSearchToken20A.button1,Confirm
+EventPlaceFarm10A.text,Place 2 blue objective tokens on 10A as shown. These are the farm's storage.
+EventPlaceFarm10A.button1,Confirm
+EventPlaceCrops10A4.text,"Place 4 red objective tokens on 10A as shown. These are bundles of crops.\n\nAs an action, while adjacent to a bundle of crops, any hero may pick it up.\n\nA figure may only carry 1 bundle of crops at a time. If a figure carrying a bundle of crops is defeated, the red objective token is placed in that figures space."
+EventPlaceCrops10A4.button1,Confirm
+EventPlaceCrops10A3.text,"Place 3 red objective tokens on 10A as shown. These are bundles of crops.\n\nAs an action, while adjacent to a bundle of crops, any hero may pick it up.\n\nA figure may only carry 1 bundle of crops at a time. If a figure carrying a bundle of crops is defeated, the red objective token is placed in that figures space."
+EventPlaceCrops10A3.button1,Confirm
+EventPlaceCrops10A2.text,"Place 2 red objective tokens on 10A as shown. These are bundles of crops.\n\nAs an action, while adjacent to a bundle of crops, any hero may pick it up.\n\nA figure may only carry 1 bundle of crops at a time. If a figure carrying a bundle of crops is defeated, the red objective token is placed in that figures space."
+EventPlaceCrops10A2.button1,Confirm
+EventPlaceCrops10A1.text,"Place 1 red objective token on 10A as shown. This is a bundle of crops.\n\nAs an action, while adjacent to a bundle of crops, any hero may pick it up.\n\nA figure may only carry 1 bundle of crops at a time. If a figure carrying a bundle of crops is defeated, the red objective token is placed in that figures space."
+EventPlaceCrops10A1.button1,Confirm
+EventCropsFlavor4.text,"A group of goblins just arrived at the farmland. They are trying to plunder whatever they can. You'd best save what crops you can, or Arhynn will have a hungry Winter. But what could be making the goblins so voracious?"
+EventCropsFlavor4.button1,Confirm
+EventCropsFlavor3.text,"A group of goblins recently looted some of the crops on the farmland. They are trying to plunder whatever they can. You'd best save what crops you can, or Arhynn will have a hungry Winter. But what could be making the goblins so voracious?"
+EventCropsFlavor3.button1,Confirm
+EventCropsFlavor2.text,"A group of goblins already looted half the crops on the farmland. They are trying to plunder whatever they can. You'd best save what crops you can, or Arhynn will have a hungry Winter. But what could be making the goblins so voracious?"
+EventCropsFlavor2.button1,Confirm
+EventCropsFlavor1.text,"A group has all but completey ransacked the crops on the farmland. They are trying to plunder whatever they can. You'd best save what crops you can, or Arhynn will have a hungry Winter. But what could be making the goblins so voracious?"
+EventCropsFlavor1.button1,Confirm
+EventObjective3.text,<b>Objective</b>: Save as many bundles of crops as possible.\n\n<i>Optional:</i> Prevent as many goblins as possible from escaping with bundles of crops.
+EventObjective3.button1,Confirm
+EventPlaceSecretRoom.text,"Place S2B as shown. Then remove the search token on 9B and place the 2 secret room entrance tokens as shown.\nPlace 4 search tokens as shown, one is the unique search token. The players may not know which token the unique token.\nYou may immediately place the hero who performed the search action on the secret room entrance token on S2B."
+EventPlaceSecretRoom.button1,Confirm
+EventStoreCrops.text,"<i>You store a bundle of crops in the farm's storage, out of reach from the goblins.</i>"
+EventStoreCrops.button1,Confirm
+EventNoMoraleEncounter1.text,<i>You need to fall back to heal your dire wounds. Unfortunately the goblins use this advantage to plunder any of the remaining crops.\nA short while later you are approached by a single figure.</i>
+EventNoMoraleEncounter1.button1,Confirm
+EventEndEncounter1.text,"<b>Encounter 1 Ends.</b>\n\n<i>The blood-spattered farmer staggers forward again.\n""Me brother,"" he sobs. ""They came for him, grabbed him an' a bunch more besides.\nHe weren't always a farmer like me, m'lords. Frederick was a Shadow Binder, just like that poor sod got killed in 'is caravan outside Arhynn last week.\nThey was friends! Why is them goblins killin' an' stealin' all me brother's friends?""\n\nClearly, the Overlord is interested in this man. You'd best get lead him to safety.</i>\n\nYou lost {var:CropsLost} bundles of crops and saved {var:CropsSaved} bundles of crops."
+EventEndEncounter1.button1,Confirm
+EventEndEncounter1NotSpokenToFarmer.text,"<b>Encounter 1 Ends.</b>\n\n<i>A blood-spattered farmer staggers forward.\n""These Goblins stole everything what wasn't nailed down an' burned what was! They've got me brother; they've got Frederick!""\nHe sobs. ""They came for him, grabbed him an' a bunch more besides.\nHe weren't always a farmer like me, m'lords. Frederick was a Shadow Binder, just like that poor sod got killed in 'is caravan outside Arhynn last week.\nThey was friends! Why is them goblins killin' an' stealin' all me brother's friends?""\n\nClearly, the Overlord is interested in this man. You'd best get lead him to safety.</i>\n\nYou lost {var:CropsLost} bundles of crops and saved {var:CropsSaved} bundles of crops."
+EventEndEncounter1NotSpokenToFarmer.button1,Confirm
+EventRemoveTilesAndTokens.text,"<b>Transition to Encounter 2</b>\n\nRemove all tiles, tokens and monsters.\n\nThe heroes keep all {heart} suffered.\nThe heroes recover all {fatigue}\nThe heroes keep all conditions they had at the end of Encounter 1\nEach hero player flips his Hero sheet faceup.\nThe Heroes keep all search cards; any flipped search cards remain flipped.\nAny knocked out hero may perform a stand up action for free.\n"
+EventRemoveTilesAndTokens.button1,Confirm
+EventEncounter2AllMaptiles.text,"<b>Setup:</b>\n\nSet aside the following tiles for encounter 2:\n\n9, 11, 15, 23, 26, 27, 1 Entrance, 3 end caps, 4 search tokens, and 2 doors."
+EventEncounter2AllMaptiles.button1,Confirm
+EventEncounter2Introduction.text,"<i>The goblins were not hard to follow and now you edge cautiously into a cave in the Caedwyn Wood.\nAhead, you hear deep laughter and a croaking voice.\n""Bring me the prisoners. One of them is the Shadow Binder! So speaks Splig, King of All Goblins""\n\nYou'd better hurry and take out Splig, whoever he is, before he figures out which of his prisoners is Frederick!</i>"
+EventEncounter2Introduction.button1,Confirm
+EventEncounter2PlaceEntrance.text,Place the Entrance as shown. Place the heroes on the Entrance.
+EventEncounter2PlaceEntrance.button1,Confirm
+EventEncounter2EndHeroTurn.text,Transition complete.\n\nAll KOed heroes should now choose recover. Then all heroes should end their turns without performing any actions.\n\nThen setup of encounter 2 will continue.
+EventEncounter2EndHeroTurn.button1,Confirm
+EventEncounter2PlaceSetupTiles.text,"Place 15B, 27B and 1 Door as shown."
+EventEncounter2PlaceSetupTiles.button1,Confirm
+EventPlaceSearchToken15B.text,Place 1 search token on 15B as shown.
+EventPlaceSearchToken15B.button1,Confirm
+EventSetupEncounter2Complete.text,Encounter setup complete.\n\n<b>Objective</b>: Find Splig before he finds Frederik.
+EventSetupEncounter2Complete.button1,Confirm
+EventOpenDoorCaveEntrance.text,<i>You open the door to reveal a dark cave. In the shadows something begins to move... </i>
+EventOpenDoorCaveEntrance.button1,Confirm
+EventOpenDoorCaveEntrance2.text,"A group of Goblins burst through the door, barricading it behind them."
+EventOpenDoorCaveEntrance2.button1,Confirm
+EventPlaceSearchToken9B.text,Place 1 search token on 9B as shown.
+EventPlaceSearchToken9B.button1,Confirm
+EventE2Objective2.text,<b>Objective</b>: Find Splig before he finds Frederik.
+EventE2Objective2.button1,Confirm
+EventOpenDoorCaveExit.text,<i>You open the door and reveal a long hallway. Down the hallway you spot one of the fattest goblins you have ever seen.\nThis might be the goblin you are looking for.</i>
+EventOpenDoorCaveExit.button1,Confirm
+EventOpenDoorCaveExit2.text,<i>Behind the door lies a long hallway.</i>
+EventOpenDoorCaveExit2.button1,Confirm
+EventPlaceSearchToken26B.text,Place 1 search token on 26B as shown.
+EventPlaceSearchToken26B.button1,Confirm
+EventPlaceSearchToken11B.text,Place 1 search token on 11B as shown.
+EventPlaceSearchToken11B.button1,Confirm
+EventInitializePrisoners4.text,Around a corner in the north you hear the distinct voices of at least three persons. They seem to be imprisoned but safe for the moment.
+EventInitializePrisoners4.button1,Confirm
+EventInitializePrisoners3.text,Around a corner in the north you hear the distinct voices of at least two persons. They seem to be imprisoned but safe for the moment.
+EventInitializePrisoners3.button1,Confirm
+EventInitializePrisoners2.text,Around a corner in the north you hear the voice of one person. He seems to be imprisoned but safe for the moment.
+EventInitializePrisoners2.button1,Confirm
+EventFlavorPrisoners4.text,"<i>Before you lies an old but nonetheless terrifying torture chamber. Admist a group of goblins you spot a man, who is knocked out and taken by the fatest goblin you have ever seen.\n\n""Impossible! How could you have found me that quickly. Oh how I hate you pesky heroes! I have to this one then, perhaps it is the right one.</i>"
+EventFlavorPrisoners4.button1,Confirm
+EventFlavorPrisoners3.text,"<i>Before you lies an old but nonetheless terrifying torture chamber. Admist a group of goblins you spot a man, who is knocked out and taken by the fatest goblin you have ever seen.\n\n""What? Who are you? I'm not finished! No more time, this one has to do... Perhaps he is the one we are looking for.</i>"
+EventFlavorPrisoners3.button1,Confirm
+EventFlavorPrisoners2.text,"<i>Before you lies an old but nonetheless terrifying torture chamber. Admist a group of goblins you spot a man, who is knocked out and taken by the fatest goblin you have ever seen.\n\n""Why is there an interruption? I was almost done with these dumb humans. Well I guess this one is the one we are looking for...</i>"
+EventFlavorPrisoners2.button1,Confirm
+EventFlavorPrisoners1.text,"<i>Before you lies an old but nonetheless terrifying torture chamber. Admist a group of goblins you spot a man, who is knocked out and taken by the fatest goblin you have ever seen.\n\n""Who is there? Well, whoever it is, you are too late to stop me. I found who I was looking for. Now drop your weapons and get out of my way.</i>"
+EventFlavorPrisoners1.button1,Confirm
+EventFlavorPrisoners0.text,"<i>Before you lies an old but nonetheless terrifying torture chamber. You spot a group of goblins and one of them, the fatest goblin you have ever seen, has taken a man over his shoulder.\n\n""What are you doing here? Doesn't matter, you are too late anyway. I found who I was looking for. Now drop your weapons and get out of my way.</i>"
+EventFlavorPrisoners0.button1,Confirm
+EventE2Objective3.text,<b>Objective</b>: Defeat Splig before he can escape with the prisoner.
+EventE2Objective3.button1,Confirm
+EventSpligEscaped.text,"Splig is uncatchable, but he turns around once more..."
+EventSpligEscaped.button1,Confirm
+EventFrederikFoundRandom.text,"The man on his shoulder looks you in the eye. ""Heroes, I'm Frederik. Tell me brother I will be okay."
+EventFrederikFoundRandom.button1,Confirm
+EventFrederikNotFoundRandom.text,"The man on his shoulder looks you in the eye. ""I'm not Frederik you monstrosity! He still sits in the cell!"
+EventFrederikNotFoundRandom.button1,Confirm
+EventWon.text,"<i>The self-styled ""king"" hurls his prisoner to the ground. ""Have him, then!"" he bellows. ""But you shall never defeat Splig, King of All Goblins!"" Then, putting on a surprising turn of speed for a goblin of such impressive girth, Splig rushes out the door. A big man with a scarred face and white in his hair steps forward to address you. ""Thank you, heroes. Reminds me of meself at younger age. Take me to the Barons... seems I've still got work to do.""</i>\n\nYou win!"
+EventWon.button1,Confirm
+EventLose.text,"<i>Once more, the pathetic minions of the Barons of Daqan are thwarted by the King of All Goblins!""\nThe goblin pauses to do a victory dance, his fatty bulk wobbling.\nThen, as he sees you approaching, the goblin claps his stolen helm to his head and scampers away.</i>\n\nYou lose!"
+EventLose.button1,Confirm
+EventLoseNoMorale.text,"<i>Once more, the pathetic minions of the Barons of Daqan are thwarted by the King of All Goblins!""\nThe goblin pauses to do a victory dance, his fatty bulk wobbling.\nThen, as he sees you approaching, the goblin claps his stolen helm to his head and scampers away.</i>\n\nYou lose!"
+EventLoseNoMorale.button1,Confirm
+EventEndCampaignPhaseLostTheShadowVault.text,"<b>Defeat</b>\n\n<b>Rewards:</b>\n\nDraw {var:RewardShopcards} cards from the current Shop Item deck. You may draw {var:PrisonersSaved} additonal cards for the prisoners you saved. Each hero recieves 1 XP.\nIn addition to the {var:FoundGold} Gold aquired during the quest, each hero recieves {var:RewardGold} additional Gold. Note that the heroes spent {var:GoldSpent} gold during travel events.\n\n<b>Campaign Phase:</b>\n\nHeroes may spend XP and purchase available Shop Item cards.\n\nPlayers must choose ""The Shadow Vault"" as the interlude quest."
+EventEndCampaignPhaseLostTheShadowVault.button1,Close Quest
+EventEndCampaignPhaseLostTheOverlordRevealed.text,"<b>Defeat</b>\n\n<b>Rewards:</b>\n\nDraw {var:RewardShopcards} cards from the current Shop Item deck. You may draw {var:PrisonersSaved} additonal cards for the prisoners you saved. Each hero recieves 1 XP.\nIn addition to the {var:FoundGold} Gold aquired during the quest, each hero recieves {var:RewardGold} additional Gold. Note that the heroes spent {var:GoldSpent} gold during travel events.\n\n<b>Campaign Phase:</b>\n\nHeroes may spend XP and purchase available Shop Item cards.\n\nPlayers must choose ""The Overlord Revealed"" as the interlude quest."
+EventEndCampaignPhaseLostTheOverlordRevealed.button1,Close Quest
+EventEndCampaignPhaseLostAct1Quest.text,"<b>Defeat</b>\n\n<b>Rewards:</b>\n\nDraw {var:RewardShopcards} cards from the current Shop Item deck. You may draw {var:PrisonersSaved} additonal cards for the prisoners you saved. Each hero recieves 1 XP.\nIn addition to the {var:FoundGold} Gold aquired during the quest, each hero recieves {var:RewardGold} additional Gold. Note that the heroes spent {var:GoldSpent} gold during travel events.\n\n<b>Campaign Phase:</b>\n\nHeroes may spend XP and purchase available Shop Item cards.\n\nPlayers may choose any unplayed Act I quest to be played next."
+EventEndCampaignPhaseLostAct1Quest.button1,Close Quest
+EventEndCampaignPhaseWonTheShadowVault.text,"<b>Victory</b>\n\n<b>Rewards:</b>\n\nDraw {var:RewardShopcards} cards from the current Shop Item deck. You may draw {var:PrisonersSaved} additonal cards for the prisoners you saved. Each hero recieves 1 XP.\nIn addition to the {var:FoundGold} Gold aquired during this quest, each hero recieves {var:RewardGold} additional gold. Note that the heroes spent {var:GoldSpent} gold during travel events.\n\n<b>Campaign Phase:</b>\n\nHeroes may spend XP and purchase available Shop Item cards.\n\nPlayers must choose ""The Shadow Vault"" as the interlude quest."
+EventEndCampaignPhaseWonTheShadowVault.button1,Close Quest
+EventEndCampaignPhaseWonTheOverlordRevealed.text,"<b>Victory</b>\n\n<b>Rewards:</b>\n\nDraw {var:RewardShopcards} cards from the current Shop Item deck. You may draw {var:PrisonersSaved} additonal cards for the prisoners you saved. Each hero recieves 1 XP.\nIn addition to the {var:FoundGold} Gold aquired during this quest, each hero recieves {var:RewardGold} additional gold. Note that the heroes spent {var:GoldSpent} gold during travel events.\n\n<b>Campaign Phase:</b>\n\nHeroes may spend XP and purchase available Shop Item cards.\n\nPlayers must choose ""The Overlord Revealed"" as the interlude quest."
+EventEndCampaignPhaseWonTheOverlordRevealed.button1,Close Quest
+EventEndCampaignPhaseWonAct1Quest.text,"<b>Victory</b>\n\n<b>Rewards:</b>\n\nDraw {var:RewardShopcards} cards from the current Shop Item deck. You may draw {var:PrisonersSaved} additonal cards for the prisoners you saved. Each hero recieves 1 XP.\nIn addition to the {var:FoundGold} Gold aquired during this quest, each hero recieves {var:RewardGold} additional gold. Note that the heroes spent {var:GoldSpent} gold during travel events.\n\n<b>Campaign Phase:</b>\n\nHeroes may spend XP and purchase available Shop Item cards.\n\nPlayers may choose any unplayed Act I quest to be played next."
+EventEndCampaignPhaseWonAct1Quest.button1,Close Quest
+EventPreviousQuestsOverview.text,<b>Previous Events</b>\n\nThe players now need to specify the outcome of previously played quests.
+EventPreviousQuestsOverview.button1,Confirm
+EventPreviousQuestCastleDaerion.text,"Did you play the quest ""Castle Daerion"" before?\n\nIf yes, did you win or lose?"
+EventPreviousQuestCastleDaerion.button1,Not played
+EventPreviousQuestCastleDaerion.button2,Played and won
+EventPreviousQuestCastleDaerion.button3,Played and lost
+EventPreviousQuestTheCardinalsPlight.text,"Did you play the quest ""The Cardinal's Plight"" before?\n\nIf yes, did you win or lose?"
+EventPreviousQuestTheCardinalsPlight.button1,Not played
+EventPreviousQuestTheCardinalsPlight.button2,Played and won
+EventPreviousQuestTheCardinalsPlight.button3,Played and lost
+EventPreviousQuestTheMasqueradeBall.text,"Did you play the quest ""The Masquerade Ball"" before?\n\nIf yes, did you win or lose?"
+EventPreviousQuestTheMasqueradeBall.button1,Not played
+EventPreviousQuestTheMasqueradeBall.button2,Played and won
+EventPreviousQuestTheMasqueradeBall.button3,Played and lost
+EventPreviousQuestDeathOnTheWing.text,"Did you play the quest ""Death on the Wing"" before?\n\nIf yes, did you win or lose?"
+EventPreviousQuestDeathOnTheWing.button1,Not played
+EventPreviousQuestDeathOnTheWing.button2,Played and won
+EventPreviousQuestDeathOnTheWing.button3,Played and lost
+EventTravelStart.text,<b>Travel Phase</b>\n\nThe heroes can now choose their travel encounters.
+EventTravelStart.button1,Confirm
+EventTravelEnd.text,<b>Travel Phase</b>\n\nYou have reached your destination.
+EventTravelEnd.button1,Confirm
+EventTravelEventExhaust.text,<b>Travel Phase</b>\n\nYou have exhausted all travel events.
+EventTravelEventExhaust.button1,Confirm
+EventTravelChoice.text,<b>Travel Step</b>\n\nPlease choose the type of your next travel step.
+EventTravelChoice.button1,Road
+EventTravelChoice.button2,Plains
+EventTravelChoice.button3,Forest
+EventTravelChoice.button4,Water
+EventTravelChoice.button5,Mountains
+EventTravelChoice.button6,Destination reached
+EventTravelEventRoadNothing.text,<b>Road - Nothing happens</b>\n\n<i>You travel along the road.</i>\n\nNo Effect.
+EventTravelEventRoadNothing.button1,Confirm
+EventTravelEventPlainsNothing.text,<b>Plains - Nothing happens</b>\n\n<i>You travel through open plains.</i>\n\nNo Effect.
+EventTravelEventPlainsNothing.button1,Confirm
+EventTravelEventForestNothing.text,<b>Forest - Nothing happens</b>\n\n<i>You travel through a thick forest.</i>\n\nNo Effect.
+EventTravelEventForestNothing.button1,Confirm
+EventTravelEventWaterNothing.text,<b>Water - Nothing happens</b>\n\n<i>You travel along a river.</i>\n\nNo Effect.
+EventTravelEventWaterNothing.button1,Confirm
+EventTravelEventMountainsNothing.text,<b>Mountains - Nothing happens</b>\n\n<i>You travel through the mountains.</i>\n\nNo Effect.
+EventTravelEventMountainsNothing.button1,Confirm
+EventTravelEventRoad2.text,<b>Road - Traveling Merchant:</b>\n\n<i>You come across a traveling merchant.</i>\n\nEach hero tests {knowledge} and draws 1 Search card if he passes.
+EventTravelEventRoad2.button1,Confirm
+EventTravelEventRoad6.text,<b>Road - Hidden Path:</b>\n\n<i>You find a hidden path and make excellent time!</i>.\n\nSkip the next Travel event icon in this travel phase.
+EventTravelEventRoad6.button1,Confirm
+EventTravelEventRoad7.text,<b>Road - Traveling Sage:</b>\n\n<i>A traveling sage gives you access to his library.</i>\n\nHero players choose one hero to test {knowledge}. Did he pass?
+EventTravelEventRoad7.button1,No
+EventTravelEventRoad7.button2,Yes
+EventTravelEventRoad7A.text,<b>Road - Traveling Sage:</b>\n\n<i>Unfortunately you do learn nothing of interest from the sage's library.</i>\n\nNo effect.
+EventTravelEventRoad7A.button1,Confirm
+EventTravelEventRoad7B.text,<b>Road - Traveling Sage:</b>\n\n<i>In the Sage's books you learn something about the possible plans of the overlord.</i>\n\nYou will be able to avoid some of the Overlord's reinforcements.
+EventTravelEventRoad7B.button1,Confirm
+EventTravelEventRoad9.text,<b>Road - The Overlord's Spies:</b>\n\n<i>The overlord's spies are everywhere.</i>
+EventTravelEventRoad9.button1,Confirm
+EventTravelEventRoad9H2.text,<b>Road - The Overlord's Spies:</b>\n\nEach hero tests {knowledge}.\n\nHow many heroes failed the test?
+EventTravelEventRoad9H2.button1,None
+EventTravelEventRoad9H2.button2,One
+EventTravelEventRoad9H2.button3,Two
+EventTravelEventRoad9H3.text,<b>Road - The Overlord's Spies:</b>\n\nEach hero tests {knowledge}.\n\nHow many heroes failed the test?
+EventTravelEventRoad9H3.button1,None
+EventTravelEventRoad9H3.button2,One
+EventTravelEventRoad9H3.button3,Two
+EventTravelEventRoad9H3.button4,Three
+EventTravelEventRoad9H4.text,<b>Road - The Overlord's Spies:</b>\n\nEach hero tests {knowledge}.\n\nHow many heroes failed the test?
+EventTravelEventRoad9H4.button1,None
+EventTravelEventRoad9H4.button2,One
+EventTravelEventRoad9H4.button3,Two
+EventTravelEventRoad9H4.button4,Three
+EventTravelEventRoad9H4.button5,Four
+EventTravelEventRoad9A.text,<b>Road - The Overlord's Spies:</b>\n\nYou manage to avoid the Overlord's spies.\n\nNo effect.
+EventTravelEventRoad9A.button1,Confirm
+EventTravelEventRoad9B.text,<b>Road - The Overlord's Spies:</b>\n\nThe overlord learns valuable informations about your whereabouts.\n\nThe Overlord's reinforcements will arrive sooner.
+EventTravelEventRoad9B.button1,Confirm
+EventTravelEventRoad9C.text,<b>Road - The Overlord's Spies:</b>\n\nThe overlord learns valuable informations about your whereabouts.\n\nThe Overlord's reinforcements will arrive sooner.
+EventTravelEventRoad9C.button1,Confirm
+EventTravelEventRoad9D.text,<b>Road - The Overlord's Spies:</b>\n\nThe overlord learns valuable informations about your whereabouts.\n\nThe Overlord's reinforcements will arrive sooner.
+EventTravelEventRoad9D.button1,Confirm
+EventTravelEventRoad9E.text,<b>Road - The Overlord's Spies:</b>\n\nThe overlord learns valuable informations about your whereabouts.\n\nThe Overlord's reinforcements will arrive sooner.
+EventTravelEventRoad9E.button1,Confirm
+EventTravelEventRoad11.text,"<b>Road - Wrong turn:</b>\n\n<i>You think you took a wrong turn...</i>\n\nEach hero tests {knowledge} and suffers 1 {fatigue} if he fails. If all heroes pass, skip the next Travel event icon in this travel phase."
+EventTravelEventRoad11.button1,Confirm
+EventTravelEventRoad12.text,"<b>Road - Mysterious Herald:</b>\n\n<i>As you make your way towards your destination, you are approached by a mysterious herald. ""Tread carefully, heroes,"" the cloaked strangers says. ""There are minions of evil everywhere! A terrible plot is afoot, just nearby, and it must be stopped! Come!""</i>\n\nYou will be able to avoid some of the Overlord's reinforcements."
+EventTravelEventRoad12.button1,Confirm
+EventTravelEventRoad15.text,<b>Road - Discarded Scroll:</b>\n\n<i>You come across a discarded scroll.</i>\n\nThe heroes choose a mage. He places one of his hero tokens besides the map. He may discard this after rolling defense dice to add a number of {shield} to his result equal to his {knowledge}.
+EventTravelEventRoad15.button1,Confirm
+EventTravelEventRoad17.text,<b>Road - Lost Messenger:</b>\n\n<i>A lost messenger is selling secrets.</i>\n\nThe heroes may choose to spend 25 gold (if available) to learn some of the Overlord's secrets.
+EventTravelEventRoad17.button1,No
+EventTravelEventRoad17.button2,Yes
+EventTravelEventRoad17A.text,<b>Road - Lost Messenger:</b>\n\n<i>You do not respond the shady offer.</i>\n\nNo Effect.
+EventTravelEventRoad17A.button1,Confirm
+EventTravelEventRoad17B.text,"<b>Road - Lost Messenger:</b>\n\n<i>You learn about some of the Overlord's plans, for a price.</i>\n\nYou will be able to avoid some of the Overlord's reinforcements."
+EventTravelEventRoad17B.button1,Confirm
+EventTravelEventRoad20.text,<b>Road - Tall Tree:</b>\n\n<i>A tall tree offers a scouting vantage.</i>\n\nHero players choose 1 hero to suffer 1 {fatigue} and test {awareness}. Did he pass?
+EventTravelEventRoad20.button1,No
+EventTravelEventRoad20.button2,Yes
+EventTravelEventRoad20A.text,<b>Road - Tall Tree:</b>\n\n<i>You do not manage to reach the treetop.</i>\n\nNo effect.
+EventTravelEventRoad20A.button1,Confirm
+EventTravelEventRoad20B.text,<b>Road - Tall Tree:</b>\n\n<i>You get a clear view from the top of the tree.</i>\n\nYou will be able to avoid some of the Overlord's reinforcements.
+EventTravelEventRoad20B.button1,Confirm
+EventTravelEventRoad22.text,"<b>Road - Shady Traveler:</b>\n\n<i>A shady traveler offers you directions, for a price.</i>\n\nThe heroes may choose to spend 25 gold (if available). Do you want to pay the fee?"
+EventTravelEventRoad22.button1,No
+EventTravelEventRoad22.button2,Yes
+EventTravelEventRoad22A.text,<b>Road - Shady Traveler:</b>\n\n<i>You do not respond the shady offer.</i>\n\nNo effect.
+EventTravelEventRoad22A.button1,Confirm
+EventTravelEventRoad22B.text,<b>Road - Shady Traveler:</b>\n\n<i>You pay the usurer and he indeed provides you with a shortcut to your destination.</i>\n\nSkip the next Travel event icon in this travel phase.
+EventTravelEventRoad22B.button1,Confirm
+EventTravelEventRoad24.text,"<b>Road - Lone Knight:</b>\n\n<i>A lone knight in shining silver armor blocks your path, bellowing a challenge to your strongest warrior.</i>\n\nDraw cards from the current Act's Shop Item Deck until a Melee weapon is revealed. One hero may choose to perform an attack with a Melee weapon against a gray defense die. This hero is also targeted by an attack from the drawn Shop Item, using his normal defense pool. If the hero deals more {heart} than he suffers, he may take the drawn Shop Item. If he suffers more {heart} than he deals, discard the drawn Shop Item."
+EventTravelEventRoad24.button1,Confirm
+EventTravelEventRoad26.text,<b>Road - Tree Inscribed With Inspiring Words:</b>\n\n<i>A large tree in your path is inscribed with inspiring words.</i>\n\nEach hero applies +1 to each of his attributes until the end of this Travel phase.
+EventTravelEventRoad26.button1,Confirm
+EventTravelEventRoad27.text,<b>Road - TURN BACK:</b>\n\n<i>TURN BACK is scrawled in blood on an ancient road marker.</i>\n\nEach hero tests {will}. Did 2 or more heroes fail?
+EventTravelEventRoad27.button1,No
+EventTravelEventRoad27.button2,Yes
+EventTravelEventRoad27A.text,"<b>Road - TURN BACK:</b>\n\n<i>You ignore the words, as they are clearly there to hinder you.</i>\n\nNo Effect."
+EventTravelEventRoad27A.button1,Confirm
+EventTravelEventRoad27B.text,"<b>Road - TURN BACK:</b>\n\n<i>You heed the warning, but this means you need to take a detour.</i>\n\nResolve another travel event of your choice."
+EventTravelEventRoad27B.button1,Confirm
+EventTravelEventRoad28MoB.text,"<b>Road - Ancient Graveyard:</b>\n\n<i>You stumble across an ancient graveyard. The statue of a hooded figure towers over the crumbling tombstones. In the statue's hands, a black crystal emanates a foreboding glow.</i>\n\nDo the heroes want to harvest the power of the crystal?"
+EventTravelEventRoad28MoB.button1,No
+EventTravelEventRoad28MoB.button2,Yes
+EventTravelEventRoad28MoBA.text,<b>Road - Ancient Graveyard:</b>\n\n<i>You do not risk to touch the dark crystal.</i>\n\nNo effect.
+EventTravelEventRoad28MoBA.button1,Confirm
+EventTravelEventRoad28MoBB.text,"<b>Road - Ancient Graveyard:</b>\n\n<i>You touch the dark crystal...</i>\n\nEach hero tests {knowledge}. Each hero who fails is Terrified or Diseased. If all heroes pass, place a hero token from the hero with the highest {knowledge} besides the map. During his turn, that hero may discard this token. If he does, each hero may discard 1 condition."
+EventTravelEventRoad28MoBB.button1,Confirm
+EventTravelEventRoad29MoB.text,"<b>Road - The Remains of a Wagon:</b>\n\n<i>You find the remains of a wagon. A chest with a bizarre lock sits unopened among the wreckage. A voice whispers in your mind, ""By ogre and wraith, unleash that which waits.""</i>\n\nDo the heroes want to open the chest?"
+EventTravelEventRoad29MoB.button1,No
+EventTravelEventRoad29MoB.button2,Yes
+EventTravelEventRoad29MoBA.text,<b>Road - The Remains of a Wagon:</b>\n\n<i>You leave the chest unopened.</i>\n\nNo effect.
+EventTravelEventRoad29MoBA.button1,Confirm
+EventTravelEventRoad29MoBB.text,"<b>Road - The Remains of a Wagon:</b>\n\n<i>You try to open the chest.</i>\n\nThe heroes choose 2 heroes to test both {might} and {will} to open the chest. If both heroes pass both tests, 1 hero draws and receives 1 Shop Item card from the current Act's Shop Item deck. Each hero who fails his {might} test is Stunned. Each hero who fails his {will} test is Terrified."
+EventTravelEventRoad29MoBB.button1,Confirm
+EventTravelEventRoad30.text,"<b>Road - Battalion of Enemy Soldiers:</b>\n\n<i>You scurry off the road as a battalion of enemy soldiers marches into view. You press yourselves against the berm, desperate not to be seen.</i>\n\nEach hero tests {awareness}. For each hero who fails, each hero suffers 1 {fatigue}."
+EventTravelEventRoad30.button1,Confirm
+EventTravelEventRoad31.text,<b>Road - Twelve Roads Cross Your Path:</b>\n\n<i>Twelve roads cross your path</i>\n\nOne hero tests {knowledge} or {awareness}. Did he pass?
+EventTravelEventRoad31.button1,Yes
+EventTravelEventRoad31.button2,No
+EventTravelEventRoad31A.text,<b>Road - Twelve Roads Cross Your Path:</b>\n\n<i>You find the right path.</i>\n\nNo effect.
+EventTravelEventRoad31A.button1,Confirm
+EventTravelEventRoad31B.text,<b>Road - Twelve Roads Cross Your Path:</b>\n\n<i>You are absolutely lost.</i>\n\nResolve 3 additional travel events of your choice.
+EventTravelEventRoad31B.button1,Confirm
+EventTravelEventPlains1.text,"<b>Plains - Moss covered Standing Stones:</b>\n\n<i>You come across a collection of mosscovered standing stones.</i>\n\nEach hero tests {will} and suffers 1 {fatigue} if he fails. If all heroes pass, each hero draws 1 Search Card."
+EventTravelEventPlains1.button1,Confirm
+EventTravelEventPlains2.text,<b>Plains - Band of Refugees:</b>\n\n<i>You come across a band of refugees.</i>\n\nDo you want to stop and help them?
+EventTravelEventPlains2.button1,No
+EventTravelEventPlains2.button2,Yes
+EventTravelEventPlains2A.text,<b>Plains - Band of Refugees:</b>\n\n<i>You refuse to help them.</i>\n\nEach hero suffers 1 {heart}.
+EventTravelEventPlains2A.button1,Confirm
+EventTravelEventPlains2B.text,<b>Plains - Band of Refugees:</b>\n\n<i>You stop and help the refugees.</i>\n\nThe Overlord's reinforcements will arrive sooner.
+EventTravelEventPlains2B.button1,Confirm
+EventTravelEventPlains3.text,<b>Plains - Smoke Smudging the Horizon:</b>\n\n<i>You see smoke smudging the horizon in the distance.</i>\n\nThe Overlord's reinforcements will arrive sooner.
+EventTravelEventPlains3.button1,Confirm
+EventTravelEventPlains4.text,"<b>Plains - Lawless Brigands:</b>\n\n<i>Lawless brigands accost you.</i>\n\nHero players choose one hero to test {might} to scare them off. If he fails, each hero suffers 1 {heart} in the battle."
+EventTravelEventPlains4.button1,Confirm
+EventTravelEventPlains8.text,<b>Plains - Burning Farm:</b>\n\n<i>You find a farm already burning and stop to give the farmers a proper burial.</i>\n\nThe Overlord's reinforcements will arrive sooner.
+EventTravelEventPlains8.button1,Confirm
+EventTravelEventPlains10.text,"<b>Plains - Tree with Golden Apples:</b>\n\n<i>You pause briefly in an orchard, which you discover has a tree with golden apples.</i>\n\nHero players choose one hero to test {will}. If he passes, draw 1 Search Card."
+EventTravelEventPlains10.button1,Confirm
+EventTravelEventPlains11.text,"<b>Plains - Winged Minions:</b>\n\n<i>Winged minions of the overlord descend to assault you from above.</i>\n\nOne hero tests {awareness}. if he fails, each hero suffers 1 {heart} and 1 {fatigue}."
+EventTravelEventPlains11.button1,Confirm
+EventTravelEventPlains12.text,"<b>Plains - Mysterious Herald:</b>\n\n<i>As you make your way towards your destination, you are approached by a mysterious herald. ""Tread carefully, heroes,"" the cloaked strangers says. ""There are minions of evil everywhere! A terrible plot is afoot, just nearby, and it must be stopped! Come!""</i>\n\nYou will be able to avoid some of the Overlord's reinforcements."
+EventTravelEventPlains12.button1,Confirm
+EventTravelEventPlains13.text,<b>Plains - The Enemy's Scouts:</b>\n\n<i>You encounter the enemy's scouts.</i>\n\nThe hero with the highest {awareness} must either suffer 1 {fatigue} or suffer 2 {heart}.
+EventTravelEventPlains13.button1,Suffer 1 {fatigue}
+EventTravelEventPlains13.button2,Suffer 2 {heart}
+EventTravelEventPlains13A.text,<b>Plains - The Enemy's Scouts:</b>\n\n<i>You manage to skillfully distract the enemies without being caught.</i>\n\nNo effect.
+EventTravelEventPlains13A.button1,Confirm
+EventTravelEventPlains13B.text,<b>Plains - The Enemy's Scouts:</b>\n\n<i>You hunt down one of the scouts and defeat him in battle.</i>\n\nYou will be able to avoid some of the Overlord's reinforcements.
+EventTravelEventPlains13B.button1,Confirm
+EventTravelEventPlains14.text,<b>Plains - Wandering Mystic:</b>\n\n<i>A wandering mystic blesses you.</i>\n\nThe heroes choose a healer. He places one of his hero tokens besides the map. He may discard this token when reviving a hero. The revived hero recovers all {heart}.
+EventTravelEventPlains14.button1,Confirm
+EventTravelEventPlains15.text,<b>Plains - Traveling Healer:</b>\n\n<i>A traveling healer offers you a mysterious method of healing.</i>\n\nThe heroes choose 1 hero to suffer 2 {heart}. Another hero of their choice recovers all {heart} and discards all of his Condition cards.
+EventTravelEventPlains15.button1,Confirm
+EventTravelEventPlains16.text,"<b>Plains - Ambush:</b>\n\n<i>You sense an ambush.</i>\n\nThe heroes may choose up to 3 different heroes to suffer 1 {heart} each. After setup, they can choose 1 monster to suffer the same amount of {heart}."
+EventTravelEventPlains16.button1,Confirm
+EventTravelEventPlains19.text,<b>Plains - Cloaked Traveller:</b>\n\n<i>A cloaked traveller offers a warning.</i>\n\nThe heroes may choose to suffer 1 {heart} each to avoid some of the overlords troops. Do they want to do this?
+EventTravelEventPlains19.button1,No
+EventTravelEventPlains19.button2,Yes
+EventTravelEventPlains19A.text,<b>Plains - Cloaked Traveller:</b>\n\n<i>You send the man away.</i>\n\nNo effect.
+EventTravelEventPlains19A.button1,Confirm
+EventTravelEventPlains19B.text,<b>Plains - Cloaked Traveller:</b>\n\n<i>You listen to the terrible stories of the cloaked man.</i>\n\nYou will be able to avoid some of the Overlord's reinforcements.
+EventTravelEventPlains19B.button1,Confirm
+EventTravelEventPlains21LoR.text,"<b>Plains - Barren Field:</b>\n\n<i>As you cross through a barren field with no sign of life, your party is assailed by unseen dark energy.</i>\n\nEach hero tests {willpower}. Each hero who fails is Cursed."
+EventTravelEventPlains21LoR.button1,Confirm
+EventTravelEventPlains22.text,"<b>Plains - Vicious Thunderstorm:</b>\n\n<i>A vicious thunderstorm hinders your progress.</i>\n\nEach hero suffers 1 {fatigue}. Then resolve another ""Plains"" travel encounter."
+EventTravelEventPlains22.button1,Confirm
+EventTravelEventPlains24.text,"<b>Plains - Lone Knight:</b>\n\n<i>A lone knight in shining silver armor blocks your path, bellowing a challenge to your strongest warrior.</i>\n\nDraw cards from the current Act's Shop Item Deck until a Melee weapon is revealed. One hero may choose to perform an attack with a Melee weapon against a gray defense die. This hero is also targeted by an attack from the drawn Shop Item, using his normal defense pool. If the hero deals more {heart} than he suffers, he may take the drawn Shop Item. If he suffers more {heart} than he deals, discard the drawn Shop Item."
+EventTravelEventPlains24.button1,Confirm
+EventTravelEventPlains25MoB.text,"<b>Plains - Wild Witch:</b>\n\n<i>A wild witch offers a boon.</i>\n\nThe heroes chose 1 hero to be Terrified. At the end of that hero's first turn, each monster adjacent to that hero is Terrified."
+EventTravelEventPlains25MoB.button1,Confirm
+EventTravelEventPlains28MoB.text,"<b>Plains - Ancient Graveyard:</b>\n\n<i>You stumble across an ancient graveyard. The statue of a hooded figure towers over the crumbling tombstones. In the statue's hands, a black crystal emanates a foreboding glow.</i>\n\nDo the heroes want to harvest the power of the crystal?"
+EventTravelEventPlains28MoB.button1,No
+EventTravelEventPlains28MoB.button2,Yes
+EventTravelEventPlains28MoBA.text,<b>Plains - Ancient Graveyard:</b>\n\n<i>You do not risk to touch the dark crystal.</i>\n\nNo effect.
+EventTravelEventPlains28MoBA.button1,Confirm
+EventTravelEventPlains28MoBB.text,"<b>Plains - Ancient Graveyard:</b>\n\n<i>You touch the dark crystal...</i>\n\nEach hero tests {knowledge}. Each hero who fails is Terrified or Diseased. If all heroes pass, place a hero token from the hero with the highest {knowledge} besides the map. During his turn, that hero may discard this token. If he does, each hero may discard 1 condition."
+EventTravelEventPlains28MoBB.button1,Confirm
+EventTravelEventPlains29MoB.text,"<b>Plains - The Remains of a Wagon:</b>\n\n<i>You find the remains of a wagon. A chest with a bizarre lock sits unopened among the wreckage. A voice whispers in your mind, ""By ogre and wraith, unleash that which waits.""</i>\n\nDo the heroes want to open the chest?"
+EventTravelEventPlains29MoB.button1,No
+EventTravelEventPlains29MoB.button2,Yes
+EventTravelEventPlains29MoBA.text,<b>Plains - The Remains of a Wagon:</b>\n\n<i>You leave the chest unopened.</i>\n\nNo effect.
+EventTravelEventPlains29MoBA.button1,Confirm
+EventTravelEventPlains29MoBB.text,"<b>Plains - The Remains of a Wagon:</b>\n\n<i>You try to open the chest.</i>\n\nThe heroes choose 2 heroes to test both {might} and {will} to open the chest. If both heroes pass both tests, 1 hero draws and receives 1 Shop Item card from the current Act's Shop Item deck. Each hero who fails his {might} test is Stunned. Each hero who fails his {will} test is Terrified."
+EventTravelEventPlains29MoBB.button1,Confirm
+EventTravelEventPlains30TctR.text,"<b>Plains - Silent Vultures:</b>\n\n<i>Silent vultures congregate in the sky above you, their number ever growing.</i>\n\nEach hero tests {will}. Each hero who fails is Terrified. Each hero who passes chooses 1 monster on the map after setup to be Terrified."
+EventTravelEventPlains30TctR.button1,Confirm
+EventTravelEventForest1.text,<b>Forest - Dense Thicket:</b>\n\n<i>You hear weeping at the center of a dense thicket.</i>\n\nDo you want to investigate it?
+EventTravelEventForest1.button1,No
+EventTravelEventForest1.button2,Yes
+EventTravelEventForest1A.text,<b>Forest - Dense Thicket:</b>\n\n<i>You do not waste any time investigating the forest.</i>\n\nNo Effect.
+EventTravelEventForest1A.button1,Confirm
+EventTravelEventForest1B.text,"<b>Forest - Dense Thicket:</b>\n\n<i>You hack through the thicket, getting a few scars on the way. You find nothing particularly interesting, but you are sure that you did the right thing.</i>\n\nEach hero suffers 1 {heart} but you will be able to avoid some of the Overlord's reinforcements."
+EventTravelEventForest1B.button1,Confirm
+EventTravelEventForest2.text,"<b>Forest - Lost:</b>\n\n<i>You become lost.</i>\n\nHero players choose one hero to test {awareness}. If he fails, each hero suffers 1 {fatigue}."
+EventTravelEventForest2.button1,Confirm
+EventTravelEventForest3.text,"<b>Forest - Peaceful Glade:</b>\n\n<i>Unexpectedly, you find a beautiful and peaceful glade in the woods.</i>\n\nEach hero recovers all {heart} and {fatigue}."
+EventTravelEventForest3.button1,Confirm
+EventTravelEventForest4.text,"<b>Forest - Webs Hang Everywhere!:</b>\n\n<i>Webs hang everywhere!</i>\n\nEach hero tests {awareness}. Each hero who fails is ambushed by a spider and is Poisoned. If all heroes fail, each hero suffers 1 {heart}."
+EventTravelEventForest4.button1,Confirm
+EventTravelEventForest5.text,"<b>Forest - Latari Elves:</b>\n\n<i>A band of Latari Elves is beset by minions of the overlord.</i>\n\nYou could aid the elves, but you might get wounded in the process. Do you want to help them?"
+EventTravelEventForest5.button1,No
+EventTravelEventForest5.button2,Yes
+EventTravelEventForest5A.text,<b>Forest - Latari Elves:</b>\n\n<i>While you continue your journey the elves' dying screams echo in the woods.</i>\n\nThe Overlord's reinforcements will arrive sooner.
+EventTravelEventForest5A.button1,Confirm
+EventTravelEventForest5B.text,<b>Forest - Latari Elves:</b>\n\n<i>You leap to their defense.</i>\n\nEach hero suffers 1 {heart}.
+EventTravelEventForest5B.button1,Confirm
+EventTravelEventForest6.text,<b>Forest - Minions Emerge!:</b>\n\n<i>The overlord's minions emerge!</i>\n\nThe heroes chooses 1 attribute. Each hero must test the chose attribute. Each hero that fails suffers 1 {heart} and 1 {fatigue}.
+EventTravelEventForest6.button1,Confirm
+EventTravelEventForest7.text,"<b>Forest - Spiders!:</b>\n\n<i>Spiders! Gods be good, spiders!</i>\n\nThe hero with the lowest {awareness} is Poisoned."
+EventTravelEventForest7.button1,Confirm
+EventTravelEventForest12.text,"<b>Forest - Mysterious Herald:</b>\n\n<i>As you make your way towards your destination, you are approached by a mysterious herald. ""Tread carefully, heroes,"" the cloaked strangers says. ""There are minions of evil everywhere! A terrible plot is afoot, just nearby, and it must be stopped! Come!""</i>\n\nYou will be able to avoid some of the Overlord's reinforcements."
+EventTravelEventForest12.button1,Confirm
+EventTravelEventForest13LotW.text,<b>Forest - An Old Crone:</b>\n\n<i>You encounter an old crone who whispers a curse before disappearing back into the mists.</i>\n\nEach hero must test {will}. Each hero who fails succumbs to her spell and is Burning.
+EventTravelEventForest13LotW.button1,Confirm
+EventTravelEventForest14.text,<b>Forest - Heavy Fog:</b>\n\n<i>You feel a heavy fog surround you. Suddenly you feel strangely tired.</i>\n\nEach hero tests {knowledge}. Each hero who fails must place a hero token on his Hero sheet. That hero's Speed is 2 during his first turn.
+EventTravelEventForest14.button1,Confirm
+EventTravelEventForest15.text,<b>Forest - Bandits Occupy This Forest:</b>\n\n<i>Bandits occupy this dark forest.</i>\n\nEach hero tests either {will} or {knowledge}. Each hero that fails suffers 1 {heart} and 1 {fatigue}. If all heroes pass they may choose one hero to draw and keep 1 Shop Item card.
+EventTravelEventForest15.button1,Confirm
+EventTravelEventForest16.text,<b>Forest - Lost Merchant:</b>\n\n<i>A lost merchant asks for directions.</i>
+EventTravelEventForest16.button1,Confirm
+EventTravelEventForest16H2.text,<b>Forest - Lost Merchant:</b>\n\nEach hero tests {knowledge}.\n\nHow many heroes passed the test?
+EventTravelEventForest16H2.button1,None
+EventTravelEventForest16H2.button2,One
+EventTravelEventForest16H2.button3,Two
+EventTravelEventForest16H3.text,<b>Forest - Lost Merchant:</b>\n\nEach hero tests {knowledge}.\n\nHow many heroes passed the test?
+EventTravelEventForest16H3.button1,None
+EventTravelEventForest16H3.button2,One
+EventTravelEventForest16H3.button3,Two
+EventTravelEventForest16H3.button4,Three
+EventTravelEventForest16H4.text,<b>Forest - Lost Merchant:</b>\n\nEach hero tests {knowledge}.\n\nHow many heroes passed the test?
+EventTravelEventForest16H4.button1,None
+EventTravelEventForest16H4.button2,One
+EventTravelEventForest16H4.button3,Two
+EventTravelEventForest16H4.button4,Three
+EventTravelEventForest16H4.button5,Four
+EventTravelEventForest16A.text,<b>Forest - Lost Merchant:</b>\n\n<i>Unfortunately you cannot help the merchant.</i>\n\nYou continue your journey.
+EventTravelEventForest16A.button1,Confirm
+EventTravelEventForest16B.text,<b>Forest - Lost Merchant:</b>\n\n<i>You can give the merchant an inconsistent description.</i>\n\nThe heroes are rewarded with 25 Gold.
+EventTravelEventForest16B.button1,Confirm
+EventTravelEventForest16C.text,<b>Forest - Lost Merchant:</b>\n\n<i>You can give the merchant a rough description.</i>\n\nThe heroes are rewarded with 50 Gold.
+EventTravelEventForest16C.button1,Confirm
+EventTravelEventForest16D.text,<b>Forest - Lost Merchant:</b>\n\n<i>You can give the merchant a pretty accurate description.</i>\n\nThe heroes are rewarded with 75 Gold.
+EventTravelEventForest16D.button1,Confirm
+EventTravelEventForest16E.text,<b>Forest - Lost Merchant:</b>\n\n<i>You can give the merchant an accurate description.</i>\n\nOne hero draws a shop item card of the current act and keeps it.
+EventTravelEventForest16E.button1,Confirm
+EventTravelEventForest17.text,<b>Forest - Gold Key:</b>\n\n<i>A strange man offers you a gold key.</i>\n\nIs there a scout in the hero party?
+EventTravelEventForest17.button1,No
+EventTravelEventForest17.button2,Yes
+EventTravelEventForest17A.text,<b>Forest - Gold Key:</b>\n\n<i>The strange man revokes his offer.</i>\n\nNo effect.
+EventTravelEventForest17A.button1,Confirm
+EventTravelEventForest17B.text,<b>Forest - Gold Key:</b>\n\n<i>The Scout identifies this as a value item which he can trade.</i>\n\nYou can draw 3 additional shop cards after completing this quest.
+EventTravelEventForest17B.button1,Confirm
+EventTravelEventForest18.text,"<b>Forest - Wild Beast:</b>\n\n<i>A wild beast ambushes your party and you drop your weapons. You must resort to your bare hands.</i>\n\n{rnd:hero} tests {might}. If the test fails, suffer {heart} equal to your {might}."
+EventTravelEventForest18.button1,Confirm
+EventTravelEventForest22.text,"<b>Forest - Goblin Scout:</b>\n\n<i>A goblin scout is running to warn his comrades!</i>\n\nOne hero with a Ranged weapon rolls that weapon's dice. If the total range rolled is less than 4, each hero suffers 2 {heart}."
+EventTravelEventForest22.button1,Confirm
+EventTravelEventForest23.text,"<b>Forest - Goblin Scout:</b>\n\n<i>A goblin scout is running to warn his comrades!</i>\n\nOne hero with a Ranged weapon rolls that weapon's dice. If the total range rolled is less than 4, each hero suffers 2 {heart}."
+EventTravelEventForest23.button1,Confirm
+EventTravelEventForest23TT.text,<b>Forest - Hideous Plague Worm:</b>\n\n<i>A hideous plague worm attacks!</i>\n\n{rnd:hero} suffers 1 {heart} and is Weakened.
+EventTravelEventForest23TT.button1,Confirm
+EventTravelEventForest24.text,"<b>Forest - Lone Knight:</b>\n\n<i>A lone knight in shining silver armor blocks your path, bellowing a challenge to your strongest warrior.</i>\n\nDraw cards from the current Act's Shop Item Deck until a Melee weapon is revealed. One hero may choose to perform an attack with a Melee weapon against a gray defense die. This hero is also targeted by an attack from the drawn Shop Item, using his normal defense pool. If the hero deals more {heart} than he suffers, he may take the drawn Shop Item. If he suffers more {heart} than he deals, discard the drawn Shop Item."
+EventTravelEventForest24.button1,Confirm
+EventTravelEventForest25.text,"<b>Forest - Goblin Scout:</b>\n\n<i>A goblin scout is running to warn his comrades!</i>\n\nOne hero with a Ranged weapon rolls that weapon's dice. If the total range rolled is less than 4, each hero suffers 2 {heart}."
+EventTravelEventForest25.button1,Confirm
+EventTravelEventForest25MoB.text,<b>Forest - A Strange Locket:</b>\n\n<i>A strange locket glints in the dirt.</i>\n\nThe heroes choose 1 hero to test {knowledge}. Did he pass?
+EventTravelEventForest25MoB.button1,No
+EventTravelEventForest25MoB.button2,Yes
+EventTravelEventForest25MoBA.text,<b>Forest - A Strange Locket:</b>\n\n<i>You do not manage to open the locket.</i>\n\nEach hero suffers {fatigue} equal to the {shield} rolled in excess of that hero's {knowledge}.
+EventTravelEventForest25MoBA.button1,Confirm
+EventTravelEventForest25MoBB.text,<b>Forest - A Strange Locket:</b>\n\n<i>You manage to open the locket.</i>\n\nInside you find 25 gold.
+EventTravelEventForest25MoBB.button1,Confirm
+EventTravelEventForest26.text,<b>Forest - A Recent Rain:</b>\n\n<i>A recent rain has left the forest a boggy mess.</i>\n\nEach hero tests {might}. Each hero who fails reduces his Speed to 1 during his first turn.
+EventTravelEventForest26.button1,Confirm
+EventTravelEventForest27.text,"<b>Forest - Goblin Scout:</b>\n\n<i>A goblin scout is running to warn his comrades!</i>\n\nOne hero with a Ranged weapon rolls that weapon's dice. If the total range rolled is less than 4, each hero suffers 2 {heart}."
+EventTravelEventForest27.button1,Confirm
+EventTravelEventForest28MoB.text,"<b>Forest - Ancient Graveyard:</b>\n\n<i>You stumble across an ancient graveyard. The statue of a hooded figure towers over the crumbling tombstones. In the statue's hands, a black crystal emanates a foreboding glow.</i>\n\nDo the heroes want to harvest the power of the crystal?"
+EventTravelEventForest28MoB.button1,No
+EventTravelEventForest28MoB.button2,Yes
+EventTravelEventForest28MoBA.text,<b>Forest - Ancient Graveyard:</b>\n\n<i>You do not risk to touch the dark crystal.</i>\n\nNo effect.
+EventTravelEventForest28MoBA.button1,Confirm
+EventTravelEventForest28MoBB.text,"<b>Forest - Ancient Graveyard:</b>\n\n<i>You touch the dark crystal...</i>\n\nEach hero tests {knowledge}. Each hero who fails is Terrified or Diseased. If all heroes pass, place a hero token from the hero with the highest {knowledge} besides the map. During his turn, that hero may discard this token. If he does, each hero may discard 1 condition."
+EventTravelEventForest28MoBB.button1,Confirm
+EventTravelEventForest29MoB.text,"<b>Forest - The Remains of a Wagon:</b>\n\n<i>You find the remains of a wagon. A chest with a bizarre lock sits unopened among the wreckage. A voice whispers in your mind, ""By ogre and wraith, unleash that which waits.""</i>\n\nDo the heroes want to open the chest?"
+EventTravelEventForest29MoB.button1,No
+EventTravelEventForest29MoB.button2,Yes
+EventTravelEventForest29MoBA.text,<b>Forest - The Remains of a Wagon:</b>\n\n<i>You leave the chest unopened.</i>\n\nNo effect.
+EventTravelEventForest29MoBA.button1,Confirm
+EventTravelEventForest29MoBB.text,"<b>Forest - The Remains of a Wagon:</b>\n\n<i>You try to open the chest.</i>\n\nThe heroes choose 2 heroes to test both {might} and {will} to open the chest. If both heroes pass both tests, 1 hero draws and receives 1 Shop Item card from the current Act's Shop Item deck. Each hero who fails his {might} test is Stunned. Each hero who fails his {will} test is Terrified."
+EventTravelEventForest29MoBB.button1,Confirm
+EventTravelEventForest30.text,"<b>Forest - A Young Couple:</b>\n\n<i>A young couple sifts through the charred remains of their cabin.</i>\n\nDo the heroes want to spend 25 Gold (if available), to support them?"
+EventTravelEventForest30.button1,No
+EventTravelEventForest30.button2,Yes
+EventTravelEventForest30A.text,<b>Forest - A Young Couple:</b>\n\n<i>You have no time to aid the locals.</i>\n\nNo effect.
+EventTravelEventForest30A.button1,Confirm
+EventTravelEventForest30B.text,"<b>Forest - A Young Couple:</b>\n\n<i>You help the couple, and they promise to tell others about your heroic endeavor.</i>\n\nYou will be able to avoid some of the Overlord's reinforcements."
+EventTravelEventForest30B.button1,Confirm
+EventTravelEventWater4.text,"<b>Water - Something Glimmers:</b>\n\n<i>Something glimmers at the bottom of the pool!</i>\n\nHero players choose one hero to test {awareness} to dive in after it. If he passes, draw 1 Search card."
+EventTravelEventWater4.button1,Confirm
+EventTravelEventWater5.text,"<b>Water - Fat Bloated Corpses:</b>\n\n<i>Fat, bloated corpses float in the water. As you approach, they moan and rise!</i>\n\nEach hero tests {will}. Each hero who fails is overcome by zombies and is Diseased."
+EventTravelEventWater5.button1,Confirm
+EventTravelEventWater7.text,<b>Water - Pestilential Miasma:</b>\n\n<i>A pestilential miasma seems to rise from the water.</i>\n\nThe hero with the lowest {might} is Diseased.
+EventTravelEventWater7.button1,Confirm
+EventTravelEventWater8.text,"<b>Water - Mysterious Robed Figure:</b>\n\n<i>A mysterious robed figure offers you a ride on his pole-bardge.</i>\n\nYou don't know if the stranger is trustworthy, but you would surely regain your stamina. Do you accept?"
+EventTravelEventWater8.button1,No
+EventTravelEventWater8.button2,Yes
+EventTravelEventWater8A.text,<b>Water - Mysterious Robed Figure:</b>\n\n<i>You don't want to risk anything.</i>\n\nNo effect.
+EventTravelEventWater8A.button1,Confirm
+EventTravelEventWater8B.text,"<b>Water - Mysterious Robed Figure:</b>\n\n<i>The stranger doesn't speak much, but he observantly listens in on your conversations...</i>\n\nEach hero recovers all {fatigue}, but the Overlord's reinforcements will arrive sooner."
+EventTravelEventWater8B.button1,Confirm
+EventTravelEventWater9.text,"<b>Water - Last Night's Rain:</b>\n\n<i>After last night's rain, the rivers are running high and fast.</i>\n\nEach hero tests {knowledge}. Each hero that fails suffers 2 {fatigue}."
+EventTravelEventWater9.button1,Confirm
+EventTravelEventWater10.text,"<b>Water - Tentacles:</b>\n\n<i>Tentacles burst from the water and attempt to pull the heroes in!</i>\n\nEach hero tests {might} and suffers 1 {fatigue} if he fails. If all heroes fail, each hero suffers 1 {heart}."
+EventTravelEventWater10.button1,Confirm
+EventTravelEventWater11.text,<b>Water - Ferryman:</b>\n\n<i>You begin to tire after the long journey. A ferryman sympathizes and offers you a ride.</i>\n\nYou could either spend 25 gold (if available) or continue the exhausting march by foot.
+EventTravelEventWater11.button1,Suffer fatigue
+EventTravelEventWater11.button2,Spend gold
+EventTravelEventWater11A.text,"<b>Water - Ferryman:</b>\n\n<i>You continue your travel by foot, which proves to be quite exhausting.</i>\n\nEach hero suffers 1 {fatigue}."
+EventTravelEventWater11A.button1,Confirm
+EventTravelEventWater11B.text,<b>Water - Ferryman:</b>\n\n<i>Traveling this way is costly but faster.</i>\n\nYou pay the ferryman his 25 gold.
+EventTravelEventWater11B.button1,Confirm
+EventTravelEventWater12.text,"<b>Water - Mysterious Herald:</b>\n\n<i>As you make your way towards your destination, you are approached by a mysterious herald. ""Tread carefully, heroes,"" the cloaked strangers says. ""There are minions of evil everywhere! A terrible plot is afoot, just nearby, and it must be stopped! Come!""</i>\n\nYou will be able to avoid some of the Overlord's reinforcements."
+EventTravelEventWater12.button1,Confirm
+EventTravelEventWater14.text,<b>Water - Invigorated:</b>\n\n<i>You feel invigorated.</i>\n\nThe heroes choose a warrior. He places one of his hero tokens besides the map. He may discard this token at the start of his turn. He does not suffer {fatigue} to use skills this turn.
+EventTravelEventWater14.button1,Confirm
+EventTravelEventWater18LoR.text,"<b>Water - Woman by the Edge:</b>\n\n<i>A woman is sitting by the edge of the water whispering incoherently. As you get closer, her words begin to fill you with dread.</i>\n\nEach hero tests {knowledge}. Each hero who fails is Cursed."
+EventTravelEventWater18LoR.button1,Confirm
+EventTravelEventWater19.text,<b>Water - Dark Fog:</b>\n\n<i>A dark fog has settled over the water.</i>\n\nThe Overlord's reinforcements will arrive sooner.
+EventTravelEventWater19.button1,Confirm
+EventTravelEventWater20LoR.text,"<b>Water - The Water Appears Dark:</b>\n\n<i>The water appears dark and smells rather foul.</i>\n\nChoose 1 hero, that does not have a Condition card, to test his weakest attribute. if he fails, he is Cursed."
+EventTravelEventWater20LoR.button1,Confirm
+EventTravelEventWater21.text,<b>Water - Haggling with a Merchant:</b>\n\n<i>Haggling with a traveling merchant causes unfortunate delay.</i>\n\nThe heroes may choose 1 hero to draw and keep 1 Shop Item card. Do they want to do this?
+EventTravelEventWater21.button1,No
+EventTravelEventWater21.button2,Yes
+EventTravelEventWater21A.text,<b>Water - Haggling with a Merchant:</b>\n\n<i>You have no time for this.</i>\n\nNo effect.
+EventTravelEventWater21A.button1,Confirm
+EventTravelEventWater21B.text,<b>Water - Haggling with a Merchant:</b>\n\n<i>It takes hours until you can negotiate a price.</i>\n\nThe Overlord's reinforcements will arrive sooner.
+EventTravelEventWater21B.button1,Confirm
+EventTravelEventWater23.text,<b>Water - Corrupted Waters:</b>\n\n<i>Something foul has corrupted these waters.</i>\n\nEach hero tests {might}. Each hero that fails is Poisoned.
+EventTravelEventWater23.button1,Confirm
+EventTravelEventWater24.text,"<b>Water - Lone Knight:</b>\n\n<i>A lone knight in shining silver armor blocks your path, bellowing a challenge to your strongest warrior.</i>\n\nDraw cards from the current Act's Shop Item Deck until a Melee weapon is revealed. One hero may choose to perform an attack with a Melee weapon against a gray defense die. This hero is also targeted by an attack from the drawn Shop Item, using his normal defense pool. If the hero deals more {heart} than he suffers, he may take the drawn Shop Item. If he suffers more {heart} than he deals, discard the drawn Shop Item."
+EventTravelEventWater24.button1,Confirm
+EventTravelEventWater25.text,<b>Water - Inviting Lagoon:</b>\n\n<i>Among the darkened waters you see a deep but inviting lagoon.</i>\n\nEach hero may choose to suffer 2 {heart} and recover 2 {fatigue} or suffer 2 {fatigue} and recover 2 {heart}.
+EventTravelEventWater25.button1,Confirm
+EventTravelEventWater27.text,<b>Water - Festering Leeches:</b>\n\n<i>The water teems with festering leeches.</i>\n\nEach hero tests {awareness}. Each hero who fails is Diseased.
+EventTravelEventWater27.button1,Confirm
+EventTravelEventWater28MoB.text,"<b>Water - Ancient Graveyard:</b>\n\n<i>You stumble across an ancient graveyard. The statue of a hooded figure towers over the crumbling tombstones. In the statue's hands, a black crystal emanates a foreboding glow.</i>\n\nDo the heroes want to harvest the power of the crystal?"
+EventTravelEventWater28MoB.button1,No
+EventTravelEventWater28MoB.button2,Yes
+EventTravelEventWater28MoBA.text,<b>Water - Ancient Graveyard:</b>\n\n<i>You do not risk to touch the dark crystal.</i>\n\nNo effect.
+EventTravelEventWater28MoBA.button1,Confirm
+EventTravelEventWater28MoBB.text,"<b>Water - Ancient Graveyard:</b>\n\n<i>You touch the dark crystal...</i>\n\nEach hero tests {knowledge}. Each hero who fails is Terrified or Diseased. If all heroes pass, place a hero token from the hero with the highest {knowledge} besides the map. During his turn, that hero may discard this token. If he does, each hero may discard 1 condition."
+EventTravelEventWater28MoBB.button1,Confirm
+EventTravelEventWater29MoB.text,"<b>Water - The Remains of a Wagon:</b>\n\n<i>You find the remains of a wagon. A chest with a bizarre lock sits unopened among the wreckage. A voice whispers in your mind, ""By ogre and wraith, unleash that which waits.""</i>\n\nDo the heroes want to open the chest?"
+EventTravelEventWater29MoB.button1,No
+EventTravelEventWater29MoB.button2,Yes
+EventTravelEventWater29MoBA.text,<b>Water - The Remains of a Wagon:</b>\n\n<i>You leave the chest unopened.</i>\n\nNo effect.
+EventTravelEventWater29MoBA.button1,Confirm
+EventTravelEventWater29MoBB.text,"<b>Water - The Remains of a Wagon:</b>\n\n<i>You try to open the chest.</i>\n\nThe heroes choose 2 heroes to test both {might} and {will} to open the chest. If both heroes pass both tests, 1 hero draws and receives 1 Shop Item card from the current Act's Shop Item deck. Each hero who fails his {might} test is Stunned. Each hero who fails his {will} test is Terrified."
+EventTravelEventWater29MoBB.button1,Confirm
+EventTravelEventWater31TctR.text,"<b>Water - Globules of Blood:</b>\n\n<i>Globules of blood bubble up from unseen depths, filling the air with putrid red mist.</i>\n\nEach hero tests {knowledge}. Each hero who fails is Diseased and tests {will}. Each hero who fails again is Terrified."
+EventTravelEventWater31TctR.button1,Confirm
+EventTravelEventMountains1.text,<b>Mountains - Unforgiving Slopes:</b>\n\n<i>You're caught on the unforgiving slopes during a fierce storm.</i>\n\nEach hero suffers 1 {heart} and 1 {fatigue}.
+EventTravelEventMountains1.button1,Confirm
+EventTravelEventMountains3.text,"<b>Mountains - An Ettin Appears:</b>\n\n<i>An ettin appears from the mountains and attacks the heroes!</i>\n\nEach hero tests {might} and suffers 1 {heart} if he fails. If all heroes fail, each hero suffers 1 additional {heart}."
+EventTravelEventMountains3.button1,Confirm
+EventTravelEventMountains5.text,<b>Mountains - Dwarf of Dunwarr:</b>\n\n<i>A dwarf of Dunwarr is burying his brother. He warns you of dangers ahead.</i>\n\nSkip the next Travel event icon in this travel phase.
+EventTravelEventMountains5.button1,Confirm
+EventTravelEventMountains6.text,<b>Mountains - Minions Emerge!:</b>\n\n<i>The overlord's minions emerge!</i>\n\nThe heroes chooses 1 attribute. Each hero must test the chose attribute. Each hero that fails suffers 1 {heart} and 1 {fatigue}.
+EventTravelEventMountains6.button1,Confirm
+EventTravelEventMountains8.text,<b>Mountains - Mysterious Cave:</b>\n\n<i>A mysterious cave mouth looms ahead.</i>\n\nChecking out the cave would take some time. Do you want to do this?
+EventTravelEventMountains8.button1,No
+EventTravelEventMountains8.button2,Yes
+EventTravelEventMountains8A.text,<b>Mountains - Mysterious Cave:</b>\n\n<i>You have no time to check out the cave.</i>\n\nNo effect.
+EventTravelEventMountains8A.button1,Confirm
+EventTravelEventMountains8B.text,"<b>Mountains - Mysterious Cave:</b>\n\n<i>It takes a while, but you find a treasure in the cave!</i>\n\nA hero draws a search card but the Overlord's reinforcements will arrive sooner."
+EventTravelEventMountains8B.button1,Confirm
+EventTravelEventMountains9.text,<b>Mountains - Landslide!:</b>\n\n<i>Landslide!</i>\n\nEach hero tests {might}. Each hero that fails suffers 2 {fatigue}.
+EventTravelEventMountains9.button1,Confirm
+EventTravelEventMountains10.text,"<b>Mountains - Arrows fly:</b>\n\n<i>Arrows fly from behind the boulders ahead!</i>\n\nEach hero tests {awareness} and suffers 1 {heart} if he fails. If all heroes fail, each hero suffers 1 additional {heart}."
+EventTravelEventMountains10.button1,Confirm
+EventTravelEventMountains12.text,"<b>Mountains - Mysterious Herald:</b>\n\n<i>As you make your way towards your destination, you are approached by a mysterious herald. ""Tread carefully, heroes,"" the cloaked strangers says. ""There are minions of evil everywhere! A terrible plot is afoot, just nearby, and it must be stopped! Come!""</i>\n\nYou will be able to avoid some of the Overlord's reinforcements."
+EventTravelEventMountains12.button1,Confirm
+EventTravelEventMountains13.text,"<b>Mountains - Mysterious Jester:</b>\n\n<i>A mysterious jester appears and presents an irresistible offer...</i>\n\nOne hero tests each of his attributes ({will}, {knowledge}, {awareness}, and {might}). If he passes all tests, draw 1 card from the current Act's Shop Item deck."
+EventTravelEventMountains13.button1,Confirm
+EventTravelEventMountains16.text,"<b>Mountains - Wonder at the Riches:</b>\n\n<i>As you hike up the mountain path, you wonder at the riches that await.</i>\n\nThe players draw the top 3 cards of the search deck and return any <i>potion</i> cards they found to the bottom of the deck. The other cards are returned to the top of the search deck."
+EventTravelEventMountains16.button1,Confirm
+EventTravelEventMountains17.text,"<b>Mountains - Mountain Path:</b>\n\n<i>You find the mountain path to be painfully exhausting.</i>\n\nThe hero with the lowest {might} tests {might}. If he fails, place a hero token on his Hero sheet. He has -1 Speed until he performs a rest action."
+EventTravelEventMountains17.button1,Confirm
+EventTravelEventMountains18.text,"<b>Mountains - Chest Sealed with a Rune:</b>\n\n<i>You find a chest sealed with a rune.</i>\n\nEach hero tests {knowledge}. If at least 2 heroes pass, the heroes may search the Search deck for 1 Health Potion, take it, and then shuffle the Search Deck."
+EventTravelEventMountains18.button1,Confirm
+EventTravelEventMountains19.text,"<b>Mountains - Rocky Ground:</b>\n\n<i>As you hike your way up the mountain trail, the rocky ground gives way beneath your feet.</i>\n\nEach hero tests {might}. Each hero who fails is Stunned. If all heroes fail, each hero suffers 1 {heart}."
+EventTravelEventMountains19.button1,Confirm
+EventTravelEventMountains20.text,"<b>Mountains - Catching a Spy:</b>\n\n<i>Catching a spy does not prove easy.</i>\n\nEach hero suffers 2 {fatigue}, but you will be able to avoid some of the Overlord's reinforcements."
+EventTravelEventMountains20.button1,Confirm
+EventTravelEventMountains21.text,<b>Mountains - Evil Minions:</b>\n\n<i>Evil minions gain strength.</i>\n\nPlace a {fatigue} token besides the map. Discard this token during the first activation of a master monster. That monster gains 2 additional movement points.
+EventTravelEventMountains21.button1,Confirm
+EventTravelEventMountains23.text,<b>Mountains - Captured Spy:</b>\n\n<i>A captured spy divulges many secrets.</i>\n\nYou will be able to avoid some of the Overlord's reinforcements.
+EventTravelEventMountains23.button1,Confirm
+EventTravelEventMountains24.text,"<b>Mountains - Lone Knight:</b>\n\n<i>A lone knight in shining silver armor blocks your path, bellowing a challenge to your strongest warrior.</i>\n\nDraw cards from the current Act's Shop Item Deck until a Melee weapon is revealed. One hero may choose to perform an attack with a Melee weapon against a gray defense die. This hero is also targeted by an attack from the drawn Shop Item, using his normal defense pool. If the hero deals more {heart} than he suffers, he may take the drawn Shop Item. If he suffers more {heart} than he deals, discard the drawn Shop Item."
+EventTravelEventMountains24.button1,Confirm
+EventTravelEventMountains26MoB.text,"<b>Mountains - Unnatural Figures:</b>\n\n<i>Unnatural figures haunt the edge of your campsites.</i>\n\nThe heroes choose a hero to test {awareness}. If he passes, he is Terrified. If he fails, each other hero is Terrified."
+EventTravelEventMountains26MoB.button1,Confirm
+EventTravelEventMountains27MoB.text,"<b>Mountains - The Reek of Burning Flesh:</b>\n\n<i>The reek of burning flesh draws you to an abandoned funeral pyre.</i>\n\nThe heroes may choose 1 hero to test {awareness}. If he passes, that hero draws 1 search card and is Terrified."
+EventTravelEventMountains27MoB.button1,Confirm
+EventTravelEventMountains28MoB.text,"<b>Mountains - Ancient Graveyard:</b>\n\n<i>You stumble across an ancient graveyard. The statue of a hooded figure towers over the crumbling tombstones. In the statue's hands, a black crystal emanates a foreboding glow.</i>\n\nDo the heroes want to harvest the power of the crystal?"
+EventTravelEventMountains28MoB.button1,No
+EventTravelEventMountains28MoB.button2,Yes
+EventTravelEventMountains28MoBA.text,<b>Mountains - Ancient Graveyard:</b>\n\n<i>You do not risk to touch the dark crystal.</i>\n\nNo effect.
+EventTravelEventMountains28MoBA.button1,Confirm
+EventTravelEventMountains28MoBB.text,"<b>Mountains - Ancient Graveyard:</b>\n\n<i>You touch the dark crystal...</i>\n\nEach hero tests {knowledge}. Each hero who fails is Terrified or Diseased. If all heroes pass, place a hero token from the hero with the highest {knowledge} besides the map. During his turn, that hero may discard this token. If he does, each hero may discard 1 condition."
+EventTravelEventMountains28MoBB.button1,Confirm
+EventTravelEventMountains29MoB.text,"<b>Mountains - The Remains of a Wagon:</b>\n\n<i>You find the remains of a wagon. A chest with a bizarre lock sits unopened among the wreckage. A voice whispers in your mind, ""By ogre and wraith, unleash that which waits.""</i>\n\nDo the heroes want to open the chest?"
+EventTravelEventMountains29MoB.button1,No
+EventTravelEventMountains29MoB.button2,Yes
+EventTravelEventMountains29MoBA.text,<b>Mountains - The Remains of a Wagon:</b>\n\n<i>You leave the chest unopened.</i>\n\nNo effect.
+EventTravelEventMountains29MoBA.button1,Confirm
+EventTravelEventMountains29MoBB.text,"<b>Mountains - The Remains of a Wagon:</b>\n\n<i>You try to open the chest.</i>\n\nThe heroes choose 2 heroes to test both {might} and {will} to open the chest. If both heroes pass both tests, 1 hero draws and receives 1 Shop Item card from the current Act's Shop Item deck. Each hero who fails his {might} test is Stunned. Each hero who fails his {will} test is Terrified."
+EventTravelEventMountains29MoBB.button1,Confirm
+EventTravelEventMountains31.text,<b>Mountains - Coffin Inlaid into a Cliff:</b>\n\n<i>You happen upon an enormous coffin inlaid into the face of a cliff.</i>\n\nThe heroes choose a number of heroes to test {might}. Each hero who fails suffers 3 {heart}. Do 1 or more heroes pass?
+EventTravelEventMountains31.button1,No
+EventTravelEventMountains31.button2,Yes
+EventTravelEventMountains31A.text,<b>Mountains - Coffin Inlaid into a Cliff:</b>\n\n<i>You do not manage to open the coffin.</i>\n\nNo effect.
+EventTravelEventMountains31A.button1,Confirm
+EventTravelEventMountains31B.text,<b>Mountains - Coffin Inlaid into a Cliff:</b>\n\n<i>Inside the coffin you find some gold coins.</i>\n\nYou receive 25 gold.
+EventTravelEventMountains31B.button1,Confirm
+EventTimeThreshold1E1.text,You hear a loud commotion from the west. You should investigate this noise.
+EventTimeThreshold1E1.button1,Confirm
+EventTimeThreshold2E1.text,You hear the sound of plundering Goblins nerby. You'd best hurry before they get away!
+EventTimeThreshold2E1.button1,Confirm
+EventTimeThreshold3E1.text,"The commotion is still loud, but some of the goblins seem to have already gotten away."
+EventTimeThreshold3E1.button1,Confirm
+EventTimeThreshold4E1.text,The noise is almost gone. This might be your last chance to catch one of the goblins!
+EventTimeThreshold4E1.button1,Confirm
+EventTimeThreshold5E1.text,You are too late. The goblins managed to plunder the farm before you could intervene!
+EventTimeThreshold5E1.button1,Confirm
+EventTimeThreshold1E2.text,"You hear a loud commotion from deeper within the cave, somebody is asking for mercy. You should investigate this soon."
+EventTimeThreshold1E2.button1,Confirm
+EventTimeThreshold2E2.text,You hear a scream from deeper within the cave. Someone seems to be tortured.
+EventTimeThreshold2E2.button1,Confirm
+EventTimeThreshold3E2.text,You hear another scream which sounds clearly distinct. Apparently mutliple people are suffering.
+EventTimeThreshold3E2.button1,Confirm
+EventTimeThreshold4E2.text,"This time you hear someone louldy begging for mercy multiple times, followed by an eerie silence. You have to intervene now!"
+EventTimeThreshold4E2.button1,Confirm
+EventTimeThreshold5E2.text,"This time you hear a loud argument, followed by someone getting hit multiple times. Whoever is doing this, he seems to have found what he was looking for."
+EventTimeThreshold5E2.button1,Confirm
+EventTimeThreshold6E2A.text,The Door swings open and crashes into the cave wall. Before you there is a group of goblin archers which are lead by the fatest goblin you have ever seen. On his shoulder he carries a knocked out person. This is most likely Frederik.
+EventTimeThreshold6E2A.button1,Confirm
+EventTimeThreshold6E2B.text,"The Door swings open and a group of goblins scatter into the room. They quickly barricade the door behind them while their leader, the fatest goblin you have ever seen, surveys you smugly. On his shoulder he carries a knocked out person. This is most likely Frederik."
+EventTimeThreshold6E2B.button1,Confirm
+EventCropsStolen4.text,How many Goblins escaped the map?\n\n<b>Note:</b> Choosing the last option will end the encounter.
+EventCropsStolen4.button1,0 Goblins
+EventCropsStolen4.button2,1 Goblin
+EventCropsStolen4.button3,2 Goblins
+EventCropsStolen4.button4,3 Goblins
+EventCropsStolen4.button5,4 Goblins
+EventCropsStolen3.text,How many Goblins escaped the map?\n\n<b>Note:</b> Choosing the last option will end the encounter.
+EventCropsStolen3.button1,0 Goblins
+EventCropsStolen3.button2,1 Goblin
+EventCropsStolen3.button3,2 Goblins
+EventCropsStolen3.button4,3 Goblins
+EventCropsStolen2.text,How many Goblins escaped the map?\n\n<b>Note:</b> Choosing the last option will end the encounter.
+EventCropsStolen2.button1,0 Goblins
+EventCropsStolen2.button2,1 Goblin
+EventCropsStolen2.button3,2 Goblins
+EventCropsStolen1.text,How many Goblins escaped the map?\n\n<b>Note:</b> Choosing the last option will end the encounter.
+EventCropsStolen1.button1,0 Goblins
+EventCropsStolen1.button2,1 Goblin
+EventGoblinsEscaped1.text,<i>The goblin escapes rashly.</i>
+EventGoblinsEscaped1.button1,Confirm
+EventGoblinsEscaped2.text,<i>The two goblins seem to be in good spirits as they escape.</i>
+EventGoblinsEscaped2.button1,Confirm
+EventGoblinsEscaped3.text,<i>The three goblins run away laughing loudly.</i>
+EventGoblinsEscaped3.button1,Confirm
+EventGoblinsEscaped4.text,<i>The four goblins mock you with obscene gestures before escaping.</i>
+EventGoblinsEscaped4.button1,Confirm
+EventHasSpligEscapedA.text,Has Splig managed to escape the map?
+EventHasSpligEscapedA.button1,No
+EventHasSpligEscapedA.button2,Yes
+EventHasSpligEscapedB.text,Has Splig managed to escape the map?
+EventHasSpligEscapedB.button1,No
+EventHasSpligEscapedB.button2,Yes
+EventSecretRoomTimer3.text,"<i>You hear a deep grinding, as if some hidden machinery was set into motion. Perhaps you should hurry.</i>"
+EventSecretRoomTimer3.button1,Confirm
+EventSecretRoomTimer2.text,"<i>The grinding gets louder and louder, and the walls start to shake. The secret room doesn't seem to be safe any longer.</i>"
+EventSecretRoomTimer2.button1,Confirm
+EventSecretRoomTimer1.text,<i>With a loud crash a big boulder lands in the knee deep water</i>\n\nEvery hero on S2B tests {awareness}. Each hero who fails suffers 1 {heart}.
+EventSecretRoomTimer1.button1,Confirm
+EventSecretRoomTimer0.text,"<i>With a deafening roar, the secret room collapses. You will not be able to enter it again.</i>\n\nEach hero on S2B suffers 2 {heart}. Then his hero figure is placed on the secret room entrance token on 9B.\nAfterwards discard S2B, any remaining search tokens and the 2 secret room entrance tokens."
+EventSecretRoomTimer0.button1,Confirm
+TokenSearch11AGrassland.text,You see an abandoned leather pouch in the bushes.
+TokenSearch11AGrassland.button1,{action} Search
+TokenSearch3AWater1.text,"Besides this road, you find a rotting wooden chest."
+TokenSearch3AWater1.button1,{action} Search
+TokenSearch3AWater2.text,Something glimmers under the dirt.
+TokenSearch3AWater2.button1,{action} Search
+TokenSearch20APass.text,"<i>This seems to be a hidden cache of valuables, which have been gathered by the goblins.</i>"
+TokenSearch20APass.button1,{action} Search
+TokenFarmer.text,"This is the blood-spattered man.\n\nAs an action, an adjacent hero can talk to him to learn what happened here."
+TokenFarmer.button1,{action} Talk
+TokenFarm10A1.text,"This token is a part of the farm's storage.\n\nAs an action, a hero in a space with this token can store a bundle of crops. Then the objective token is discarded from his hero sheet.\n\nReminder: Red objective tokens are bundles of crops.\nAs an action, an adjacent hero may pick it up and place it on his hero sheet.\n\ If a figure carrying a bundle of crops is defeated, the red objective token is placed in that figures space."
+TokenFarm10A1.button1,{action} Store Crops
+TokenFarm10A2.text,"This token is a part of the farm's storage.\n\nAs an action, a hero in a space with this token can store a bundle of crops. Then the objective token is discarded from his hero sheet.\n\nReminder: Red objective tokens are bundles of crops.\nAs an action, an adjacent hero may pick it up and place it on his hero sheet.\n\ If a figure carrying a bundle of crops is defeated, the red objective token is placed in that figures space."
+TokenFarm10A2.button1,{action} Store Crops
+DoorCaveEntrance.text,You can open this door with an open door action.
+DoorCaveEntrance.button1,{action} Open Door
+DoorCaveExit.text,You can open this door with an open door action.
+DoorCaveExit.button1,{action} Open Door
+TokenSearch15BSpider.text,<i>In one of the spider webs you find the remains of an unfortunate adventurer.</i>
+TokenSearch15BSpider.button1,{action} Search
+TokenSearch9BCave.text,<i>The light before this wall glimmers in an unusual way.</i>
+TokenSearch9BCave.button1,{action} Search
+TokenSearch26BPrison.text,<i>In a corner of the cell you find a pile of junk.</i>
+TokenSearch26BPrison.button1,{action} Search
+TokenSearch11BTorture.text,<i>You find an unopened barrel standing at the wall.</i>
+TokenSearch11BTorture.button1,{action} Search
+TokenSearchS2B1.text,<i>A half crushed barrel lies on the ground.</i>
+TokenSearchS2B1.button1,{action} Search
+TokenSearchS2B2.text,"<i>An old, rotting crate stands in the knee deep water.</i>"
+TokenSearchS2B2.button1,{action} Search
+TokenSearchS2B3.text,<i>Something of interest has been washed on the surface.</i>
+TokenSearchS2B3.button1,{action} Search
+TokenSearchS2B4.text,<i>There is a dark hole in the wall in this corner.</i>
+TokenSearchS2B4.button1,{action} Search
+TokenSecretRoomEntrance.text,"If a hero moves into this space during his turn he may spend one movement point to place his figure in the other secret room entrance space.\nIf a hero player moves his figure to a secret room entrance space that is occupied, he places his hero figure in the closest available empty space of his choice.\nMonsters cannot use secret room entrances."
+TokenSecretRoomExit.text,"If a hero moves into this space during his turn he may spend one movement point to place his figure in the other secret room entrance space.\nIf a hero player moves his figure to a secret room entrance space that is occupied, he places his hero figure in the closest available empty space of his choice.\nMonsters cannot use secret room entrances."
+SpawnMerriods11A.text,Place the {type} group on 11A.
+SpawnMerriods11A.button1,Confirm
+SpawnGoblinArchers10A4.text,"Place Goblin Archers on 10A as shown, ignoring group limits.\n\nIf a Goblin Archers moves into a space adjacent to a red objective token, he immediately ends his move action and the objective token is placed on his monster base.\nGoblin Archers carrying an objective token always try to move off the map when engaging the exit.\nEach time a Goblin Archer has moved off the map, discard his objective token.\nIf a Goblin Archer with an objective token is defeated, the objective token is placed in its space."
+SpawnGoblinArchers10A4.button1,Confirm
+SpawnGoblinArchers10A3.text,"Place Goblin Archers on 10A as shown, ignoring group limits.\n\nIf a Goblin Archers moves into a space adjacent to a red objective token, he immediately ends his move action and the objective token is placed on his monster base.\nGoblin Archers carrying an objective token always try to move off the map when engaging the exit.\nEach time a Goblin Archer has moved off the map, discard his objective token.\nIf a Goblin Archer with an objective token is defeated, the objective token is placed in its space."
+SpawnGoblinArchers10A3.button1,Confirm
+SpawnGoblinArchers10A2.text,"Place Goblin Archers on 10A as shown, ignoring group limits.\n\nIf a Goblin Archers moves into a space adjacent to a red objective token, he immediately ends his move action and the objective token is placed on his monster base.\nGoblin Archers carrying an objective token always try to move off the map when engaging the exit.\nEach time a Goblin Archer has moved off the map, discard his objective token.\nIf a Goblin Archer with an objective token is defeated, the objective token is placed in its space."
+SpawnGoblinArchers10A2.button1,Confirm
+SpawnGoblinArchers10A1.text,"Place Goblin Archer on 10A as shown, ignoring group limits.\n\nIf a Goblin Archers moves into a space adjacent to a red objective token, he immediately ends his move action and the objective token is placed on his monster base.\nGoblin Archers carrying an objective token always try to move off the map when engaging the exit.\nEach time a Goblin Archer has moved off the map, discard his objective token.\nIf a Goblin Archer with an objective token is defeated, the objective token is placed in its space."
+SpawnGoblinArchers10A1.button1,Confirm
+SpawnCaveSpiders15B.text,Place the {type} group on 15B as shown.
+SpawnCaveSpiders15B.button1,Confirm
+SpawnOpenGroup2.text,<i>... and it is not friendly. You spot a group of {type}s. </i>\n\nPlace the {type} group on 9B.
+SpawnOpenGroup2.button1,Confirm
+SpawnSplig11B.text,Place Splig on 11B as shown. Splig is the King of all Goblins and has {var:SpligBonusHealth} bonus health. Splig always tries to move off the map when engaging the Entrance.
+SpawnSplig11B.button1,Confirm
+SpawnSplig11BShield.text,"Place Splig on 11B as shown. Splig is the King of all Goblins and has {var:SpligBonusHealth} bonus health. Splig always tries to move off the map when engaging the Entrance.\n\nSplig also wields the Shield of Zoreks Favor. As a reminder place the relic ""Shield of Zoreks Favor"" besides Spligs Lieutenant card."
+SpawnSplig11BShield.button1,Confirm
+SpawnGoblinGuards11B.text,Place the Goblin Archer group on 11B.
+SpawnGoblinGuards11B.button1,Confirm
+SpawnSplig9B.text,Place Splig on 9B as shown. Splig is the King of all Goblins and has {var:SpligBonusHealth} bonus health. Splig always tries to move off the map when engaging the Entrance.
+SpawnSplig9B.button1,Confirm
+SpawnSplig9BShield.text,"Place Splig on 9B as shown. Splig is the King of all Goblins and has {var:SpligBonusHealth} bonus health. Splig always tries to move off the map when engaging the Entrance.\n\nSplig also wields the Shield of Zoreks Favor. As a reminder place the relic ""Shield of Zoreks Favor"" besides Spligs Lieutenant card."
+SpawnSplig9BShield.button1,Confirm
+SpawnGoblinGuards9B.text,Place the Goblin Archer group on 9B.
+SpawnGoblinGuards9B.button1,Confirm
+SpawnSplig27B.text,Place Splig on 27B as shown. Splig is the King of all Goblins and has {var:SpligBonusHealth} bonus health. Splig always tries to move off the map when engaging the Entrance.
+SpawnSplig27B.button1,Confirm
+SpawnSplig27BShield.text,"Place Splig on 27B as shown. Splig is the King of all Goblins and has {var:SpligBonusHealth} bonus health. Splig always tries to move off the map when engaging the Entrance.\n\nSplig also wields the Shield of Zoreks Favor. As a reminder place the relic ""Shield of Zoreks Favor"" besides Spligs Lieutenant card."
+SpawnSplig27BShield.button1,Confirm
+SpawnGoblinGuards27B.text,Place the Goblin Archer group on 27B.
+SpawnGoblinGuards27B.button1,Confirm
+SpawnReinforcementsGoblinArchers.text,<i>{type}s clumsyly slide down from a ledge.</i>\n\nPlace {var:GoblinArcherReinforcementAmount} {type} on 20A.
+SpawnReinforcementsGoblinArchers.button1,Confirm
+SpawnReinforcementsGoblinArchersHighThreat.text,<i>A {type} has found another way to reach the farmland.</i>\n\nPlace 1 {type} on 10A.
+SpawnReinforcementsGoblinArchersHighThreat.button1,Confirm
+SpawnReinforcementsMerriods.text,<i>A hungry {type} rises out of the water...</i>\n\nPlace 1 {type} on 3A.
+SpawnReinforcementsMerriods.button1,Confirm
+SpawnReinforcementsOpenGroup1.text,<i>The noise seems to have attracted other foes. {type}s enter the fray.</i>\n\nPlace the {type} group on the entrance.
+SpawnReinforcementsOpenGroup1.button1,Confirm
+EventSearch11AGrassland.text,<i>Inside the pouch are some coins as well as an item.</i>\n\nYou find 5 gold! Discard this token and draw a Search card.
+EventSearch11AGrassland.button1,Confirm
+EventSearch3AWater1.text,"<i>You open the chest, but unfortunately there is a fist sized hole in it. However there is at least one usefull item left.</i>\n\nDiscard this token and draw a Search card."
+EventSearch3AWater1.button1,Confirm
+EventSearch3AWater2.text,<i>In the dirt you find quite a few gold coins lying scattered around!</i>\n\nYou find 20 gold! Discard this token.
+EventSearch3AWater2.button1,Confirm
+EventSearch20APass.text,"<i>You find a pile of useless trinkets, but something about this seems to be odd.</i>\n\nTest {awareness}."
+EventSearch20APass.button1,Pass
+EventSearch20APass.button2,Fail
+EventSearch20APassSuccess.text,"<i>This pile is just a distraction. Besides it, you find some lose dirt. You dig up some valuable items.</i>\n\nYou find 25 gold! Discard this token and draw a Search card."
+EventSearch20APassSuccess.button1,Confirm
+EventSearch20APassFail.text,"<i>You search through the pile, but it seems to contain nothing of great value.</i>\n\nYou find 5 gold! Discard this token."
+EventSearch20APassFail.button1,Confirm
+EventSearch15BSpider.text,"<i>You take his leather purse and one of his items, as he no longer has any use for them.</i>\n\nYou find 10 gold! Discard this token and draw a Search card."
+EventSearch15BSpider.button1,Confirm
+EventSearch9BCave.text,<i>Something about the wall on this side of the cave seems to be unusual.</i>\n\nTest {awareness} and {knowledge}. Did you pass both tests?
+EventSearch9BCave.button1,Yes
+EventSearch9BCave.button2,No
+EventSearch9BCaveSuccess.text,"<i>You put one of your lightened torches in an old iron wallmount. To your surprise, the wall gives way!</i>"
+EventSearch9BCaveSuccess.button1,Confirm
+EventSearch9BCaveFail.text,"<i>You try to find hidden levers, doors or some kind of opening mechanism but to no avail.</i>\n\nDiscard this token."
+EventSearch9BCaveFail.button1,Confirm
+EventSearch9BCaveTreasure.text,<i>Behind the wall you find a hidden stash filled with gold coins!</i>\n\nDiscard this token.
+EventSearch9BCaveTreasure.button1,Confirm
+EventSearch9BCaveSecretRoom.text,<i>You found a secret passage leading into a secret room! It seems to be filled with treasures.</i>
+EventSearch9BCaveSecretRoom.button1,Confirm
+EventSearchSearch9BCaveFail.text,"<i>You try to find hidden levers, mechanisms or a hidden door, but to no avail...</i>\n\nDiscard this token."
+EventSearchSearch9BCaveFail.button1,Confirm
+EventSearchS2B1.text,<i>Did you reveal the unique search token?</i>
+EventSearchS2B1.button1,Yes
+EventSearchS2B1.button2,No
+EventSearchS2B1Regular.text,<i>You look trough the rubble and manage to pick up a few coins.</i>\n\nYou find 10 gold! Discard this token.
+EventSearchS2B1Regular.button1,Confirm
+EventSearchS2B1Unique.text,<i>You found a still useable piece of equipment!</i>\n\nDraw a shop item card of the current act! Discard this token.
+EventSearchS2B1Unique.button1,Confirm
+EventSearchS2B2.text,<i>Did you reveal the unique search token?</i>
+EventSearchS2B2.button1,Yes
+EventSearchS2B2.button2,No
+EventSearchS2B2Regular.text,<i>Astonishingly you find a usefull item in the crate.</i>\n\nDiscard this token and draw a Search card.
+EventSearchS2B2Regular.button1,Confirm
+EventSearchS2B2Unique.text,<i>You found a still useable piece of equipment!</i>\n\nDraw a shop item card of the current act! Discard this token.
+EventSearchS2B2Unique.button1,Confirm
+EventSearchS2B3.text,Did you reveal the unique search token? 
+EventSearchS2B3.button1,Yes
+EventSearchS2B3.button2,No
+EventSearchS2B3Regular.text,<i>After closer inspection the item is worthless junk.</i>\n\nDiscard this token.
+EventSearchS2B3Regular.button1,Confirm
+EventSearchS2B3Unique.text,<i>You found a still useable piece of equipment!</i>\n\nDraw a Shop Item card of the current act! Discard this token.
+EventSearchS2B3Unique.button1,Confirm
+EventSearchS2B4.text,Did you reveal the unique search token?
+EventSearchS2B4.button1,Yes
+EventSearchS2B4.button2,No
+EventSearchS2B4Regular.text,"<i>You inspect the hole and find something. While you are pulling it out, you are bitten. You hope it was just a rat...</i>\n\nYou suffer 1 {heart} and are Poisoned. Discard this token and draw a Search card."
+EventSearchS2B4Regular.button1,Confirm
+EventSearchS2B4Unique.text,<i>You found a still useable piece of equipment!</i>\n\nDraw a shop item card of the current act! Discard this token.
+EventSearchS2B4Unique.button1,Confirm
+EventSearch26BPrison.text,<i>After sorting out the junk you find some gold coins as well as an item.</i>\n\nYou find 5 gold! Discard this token and draw a Search card.
+EventSearch26BPrison.button1,Confirm
+EventSearch11BTorture.text,<i>To your surprise the barrel contains quite an amount of gold!</i>\n\nYou find 20 gold! Discard this token.
+EventSearch11BTorture.button1,Confirm
+ActivationGoblinPickUp.ability,"Apply -1 Speed to each Goblin Archer carrying an objective token.\nIf one or more heroes are carrying an objective token, the other heroes are ignored while spotting."
+ActivationGoblinPickUp.master,{action} If not carrying an objective token engage the closest objective token and pick it up.\n{action} If carrying an objective token engage the exit.\n{action} If not carrying an objective token spot the closest hero.\n{action} If not carrying an objective token attack the closest hero.
+ActivationGoblinPickUp.minion,{action} If not carrying an objective token engage the closest objective token and pick it up.\n{action} If carrying an objective token engage the exit.\n{action} If not carrying an objective token spot the closest hero.\n{action} If not carrying an objective token attack the closest hero.
+ActivationGoblinSteal.ability,"Apply -1 Speed to each Goblin Archer carrying an objective token.\nWhen a Goblin Archer enters a space adjacent to a hero carrying an objective token, that hero tests {might}; apply +1 {shield} for each other Goblin Archer adjacent to this hero. If he fails, his objective token is placed on the Goblin Archer.\nIf one or more heroes are carrying an objective token, the other heroes are ignored while spotting."
+ActivationGoblinSteal.master,{action} If not carrying an objective token engage the closest objective token and pick it up.\n{action} If not carrying an objective token engage the closest hero carrying an objective token.\n{action} If carrying an objective token engage the exit.\n{action} If not carrying an objective token spot the closest hero.\n{action} If not carrying an objective token attack the closest hero.
+ActivationGoblinSteal.minion,{action} If not carrying an objective token engage the closest objective token and pick it up.\n{action} If not carrying an objective token engage the closest hero carrying an objective token.\n{action} If carrying an objective token engage the exit.\n{action} If not carrying an objective token spot the closest hero.\n{action} If not carrying an objective token attack the closest hero.
+ActivationGoblinProtect.ability,Goblin Archers adjacent to Splig gain:\n\n {surge}: Pierce 1
+ActivationGoblinProtect.master,{action} Engage Splig.\n{action} Attack the closest hero.
+ActivationGoblinProtect.minion,{action} Engage Splig.\n{action} Attack the closest hero.
+ActivationSpligFlee.ability,Apply +1 Speed to Splig. Each of Spligs attacks gains +1 {surge}.
+ActivationSpligFlee.master,{action} Engage the Entrance.\n{action} Engage the Entrance.\n{action} Engage the closest hero.\n{action} Attack the closest hero.
+CustomMonsterGoblinThief.monstername,Goblin Archer
+CustomMonsterGoblinThief.info,"If a Goblin Archers moves into a space adjacent to a red objective token, he immediately ends his move action and the objective token is placed on his monster base.\nGoblin Archers carrying an objective token always try to move off the map when engaging the exit.\nEach time a Goblin Archer has moved off the map, discard his objective token.\nIf a Goblin Archer with an objective token is defeated, the objective token is placed in its space.\n\nGoblin Archers spend {surge} in the following order:\n\n{surge}: Range (when necessary)\n{surge}: +X {heart}"
+CustomMonsterGoblinGuard.monstername,Goblin Archer
+CustomMonsterGoblinGuard.info,Goblin Archers spend {surge} in the following order:\n\n{surge}: Range (when necessary)\n{surge}: +X {heart}
+CustomMonsterSpligTheKing.monstername,"Splig, the King of all Goblins"
+CustomMonsterSpligTheKing.info,Splig is the King of all Goblins and has 2 bonus health per stolen bundle of crops.\nSplig always tries to move off the map when engaging the entrance.\n\nSplig spends {surge} in the following order:\n\n{surge}: Knockback\n{surge}: +X {heart}

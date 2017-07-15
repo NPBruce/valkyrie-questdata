@@ -1,0 +1,137 @@
+.,English
+quest.name,Affairs of Wizards
+quest.description,"Greyhaven is having trouble at the cemetary and have posted a generous bounty.  The city is known as a centre of magical learning and things are often more complicated than they appear, which is surely part of the reason for the size of the bounty."
+quest.authors,[b]Author[/b]\nBruce
+EventStart.text,"Are the heros playing this as a Basic, Epic:Advanced or Epic:Expert quest?"
+EventStart.button1,Basic
+EventStart.button2,Advanced
+EventStart.button3,Expert
+EventTiles.text,"<b>Perform the Following:</b>\n\nSet aside tiles 6, 10, 13, 14, 16, 19, 21, 22 and 23."
+EventTiles.button1,Confirm
+EventIntroText.text,<i>Greyhaven is paying a bounty for putting an end to dark magic coming from a large crypt in the cemetery.  Attempts to get in have thus far been unsuccessful as the crypt is locked with a series of 5 magic doors.</i>
+EventIntroText.button1,Confirm
+EventIntroBoard1.text,"<b>Perform the Following:</b>\n\nPlace tiles 6A, 13A, 16A, 1 transition, 1 entry, 1 door."
+EventIntroBoard1.button1,Confirm
+EventIntroBoard2.text,"<b>Perform the Following:</b>\n\nPlace tiles 14A, 22A, and 1 end cap."
+EventIntroBoard2.button1,Confirm
+EventIntroBoard3.text,"<b>Perform the Following:</b>\n\nPlace 1 locked door as shown, this is the Door of Reflection."
+EventIntroBoard3.button1,Confirm
+EventIntroHeroes.text,<b>Perform the Following:</b>\n\nPlace the heroes on the entrance.
+EventIntroHeroes.button1,Confirm
+EventIntroSearch1.text,<b>Perform the Following:</b>\n\nPlace 1 search token as shown.
+EventIntroSearch1.button1,Confirm
+EventIntroSearch2.text,<b>Perform the Following:</b>\n\nPlace 1 additional search token as shown.
+EventIntroSearch2.button1,Confirm
+EventOpenHut.text,<b>Perform the Following:</b>\n\nPlace 1 end cap.
+EventOpenHut.button1,Confirm
+EventHutSearch.text,<b>Perform the Following:</b>\n\nPlace 2 search tokens as shown.
+EventHutSearch.button1,Confirm
+EventDoor1Fail.text,<i>You find yourself unable to pass your own reflection.</i>
+EventDoor1Fail.button1,Confirm
+EventOpenDoor1.text,"<b>Perform the Following:</b>\n\nPlace 1 locked door, this is the Door of Pain."
+EventOpenDoor1.button1,Confirm
+EventDoor2Fail.text,<i>You find yourself unable to overcome the pain and retreat from the door.</i>
+EventDoor2Fail.button1,Confirm
+EventOpenDoor2.text,"<b>Perform the Following:</b>\n\nPlace tiles 21B, 23B, and 1 end cap."
+EventOpenDoor2.button1,Confirm
+EventOpenDoor2B.text,"<b>Perform the Following:</b>\n\nPlace 1 locked door, this is the Door of Illusion."
+EventOpenDoor2B.button1,Confirm
+EventOpenDoor2Search.text,<b>Perform the Following:</b>\n\nPlace 1 search token as shown.
+EventOpenDoor2Search.button1,Confirm
+EventOpenDoor3.text,"<b>Perform the Following:</b>\n\nPlace 1 locked door, this is the Door of Endurance."
+EventOpenDoor3.button1,Confirm
+EventDoor3Fail.text,<i>You are lost in a maze that is not of this reality.</i>\n\nThe hero who performed the test gains the Stunned and Immobilized conditions.
+EventDoor3Fail.button1,Confirm
+EventOpenDoor4.text,"<b>Perform the Following:</b>\n\nPlace tile 19B and 1 locked door, this is the Door of Strength."
+EventOpenDoor4.button1,Confirm
+EventOpenDoor5.text,<b>Perform the Following:</b>\n\nPlace tile 10B and 1 end cap.
+EventOpenDoor5.button1,Confirm
+EventShowdown.text,<i>The Flesh Moulders are clearly behind the foul magic</i>\n\nDefeat the Flesh Moulders to win.
+EventShowdown.button1,Confirm
+EventKey1Open.text,"You found the key to the Door of Reflection, having passed this hurdle the key is of no use.  Draw 1 search card."
+EventKey1Open.button1,Confirm
+EventKey1Closed.text,"You found the key to the Door of Reflection, this door may now be opened as an action.  Draw 1 search card."
+EventKey1Closed.button1,Confirm
+EventKey2Open.text,"You found the key to the Door of Pain, having passed this hurdle the key is of no use.  Draw 1 search card."
+EventKey2Open.button1,Confirm
+EventKey2Closed.text,"You found the key to the Door of Pain, this door may now be opened as an action.  Draw 1 search card."
+EventKey2Closed.button1,Confirm
+EventKey3Open.text,"You found the key to the Door of Illusion, having passed this hurdle the key is of no use.  Draw 1 search card."
+EventKey3Open.button1,Confirm
+EventKey3Closed.text,"You found the key to the Door of Illusion, this door may now be opened as an action.  Draw 1 search card."
+EventKey3Closed.button1,Confirm
+EventKey4Open.text,"You found the key to the Door of Endurance, having passed this hurdle the key is of no use.  Draw 1 search card."
+EventKey4Open.button1,Confirm
+EventKey4Closed.text,"You found the key to the Door of Endurance, this door may now be opened as an action.  Draw 1 search card."
+EventKey4Closed.button1,Confirm
+EventKey5Open.text,"You found the key to the Door of Strength, having passed this hurdle the key is of no use.  Draw 1 search card."
+EventKey5Open.button1,Confirm
+EventKey5Closed.text,"You found the key to the Door of Strength, this door may now be opened as an action.  Draw 1 search card."
+EventKey5Closed.button1,Confirm
+EventEndWin.text,<i>With the flesh moulders defeated you have put one more troublesome issue to rest.</i>\n\nThe heroes have won the quest.
+EventEndWin.button1,Confirm
+EventEndLose.text,"<i>Your group of heroes fails to stop the dark magic, hopefully the Greyhaven city council can rally additional support.</i>\n\nThe heroes have lost the quest."
+EventEndLose.button1,Confirm
+DoorCabin.text,<i>The caretaker's cabin has seen better days.</i>\n\nYou may spend an action to open this door.
+DoorCabin.button1,{action} Open
+SpawnEntry.text,Place the {type} group as shown.
+SpawnEntry.button1,Confirm
+DoorCrypt1.text,<i>Door of Reflection</i>\n\nAn adjacent hero may spend an action to perform an attack that targets themselves.
+DoorCrypt1.button1,No Damage
+DoorCrypt1.button2,Damaged
+DoorCryptUnlocked1.text,<i>Door of Reflection</i>\n\nYou have the key to this door and may open it as an action.
+DoorCryptUnlocked1.button1,{action} Open
+TokenKey3.text,There is a gap between the floor boards in the corner.
+TokenKey3.button1,{action} Search
+DoorCrypt2.text,<i>Door of Pain</i>\n\nAn adjacent hero may spend an action to suffer 4 {heart} and test {will} to endure the pain.
+DoorCrypt2.button1,Pass
+DoorCrypt2.button2,Fail
+DoorCryptUnlocked2.text,<i>Door of Pain</i>\n\nYou have the key to this door and may open it as an action.
+DoorCryptUnlocked2.button1,{action} Open
+DoorCrypt3.text,<i>Door of Illusion</i>\n\nAn adjacent hero may spend an action to test both {knowledge} and {awareness}.
+DoorCrypt3.button1,Pass
+DoorCrypt3.button2,Fail
+DoorCryptUnlocked3.text,<i>Door of Illusion</i>\n\nYou have the key to this door and may open it as an action.
+DoorCryptUnlocked3.button1,{action} Open
+DoorCrypt4.text,<i>Door of Endurance</i>\n\nAn adjacent hero may spend an action to suffer 6 {fatigue} to pass the door.
+DoorCrypt4.button1,Confirm
+DoorCryptUnlocked4.text,<i>Door of Endurance</i>\n\nYou have the key to this door and may open it as an action.
+DoorCryptUnlocked4.button1,{action} Open
+TokenKey4.text,Something glistens in the bushes.
+TokenKey4.button1,{action} Search
+TokenKey1.text,An ornamental vase lies on the ground.
+TokenKey1.button1,{action} Search
+TokenKey2.text,A small pouch lies on the ground.
+TokenKey2.button1,{action} Search
+SpawnCaretaker.text,Place the {type} group as shown.
+SpawnCaretaker.button1,Confirm
+SpawnUnderRiver.text,Place the {type} group as shown.
+SpawnUnderRiver.button1,Confirm
+DoorCrypt5.text,<i>Door of Strength</i>\n\nThis door may be attacked as if it was a monster.  The door has 30 {heart}.
+DoorCrypt5.button1,Defeated
+TokenKey5.text,Something has slipped between the cracks in the stones.
+TokenKey5.button1,{action} Search
+DoorCryptUnlocked5.text,You have the key to this door and may open it as an action.
+DoorCryptUnlocked5.button1,{action} Open
+SpawnStairs.text,Place the {type} group as shown.
+SpawnStairs.button1,Confirm
+SpawnFinal.text,Place the {type} group as shown.
+SpawnFinal.button1,Confirm
+SpawnSupport.text,Place the {type} group as shown.
+SpawnSupport.button1,Confirm
+SpawnSpirit.text,Place an Elemental at the indicated space.  This is an Arcane Spirit.
+SpawnSpirit.button1,Confirm
+CustomMonsterSpirit.monstername,Arcane Spirit
+CustomMonsterSpirit.info,Arcane Spirits use Elemental miniatures and monster cards.
+ActivationScream.ability,<i>The Arcane Spirits emmit an ear splitting scream.</i>\nBefore each activation all heroes in line of sight suffer 1 {fatigue}.
+ActivationScream.master,{action} Spot the hero with the lowest {knowledge} within 6 spaces.\n{action} Spot the closest hero.\n{action} Attack the hero with the lowest {knowledge} within 3 spaces.\n{action} Attack the closest hero within 3 spaces.
+ActivationScream.minion,{action} Spot the hero with the lowest {will} within 6 spaces.\n{action} Spot the closest hero.\n{action} Attack the hero with the lowest {will} within 3 spaces.\n{action} Attack the closest hero within 3 spaces.
+ActivationBlast.ability,<i>An Explosion of spectral energy radiates out from the Arcane Spirit.</i>\nAfter each activation all adjacent heroes suffer 2 {heart} then the Arcane Spirit suffers 1 {heart} for each adjacent hero.
+ActivationBlast.master,{action} Engage as many heros as possible.\n{action} Attack the closest hero within 3 spaces.
+ActivationBlast.minion,{action} Engage as many heros as possible.\n{action} Attack the closest hero within 3 spaces.
+ActivationGaze.ability,<i>The gaze of the Arcane Spirit penetrates your being.</i>\nAny attackst agains a hero with no remaining {fatigue} gain +2 {heart}.
+ActivationGaze.master,{action} Spot the closest hero.\n{action} Attack the closest hero within 3 spaces.
+ActivationGaze.minion,{action} Spot the closest hero.\n{action} Attack the closest hero within 3 spaces.
+ActivationRush.ability,<i>The Arcane Spirit moves faster than you can track.</i>\nAll attacks gain Pierce 2.  Any hero who suffers damage during this activation also suffers 1 {fatigue}.
+ActivationRush.master,{action} Place the Arcane Spirit Adjecent to the hero with the most {fatigue} remaining.\n{action} Attack the hero with the most {fatigue} remaining.
+ActivationRush.minion,{action} Place the Arcane Spirit Adjecent to the hero with the least {fatigue} remaining.\n{action} Attack the hero with the least {fatigue} remaining.
