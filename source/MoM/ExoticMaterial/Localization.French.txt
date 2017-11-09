@@ -55,7 +55,7 @@ EventRockMythos3.text,"Cet événement affecte l'investigateur avec le jeton Int
 EventRockMythos4.text,"Cet événement affecte l'investigateur avec le jeton Interaction sur sa feuille de personnage.\nVous avez la sensation de marcher contre un vent terrible alors que tout est calme autour de vous ({strength}; 2). Si vous échouez, vous êtes repoussé violemment par une force silencieuse, prenez 2 Dégâts."
 EventRockMythos5.text,"Cet événement affecte l'investigateur avec le jeton Interaction sur sa feuille de personnage.\nL'objet altère votre perception de l'espace et vous vous forcez à retrouver le sol ({agility}; 2). Si vous réussissez, votre force mentale prend le dessus, si vous échouez vous tombez lourdement sur le sol, prenez 1 Dégât et devenez Sonné."
 EventSquareRiot.text,"<i>A la nuit tombée, une musique d'un autre monde parcoure les rues. Les habitants toujours à l'extérieur s'arrêtent et se fixent dans un regard vide, hypnotisés par l'étrange mélodie.</i>\nPlacez le monstre {ffg:MONSTER_RIOT} sur l'emplacement indiqué. Les investigateurs ne doivent pas réaliser un test d’Évasion et un test d'Horreur pour ce monstre."
-EventStart.text,"Une collectionneuse de pierres rares a repéré une météorite tombée prés de la ville de Rowley.\nLors d'une première visite, elle a rencontré des habitants étranges et peu accueillants. Elle vous a alors demandé de trouver et récupérer la météorite.\nVous arrivez à Rowley au matin et passez une journée entière à questionner les habitants et n'obtenir que peu de renseignements fiables."
+EventStart.text,"\n<i>Vous arrivez à Rowley au matin et passez une journée entière à questionner les habitants sans obtenir de renseignements fiables</i>."
 EventTakeRock.text,L'espace autour de l'objet est distordu et vous luttez pour essayer de le toucher ({observation}; 2).
 EXPLORE,{action} Explorer
 FAIL,Échec
@@ -63,7 +63,7 @@ HIDDEN,Caché
 PASS,Continuer
 PLACE1WALLTOKEN,"Placez un jeton Mur comme indiqué."
 PuzzleLock.button1,Ouvrir
-quest.description,Matière Exotique
+quest.description,Une collectionneuse de pierres rares a repéré une météorite tombée prés de la ville de Rowley.\nLors d'une première visite, elle a rencontré des habitants étranges et peu accueillants. Elle vous a alors demandé de trouver et récupérer la météorite.\n\nVotre séjour sera étrange, fait de rencontres troublantes et vous devrez lutter pour vous échapper en vie.\n\nA noter qu'aucune preuve n'est contenue dans le scénario, et les états Folie qui reposent dessus ne sont pas utilisés.
 quest.name,Matière Exotique
 SEARCH,{action} Rechercher
 SpawnAttackBasementCultist.text,<i>Vos actions semblent avoir interrompu la transe.</i>\n\nLes investigateurs doivent réaliser un test d’évasion et un test d'Horreur habituels pour ce monstre. Utilisez la carte du monstre pour attaquer.
