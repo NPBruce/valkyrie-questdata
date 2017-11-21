@@ -1,0 +1,429 @@
+﻿.,French
+UIBegin.uitext,{qst:Continuer}
+Continuer,Continuer
+UIText1.uitext,"Le bureau est rempli d'une épaisse fumée de cigarette. Des rangées de classeurs sont alignées le long du mur, et une pile de journaux dépasse sous un bureau en bois bon marché. Un homme chauve, grassouillet et nerveux, est assis derrière.\n\n""Il était temps que vous arriviez,"" dit-il, en tapotant ses doigts sur le bureau.  ""Le temps c'est de l'argent et nous sommes en train d'en perdre énormément.""\n\n""J'ai besoin de vous pour retrouver notre partenaire commercial.""\nIl fait glisser une chemise cartonnée.  ""Notre homme disparu s'appelle Walter Lynch.  Il a toujours été le cerveau de cette boite, et sans lui, c'est un fiasco.  Il ne répond plus à nos courriers, et toute investigation a été..."" il marque une pause, pour bien choisir ses mots, ""infructueuse.""\n\nIl porte son regard sur le dossier.  ""Vous avez tout ce que nous savons. Ramenez-le, il y a plus en jeu que vous ne pouvez l'imaginer."
+UIContinuer1.uitext,{qst:Continuer}
+UIText2.uitext,"Plus tard, dans votre voiture, vous ouvrez délicatement le dossier poussiéreux. Vous trouvez une carte rudimentaire indiquant la direction d'une demeure à l'extérieur d'Arkham dans le Massachusetts.  Le schéma est simpliste, comme un esquisse faite de la main d'un enfant.  Derrière la carte, la note déchirée d'un journal:\n\n""8 Juin 1918 : Cela fait presque un an que la maladie s'est emparée de mon fils.  Les médecins étaient déconcertés de la voir décomposer sa chair.  Je suis un homme d'action et ne pouvais attendre, sans rien faire, de voir se dégrader l'état de mon héritier.\nJ'ai passé neuf mois à parcourir le globe. Pour trouver un remède. Des profondeurs de la jungle à la sagesse de l'Orient, je n'ai rien trouvé. J'ai continué à chercher, encore et encore, dans les endroits les plus reculés de ce monde et au-delà. J'ai rencontré de nombreux mystères et vu nombre d'horreurs, mais le remède m'échappait toujours.\n\nJe ne savais pas qu'il était déjà trop tard.  De retour à la maison, mon fils était parti, sans son père pour l'accompagner.\n\nJ'ai rejoint ma femme Edith, résolu à rester auprès d'elle pour de bon.  Nous étions affligés.  La vie est peu à peu revenue à la normale et j'ai pu reprendre le travail.  J'ai monté une nouvelle affaire et construit ma fortune, pendant que mon âme végétait.\n\nLe deuil n'était pas facile, mais aider à atténuer la peine d'Edith m'a permis de camoufler ma propre souffrance."""
+UIText3.uitext,"Une autre note plus courte se trouve au dos.\n\n""21 Janvier 1919 : Comment cela-t-il pu arriver?  Pourquoi est-ce arrivé?\n\nVous essayez de vous protéger.  Vous essayez de protéger votre famille, mais rien n'y fait.\n\nOh Edith, tu es tout ce que j'ai.  Comment cela-t-il pu t'arriver?\n\nJe DOIS fouiller encore plus.  Je retournerai toutes les pierres que je n'osais toucher, une à une.  Je TROUVERAI des réponses!"""
+UIContinuer2.uitext,{qst:Continuer}
+quest.name,La Chute de la Maison Lynch
+quest.description,"Il s'agit d'une conversion du scénario des Demeures de l'épouvante 1ère Édition.\n\nVous avez été engagé pour enquêter sur Walter Lynch.  Un homme d'importance qui est progressivement devenu incontrôlable. Quelles sombres horreurs a-t-il découvertes?  Serez-vous capable de découvrir la vérité, ou bien serez-vous juste un pion dans une machination qui vous dépasse?\n\nNotez qu'aucune preuve n'est contenue dans ce scénario, ainsi les états Folie référant à des preuves ne doivent pas être utilisés."
+EventInvestigators.text,Placez les investigateurs sur l'emplacement indiqué.  Chaque investigateur reçoit 2 jetons Indice.
+EventInvestigators.button1,{qst:Continuer}
+EventFoyerExploreTokens.text,{qst:PLACE4EXPLORETOKEN}
+PLACE4EXPLORETOKEN,Placez 4 jetons Exploration comme indiqué.
+EventFoyerExploreTokens.button1,{qst:Continuer}
+EventPrologue3A.text,En posant le pied dans la maison vide, vous sentez une légère odeur de repas brûlé.  Peut-être quelqu'un a-t-il oublié d'éteindre la cuisinière?
+EventPrologue3A.button1,{qst:Continuer}
+UIBegin.button1,Button1
+EventGetElderSign3B.text,{qst:EventGetElderSign3A.text}
+EventGetElderSign3A.text,Récupérez l'Objet Commun: {c:QItemPendant}.
+EventGetExtinguisher.text,Récupérez l'Objet Commun: {c:QItemExtinguisher}.
+EventGetShotgun3B.text,{qst:EventGetShotgun3A.text}
+EventGetShotgun3A.text,Récupérez l'Objet Commun: {c:QItemShotgun}.
+EventClue3B.text,"<i>Les restes sanglants d'un homme reposent sur la table d'opération.  Des instruments rouillés et des outils rudimentaires sont disposés autour de lui.\nL'homme écorché murmure, horrifié, d'une bouche sans lèvre. ""Oh Seigneur, il voulait ma chair...""\nDans un dernier souffle, il chuchote""Il m'a laissé passer la nuit..."" et il vous tend une clé.</i>\n\nRécupérez l'Objet Unique: {c:QItemSilverKey}."
+EventClue2B.text,"<i>Votre vue se brouille et vous vous effondrez sur le sol, dévoré par une vision.  Un homme siffle une musique guillerette en traînant le corps flasque d'une femme.  Vous frissonnez en le voyant tirer le corps, sous la pluie, dans une flaque de boue.  Une pelle s'abat, puis la vision cesse.</i>\n\nRécupérez l'Objet Unique: {c:QItemCultSigil}."
+EventClue3A.text,"<i>La pièce est vide, à l'exception des traces d'un corps humain brûlé, sur la table de la cuisine.  En regardant de plus près, vous trouvez une simple clé en argent, cachée dans la suie.\nDes traces de pas noircies se dirigent vers les escaliers du Hall au bout du couloir.</i>\n\nRécupérez l'Objet Unique: {c:QItemSilverKey}."
+EventGetLantern.text,Prenez l'Objet Commun: {c:QItemLantern}.
+EventClue2A.text,"<i>Vous trouvez une entrée de journal datée du 5 Juillet 1918.\n""L'état de ma femme s'est empiré sur le tard.  Je sais que ce n'est qu'une question de temps, et j'ai préparé une place pour elle, bien enfouie avec les autres cadavres.""</i>\n\nRécupérez l'Objet Unique: {c:QItemCultSigil}."
+EventGetItem5.text,Récupérez l'Objet Commun: {c:QItemLantern}.
+EventGetAxe.text,Récupérez l'Objet Commun: {c:QItemAxe}.
+EventGetItem4.text,Récupérez l'Objet Commun: {c:QItemAxe}.
+EventGetHeal.text,Recevez le Sort: {c:QItemFleshWard}.
+EventGetItem2.text,Récupérez l'Objet Commun: {c:QItemWhiskey}.
+EventGetItem1.text,Récupérez l'Objet Commun: {c:QItemSedative}.
+PuzzleGuestStorage.button1,{qst:Continuer}
+PuzzlePuzzlebox.button1,{qst:Continuer}
+PuzzleSuitcase.button1,{qst:Continuer}
+PuzzleFrontDoor.button1,{qst:Continuer}
+PuzzlePowerFailure.button1,{qst:Continuer}
+ACTIONSEARCH,{action} Rechercher
+ACTIONEXPLORE,{action} Explorer
+FORFEIT,Annuler
+NO,Non
+PLACE1BARRICADE,Placez 1 jeton Barricade comme indiqué.
+PLACE1EXPLORETOKEN,Placez 1 jeton Exploration comme indiqué.
+PLACE2EXPLORETOKEN,Placez 2 jetons Exploration comme indiqué.
+PLACE2SEARCHTOKEN,Placez 2 jetons Recherche comme indiqué.
+PLACE3SEARCHTOKEN,Placez 3 jetons Recherche comme indiqué.
+PLACE1WALLTOKEN,Placez 1 jeton Mur comme indiqué.
+PLACEWALLTOKEN,Placez le jeton Mur comme indiqué.
+THEEND,Fin
+UNABLETOATTACK,Attaque impossible
+UNLOCK,Déverrouiller
+WALTERLYNCH,Walter Lynch
+YES,Oui
+TokenCeremonyBarred.text,<i>Cette porte mène plus loin sous la maison.</i>
+TokenCeremonyBarred.button1,{qst:ACTIONEXPLORE}
+TokenBasement2A.text,<i>D'étranges flacons sont étalés sur l'étagère</i>
+TokenBasement2A.button1,{qst:ACTIONSEARCH}
+TokenBasement2B.text,{qst:TokenBasement2A.text}
+TokenBasement2B.button1,{qst:ACTIONSEARCH}
+TokenBasementDoor2A.text,<i>Une porte se tient au bas des escaliers.</i>
+TokenBasementDoor2A.button1,{qst:ACTIONEXPLORE}
+TokenBasementDoor2ALocked.text,<i>La porte menant à cet endroit est verrouillée et ne s'ouvrira que si vous avez le bon sceau.</i>\n\nCe jeton ne peut-être exploré que par l'investigateur ayant le Sceau du Culte en sa possession.
+TokenBasementDoor2ALocked.button1,{qst:ACTIONEXPLORE}
+TokenBasementDoor2B.text,{qst:TokenBasementDoor2A.text}
+TokenBasementDoor2B.button1,{qst:ACTIONEXPLORE}
+TokenGuest3A.text,<i>Les tiroirs pourraient contenir quelque chose d'intéressant.</i>
+TokenGuest3A.button1,{qst:ACTIONSEARCH}
+TokenGuest3B.text,{qst:TokenGuest3A.text}
+TokenGuest3B.button1,{qst:ACTIONSEARCH}
+TokenGuestDoor3A.text,<i>Cette porte mène à une chambre d'ami.</i>
+TokenGuestDoor3A.button1,{qst:ACTIONEXPLORE}
+TokenGuestDoor3B.text,{qst:TokenGuestDoor3A.text}
+TokenGuestDoor3B.button1,{qst:ACTIONEXPLORE}
+TokenGuestDoor3BLocked.text,<i>Cette porte verrouillée mène à une chambre d'ami.</i>\n\nCet endroit peut être exploré par l'investigateur possédant la Clé en Argent.
+TokenGuestDoor3BLocked.button1,{qst:ACTIONEXPLORE}
+TokenStorage3A.text,<i>L'une des boites comporte d'étranges marques.</i>
+TokenStorage3A.button1,{qst:ACTIONSEARCH}
+TokenStorage3B.text,{qst:TokenStorage3A.text}
+TokenStorage3B.button1,{qst:ACTIONSEARCH}
+TokenStorageDoor.text,<i>Cette porte mène à une petite loggia.</i>
+TokenStorageDoor.button1,{qst:ACTIONEXPLORE}
+TokenMaster3A.text,<i>Les tiroirs pourraient détenir quelque chose d'intéressant.</i>
+TokenMaster3A.button1,{qst:ACTIONSEARCH}
+TokenMaster3B.text,<i>Vous remarquez une mallette derrière le fauteuil.</i>
+TokenMaster3B.button1,{qst:ACTIONSEARCH}
+TokenMasterDoor3A.text,<i>Cette porte mène à la chambre principale.</i>
+TokenMasterDoor3A.button1,{qst:ACTIONEXPLORE}
+TokenMasterDoor3ALocked.text,"<i>Cette porte mène à la chambre principale, elle peut être explorée par l'investigateur possédant la Clé en Argent.</i>"
+TokenMasterDoor3ALocked.button1,{qst:ACTIONEXPLORE}
+TokenMasterDoor3B.text,{qst:TokenMasterDoor3A.text}
+TokenMasterDoor3B.button1,{qst:ACTIONEXPLORE}
+TokenKitchen3A.text,<i>Quelque chose de sinistre repose sur la table.</i>
+TokenKitchen3A.button1,{qst:ACTIONSEARCH}
+TokenKitchen3B.text,<i>Le placard de la cuisine est entrouvert.</i>
+TokenKitchen3B.button1,{qst:ACTIONSEARCH}
+TokenFreezer3A.text,<i>La glace du réfrigérateur fond lentement et s'écoule sur le sol.</i>
+TokenFreezer3A.button1,{qst:ACTIONSEARCH}
+TokenFreezer3B.text,{qst:TokenFreezer3A.text}
+TokenFreezer3B.button1,{qst:ACTIONSEARCH}
+TokenOperating3A.text,<i>Cette pièce semble avoir été utilisée pour de sombres méfaits.</i>
+TokenOperating3A.button1,{qst:ACTIONSEARCH}
+TokenOperating3B.text,{qst:TokenOperating3A.text}
+TokenOperating3B.button1,{qst:ACTIONSEARCH}
+TokenGarden2A.text,<i>Quelque chose est calé contre le mur.</i>
+TokenGarden2A.button1,{qst:ACTIONSEARCH}
+TokenGarden2B.text,<i>Le sol a été remué ici.</i>
+TokenGarden2B.button1,{qst:ACTIONSEARCH}
+TokenGardenDoor2A.text,<i>Cette porte conduit vers le jardin.</i>
+TokenGardenDoor2A.button1,{qst:ACTIONEXPLORE}
+TokenGardenDoor2B.text,{qst:TokenGardenDoor2A.text}
+TokenGardenDoor2B.button1,{qst:ACTIONEXPLORE}
+TokenGardenDoor2BLocked.text,<i>La porte menant dans le jardin est verrouillée et ne s'ouvrira qu'avec le bon sceau.</i>\n\nCet endroit peut être exploré par un investigateur possédant le Sceau du Culte.
+TokenGardenDoor2BLocked.button1,{qst:ACTIONEXPLORE}
+EventNo1E.text,"Vous n'avez pas sélectionné Les Demeures de l'Épouvante 1ère Édition dans le menu des contenus.\n\nCe scénario n'a pas encore une version spécifiquement à la 2ème Édition, les tuiles d'origine sont requises."
+EventNo1E.button1,{qst:Continuer}
+EventPrologue.text,"Une pluie fine vous caresse le visage, en sortant de la voiture devant la demeure.  La maison est immense, non gardée, enveloppée d'un silence angoissant.  Pas de réponse quand vous frappez à la porte.  Un instant plus tard, la porte s'ouvre d'elle-même dans un grincement, et vous pénétrez dans le hall d'un gigantesque manoir."
+EventPrologue.button1,{qst:Continuer}
+EventFoyerTile.text,Placez la tuile Vestibule {MAD01} comme indiqué.
+EventFoyerTile.button1,{qst:Continuer}
+EventFoyerSearchToken.text,<i>Une petite console se situe au même niveau contre le mur d'en face.</i>\n\nPlacez 1 jeton Recherche comme indiqué.
+EventFoyerSearchToken.button1,{qst:Continuer}
+EventPrologue3B.text,"Même si la maison est ancienne, elle ne grince absolument pas.  On dirait qu'elle retient sa respiration, en attendant quelque chose d'épouvantable.  Le silence est rompu par un cri à glacer le sang, dont les échos proviennent du laboratoire.  La maison bouge comme sous l'effet d'un tremblement de terre, et les peintures poussiéreuses tombent du mur."
+EventPrologue3B.button1,{qst:Continuer}
+EventKitchenTile.text,Placez la tuile Salle à Manger {MAD01} comme indiqué.
+EventKitchenTile.button1,{qst:Continuer}
+EventExporeKitchen.text,{qst:PLACE3SEARCHTOKEN}
+EventExporeKitchen.button1,{qst:Continuer}
+EventExporeLabTile.text,Placez la tuile Laboratoire {MAD01} comme indiqué.
+EventExporeLabTile.button1,{qst:Continuer}
+EventExporeLabExplore.text,{qst:PLACE1EXPLORETOKEN}
+EventExporeLabExplore.button1,{qst:Continuer}
+EventExporeLab.text,{qst:PLACE3SEARCHTOKEN}
+EventExporeLab.button1,{qst:Continuer}
+EventHallTile.text,Placez les tuiles Couloir 2 {MAD01} et Couloir 4 {MAD01} comme indiqué.
+EventHallTile.button1,{qst:Continuer}
+EventHallWallToken.text,{qst:PLACE1WALLTOKEN}
+EventHallWallToken.button1,{qst:Continuer}
+EventHallSearchTokens.text,{qst:PLACE2SEARCHTOKEN}
+EventHallSearchTokens.button1,{qst:Continuer}
+EventHallExploreToken3A.text,{qst:PLACE2EXPLORETOKEN}
+EventHallExploreToken3A.button1,{qst:Continuer}
+EventHallExploreToken3B.text,{qst:PLACE2EXPLORETOKEN}
+EventHallExploreToken3B.button1,{qst:Continuer}
+EventGardenTile.text,Placez la tuile Jardin {MAD01} comme indiqué.
+EventGardenTile.button1,{qst:Continuer}
+EventGardenAddSearch.text,<i>Il y quelque chose sous le fauteuil.</i>\n\nPlacez 1 jeton Recherche comme indiqué.
+EventGardenAddSearch.button1,{qst:Continuer}
+EventGardenExploreToken2A.text,{qst:PLACE1EXPLORETOKEN}
+EventGardenExploreToken2A.button1,{qst:Continuer}
+EventGardenExploreToken2B.text,{qst:PLACE1EXPLORETOKEN}
+EventGardenExploreToken2B.button1,{qst:Continuer}
+EventBasementTile.text,Placez la tuile Cave {MAD01} comme indiqué.
+EventBasementTile.button1,{qst:Continuer}
+EventBasementAddSearch.text,<i>Vous remarquez quelque chose dans la pénombre.</i>\n\nPlacez 1 jeton Recherche comme indiqué.
+EventBasementAddSearch.button1,{qst:Continuer}
+EventBasementExploreToken2A.text,{qst:PLACE1EXPLORETOKEN}
+EventBasementExploreToken2A.button1,{qst:Continuer}
+EventBasementExploreToken2B.text,{qst:PLACE1EXPLORETOKEN}
+EventBasementExploreToken2B.button1,{qst:Continuer}
+EventMasterLock.text,"<i>La porte est verrouillée, vous allez devoir trouver la clé.</i>"
+EventMasterLock.button1,{qst:Continuer}
+EventMasterLockKey.text,"<i>Cette porte est verrouillée, elle peut être explorée par l'investigateur possédant la Clé en Argent.</i>"
+EventMasterLockKey.button1,{qst:Continuer}
+EventMasterLockKey.button2,{qst:FORFEIT}
+EventMasterTile.text,Placez la tuile Chambre Principale {MAD01} comme indiqué.
+EventMasterTile.button1,{qst:Continuer}
+EventMasterSeal.text,{qst:PLACEWALLTOKEN}
+EventMasterSeal.button1,{qst:Continuer}
+EventMasterSearch3A.text,<i>Les tiroirs pourraient contenir quelque chose d'intéressant.</i>\n\nPlacez 1 jeton Recherche comme indiqué.
+EventMasterSearch3A.button1,{qst:Continuer}
+EventMasterSearch3B.text,<i>Vous remarquez une mallette derrière le fauteuil.</i>\n\nPlacez 1 jeton Recherche comme indiqué.
+EventMasterSearch3B.button1,{qst:Continuer}
+EventGuestLock.text,{qst:EventMasterLock.text}
+EventGuestLock.button1,{qst:Continuer}
+EventGuestLockKey.text,{qst:EventMasterLockKey.text}
+EventGuestLockKey.button1,{qst:UNLOCK}
+EventGuestLockKey.button2,{qst:FORFEIT}
+EventGuestTile.text,Placez la tuile Chambre d'Ami {MAD01} comme indiqué.
+EventGuestTile.button1,{qst:Continuer}
+EventGuestSearch3A.text,<i>Les tiroirs pourraient contenir quelque chose. d'intéressant.</i>\n\nPlacez 1 jeton Recherche comme indiqué.
+EventGuestSearch3A.button1,{qst:Continuer}
+EventGuestSearch3B.text,{qst:EventGuestSearch3A.text}
+EventGuestSearch3B.button1,{qst:Continuer}
+EventGuestStorageExplore.text,{qst:PLACE1EXPLORETOKEN}
+EventGuestStorageExplore.button1,{qst:Continuer}
+EventStorageExplore3A.text,<i>L'une des boites comporte d'étranges marques.</i>\n\nPlacez 1 jeton Recherche comme indiqué.
+EventStorageExplore3A.button1,{qst:Continuer}
+EventStorageExplore3B.text,{qst:EventStorageExplore3A.text}
+EventStorageExplore3B.button1,{qst:Continuer}
+EventGardenLock.text,<i>La porte conduisant au jardin ne peut être déverrouillée que si vous connaissez la bonne phrase.</i>
+EventGardenLock.button1,{qst:Continuer}
+EventGardenLockKey.text,<i>La porte menant au jardin ne peut être déverrouillée que si vous avez le bon sceau.</i>\n\nCet endroit peut être exploré par l'investigateur ayant le Sceau du Culte en sa possession.
+EventGardenLockKey.button1,{qst:UNLOCK}
+EventGardenLockKey.button2,{qst:FORFEIT}
+EventGardenLockUnlocked.text,<i>Le sol a été remué ici.</i>\n\nPlacez 1 jeton Recherche comme indiqué.
+EventGardenLockUnlocked.button1,{qst:Continuer}
+EventGardenJammed.text,<i>Vous grognez dans votre effort pour forcer la porte.</i>\n\nTest {strength}.
+EventGardenJammed.button1,{qst:Continuer}
+EventGardenExplore2A.text,<i>Quelque chose est calé contre le mur.</i>\n\nPlacez 1 jeton Recherche comme indiqué.
+EventGardenExplore2A.button1,{qst:Continuer}
+EventGardenExplore2B.text,{qst:EventGardenLockUnlocked.text}
+EventGardenExplore2B.button1,{qst:Continuer}
+EventBasementLock.text,<i>La porte menant à cette pièce ne se déverrouillera que si vous avez le bon sceau.</i>
+EventBasementLock.button1,{qst:Continuer}
+EventBasementLockKey.text,<i>La porte menant à cette pièce ne se déverrouillera que si vous avez le bon sceau.</i>\n\nL'investigateur possédant le Sceau du Culte peut continuer.
+EventBasementLockKey.button1,{qst:UNLOCK}
+EventBasementLockKey.button2,{qst:FORFEIT}
+EventBasementLockUnlocked.text,{qst:PLACE2SEARCHTOKEN}
+EventBasementLockUnlocked.button1,{qst:Continuer}
+EventBasementExplore2A.text,{qst:PLACE2SEARCHTOKEN}
+EventBasementExplore2A.button1,{qst:Continuer}
+EventBasementJammed.text,{qst:EventGardenJammed.text}
+EventBasementJammed.button1,{qst:Continuer}
+EventBasementExplore2B.text,{qst:PLACE2SEARCHTOKEN}
+EventBasementExplore2B.button1,{qst:Continuer}
+EventBasementExploreBarrier.text,{qst:PLACE1BARRICADE}
+EventBasementExploreBarrier.button1,{qst:Continuer}
+EventBasementCeremonyExplore.text,{qst:PLACE1EXPLORETOKEN}
+EventBasementCeremonyExplore.button1,{qst:Continuer}
+EventCeremonyExplore.text,"<i>Une noirceur diabolique imprègne la porte quand vous saisissez la poignée. Un soulagement vous étreint quand elle ne s'ouvre pas.</i>"
+EventCeremonyExplore.button1,{qst:Continuer}
+EventGuestStorageDoor.text,<i>La porte menant à cet endroit est verrouillée par une serrure à combinaison rouillée.</i>
+EventGuestStorageDoor.button1,{qst:Continuer}
+EventPuzzlebox.text,<i>Vous trouvez une boite recouverte de runes sibyllines.</i>
+EventPuzzlebox.button1,{qst:Continuer}
+EventSuitcase.text,<i>Vous trouvez une robuste mallette verrouillée par une simple serrure à combinaison.</i>
+EventSuitcase.button1,{qst:Continuer}
+EventGetLantern.button1,{qst:Continuer}
+EventGetAxe.button1,{qst:Continuer}
+EventGetShotgun3A.button1,{qst:Continuer}
+EventGetShotgun3B.button1,{qst:Continuer}
+EventGetEvidence3A.text,<i>Vous découvrez une preuve saisissante.</i>\n\nRécupérez 2 jetons Indice.
+EventGetEvidence3A.button1,{qst:Continuer}
+EventGetEvidence3B.text,{qst:EventGetEvidence3A.text}
+EventGetEvidence3B.button1,{qst:Continuer}
+EventGetElderSign3A.button1,{qst:Continuer}
+EventGetElderSign3B.button1,{qst:Continuer}
+EventGetExtinguisher.button1,{qst:Continuer}
+EventGetItem1.button1,{qst:Continuer}
+EventGetItem2.button1,{qst:Continuer}
+EventGetItem3.text,<i>Vous tombez sur un vieil ouvrage.</i>\n\nTest {lore}.
+EventGetItem3.button1,{qst:Continuer}
+EventGetItem3.button2,{qst:Continuer}
+EventGetHeal.button1,{qst:Continuer}
+EventFailHeal.text,<i>Votre esprit est focalisé sur les symboles qui ne vont pas tarder à disparaître.  Vous relâchez votre attention et quand vous regardez à nouveau, les symboles n'y sont plus.</i>
+EventFailHeal.button1,{qst:Continuer}
+EventGetItem4.button1,{qst:Continuer}
+EventGetItem5.button1,{qst:Continuer}
+EventGetItem6.text,<i>Vous ne trouvez rien d'intéressant.</i>
+EventGetItem6.button1,{qst:Continuer}
+EventGetItem7.text,"<i>Rien ne semble digne d'intérêt, mais vous obtenez de nouveaux éléments de compréhension en rapport avec le lieu.</i>\n\nRécupérez 1 jeton Indice."
+EventGetItem7.button1,{qst:Continuer}
+EventGetItem8.text,"<i>Rien ne semble digne d'intérêt, mais vous obtenez de nouveaux éléments de compréhension en rapport avec le lieu.</i>\n\nRécupérez 1 jeton Indice."
+EventGetItem8.button1,{qst:Continuer}
+EventGetItem9.text,"<i>Rien ne semble digne d'intérêt, mais vous obtenez de nouveaux éléments de compréhension en rapport avec le lieu.</i>\n\nRécupérez 2 jetons Indice."
+EventGetItem9.button1,{qst:Continuer}
+EventGetItem10.text,"<i>Rien ne semble digne d'intérêt, mais vous obtenez de nouveaux éléments de compréhension en rapport avec le lieu.</i>\n\nRécupérez 2 jetons Indice."
+EventGetItem10.button1,{qst:Continuer}
+EventClue1A.text,"<i>Vous êtes submergé par une vision de Walter tentant de communier avec son fils décédé.  Vous regardez pendant qu'un esprit inattendu s'enroule autour du sien pour lui commander: ""NOURRIS-MOI D'ÂMES!""</i>"
+EventClue1A.button1,{qst:Continuer}
+EventClue1BShoggoth.text,"<i>Quelque part dans la maison, Walter tente de manipuler votre chair et votre sang pour procéder à une ancienne incantation.  Le sol tremble, et fait vibrer les livres et bibelots sur les étagères.</i>"
+EventClue1BShoggoth.button1,{qst:Continuer}
+EventClue1BNoShoggoth.text,"<i>Quelque part dans la maison, Walter tente de manipuler votre chair et votre sang pour procéder à une ancienne incantation.  Le sol tremble, et fait vibrer les livres et bibelots sur les étagères.</i>\n\nObjectif: Empêcher les Maniaques de prendre les échantillons."
+EventClue1BNoShoggoth.button1,{qst:Continuer}
+EventClue1C.text,"<i>La voix de Walter résonne dans la demeure: ""NOUS DEVONS LE NOURRIR!"" Puis, à l'unisson, des gémissements maladifs emplissent le manoir.  C'est un son troublant, à peine humain.</i>\n\nPlacez 1 jeton Exploration comme indiqué.\nObjectif: Vous échapper du Vestibule."
+EventClue1C.button1,{qst:Continuer}
+EventClue2A.button1,{qst:Continuer}
+EventClue2B.button1,{qst:Continuer}
+EventClue3A.button1,{qst:Continuer}
+EventClue3B.button1,{qst:Continuer}
+SpawnManiac.text,<i>La porte vole en éclat pour laisser passer un être détraqué.</i>\n\nPlacez un Maniaque sur le même emplacement que {rnd:hero}.
+SpawnManiac.button1,{qst:Continuer}
+EventShoggothMove.text,Le Shoggoth est-il à l'emplacement indiqué?
+EventShoggothMove.button1,{qst:YES}
+EventShoggothMove.button2,{qst:NO}
+EventShoggothMoveTowards.text,Le Shoggoth se déplace de 2 cases vers l'emplacement indiqué.
+EventShoggothMoveTowards.button1,{qst:Continuer}
+EventEndLose1B.text,"<i>Une fois sa tache accomplie, Walter se pend tout en haut du grenier.</i>"
+EventEndLose1B.button1,{qst:THEEND}
+EventManiacSample.text,<i>Les Maniaques vous tirent les cheveux.</i>\n\nL'investigateur avec l'{agility} la plus faible, et sur la même case qu'un Maniaque doit faire un test ({agility}; 1).
+EventManiacSample.button1,Personne sur la case
+EventManiacSample.button2,Succès
+EventManiacSample.button3,Échec
+EventManiacSampleFail.text,<i>Le Maniaque vous arrache une touffe de cheveux.</i>
+EventManiacSampleFail.button1,{qst:Continuer}
+SpawnShoggothBasement.text,Placez un Shoggoth sur l'emplacement indiqué.\nObjectif: Empêcher le Shoggoth de s'échapper.
+SpawnShoggothBasement.button1,{qst:Continuer}
+SpawnShoggothBasementEnter.text,{qst:SpawnShoggothBasement.text}
+SpawnShoggothBasementEnter.button1,{qst:Continuer}
+SpawnShoggothBasementStair.text,{qst:SpawnShoggothBasementEnter.text}
+SpawnShoggothBasementStair.button1,{qst:Continuer}
+SpawnShoggothBasementStairEnter.text,{qst:SpawnShoggothBasement.text}
+SpawnShoggothBasementStairEnter.button1,{qst:Continuer}
+SpawnShoggothFoyer.text,{qst:SpawnShoggothBasement.text}
+SpawnShoggothFoyer.button1,{qst:Continuer}
+EventEndWin1B.text,<i>Le Shoggoth s'écroule en un tas de tentacules gesticulantes. Quelque folie ait animé Walter, elle est à jamais détruite.</i>
+EventEndWin1B.button1,{qst:THEEND}
+EventTimer1NoClue.text,<b>La pendule sonne 10h</b>\n\nChaque investigateur subit 1 Horreur.
+EventTimer1NoClue.button1,{qst:Continuer}
+EventTimer22ANoManiac.text,<b>La pendule sonne 11h</b>\n\n<i>Elle rompt l'oppressant silence.</i>
+EventTimer22ANoManiac.button1,{qst:Continuer}
+EventTimer22A.text,<b>La pendule sonne 11h</b>\n\n<i>Un détraqué attrape sa hache et court dans le couloir.</i>\n\nLe Maniaque se déplace de 2 cases vers l'investigateur le plus proche.
+EventTimer22A.button1,{qst:Continuer}
+EventTimer22B.text,<b>La pendule sonne 11h</b>\n\n<i>Les lumières s'éteignent momentanément et une explosion de coups de feu résonne dans le couloir.</i>\n\nChaque investigateur dans une Chambre subit 2 Dégâts.
+EventTimer22B.button1,{qst:Continuer}
+EventTimer2NoClue.text,<b>La pendule sonne 11h</b>\n\nChaque investigateur subit 1 Horreur.
+EventTimer2NoClue.button1,{qst:Continuer}
+EventTimer41A.text,<b>La pendule sonne 1h</b>\n\n<i>Le sol tremble violemment.</i>
+EventTimer41A.button1,{qst:Continuer}
+EventTimer41B.text,<b>La pendule sonne 1h</b>\n\n<i>La vieille maison gémit.</i>\n\nObjectif: Empêcher les Maniaques de prendre les échantillons.
+EventTimer41B.button1,{qst:Continuer}
+EventTimer41BShoggoth.text,<b>La pendule sonne 1h</b>\n\n<i>La vieille maison gémit.</i>
+EventTimer41BShoggoth.button1,{qst:Continuer}
+EventTimer41CClue.text,<b>La pendule sonne 1h</b>\n\n<i>La porte de devant se verrouille bruyamment.</i>
+EventTimer41CClue.button1,{qst:Continuer}
+EventTimer41C.text,<b>La pendule sonne 1h</b>\n\n<i>La porte de devant se verrouille bruyamment.</i>\n\nPlacez 1 jeton Exploration comme indiqué.\nObjectif: S'enfuir par le Vestibule.
+EventTimer41C.button1,{qst:Continuer}
+EventEndLose1A.text,"<b>La pendule sonne 2h</b>\n\n<i>Alors que la pendule sonne 2h, le sol se met à trembler.\nQuelque chose d'ancien et de profondément enfoui sous la maison entraîne ses fondations de dans le sol.  Peu importe les réponses, les investigateurs et les monstres se livrent une bataille à mort.\nAu cœur de ce charnier, au milieu des décombres, un Walter Lynch possédé ricane faiblement dans son dernier souffle.</i>"
+EventEndLose1A.button1,{qst:THEEND}
+EventEndWinTime1B.text,<b>La pendule sonne 2h</b>\n\n<i>Alors que la pendule sonne 2h, le sol se met à trembler.\nQuelque chose d'ancien et de profondément enfoui sous la maison entraîne ses fondations de dans le sol.  Peu importe les réponses, les investigateurs et les monstres se livrent une bataille à mort.\nLe Shoggoth s'écroule en un tas de tentacules gesticulantes. Quelque folie ait animé Walter, elle est à jamais détruite.</i>
+EventEndWinTime1B.button1,{qst:THEEND}
+EventEndLoseTime1C.text,<b>La pendule sonne 2h</b>\n\n<i>Alors que la pendule sonne 2h, le sol se met à trembler.\nQuelque chose d'ancien et de profondément enfoui sous la maison entraîne ses fondations de dans le sol.  Peu importe les réponses, les investigateurs et les monstres se livrent une bataille à mort.</i>
+EventEndLoseTime1C.button1,{qst:THEEND}
+EventDarkRoom.text,"<i>Vous ouvrez la porte et ne voyez rien dans cette obscurité primitive.  Vous atteignez l'interrupteur, mais rien ne se passe.</i>\n\nPlacez 1 jeton Obscurité sur chaque case de la zone explorée."
+EventDarkRoom.button1,{qst:Continuer}
+EventDarkRoomGuest.text,"<i>Vous ouvrez la porte et ne voyez rien dans cette obscurité primitive.  Vous atteignez l'interrupteur, mais rien ne se passe.</i>\n\nPlacez 1 jeton Obscurité dans la Chambre d'Ami."
+EventDarkRoomGuest.button1,{qst:Continuer}
+EventMoveIn.text,Vous pouvez vous déplacer d'1 case dans la zone explorée.
+EventMoveIn.button1,{qst:Continuer}
+TokenFoyer.text,<i>Une petite commode est accessible au même niveau, contre le mur d'en face.</i>
+TokenFoyer.button1,{qst:ACTIONSEARCH}
+TokenDiningDoor.text,<i>Cette porte mène à la cuisine.</i>
+TokenDiningDoor.button1,{qst:ACTIONEXPLORE}
+TokenBasementStairDoor.text,<i>Cette porte conduit à la cave.</i>
+TokenBasementStairDoor.button1,{qst:ACTIONEXPLORE}
+TokenHallDoor.text,<i>Cette porte donne sur le couloir.</i>
+TokenHallDoor.button1,{qst:ACTIONEXPLORE}
+TokenLabDoor.text,<i>Cette porte mène au laboratoire et plus loin vers le jardin.</i>
+TokenLabDoor.button1,{qst:ACTIONEXPLORE}
+TokenEntryDoor.text,<i>Cette porte donne sur le jardin.</i>
+TokenEntryDoor.button1,{qst:ACTIONEXPLORE}
+TokenDining.text,<i>Un assortiment d'objets est dispersé sur la table.</i>
+TokenDining.button1,{qst:ACTIONSEARCH}
+TokenKitchenStorage.text,<i>De la camelote variée repose entre les casseroles et les pots.</i>
+TokenKitchenStorage.button1,{qst:ACTIONSEARCH}
+TokenLab.text,<i>La plupart du matériel ici vous dépasse.</i>
+TokenLab.button1,{qst:ACTIONSEARCH}
+TokenSearchHall2.text,<i>Un buffet est disposé contre le mur.</i>
+TokenSearchHall2.button1,{qst:ACTIONSEARCH}
+TokenSearchHall4.text,<i>Une vieille commode occupe le coin.</i>
+TokenSearchHall4.button1,{qst:ACTIONSEARCH}
+TokenBasementStoreSearch.text,<i>On distingue quelques outils au milieu des pots de peinture dispersés.</i>
+TokenBasementStoreSearch.button1,{qst:ACTIONSEARCH}
+EventPowerFailure.text,<i>Les lumières de cette pièce refusent de s'allumer</i>\n\nPlacez 1 jeton Obscurité dans la Salle d'Opération.
+EventPowerFailure.button1,{qst:Continuer}
+EventPowerRestore.text,Retirez tout les jetons Obscurité de la Salle d'Opération.
+EventPowerRestore.button1,{qst:Continuer}
+SpawnTimer1Zombie3A.text,<b>La pendule sonne 10h</b>\n\n<i>Une féroce silhouette déboule dans le couloir vers la chambre.</i>\n\nPlacez 1 Zombie sur l'emplacement indiqué avec 1 jeton Feu sur base. Quand il prend des dégâts le feu se répand sur sa case.
+SpawnTimer1Zombie3A.button1,{qst:Continuer}
+SpawnTimer1Zombie3AFoyer.text,<b>Clock Strikes 10</b>\n\n<i>Une féroce silhouette déboule dans le couloir.</i>\n\nPlacez 1 Zombie sur l'emplacement indiqué avec 1 jeton Feu sur base. Quand il prend des dégâts le feu se répand sur sa case.
+SpawnTimer1Zombie3AFoyer.button1,{qst:Continuer}
+SpawnTimer1Zombie3B.text,<b>La pendule sonne 10h</b>\n\n<i>Les restes écorchés d'un homme se jette par la porte ouverte du laboratoire.</i>\n\nPlacez 1 Zombie sur l'emplacement indiqué.  Chaque investigateur subit 1 Horreur.
+SpawnTimer1Zombie3B.button1,{qst:Continuer}
+SpawnTimer3Zombie2A.text,"<b>La pendule sonne 12h</b>\n\n<i>Un mort-vivant se relève de sa tombe.\nA en juger la photo que vous avez vue, le corps est celui d'Edith Lynch, quoique décédée depuis des semaines.</i>\n\nPlacez 1 Zombie sur l'emplacement indiqué."
+SpawnTimer3Zombie2A.button1,{qst:Continuer}
+SpawnTimer3Zombie2B.text,{qst:SpawnTimer3Zombie2A.text}
+SpawnTimer3Zombie2B.button1,{qst:Continuer}
+SpawnTimer3Zombie2AFoyer.text,{qst:SpawnTimer3Zombie2A.text}
+SpawnTimer3Zombie2AFoyer.button1,{qst:Continuer}
+SpawnTimer3Zombie2BLab.text,{qst:SpawnTimer3Zombie2A.text}
+SpawnTimer3Zombie2BLab.button1,{qst:Continuer}
+SpawnTimer3Zombie2BFoyer.text,{qst:SpawnTimer3Zombie2A.text}
+SpawnTimer3Zombie2BFoyer.button1,{qst:Continuer}
+CustomMonsterEdith.monstername,Edith Lynch
+SpawnWalter2.text,Placez 1 Maniaque sur la même case que {rnd:hero}. Il s'agit de Walter Lynch.\n\nObjectif: Vaincre Walter Lynch.
+SpawnWalter2.button1,{qst:Continuer}
+SpawnWalter3.text,{qst:SpawnWalter2.text}
+SpawnWalter3.button1,{qst:Continuer}
+SpawnWalter4.text,{qst:SpawnWalter2.text}
+SpawnWalter4.button1,{qst:Continuer}
+SpawnWalter5.text,{qst:SpawnWalter2.text}
+SpawnWalter5.button1,{qst:Continuer}
+EventEndWin1A2.text,"<i>Alors qu'il s'écroule sur le sol, les investigateurs ont un moment de soulagement.  Votre employeur ne sera pas très content, mais au moins vous aurez supprimé le lien de l'esprit démoniaque avec notre monde.</i>"
+EventEndWin1A2.button1,{qst:THEEND}
+EventEndWin1A3.text,{qst:EventEndWin1A2.text}
+EventEndWin1A3.button1,{qst:THEEND}
+EventEndWin1A4.text,{qst:EventEndWin1A2.text}
+EventEndWin1A4.button1,{qst:THEEND}
+EventEndWin1A5.text,{qst:EventEndWin1A2.text}
+EventEndWin1A5.button1,{qst:THEEND}
+CustomMonsterWalter2.monstername,{qst:WALTERLYNCH}
+CustomMonsterWalter3.monstername,{qst:WALTERLYNCH}
+CustomMonsterWalter4.monstername,{qst:WALTERLYNCH}
+CustomMonsterWalter5.monstername,{qst:WALTERLYNCH}
+CustomMonsterShoggoth.monstername,Shoggoth
+ActivationShoggoth1.ability,Le Shoggoth attaque l'investigateur sur sa case ou une case adjacente ayant la plus faible {observation}.
+ActivationShoggoth1.master,"Dans une vitesse fulgurante, la créature essaie de vous écraser de tout son poids ({agility}; 2). Si vous réussissez, vous manquez de justesse de vous faire écraser par une vague de gelée amorphe grouillante d'yeux; subissez 1 Horreur face cachée. Si vous échouez, la créature vous cloue au sol de son énorme masse, d'innombrables mâchoires vous rongeant la chair; subissez 2 Dégâts et devenez Entravé."
+ActivationShoggoth1.movebutton,{qst:UNABLETOATTACK}
+ActivationShoggoth2.ability,Le Shoggoth attaque l'investigateur sur sa case ou sur une case adjacente ayant subi le plus de dégâts.
+ActivationShoggoth2.master,"La créature se tortille vers vous, vous éclaboussant de morceaux de chair et de boue sur le visage et le corps ({will}; 2). Si vous réussissez, vous ravalez votre peur et vous jetez hors du chemin de la créature; retournez 2 Dégâts face visible. Si vous échouez, l'odeur vous écœure et la chose projette sa masse sur vous; subissez 2 Dégâts, devenez Étourdi, et écartez-vous d'1 case du Shoggoth."
+ActivationShoggoth2.movebutton,{qst:UNABLETOATTACK}
+ActivationShoggoth3.ability,Le Shoggoth chaque investigateur sur sa case ou sur une case adjacente.
+ActivationShoggoth3.master,"Une multitude de tentacules gélatineuses fouettent les abords de la créature, essayant d'attraper ce qu'elles peuvent pour l'amener vers son ignoble gueule ({strength}; 2). Si vous réussissez, vous parvenez à lutter suffisamment pour vous défaire de cette emprise visqueuse. Si vous échouez, les appendices rampants vous agrippent alors que vous vous débattez et hurlez vers la créature; subissez 1 Horreur face cachée, déplacez-vous d'1 case vers le Shoggoth, et devenez Entravé."
+ActivationShoggoth3.movebutton,{qst:UNABLETOATTACK}
+TokenBasementStairs.text,<i>Vous remarquez quelque chose dans l'ombre.</i>
+TokenBasementStairs.button1,{qst:ACTIONSEARCH}
+TokenEntry.text,<i>Il y a quelque chose sous le fauteuil.</i>
+TokenEntry.button1,{qst:ACTIONSEARCH}
+EventEndLose1C.text,<i>La pile de cadavre empeste la décomposition.  Le tas est suffisamment gros pour assez satisfaire le virus dans l'immédiat. D'autres invitations viendront pour ramener des gens quand le besoin se fera sentir.</i>
+EventEndLose1C.button1,{qst:THEEND}
+EventEndLoseEliminated.text,<i>Les investigateurs survivants échappent de justesse à une mort certaine. Malheureusement le mal a survécu et les cicatrices infligées ne guériront pas facilement.</i>
+EventEndLoseEliminated.button1,{qst:THEEND}
+TokenFrontDoor.text,Un investigateur peut utiliser 1 Action pour s'échapper de la demeure.
+TokenFrontDoor.button1,{action} Fuir
+EventEscape.text,Les investigateurs ont-ils tous fui de la demeure?
+EventEscape.button1,{qst:YES}
+EventEscape.button2,{qst:NO}
+EventEndWin3C.text,"<i>Face à un tueur sadique et une armée de morts, vous décidez de revenir les mains vides vers votre employeur.  Par mesure de sécurité, vous brûlez la maison derrière vous.</i>"
+EventEndWin3C.button1,{qst:THEEND}
+Spawn1CZombie1.text,Placez 1 Zombie sur l'emplacement indiqué.
+Spawn1CZombie1.button1,{qst:Continuer}
+Spawn1CZombie2.text,{qst:Spawn1CZombie1.text}
+Spawn1CZombie2.button1,{qst:Continuer}
+Spawn1CZombie3.text,{qst:Spawn1CZombie1.text}
+Spawn1CZombie3.button1,{qst:Continuer}
+Spawn1CZombie4.text,{qst:Spawn1CZombie1.text}
+Spawn1CZombie4.button1,{qst:Continuer}

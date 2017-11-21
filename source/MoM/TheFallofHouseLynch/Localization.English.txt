@@ -8,7 +8,7 @@ UIText3.uitext,"A breifer entry lies on the back.\n\n""January 21, 1919: How cou
 UIContinue2.uitext,{qst:CONTINUE}
 quest.name,The Fall of House Lynch
 quest.description,"This is a Conversion of the Mansions Of Madness first edition scenario.\n\nYou have been hired to investigate Walter Lynch.  A once great man who had become increasingly unpredictable.  What dark horrors has he uncovered?  Are you able to discover the truth, or will you me nothing more than another pawn in some greater plan?\n\nNote that no evidence is provided in this scenario, as such insanity conditions which rely on evidence should not be used."
-quest.authors,<b>Author</b>\nFantasy Flight Games\n\n<b>Conversion</b>\nBruce\n\n<b>Translations</b>\nGerman: redwolf2\nSpanish: eorahil
+quest.authors,<b>Author</b>\nFantasy Flight Games\n\n<b>Conversion</b>\nBruce\n\n<b>Translations</b>\nGerman: redwolf2\nSpanish: eorahil\nFrançais: Indoy
 EventInvestigators.text,Place investigators in the space shown.  Each investigator gains two Clue tokens.
 EventInvestigators.button1,{qst:CONTINUE}
 EventFoyerExploreTokens.text,{qst:PLACE4EXPLORETOKEN}
