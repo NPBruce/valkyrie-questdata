@@ -1,4 +1,4 @@
-﻿.,French
+.,French
 ATTACK,Attaquer
 CONTINUE,Continuer
 EventAddBasement.text,"Posez la tuile {ffg:TILE_BASEMENT_MAD20} comme indiqué."
@@ -67,7 +67,7 @@ quest.description,Une collectionneuse de pierres rares a repéré une météorit
 quest.name,Matière Exotique
 SEARCH,{action} Rechercher
 SpawnAttackBasementCultist.text,<i>Vos actions semblent avoir interrompu la transe.</i>\n\nLes investigateurs doivent réaliser un test d’évasion et un test d'Horreur habituels pour ce monstre. Utilisez la carte du monstre pour attaquer.
-SpawnAttackPondRiot.text,"<i>Le groupe se met à hurler jusqu'à s'égosiller.</i>\n\nLes investigateurs doivent réaliser un test d’Évasion et un test d'Horreur habituels pour ce monstre. Utilisez la carte du monstre pour attaquer.
+SpawnAttackPondRiot.text,"<i>Le groupe se met à hurler jusqu'à s'égosiller.</i>\n\nLes investigateurs doivent réaliser un test d’Évasion et un test d'Horreur habituels pour ce monstre. Utilisez la carte du monstre pour attaquer."
 SpawnAttackPriest.text,<i>Le prêtre se réveille soudainement.</i>\n\nLes investigateurs doivent réaliser un test d’Évasion et un test d'Horreur habituels pour ce monstre. Utilisez la carte du monstre pour attaquer.
 SpawnAttackShopCultist.text,<i>Le magasinier réagit soudainement à votre présence.</i>\n\nLes investigateurs doivent réaliser un test d’Évasion et un test d'Horreur habituels pour ce monstre. Utilisez la carte du monstre pour attaquer.
 SpawnAttackSquareRiot.text,<i>Le groupe fait irruption brutalement.</i>\n\nLes investigateurs doivent réaliser un test d’Évasion et un test d'Horreur habituels pour ce monstre. Utilisez la carte du monstre pour attaquer.

@@ -1,0 +1,214 @@
+.,Polish
+quest.name,Egzotyczny kamień.
+quest.description,Kolekcjoner metali rzadkich wyśledził meteoryt, który spadł niedaleko miasta Rowley.\n\nPodczas wizyty w mieście okazało się, że miejscowi są bardzo niechętni i zaniepokojeni. Zlecili wam znalezienie i odzyskanie meteorytu.\n\nTwoja wizyta odkrywa dziwne i niepokojące wydarzenia i może być wam trudno wydostać się stąd żywymi.\n\n(Należy zauważyć, że w tym scenariuszu nie przedstawiono żadnych dowodów, nie należy stosować takich warunków dla kart szaleństwa, które opierają się na dowodach.)
+EventStart.text,Kolekcjoner metali rzadkich wyśledził meteoryt, który spadł niedaleko miasta Rowley.\n\nPodczas wizyty w mieście okazało się, że miejscowi są bardzo niechętni i zaniepokojeni. Zlecili wam znalezienie i odzyskanie meteorytu.\n\n Przybyliście do Rowley rano i spędzacie cały dzień przepytując miejscowych ale bez większego rezultatu.
+EventStart.button1,{qst:CONTINUE}
+CONTINUE,Kontynuuj
+EventAddSquare.text,Połóż {ffg:TILE_TOWN_SQUARE_MAD20} i {ffg:TILE_STOREFRONT_MAD20} tak jak pokazano.  Każdy poszukiwacz dostaje 2 wskasówki.
+EventGetItem1.text,Weź przedmiot powszechny: {c:QItemWeapon}.
+EventGetItem2.text,Weź przedmiot powszechny: {c:QItemLight}, otrzymujesz jedną wskazówkę.
+EventGetItem3.text,Weź przedmiot powszechny: {c:QItemEquip}.
+EventGetItem4.text,Weź przedmiot powszechny: {c:QItemEquip2}.
+EventGetItem5.text,Weź przedmiot powszechny: {c:QItemEquipLight}, otrzymujesz jedną wskazówkę.
+EventGetItem6.text,Weź przedmiot powszechny: {c:QItemWeapon2}.
+EventGetItem7.text,<i>Natykasz się na starą księgę.</i>\n\nTest {lore}.
+EventGetSpell.text,Otrzymujesz zaklęcie: {c:QItemSpell}.
+ATTACK,Atak
+EXPLORE,{action} Eksploruj
+FAIL,Porażka
+HIDDEN,Ukryte
+PASS,Sukces
+PLACE1WALLTOKEN,Umieść żeton ściana w wyznaczonym miejscu.
+SEARCH,{action} Szukaj
+THEEND,Koniec
+EventSearchShop.text,{qst:HIDDEN}
+EventSearchShop.button1,{qst:CONTINUE}
+EventAddShopSearch.text,<i>Sprzedawca nie zwraca na Ciebie uwagi...</i>\n\nPołóż żeton przeszukania.
+EventAddShopSearch.button1,{qst:CONTINUE}
+EventAddSearchStreet.text,<i>Kilka przedmiotów leży w ciemnym rogu tej ulicy.</i>\n\nPołóż żeton przeszukania.
+EventAddSearchStreet.button1,{qst:CONTINUE}
+EventAddWarehouseSearch.text,<i>Ta skrzynia może zawierać coś ciekawego.</i>\n\nPołóż żeton przeszukania.
+EventAddWarehouseSearch.button1,{qst:CONTINUE}
+EventAddBasementSearch.text,<i>Skrzynia na ziemi została otwarta.</i>\n\nPołóż żeton przeszukania.
+EventAddBasementSearch.button1,{qst:CONTINUE}
+EventAddCellarSearch.text,<i>Kilka przedmiotów znajduje się na tej pólce.</i>\n\nPołóż żeton przeszukania.
+EventAddCellarSearch.button1,{qst:CONTINUE}
+EventAddSearchYard.text,<i>Światło pobliskiej latarni odbija się od czegoś w krzakach.</i>\n\nPołóż żeton przeszukania.
+EventAddSearchYard.button1,{qst:CONTINUE}
+EventMoveIn.button1,{qst:CONTINUE}
+EventMoveIn.text,Możesz się przesunąć o jedno pole w kierunku przeszukania.
+PuzzleLock.button1,Otwórz
+TokenExploreWarehouse.text,<i>Te drzwi prowadzą do magazynu, zabezpiecza je zamek elektroniczny. Dziwna muzyka zdaje się dobiegać z drugiej strony tego budynku.</i>
+TokenExploreWarehouse.button1,{action} Otwórz
+EventJammedDoor.text,<i>Drzwi wydają się zablokowane.</i>\n\nTest {strength}.
+EventJammedDoor.button1,{qst:CONTINUE}
+EventJammedDoor.button2,{qst:HIDDEN}
+EventJammedDoorFail.text,<i>Drzwi nie chcą się otworzyć.</i>
+EventJammedDoorFail.button1,{qst:CONTINUE}
+TokenExplorePond.text,<i>Drzwi prowadzą spowrotem na poziom parteru, teraz dzwięk dobiega z bardzo bliska.</i>
+TokenExplorePond.button1,{qst:EXPLORE}
+EventRockBonus.button1,{qst:HIDDEN}
+TokenSearchYard.text,<i>Światło pobliskiej latarni odbija się od czegoś w krzakach.</i>
+TokenSearchSquare.text,<i>Wiatr przywiał stertę przedmiotów w ten róg ulicy.</i>
+TokenSearchShop.text,<i>Sprzedawca nie ma nic przeciwko żebyś się trochę porozglądał...</i>
+TokenSearchWarehouse.text,<i>Ta skrzynia może zawierać coś ciekawego.</i>
+TokenSearchBasement.text,<i>Skrzynia na podłodze została otwarta.</i>
+TokenSearchCellar.text,<i>Kilka przedmiotów leży na pólce.</i>
+EventRock.text,<i>Podnosisz przedmiot, który wydaje się nie mieć wagi.</i>\n\nUmieść żeton interakcji na karcie poszukiwacza. Poszukiwacz może wykorzystać Akcję ({action}) żeby dać ten żeton innemu poszukiwaczowi na tym samym polu.
+EventRockPool.button1,{qst:HIDDEN}
+EventGetItem.button1,{qst:HIDDEN}
+EventRockBonusFocus.button1,{qst:CONTINUE}
+EventRockBonusFocus.text,<i>Spływa na Ciebie uczucie świadomości celu jakiego nigdy wczesniej nie czułeś.</i>\n\nPoszukiwacz z żetonem interakcji staje się Skupiony.
+EventRockBonusEvade.button1,{qst:CONTINUE}
+EventRockBonusEvade.text,<i>Jakaś niewidzlana siła wypływa z kamienia oczyszczając drogę przed Tobą.</i>\n\nPoszukiwacz z żetonem interakcji nie musi przechodzić testu uniku w tej rundzie.
+EventRockBonusClue.button1,{qst:CONTINUE}
+EventRockBonusClue.text,<i>Wiedza wypełnia Twój umysł, daleko bardziej niż jesteś w stanie zrozumieć.</i>\n\nPoszukiwacz z żetonem interakcji otrzymuje 2 wskazówki.
+EventRockBonusHeal.button1,{qst:CONTINUE}
+EventRockBonusHeal.text,<i>Energia z kamienia przeszywa Cię i czujesz się odnowiony.</i>\n\nPoszukiwacz z żetonem interakcji odrzuca 2 kary obrażeń.
+EventGetItem1.button1,{qst:CONTINUE}
+EventGetItem2.button1,{qst:CONTINUE}
+EventGetItem3.button1,{qst:CONTINUE}
+EventGetItem4.button1,{qst:CONTINUE}
+EventGetItem5.button1,{qst:CONTINUE}
+EventGetItem6.button1,{qst:CONTINUE}
+EventGetItem7.button1,{qst:PASS}
+EventGetItem7.button2,{qst:FAIL}
+EventGetSpell.button1,{qst:CONTINUE}
+EventFailSpell.text,<i>Twój umysł zatracił się w symbolach, które wydają się poruszać na kartkach. Urywasz kontakt wzrokoway, kiedy patrzysz tam znowu symoli nie ma.</i>
+EventFailSpell.button1,{qst:CONTINUE}
+EventRockMythos1.text,To wydarzenie dotyczy Poszukiwacza z żetonem interakcji.\n\nCzujesz jak dziwna siła pochodząca z kamienia otacza Cię i próbuje przejać nad Tobą kontrolę ({will}; 2). Jeśli nie przejdziesz testu twoje mieśnie przestają Cię słuchać, otrzymujesz 1 kartę przerażenia oraz stajesz się ograniczony (Restrained).
+EventRockMythos1.button1,{qst:CONTINUE}
+EventRockMythos2.text,To wydarzenie dotyczy Poszukiwacza z żetonem interakcji.\n\nStaraszs się wypowiedzieć wszystkie modlitwy jakie znasz mając nadzieję, że to Ci pomoże zwalczyć poczucie obecności potężnego nieznanego kamienia ({lore}; 2). Jeśli przejdziesz test udaje Ci się zachować kontrolę nad swoim ciałem. Jeśli nie przejdziesz testu zamyślasz się nad dziwnymi opowieściami, które nagle pojawiają się w twojej głowie. Tracisz chwilowo zainteresowanie zadaniem, otrzymujesz 1 Kartę Przerażenia i stajesz się oszołomiony.
+EventRockMythos2.button1,{qst:CONTINUE}
+EventRockMythos3.text,To wydarzenie dotyczy Poszukiwacza z żetonem interakcji.\n\nMasz poczucie jakby kamień próbował się z Tobą porozumieć ({influence}; 2). Jeśli przeszedłeś test przesyłasz zdecydwany przekaz o twoje sile i determinacji. Jeśli nie przeszedłeś testu wypełniają Cię sprzeczne myśli i pragnienia, otrzymujesz 1 kartę przerażenia oraz stajesz się oszołomiony.
+EventRockMythos3.button1,{qst:CONTINUE}
+EventRockMythos4.text,To wydarzenie dotyczy Poszukiwacza z żetonem interakcji.\n\nCzujesz się jakbyś musiał iść podczas silnego wiatru, jednak wszystko dookoła wydaje się nie ruszać ({strength}; 2). Jeśli nie przeszedłeś testu zostajesz odepchnięty przez niewidzialną siłę, otrzymujesz 2 Obrażenia.
+EventRockMythos4.button1,{qst:CONTINUE}
+EventRockMythos5.text,To wydarzenie dotyczy Poszukiwacza z żetonem interakcji.\n\nkamień wykrzywia twoją percepcję i masz problemy z określeniem gdzie jest podłoga ({agility}; 2). Jeśli przeszedłeś test twoja pamięć mięśniowa ratuje Cię przed upadkiem. Jeśli nie przeszedłeś testu upadasz ciężko na ziemię, otrzymujesz 1 obrażeie i stajesz się ogłuszony.
+EventRockMythos5.button1,{qst:CONTINUE}
+EventTakeRock.text,Przestrzeń dookoła kamienia jest rozmazana a ty masz problem z dotknięciem przedmiotu ({observation}; 2).
+EventTakeRock.button1,{qst:PASS}
+EventTakeRock.button2,{qst:FAIL}
+EventFailRock.text,Twój umysł próbuje rozszyfrować gdzie ten kamień znajduje się w przestrzeni. Zdezorientowany potykasz się o bruk, otrzymujesz 1 obrażenie oraz 1 kartę przerażenia.
+EventFailRock.button1,{qst:CONTINUE}
+SpawnAttackSquareRiot.text,<i>Grupa nagle ożywa.</i>\n\nPoszukiwacze muszą przejść test przerażenia przeciwko temu potworowi.  Uzyj panelu potwora do ataku.
+TokenRock.text,<i>Wydaje się jakby to był ciemny kamień ale z jakiegoś powodu ciężko dokładnie go zobaczyć.</i>\n\nPoszukiwacz, który jest na tym polu może podnieść kamień.
+TokenRock.button1,{action} Weź
+SpawnAttackSquareRiot.button1,{qst:CONTINUE}
+SpawnAttackShopCultist.text,<i>Sprzedawca nagle zaczął agresywnie reagować na Ciebie.</i>\n\nPoszukiwacze muszą przejść test przerażenia przeciwko temu potworowi. Uzyj panelu potwora do ataku.
+SpawnAttackShopCultist.button1,{qst:CONTINUE}
+SpawnAttackStreetCultist.button1,{qst:CONTINUE}
+SpawnAttackWarehouseCultist.button1,{qst:CONTINUE}
+SpawnAttackBasementCultist.button1,{qst:CONTINUE}
+SpawnAttackPondRiot.button1,{qst:CONTINUE}
+SpawnAttackPriest.button1,{qst:CONTINUE}
+EventAddSquare.button1,{qst:CONTINUE}
+EventSquareRiot.text,<i>Kiedy zapadła noc dziwna muzyka rozchodzi się po ulicach miasta. Mieszkańcy miasta, którzy zostali na zewnątrz zatrzymali się patrząc w przestrzeń, zaczarowani przez dziwną muzykę.</i>\n\nUmieść żeton potwora {ffg:MONSTER_RIOT} w wyznaczonym miejscu. Poszukiwacze nie muszą przechodzić testu przerażenia ani uniku przy tym potworze.
+EventSquareRiot.button1,{qst:CONTINUE}
+EventAddShopExplore.text,<i>Światła są włączone w tym sklepie.</i>\n\nUmieść żeton przeszukania.
+EventAddShopExplore.button1,{qst:CONTINUE}
+EventAddSearchSquare.text,<i>Wiatr przywiał małą stertę przedmiotów w te róg ulicy.</i>\n\nPołóż żeton przeszukania.
+EventAddSearchSquare.button1,{qst:CONTINUE}
+EventPlaceInvestigators.text,Umieść poszukiwaczy w wyznaczonym miejscu.
+EventPlaceInvestigators.button1,{qst:CONTINUE}
+EventSearchSquare.text,{qst:HIDDEN}
+EventSearchSquare.button1,{qst:CONTINUE}
+EventAddShopCultist.text,<i>The shop keeper ignores your entrance and stares into space.</i>\n\nUmieść żeton potwora {ffg:MONSTER_CULTIST} w wyznaczonym miejscu. Poszukiwacze nie muszą przechodzić testu przerażenia ani uniku przy tym potworze.
+EventAddShopCultist.button1,{qst:CONTINUE}
+EventAddStreetExplore.text,<i>Te drzwi prwadzą na zaplecze sklepu</i>\n\nUmieść żeton przeszukania.
+EventAddStreetExplore.button1,{qst:CONTINUE}
+EventAddStreet.text,Umieść {ffg:TILE_STREET_CORNER_1_MAD20} oraz {ffg:TILE_WAREHOUSE_MAD20} tak jak pokazano.
+EventAddStreet.button1,{qst:CONTINUE}
+EventAddStreetWall.text,{qst:PLACE1WALLTOKEN}
+EventAddStreetWall.button1,{qst:CONTINUE}
+EventAddStreetCultist.text,<i>Ten miejscowy stoi nieruchomo, wydaje się całkiem obojętny na zimno panujące na zewnątrz.</i>\n\nUmieść żeton potwora {ffg:MONSTER_CULTIST} w wyznaczonym miejscu. Poszukiwacze nie muszą przechodzić testu przerażenia ani uniku przy tym potworze.
+EventAddStreetCultist.button1,{qst:CONTINUE}
+EventAddWarehouseExplore.text,<i>Drzwi prowadzą spowrotem na poziom parteru, teraz dzwięk dobiega z bardzo bliska.</i>\n\nUmieść żeton przeszukania.
+EventAddWarehouseExplore.button1,{qst:CONTINUE}
+EventSearchStreet.text,{qst:HIDDEN}
+EventSearchStreet.button1,{qst:CONTINUE}
+EventAddWarehouseCultist.text,<i>Kobieta stoi nieruchomo w rogu magazynu</i>\n\nUmieść żeton potwora {ffg:MONSTER_CULTIST} w wyznaczonym miejscu. Poszukiwacze nie muszą przechodzić testu przerażenia ani uniku przy tym potworze.
+EventAddWarehouseCultist.button1,{qst:CONTINUE}
+EventAddBasementExplore.text,<i>Te drzwi prowadzą do piwnicy.</i>\n\nUmieść żeton przeszukania.
+EventAddBasementExplore.button1,{qst:CONTINUE}
+EventSearchWarehouse.text,{qst:HIDDEN}
+EventSearchWarehouse.button1,{qst:CONTINUE}
+EventAddBasement.text,Add {ffg:TILE_BASEMENT_MAD20} tak jak pokazano.
+EventAddBasement.button1,{qst:CONTINUE}
+EventAddBasementCultist.text,<i>Postać stoi bezczynnie.</i>\n\nUmieść żeton potwora {ffg:MONSTER_CULTIST} w wyznaczonym miejscu. Poszukiwacze nie muszą przechodzić testu przerażenia ani uniku przy tym potworze.
+EventAddBasementCultist.button1,{qst:CONTINUE}
+EventAddCellarExplore.text,<i>Dziwną muzykę słychac z tego kierunku.</i>\n\nUmieść żeton przeszukania.
+EventAddCellarExplore.button1,{qst:CONTINUE}
+EventAddBasementWall.text,{qst:PLACE1WALLTOKEN}
+EventAddBasementWall.button1,{qst:CONTINUE}
+EventSearchBasement.text,{qst:HIDDEN}
+EventSearchBasement.button1,{qst:CONTINUE}
+EventAddCellar.text,Umieść {ffg:TILE_ROOT_CELLAR_MAD20} tak jak pokazano.
+EventAddCellar.button1,{qst:CONTINUE}
+EventAddPondExplore.text,<i>Te drzwi prowadzą na poziom parteru, dzwięki słychać teraz z bardzo bliska.</i>\n\nUmieść żeton przeszukania.
+EventAddPondExplore.button1,{qst:CONTINUE}
+EventSearchCellar.text,{qst:HIDDEN}
+EventSearchCellar.button1,{qst:CONTINUE}
+EventAddPond.text,<i>Zgniła deska blokująca drzwi odpada i drzwi się otwierają.</i>\n\nPołóż {ffg:TILE_PARK_POND_MAD20} oraz {ffg:TILE_YARD_2_MAD20} tak jak pokazano.
+EventAddPond.button1,{qst:CONTINUE}
+EventAddPondRiot.text,<i>Grupa lokalnych ludzi stoi w transie wpatrzona w dziwny kamień</i>\n\nUmieść żeton potwora {ffg:MONSTER_RIOT} w wyznaczonym miejscu. Poszukiwacze nie muszą przechodzić testu przerażenia ani uniku przy tym potworze.
+EventAddPondRiot.button1,{qst:CONTINUE}
+EventAddPriest.text,<i>Kapłan przeprowadza jakiś rytuał, nie wygląda na to żeby był świadomy ani że to on kotroluje swoje ciało.</i>\n\nUmieść żeton potwora {ffg:UNIQUE_MONSTER_PRIEST_OF_DAGON} w wyznaczonym miejscu. Poszukiwacze nie muszą przechodzić testu przerażenia ani uniku przy tym potworze.
+EventAddPriest.button1,{qst:CONTINUE}
+EventAddRock.text,<i>W przestrzeni nad stawem unosi się duży kamień. Wydaje się jakby to był ciemny kamień ale z jakiegoś powodu ciężko dokładnie go zobaczyć.</i>\n\nUmieść żeton interakcji tak jak pokazano.
+EventAddRock.button1,{qst:CONTINUE}
+EventSearchYard.text,{qst:HIDDEN}
+EventSearchYard.button1,{qst:CONTINUE}
+EventRock.button1,{qst:CONTINUE}
+EventAwakeSquareRiot.button1,{qst:HIDDEN}
+EventAwakeShopCultist.button1,{qst:HIDDEN}
+EventAwake.text,<i>Wszyscy mieszkańcy miasta poruszyli się w tym samym czasie, trans został przerwany.</i>\n\nUmieść żeton tak jak pokazano.  Od teraz wyszystkie potwory wymagają przeprowadzenia testu uniku.
+EventAwake.button1,{qst:CONTINUE}
+EventAwakeStreetCultist.button1,{qst:HIDDEN}
+EventAwakeWarehouseCultist.button1,{qst:HIDDEN}
+EventAwakeBasementCultist.button1,{qst:HIDDEN}
+EventAwakePondRiot.button1,{qst:HIDDEN}
+EventAwakePriest.button1,{qst:HIDDEN}
+EventAddEscape.text,Umieść żeton interakcji w wyznaczonym miejscu. Poszukiwacze muszą umieścić kamień w tym miejscu aby opuścić miasto.
+EventAddEscape.button1,{qst:CONTINUE}
+EventEndEscape.text,<i>Podczas opuszczania Rowley ciągle odczuwasz moc dziwnego kamieniai a ta dziwna muzyka wydaje się jaby wydobywała się ze środka waszych głów. Szybko się godzicie, że to byłoby zbyt niebezpieczne aby pozwolić komukolwiek zawieźć ten kamień daleko do lasu.\n\n Odnajdujecie ustronne miejsce gdzie zakopujecie dziwny kamień mając nadzieje, że nikt nigdy go nie odnajdzie.</i>
+EventEndEscape.button1,{qst:THEEND}
+EventEndEliminated.text,<i>Pozostali poszukiwacze uciekają w wielkim strachu. Cokolwiek spadło z nieba jest dużo bardziej przerażające niż sobie to wyobrażali i najlepiej zostawić to w spokoju.</i>
+EventEndEliminated.button1,{qst:THEEND}
+TokenStreetCultist.text,<i>Ten miejscowy stoi nieruchomo, wydaje się całkiem obojętny na zimno panujące na zewnątrz.</i>
+TokenStreetCultist.button1,{qst:ATTACK}
+TokenPondPriest.text,<i>Ten kapłan wygląda jakby wykonywał jakiś rodzaj rytuału.</i>
+TokenPondPriest.button1,{qst:ATTACK}
+TokenWarehouseCultist.text,<i>Kobieta stoi nieruchomo w rogu magazynu</i>
+TokenWarehouseCultist.button1,{qst:ATTACK}
+TokenBasementCultist.text,<i>Postać stoi bezczynnie.</i>
+TokenBasementCultist.button1,{qst:ATTACK}
+TokenSearchYard.button1,{qst:SEARCH}
+TokenSearchSquare.button1,{qst:SEARCH}
+TokenSearchShop.button1,{qst:SEARCH}
+TokenSearchStreet.text,<i>Kilka przedmiotów leży w kątach tej ulicy.</i>
+TokenSearchStreet.button1,{qst:SEARCH}
+TokenSearchWarehouse.button1,{qst:SEARCH}
+TokenSearchBasement.button1,{qst:SEARCH}
+TokenSearchCellar.button1,{qst:SEARCH}
+TokenExit.text,Czy na tym polu jest poszukiwać z żetonem interakcji?
+TokenExit.button1,Wyjdź
+TokenPondRiot.text,<i>Grupa miejscowy stoi w całkowitym bezruchu.</i>
+TokenPondRiot.button1,{qst:ATTACK}
+TokenExploreShop.text,<i>Światła są zapalone w tym sklepie.</i>
+TokenExploreShop.button1,{qst:EXPLORE}
+TokenExploreStreet.text,<i>Te drzwi prwadzą na zaplecze sklepu</i>
+TokenExploreStreet.button1,{qst:EXPLORE}
+TokenExploreBasement.text,<i>Te drzwi prowadzą do piwnicy.</i>
+TokenExploreBasement.button1,{qst:EXPLORE}
+TokenExploreCellar.text,<i>Dziwna muzyka płynie z tego kierunku.</i>
+TokenExploreCellar.button1,{qst:EXPLORE}
+TokenShopCultist.text,<i>Sklepikarz patrzy w przestrzeń.</i>
+TokenShopCultist.button1,{qst:ATTACK}
+TokenSquareRiot.text,<i>Miejscowi Cię ignorują.</i>
+TokenSquareRiot.button1,{qst:ATTACK}
+SpawnAttackPriest.text,<i>Kapłan sie budzi.</i>\n\nPoszukiwacze muszą przejść test przerażenia przeciwko temu potworowi. Uzyj panelu potwora do ataku.
+SpawnAttackPondRiot.text,<i>Grupa zaczyna krzyczeć.</i>\n\nPoszukiwacze muszą przejść test przerażenia przeciwko temu potworowi.  Uzyj panelu potwora do ataku.
+SpawnAttackBasementCultist.text,<i>Wydaje się, że twoja akcja przerwała trans.</i>\n\nPoszukiwacze muszą przejść test przerażenia przeciwko temu potworowi.  Uzyj panelu potwora do ataku.
+SpawnAttackWarehouseCultist.text,<i>Kobieta jest zaskoczona twoim atakiem.</i>\n\nPoszukiwacze muszą przejść test przerażenia przeciwko temu potworowi.  Uzyj panelu potwora do ataku.
+SpawnAttackStreetCultist.text,<i>Człowiek nagle zaczyna się ruszać i powraca do życia.</i>\n\nPoszukiwacze muszą przejść test przerażenia przeciwko temu potworowi.  Uzyj panelu potwora do ataku.

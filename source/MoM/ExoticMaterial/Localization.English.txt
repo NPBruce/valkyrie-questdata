@@ -1,7 +1,7 @@
 .,English
 quest.name,Exotic Material
 quest.description,"A collector of rare metals tracked a meteorite which fell near the town of Rowley.\n\nOn visiting the town she found the locals to be very unhelpful and slightly disturbing, and has tasked you with finding and retrieving the meteorite.\n\nYour visit uncovers strange and unsettling behaviour and you may stuggle to escape with your life.\n\nNote that no evidence is provided in this scenario, as such insanity conditions which rely on evidence should not be used."
-quest.authors,[b]Author[/b]\nBruce\n\n[b]Translations[/b]\nSpanish: eorahil\nGerman: redwolf2\nFrench: Indoy
+quest.authors,[b]Author[/b]\nBruce\n\n[b]Translations[/b]\nSpanish: eorahil\nGerman: redwolf2\nFrench: Indoy\nPolish: zcaalock
 EventStart.text,"A collector of rare metals tracked a meteorite which fell near the town of Rowley.\n\nOn visiting the town she found the locals to be very unhelpful and slightly disturbing, and has tasked you with finding and retrieving the meteorite.\n\nYou arrive at Rowley in the morning and spend the entire day questioning the locals with no progress being made."
 EventStart.button1,{qst:CONTINUE}
 CONTINUE,Continue

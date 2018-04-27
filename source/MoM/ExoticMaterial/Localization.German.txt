@@ -1,7 +1,6 @@
 .,German
 quest.name,Exotisches Material
 quest.description,"Eine Sammlerin von seltenen Metallen hat herausgefunden, dass ein Meteorit nahe der Stadt Rowley eingeschlagen ist.\n\nAls sie die Stadt besuchte und Nachforschungen anstellte, waren die Bewohner nicht sehr hilfreich und etwas verstörend. Daher hat sie euch die Aufgabe übertragen den Meteoriten zu finden und zu ihr zu bringen.\n\nBei eurem Besuch untersucht ihr das merkwürdige Verhalten der Bewohner und flieht um euer Leben.\n\nIn diesem Szenario werden keine Beweise verwendet. Wahnsinnig-Karten, die von Beweisen abhängig sind, finden keine Verwendung."
-quest.authors,[b]Autor[/b]\nBruce\n\n[b]Übersetzer[/b]\nSpanisch: eorahil\nDeutsch: redwolf2\nFranzösisch: Indoy
 EventStart.text,"Eine Sammlerin von seltenen Metallen hat herausgefunden, dass ein Meteorit nahe der Stadt Rowley eingeschlagen ist.\n\nAls sie die Stadt besuchte und Nachforschungen anstellte, waren die Bewohner nicht sehr hilfreich und etwas verstörend. Daher hat sie euch die Aufgabe übertragen den Meteoriten zu finden und zu ihr zu bringen.\n\nIm Morgengrauen kommt ihr in Rowley an und verbringt den Rest des Tages damit die Einwohner zu befragen, ohne dabei wirkliche Fortschritte zu machen."
 CONTINUE,Weiter
 EventAddSquare.text,"Lege die Spielplanteile {ffg:TILE_TOWN_SQUARE_MAD20} und {ffg:TILE_STOREFRONT_MAD20} aus, wie gezeigt. Jeder Ermittler erhält zwei Hinweismarker."
