@@ -1,42 +1,42 @@
 .,French
 ATTACK,Attaquer
 CONTINUE,Continuer
-EventAddBasement.text,"Posez la tuile {ffg:TILE_BASEMENT_MAD20} comme indiqué."
+EventAddBasement.text,Posez la tuile {ffg:TILE_BASEMENT_MAD20} comme indiqué.
 EventAddBasementCultist.text,<i>Une personne désœuvrée se tient là.</i>\n\nPlacez le monstre {ffg:MONSTER_CULTIST} sur l'emplacement indiqué. Les investigateurs ne doivent pas réaliser un test d’Évasion et un test d'Horreur pour ce monstre.
-EventAddBasementExplore.text,"<i>La porte conduit au sous-sol.</i>\n\nPlacez un jeton Exploration comme indiqué."
-EventAddBasementSearch.text,"<i>Sur le sol, une boite a été ouverte.</i>\n\nPlacez un jeton Recherche comme indiqué."
-EventAddCellar.text,"Posez la tuile {ffg:TILE_ROOT_CELLAR_MAD20} comme indiqué."
-EventAddCellarExplore.text,"<i>L'étrange musique vient de cette direction.</i>\n\nPlacez un jeton Exploration comme indiqué."
-EventAddCellarSearch.text,"<i>Différents objets recouvrent cette étagère.</i>\n\nPlacez un jeton Recherche comme indiqué."
+EventAddBasementExplore.text,<i>La porte conduit au sous-sol.</i>\n\nPlacez un jeton Exploration comme indiqué.
+EventAddBasementSearch.text,<i>Sur le sol, une boite a été ouverte.</i>\n\nPlacez un jeton Recherche comme indiqué.
+EventAddCellar.text,Posez la tuile {ffg:TILE_ROOT_CELLAR_MAD20} comme indiqué.
+EventAddCellarExplore.text,<i>L'étrange musique vient de cette direction.</i>\n\nPlacez un jeton Exploration comme indiqué.
+EventAddCellarSearch.text,<i>Différents objets recouvrent cette étagère.</i>\n\nPlacez un jeton Recherche comme indiqué.
 EventAddEscape.text,Placez un jeton Interaction à l'emplacement indiqué. Les investigateurs doivent prendre l'objet pour s'enfuir de la ville.
-EventAddPond.text,"<i>Une planche pourrie retenant la porte cède et la porte vole en éclat.</i>\n\nPosez les tuiles {ffg:TILE_PARK_POND_MAD20} et {ffg:TILE_YARD_2_MAD20} comme indiqué."
-EventAddPondExplore.text,"<i>Cette porte ramène au rez-de-chaussée, la musique est maintenant très proche.</i>\n\nPlacez un jeton Exploration comme indiqué."
+EventAddPond.text,<i>Une planche pourrie retenant la porte cède et la porte vole en éclat.</i>\n\nPosez les tuiles {ffg:TILE_PARK_POND_MAD20} et {ffg:TILE_YARD_2_MAD20} comme indiqué.
+EventAddPondExplore.text,<i>Cette porte ramène au rez-de-chaussée, la musique est maintenant très proche.</i>\n\nPlacez un jeton Exploration comme indiqué.
 EventAddPondRiot.text,<i>Un groupe d'habitants est comme hypnotisé par l'étrange objet.</i>\n\nPlacez le monstre {ffg:MONSTER_RIOT} sur l'emplacement indiqué. Les investigateurs ne doivent pas réaliser un test d’Évasion et un test d'Horreur pour ce monstre.
-EventAddPriest.text,"<i>Un prêtre procède à un rituel bien qu'il ne semble pas maître de ses actions.</i>\n\nPlacez le monstre {ffg:UNIQUE_MONSTER_PRIEST_OF_DAGON} à l'emplacement indiqué. Les investigateurs ne doivent pas réaliser un test d’Évasion et un test d'Horreur pour ce monstre."
-EventAddRock.text,"<i>Un objet assez large flotte autour de l'étang. Ce ressemble à une pierre sombre mais l'étrange faible luminosité permet difficilement de le discerner.</i>\n\nPlacez un jeton Interaction comme indiqué."
-EventAddSearchSquare.text,"<i>Le vent a ramené un tas de déchets dans ce coin.</i>\n\nPlacez un jeton Recherche comme indiqué."
-EventAddSearchStreet.text,"<i>De nombreux objets reposent dans les coins sombres de cette allée.</i>\n\nPlacez un jeton Recherche comme indiqué."
-EventAddSearchYard.text,"<i>Une lumière proche fait se refléter quelque chose dans le buisson.</i>\n\nPlacez un jeton Recherche comme indiqué."
-EventAddShopCultist.text,"<i>Le magasinier reste figé et vous ignore.</i>\n\nPlacez le monstre {ffg:MONSTER_CULTIST} à l'endroit indiqué. Les investigateurs ne doivent pas réaliser un test d’Évasion et un test d'Horreur pour ce monstre."
-EventAddShopExplore.text,"<i>Les lumières de ce petit magasin sont allumées.</i>\n\nPlacez un jeton Exploration comme indiqué."
-EventAddShopSearch.text,"<i>Le magasinier se fiche que vous jetiez un œil...</i>\n\nPlacez un jeton Recherche comme indiqué."
-EventAddSquare.text,"Placez les tuiles {ffg:TILE_TOWN_SQUARE_MAD20} et {ffg:TILE_STOREFRONT_MAD20} comme indiqué. Les investigateurs récupèrent chacun 2 indices."
-EventAddStreet.text,"Posez les tuiles {ffg:TILE_STREET_CORNER_1_MAD20} et {ffg:TILE_WAREHOUSE_MAD20} comme indiqué."
+EventAddPriest.text,<i>Un prêtre procède à un rituel bien qu'il ne semble pas maître de ses actions.</i>\n\nPlacez le monstre {ffg:UNIQUE_MONSTER_PRIEST_OF_DAGON} à l'emplacement indiqué. Les investigateurs ne doivent pas réaliser un test d’Évasion et un test d'Horreur pour ce monstre.
+EventAddRock.text,<i>Un objet assez large flotte autour de l'étang. Ce ressemble à une pierre sombre mais l'étrange faible luminosité permet difficilement de le discerner.</i>\n\nPlacez un jeton Interaction comme indiqué.
+EventAddSearchSquare.text,<i>Le vent a ramené un tas de déchets dans ce coin.</i>\n\nPlacez un jeton Recherche comme indiqué.
+EventAddSearchStreet.text,<i>De nombreux objets reposent dans les coins sombres de cette allée.</i>\n\nPlacez un jeton Recherche comme indiqué.
+EventAddSearchYard.text,<i>Une lumière proche fait se refléter quelque chose dans le buisson.</i>\n\nPlacez un jeton Recherche comme indiqué.
+EventAddShopCultist.text,<i>Le magasinier reste figé et vous ignore.</i>\n\nPlacez le monstre {ffg:MONSTER_CULTIST} à l'endroit indiqué. Les investigateurs ne doivent pas réaliser un test d’Évasion et un test d'Horreur pour ce monstre.
+EventAddShopExplore.text,<i>Les lumières de ce petit magasin sont allumées.</i>\n\nPlacez un jeton Exploration comme indiqué.
+EventAddShopSearch.text,<i>Le magasinier se fiche que vous jetiez un œil...</i>\n\nPlacez un jeton Recherche comme indiqué.
+EventAddSquare.text,Placez les tuiles {ffg:TILE_TOWN_SQUARE_MAD20} et {ffg:TILE_STOREFRONT_MAD20} comme indiqué. Les investigateurs récupèrent chacun 2 indices.
+EventAddStreet.text,Posez les tuiles {ffg:TILE_STREET_CORNER_1_MAD20} et {ffg:TILE_WAREHOUSE_MAD20} comme indiqué.
 EventAddStreetCultist.text,<i>Cet habitant reste là, comme insensible au froid.</i>\n\nPlacez le monstre {ffg:MONSTER_CULTIST} sur l'emplacement indiqué. Les investigateurs ne doivent pas réaliser un test d’Évasion et un test d'Horreur pour ce monstre.
-EventAddStreetExplore.text,"<i>Cette porte donne sur l'arrière du magasin.</i>\n\nPlacez un jeton Exploration comme indiqué."
+EventAddStreetExplore.text,<i>Cette porte donne sur l'arrière du magasin.</i>\n\nPlacez un jeton Exploration comme indiqué.
 EventAddWarehouseCultist.text,<i>Un femme se tient dans un coin de l'entrepôt.</i>\n\nPlacez le monstre {ffg:MONSTER_CULTIST} sur l'emplacement indiqué. Les investigateurs ne doivent pas réaliser un test d’Évasion et un test d'Horreur pour ce monstre.
 EventAddWarehouseExplore.text,<i>Cette porte mène à un entrepôt. La musique semble venir de l'autre côté du bâtiment.</i>\n\nPlacez un jeton Exploration comme indiqué.
-EventAddWarehouseSearch.text,"<i>Cette caisse pourrait contenir quelque chose d'utile.</i>\n\nPlacez un jeton Recherche comme indiqué."
-EventAwake.text,"<i>une fois leur transe interrompue, les habitants se remettent soudainement à bouger.</i>\n\nPlacez les jetons Identification comme indiqué. Tout les monstres requièrent un test d’Évasion et un test d'Horreur."
-EventEndEliminated.text,"<i>Les investigateurs survivants s'enfuient, terrorisés. Ce qui peut bien tomber du ciel est bien au-delà de leurs compétences et c'est mieux ainsi.</i>"
-EventEndEscape.text,"<i>A mesure que vous vous éloignez de Rowley, vous continuez à vous battre contre le pouvoir obscur de l'objet et de cette musique étrange qui résonne dans votre tête. Vous vous accordez pour dire que cet objet est trop dangereux pour être détenu par quiconque et vous foncez dans les bois.\n\nDans un endroit reculé, vous enterrez l’objet en espérant qu'il reste caché de tous.</i>"
-EventFailRock.text,"Votre esprit s'attache à déterminer où se situe l'objet dans l'espace. Dans la confusion vous trébuchez sur les pavés, prenez 1 Dégât et 1 Horreur."
-EventFailSpell.text,"<i>Vous vous concentrez sur des symboles éphémères. A peine avez-vous détourné le regard qu'ils ont disparu.</i>"
+EventAddWarehouseSearch.text,<i>Cette caisse pourrait contenir quelque chose d'utile.</i>\n\nPlacez un jeton Recherche comme indiqué.
+EventAwake.text,<i>une fois leur transe interrompue, les habitants se remettent soudainement à bouger.</i>\n\nPlacez les jetons Identification comme indiqué. Tout les monstres requièrent un test d’Évasion et un test d'Horreur.
+EventEndEliminated.text,<i>Les investigateurs survivants s'enfuient, terrorisés. Ce qui peut bien tomber du ciel est bien au-delà de leurs compétences et c'est mieux ainsi.</i>
+EventEndEscape.text,<i>A mesure que vous vous éloignez de Rowley, vous continuez à vous battre contre le pouvoir obscur de l'objet et de cette musique étrange qui résonne dans votre tête. Vous vous accordez pour dire que cet objet est trop dangereux pour être détenu par quiconque et vous foncez dans les bois.\n\nDans un endroit reculé, vous enterrez l’objet en espérant qu'il reste caché de tous.</i>
+EventFailRock.text,Votre esprit s'attache à déterminer où se situe l'objet dans l'espace. Dans la confusion vous trébuchez sur les pavés, prenez 1 Dégât et 1 Horreur.
+EventFailSpell.text,<i>Vous vous concentrez sur des symboles éphémères. A peine avez-vous détourné le regard qu'ils ont disparu.</i>
 EventGetItem1.text,Prenez l'Objet Commun: {c:QItemWeapon}.
-EventGetItem2.text,"Prenez l'Objet Commun: {c:QItemLight}, récupérez 1 indice."
+EventGetItem2.text,Prenez l'Objet Commun: {c:QItemLight}, récupérez 1 indice.
 EventGetItem3.text,Prenez l'Objet Commun: {c:QItemEquip}.
 EventGetItem4.text,Prenez l'Objet Commun: {c:QItemEquip2}.
-EventGetItem5.text,"Prenez l'Objet Commun: {c:QItemEquipLight}, récupérez 1 indice."
+EventGetItem5.text,Prenez l'Objet Commun: {c:QItemEquipLight}, récupérez 1 indice.
 EventGetItem6.text,Prenez l'Objet Commun: {c:QItemWeapon2}.
 EventGetItem7.text,<i>Vous tombez sur un vieux livre.</i>\n\n{lore}-Test.
 EventGetSpell.text,Prenez un Sort: {c:QItemSpell}.
@@ -44,30 +44,30 @@ EventJammedDoor.text,<i>La porte semble coincée.</i>\n\n{strength}-Test.
 EventJammedDoorFail.text,<i>La porte refuse de bouger.</i>
 EventMoveIn.text,Vous pouvez avancer d'1 case dans la zone explorée.
 EventPlaceInvestigators.text,Placez les investigateurs sur l'emplacement indiqué.
-EventRock.text,"<i>Vous attrapez l'objet qui ne semble pas peser son poids.</i>\n\nPlacez le jeton Interaction sur la feuille de l'investigateur. L'investigateur peut dépenser une Action ({action}) pour donner le jeton à un autre investigateur proche."
+EventRock.text,<i>Vous attrapez l'objet qui ne semble pas peser son poids.</i>\n\nPlacez le jeton Interaction sur la feuille de l'investigateur. L'investigateur peut dépenser une Action ({action}) pour donner le jeton à un autre investigateur proche.
 EventRockBonusClue.text,<i>La connaissance remplit votre esprit, bien au-delà de votre compréhension.</i>\n\nL'investigateur avec le jeton Interaction récupère 2 indices.
-EventRockBonusEvade.text,"<i>Une force invisible se déchaîne de l'objet, et dégage le chemin.</i>\n\nL'investigateur avec le jeton Interaction sur sa feuille n'a pas besoin de réussir un test d’Évasion à ce tour."
+EventRockBonusEvade.text,<i>Une force invisible se déchaîne de l'objet, et dégage le chemin.</i>\n\nL'investigateur avec le jeton Interaction sur sa feuille n'a pas besoin de réussir un test d’Évasion à ce tour.
 EventRockBonusFocus.text,<i>Vous obtenez une clairvoyance comme jamais auparavant.</i>\n\nL'investigateur avec le jeton Interaction sur sa feuille devient Focalisé.
 EventRockBonusHeal.text,<i>L'énergie contenue dans l'objet vous submerge et vous vous sentez revigoré.</i>\n\nL'investigateur avec le jeton Interaction perd 2 Dégâts.
-EventRockMythos1.text,"Cet événement affecte l'investigateur avec le jeton Interaction sur sa feuille de personnage.\nVous sentez l'étrange pouvoir de l'objet à travers vous et vous tentez de le retenir et de le contrôler ({will}; 2). Si vous échouez, vous muscles ne répondent plus, prenez 1 Horreur et devenez Entravé."
-EventRockMythos2.text,"Cet événement affecte l'investigateur avec le jeton Interaction sur sa feuille de personnage.\nVous prononcez toutes les prières que vous connaissez en espérant que l'une d'elles suffise à combattre la puissance grandissante de ce mystérieux objet ({lore}; 2). Si vous réussissez, vous reprenez le contrôle de vous-même. Si vous échouez vous vous égarez dans les vieux textes et oubliez vos intentions, prenez 1 Horreur et devenez Étourdi"
-EventRockMythos3.text,"Cet événement affecte l'investigateur avec le jeton Interaction sur sa feuille de personnage.\nVous avez l'impression que l’objet veut communiquer ({influence}; 2). Si vous réussissez, vous envoyez un message clair, fort et déterminé. Si vous échouez, vous êtes empli de désirs et de pensées contradictoires, prenez 1 Horreur et devenez Étourdi"
-EventRockMythos4.text,"Cet événement affecte l'investigateur avec le jeton Interaction sur sa feuille de personnage.\nVous avez la sensation de marcher contre un vent terrible alors que tout est calme autour de vous ({strength}; 2). Si vous échouez, vous êtes repoussé violemment par une force silencieuse, prenez 2 Dégâts."
-EventRockMythos5.text,"Cet événement affecte l'investigateur avec le jeton Interaction sur sa feuille de personnage.\nL'objet altère votre perception de l'espace et vous vous forcez à retrouver le sol ({agility}; 2). Si vous réussissez, votre force mentale prend le dessus, si vous échouez vous tombez lourdement sur le sol, prenez 1 Dégât et devenez Sonné."
-EventSquareRiot.text,"<i>A la nuit tombée, une musique d'un autre monde parcoure les rues. Les habitants toujours à l'extérieur s'arrêtent et se fixent dans un regard vide, hypnotisés par l'étrange mélodie.</i>\nPlacez le monstre {ffg:MONSTER_RIOT} sur l'emplacement indiqué. Les investigateurs ne doivent pas réaliser un test d’Évasion et un test d'Horreur pour ce monstre."
-EventStart.text,"\n<i>Vous arrivez à Rowley au matin et passez une journée entière à questionner les habitants sans obtenir de renseignements fiables</i>."
+EventRockMythos1.text,Cet événement affecte l'investigateur avec le jeton Interaction sur sa feuille de personnage.\nVous sentez l'étrange pouvoir de l'objet à travers vous et vous tentez de le retenir et de le contrôler ({will}; 2). Si vous échouez, vous muscles ne répondent plus, prenez 1 Horreur et devenez Entravé.
+EventRockMythos2.text,Cet événement affecte l'investigateur avec le jeton Interaction sur sa feuille de personnage.\nVous prononcez toutes les prières que vous connaissez en espérant que l'une d'elles suffise à combattre la puissance grandissante de ce mystérieux objet ({lore}; 2). Si vous réussissez, vous reprenez le contrôle de vous-même. Si vous échouez vous vous égarez dans les vieux textes et oubliez vos intentions, prenez 1 Horreur et devenez Étourdi
+EventRockMythos3.text,Cet événement affecte l'investigateur avec le jeton Interaction sur sa feuille de personnage.\nVous avez l'impression que l’objet veut communiquer ({influence}; 2). Si vous réussissez, vous envoyez un message clair, fort et déterminé. Si vous échouez, vous êtes empli de désirs et de pensées contradictoires, prenez 1 Horreur et devenez Étourdi
+EventRockMythos4.text,Cet événement affecte l'investigateur avec le jeton Interaction sur sa feuille de personnage.\nVous avez la sensation de marcher contre un vent terrible alors que tout est calme autour de vous ({strength}; 2). Si vous échouez, vous êtes repoussé violemment par une force silencieuse, prenez 2 Dégâts.
+EventRockMythos5.text,Cet événement affecte l'investigateur avec le jeton Interaction sur sa feuille de personnage.\nL'objet altère votre perception de l'espace et vous vous forcez à retrouver le sol ({agility}; 2). Si vous réussissez, votre force mentale prend le dessus, si vous échouez vous tombez lourdement sur le sol, prenez 1 Dégât et devenez Sonné.
+EventSquareRiot.text,<i>A la nuit tombée, une musique d'un autre monde parcoure les rues. Les habitants toujours à l'extérieur s'arrêtent et se fixent dans un regard vide, hypnotisés par l'étrange mélodie.</i>\nPlacez le monstre {ffg:MONSTER_RIOT} sur l'emplacement indiqué. Les investigateurs ne doivent pas réaliser un test d’Évasion et un test d'Horreur pour ce monstre.
+EventStart.text,\n<i>Vous arrivez à Rowley au matin et passez une journée entière à questionner les habitants sans obtenir de renseignements fiables</i>.
 EventTakeRock.text,L'espace autour de l'objet est distordu et vous luttez pour essayer de le toucher ({observation}; 2).
 EXPLORE,{action} Explorer
 FAIL,Échec
 HIDDEN,Caché
 PASS,Continuer
-PLACE1WALLTOKEN,"Placez un jeton Mur comme indiqué."
+PLACE1WALLTOKEN,Placez un jeton Mur comme indiqué.
 PuzzleLock.button1,Ouvrir
 quest.description,Une collectionneuse de pierres rares a repéré une météorite tombée prés de la ville de Rowley.\nLors d'une première visite, elle a rencontré des habitants étranges et peu accueillants. Elle vous a alors demandé de trouver et récupérer la météorite.\n\nVotre séjour sera étrange, fait de rencontres troublantes et vous devrez lutter pour vous échapper en vie.\n\nA noter qu'aucune preuve n'est contenue dans le scénario, et les états Folie qui reposent dessus ne sont pas utilisés.
 quest.name,Matière Exotique
 SEARCH,{action} Rechercher
 SpawnAttackBasementCultist.text,<i>Vos actions semblent avoir interrompu la transe.</i>\n\nLes investigateurs doivent réaliser un test d’évasion et un test d'Horreur habituels pour ce monstre. Utilisez la carte du monstre pour attaquer.
-SpawnAttackPondRiot.text,"<i>Le groupe se met à hurler jusqu'à s'égosiller.</i>\n\nLes investigateurs doivent réaliser un test d’Évasion et un test d'Horreur habituels pour ce monstre. Utilisez la carte du monstre pour attaquer."
+SpawnAttackPondRiot.text,<i>Le groupe se met à hurler jusqu'à s'égosiller.</i>\n\nLes investigateurs doivent réaliser un test d’Évasion et un test d'Horreur habituels pour ce monstre. Utilisez la carte du monstre pour attaquer.
 SpawnAttackPriest.text,<i>Le prêtre se réveille soudainement.</i>\n\nLes investigateurs doivent réaliser un test d’Évasion et un test d'Horreur habituels pour ce monstre. Utilisez la carte du monstre pour attaquer.
 SpawnAttackShopCultist.text,<i>Le magasinier réagit soudainement à votre présence.</i>\n\nLes investigateurs doivent réaliser un test d’Évasion et un test d'Horreur habituels pour ce monstre. Utilisez la carte du monstre pour attaquer.
 SpawnAttackSquareRiot.text,<i>Le groupe fait irruption brutalement.</i>\n\nLes investigateurs doivent réaliser un test d’Évasion et un test d'Horreur habituels pour ce monstre. Utilisez la carte du monstre pour attaquer.
@@ -79,7 +79,7 @@ TokenExit.button1,Fuir
 TokenExit.text,L'investigateur est-il dans la pièce avec le jeton Interaction?
 TokenExploreBasement.text,<i>La porte mène au sous-sol.</i>
 TokenExploreCellar.text,<i>L'étrange musique vient de cette direction.</i>
-TokenExplorePond.text,"<i>Cette porte ramène au rez-de-chaussée, le bruit est maintenant proche.</i>"
+TokenExplorePond.text,<i>Cette porte ramène au rez-de-chaussée, le bruit est maintenant proche.</i>
 TokenExploreShop.text,<i>Les lumières dans ce petit magasin sont allumées.</i>
 TokenExploreStreet.text,<i>Cette porte donne sur l'arrière du magasin.</i>
 TokenExploreWarehouse.button1,Débloquer
@@ -87,11 +87,11 @@ TokenExploreWarehouse.text,<i>Cette porte donne sur un entrepôt et s'ouvre au m
 TokenPondPriest.text,<i>Ces prêtres pratiquent ce qui semble être une sorte de rituel.</i>
 TokenPondRiot.text,<i>Le groupe d'habitants est complètement immobile.</i>
 TokenRock.button1,{action} Prendre
-TokenRock.text,"<i>Cela semble être une pierre sombre mais il est difficile de mieux y voir pour de mystérieuses raisons.</i>\n\nUn investigateur dans la pièce peut essayer de prendre la pierre."
+TokenRock.text,<i>Cela semble être une pierre sombre mais il est difficile de mieux y voir pour de mystérieuses raisons.</i>\n\nUn investigateur dans la pièce peut essayer de prendre la pierre.
 TokenSearchBasement.text,<i>Sur le sol, une boite a été ouverte.</i>
 TokenSearchCellar.text,<i>Différents objets recouvrent l'étagère.</i>
-TokenSearchShop.text,"<i>Le magasinier se fiche que vous jetiez un œil...</i>"
-TokenSearchSquare.text,"<i>Le vent a ramené un tas de déchets dans le coin.</i>"
+TokenSearchShop.text,<i>Le magasinier se fiche que vous jetiez un œil...</i>
+TokenSearchSquare.text,<i>Le vent a ramené un tas de déchets dans le coin.</i>
 TokenSearchStreet.text,<i>De nombreux objets reposent dans les coins sombres de l'allée.</i>
 TokenSearchWarehouse.text,<i>Cette caisse pourrait contenir quelque chose d'utile.</i>
 TokenSearchYard.text,<i>Une lumière proche fait se refléter quelque chose dans le buisson.</i>

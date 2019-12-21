@@ -1,14 +1,14 @@
 .,German
 quest.name,Exotisches Material
-quest.description,"Eine Sammlerin von seltenen Metallen hat herausgefunden, dass ein Meteorit nahe der Stadt Rowley eingeschlagen ist.\n\nAls sie die Stadt besuchte und Nachforschungen anstellte, waren die Bewohner nicht sehr hilfreich und etwas verstörend. Daher hat sie euch die Aufgabe übertragen den Meteoriten zu finden und zu ihr zu bringen.\n\nBei eurem Besuch untersucht ihr das merkwürdige Verhalten der Bewohner und flieht um euer Leben.\n\nIn diesem Szenario werden keine Beweise verwendet. Wahnsinnig-Karten, die von Beweisen abhängig sind, finden keine Verwendung."
-EventStart.text,"Eine Sammlerin von seltenen Metallen hat herausgefunden, dass ein Meteorit nahe der Stadt Rowley eingeschlagen ist.\n\nAls sie die Stadt besuchte und Nachforschungen anstellte, waren die Bewohner nicht sehr hilfreich und etwas verstörend. Daher hat sie euch die Aufgabe übertragen den Meteoriten zu finden und zu ihr zu bringen.\n\nIm Morgengrauen kommt ihr in Rowley an und verbringt den Rest des Tages damit die Einwohner zu befragen, ohne dabei wirkliche Fortschritte zu machen."
+quest.description,Eine Sammlerin von seltenen Metallen hat herausgefunden, dass ein Meteorit nahe der Stadt Rowley eingeschlagen ist.\n\nAls sie die Stadt besuchte und Nachforschungen anstellte, waren die Bewohner nicht sehr hilfreich und etwas verstörend. Daher hat sie euch die Aufgabe übertragen den Meteoriten zu finden und zu ihr zu bringen.\n\nBei eurem Besuch untersucht ihr das merkwürdige Verhalten der Bewohner und flieht um euer Leben.\n\nIn diesem Szenario werden keine Beweise verwendet. Wahnsinnig-Karten, die von Beweisen abhängig sind, finden keine Verwendung.
+EventStart.text,Eine Sammlerin von seltenen Metallen hat herausgefunden, dass ein Meteorit nahe der Stadt Rowley eingeschlagen ist.\n\nAls sie die Stadt besuchte und Nachforschungen anstellte, waren die Bewohner nicht sehr hilfreich und etwas verstörend. Daher hat sie euch die Aufgabe übertragen den Meteoriten zu finden und zu ihr zu bringen.\n\nIm Morgengrauen kommt ihr in Rowley an und verbringt den Rest des Tages damit die Einwohner zu befragen, ohne dabei wirkliche Fortschritte zu machen.
 CONTINUE,Weiter
-EventAddSquare.text,"Lege die Spielplanteile {ffg:TILE_TOWN_SQUARE_MAD20} und {ffg:TILE_STOREFRONT_MAD20} aus, wie gezeigt. Jeder Ermittler erhält zwei Hinweismarker."
+EventAddSquare.text,Lege die Spielplanteile {ffg:TILE_TOWN_SQUARE_MAD20} und {ffg:TILE_STOREFRONT_MAD20} aus, wie gezeigt. Jeder Ermittler erhält zwei Hinweismarker.
 EventGetItem1.text,Nimm den Gegenstand: {c:QItemWeapon}.
-EventGetItem2.text,"Nimm den Gegenstand: {c:QItemLight}, erhalte einen Hinweismarker."
+EventGetItem2.text,Nimm den Gegenstand: {c:QItemLight}, erhalte einen Hinweismarker.
 EventGetItem3.text,Nimm den Gegenstand: {c:QItemEquip}.
 EventGetItem4.text,Nimm den Gegenstand: {c:QItemEquip2}.
-EventGetItem5.text,"Nimm den Gegenstand: {c:QItemEquipLight}, erhalte einen Hinweismarker."
+EventGetItem5.text,Nimm den Gegenstand: {c:QItemEquipLight}, erhalte einen Hinweismarker.
 EventGetItem6.text,Nimm den Gegenstand: {c:QItemWeapon2}.
 EventGetItem7.text,<i>Du findest einen alten Folianten.</i>\n\n{lore}-Test.
 EventGetSpell.text,Nimm den Zauber: {c:QItemSpell}.
@@ -17,69 +17,69 @@ EXPLORE,{action} Erkunden
 FAIL,Misserfolg
 HIDDEN,Versteckt
 PASS,Erfolg
-PLACE1WALLTOKEN,"Platziere einen Wandmarker, wie gezeigt."
+PLACE1WALLTOKEN,Platziere einen Wandmarker, wie gezeigt.
 SEARCH,{action} Durchsuchen
 THEEND,Ende
-EventAddShopSearch.text,"<i>Der Besitzers des Ladens hat sicher nichts dagegen, wenn du herumstöberst...</i>\n\nPlatziere einen Durchsuchungsmarker, wie gezeigt."
-EventAddSearchStreet.text,"<i>Zahlreiche Objekte liegen in den dunklen Ecken dieser Gasse.</i>\n\nPlatziere einen Durchsuchungsmarker, wie gezeigt."
-EventAddWarehouseSearch.text,"<i>Diese Kiste könnte etwas Nützliches enthalten.</i>\n\nPlatziere einen Durchsuchungsmarker, wie gezeigt."
-EventAddBasementSearch.text,"<i>Auf dem Boden steht eine geöffnete Kiste.</i>\n\nPlatziere einen Durchsuchungsmarker, wie gezeigt."
-EventAddCellarSearch.text,"<i>Das Regal ist mit verschiedenen Gegenständen gefüllt.</i>\n\nPlatziere einen Durchsuchungsmarker, wie gezeigt."
-EventAddSearchYard.text,"<i>Das Licht einer Lampe wird von etwas in diesem Busch reflektiert.</i>\n\nPlatziere einen Durchsuchungsmarker, wie gezeigt."
+EventAddShopSearch.text,<i>Der Besitzers des Ladens hat sicher nichts dagegen, wenn du herumstöberst...</i>\n\nPlatziere einen Durchsuchungsmarker, wie gezeigt.
+EventAddSearchStreet.text,<i>Zahlreiche Objekte liegen in den dunklen Ecken dieser Gasse.</i>\n\nPlatziere einen Durchsuchungsmarker, wie gezeigt.
+EventAddWarehouseSearch.text,<i>Diese Kiste könnte etwas Nützliches enthalten.</i>\n\nPlatziere einen Durchsuchungsmarker, wie gezeigt.
+EventAddBasementSearch.text,<i>Auf dem Boden steht eine geöffnete Kiste.</i>\n\nPlatziere einen Durchsuchungsmarker, wie gezeigt.
+EventAddCellarSearch.text,<i>Das Regal ist mit verschiedenen Gegenständen gefüllt.</i>\n\nPlatziere einen Durchsuchungsmarker, wie gezeigt.
+EventAddSearchYard.text,<i>Das Licht einer Lampe wird von etwas in diesem Busch reflektiert.</i>\n\nPlatziere einen Durchsuchungsmarker, wie gezeigt.
 EventMoveIn.text,Du darfst dich um ein Feld in den durchsuchten Raum bewegen.
 PuzzleLock.button1,Öffnen
 TokenExploreWarehouse.text,<i>Diese Tür führt in ein Warenhaus und hat ein Codeschloß an der Eingangstür. Die Musik scheint von der anderen Seite des Gebäudes zu kommen.</i>
 TokenExploreWarehouse.button1,Aufschließen
 EventJammedDoor.text,<i>Die Tür scheint zu klemmen.</i>\n\n{strength}-Test.
 EventJammedDoorFail.text,<i>Die Tür will bewegt sich kein Stück und verweigert dir den Eintritt.</i>
-TokenExplorePond.text,"<i>Diese Tür führt zurück zum Erdgeschoss, die Musik ist jetzt ganz nah.</i>"
+TokenExplorePond.text,<i>Diese Tür führt zurück zum Erdgeschoss, die Musik ist jetzt ganz nah.</i>
 TokenSearchYard.text,<i>Das Licht einer Lampe wird von etwas in diesem Busch reflektiert.</i>
-TokenSearchSquare.text,"<i>Der Wind hat dafür gesorgt, dass sich ein kleiner Haufen aus Müll in der Ecke gebildet hat.</i>"
-TokenSearchShop.text,"<i>Der Besitzers des Ladens hat sicher nichts dagegen, wenn du herumstöberst...</i>"
+TokenSearchSquare.text,<i>Der Wind hat dafür gesorgt, dass sich ein kleiner Haufen aus Müll in der Ecke gebildet hat.</i>
+TokenSearchShop.text,<i>Der Besitzers des Ladens hat sicher nichts dagegen, wenn du herumstöberst...</i>
 TokenSearchWarehouse.text,<i>Diese Kiste könnte etwas Nützliches enthalten.</i>
 TokenSearchBasement.text,<i>Auf dem Boden steht eine geöffnete Kiste.</i>
 TokenSearchCellar.text,<i>Das Regal ist mit verschiedenen Gegenständen gefüllt.</i>
-EventRock.text,"<i>Du greifst ihn dir und bist überrascht, er scheint so gut wie kein Gewicht zu haben.</i>\n\nPlatziere den Interaktionsmarker auf deiner Ermittlerkarte. Jeder Ermittler kann eine Aktion ({action}) ausgeben um den Marker einen anderen Ermittler auf seinem Feld zu geben."
+EventRock.text,<i>Du greifst ihn dir und bist überrascht, er scheint so gut wie kein Gewicht zu haben.</i>\n\nPlatziere den Interaktionsmarker auf deiner Ermittlerkarte. Jeder Ermittler kann eine Aktion ({action}) ausgeben um den Marker einen anderen Ermittler auf seinem Feld zu geben.
 EventRockBonusFocus.text,<i>Deine Ziele sind nun klarer denn je.</i>\n\nDer Ermittler mit dem Interaktionsmarker wird Fokussiert.
-EventRockBonusEvade.text,"<i>Das Objekt ströhmt eine usichtbare Kraft aus, welche den Weg freimacht.</i>\n\nDer Ermittler mit dem Interaktionsmarker auf seiner Ermittlerkarte muss diese Runde keine Ausweichtests durchführen."
+EventRockBonusEvade.text,<i>Das Objekt ströhmt eine usichtbare Kraft aus, welche den Weg freimacht.</i>\n\nDer Ermittler mit dem Interaktionsmarker auf seiner Ermittlerkarte muss diese Runde keine Ausweichtests durchführen.
 EventRockBonusClue.text,<i>Das erhaltene Wissen übersteigt ein Auffassungsvermögen.</i>\n\nDer Ermittler mit dem Interaktionsmarker auf seiner Ermittlerkarte erhält zwei Hinweismarker.
 EventRockBonusHeal.text,<i>Durch die Erergie des Objekts fühlst du dich wie frisch geboren.</i>\n\nDer Ermittler mit dem Interaktionsmarker auf seiner Ermittlerkarte entfernt zwei Schaden von sich.
-EventFailSpell.text,"<i>Gedankenverloren siehst du vor dir Symbole, welche du zuordnen möchtest, doch sie halten nicht still. Als du aus deine Trance erwachst sind die Symbole verschwunden.</i>"
-EventRockMythos1.text,"Dieses Ereignis betrifft den Ermittler mit dem Interaktionsmarker auf seiner Ermittlerkarte.\n\nDu spürst, wie die Macht des seltsamens Objektes dich durchströmt und die Kontrolle an sich reißen will ({will}; 2). Wenn du versagst, weigern sich deine Muskeln deinen Befehlen zu folgen, erhalte einen Horror und werden Aufgehalten."
-EventRockMythos2.text,"Dieses Ereignis betrifft den Ermittler mit dem Interaktionsmarker auf seiner Ermittlerkarte.\n\nUm die überwältigende Präsenz des unbekannten Objektes abzuwehren sprichst du jedes Stoßgebet, welches dir einfällt, in der Hoffnung das eines davon Wirkung zeigt ({lore}; 2). Bist du erfolgreich, erhälst du die Kontrolle zurück. Versagst du, verzettelst du dich in alten Texten und verlierst den roten Faden. Erleide einen Horror und werde Benommen."
-EventRockMythos3.text,"Dieses Ereignis betrifft den Ermittler mit dem Interaktionsmarker auf seiner Ermittlerkarte.\n\nDu hast das Gefühl, als ob das Objekt mit dir Kontakt aufnehmen möchte ({influence}; 2). Bist du erfolgreich, entsendest du eine starke Botschaft von Stärke und Entschlossenheit. Versagst du, bist du erfüllt von dissonanten Gedanken und Gefühlen, erleide einen Horror und werde Benommen."
-EventRockMythos4.text,"Dieses Ereignis betrifft den Ermittler mit dem Interaktionsmarker auf seiner Ermittlerkarte.\n\nDu hast das Gefühl, als ob du gegen einen starken Wind angehen musst, auch wenn alles um dich herum still zu sein scheint ({strength}; 2). Versagst du, wirst du von einer unsichtbaren Kraft herumgeschleudert, erleide zwei Schaden."
-EventRockMythos5.text,"Dieses Ereignis betrifft den Ermittler mit dem Interaktionsmarker auf seiner Ermittlerkarte.\n\nDas Objekt verzerrt deine räumliche Wahrnehmung und du hast Schwierigkeiten zu erkennen, wo der Boden ist ({agility}; 2). Bist du erfolgreich, übernimmt dein motorisches Gedächtnis deine Schritte. Versagst du, fällst du schwer zu Boden und erleidest einen Schade und wirst Betäubt."
+EventFailSpell.text,<i>Gedankenverloren siehst du vor dir Symbole, welche du zuordnen möchtest, doch sie halten nicht still. Als du aus deine Trance erwachst sind die Symbole verschwunden.</i>
+EventRockMythos1.text,Dieses Ereignis betrifft den Ermittler mit dem Interaktionsmarker auf seiner Ermittlerkarte.\n\nDu spürst, wie die Macht des seltsamens Objektes dich durchströmt und die Kontrolle an sich reißen will ({will}; 2). Wenn du versagst, weigern sich deine Muskeln deinen Befehlen zu folgen, erhalte einen Horror und werden Aufgehalten.
+EventRockMythos2.text,Dieses Ereignis betrifft den Ermittler mit dem Interaktionsmarker auf seiner Ermittlerkarte.\n\nUm die überwältigende Präsenz des unbekannten Objektes abzuwehren sprichst du jedes Stoßgebet, welches dir einfällt, in der Hoffnung das eines davon Wirkung zeigt ({lore}; 2). Bist du erfolgreich, erhälst du die Kontrolle zurück. Versagst du, verzettelst du dich in alten Texten und verlierst den roten Faden. Erleide einen Horror und werde Benommen.
+EventRockMythos3.text,Dieses Ereignis betrifft den Ermittler mit dem Interaktionsmarker auf seiner Ermittlerkarte.\n\nDu hast das Gefühl, als ob das Objekt mit dir Kontakt aufnehmen möchte ({influence}; 2). Bist du erfolgreich, entsendest du eine starke Botschaft von Stärke und Entschlossenheit. Versagst du, bist du erfüllt von dissonanten Gedanken und Gefühlen, erleide einen Horror und werde Benommen.
+EventRockMythos4.text,Dieses Ereignis betrifft den Ermittler mit dem Interaktionsmarker auf seiner Ermittlerkarte.\n\nDu hast das Gefühl, als ob du gegen einen starken Wind angehen musst, auch wenn alles um dich herum still zu sein scheint ({strength}; 2). Versagst du, wirst du von einer unsichtbaren Kraft herumgeschleudert, erleide zwei Schaden.
+EventRockMythos5.text,Dieses Ereignis betrifft den Ermittler mit dem Interaktionsmarker auf seiner Ermittlerkarte.\n\nDas Objekt verzerrt deine räumliche Wahrnehmung und du hast Schwierigkeiten zu erkennen, wo der Boden ist ({agility}; 2). Bist du erfolgreich, übernimmt dein motorisches Gedächtnis deine Schritte. Versagst du, fällst du schwer zu Boden und erleidest einen Schade und wirst Betäubt.
 EventTakeRock.text,Der Raum um das Objekt ist verzerrt und du hast Schwierigkeiten danach zu greifen ({observation}; 2).
-EventFailRock.text,"Deine Gedanken rasen, als du versuchst herauszufinden, wo sich das Objekt befindet. Verwirrt rutschst du über das Geröll und erleidest einen Schaden und einen Horror."
+EventFailRock.text,Deine Gedanken rasen, als du versuchst herauszufinden, wo sich das Objekt befindet. Verwirrt rutschst du über das Geröll und erleidest einen Schaden und einen Horror.
 SpawnAttackSquareRiot.text,<i>Die Gruppe erwacht zu leben.</i>\n\nDie Ermittler müssen nun Ausweich- und Horrortests gegen das Monster durchführen. Benutze das Monstersymbol zum Angriff.
-TokenRock.text,"<i>Es scheint ein schwarzer Stein zu sein, auch wenn es aus unerklärlichen Gründen nicht ganz klar zu sehen ist.</i>\n\nEin Ermittler auf dem Feld kann versuchen nach dem Stein zu greifen."
+TokenRock.text,<i>Es scheint ein schwarzer Stein zu sein, auch wenn es aus unerklärlichen Gründen nicht ganz klar zu sehen ist.</i>\n\nEin Ermittler auf dem Feld kann versuchen nach dem Stein zu greifen.
 TokenRock.button1,{action} Nehmen
 SpawnAttackShopCultist.text,<i>Der Ladenbesitzter reagiert plötzlich auf deine Anwesenheit.</i>\n\nDie Ermittler müssen nun Ausweich- und Horrortests gegen das Monster durchführen. Benutze das Monstersymbol zum Angriff.
-EventSquareRiot.text,"<i>Als die Nacht anbricht kann man eine fremdartige Musik in den Straßen hören. Die Anwohner, welche noch immer nicht heimgekehrt sind starren verzückt durch die seltsamen Töne vor sich hin.</i>\n\nPlatziere das Monster {ffg:MONSTER_RIOT} auf den angegebenen Feld. Die Ermittler müssen keine Horror- oder Ausweichtests gegen das Monster ausführen."
-EventAddShopExplore.text,"<i>Das Innere des Ladens ist hell erleuchtet.</i>\n\nPlatziere einen Erkundungsmarker, wie gezeigt."
-EventAddSearchSquare.text,"<i>Der Wind hat dafür gesorgt, dass sich ein kleiner Haufen aus Müll in der Ecke gebildet hat.</i>\n\nPlatziere einen Durchsuchungsmarker, wie gezeigt."
+EventSquareRiot.text,<i>Als die Nacht anbricht kann man eine fremdartige Musik in den Straßen hören. Die Anwohner, welche noch immer nicht heimgekehrt sind starren verzückt durch die seltsamen Töne vor sich hin.</i>\n\nPlatziere das Monster {ffg:MONSTER_RIOT} auf den angegebenen Feld. Die Ermittler müssen keine Horror- oder Ausweichtests gegen das Monster ausführen.
+EventAddShopExplore.text,<i>Das Innere des Ladens ist hell erleuchtet.</i>\n\nPlatziere einen Erkundungsmarker, wie gezeigt.
+EventAddSearchSquare.text,<i>Der Wind hat dafür gesorgt, dass sich ein kleiner Haufen aus Müll in der Ecke gebildet hat.</i>\n\nPlatziere einen Durchsuchungsmarker, wie gezeigt.
 EventPlaceInvestigators.text,Platziere die Ermittler auf dem angegebenen Feld.
-EventAddShopCultist.text,"<i>Der Ladenbesitzer ignoriert, dass du hereingekommen bist und starrt in die Luft.</i>\n\nPlatziere das Monster {ffg:MONSTER_CULTIST} auf dem angegebenen Feld. Die Ermittler müssen keine Horror- oder Ausweichtests gegen das Monster ausführen."
-EventAddStreetExplore.text,"<i>Diese Tür ist der Hinterausgang des Ladens.</i>\n\nPlatziere einen Erkundungsmarker, wie gezeigt."
-EventAddStreet.text,"Lege die Spielplanteile {ffg:TILE_STREET_CORNER_1_MAD20} und {ffg:TILE_WAREHOUSE_MAD20} aus, wie gezeigt."
+EventAddShopCultist.text,<i>Der Ladenbesitzer ignoriert, dass du hereingekommen bist und starrt in die Luft.</i>\n\nPlatziere das Monster {ffg:MONSTER_CULTIST} auf dem angegebenen Feld. Die Ermittler müssen keine Horror- oder Ausweichtests gegen das Monster ausführen.
+EventAddStreetExplore.text,<i>Diese Tür ist der Hinterausgang des Ladens.</i>\n\nPlatziere einen Erkundungsmarker, wie gezeigt.
+EventAddStreet.text,Lege die Spielplanteile {ffg:TILE_STREET_CORNER_1_MAD20} und {ffg:TILE_WAREHOUSE_MAD20} aus, wie gezeigt.
 EventAddStreetCultist.text,<i>Dieser Anwohner steht trotz der Kälte wie angewurzelt da.</i>\n\nPlatziere das Monster {ffg:MONSTER_CULTIST} auf dem angegebenen Feld. Die Ermittler müssen keine Horror- oder Ausweichtests gegen das Monster ausführen.
 EventAddWarehouseExplore.text,<i>Diese Tür führt in ein Warenhaus und hat ein Codeschloß an der Eingangstür. Die Musik scheint von der anderen Seite des Gebäudes zu kommen.</i>
 EventAddWarehouseCultist.text,<i>Eine Frau steht bewegungslos in der Ecke des Wahrenhauses.</i>\n\nPlatziere das Monster {ffg:MONSTER_CULTIST} auf dem angegebenen Feld. Die Ermittler müssen keine Horror- oder Ausweichtests gegen das Monster ausführen.
-EventAddBasementExplore.text,"<i>Die Tür führt in einen Keller hinunter.</i>\n\nPlatziere einen Erkundungsmarker, wie gezeigt."
-EventAddBasement.text,"Lege das Spielplanteil {ffg:TILE_BASEMENT_MAD20} aus, wie gezeigt."
+EventAddBasementExplore.text,<i>Die Tür führt in einen Keller hinunter.</i>\n\nPlatziere einen Erkundungsmarker, wie gezeigt.
+EventAddBasement.text,Lege das Spielplanteil {ffg:TILE_BASEMENT_MAD20} aus, wie gezeigt.
 EventAddBasementCultist.text,<i>Die Person steht bewegungslos da.</i>\n\nPlatziere das Monster {ffg:MONSTER_CULTIST} auf dem angegebenen Feld. Die Ermittler müssen keine Horror- oder Ausweichtests gegen das Monster ausführen.
-EventAddCellarExplore.text,"<i>Die seltsame Musik kommt aus dieser Richtung.</i>\n\nPlatziere einen Erkundungsmarker, wie gezeigt."
-EventAddCellar.text,"Lege das Spielplanteil {ffg:TILE_ROOT_CELLAR_MAD20} aus, wie gezeigt."
-EventAddPondExplore.text,"<i>Diese Tür führt zurück zum Erdgeschoss, die Musik ist jetzt ganz nah.</i>\n\nPlatziere einen Erkundungsmarker, wie gezeigt."
-EventAddPond.text,"<i>Der verrottete Riegel der Tür gibt knackend nach und die Tür fliegt auf.</i>\n\nLege das Spielplanteil {ffg:TILE_PARK_POND_MAD20} und {ffg:TILE_YARD_2_MAD20} aus, wie gezeigt."
+EventAddCellarExplore.text,<i>Die seltsame Musik kommt aus dieser Richtung.</i>\n\nPlatziere einen Erkundungsmarker, wie gezeigt.
+EventAddCellar.text,Lege das Spielplanteil {ffg:TILE_ROOT_CELLAR_MAD20} aus, wie gezeigt.
+EventAddPondExplore.text,<i>Diese Tür führt zurück zum Erdgeschoss, die Musik ist jetzt ganz nah.</i>\n\nPlatziere einen Erkundungsmarker, wie gezeigt.
+EventAddPond.text,<i>Der verrottete Riegel der Tür gibt knackend nach und die Tür fliegt auf.</i>\n\nLege das Spielplanteil {ffg:TILE_PARK_POND_MAD20} und {ffg:TILE_YARD_2_MAD20} aus, wie gezeigt.
 EventAddPondRiot.text,<i>Eine Gruppe aus Stadtbewohnern steht wie bebannt neben dem seltsamen Objekt.</i>\n\nPlatziere das Monster {ffg:MONSTER_RIOT} auf dem angegebenen Feld. Die Ermittler müssen keine Horror- oder Ausweichtests gegen das Monster ausführen.
-EventAddPriest.text,"<i>Ein Priester führt ein Art seltsames Ritual durch, obwohl er selbst scheinbar nicht seine Handlungen vollzieht.</i>\n\nPlatziere das Monster {ffg:UNIQUE_MONSTER_PRIEST_OF_DAGON} auf den angegebenen Feld. Die Ermittler müssen keine Horror- oder Ausweichtests gegen das Monster ausführen."
-EventAddRock.text,"<i>Ein großes Objekt schwebt an einem Platz nahe des Teichs. Es scheint ein schwarzer Stein zu sein, auch wenn es aus unerklärlichen Gründen nicht ganz klar zu sehen ist.</i>\n\nPlatziere einen Interaktionsmarker, wie gezeigt."
-EventAwake.text,"<i>Die Stadtbevölkerung kommt in Bewegung, ihre Trance wurde unterbrochen.</i>\n\nPlatziere ID-Marker, wie benötigt. Alle Monster erfordern jetzt Horror- und Ausweichtests."
+EventAddPriest.text,<i>Ein Priester führt ein Art seltsames Ritual durch, obwohl er selbst scheinbar nicht seine Handlungen vollzieht.</i>\n\nPlatziere das Monster {ffg:UNIQUE_MONSTER_PRIEST_OF_DAGON} auf den angegebenen Feld. Die Ermittler müssen keine Horror- oder Ausweichtests gegen das Monster ausführen.
+EventAddRock.text,<i>Ein großes Objekt schwebt an einem Platz nahe des Teichs. Es scheint ein schwarzer Stein zu sein, auch wenn es aus unerklärlichen Gründen nicht ganz klar zu sehen ist.</i>\n\nPlatziere einen Interaktionsmarker, wie gezeigt.
+EventAwake.text,<i>Die Stadtbevölkerung kommt in Bewegung, ihre Trance wurde unterbrochen.</i>\n\nPlatziere ID-Marker, wie benötigt. Alle Monster erfordern jetzt Horror- und Ausweichtests.
 EventAddEscape.text,Platziere einen Interaktionsmarker auf dem angegebenen Feld. Die Ermittler müssen das Objekt dort hinbringen um aus der Stadt zu entkommen.
-EventEndEscape.text,"<i>Als ihr Rowley verlasst, müsst ihr konstant gegen den Einfluss des Objektes und der seltsamen Musik, welche aus eurem Kopf zu kommen scheint ankämpfen. Ihr kommt überein, dass es zu gefährlich ist Jemanden in die Nähe des Objektes zu lassen und fahrt tief in den Wald hinein.\n\nDort findet ihr einen abgelegenen Ort an dem ihr das Objekt vergräbt, in der Hoffnung, dass es – zum Wohle Aller – niemals gefunden werden kann.</i>"
-EventEndEliminated.text,"<i>Die übrigen Ermittler fliehen in Furcht. Was auch immer da vom Himmel gefallen war, ist ganz klar außerhalb ihrer Fähigkeiten und sollte besser nicht angetastet werden.</i>"
+EventEndEscape.text,<i>Als ihr Rowley verlasst, müsst ihr konstant gegen den Einfluss des Objektes und der seltsamen Musik, welche aus eurem Kopf zu kommen scheint ankämpfen. Ihr kommt überein, dass es zu gefährlich ist Jemanden in die Nähe des Objektes zu lassen und fahrt tief in den Wald hinein.\n\nDort findet ihr einen abgelegenen Ort an dem ihr das Objekt vergräbt, in der Hoffnung, dass es – zum Wohle Aller – niemals gefunden werden kann.</i>
+EventEndEliminated.text,<i>Die übrigen Ermittler fliehen in Furcht. Was auch immer da vom Himmel gefallen war, ist ganz klar außerhalb ihrer Fähigkeiten und sollte besser nicht angetastet werden.</i>
 TokenStreetCultist.text,<i>Dieser Anwohner steht trotz der Kälte wie angewurzelt da.</i>
 TokenPondPriest.text,<i>Die Priester scheinen eine Art von Ritual durchzuführen.</i>
 TokenWarehouseCultist.text,<i>Eine Frau steht bewegungslos in der Ecke des Wahrenhauses.</i>
@@ -95,7 +95,7 @@ TokenExploreCellar.text,<i>Die seltsame Musik kommt aus dieser Richtung.</i>
 TokenShopCultist.text,<i>Der Ladenbesitzer starrt in die Luft.</i>
 TokenSquareRiot.text,<i>Die Stadtbewohner ignorieren dich.</i>
 SpawnAttackPriest.text,<i>Der Priester etwacht plötzlich.</i>\n\nErmittler müssen nun Ausweich- und Horrortests gegen dieses Monster durchführen. Benutze das Monstersymbol um anzugreifen.
-SpawnAttackPondRiot.text,"<i>Die Gruppe schreit auf, als sie gestört wird.</i>\n\nErmittler müssen nun Ausweich- und Horrortests gegen dieses Monster durchführen. Benutze das Monstersymbol um anzugreifen."
+SpawnAttackPondRiot.text,<i>Die Gruppe schreit auf, als sie gestört wird.</i>\n\nErmittler müssen nun Ausweich- und Horrortests gegen dieses Monster durchführen. Benutze das Monstersymbol um anzugreifen.
 SpawnAttackBasementCultist.text,<i>Deine Aktion scheint die Trance unterbrochen zu haben.</i>\n\nErmittler müssen nun Ausweich- und Horrortests gegen dieses Monster durchführen. Benutze das Monstersymbol um anzugreifen.
 SpawnAttackWarehouseCultist.text,<i>Die Frau wird von deinem Angriff aufgeschreckt.</i>\n\nErmittler müssen nun Ausweich- und Horrortests gegen dieses Monster durchführen. Benutze das Monstersymbol um anzugreifen.
 SpawnAttackStreetCultist.text,<i>Der Mann schüttelt sich und erwacht zum Leben.</i>\n\nErmittler müssen nun Ausweich- und Horrortests gegen dieses Monster durchführen. Benutze das Monstersymbol um anzugreifen.

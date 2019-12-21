@@ -1,0 +1,86 @@
+.,Italian
+SpawnAttackWarehouseCultist.text,<i>La donna è spaventata dal tuo attacco.\n\nGli investigatori ora devono eludere e fare delle prove di orrore. Possono attaccare tramite l'apposito pannello
+SpawnAttackSquareRiot.text,<i>Il gruppo riprende vita\n\nGli investigatori ora devono eludere e fare delle prove di orrore. Possono attaccare tramite l'apposito pannello.
+SpawnAttackShopCultist.text,<i>I negozianti reagiscono immediatamente alla tua presenza.\n\nGli investigatori ora devono eludere e fare delle prove di orrore. Possono attaccare tramite l'apposito pannello
+SpawnAttackStreetCultist.text,<i>L'uomo si scuote e riprende vita.\n\nGli investigatori ora devono eludere e fare delle prove di orrore. Possono attaccare tramite l'apposito pannello
+SpawnAttackBasementCultist.text,<i>Le tue azioni sembra abbiano rotto lo stato di trance.\n\nGli investigatori ora devono eludere e fare delle prove di orrore. Possono attaccare tramite l'apposito pannello
+SpawnAttackPondRiot.text,<i>Il gruppo urla senza interruzioni.\n\nGli investigatori ora devono eludere e fare delle prove di orrore. Possono attaccare tramite l'apposito pannello
+SpawnAttackPriest.text,Il prete si risveglia.\n\nGli investigatori ora devono eludere e fare delle prove di orrore. Possono attaccare tramite l'apposito pannello
+TokenSquareRiot.text,<i>I paesani ti ignorano
+TokenPondRiot.text,<i>Il gruppo di cittadini è immobile.
+TokenExploreShop.text,<i>Le luci sono accese in questo piccolo negozio.
+TokenExploreBasement.text,<i> Questa porta sembra condurre al seminterrato.
+TokenExploreWarehouse.text,<i>Questa porta conduce ad un magazzino, ma ha un lucchetto codificato.  La musica sembra venire dall'edificio dalla parte opposta.</i>
+TokenExploreCellar.text,<i>Una strana musica proviene da quella direzione
+TokenExplorePond.text,<i>La porta conduce al piano terra, la musica si fa sempre più vicina.
+TokenShopCultist.text,<i>Il negoziante vissa il vuoto.
+TokenStreetCultist.text,<i>L'abitante sta immobile, sembra non senta il freddo.</i>
+TokenPondPriest.text,<i>Il prete sembra stia compiendo qualche tipo di rituale.
+TokenWarehouseCultist.text,<i>Una donna fissa l'angolo del magazzino.
+TokenBasementCultist.text,<i>Una figura sta immobile.
+TokenRock.text,<i>Sembra essere una roccia scura, anche se è difficile da definire bene per qualche strana ragione.\n\n<i>Un investigatore in questa zona può raccogliere la pietra.
+TokenSearchYard.text,<i>Un luce proveniete dal lampione sembra riflettere qualcosa proveniente dal cespuglio.
+TokenSearchSquare.text,<i>Il vento ha trascinato dell'immondizia.
+TokenSearchShop.text,<i>Il negoziante sembra non interessarsi a te, se volessi curiosare...</i>
+TokenSearchStreet.text,<i>Numerosi oggetti giacciono in quest'angolo scuro.
+TokenSearchWarehouse.text,<i>La cassa potrebbe contenere qualcosa di utile.
+TokenSearchBasement.text,<i>Un contenitore sembra essere stato aperto.
+TokenSearchCellar.text,<i>Vari oggetti riempiono lo scaffale.
+TokenExit.text,<i>Se un'investigatore dovesse interagire con questo spazio?
+EventStart.text,<i>Un collezionista di materiali rari ha rintracciato un meteorite caduto nei pressi di Rowley.\n\nVisitando la città ha trovato i cittadini veramente inutili alla causa e leggermente disturbati, di conseguenza vi ha incaricato di trovare e consegnare il meteorite.\n\nLa tua visita ti fa scoprire comportamenti strani ed inquietanti.\n\nArrivi a Rowley il mattino e passi l'intera giornata a fare domande agli abitanti del luogo senza alcun indizio utile.
+EventAddSquare.text,Inserisci le tessere Piazza Cittadina  e Negozio  come mostrato. Ogni investigatore guadagna due indizi.
+EventSquareRiot.text,<i>Una volta calate le tenebre sulla citta, si sente una musica ultraterrena provenire dalle strade.  Gli abitanti che stavano prima in movimento si fermano improvvisamente come fossero entrati in trance </i>\n\nPiazza i Rivoltosi nello spazio indicato. Gli investigatori non devono fare prove di orrore o evasione.
+EventAddShopExplore.text,<i>La luce è accesa nel piccolo negozio.</i>\n\nAggiungi un sagnalino esplorazione come indicato.
+EventAddSearchSquare.text,<i>Il vento ha trascinato dell'immondizia.</i>\n
+EventPlaceInvestigators.text,Piazza gli investigatori come indicato.
+TokenExploreStreet.text,<i>L'uscita sul retro del negozio.
+EventAddShopCultist.text,<i>Il negoziante è immobile a fissare il vuoto.</i>\n\nGenerate un mostro Cultista come indicato. Gli investigatori non hanno bisogno di svolgere prove di orrore o di eluzione.
+EventAddStreetExplore.text,<i>La porta d'uscita sul retro.</i>\n\nPiazza il segnalino esplorazione come indicato.
+EventAddShopSearch.text,<i>Il negoziante sembra non interessarsi a te.</i>\n\nPiazza il segnalino ricerca come indicato.
+EventAddStreet.text,Aggiungete le tessere Via ad Angolo 1  e Magazzino  come indicato.
+EventAddStreetCultist.text,<i>L'abitante è immobile incurante del freddo.</i>\n\nGenera un mostro Cultista nello spazio indicato.  \nGli investigatori non devono svolgere prove di orrore o elusione.
+EventAddWarehouseExplore.text,<i>La porta sembra condurre ad un magazzino, la musica sembra provenire dall'edificio di fronte.</i>\n\nPiazzate un segnalino esplorazione come indicato.
+EventAddSearchStreet.text,<i>Numerosi oggetti giaccino nel buio.
+EventAddWarehouseCultist.text,<i>Una donna fissa l'angolo del magazzino.</i>\n\nGenerate un mostro Cultista come indicato. Gli investigatori non hanno bisogno di svolgere prove di orrore o di eluzione.
+EventAddCellarSearch.text,<i>Vari oggetti riempiono lo scaffale</i>
+EventAddBasementExplore.text,<i>La porta sembra condurre al seminterrato.</i>\n\nPiazzate il segnalino esplorazione come indicato
+EventAddWarehouseSearch.text,<i>La cassa potrebbe contere qualcosa di utile.</i>
+EventAddBasement.text,Aggiungi la tessera Scantinato  come indicato.
+EventAddBasementCultist.text,<i>Una figura sta immobile.</i>\n\nGenerate un mostro Cultista come indicato. Gli investigatori non hanno bisogno di svolgere prove di orrore o di eluzione.
+EventAddCellarExplore.text,La strana musica sembra provenire da qui.\n\nPiazzate un segnalino esplorazione come indicato.
+EventAddBasementSearch.text,<i> Una scatola sembra essere stata aperta.
+EventAddPondExplore.text,La porta conduce all'esterno, il suono è molto vicino adesso.\n\nPiazza un segnalino esplorazione come indicato.
+EventAddCellar.text,Aggiungi la tessera Deposito per Ortaggi  come indicato.
+EventAddPond.text,<i>Una tavola marcia si rompe e rivela l'esterno</i>\n\nInserisci le tessere Laghetto del Parco  e Cortile 2  come indicato.
+EventAddPondRiot.text,<i>Un gruppo di cittadini sembra essere in trance a causa di uno strano oggetto</i>\n\nGenerate i Rivoltosi come indicato. Non c'è bisogno di alcuna prova di orrore o elusione.
+EventAddPriest.text,Un sacerdote sembra compiere un qualche tipo di rituale anche se non è coscente delle proprie azioni.\n\nGenerate il mostro Sacerdote di Dagon come indicato. Gli investigatori non hanno bisogno di svolgere prove di orrore o di elusione.
+EventAwake.text,<i>I cittadini cominciano ad agitarsi, la loro trance è interrotta</i>\n\nPiazzate il segnalino interazione come indicato.  Tutti i mostri adesso richiedono prove di orrore o elusione.
+EventAddEscape.text,Posizionate un segnalino interazione come indicato.  Gli investigatori devono portare l'oggetto qui per scappare.
+EventEndEscape.text,<i>Mentre lasci Rowley continui incessantemente a lottare contro il potere dell'oggetto e la strana musica sembra provenire dalla tua testa. Decidi velocemente che è troppo pericoloso lasciare in mano a qualcuno l'oggetto e continui a guidare incessantemente dentro il bosco.\n\nTrovi un buon posto dove seppellire l'oggetto e speri che rimanga nascosto per il bene di tutti.
+EventEndEliminated.text,<i>I rimanenti investigatori cadono nel terrore. Qualsiasi cosa fosse caduta dal cielo è oltre le loro capacità, meglio lasciarlo li. </i>
+EventTakeRock.text,Lo spazio intorno all'oggetto è distorto e fai fatica a toccarlo ({observation}; 2).
+EventFailRock.text,La tua mente tenta di capire dove possa trovarsi l'oggetto nello spazio.  Nella confusione sbatti la testa sulla strada, subisci 1 danno e 1 orrore.
+EventRockMythos1.text,Quest'evento colpisce l'investigatore con l'oggetto.\n\nSenti il potere dell'oggetto fluire su di te e devi lottare per mantenere il controllo({will}; 2).  Se fallisci senti le tue carni rifiutare il tuo controllo, subisci 1 orrore e diventi Immobilizzato.
+EventRockMythos2.text,Quest'evento colpisce il possessore dell'oggetto.\n\nReciti ogni preghiera che conosci, sperando che almeno una ti aiuti a controllare il devastante potere dell'oggetto ({lore}; 2). Se hai successo, riprendi il controllo delle tue azioni. Se fallisci ti distrai perdendo il controllo sull'oggetto, subisci 1 orrore e diventi stordito.
+EventRockMythos3.text,Quest'evento colpisce il possessore dell'oggetto.\n\nSenti come se l'oggetto volesse comunicarti qualcosa ({influence}; 2).  Se hai successo mandi un chiaro messaggio di forza. Se fallisci sovrastato da pensieri contrastanti e desideri, subisci 1 orrore e diventi stordito.
+EventRockMythos4.text,Quest'evento colpisce il possessore dell'oggetto.\n\nTi senti come se stessi camminando contro un vento fortissimo, anche se è tutto fermo ({strength}; 2).  Se fallisci vieni spinto da una forza sconosciuta, subisci 2 danni.
+EventRockMythos5.text,Quest'evento colpisce il possessore dell'oggetto.\n\nL'oggetto curva la tua percezione dello spazio e lotti per capire dove si trova il pavimento({agility}; 2).  Se hai successo la tua memoria muscolare prende il sopravvento.  Se fallisci cadi pesantemente a terra, subisci 1 danno e diventi frastornato.
+EventGetItem1.text,Acquisisci l'oggetto comune: {c:QItemWeapon}.
+EventGetItem2.text,Acquisisci l'oggetto comune: {c:QItemLight}, e ottieni 1 indizio.
+EventGetItem3.text,Acquisisci l'oggetto comune: {c:QItemEquip}.
+EventGetItem4.text,Acquisisci l'oggetto comune: {c:QItemEquip2}.
+EventGetItem5.text,Acquisisci l'oggetto comune: {c:QItemEquipLight}, ottieni 1 indizio.
+EventGetItem6.text,Acquisisci l'oggetto comune: {c:QItemWeapon2}.
+EventGetItem7.text,<i>Ti imbatti in un vecchio tomo.\n {lore}.
+EventGetSpell.text,Ricevi l'incantesimo: {c:QItemSpell}.
+EventFailSpell.text,<i>La tua mente è persa nei simboli che non stanno fermi nella pagina. Distogli lo sguardo e i simboli sono spariti.
+EventRockBonusFocus.text,<i>Capisci che tutto ha un senso come mai prima d'ora.</i>\n\nIl possessore dell'oggetto diventa concentrato.
+EventRockBonusEvade.text,<i>Una forza sconosciuta proviene dall'oggetto, rivelando il cammino da seguire.</i>\n\nL'investigatore con l'oggetto non ha bisogno di compiere prove di evasione.
+EventRockBonusClue.text,<i>La conoscenza scorre in te, più di quanto tu possa comprendere</i>\n\nIl possessore dell'oggetto ottiene 2 indizi.
+EventRockBonusHeal.text,<i>L'energia dell'oggetto scorre su di te e ti senti rinnovare.</i>\n\nIl possessore dell'oggetto scarta 2 danni.
+EventJammedDoor.text,La porta sembra inceppata.\n\n{strength}.
+EventJammedDoorFail.text,<i>La porta si rifiuta di aprirsi.
+EventMoveIn.text,Puoi muoverti di 1 casella.
+EventAddRock.text,<i>C'è un grande oggetto che galleggia nello spazio vicino allo stagno. Sembra essere una roccia scura, anche se è difficile vedere chiaramente per qualche ragione sconosciuta</i>\n\nPiazza un segnalino interazione come indicato.
+EventAddSearchYard.text,<i>La luce proveniente dal lampione sembra riflettere qualcosa proveniente dal cespuglio.</i>
+EventRock.text,<i>Raccogli l'oggetto che sembra non avere peso.</i>\n\nAdesso sei il possessore dell'oggetto. Puoi spendere un'azione ({action}) per passare l'oggetto ad un investigatore nella tua stessa casella.

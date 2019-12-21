@@ -119,7 +119,6 @@ EventAddStreetExplore.text,<i>Te drzwi prwadzą na zaplecze sklepu</i>\n\nUmieś
 EventAddStreetExplore.button1,{qst:CONTINUE}
 EventAddStreet.text,Umieść {ffg:TILE_STREET_CORNER_1_MAD20} oraz {ffg:TILE_WAREHOUSE_MAD20} tak jak pokazano.
 EventAddStreet.button1,{qst:CONTINUE}
-EventAddStreetWall.text,{qst:PLACE1WALLTOKEN}
 EventAddStreetWall.button1,{qst:CONTINUE}
 EventAddStreetCultist.text,<i>Ten miejscowy stoi nieruchomo, wydaje się całkiem obojętny na zimno panujące na zewnątrz.</i>\n\nUmieść żeton potwora {ffg:MONSTER_CULTIST} w wyznaczonym miejscu. Poszukiwacze nie muszą przechodzić testu przerażenia ani uniku przy tym potworze.
 EventAddStreetCultist.button1,{qst:CONTINUE}
@@ -139,7 +138,6 @@ EventAddBasementCultist.text,<i>Postać stoi bezczynnie.</i>\n\nUmieść żeton 
 EventAddBasementCultist.button1,{qst:CONTINUE}
 EventAddCellarExplore.text,<i>Dziwną muzykę słychac z tego kierunku.</i>\n\nUmieść żeton przeszukania.
 EventAddCellarExplore.button1,{qst:CONTINUE}
-EventAddBasementWall.text,{qst:PLACE1WALLTOKEN}
 EventAddBasementWall.button1,{qst:CONTINUE}
 EventSearchBasement.text,{qst:HIDDEN}
 EventSearchBasement.button1,{qst:CONTINUE}
