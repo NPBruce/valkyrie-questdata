@@ -1,4 +1,6 @@
 .,Italian
+quest.name,Materiale Esotico
+quest.description,Un collezionista di materiali rari ha rintracciato un meteorite caduto nei pressi di Rowley.\n\nVisitando la città ha trovato i cittadini veramente inutili alla causa e leggermente disturbati, di conseguenza vi ha incaricato di trovare e consegnare il meteorite.\n\nLa tua visita ti fa scoprire comportamenti strani ed inquietanti.\n\nATTENZIONE\n Non viene fornito alcuna prova in questo scenario, ed ogni condizione di sanità mentale relativa alle prove possono essere trascurate.
 SpawnAttackWarehouseCultist.text,<i>La donna è spaventata dal tuo attacco.\n\nGli investigatori ora devono eludere e fare delle prove di orrore. Possono attaccare tramite l'apposito pannello
 SpawnAttackSquareRiot.text,<i>Il gruppo riprende vita\n\nGli investigatori ora devono eludere e fare delle prove di orrore. Possono attaccare tramite l'apposito pannello.
 SpawnAttackShopCultist.text,<i>I negozianti reagiscono immediatamente alla tua presenza.\n\nGli investigatori ora devono eludere e fare delle prove di orrore. Possono attaccare tramite l'apposito pannello
