@@ -1,0 +1,216 @@
+.,Korean
+quest.name,이계의 물체
+quest.description,\n한 희귀 금속 수집가 여성이 떨어진 운석을 찾아\n로우리(Rowley) 마을에 갔습니다. 마을 주민들의 비협조적이고\n꺼림칙한 태도는 그녀를 불안하게 만들었고\n결국 그녀는 당신에게 운석을 찾아오는 임무를 맡기기로 했습니다.\n\n※이 시나리오에서는 어떠한 증거도 제공되지 않습니다.\n증거와 관련된 ‘정신이상’은 사용되지 않습니다.\n
+quest.authors,<b>제작자</b>\nBruce\n\n<b>번역</b>\nSpanish: eorahil\nGerman: redwolf2\nFrench: Indoy\nPolish: zcaalock\nItalian: Dioscuri93\nKorean: 치즈가이
+EventStart.text,\n한 희귀 금속 수집가 여성이 떨어진 운석을 찾아\n로우리(Rowley) 마을에 갔습니다. 마을 주민들의 비협조적이고\n꺼림칙한 태도는 그녀를 불안하게 만들었고\n결국 그녀는 당신에게 운석을 찾아오는 임무를 맡기기로 했습니다.\n\n당신은 아침부터 마을에 도착해 마을주민들에게 운석을 수소문 하며\n하루 종일 아무런 소득 없이 보냈습니다.\n
+EventStart.button1,{qst:계속}
+CONTINUE,계속
+EventAddSquare.text,\n화면과 같이 <color=Cyan>마을 광장  </color>과 <color=Cyan>상점  </color>타일을 놓습니다.\n\n각 조사자는 <color=Cyan>단서 2개</color>로 시작합니다.\n
+EventGetItem1.text,\n다음 물품을 습득합니다.: {c:QItemWeapon}.\n\n그 후 <color=Cyan>조사 토큰</color>을 제거합니다.\n
+EventGetItem2.text,\n다음 물품을 습득합니다.: {c:QItemLight}. <color=Cyan>단서 1개를 획득합니다.</color>\n\n그 후 <color=Cyan>조사 토큰</color>을 제거합니다.\n
+EventGetItem3.text,\n다음 물품을 습득합니다.: {c:QItemEquip}.\n\n그 후 <color=Cyan>조사 토큰</color>을 제거합니다.\n
+EventGetItem4.text,\n다음 물품을 습득합니다.: {c:QItemEquip2}.\n\n그 후 <color=Cyan>조사 토큰</color>을 제거합니다.\n
+EventGetItem5.text,\n다음 물품을 습득합니다.: {c:QItemEquipLight}. <color=Cyan>단서 1개를 획득합니다.</color>\n\n그 후 <color=Cyan>조사 토큰</color>을 제거합니다.\n
+EventGetItem6.text,\n다음 물품을 습득합니다.: {c:QItemWeapon2}.\n\n그 후 <color=Cyan>조사 토큰</color>을 제거합니다.\n
+EventGetItem7.text,<i>오래된 책이 있습니다.</i>\n\n당신의 호기심을 자극합니다. <color=Cyan>{lore}.</color>
+EventGetSpell.text,\n주문을 습득 합니다.: {c:QItemSpell}.\n\n그 후 <color=Cyan>조사 토큰</color>을 제거합니다.\n
+ATTACK,공격
+EXPLORE,<color=Cyan>{action}</color> 탐험
+FAIL,실패
+HIDDEN,히든
+PASS,성공
+PLACE1WALLTOKEN,화면과 같이 벽 토큰을 놓습니다.
+SEARCH,<color=Cyan>{action}</color> 조사
+THEEND,끝
+EventSearchShop.text,{qst:HIDDEN}
+EventSearchShop.button1,{qst:CONTINUE}
+EventAddShopSearch.text,\n<i>당신이 가게 주위를 둘러봐도 주인은 신경쓰지 않는 듯 합니다.</i>\n\n화면과 같이 <color=Cyan>조사 토큰</color>을 놓습니다.\n
+EventAddShopSearch.button1,{qst:CONTINUE}
+EventAddSearchStreet.text,\n<i>이 골목의 어두운 구석에는 수많은 물건들이 놓여 있습니다.</i>\n\n화면과 같이 <color=Cyan>조사 토큰</color>을 놓습니다.\n
+EventAddSearchStreet.button1,{qst:CONTINUE}
+EventAddWarehouseSearch.text,<i>\n저 상자에는 유용한 것이 들어 있을 수도 있습니다.</i>\n\n화면과 같이 <color=Cyan>조사 토큰</color>을 놓습니다.\n
+EventAddWarehouseSearch.button1,{qst:CONTINUE}
+EventAddBasementSearch.text,\n<i>바닥에 상자가 열려 있습니다.</i>\n\n화면과 같이 <color=Cyan>조사 토큰</color>을 놓습니다.\n
+EventAddBasementSearch.button1,{qst:CONTINUE}
+EventAddCellarSearch.text,\n<i>이 선반에는 다양한 물건들이 가득 차 있습니다.</i>\n\n화면과 같이 <color=Cyan>조사 토큰</color>을 놓습니다.\n
+EventAddCellarSearch.button1,{qst:CONTINUE}
+EventAddSearchYard.text,\n<i>램프에서 나오는 빛이 덤불에 있는 무언가를 비추고 있습니다.</i>\n\n화면과 같이 <color=Cyan>조사 토큰</color>을 놓습니다.\n
+EventAddSearchYard.button1,{qst:CONTINUE}
+EventMoveIn.button1,{qst:CONTINUE}
+EventMoveIn.text,당신이 원한다면 즉시 방금 탐험한 구역으로 1칸 이동해도 됩니다.
+PuzzleLock.button1,열기
+TokenExploreWarehouse.text,\n<i>문 뒤로 기묘한 음악이 흘러나오고 있습니다.</i>\n\n이 문은 창고로 연결되어 있습니다.\n\n문에는 자물쇠가 걸려 있습니다.\n\n<color=Cyan>{agility}</color>을 사용하여 퍼즐에 도전하려면 탭하세요.\n
+을 사용하여 퍼즐에 도전하려면 탭하세요.\n
+TokenExploreWarehouse.button1,<color=Cyan>{action}</color> 열기
+EventJammedDoor.text,<i>문이 걸린 것 같습니다.</i>\n\n힘껏 밀어봅니다.<color=Cyan>{strength}</color>
+EventJammedDoor.button1,{qst:CONTINUE}
+EventJammedDoor.button2,{qst:HIDDEN}
+EventJammedDoorFail.text,<i>문은 꿈쩍도 하지 않습니다..</i>
+EventJammedDoorFail.button1,{qst:CONTINUE}
+TokenExplorePond.text,\n이 문은 다시 지상으로 이어집니다.\n\n<i>기묘한 음악 소리가 점차 가까워지고 있습니다.</i>\n
+TokenExplorePond.button1,{qst:EXPLORE}
+EventRockBonus.button1,{qst:HIDDEN}
+TokenSearchYard.text,<i>램프에서 나오는 빛이 덤불에 있는 무언가를 비추고 있습니다.</i>
+TokenSearchSquare.text,<i>쓰레기 더미가 구석으로 날아들었습니다.</i>
+TokenSearchShop.text,<i>당신이 가게 주위를 둘러봐도 주인은 신경 쓰지 않는 듯 합니다.</i>
+TokenSearchWarehouse.text,<i>이 상자에는 유용한 것이 들어 있을 수도 있습니다.</i>
+TokenSearchBasement.text,<i>바닥에 상자가 열려 있습니다.</i>
+TokenSearchCellar.text,<i>이 선반에는 다양한 물건들이 가득 차 있습니다.</i>
+EventRock.text,\n<i>당신은 형체가 없는 것처럼 보이는 공간속 암석을 잡아냅니다.\n이 것은 무게가 존재하지 않는 듯 합니다.</i>\n\n<color=Cyan>조사자 말</color>과 함께 <color=Cyan>상호작용 토큰</color>을 둡니다.\n이 토큰을 가진 조사자는 자신의 공간에 있는 다른 조사자에게 토큰을 주는 행동(<color=Cyan>{action}</color>)을 할 수 있습니다.\n
+EventRockPool.button1,{qst:HIDDEN}
+EventGetItem.button1,{qst:HIDDEN}
+EventRockBonusFocus.button1,{qst:CONTINUE}
+EventRockBonusFocus.text,<i>당신은 전에는 경험하지 못한 목적의 명확성을 얻습니다.</i>\n\n<color=Cyan>상호작용 토큰</color>이 있는 타일에 있는 조사자는 <color=Cyan>집중상태</color>가 됩니다.\n
+EventRockBonusEvade.button1,{qst:CONTINUE}
+EventRockBonusEvade.text,<i>물체에서 보이지 않는 힘이 뿜어져 나와 당신의 앞길을 비웁니다.</i>\n\n<color=Cyan>상호작용 토큰</color>이 있는 타일에 있는 조사자는 이번 라운드에서 <color=Cyan>회피 체크</color>를 수행할 필요가 없습니다.\n
+EventRockBonusClue.button1,{qst:CONTINUE}
+EventRockBonusClue.text,<i>당신이 이해할 수 없는 지식들이 당신의 머리 속을 채웁니다. </i>\n\n<color=Cyan>상호작용 토큰</color>이 있는 타일에 있는 조사자는 <color=Cyan>단서2개</color>를 획득합니다.\n
+EventRockBonusHeal.button1,{qst:CONTINUE}
+EventRockBonusHeal.text,<i>물체에서 나오는 에너지가 당신을 씻어내며 당신은 새로워지는 것을 느낍니다.</i>\n\n<color=Cyan>상호작용 토큰</color>이 있는 타일에 있는 조사자는 <color=Red>상처</color> 2개를 버립니다.\n
+EventGetItem1.button1,{qst:CONTINUE}
+EventGetItem2.button1,{qst:CONTINUE}
+EventGetItem3.button1,{qst:CONTINUE}
+EventGetItem4.button1,{qst:CONTINUE}
+EventGetItem5.button1,{qst:CONTINUE}
+EventGetItem6.button1,{qst:CONTINUE}
+EventGetItem7.button1,{qst:PASS}
+EventGetItem7.button2,{qst:FAIL}
+EventGetSpell.button1,{qst:CONTINUE}
+EventFailSpell.text,<i>당신의 마음은 페이지 속 가만히 있지 않는 기호에 빠져 있습니다. 눈을 감고 뒤를 돌아보면 그 상징들이 사라집니다.</i>\n
+EventFailSpell.button1,{qst:CONTINUE}
+EventRockMythos1.text,이 사건은 <color=Cyan>상호작용 토큰</color>이 있는 타일의 조사자에게 영향을 끼칩니다.\n\n당신은 그 물체의 이상한 힘이 당신 위로 떠내려가려는 것을 느끼고 통제하기 위해 싸웁니다.({will}; 2). 만일 실패하게 된다면 근육에 이상이 생기며 당신의 말을 듣지 않게 됩니다, <color=Teal>공포</color>1장을 받으며 <color=Cyan>구속 상태</color>에 걸립니다.
+EventRockMythos1.button1,{qst:CONTINUE}
+EventRockMythos2.text,이 사건은 <color=Cyan>상호작용 토큰</color>이 있는 타일의 조사자에게 영향을 끼칩니다.\n\n당신이 아는 모든 기도문을 샅샅이 뒤져 그중 하나가 당신의 압도적인 미지의 것과 싸우는 것에 도움이 되길 바랍니다. ({lore}; 2). 성공하게 된다면 당신은 자신의 행동을 통제해냅니다.  만약 당신이 실패하게 된다면 오래된 글들을 생각하면서 산만해지고 당면한 과제에 집중하지 못하며 <color=Teal>공포</color> 1장을 받게 되며 <color=Cyan>공황상태</color>에 걸립니다.
+EventRockMythos2.button1,{qst:CONTINUE}
+EventRockMythos3.text,이 사건은 <color=Cyan>상호작용 토큰</color>이 있는 타일의 조사자에게 영향을 끼칩니다.\n\n그 물체가 당신과 의사소통을 시도하려는 것처럼 느껴집니다. ({influence}; 2). 성공하게 되면 당신의 힘과 결의에 대한 명확한 메시지를 보냅니다.  만약 실패하게 된다면 당신은 상반된 생각과 욕망으로 가득 차 <color=Teal>공포</color> 1장과 <color=Cyan>공황상태</color>에 걸립니다.
+EventRockMythos3.button1,{qst:CONTINUE}
+EventRockMythos4.text,이 사건은 <color=Cyan>상호작용 토큰</color>이 있는 타일의 조사자에게 영향을 끼칩니다.\n\n모든 것이 정적으로 보이지만 당신은 강한 바람을 거슬러 걸어 가는 느낌이 듭니다.({strength}; 2). 당신이 실패하게 된다면 이 고요한 힘이 주위를 휩쓸고 <color=Red>상처</color> 2장을 받게 됩니다.
+EventRockMythos4.button1,{qst:CONTINUE}
+EventRockMythos5.text,이 사건은 <color=Cyan>상호작용 토큰</color>이 있는 타일의 조사자에게 영향을 끼칩니다.\n\n그 물체는 당신의 공간에 대한 인식을 뒤틀어 버립니다. 당신은 바닥을 찾기위해 고군분투 합니다.({agility};2). 성공하게 되면 바닥을 기억해냅니다. 만약 당신이 실패하게 되면 땅바닥에 고꾸라져 <color=Red>상처</color> 1장을 받고 <color=Cyan>기절상태</color>에 걸리게 됩니다.
+EventRockMythos5.button1,{qst:CONTINUE}
+EventTakeRock.text,물체 주변의 공간이 왜곡되어 물체를 만지기 어렵습니다. (<color=Cyan>{observation}; 2</color>).
+EventTakeRock.button1,{qst:성공}
+EventTakeRock.button2,{qst:실패}
+EventFailRock.text,\n당신은 물체가 떠 있는 공간을 인지하려 시도하지만\n혼란 속에 미끄러져 넘어지고 말았습니다.\n\n<color=Red>상처</color>1장과 <color=Teal>공포</color>1장을 받습니다.\n
+EventFailRock.button1,{qst:CONTINUE}
+SpawnAttackSquareRiot.text,\n<i>당신의 행동에 군중이 활기를 띠기 시작합니다.</i>\n\n조사자들은 이제 이 괴물에 대해 <color=Cyan>공포 체크</color>와 <color=Cyan>회피 체크</color>를 수행해야 합니다.\n<color=Cyan>상호작용 토큰</color>을 제거하고 괴물 패널을 사용해 공격 하십시오.\n
+TokenRock.text,\n<i>알 수 없는 이유로 어두운 암석을 명확하게 보기 어렵지만 이것은 당신이 찾던 운석으로 보입니다.</i>\n\n이 타일의 조사자는 암석을 가져갈 수 있습니다.\n
+TokenRock.button1,<color=Cyan>{action}</color> 가져갑니다.
+SpawnAttackSquareRiot.button1,{qst:CONTINUE}
+SpawnAttackShopCultist.text,<i>\n가게 주인이 당신의 존재에 반응합니다.</i>\n\n조사자들은 이제 이 괴물에 대해 <color=Cyan>공포 체크</color>와 <color=Cyan>회피 체크</color>를 수행해야 합니다.\n<color=Cyan>상호작용 토큰</color>을 제거하고 괴물 패널을 사용해 공격 하십시오.\n
+SpawnAttackShopCultist.button1,{qst:CONTINUE}
+SpawnAttackStreetCultist.button1,{qst:CONTINUE}
+SpawnAttackWarehouseCultist.button1,{qst:CONTINUE}
+SpawnAttackBasementCultist.button1,{qst:CONTINUE}
+SpawnAttackPondRiot.button1,{qst:CONTINUE}
+SpawnAttackPriest.button1,{qst:CONTINUE}
+EventAddSquare.button1,{qst:CONTINUE}
+EventSquareRiot.text,<i>\n밤이 되자 어디선가 다른 세상의 음악이 들려옵니다.\n거리를 떠돌아다니는 로우리마을의 주민들은 이 기묘한 음악에 매료되어 무아지경에 빠져있습니다.</i>\n\n화면과 같이 <color=Cyan>{ffg:MONSTER_RIOT}</color>를 소환하고 <color=Cyan>상호작용 토큰</color>을 둡니다.\n조사자는 이 몬스터에 대해 <color=Cyan>공포 체크</color> 및 <color=Cyan>회피 체크</color>를 수행할 필요가 없습니다.\n
+EventSquareRiot.button1,{qst:CONTINUE}
+EventAddShopExplore.text,<i>작은 가게에 불이 켜져 있습니다.</i>\n\n화면과 같이 <color=Cyan>탐험 토큰</color>을 둡니다.
+EventAddShopExplore.button1,{qst:CONTINUE}
+EventAddSearchSquare.text,<i>바람이 불어 구석에 작은 쓰레기 더미를 날립니다.</i>\n\n화면과 같이 <color=Cyan>조사 토큰</color>을 둡니다.
+EventAddSearchSquare.button1,{qst:CONTINUE}
+EventPlaceInvestigators.text,화면과 같이 당신의 <color=Cyan>조사자 말</color>을 놓습니다.
+EventPlaceInvestigators.button1,{qst:CONTINUE}
+EventSearchSquare.text,{qst:HIDDEN}
+EventSearchSquare.button1,{qst:CONTINUE}
+EventAddShopCultist.text,\n<i>가게 주인은 당신이 들어오는 것도 신경 쓰지 않으며 홀린 듯 허공을 응시하고 있습니다.</i>\n\n화면과 같이 <color=Cyan>광신도</color>를 소환하고 <color=Cyan>상호작용 토큰</color>을 둡니다.\n그 후 <color=Cyan>탐험 토큰</color>을 제거합니다.\n\n조사자는 이 몬스터에 대해 <color=Cyan>공포 체크</color> 및 <color=Cyan>회피 체크</color>를 수행할 필요가 없습니다.\n
+EventAddShopCultist.button1,{qst:CONTINUE}
+EventAddStreetExplore.text,<i>이 문은 가게 뒤쪽 골목으로 이어집니다.</i>\n\n화면과 같이 <color=Cyan>탐험 토큰</color>을 둡니다.
+EventAddStreetExplore.button1,{qst:CONTINUE}
+EventAddStreet.text,\n화면과 같이 <color=Cyan>거리 모퉁이 1 타일</color>과  <color=Cyan>창고 타일</color> 놓고 <color=Cyan>탐험 토큰</color>을 제거합니다.\n
+EventAddStreet.button1,{qst:CONTINUE}
+EventAddStreetWall.button1,{qst:CONTINUE}
+EventAddStreetCultist.text,\n<i>이 지역 사람은 추위도 모르는 것 같습니다.</i>\n\n화면과 같이 <color=Cyan>광신도</color>를 소환하고 <color=Cyan>상호작용 토큰</color>을 둡니다.\n\n조사자는 이 몬스터에 대해 <color=Cyan>공포 체크</color> 및 <color=Cyan>회피 체크</color>를 수행할 필요가 없습니다.\n
+EventAddStreetCultist.button1,{qst:CONTINUE}
+EventAddWarehouseExplore.text,\n<i>건물의 반대편에서 그 기묘한 음악이 흘러 나오고 있습니다.\n</i>\n이 문은 창고로 연결되어 있습니다.\n\n화면과 같이 <color=Cyan>탐험 토큰</color>을 둡니다.\n
+EventAddWarehouseExplore.button1,{qst:CONTINUE}
+EventSearchStreet.text,{qst:HIDDEN}
+EventSearchStreet.button1,{qst:CONTINUE}
+EventAddWarehouseCultist.text,\n<i>한 여자가 창고 구석에 멍하니 서있습니다.</i>\n\n화면과 같이 <color=Cyan>광신도</color>를 소환하고 <color=Cyan>상호작용 토큰</color>을 둡니다.\n그 후 <color=Cyan>탐험 토큰</color>을 제거합니다.\n\n조사자는 이 몬스터에 대해 <color=Cyan>공포 체크</color> 및 <color=Cyan>회피 체크</color>를 수행할 필요가 없습니다.\n
+EventAddWarehouseCultist.button1,{qst:CONTINUE}
+EventAddBasementExplore.text,\n<i>이 문은 지하실로 연결되는 것 같습니다.</i>\n\n화면과 같이 <color=Cyan>탐험 토큰</color>을 둡니다.\n
+EventAddBasementExplore.button1,{qst:CONTINUE}
+EventSearchWarehouse.text,{qst:HIDDEN}
+EventSearchWarehouse.button1,{qst:CONTINUE}
+EventAddBasement.text,\n화면과 같이 <color=Cyan>{ffg:TILE_BASEMENT_MAD20}타일</color>을 두고 <color=Cyan>탐험 토큰</color>을 제거합니다.\n
+EventAddBasement.button1,{qst:CONTINUE}
+EventAddBasementCultist.text,\n<i>한 사람이 멍하니 서있습니다.</i>\n\n화면과 같이 <color=Cyan>광신도</color>를 소환하고 <color=Cyan>상호작용 토큰</color>을 둡니다.\n조사자는 이 몬스터에 대해 <color=Cyan>공포 체크</color> 및 <color=Cyan>회피 체크</color>를 수행할 필요가 없습니다.\n
+EventAddBasementCultist.button1,{qst:CONTINUE}
+EventAddCellarExplore.text,\n<i>기묘한 음악이 이쪽에서 흘러나오고 있습니다.</i>\n\n화면과 같이 <color=Cyan>탐험 토큰</color>을 둡니다.\n
+EventAddCellarExplore.button1,{qst:CONTINUE}
+EventAddBasementWall.button1,{qst:CONTINUE}
+EventSearchBasement.text,{qst:HIDDEN}
+EventSearchBasement.button1,{qst:CONTINUE}
+EventAddCellar.text,화면과 같이 <color=Cyan>{ffg:TILE_ROOT_CELLAR_MAD20}타일</color>을 두고 <color=Cyan>탐험 토큰</color>을 제거합니다.\n
+EventAddCellar.button1,{qst:CONTINUE}
+EventAddPondExplore.text,\n이 문은 다시 지상으로 이어지는 듯 합니다.\n\n<i>기묘한 음악 소리가 점차 가까워집니다.</i>\n\n화면과 같이 <color=Cyan>탐험 토큰</color>을 둡니다.\n
+EventAddPondExplore.button1,{qst:CONTINUE}
+EventSearchCellar.text,{qst:HIDDEN}
+EventSearchCellar.button1,{qst:CONTINUE}
+EventAddPond.text,\n<i>문을 막아 놓은 썩은 널빤지들이 시끄러운 소리를 내며 부서지며 문이 열립니다.</i>\n\n화면과 같이 <color=Cyan>연못 정원 타일</color>과 <color=Cyan>마당 2 타일</color>을 두고 <color=Cyan>탐험 토큰</color>을 제거합니다.\n
+EventAddPond.button1,{qst:CONTINUE}
+EventAddPondRiot.text,\n<i>마을주민들이 이 이상한 물체에 홀린 듯 꼼짝도 안하고 서 있습니다.</i>\n\n화면과 같이 <color=Cyan>폭도</color>을 소환하고 <color=Cyan>상호작용 토큰</color>을 둡니다.\n\n조사자는 이 몬스터에 대해 <color=Cyan>공포 체크</color> 및 <color=Cyan>회피 체크</color>를 수행할 필요가 없습니다.\n
+EventAddPondRiot.button1,{qst:CONTINUE}
+EventAddPriest.text,\n<i>사제 한명이 어떤 형태의 의식을 진행하고 있습니다.</i>\n\n화면과 같이 <color=Cyan>데이곤 밀교 사제</color>를 소환하고 <color=Cyan>상호작용 토큰</color>을 둡니다.\n\n조사자는 이 몬스터에 대해 <color=Cyan>공포 체크</color> 및 <color=Cyan>회피 체크</color>를 수행할 필요가 없습니다.\n
+EventAddPriest.button1,{qst:CONTINUE}
+EventAddRock.text,\n<i>연못 근처에는 커다란 물체가 떠 있습니다.\n\n암석처럼 보이지만 알 수 없는 이유로 명확하게 보기가 어렵습니다.</i>\n\n화면과 같이 <color=Cyan>상호작용 토큰</color>을 둡니다.\n
+EventAddRock.button1,{qst:CONTINUE}
+EventSearchYard.text,{qst:HIDDEN}
+EventSearchYard.button1,{qst:CONTINUE}
+EventRock.button1,{qst:CONTINUE}
+EventAwakeSquareRiot.button1,{qst:HIDDEN}
+EventAwakeShopCultist.button1,{qst:HIDDEN}
+EventAwake.text,\n<i>마을 사람들이 동시에 술렁이더니 그들의 무아지경이 멈춰섭니다.</i>\n\n화면 속 모든 몬스터의 <color=Cyan>상호작용 토큰</color>을 제거하고 합니다.\n모든 몬스터는 이제 <color=Cyan>공포 체크</color>와 <color=Cyan>회피 체크</color>를 진행해야 합니다.\n
+EventAwake.button1,{qst:CONTINUE}
+EventAwakeStreetCultist.button1,{qst:HIDDEN}
+EventAwakeWarehouseCultist.button1,{qst:HIDDEN}
+EventAwakeBasementCultist.button1,{qst:HIDDEN}
+EventAwakePondRiot.button1,{qst:HIDDEN}
+EventAwakePriest.button1,{qst:HIDDEN}
+EventAddEscape.text,\n화면과 같이 <color=Cyan>상호작용 토큰</color>을 둡니다.\n\n조사자들은 이 마을을 탈출하기 위해 '그것'을 이 곳 까지 가져와야 합니다.\n
+EventAddEscape.button1,{qst:CONTINUE}
+EventEndEscape.text,\n당신이 무사히 운석을 가지고 로우리(Rowley)마을을 떠나는 동안에도 '그것'을 통해 끊임없이 당신의 머리속에 기묘한 음악이 흘러들어 옵니다.\n당신은 계속해서 이 <i>'이계의 물체'</i>의 힘에 저항합니다.\n\n당신은 이것을 누군가가 소유하기에는 너무나도 위험하다 생각하고 모두를 위해 아무도 찾을 수 없는 곳에 숨겨 놓으려 합니다.\n\n조사에 성공했습니다.\n
+EventEndEscape.button1,{qst:THEEND}
+EventEndEliminated.text,\n<i>조사자들이 공포에 질려 달아납니다.\n하늘에서 떨어진 그것은 분명히 조자사들의 능력을 넘어섰으며 그 누구도 손대지 않는 것이 가장 좋을 것입니다.</i>\n\n조사에 실패했습니다.\n
+EventEndEliminated.button1,{qst:THEEND}
+TokenStreetCultist.text,<i>이 지역사람은 추위도 모르는 것 같습니다.</i>\n거리 한복판에 남성이 미동도 없이 서 있습니다.
+TokenStreetCultist.button1,{qst:ATTACK}
+TokenPondPriest.text,<i>이 사제는 일종의 의식을 행하고 있는 것 같습니다.</i>
+TokenPondPriest.button1,{qst:ATTACK}
+TokenWarehouseCultist.text,<i>한 여자가 창고 구석에 멍하니 서 있습니다.</i>
+TokenWarehouseCultist.button1,{qst:ATTACK}
+TokenBasementCultist.text,<i>한 사람이 멍하니 서 있습니다.</i>
+TokenBasementCultist.button1,{qst:ATTACK}
+TokenSearchYard.button1,{qst:SEARCH}
+TokenSearchSquare.button1,{qst:SEARCH}
+TokenSearchShop.button1,{qst:SEARCH}
+TokenSearchStreet.text,<i>이 골목의 어두운 구석에는 수많은 물건들이 쌓여 있습니다.</i>
+TokenSearchStreet.button1,{qst:SEARCH}
+TokenSearchWarehouse.button1,{qst:SEARCH}
+TokenSearchBasement.button1,{qst:SEARCH}
+TokenSearchCellar.button1,{qst:SEARCH}
+TokenExit.text,운석 (<color=Cyan>상호작용 토큰</color>)을 가진 조사자가 있습니까?
+TokenExit.button1,예. 조사를 마칩니다.
+TokenPondRiot.text,<i>마을 사람들이 뭔가에 홀려 넋이 나가 서 있습니다.</i>
+TokenPondRiot.button1,{qst:ATTACK}
+TokenExploreShop.text,<i>작은 가게에 불이 켜져 있습니다.</i>
+TokenExploreShop.button1,{qst:EXPLORE}
+TokenExploreStreet.text,<i>이 문은 가게 뒤쪽 골목으로 이어집니다.</i>
+TokenExploreStreet.button1,{qst:EXPLORE}
+TokenExploreBasement.text,<i>이 문은 지하실로 통합니다.</i>
+TokenExploreBasement.button1,{qst:EXPLORE}
+TokenExploreCellar.text,<i>기묘한 음악이 이쪽에서 흘러나오고 있습니다.</i>
+TokenExploreCellar.button1,{qst:EXPLORE}
+TokenShopCultist.text,<i>가게 주인은 홀린 듯 허공을 응시하고 있습니다.</i>
+TokenShopCultist.button1,{qst:ATTACK}
+TokenSquareRiot.text,<i>마을 사람들은 무아지경에 빠져있습니다.</i>
+TokenSquareRiot.button1,{qst:ATTACK}
+SpawnAttackPriest.text,\n<i>사제가 벌떡 일어납니다.</i>\n\n조사자들은 이제 이 괴물에 대해 <color=Cyan>공포 체크</color>와 <color=Cyan>회피 체크</color>를 수행해야 합니다. \n<color=Cyan>상호작용 토큰</color>을 제거하고 괴물 패널을 사용해 공격 하십시오.\n
+SpawnAttackPondRiot.text,\n<i>군중이 당신의 방해를 받자 비명을 지르기 시작합니다.</i>\n\n조사자들은 이제 이 괴물에 대해 <color=Cyan>공포 체크</color>와 <color=Cyan>회피 체크</color>를 수행해야 합니다.\n<color=Cyan>상호작용 토큰</color>을 제거하고 괴물 패널을 사용해 공격 하십시오.\n
+SpawnAttackBasementCultist.text,\n<i>당신의 행동이 남자의 정적을 깨뜨린 것 같습니다.</i>\n\n조사자들은 이제 이 괴물에 대해 <color=Cyan>공포 체크</color>와 <color=Cyan>회피 체크</color>를 수행해야 합니다.\n<color=Cyan>상호작용 토큰</color>을 제거하고 괴물 패널을 사용해 공격 하십시오.\n
+SpawnAttackWarehouseCultist.text,\n<i>여자가 당신의 공격에 깜짝 놀랐습니다.</i>\n\n조사자들은 이제 이 괴물에 대해 <color=Cyan>공포 체크</color>와 <color=Cyan>회피 체크</color>를 수행해야 합니다.\n<color=Cyan>상호작용 토큰</color>을 제거하고 괴물 패널을 사용해 공격 하십시오.\n
+SpawnAttackStreetCultist.text,\n<i>남자가 갑자기 몸을 떨며 튀어 나옵니다.</i>\n\n조사자들은 이제 이 괴물에 대해 <color=Cyan>공포 체크</color>와 <color=Cyan>회피 체크</color>를 수행해야 합니다.\n<color=Cyan>상호작용 토큰</color>을 제거하고 괴물 패널을 사용해 공격 하십시오.\n
+EventAddStreetWall.text,화면과 같이 <color=Cyan>벽</color>을 놓습니다.
+EventAddBasementWall.text,화면과 같이 <color=Cyan>벽</color>을 놓습니다.
