@@ -1,0 +1,213 @@
+.,Portuguese
+quest.name,Materiais exóticos
+quest.description,"Um colecionador de metais raros rastreou um meteorito que caiu perto da cidade de Rowley.\n\nAo visitar a cidade, ela considerou os habitantes locais muito inúteis e ligeiramente perturbadores e encarregou você de encontrar e recuperar o meteorito.\n\nSua visita revela um comportamento estranho e perturbador e você deve lutar para escapar com vida.\n\nObserve que nenhuma evidência é fornecida neste cenário, pois tais condições de insanidade que dependem de evidências não devem ser usadas. ""                                                                             PS:Esse é um cenário com muitos combates, escolha bem os investigadores"
+quest.authors,<b>Autor</b>\nBruce\n\n<b>Traduções</b>\nSpanish:eorahil\nGerman:redwol2\nFrench:Indoy\nPolish zcaalock\nItalian: Dioscuri93\nPortuguese: Paulo (Bola).
+EventStart.text,Um colecionador de metais raros rastreou um meteorito que caiu perto da cidade de Rowley.\n\nAo visitar a cidade, ela considerou os habitantes locais muito inúteis e ligeiramente perturbadores e encarregou você de encontrar e recuperar o meteorito.\n\nVocê chegua a cidade de Rowley pela manhã e passa o dia inteiro questionando os habitantes locais, sem nenhum progresso.
+EventStart.button1,{qst: Continuar}
+CONTINUE,Continuar
+EventAddSquare.text,Adicionar {ffg:TILE_TOWN_SQUARE_MAD20} e {ffg:TILE_STOREFRONT_MAD20} mapas como mostrado. Os investigadores recebem 2 marcadores de pistas cada.
+EventGetItem1.text,Receba o item comum: {c:QItemWeapon}.
+EventGetItem2.text,Receba o item comum: {c:QItemLight}, ganhe 1 marcador de pista.
+EventGetItem3.text,Receba o item comum: {c:QItemEquip}.
+EventGetItem4.text,Receba o item comum: {c:QItemEquip2}.
+EventGetItem5.text,Receba o item comum: {c:QItemEquipLight}, ganha 1 marcador de pista.
+EventGetItem6.text,Receba o item comum: {c:QItemWeapon2}.
+EventGetItem7.text,<I>Você se depara com um antigo tomo.</I>\n\nTeste {lore}.
+EventGetSpell.text,Receba o Feitiço:{c:QItemSpell}.
+ATTACK,Atacar
+EXPLORE,{action} Explorar
+FAIL,Falhou
+HIDDEN,Escondido
+PASS,Passou
+PLACE1WALLTOKEN,Coloque um marcador de parede como mostrado.
+SEARCH,{action} Procurar
+THEEND,O fim
+EventSearchShop.text,{qst:escondido}
+EventSearchShop.button1,{qst:Continuar}
+EventAddShopSearch.text,<i>O lojista não se importaria se você olhar em volta ...</i>\n\nColoque um marcador de procura como mostrado.
+EventAddShopSearch.button1,{qst:Continuar}
+EventAddSearchStreet.text,<i>Numerosos objetos encontram-se nos cantos escuros deste beco.</i>\n\nColoque um marcador de procura como mostrado.
+EventAddSearchStreet.button1,{qst:Continuar}
+EventAddWarehouseSearch.text,<i>Esta caixa pode conter algo útil.</i>\n\nColoque um marcador de procura como mostrado.
+EventAddWarehouseSearch.button1,{qst:Continuar}
+EventAddBasementSearch.text,<i>A caixa no chão foi aberta.</i>\n\nColoque um marcador de procura como mostrado.
+EventAddBasementSearch.button1,{qst:Continuar}
+EventAddCellarSearch.text,<i>Vários itens preenchem esta prateleira.</i>\n\nColoque um marcador de procura como mostrado.
+EventAddCellarSearch.button1,{qst:Continuar}
+EventAddSearchYard.text,<i>A luz de uma lâmpada próxima reflete algo neste arbusto.</i>\n\nColoque um marcador de procura como mostrado.
+EventAddSearchYard.button1,{qst:Continuar}
+EventMoveIn.button1,{qst:Continuar}
+EventMoveIn.text,Você pode mover um espaço para a área explorada.
+PuzzleLock.button1,Abrir
+TokenExploreWarehouse.text,<i>Esta porta conduz a um armazém e tem um cadeado de codificação na porta. A música parece estar vindo do outro lado deste edif�cio.</i>
+TokenExploreWarehouse.button1,{action} Destrancar
+EventJammedDoor.text,<i>A porta parece estar emperrada.</i>\n\nTeste {strength}.
+EventJammedDoor.button1,{qst:Continuar}
+EventJammedDoor.button2,{qst:escondido}
+EventJammedDoorFail.text,<i>A porta se recusa a ceder.</i>
+EventJammedDoorFail.button1,{qst:Continuar}
+TokenExplorePond.text,<i>Esta porta leva de volta até ao n�vel do solo, o som está muito perto agora.</i>
+TokenExplorePond.button1,{action} Explorar
+EventRockBonus.button1,{qst:escondido}
+TokenSearchYard.text,<i>A luz de uma lâmpada próxima reflete algo neste arbusto.</i>
+TokenSearchSquare.text,<i>O vento soprou uma pequena pilha de lixo para este canto.</i>
+TokenSearchShop.text,<i>O lojista não se importá se você olhar em volta...</i>
+TokenSearchWarehouse.text,<i>Esta caixa pode conter algo útil.</i>
+TokenSearchBasement.text,<i>A caixa no chão foi aberta.</i>
+TokenSearchCellar.text,<i>Vários itens preenchem esta prateleira.</i>
+EventRock.text,<i>Você pega o objeto que parece não ter peso.</i>\n\nColoque o marcador de interação na ficha de investigador que pego a pedra. O investigador pode gastar uma Ação ({action}) para dar a ficha a outro investigador em seu espaço.
+EventRockPool.button1,{qst:escondido}
+EventGetItem.button1,{qst:escondido}
+EventRockBonusFocus.button1,{qst:Continuar}
+EventRockBonusFocus.text,<i>Você ganha uma clareza nunca antes experimentada.</i>\n\nO investigador com o marcador de interação em sua ficha torna-se Compenetrado.
+EventRockBonusEvade.button1,{qst:Continuar}
+EventRockBonusEvade.text,<i>Uma força invis�vel sai do objeto, limpando o caminho à frente.</i>\n\nO investigador com o marcador de Interação em sua ficha não precisa realizar testes de Evasão nesta rodada.
+EventRockBonusClue.button1,{qst:continuar}
+EventRockBonusClue.text,<i>Conhecimento enche sua cabeça, muito além de sua compreensão.</i>\n\nO investigador com o marcador de Interação em sua ficha ganha 2 marcadores de pista.
+EventRockBonusHeal.button1,{qst:Continuar}
+EventRockBonusHeal.text,<i>A energia do objeto passa por você e você se sente renovado.</i>\n\nO investigador com o marcador de Interação em sua ficha descarta 2 danos.
+EventGetItem1.button1,{qst:Continuar}
+EventGetItem2.button1,{qst:Continuar}
+EventGetItem3.button1,{qst:Continuar}
+EventGetItem4.button1,{qst:Continuar}
+EventGetItem5.button1,{qst:Continuar}
+EventGetItem6.button1,{qst:Continuar}
+EventGetItem7.button1,{qst:passou}
+EventGetItem7.button2,{qst:Falhou}
+EventGetSpell.button1,{qst:Continuar}
+EventFailSpell.text,<i>Sua mente está perdida nos s�mbolos que não ficam parados na página. Você falha no seu olhar e, quando olha para trás, os s�mbolos sumiram.</i>
+EventFailSpell.button1,{qst:Continuar}
+EventRockMythos1.text,Este evento afeta o investigador com o marcador de Interação em sua ficha.\n\nVocê sente o estranho poder do objeto pairando sobre você e luta para manter o controle ({will}; 2). Se falhar seus músculos se recusam a seguir seus comandos, você recebe 1 de horror e se torna Preso.
+EventRockMythos1.button1,{qst:Continuar}
+EventRockMythos2.text,Este evento afeta o investigador com o marcador de Interação em sua folha.\n\nVocê repete todas as orações que conhece, esperando que uma delas o ajude a lutar contra a presença avassaladora do objeto desconhecido ({lore}; 2). Se você passar, você mantém o controle de suas ações. Se você falhar, fica distra�do com textos antigos e perde o foco na tarefa em questão, receba 1 Horror e fique Desnorteado.
+EventRockMythos2.button1,{qst:Continuar}
+EventRockMythos3.text,Este evento afeta o investigador com o marcador de Interação em sua planilha.\n\nVocê sente como se o objeto estivesse tentando se comunicar com você ({influence}; 2). Se você passar, você envia uma mensagem clara de força e determinação. Se você falhar, ficará cheio de pensamentos e desejos conflitantes, receba 1 Horror e fique Desnorteado.
+EventRockMythos3.button1,{qst:Continuar}
+EventRockMythos4.text,Este evento afeta o investigador com o marcador de Interação em sua ficha.\n\nVocê sente que está tentando andar contra um vento forte, embora tudo pareça parado ({strength}; 2). Se você falhar, será golpeado por uma força silenciosa, receba 2 de dano.
+EventRockMythos4.button1,{qst:Continuar}
+EventRockMythos5.text,Este evento afeta o investigador com o marcador de interação em sua planilha.\n\nO objeto distorce sua percepção do espaço e você se esforça para determinar onde está o chão.({agility}; 2). Se você passar, a memória muscular assume o controle. Se falhar, você cai pesadamente no chão, sofre 1 dano e fique atordoado.
+EventRockMythos5.button1,{qst:Continuar}
+EventTakeRock.text,O espaço ao redor do objeto está distorcido e você luta para tocá-lo ({observation}; 2).
+EventTakeRock.button1,{qst:Passou}
+EventTakeRock.button2,{qst:Falhou}
+EventFailRock.text,Sua mente corre tentando decifrar onde o objeto está no espaço. Em sua confusão, você escorrega nos paralelep�pedos, sofre 1 dano e 1 Horror.
+EventFailRock.button1,{qst:Continuar}
+SpawnAttackSquareRiot.text,<i>O grupo ganha vida.</i>\n\nOs investigadores devem agora realizar testes de evasão e horror normalmente para este monstro. Use o painel do monstro para atacar.
+TokenRock.text,<i>Esta parece ser uma pedra escura, embora seja dif�cil de ver claramente por algum motivo desconhecido.</i>\n\nUm investigador neste espaço pode tentar pegar a pedra.
+TokenRock.button1,{action} Pegar
+SpawnAttackSquareRiot.button1,{qst:Continuar}
+SpawnAttackShopCultist.text,<i>O lojista reage repentinamente à sua presença.</i>\n\nOs investigadores devem agora realizar verificações de evasão e horror normalmente para este monstro. Use o painel do monstro para atacar.
+SpawnAttackShopCultist.button1,{qst:Continuar}
+SpawnAttackStreetCultist.button1,{qst:Continuar}
+SpawnAttackWarehouseCultist.button1,{qst:Continuar}
+SpawnAttackBasementCultist.button1,{qst:Continuar}
+SpawnAttackPondRiot.button1,{qst:Continuar}
+SpawnAttackPriest.button1,{qst:Continuar}
+EventAddSquare.button1,{qst:Continuar}
+EventSquareRiot.text,<i>Depois que a noite cai, uma música de outro mundo pode ser ouvida vagando pelas ruas. Os moradores que ainda estão ao ar livre param e ficam olhando, encantados com os sons estranhos.</i>\n\nColoque o monstro {ffg:MONSTER_RIOT} no espaço indicado. Os investigadores não precisam executar testes de horror ou evasão para este monstro.
+EventSquareRiot.button1,{qst:Continuar}
+EventAddShopExplore.text,<i>As luzes estão acesas nesta pequena loja.</i>\n\nColoque um marcador de exploração conforme mostrado.
+EventAddShopExplore.button1,{qst: Continuar}
+EventAddSearchSquare.text,<i>O vento jogou uma pequena pilha de lixo neste canto.</i>\n\nColoque um marcador de procura conforme mostrado.
+EventAddSearchSquare.button1,{qst:Continuar}
+EventPlaceInvestigators.text,Coloque os investigadores no espaço indicado.
+EventPlaceInvestigators.button1,{qst:Continuar}
+EventSearchSquare.text,{qst:escondido}
+EventSearchSquare.button1,{qst:Continuar}
+EventAddShopCultist.text,<i>O lojista ignora sua entrada e olha para o espaço.</i>\n\nColoque o monstro {ffg:MONSTER_CULTIST} no espaço indicado. Os investigadores não precisam executar testes de horror ou evasão para este monstro.
+EventAddShopCultist.button1,{qst: Continuar}
+EventAddStreetExplore.text,<i>Esta porta sai da parte traseira da loja</i>\n\nColoque um marcador de exploração conforme mostrado.
+EventAddStreetExplore.button1,{qst:Continuar}
+EventAddStreet.text,Adicionar {ffg:TILE_STREET_CORNER_1_MAD20} e {ffg:TILE_WAREHOUSE_MAD20} mapas como mostrado.
+EventAddStreet.button1,{qst: Continuar}
+EventAddStreetWall.button1,{qst: Continuar}
+EventAddStreetCultist.text,<i>Este habitante fica parado, parecendo alheio ao frio.</i>\n\nColoque o monstro {ffg:MONSTER_CULTIST} no espaço indicado. Os investigadores não precisam executar testes de horror ou evasão para este monstro.
+EventAddStreetCultist.button1,{qst: Continuar}
+EventAddWarehouseExplore.text,<i> Esta porta leva a um armazém. A música parece vir do outro lado deste prédio.</i>\n\nColoque um marcador de exploração conforme mostrado.
+EventAddWarehouseExplore.button1,{qst:Continuar}
+EventSearchStreet.text,{qst:escondido}
+EventSearchStreet.button1,{qst:Continuar}
+EventAddWarehouseCultist.text,<i>Uma mulher está parada no canto do armazém.</i>\n\nColoque o monstro {ffg:MONSTER_CULTIST} no espaço indicado. Os investigadores não precisam executar testes de horror ou evasão para este monstro.
+EventAddWarehouseCultist.button1,{qst:Continuar}
+EventAddBasementExplore.text,<i>Esta porta leva a um porão.</i>\n\nColoque um marcador de exploração conforme mostrado.
+EventAddBasementExplore.button1,{qst:Continuar}
+EventSearchWarehouse.text,{qst:escondido}
+EventSearchWarehouse.button1,{qst:Continuar}
+EventAddBasement.text,Adicionar {ffg:TILE_BASEMENT_MAD20} mapa como mostrado.
+EventAddBasement.button1,{qst:Continuar}
+EventAddBasementCultist.text,<i>Uma figura fica parada.</i>\n\nColoque o monstro {ffg:MONSTER_CULTIST} no espaço indicado. Os investigadores não precisam executar testes de horror ou evasão para este monstro.
+EventAddBasementCultist.button1,{qst:Continuar}
+EventAddCellarExplore.text,<i>A música estranha está vindo desta direção.</i>\n\nColoque um marcador de exploração conforme mostrado.
+EventAddCellarExplore.button1,{qst:Continuar}
+EventAddBasementWall.button1,{qst:Continuar}
+EventSearchBasement.text,{qst:escondido}
+EventSearchBasement.button1,{qst:Continuar}
+EventAddCellar.text,Adicionar {ffg:TILE_ROOT_CELLAR_MAD20} mapa como mostrado.
+EventAddCellar.button1,{qst:Continuar}
+EventAddPondExplore.text,<i>Esta porta leva de volta ao n�vel do solo, o som está muito próximo agora</i>\n\nColoque um marcador de exploração conforme mostrado.
+EventAddPondExplore.button1,{qst:Continuar}
+EventSearchCellar.text,{qst:escondido}
+EventSearchCellar.button1,{qst:Continuar}
+EventAddPond.text,<i>Uma prancha podre que bloqueia a porta se quebra e a porta se abre.</i>\n\nAdicione os mapas {ffg:TILE_PARK_POND_MAD20} e {ffg:TILE_YARD_2_MAD20} como mostrado.
+EventAddPond.button1,{qst:Continuar}
+EventAddPondRiot.text,<i>Um grupo de moradores da cidade fica paralisado pelo objeto estranho</i>\n\nColoque o monstro {ffg:MONSTER_RIOT} no espaço indicado. Os investigadores não precisam executar testes de horror ou evasão para este monstro.
+EventAddPondRiot.button1,{qst:Continuar}
+EventAddPriest.text,<i>Um sacerdote está realizando alguma forma de ritual, embora ele não pareça estar no controle de suas próprias ações.</i>\n\nColoque o monstro {ffg:UNIQUE_MONSTER_PRIEST_OF_DAGON} no espaço indicado. Os investigadores não precisam executar testes de horror ou evasão para este monstro.
+EventAddPriest.button1,{qst:Continuar}
+EventAddRock.text,<i>Há um grande objeto flutuando no espaço perto da lagoa. Parece ser uma rocha escura, embora seja dif�cil ver claramente por algum motivo desconhecido.</i>\n\nColoque um marcador de Interação conforme mostrado.
+EventAddRock.button1,{qst:Continuar}
+EventSearchYard.text,{qst:escondido}
+EventSearchYard.button1,{qst:Continuar}
+EventRock.button1,{qst:Continuar}
+EventAwakeSquareRiot.button1,{qst:escondido}
+EventAwakeShopCultist.button1,{qst:escondido}
+EventAwake.text,<i>Todos os habitantes da cidade se mexem ao mesmo tempo, seu transe foi interrompido.</i>\n\nColoque os marcadores coloridos de identificação conforme necessário. Todos os monstros agora requerem testes de horror e evasão.
+EventAwake.button1,{qst:Continuar}
+EventAwakeStreetCultist.button1,{qst:escondido}
+EventAwakeWarehouseCultist.button1,{qst:escondido}
+EventAwakeBasementCultist.button1,{qst:escondido}
+EventAwakePondRiot.button1,{qst:escondido}
+EventAwakePriest.button1,{qst:escondido}
+EventAddEscape.text,Coloque um marcador de interação no espaço indicado. Os investigadores devem levar o objeto a este espaço para escapar da cidade.
+EventAddEscape.button1,{qst:Continuar}
+EventEndEscape.text,<i>Ao deixar Rowley, você constantemente luta contra o poder do objeto estranho e a música bizarra que agora soa como se estivesse vindo de dentro de suas próprias cabeças. Você rapidamente concorda que seria muito perigoso deixar alguém ficar com este objeto e dirigi até o interior da floresta.\n\nEncontrando um local isolado, você enterra o objeto e espera que permaneça escondido para o benef�cio de todos.</i>
+EventEndEscape.button1,{qst:Fim}
+EventEndEliminated.text,<i>Os investigadores restantes fogem aterrorizados. O que quer que tenha ca�do do céu está claramente além de suas capacidades e é melhor deixá-lo sozinho.</i>
+EventEndEliminated.button1,{qst:Fim}
+TokenStreetCultist.text,<i>Este habitante fica parado, parecendo alheio ao frio.</i>
+TokenStreetCultist.button1,{qst:Atacar}
+TokenPondPriest.text,<i>Este sacerdote parece estar realizando algum tipo de ritual.</i>
+TokenPondPriest.button1,{qst:Atacar}
+TokenWarehouseCultist.text,<i>Uma mulher está parada no canto do armazém.</i>
+TokenWarehouseCultist.button1,{qst:Atacar}
+TokenBasementCultist.text,<i>Uma figura está parada.</i>
+TokenBasementCultist.button1,{qst:Atacar}
+TokenSearchYard.button1,{action} Procurar
+TokenSearchSquare.button1,{action} Procurar
+TokenSearchShop.button1,{action} Procurar
+TokenSearchStreet.text,<I> Numerosos objectos encontram-se nos cantos escuros deste beco. </ I>
+TokenSearchStreet.button1,{action} Procurar
+TokenSearchWarehouse.button1,{action} Procurar
+TokenSearchBasement.button1,{action} Procurar
+TokenSearchCellar.button1,{action} Procurar
+TokenExit.text,Esta o investigador com o marcador de interação neste espaço?
+TokenExit.button1,Escapar
+TokenPondRiot.text,<i>O grupo de habitantes da cidade fica completamente imóvel.</i>
+TokenPondRiot.button1,{qst:Atacar}
+TokenExploreShop.text,<i>As luzes estão acesas nesta pequena loja.</i>
+TokenExploreShop.button1,{action} Explorar
+TokenExploreStreet.text,<i>Esta porta sai pela parte traseira da loja.</i>
+TokenExploreStreet.button1,{action} Explorar
+TokenExploreBasement.text,<i>Esta porta leva a um porão.</i>
+TokenExploreBasement.button1,{action} Explorar
+TokenExploreCellar.text,<i>A música estranha está vindo desta direção.</i>
+TokenExploreCellar.button1,{action} Explorar
+TokenShopCultist.text,<i>O dono da loja olha para o nada.</i>
+TokenShopCultist.button1,{qst:Atacar}
+TokenSquareRiot.text,<i>Os habitantes da cidade ignoram você.</i>
+TokenSquareRiot.button1,{qst:Atacar}
+SpawnAttackPriest.text,<i>O padre acorda imediatamente.</i>\n\nOs investigadores devem agora realizar testes de evasão e horror normalmente para este monstro. Use o painel do monstro para atacar.
+SpawnAttackPondRiot.text,<i>O grupo grita ao ser interrompido.</i>\n\nOs investigadores devem agora realizar testes de evasão e horror normalmente para este monstro. Use o painel do monstro para atacar.
+SpawnAttackBasementCultist.text,<i>Suas ações parecem ter quebrado o transe.</i>\n\nOs investigadores devem agora realizar testes de evasão e horror normalmente para este monstro. Use o painel do monstro para atacar.
+SpawnAttackWarehouseCultist.text,<i>A mulher se assusta com o seu ataque.</i>\n\nOs investigadores devem agora realizar testes de evasão e horror normalmente para este monstro. Use o painel do monstro para atacar.
+SpawnAttackStreetCultist.text,<i> O homem estremece de repente e ganha vida.</i>\n\nOs investigadores devem agora realizar testes de evasão e horror normalmente para este monstro. Use o painel do monstro para atacar.
