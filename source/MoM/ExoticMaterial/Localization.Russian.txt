@@ -1,0 +1,213 @@
+﻿.,Russian
+quest.name,Экзотическая материя
+quest.description,"Коллекционерка редких металлов обнаружила метеорит, упавший недалеко от города Роули.\n\nПри посещении города она заметила, что местные жители немного странно себя ведут и не идут на контакт. Поэтому поручила вам найти и принести метеорит.\n\nВо время вашего визита вы тоже отмечаете странное поведение горожан. Возможно, вам придется постараться, что бы уйти целыми и невредимыми.\n\nОбратите внимание, что в этом сценарии не нужно собирать никаких доказательств, так как в условиях происходящего безумия, доказательства не помогут."
+quest.authors,<b>Автор</b>\nBruce\n\n<b>Перевод</b>\nSpanish: eorahil\nGerman: redwolf2\nFrench: Indoy\nPolish: zcaalock\nItalian: Dioscuri93
+EventStart.text,Коллекционерка редких металлов обнаружила метеорит, упавший недалеко от города Роули.\n\nКогда она посетила город то заметила, что местные жители немного странно себя ведут и не идут на контакт. Поэтому поручила вам найти и принести метеорит.\n\nВы прибываете в Роули утром и проводите весь день, расспрашивая местных жителей, но безрезультатно.
+EventStart.button1,{qst:CONTINUE}
+CONTINUE,Продолжить
+EventAddSquare.text,Разместите фрагменты поля {ffg:TILE_TOWN_SQUARE_MAD20} и {ffg:TILE_STOREFRONT_MAD20}, как указано. Каждый Сыщик получает по 2 Улики.
+EventGetItem1.text,Получите обычную вещь: {c:QItemWeapon}.
+EventGetItem2.text,Получите обычную вещь: {c:QItemLight}, затем получите 1 Улику.
+EventGetItem3.text,Получите обычную вещь: {c:QItemEquip}.
+EventGetItem4.text,Получите обычную вещь: {c:QItemEquip2}.
+EventGetItem5.text,Получите обычную вещь: {c:QItemEquipLight}, затем получите 1 Улику.
+EventGetItem6.text,Получите обычную вещь: {c:QItemWeapon2}.
+EventGetItem7.text,<i>Вы наткнулись на старую книгу </i>{lore}.
+EventGetSpell.text,Получите заклинание: {c:QItemSpell}.
+ATTACK,Атаковать
+EXPLORE,{action} Исследовать
+FAIL,Провал
+HIDDEN,Спрятать
+PASS,Успех
+PLACE1WALLTOKEN,Разместите жетон Стены, как указано.
+SEARCH,{action} Обыскать
+THEEND,Конец
+EventSearchShop.text,{qst:HIDDEN}
+EventSearchShop.button1,{qst:CONTINUE}
+EventAddShopSearch.text,<i>Владелец магазина не возражает, если вы осмотритесь...</i>\n\nРазместите жетон Обыска, как указано.
+EventAddShopSearch.button1,{qst:CONTINUE} 
+EventAddSearchStreet.text,<i>В темных углах этого переулка, разбросаны разные предметы.</i>\n\nРазместите жетон Обыска, как указано. 
+EventAddSearchStreet.button1,{qst:CONTINUE} 
+EventAddWarehouseSearch.text,<i>В этом ящике может быть что-нибудь полезное.</i>\n\nРазместите жетон Обыска, как указано.
+EventAddWarehouseSearch.button1,{qst:CONTINUE} 
+EventAddBasementSearch.text,<i>На полу стоит открытый ящик.</i>\n\nРазместите жетон Обыска, как указано. 
+EventAddBasementSearch.button1,{qst:CONTINUE} 
+EventAddCellarSearch.text,<i>Полка завалена различными предметами.</i>\n\nРазместите жетон Обыска, как указано. 
+EventAddCellarSearch.button1,{qst:CONTINUE} 
+EventAddSearchYard.text,<i>В кустах, что-то отражает свет от ближайшей ламп.</i>\n\nРазместите жетон Обыска, как указано.
+EventAddSearchYard.button1,{qst:CONTINUE} 
+EventMoveIn.button1,{qst:CONTINUE} 
+EventMoveIn.text,Вы имеете право переместиться на 1 область в только что исследованную комнату. 
+PuzzleLock.button1,Открыть
+TokenExploreWarehouse.text,<i>Эта дверь ведет на склад, на ней есть кодовый замок. Кажется, что музыка доносится с другой стороны этого здания.</i>
+TokenExploreWarehouse.button1,{action} Взломать 
+EventJammedDoor.text,<i>Дверь заклинило</i> {strength}.
+EventJammedDoor.button1,{qst:CONTINUE} 
+EventJammedDoor.button2,{qst:HIDDEN} 
+EventJammedDoorFail.text,<i>Дверь отказывается сдвинуться с места.</i> 
+EventJammedDoorFail.button1,{qst:CONTINUE} 
+TokenExplorePond.text,<i>Эта дверь ведет наверх, музыка звучит все громче.</i>
+TokenExplorePond.button1,{qst:EXPLORE} 
+EventRockBonus.button1,{qst:HIDDEN} 
+TokenSearchYard.text,<i>В кустах, что-то отражает свет от ближайшей ламп.</i>
+TokenSearchSquare.text,<i>Ветер снес в этот угол небольшую кучку мусора.</i> 
+TokenSearchShop.text,<i>Владелец магазина не возражает, если вы осмотритесь...</i>
+TokenSearchWarehouse.text,<i>В этом ящике может быть что-нибудь полезное.</i> 
+TokenSearchBasement.text,<i>На полу стоит открытый ящик.</i> 
+TokenSearchCellar.text,<i>Полка завалена различными предметами.</i> 
+EventRock.text,<i>Вы хватаете предмет, который, кажется невесомым.</i>\n\nРазместите этот жетон Взаимодействия на лист Сыщика. Сыщик может потратить действие ({action}), чтобы передать жетон другому Сыщику в своей области.
+EventRockPool.button1,{qst:HIDDEN} 
+EventGetItem.button1,{qst:HIDDEN} 
+EventRockBonusFocus.button1,{qst:CONTINUE} 
+EventRockBonusFocus.text,<i>Вы обретаете ясность цели, которую никогда раньше не испытывали.</i>\n\nСыщик с жетоном Взаимодействия на листе становится Сосредоточенным. 
+EventRockBonusEvade.button1,{qst:CONTINUE} 
+EventRockBonusEvade.text,<i>Невидимая сила вырывается из объекта, расчищая путь впереди.</i>\n\nСыщику с жетоном взаимодействия на листе не нужно проходить проверку Ухода в этом раунде.
+EventRockBonusClue.button1,{qst:CONTINUE} 
+EventRockBonusClue.text,<i>Знания наполняют вашу голову, некоторые вещи выходят за рамки вашего понимания.</i>\n\nСыщик с жетоном Взаимодействия на листе получает 2 Улики.
+EventRockBonusHeal.button1,{qst:CONTINUE} 
+EventRockBonusHeal.text,<i>Энергия объекта омывает вас, и вы чувствуете себя обновленным.</i>\n\nСыщик с жетоном взаимодействия на листе сбрасывает 2 Урона. 
+EventGetItem1.button1,{qst:CONTINUE} 
+EventGetItem2.button1,{qst:CONTINUE} 
+EventGetItem3.button1,{qst:CONTINUE} 
+EventGetItem4.button1,{qst:CONTINUE} 
+EventGetItem5.button1,{qst:CONTINUE} 
+EventGetItem6.button1,{qst:CONTINUE} 
+EventGetItem7.button1,{qst:PASS} 
+EventGetItem7.button2,{qst:FAIL} 
+EventGetSpell.button1,{qst:CONTINUE} 
+EventFailSpell.text,<i>Ваш разум теряется в символах, которые срываются со страниц. Вы отводите взгляд, когда вы оглядываетесь, символы исчезают.</i>
+EventFailSpell.button1,{qst:CONTINUE} 
+EventRockMythos1.text,Это событие влияет на Сыщика с жетоном Взаимодействия на его листе.\n\nВы чувствуете, как странная сила объекта нависает над вами, вы боретесь за сохранение рассудка ({will}; 2). При провале, ваши мышцы отказываются выполнять ваши команды, вы получаете 1 Ужас и становитесь Скованным.
+EventRockMythos1.button1,{qst:CONTINUE} 
+EventRockMythos2.text,Это событие влияет на Сыщика с жетоном Взаимодействия на его листе.\n\nВы перебираете каждую известную вам молитву, надеясь, что одна из них поможет вам бороться с подавляющим присутствием неизвестного объекта ({lore}; 2). При успехе, вы сохраняете контроль над своими действиями. При провале, вы отвлекаетесь, рассматривая старые тексты, и теряете концентрацию на текущей задаче. Получите 1 Ужас и станете Ошеломленным.
+EventRockMythos2.button1,{qst:CONTINUE} 
+EventRockMythos3.text,Это событие влияет на Сыщика с жетоном Взаимодействия на его листе.\n\nВы чувствуете, что объект пытается с вами связаться ({influence}; 2). При успехе, вы подаете четкий сигнал о своей силе и решимости. При провале, вас наполняют противоречивые мысли и желания. Получите 1 Ужас и станьте Ошеломленным.
+EventRockMythos3.button1,{qst:CONTINUE} 
+EventRockMythos4.text,Это событие влияет на Сыщика с жетоном Взаимодействия на его листе.\n\nВы чувствуете, что пытаетесь идти против сильного ветра, хотя все кажется по-прежнему ({strength}; 2). При провале вас атакует безмолвная сила, получите 2 Урона.
+EventRockMythos4.button1,{qst:CONTINUE} 
+EventRockMythos5.text,Это событие влияет на Сыщика с жетоном Взаимодействия на его листе.\n\nОбъект искажает ваше восприятие пространства, и вы изо всех сил пытаетесь определить, где находится пол ({agility}; 2). При успехе, мышечная память берет верх. При провале, вы тяжело падаете на землю. Получите 1 Урон и станете Оглушенным.
+EventRockMythos5.button1,{qst:CONTINUE} 
+EventTakeRock.text,Пространство вокруг объекта искажается и вы изо всех сил пытаетесь дотронуться до него ({observation}; 2).
+EventTakeRock.button1,{qst:PASS} 
+EventTakeRock.button2,{qst:FAIL} 
+EventFailRock.text,Ваш разум напрягается, пытаясь понять, где в пространстве находится объект. В смятении вы спотыкаетесь о булыжник. Получите 1 Урон и 1 Ужас.
+EventFailRock.button1,{qst:CONTINUE} 
+SpawnAttackSquareRiot.text,<i>Толпа пробуждается.</i>\n\nТеперь Сыщики должны выполнять проверки Ухода и Ужаса, как обычно для этого монстра. Используйте панель монстров для атаки. 
+TokenRock.text,<i>Кажется, это темный камень, хотя по какой-то неизвестной причине его трудно разглядеть.</i>\n\nСыщик в этой области может попытаться взять метеорит.
+TokenRock.button1,{action} Взять 
+SpawnAttackSquareRiot.button1,{qst:CONTINUE} 
+SpawnAttackShopCultist.text,<i>Владелец магазина внезапно реагирует на ваше присутствие.</i>\n\nТеперь Сыщики должны выполнять проверки Ухода и Ужаса, как обычно для этого монстра. Используйте панель монстров для атаки. 
+SpawnAttackShopCultist.button1,{qst:CONTINUE} 
+SpawnAttackStreetCultist.button1,{qst:CONTINUE} 
+SpawnAttackWarehouseCultist.button1,{qst:CONTINUE} 
+SpawnAttackBasementCultist.button1,{qst:CONTINUE} 
+SpawnAttackPondRiot.button1,{qst:CONTINUE} 
+SpawnAttackPriest.button1,{qst:CONTINUE} 
+EventAddSquare.button1,{qst:CONTINUE} 
+EventSquareRiot.text,<i>После того, как опустилась ночь можно услышать потустороннюю музыку, перемещаясь по улицам. Местные жители, которые все еще находятся на улице, останавливаются и смотрят, очарованные странными звуками.</i>\n\nРазместите монстра {ffg:MONSTER_RIOT}, как указано. Сыщикам не нужно проводить проверки Ужаса или Ухода от этого монстра.
+EventSquareRiot.button1,{qst:CONTINUE} 
+EventAddShopExplore.text,<i>В этом маленьком магазинчике горит свет.</i>\n\nРазместите жетон Исследования, как указано.
+EventAddShopExplore.button1,{qst:CONTINUE} 
+EventAddSearchSquare.text,<i>Ветер снес в этот угол небольшую кучу мусора.</i>\n\nРазместите жетон Обыска, как указано.
+EventAddSearchSquare.button1,{qst:CONTINUE} 
+EventPlaceInvestigators.text,Разместите фигурки Сыщиков, как указано. 
+EventPlaceInvestigators.button1,{qst:CONTINUE} 
+EventSearchSquare.text,{qst:HIDDEN} 
+EventSearchSquare.button1,{qst:CONTINUE} 
+EventAddShopCultist.text,<i>Владелец магазина игнорирует ваше присутствие и смотрит в пустоту. <i>\n\nРазместите монстра {ffg:MONSTER_CULTIST}, как указано. Сыщикам не нужно проходить проверки Ужаса или Ухода от этого монстра. 
+EventAddShopCultist.button1,{qst:CONTINUE} 
+EventAddStreetExplore.text,<i>Эта дверь ведет в переулок за магазином.</i>\n\nРазместите жетон Исследования, как указано.
+EventAddStreetExplore.button1,{qst:CONTINUE} 
+EventAddStreet.text,Разместите фрагменты поля {ffg:TILE_STREET_CORNER_1_MAD20} и {ffg:TILE_WAREHOUSE_MAD20}, как указано. 
+EventAddStreet.button1,{qst:CONTINUE} 
+EventAddStreetWall.button1,{qst:CONTINUE} 
+EventAddStreetCultist.text,<i>Этот местный стоит неподвижно, как будто не замечая холода.</i>\n\nРазместите монстра {ffg:MONSTER_CULTIST}, как указано. Сыщикам не нужно проводить проверки Ужаса или Ухода от этого монстра.
+EventAddStreetCultist.button1,{qst:CONTINUE} 
+EventAddWarehouseExplore.text,<i>Эта дверь ведет на склад. Кажется, что музыка доносится с другой стороны этого здания.</i>\n\nРазместите жетон Исследования, как указано.
+EventAddWarehouseExplore.button1,{qst:CONTINUE} 
+EventSearchStreet.text,{qst:HIDDEN} 
+EventSearchStreet.button1,{qst:CONTINUE} 
+EventAddWarehouseCultist.text,<i>В углу склада неподвижно стоит женщина.</i>\n\nРазместите монстра {ffg:MONSTER_CULTIST}, как указано. Сыщикам не нужно проводить проверки Ужаса или Ухода от этого монстра. 
+EventAddWarehouseCultist.button1,{qst:CONTINUE} 
+EventAddBasementExplore.text,<i>Эта дверь ведет в подвал.</i>\n\nРазместите жетон Исследования, как указано.
+EventAddBasementExplore.button1,{qst:CONTINUE} 
+EventSearchWarehouse.text,{qst:HIDDEN} 
+EventSearchWarehouse.button1,{qst:CONTINUE} 
+EventAddBasement.text,Разместите фрагмент поля {ffg:TILE_BASEMENT_MAD20}, как указано. 
+EventAddBasement.button1,{qst:CONTINUE} 
+EventAddBasementCultist.text,<i>Фигура стоит без дела.</i>\n\nРазместите монстра {ffg:MONSTER_CULTIST}, как указано. Сыщикам не нужно проводить проверки Ужаса или Ухода от этого монстра. 
+EventAddBasementCultist.button1,{qst:CONTINUE} 
+EventAddCellarExplore.text,<i>Странная музыка доносится с этой стороны.</i>\n\nРазместите жетон Исследования, как указано.
+EventAddCellarExplore.button1,{qst:CONTINUE} 
+EventAddBasementWall.button1,{qst:CONTINUE} 
+EventSearchBasement.text,{qst:HIDDEN} 
+EventSearchBasement.button1,{qst:CONTINUE} 
+EventAddCellar.text,Разместите фрагмент поля {ffg:TILE_ROOT_CELLAR_MAD20}, как указано. 
+EventAddCellar.button1,{qst:CONTINUE} 
+EventAddPondExplore.text,<i>Эта дверь ведет обратно наверх, музыка теперь очень близко.</i>\n\nРазместите жетон Исследования, как указано.
+EventAddPondExplore.button1,{qst:CONTINUE} 
+EventSearchCellar.text,{qst:HIDDEN} 
+EventSearchCellar.button1,{qst:CONTINUE} 
+EventAddPond.text,<i>Гнилая доска, запирающая дверь, трескается, и дверь распахивается.</i>\n\nРазместите фрагменты поля {ffg:TILE_PARK_POND_MAD20} и {ffg:TILE_YARD_2_MAD20}, как указано.
+EventAddPond.button1,{qst:CONTINUE} 
+EventAddPondRiot.text,<i>Группа горожан стоит, завороженная странным предметом.</i>\n\nРазместите монстра {ffg:MONSTER_RIOT}, как указано. Сыщикам не нужно проводить проверки Ужаса или Ухода от этого монстра. 
+EventAddPondRiot.button1,{qst:CONTINUE} 
+EventAddPriest.text,<i>Жрец выполняет какой-то ритуал, хотя он, по-видимому, не контролирует свои собственные действия.</i>\n\nРазместите монстра {ffg:UNIQUE_MONSTER_PRIEST_OF_DAGON}, как указано. Сыщикам не нужно проводить проверки Ужаса или Ухода от этого монстра.
+EventAddPriest.button1,{qst:CONTINUE} 
+EventAddRock.text,<i>Рядом с прудом в пространстве плавает большой объект. Кажется, это темный камень, хотя по какой-то неизвестной причине его трудно разглядеть.</i>\n\nРазместите жетон Взаимодействия, как указано.
+EventAddRock.button1,{qst:CONTINUE} 
+EventSearchYard.text,{qst:HIDDEN} 
+EventSearchYard.button1,{qst:CONTINUE} 
+EventRock.button1,{qst:CONTINUE} 
+EventAwakeSquareRiot.button1,{qst:HIDDEN} 
+EventAwakeShopCultist.button1,{qst:HIDDEN} 
+EventAwake.text,<i>Горожане разом встрепенулись, их транс прервался.</i>\n\nРазместите жетоны идентификации, как указано. Все монстры теперь требуют проверки Ужаса и Ухода.
+EventAwake.button1,{qst:CONTINUE} 
+EventAwakeStreetCultist.button1,{qst:HIDDEN} 
+EventAwakeWarehouseCultist.button1,{qst:HIDDEN} 
+EventAwakeBasementCultist.button1,{qst:HIDDEN} 
+EventAwakePondRiot.button1,{qst:HIDDEN} 
+EventAwakePriest.button1,{qst:HIDDEN} 
+EventAddEscape.text,Разместите жетон Взаимодействия, как указано. Сыщики должны доставить объект в это место, чтобы сбежать из города.
+EventAddEscape.button1,{qst:CONTINUE} 
+EventEndEscape.text,<i>Покидая Роули, вы постоянно боретесь с силой странного предмета. Странная музыка звучит так, как будто она играет у вас в голове. Вы быстро понимаете, что было бы слишком опасно отдавать кому-либо этот предмет и уезжаете далеко в лес.\n\nНайдя укромное место, вы закапываете предмет и надеетесь, что он останется там навсегда, на благо всем нам.</i>
+EventEndEscape.button1,{qst:THEEND} 
+EventEndEliminated.text,<i>Оставшиеся Сыщики в Ужасе разбегаются. Что бы ни упало с неба, это явно выше их возможностей, и лучше всего оставить их в покое.</i>
+EventEndEliminated.button1,{qst:THEEND} 
+TokenStreetCultist.text,<i>Этот местный стоит неподвижно, как будто не замечая холода.</i>
+TokenStreetCultist.button1,{qst:ATTACK} 
+TokenPondPriest.text,<i>Этот жрец, по-видимому, выполняет какой-то ритуал.</i>
+TokenPondPriest.button1,{qst:ATTACK} 
+TokenWarehouseCultist.text,<i>В углу склада неподвижно стоит женщина.</i> 
+TokenWarehouseCultist.button1,{qst:ATTACK} 
+TokenBasementCultist.text,<i>Фигура стоит без дела.</i> 
+TokenBasementCultist.button1,{qst:ATTACK} 
+TokenSearchYard.button1,{qst:SEARCH} 
+TokenSearchSquare.button1,{qst:SEARCH} 
+TokenSearchShop.button1,{qst:SEARCH} 
+TokenSearchStreet.text,<i>В темных углах этого переулка, разбросаны разные предметы.</i> 
+TokenSearchStreet.button1,{qst:SEARCH} 
+TokenSearchWarehouse.button1,{qst:SEARCH} 
+TokenSearchBasement.button1,{qst:SEARCH} 
+TokenSearchCellar.button1,{qst:SEARCH} 
+TokenExit.text,Находится ли Сыщик с жетоном Взаимодействия в этой области? 
+TokenExit.button1,Убежать
+TokenPondRiot.text,<i>Толпа горожан стоит совершенно неподвижно.</i> 
+TokenPondRiot.button1,{qst:ATTACK} 
+TokenExploreShop.text,<i>В этом маленьком магазинчике горит свет.</i> 
+TokenExploreShop.button1,{qst:EXPLORE} 
+TokenExploreStreet.text,<i>Эта дверь ведет в переулок за магазином.</i> 
+TokenExploreStreet.button1,{qst:EXPLORE} 
+TokenExploreBasement.text,<i>Эта дверь ведет в подвал.</i> 
+TokenExploreBasement.button1,{qst:EXPLORE} 
+TokenExploreCellar.text,<i>От туда доносится странная музыка.</i> 
+TokenExploreCellar.button1,{qst:EXPLORE} 
+TokenShopCultist.text,<i>Владелец магазина смотрит в пустоту.</i> 
+TokenShopCultist.button1,{qst:ATTACK} 
+TokenSquareRiot.text,<i>Горожане игнорируют вас.</i> 
+TokenSquareRiot.button1,{qst:ATTACK} 
+SpawnAttackPriest.text,<i>Жрец резко просыпается.</i>\n\nТеперь Сыщики должны выполнять проверки Ухода и Ужаса, как обычно для этого монстра. Используйте панель монстров для атаки. 
+SpawnAttackPondRiot.text,<i>Толпа кричит, когда ее прерывают.</i>\n\nТеперь Сыщики должны выполнять проверки Ухода и Ужаса, как обычно для этого монстра. Используйте панель монстров для атаки.
+SpawnAttackBasementCultist.text,<i>Кажется, ваши действия нарушили транс.</i>\n\nТеперь Сыщики должны выполнять проверки Ухода и Ужаса, как обычно для этого монстра. Используйте панель монстров для атаки.
+SpawnAttackWarehouseCultist.text,<i>Женщина напугана вашим нападением.</i>\n\nТеперь Сыщики должны выполнять проверки Ухода и Ужаса, как обычно для этого монстра. Используйте панель монстров для атаки. 
+SpawnAttackStreetCultist.text,<i>Мужчина вдруг вздрагивает и оживает.</i>\n\nТеперь Сыщики должны выполнять проверки Ухода и Ужаса, как обычно для этого монстра. Используйте панель монстров для атаки.
