@@ -1,7 +1,7 @@
 .,English
 quest.name,Affairs of Wizards
 quest.description,"Greyhaven is having trouble at the cemetary and have posted a generous bounty.  The city is known as a centre of magical learning and things are often more complicated than they appear, which is surely part of the reason for the size of the bounty."
-quest.authors,[b]Author[/b]\nBruce
+quest.authors,[b]Author[/b]\nBruce\n\n[b]Translations[/b]\nSpanish: Vidimus
 EventStart.text,"Are the heros playing this as a Basic, Epic:Advanced or Epic:Expert quest?"
 EventStart.button1,Basic
 EventStart.button2,Advanced

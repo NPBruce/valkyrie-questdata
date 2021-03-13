@@ -1,0 +1,136 @@
+.,Spanish
+quest.name,Cosas de magos
+quest.description,Greyhaven tiene problemas en el cementerio y ha ofrecido una generosa recompensa. La ciudad es conocida como el centro de enseñanza de la magia y a menudo las cosas son más complicadas de lo que parece a simple vista, lo que por otro lado explicaría lo abultada de la suma ofrecida como recompensa.
+EventStart.text,¿Van a jugar los héroes esta aventura en modo Básico, Épico: Avanzado o Épico: Experto?
+EventStart.button1,Básico
+EventStart.button2,Avanzado
+EventStart.button3,Experto
+EventTiles.text,<b>Realiza lo siguiente:</b>\n\n Deja aparte las piezas 6, 10, 13, 14, 16, 19, 21, 22 y 23
+EventTiles.button1,Confirmar
+EventIntroText.text,<i>Greyhaven paga una recompensa a aquel que ponga fin a la magia negra procedente de una gran cripta que hay en el cementerio. Los intentos realizados hasta la fecha han sido infructuosos ya que la cripta está cerrada por un conjunto de 5 puertas mágicas.</i>
+EventIntroText.button1,Confirmar
+EventIntroBoard1.text,<b>Realiza lo siguiente:</b>\n\n Coloca las piezas 6A, 13A, 16A, 1 transición, 1 entrada y 1 puerta.
+EventIntroBoard1.button1,Confirmar
+EventIntroBoard2.text,<b>Realiza lo siguiente:</b>\n\n Coloca las piezas 14A, 22A, y 1 terminal.
+EventIntroBoard2.button1,Confirmar
+EventIntroBoard3.text,<b>Realiza lo siguiente:</b>\n\n Coloca una ficha de puerta cerrada con llave. Ésta es la puerta del Reflejo.
+EventIntroBoard3.button1,Confirmar
+EventIntroHeroes.text,<b>Realiza lo siguiente:</b>\n\n Coloca a los héroes en la entrada.
+EventIntroHeroes.button1,Confirmar
+EventIntroSearch1.text,<b>Realiza lo siguiente:</b>\n\n Coloca 1 ficha de Búsqueda en el lugar indicado.
+EventIntroSearch1.button1,Confirmar
+EventIntroSearch2.text,<b>Realiza lo siguiente:</b>\n\n Coloca una ficha adicional de Búsqueda como se indica.
+EventIntroSearch2.button1,Confirmar
+EventOpenHut.text,<b>Realiza lo siguiente:</b>\n\n Coloca 1 terminal.
+EventOpenHut.button1,Confirmar
+EventHutSearch.text,<b>Realiza lo siguiente:</b>\n\n Coloca 2 fichas de Búsqueda como se indica.
+EventHutSearch.button1,Confirmar
+EventDoor1Fail.text,<i>Eres incapaz de superar a tu propio reflejo.</i>
+EventDoor1Fail.button1,Confirmar
+EventOpenDoor1.text,<b>Realiza lo siguiente:</b>\n\n Coloca una ficha de puerta cerrada con llave. Ésta es la puerta del Dolor.
+EventOpenDoor1.button1,Confirmar
+EventDoor2Fail.text,<i>Eres incapaz de resistir el dolor y te retiras de la puerta.</i>
+EventDoor2Fail.button1,Confirmar
+EventOpenDoor2.text,<b>Realiza lo siguiente:</b>\n\n Coloca las piezas 21B, 23B, y 1 terminal.
+EventOpenDoor2.button1,Confirmar
+EventOpenDoor2B.text,<b>Realiza lo siguiente:</b>\n\n Coloca una ficha de puerta cerrada con llave. Ésta es la puerta del Engaño.
+EventOpenDoor2B.button1,Confirmar
+EventOpenDoor2Search.text,<b>Realiza lo siguiente:</b>\n\n Coloca 1 ficha de Búsqueda en el lugar indicado.
+EventOpenDoor2Search.button1,Confirmar
+EventOpenDoor3.text,<b>Realiza lo siguiente:</b>\n\n Coloca una ficha de puerta cerrada con llave. Ésta es la Puerta de la Resistencia.
+EventOpenDoor3.button1,Confirmar
+EventDoor3Fail.text,<i>Te encuentras perdido en una mazmorra que no es de esta realidad.</i> \n\n El héroe que ha realizado la prueba queda Aturdido e Inmovilizado.
+EventDoor3Fail.button1,Confirmar
+EventOpenDoor4.text,<b>Realiza lo siguiente:</b>\n\n Coloca la pieza 19B y 1 puerta cerrada con llave. Ésta es la Puerta de la Fuerza.
+EventOpenDoor4.button1,Confirmar
+EventOpenDoor5.text,<b>Realiza lo siguiente:</b>\n\n Coloca la pieza 10B y 1 terminal.
+EventOpenDoor5.button1,Confirmar
+EventShowdown.text,<i>Claramente los Moldeadores de la carne están detrás de toda esta magia infame</i>. \n\n Derrota a los Moldeadores de la carne para ganar.
+EventShowdown.button1,Confirmar
+EventKey1Open.text,Encuentras la llave de la Puerta del Reflejo. Una vez pasado el obstáculo, la llave ya no tiene utilidad. Roba 1 carta de Búsqueda.
+EventKey1Open.button1,Confirmar
+EventKey1Closed.text,Has encontrado la llave de la Puerta del Reflejo. Como acción, ahora puedes abrir la puerta. Roba 1 carta de Búsqueda.
+EventKey1Closed.button1,Confirmar
+EventKey2Open.text,Encuentras la llave de la Puerta del Dolor. Una vez pasado el obstáculo, la llave ya no tiene utilidad. Roba 1 carta de Búsqueda.
+EventKey2Open.button1,Confirmar
+EventKey2Closed.text,Has encontrado la llave de la Puerta del Dolor. Como acción, ahora puedes abrir la puerta. Roba 1 carta de Búsqueda.
+EventKey2Closed.button1,Confirmar
+EventKey3Open.text,Encuentras la llave de la Puerta del Engaño. Una vez pasado el obstáculo, la llave ya no tiene utilidad. Roba 1 carta de Búsqueda.
+EventKey3Open.button1,Confirmar
+EventKey3Closed.text,Has encontrado la llave de la Puerta del Engaño. Como acción, ahora puedes abrir la puerta. Roba 1 carta de Búsqueda.
+EventKey3Closed.button1,Confirmar
+EventKey4Open.text,Encuentras la llave de la Puerta de la Resistencia. Una vez pasado el obstáculo, la llave ya no tiene utilidad. Roba 1 carta de Búsqueda.
+EventKey4Open.button1,Confirmar
+EventKey4Closed.text,Has encontrado la llave de la Puerta de la Resistencia. Como acción, ahora puedes abrir la puerta. Roba 1 carta de Búsqueda.
+EventKey4Closed.button1,Confirmar
+EventKey5Open.text,Encuentras la llave de la Puerta de la Fuerza. Una vez pasado el obstáculo, la llave ya no tiene utilidad. Roba 1 carta de Búsqueda.
+EventKey5Open.button1,Confirmar
+EventKey5Closed.text,Has encontrado la llave de la Puerta de la Fuerza. Como acción, ahora puedes abrir la puerta. Roba 1 carta de Búsqueda.
+EventKey5Closed.button1,Confirmar
+EventEndWin.text,<i>Con los Moldeadores de la carne derrotados, ya hay un problema menos del que preocuparse.</i> \n\n Los héroes han ganado la aventura.
+EventEndWin.button1,Confirmar
+EventEndLose.text,<i>Tu grupo de héroes ha fracasado en su intento por detener la magia negra, pero por fortuna el concejo de Greyhaven ha recabado más ayuda.</i> \n\n Los héroes han perdido la aventura.
+EventEndLose.button1,Confirmar
+DoorCabin.text,<i>La caseta del guarda del cementerio ha tenido días mejores.</i> \n\n Puedes realizar una acción para abrir esta puerta.
+DoorCabin.button1,{action} Abrir
+SpawnEntry.text,Coloca un grupo {type} como se indica.
+SpawnEntry.button1,Confirmar
+DoorCrypt1.text,<i>Puerta del Reflejo</i>\n\n Un héroe adyacente puede gastar una acción para realizar un ataque contra sí mismo.
+DoorCrypt1.button1,No has sufrido Daño.
+DoorCrypt1.button2,Has sufrido Daño.
+DoorCryptUnlocked1.text,<i>Puerta del Reflejo</i>\n\n Tienes la llave de esta puerta y como acción, puedes abrir la puerta.
+DoorCryptUnlocked1.button1,{action} Abrir
+TokenKey3.text,En el rincón, en las tablas del suelo, hay un hueco.
+TokenKey3.button1,{action} Buscar
+DoorCrypt2.text,<i>Puerta del Dolor</i>\n\n Un héroe adyacente puede gastar una acción y sufrir 4 {heart} y realizar una prueba de {will} para soportar el dolor y cruzar esta puerta.
+DoorCrypt2.button1,Superada
+DoorCrypt2.button2,Fallo
+DoorCryptUnlocked2.text,<i>Puerta del Dolor</i>\n\n Tienes la llave de esta puerta y como acción, puedes abrir la puerta.
+DoorCryptUnlocked2.button1,{action} Abrir
+DoorCrypt3.text,<i>Puerta del Engaño</i>\n\n Un héroe adyacente puede gastar una acción y realizar una prueba tanto de {knowledge} como de {awareness} para cruzarla.
+DoorCrypt3.button1,Superada
+DoorCrypt3.button2,Fallo
+DoorCryptUnlocked3.text,<i>Puerta del Engaño</i>\n\n Tienes la llave de esta puerta y como acción, puedes abrir la puerta.
+DoorCryptUnlocked3.button1,{action} Abrir
+DoorCrypt4.text,<i>Puerta de la Resistencia</i>\n\n Un héroe adyacente puede gastar una acción y sufrir 6 {fatigue} para cruzar esta puerta.
+DoorCrypt4.button1,Confirmar
+DoorCryptUnlocked4.text,<i>Puerta de la Resistencia</i>\n\n Tienes la llave de esta puerta y como acción, puedes abrir la puerta.
+DoorCryptUnlocked4.button1,{action} Abrir
+TokenKey4.text,Algo brilla en los arbustos.
+TokenKey4.button1,{action} Buscar
+TokenKey1.text,Un ornamentado jarrón descansa sobre el suelo.
+TokenKey1.button1,{action} Buscar
+TokenKey2.text,Una pequeña bolsa yace en el suelo.
+TokenKey2.button1,{action} Buscar
+SpawnCaretaker.text,Coloca un grupo {type} como se indica.
+SpawnCaretaker.button1,Confirmar
+SpawnUnderRiver.text,Coloca un grupo {type} como se indica.
+SpawnUnderRiver.button1,Confirmar
+DoorCrypt5.text,<i>Puerta de la Resistencia</i>\n\n Un héroe adyacente puede gastar una acción para realizar un ataque contra esta puerta como si fuera un monstruo. La puerta tiene 30 {heart}.
+DoorCrypt5.button1,Derrotado
+TokenKey5.text,Algo se ha deslizado entre las grietas de las piedras.
+TokenKey5.button1,{action} Buscar
+DoorCryptUnlocked5.text,Tienes la llave de esta puerta y como una acción, puedes abrirla.
+DoorCryptUnlocked5.button1,{action} Abrir
+SpawnStairs.text,Coloca un grupo {type} como se indica.
+SpawnStairs.button1,Confirmar
+SpawnFinal.text,Coloca un grupo {type} como se indica.
+SpawnFinal.button1,Confirmar
+SpawnSupport.text,Coloca un grupo {type} como se indica.
+SpawnSupport.button1,Confirmar
+SpawnSpirit.text,Coloca un elemental en el espacio indicado. Éste es un Espíritu Arcano
+SpawnSpirit.button1,Confirmar
+CustomMonsterSpirit.monstername,Espíritu Arcano
+CustomMonsterSpirit.info,Los Espíritus Arcanos usan las miniaturas de Elementales y sus cartas de monstruo.
+ActivationScream.ability,<i>El Espíritu Arcano emite un grito ensordecedor</i>. \n Antes de cada activación, cada héroe que esté dentro de la línea de visión de este monstruo sufre 1 {fatigue}.
+ActivationScream.master,{action} Divisa al héroe con la menor {knowledge} a 6 o menos casillas.\n{action} Divisa al héroe más cercano.\n{action} Ataca al héroe con la menor {knowledge} a 3 o menos casillas. \n{action} Ataca al héroe más cercano a 3 o menos casillas.
+ActivationScream.minion,{action} Divisa al héroe con la menor {will} a 6 o menos casillas.\n{action} Divisa al héroe más cercano.\n{action} Ataca al héroe con la menor {will} a 3 o menos casillas. \n{action} Ataca al héroe más cercano a 3 o menos casillas.
+ActivationBlast.ability,<i>Una explosión de energía espectral sale del interior del Espíritu Arcano. </i>\n Después de cada activación, todos los héroes adyacentes a este monstruo sufren 2 {heart}. A continuación el Espíritu Arcano sufre 1 {heart} por cada héroe adyacente.
+ActivationBlast.master,{action} Se confronta con tantos héroes como sea posible.\n{action} Ataca al héroe más cercano que esté a 3 casillas o menos.
+ActivationBlast.minion,{action} Se confronta con tantos héroes como sea posible.\n{action} Ataca al héroe más cercano que esté a 3 casillas o menos.
+ActivationGaze.ability,<i>La mirada del Espíritu Arcano atraviesa tu ser.</i> \n\n Cualquier ataque contra un héroe al que no le quede {fatigue} gana +2 {heart}.
+ActivationGaze.master,{action} Divisa al héroe más cercano.\n{action} Ataca al héroe más cercano a 3 o menos casillas.
+ActivationGaze.minion,{action} Divisa al héroe más cercano.\n{action} Ataca al héroe más cercano a 3 o menos casillas.
+ActivationRush.ability,<i>El Espíritu Arcano se mueve tan rápido que no puedes seguirlo con la mirada.</i> \n Todos los ataques ganan Perforante 2. Cualquier héroe que sufra daño durante esta activación sufre además 1 {fatigue}.
+ActivationRush.master,{action} Coloca el Espíritu Arcano adyacente al héroe que haya sufrido menos {fatigue}.\n{action} Ataca al héroe que haya sufrido menos {fatigue}.
+ActivationRush.minion,{action} Coloca el Espíritu Arcano adyacente al héroe que haya sufrido más {fatigue}.\n{action} Ataca al héroe que haya sufrido más {fatigue}.
