@@ -1,0 +1,215 @@
+.,Chinese
+quest.name,异星来物
+quest.description,"  一位稀有金属收藏家在罗利镇附近发现了一颗陨石存在过的痕迹，但当她前往罗利镇希望能够获得更多的线索时，却发现当地的居民变得十分奇怪，镇上弥漫着令人感到十分不安的气氛。\n  一无所获的收藏家最后找上了你，并委托你前往罗利镇去寻找陨石。你怎么也不会想到，这一行将会是使你终生难忘的恐怖遭遇。"
+quest.authors,[b]作者[/b]\nBruce\n\n[b]可选翻译[/b]\n中文: Yukarija\n西班牙文: eorahil\n德文: redwolf2\n法文: Indoy
+EventStart.text,"  一位稀有金属收藏家在罗利镇附近发现了一颗陨石存在过的痕迹，但当她前往罗利镇希望能够获得更多的线索时，却发现当地的居民变得十分奇怪，镇上弥漫着令人感到十分不安的气氛。\n  一无所获的收藏家最后找上了你，并委托你前往罗利镇去寻找陨石。你到达了罗利镇并在那里花费了一整个白天的时间来访寻镇民，但依然一无所获。"
+EventStart.button1,{qst:CONTINUE}
+CONTINUE,继续
+EventAddSquare.text,把“{ffg:TILE_TOWN_SQUARE_MAD20}” 和“ {ffg:TILE_STOREFRONT_MAD20}”板块如下放置。每名调查员均获得2枚线索。
+EventGetItem1.text,获得普通物品: {c:QItemWeapon}.
+EventGetItem2.text,"获得普通物品: {c:QItemLight},获得1枚线索。"
+EventGetItem3.text,获得普通物品: {c:QItemEquip}.
+EventGetItem4.text,获得普通物品: {c:QItemEquip2}.
+EventGetItem5.text,"获得普通物品: {c:QItemEquipLight},获得1枚线索."
+EventGetItem6.text,获得普通物品: {c:QItemWeapon2}.
+EventGetItem7.text,<i>你偶然发现到一本古籍。</i>\n\n进行 {lore}判定。
+EventGetSpell.text,获得法术: {c:QItemSpell}.
+ATTACK,攻击
+EXPLORE,{action} 探索
+FAIL,失败
+HIDDEN,隐藏
+PASS,通过
+PLACE1WALLTOKEN,把1枚墙壁指示物按照如下放置。
+SEARCH,{action} 搜索
+THEEND,结束
+EventSearchShop.text,{qst:HIDDEN}
+EventSearchShop.button1,{qst:CONTINUE}
+EventAddShopSearch.text,<i>店主似乎并不介意你在店里四围逛逛...</i>\n\n把1枚探索标记按照如下放置。
+EventAddShopSearch.button1,{qst:CONTINUE}
+EventAddSearchStreet.text,<i>巷子的黑暗拐角处似乎隐藏着些什么。</i>\n\n把1枚搜索标记按照如下放置。
+EventAddSearchStreet.button1,{qst:CONTINUE}
+EventAddWarehouseSearch.text,<i>板条箱中似乎装着些有用的东西。</i>\n\n把1枚搜索标记按照如下放置。
+EventAddWarehouseSearch.button1,{qst:CONTINUE}
+EventAddBasementSearch.text,<i>地面上的一个箱子似乎被人打开过。</i>\n\n把1枚搜索标记按照如下放置。
+EventAddBasementSearch.button1,{qst:CONTINUE}
+EventAddCellarSearch.text,<i>架子上堆满了各式各样的物品。</i>\n\n把1枚搜索标记按照如下放置。
+EventAddCellarSearch.button1,{qst:CONTINUE}
+EventAddSearchYard.text,<i>在微缩的灯光下，你看到草丛中仿佛隐藏着什么东西。</i>\n\n把1枚搜索标记按照如下放置。
+EventAddSearchYard.button1,{qst:CONTINUE}
+EventMoveIn.button1,{qst:CONTINUE}
+EventMoveIn.text,你可以移动一格进入探索过的区域。
+PuzzleLock.button1,打开
+TokenExploreWarehouse.text,<i>这扇被上了锁的门貌似是通往仓库的。那些音乐应该就是从建筑的另一头传过来的。</i>
+TokenExploreWarehouse.button1,{action} 解锁
+EventJammedDoor.text,<i>门锁似乎卡住了。</i>\n\n进行 {strength}判定。
+EventJammedDoor.button1,{qst:CONTINUE}
+EventJammedDoor.button2,{qst:HIDDEN}
+EventJammedDoorFail.text,<i>你怎么也打不开这扇门。</i>
+EventJammedDoorFail.button1,{qst:CONTINUE}
+TokenExplorePond.text,"<i>穿过这扇门就应该可以回到地面上。那些声音感觉越来越近了。</i>"
+TokenExplorePond.button1,{qst:EXPLORE}
+EventRockBonus.button1,{qst:HIDDEN}
+TokenSearchYard.text,<i>在微缩的灯光下，你看到草丛中仿佛隐藏着什么东西。</i>
+TokenSearchSquare.text,<i>寒风把一小堆垃圾吹到了角落中。</i>
+TokenSearchShop.text,<i>店主似乎并不介意你在店里四围逛逛...</i>
+TokenSearchWarehouse.text,<i>板条箱中似乎装着些有用的东西。</i>
+TokenSearchBasement.text,<i>地面上的一个箱子似乎被人打开过。</i>
+TokenSearchCellar.text,<i>架子上堆满了各式各样的物品。</i>
+EventRock.text,<i>你拿起这块石头，奇怪的是你感觉不到这块石头有一丝的重量。</i>\n\n在捡起石头的调查员的人物卡上放置1枚互动标记来代表石头。调查员可以通过消耗1个行动({action})把石头（互动标记）交给处于同格中的其他调查员。
+EventRockPool.button1,{qst:HIDDEN}
+EventGetItem.button1,{qst:HIDDEN}
+EventRockBonusFocus.button1,{qst:CONTINUE}
+EventRockBonusFocus.text,<i>你顿时感受到一种以前从未有过的神智清醒。</i>\n\n持有石头的调查员变成“集中”状态。
+EventRockBonusEvade.button1,{qst:CONTINUE}
+EventRockBonusEvade.text,"<i>一股看不见的力量从石头中迸裂而出，瞬间把前方的障碍给清除掉。</i>\n\n持有石头的调查员在本轮中需要执行躲避判定时，可直接跳过判定。"
+EventRockBonusClue.button1,{qst:CONTINUE}
+EventRockBonusClue.text,"<i>超出你理解力的知识和信息瞬间充满了你的大脑。</i>\n\n持有石头的调查员获得2枚线索。"
+EventRockBonusHeal.button1,{qst:CONTINUE}
+EventRockBonusHeal.text,<i>石头中散发出特殊的能量，让你感觉到整个人焕然一新。</i>\n\n持有石头的调查员可以丢弃2张伤害卡。
+EventGetItem1.button1,{qst:CONTINUE}
+EventGetItem2.button1,{qst:CONTINUE}
+EventGetItem3.button1,{qst:CONTINUE}
+EventGetItem4.button1,{qst:CONTINUE}
+EventGetItem5.button1,{qst:CONTINUE}
+EventGetItem6.button1,{qst:CONTINUE}
+EventGetItem7.button1,{qst:PASS}
+EventGetItem7.button2,{qst:FAIL}
+EventGetSpell.button1,{qst:CONTINUE}
+EventFailSpell.text,<i>书上的奇怪符号使得你在阅读过程中暂时走神了。当你回过神来，却发现符号已经消失了。</i>
+EventFailSpell.button1,{qst:CONTINUE}
+EventRockMythos1.text,"该事件会影响持有石头的调查员。\n\n你感觉到石头中漂浮出奇怪的力量并试图对你进行控制({will}; 2)。假如判定失败，你会发现自己的身体不受控制，获得1点恐惧并进入抑制状态。"
+EventRockMythos1.button1,{qst:CONTINUE}
+EventRockMythos2.text,"该事件会影响持有石头的调查员。\n\n你神志不清地低声细语着，并向所有你能想到的神祈祷着，希望自己能够摆脱石头散发出的神秘力量对自己产生的控制({lore}; 2)。假如通过判定,你成功摆脱控制。假如判定失败，则你被眼前浮现的古老文字所迷惑并失去了方向，遭受1点恐惧并且进入眩晕状态。"
+EventRockMythos2.button1,{qst:CONTINUE}
+EventRockMythos3.text,"该事件会影响持有石头的调查员。\n\n你仿佛感觉到手上的石头正尝试与你进行交流({influence}; 2)。假如通过判定，你成功向石头传输了自己强大的意志与震胁力。假如判定失败，你脑中瞬间充满了各种矛盾的想法与无尽的欲望，遭受1点恐惧并且进入眩晕状态。"
+EventRockMythos3.button1,{qst:CONTINUE}
+EventRockMythos4.text,"该事件会影响持有石头的调查员。\n\n尽管周围还是一片平静，但是你却感觉自己仿佛在迎着狂风而艰难地前行({strength}; 2)。假如判定失败，则你被一种神秘的力量推来搡去，遭受2点伤害。"
+EventRockMythos4.button1,{qst:CONTINUE}
+EventRockMythos5.text,"该事件会影响持有石头的调查员。\n\n石头产生的力量扭曲了你眼前的空间，使得你难以辨认出脚上的地面({agility}; 2)。假如通过判定，则你战胜幻觉并瞬间清醒过来。假如判定失败，则你重重地摔在地面上，遭受1点伤害并进入击昏状态。"
+EventRockMythos5.button1,{qst:CONTINUE}
+EventTakeRock.text,石头周围的空间扭曲了起来，你奋力地尝试触摸到它。 ({observation}; 2).
+EventTakeRock.button1,{qst:PASS}
+EventTakeRock.button2,{qst:FAIL}
+EventFailRock.text,"你脑海中拼命地尝试着破解石头中蕴含的秘密。漫不经心的你突然被地上的鹅卵石所绊倒，遭受1点伤害与1点恐惧。"
+EventFailRock.button1,{qst:CONTINUE}
+SpawnAttackSquareRiot.text,<i>镇民们突然清醒了过来。</i>\n\n从现在开始，调查员必须对该怪物进行恐惧或躲避判定。在游戏的怪物匣中选择怪物进行攻击。
+TokenRock.text,"<i>它看起来像一块黑色的石头，因为某种原因使得它十分难以被看清楚。</i>\n\n处于该格子中的一名调查员可以尝试拾起石头。"
+TokenRock.button1,{action} 拾起
+SpawnAttackSquareRiot.button1,{qst:CONTINUE}
+SpawnAttackShopCultist.text,<i>店主突然醒了过来并注意到了你的存在。</i>\n\n从现在开始，调查员必须对该怪物进行恐惧或躲避判定。在游戏的怪物匣中选择怪物进行攻击。
+SpawnAttackShopCultist.button1,{qst:CONTINUE}
+SpawnAttackStreetCultist.button1,{qst:CONTINUE}
+SpawnAttackWarehouseCultist.button1,{qst:CONTINUE}
+SpawnAttackBasementCultist.button1,{qst:CONTINUE}
+SpawnAttackPondRiot.button1,{qst:CONTINUE}
+SpawnAttackPriest.button1,{qst:CONTINUE}
+EventAddSquare.button1,{qst:CONTINUE}
+EventSquareRiot.text,"<i>夜幕降临后，你隐约听到一种仿似来自超自然世界的声音，这种神秘的音乐在小镇的巷道中回荡着。还留在室外的镇民在听到这种音乐后停下了脚步，顿时木讷地站着，仿佛被音乐附魔了一样。</i>\n\n把怪物模型“{ffg:MONSTER_RIOT}”放置到对应的位置上以表示这群镇民。调查员不需要对该怪物进行恐惧或躲避判定。"
+EventSquareRiot.button1,{qst:CONTINUE}
+EventAddShopExplore.text,<i>杂货店里面还有灯光亮着。</i>\n\n把1枚探索标记按照如下放置。
+EventAddShopExplore.button1,{qst:CONTINUE}
+EventAddSearchSquare.text,<i>寒风把一小堆垃圾吹到了角落中。</i>\n\n把1枚搜索标记按照如下放置。
+EventAddSearchSquare.button1,{qst:CONTINUE}
+EventPlaceInvestigators.text,把调查员放置在对应的位置上。
+EventPlaceInvestigators.button1,{qst:CONTINUE}
+EventSearchSquare.text,{qst:HIDDEN}
+EventSearchSquare.button1,{qst:CONTINUE}
+EventAddShopCultist.text,<i>店主无视你的到来，并似乎处于一种发呆发愣的状态。</i>\n\n把怪物模型“{ffg:MONSTER_CULTIST}”放置到对应的位置上以表示店主。调查员不需要对该怪物进行恐惧或躲避判定。
+EventAddShopCultist.button1,{qst:CONTINUE}
+EventAddStreetExplore.text,<i>这扇门可以通往店铺后面的巷子。</i>\n\n把1枚探索标记按照如下放置。
+EventAddStreetExplore.button1,{qst:CONTINUE}
+EventAddStreet.text,把“{ffg:TILE_STREET_CORNER_1_MAD20}”和“{ffg:TILE_WAREHOUSE_MAD20}”板块如下放置。
+EventAddStreet.button1,{qst:CONTINUE}
+EventAddStreetWall.text,{qst:PLACE1WALLTOKEN}
+EventAddStreetWall.button1,{qst:CONTINUE}
+EventAddStreetCultist.text,"<i>  这个当地人一动不动地伫立在那，可怕的是他仿佛一点都感受不到天气的寒冷。</i>\n\n把怪物模型“{ffg:MONSTER_CULTIST}”放置到对应的位置上以表示这名当地人。调查员不需要对该怪物进行恐惧或躲避判定。"
+EventAddStreetCultist.button1,{qst:CONTINUE}
+EventAddWarehouseExplore.text,<i>这扇被上了锁的门貌似是通往仓库的。那些音乐应该就是从建筑的另一头传过来的。</i>\n\n把1枚探索标记按照如下放置。
+EventAddWarehouseExplore.button1,{qst:CONTINUE}
+EventSearchStreet.text,{qst:HIDDEN}
+EventSearchStreet.button1,{qst:CONTINUE}
+EventAddWarehouseCultist.text,<i>一个女人站在仓库的角落中，像死人一般一动也不动。</i>\n\n把怪物模型“{ffg:MONSTER_CULTIST}”放置到对应的位置上以表示这名当地人。调查员不需要对该怪物进行恐惧或躲避判定。
+EventAddWarehouseCultist.button1,{qst:CONTINUE}
+EventAddBasementExplore.text,<i>这扇门是通往地下室的。</i>\n\n把1枚探索标记按照如下放置。
+EventAddBasementExplore.button1,{qst:CONTINUE}
+EventSearchWarehouse.text,{qst:HIDDEN}
+EventSearchWarehouse.button1,{qst:CONTINUE}
+EventAddBasement.text,把“{ffg:TILE_BASEMENT_MAD20}”板块如下放置。
+EventAddBasement.button1,{qst:CONTINUE}
+EventAddBasementCultist.text,<i>旁边站着一个当地人。</i>\n\n把怪物模型“{ffg:MONSTER_CULTIST}”放置到对应的位置上以表示这名当地人。调查员不需要对该怪物进行恐惧或躲避判定。
+EventAddBasementCultist.button1,{qst:CONTINUE}
+EventAddCellarExplore.text,<i>那些奇怪的音乐就是从这个方向传来的。</i>\n\n把1枚探索标记按照如下放置。
+EventAddCellarExplore.button1,{qst:CONTINUE}
+EventAddBasementWall.text,{qst:PLACE1WALLTOKEN}
+EventAddBasementWall.button1,{qst:CONTINUE}
+EventSearchBasement.text,{qst:HIDDEN}
+EventSearchBasement.button1,{qst:CONTINUE}
+EventAddCellar.text,把“{ffg:TILE_ROOT_CELLAR_MAD20}”板块如下放置。
+EventAddCellar.button1,{qst:CONTINUE}
+EventAddPondExplore.text,"<i>穿过这扇门就应该可以回到地面上。那些声音感觉越来越近了。</i>\n\n把1枚探索标记按照如下放置。"
+EventAddPondExplore.button1,{qst:CONTINUE}
+EventSearchCellar.text,{qst:HIDDEN}
+EventSearchCellar.button1,{qst:CONTINUE}
+EventAddPond.text,<i>弄开了挡住门的烂木板后，门被打开了。</i>\n\n把“{ffg:TILE_PARK_POND_MAD20}”和“{ffg:TILE_YARD_2_MAD20}”板块如下放置。
+EventAddPond.button1,{qst:CONTINUE}
+EventAddPondRiot.text,<i>一群镇民呆若木鸡地围绕在一块神秘的物体面前站着。</i>\n\n把怪物模型“{ffg:MONSTER_RIOT}”放置到对应的位置上以表示这些当地人。调查员不需要对该怪物进行恐惧或躲避判定。
+EventAddPondRiot.button1,{qst:CONTINUE}
+EventAddPriest.text,"<i>一名祭司在进行着某种仪式。祭司的动作让人感觉到不安，他的肢体动作仿似不是由他自主控制的一般。</i>\n\n把怪物模型“{ffg:UNIQUE_MONSTER_PRIEST_OF_DAGON}”放置到对应的位置上以表示祭司。调查员不需要对该怪物进行恐惧或躲避判定。"
+EventAddPriest.button1,{qst:CONTINUE}
+EventAddRock.text,"<i>这是一块很大的、漂浮在池塘边上的物体，只能说它看起来像一块黑色的石头，因为某种原因使得它十分难以被看清楚。</i>\n\n把1枚互动标记按照如下放置。"
+EventAddRock.button1,{qst:CONTINUE}
+EventSearchYard.text,{qst:HIDDEN}
+EventSearchYard.button1,{qst:CONTINUE}
+EventRock.button1,{qst:CONTINUE}
+EventAwakeSquareRiot.button1,{qst:HIDDEN}
+EventAwakeShopCultist.button1,{qst:HIDDEN}
+EventAwake.text,"<i>镇民们仿佛被突然唤醒了一样，变得清醒并反应过来，他们之前那呆若木鸡的状态不复存在。</i>\n\n按照怪物出现的顺序为其放置对应的身份指示物。从现在开始，对所有怪物均需要进行恐惧或躲避判定。"
+EventAwake.button1,{qst:CONTINUE}
+EventAwakeStreetCultist.button1,{qst:HIDDEN}
+EventAwakeWarehouseCultist.button1,{qst:HIDDEN}
+EventAwakeBasementCultist.button1,{qst:HIDDEN}
+EventAwakePondRiot.button1,{qst:HIDDEN}
+EventAwakePriest.button1,{qst:HIDDEN}
+EventAddEscape.text,把一个互动标记放置在对应的位置上。调查员必须带上石头，移动到这个位置上来逃出小镇。
+EventAddEscape.button1,{qst:CONTINUE}
+EventEndEscape.text,<i>当你成功逃离出罗利镇之后，那块奇怪石头突然使你感到一阵眩晕，之前听到的那些奇怪的音乐仿佛要从你的脑里迸发而出。你这才意识到把这样一件危险的物品带出去实在是太危险了。于是你调转车头，最后把石头埋藏在树林的最深处，一处足够隐蔽的地方。从此以后，你每日每夜都祈祷着，希望直到世界末日，它永远也不要被人们所发现...</i>
+EventEndEscape.button1,{qst:THEEND}
+EventEndEliminated.text,<i>余下的调查员拼命地逃跑，但愿能够逃出这个恐怖的地方！这块来自异星的神秘石头，显然存在着超出人类认知范围的恐怖力量！但愿它能够被隔离开来！</i>
+EventEndEliminated.button1,{qst:THEEND}
+TokenStreetCultist.text,"<i>  这个当地人一动不动地伫立在那，可怕的是他仿佛一点都感受不到天气的寒冷。</i>"
+TokenStreetCultist.button1,{qst:ATTACK}
+TokenPondPriest.text,<i>一名祭司在进行着某种仪式。</i>
+TokenPondPriest.button1,{qst:ATTACK}
+TokenWarehouseCultist.text,<i>一个女人站在仓库的角落中。</i>
+TokenWarehouseCultist.button1,{qst:ATTACK}
+TokenBasementCultist.text,<i>旁边站着一个当地人。</i>
+TokenBasementCultist.button1,{qst:ATTACK}
+TokenSearchYard.button1,{qst:SEARCH}
+TokenSearchSquare.button1,{qst:SEARCH}
+TokenSearchShop.button1,{qst:SEARCH}
+TokenSearchStreet.text,<i>巷子的黑暗拐角处似乎隐藏着些什么。</i>
+TokenSearchStreet.button1,{qst:SEARCH}
+TokenSearchWarehouse.button1,{qst:SEARCH}
+TokenSearchBasement.button1,{qst:SEARCH}
+TokenSearchCellar.button1,{qst:SEARCH}
+TokenExit.text,持有石头的调查员是否处于该格子中？
+TokenExit.button1,逃跑
+TokenPondRiot.text,<i>一群镇民呆若木鸡地站着。</i>
+TokenPondRiot.button1,{qst:ATTACK}
+TokenExploreShop.text,<i>杂货店里面还有灯光亮着。</i>
+TokenExploreShop.button1,{qst:EXPLORE}
+TokenExploreStreet.text,<i>这扇门可以通往店铺后面的巷子。</i>
+TokenExploreStreet.button1,{qst:EXPLORE}
+TokenExploreBasement.text,<i>这扇门是通往地下室的。</i>
+TokenExploreBasement.button1,{qst:EXPLORE}
+TokenExploreCellar.text,<i>那些奇怪的音乐就是从这个方向传来的。</i>
+TokenExploreCellar.button1,{qst:EXPLORE}
+TokenShopCultist.text,<i>店主似乎处于一种发呆发愣的状态。</i>
+TokenShopCultist.button1,{qst:ATTACK}
+TokenSquareRiot.text,<i>镇民们对你无动于衷，一点也不关心你的存在。</i>
+TokenSquareRiot.button1,{qst:ATTACK}
+SpawnAttackPriest.text,<i>祭司猛然清醒过来。</i>\n\n从现在开始，调查员必须对该怪物进行恐惧或躲避判定。在游戏的怪物匣中选择怪物进行攻击。
+SpawnAttackPondRiot.text,<i>镇民们由于仪式被打断而愤怒地高呼起来。</i>\n\n从现在开始，调查员必须对该怪物进行恐惧或躲避判定。在游戏的怪物匣中选择怪物进行攻击。
+SpawnAttackBasementCultist.text,<i>你的行动打断了沉默并唤醒了愤怒的他。</i>\n\n从现在开始，调查员必须对该怪物进行恐惧或躲避判定。在游戏的怪物匣中选择怪物进行攻击。
+SpawnAttackWarehouseCultist.text,<i>这个女人被你的突然袭击吓了一跳。</i>\n\n从现在开始，调查员必须对该怪物进行恐惧或躲避判定。在游戏的怪物匣中选择怪物进行攻击。
+SpawnAttackStreetCultist.text,<i>这个男人突然浑身摇摆，并且苏醒了过来。</i>\n\n从现在开始，调查员必须对该怪物进行恐惧或躲避判定。在游戏的怪物匣中选择怪物进行攻击。
