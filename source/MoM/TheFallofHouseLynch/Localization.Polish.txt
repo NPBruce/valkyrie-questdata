@@ -1,0 +1,430 @@
+.,Polish
+UIBegin.uitext,{qst:CONTINUE}
+CONTINUE,Kontynuuj
+UIText1.uitext,Biuro przesiąknięte jest dymem papierosowym. Jest tu ciasno, szafki na dokumenty ustawiono rzędem wzdłuż ściany, a stos starych czasopism wystaje spod nóg taniego, drewnianego biurka. Za biurkiem siedzi wyraźnie poddenerwowany, pulchny, łysy mężczyzna.\n\n"Najwyższa pora, żebyś wziął się do roboty" - mówi, stukając palcami w biurko. "Czas to pieniądz, a my tracimy go na kopy."\n\n"Potrzebuję twojej pomocy w odnalezieniu mojego wspólnika." \nRzuca w twoim kierunku folder z dokumentami. "Zaginiony nazywa się Walter Lynch. Zawsze był mózgiem tej operacji, a bez niego cały biznes okazał się być niewypałem. Nie jestem w stanie prowadzić go samemu. Walter nie odpowiada na listy, nie pojawia się w biurze a wszystkie nasze dotychczasowe próby sprowadzenia go tutaj okazały się..." - robi pauzę, ostrożnie dobierając kolejne słowo - "nieudane". \n\nCzłowiek kiwa głową w kierunku folderu - "Masz tutaj wszystko to, co udało się nam ustalić. Znajdź Waltera i przywróć go do użytku. Liczę na ciebie. Stawka jest większa, niż myślisz."
+UIContinue1.uitext,{qst:CONTINUE}
+UIText2.uitext,Później, w samochodzie, ostrożnie otwierasz zabrudzony folder. Znajdujesz w nim surową mapę ze wskazówkami dojazdu do rezydencji położonej na obrzeżach Arkham, w stanie Massachusetts. Rysunek jest prymitywny, jakby naszkicowany przez dziecko. Za mapą znajduje się podarty wpis do dziennika: \n\n"8 czerwca 1918 r.: Minął prawie rok, odkąd mój syn zachorował. Lekarze byli bezradni wobec choroby, która powoli, dzień po dniu trawiła jego ciało. Jestem człowiekiem czynu i nie mogłem siedzieć i czekać, aż mój jedyny dziedzic umrze w męczarniach.\n\nDziewięć miesięcy spędziłem podróżując po świecie. Szukając lekarstwa. Od głębin dżungli Afryki, aż po mądrość Orientu, nie znalazłem niestety żadnych odpowiedzi. Wciąż jednak szukałem, coraz głębiej i głębiej w zagubione miejsca na świecie i... poza światem. Odkryłem wiele tajemnic i koszmarów, ale niestety, lekarstwo wciąż pozostawało poza moim zasięgiem. \n\nPochłonięty poszukiwaniami nie wiedziałem nawet, że jest już za późno. Po powrocie do domu dowiedziałem się, że mój syn odszedł z tego świata bez ojca, który czuwałby u jego boku i mógłby go pocieszyć w najgorszej godzinie. \n\nWróciłem do domu, do mojej żony Edith, zamierzając zostać już tu na stałe. Pogrążyliśmy się w żałobie. Życie powoli wracało do normy, a ja wróciłem do pracy. Rozpocząłem nowe przedsięwzięcia biznesowe i pomnażałem fortunę, podczas gdy moja dusza marniała. \n\nProces leczenia nie był łatwy, ale odkryłem, że praca oraz moja żona Edith pomogły mi zignorować własny ból."
+UIText3.uitext,Na odwrocie kartki z dziennika znajduje się kolejny, chaotyczny wpis: \n\n"21 stycznia 1919 r.: Jak to się mogło stać? Dlaczego? \n\nPróbujesz chronić siebie. Próbujesz chronić swoją rodzinę, ale ostatecznie nie ma to żadnego znaczenia. \n\nEdith, jesteś wszystkim, co mam. Jak mogło ci się to przytrafić? \n\nMuszę kopać głębiej. Muszę zrobić wszystko. Każdy sekret, każde zaklęcie, których nie odważyłem się wcześniej nawet dotknąć... Znajdę odpowiedzi!"
+UIContinue2.uitext,{qst:CONTINUE}
+quest.name,Upadek Domu Lynchów
+quest.description,Jest to konwersja scenariusza do pierwszej edycji Posiadłości Szaleństwa.\n\nWasza drużyna została wynajęta do zbadania sprawy zaginięcia Waltera Lyncha. Niegdyś wspaniałego człowieka i bogatego przedsiębiorcy, który z biegiem lat stał się coraz bardziej nieprzewidywalny. Jakie mroczne tajemnice odkrył? Czy jesteś w stanie odkryć prawdę, czy też staniesz się jedynie kolejnym pionkiem w jakimś większym planie? \n\n<b>Uwaga:</b> w tym scenariuszu gracze nie otrzymają żadnych kart "dowodów", a tym samym karty szaleństwa, które opierają się na posiadanych przez graczy "dowodach", nie powinny być używane w tej rozgrywce.
+quest.authors,<b>Author</b>\nFantasy Flight Games\n\n<b>Konwersja:</b>\nBruce\n\n<b>Tłumaczenia:</b>\nNiemiecki: redwolf2\nHiszpański: eorahil\nFrancuski: Indoy\nWłoski: xXshinigamiXx\nPolski: Damian "sircohen" Sznyra
+EventInvestigators.text,Umieśćcie figurki Badaczy na wskazanym polu. \n\nKażdy badacz otrzymuje dwa żetony <COLOR=GREEN>wskazówek</COLOR> {clue}.
+EventInvestigators.button1,{qst:CONTINUE}
+EventFoyerExploreTokens.text,{qst:PLACE4EXPLORETOKEN}
+PLACE4EXPLORETOKEN,Umieść 4 <COLOR=CYAN>Żetony Eksploracji</COLOR> we wskazanych miejscach.
+EventFoyerExploreTokens.button1,{qst:CONTINUE}
+EventPrologue3A.text,Wchodząc do pustego domu, od razu zauważasz unoszący się w powietrzu słaby zapach przypalonego jedzenia. Być może ktoś zapomniał wyłączyć kuchenkę?
+EventPrologue3A.button1,{qst:CONTINUE}
+UIBegin.button1,Button1
+EventGetElderSign3B.text,{qst:EventGetElderSign3A.text}
+EventGetElderSign3A.text,Otrzymujesz Przedmiot Powszechny: {c:QItemPendant}.
+EventGetExtinguisher.text,Otrzymujesz Przedmiot Powszechny: {c:QItemExtinguisher}.
+EventGetShotgun3B.text,{qst:EventGetShotgun3A.text}
+EventGetShotgun3A.text,Otrzymujesz Przedmiot Powszechny: {c:QItemShotgun}.
+EventClue3B.text,Zakrwawiona masa, która kiedyś była przystojnym, dorosłym mężczyzną, leży na stole operacyjnym. Wokoło leżą zardzewiałe, pokryte plamami zaschniętej krwi instrumenty i narzędzia chirurgiczne, noże oraz piła do cięcia kości.\n\nPozbawiony skóry człowiek spogląda na ciebie w agonii, po czym szepcze ledwo słyszalnie przez pozbawione warg usta. <i>"Boże... moje ciało... on chciał... mojego ciała..."</i>\n\n<i>"On... on pozwolił mi zostać na noc..."</i> - człowiek wydaje z siebie ostatnie tchnienie, a z jego dotychczas zaciśniętej pięści na podłogę z brzękiem upada klucz. \n\nOtrzymujesz przedmiot unikatowy: {c:QItemSilverKey}.
+EventClue2B.text,Twój wzrok rozmywa się i nagle, bez żadnego ostrzeżenia upadasz na ziemię, pochłonięty przez ponurą wizję. Widzisz w niej, jak nieznany ci mężczyzna pogwizduje sobie wesołą melodię, ciągnąc jednocześnie po podłodze za nogę bezwładne ciało nieprzytomnej kobiety. Drżysz widząc, jak jej ciało zostaje przeciągnięte na zewnątrz domu, na deszcz, wprost na błotnistą glebę ogrodu. Wizja kończy się w tej samej sekundzie, w której na głowę kobiety z obrzydliwym chrzęstem miażdżonej czaszki spada łopata.\n\nOtrzymujesz przedmiot unikatowy: {c:QItemCultSigil}.
+EventClue3A.text,Pokój jest pusty, z wyjątkiem wypalonego zarysu ludzkiego ciała znajdującego się na kuchennym stole. Po bliższym przyjrzeniu się, znajdujesz prosty, posrebrzany klucz ukryty w sadzy.\n\nŚlad poczerniałych stóp prowadzi po schodach do holu i w dół korytarza.\n\nOtrzymujesz przedmiot unikatowy: {c:QItemSilverKey}.
+EventGetLantern.text,Otrzymujesz Przedmiot Powszechny: {c:QItemLantern}.
+EventClue2A.text,Znajdujesz wpis w dzienniku datowany na dzień 5 lipca 1918 r.: <i>"Stan mojej żony zaczął się ostatnio pogarszać. Wiem, że to już tylko kwestia czasu i przygotowałem dla niej odpowiednie miejsce spoczynku, wraz z innymi ciałami, głęboko w ziemi".</i>\n\nOtrzymujesz przedmiot unikatowy: {c:QItemCultSigil}.
+EventGetItem5.text,Otrzymujesz Przedmiot Powszechny: {c:QItemLantern}.
+EventGetAxe.text,Otrzymujesz Przedmiot Powszechny: {c:QItemAxe}.
+EventGetItem4.text,Otrzymujesz Przedmiot Powszechny: {c:QItemAxe}.
+EventGetHeal.text,Otrzymujesz Zaklęcie: {c:QItemFleshWard}.
+EventGetItem2.text,Otrzymujesz Przedmiot Powszechny: {c:QItemWhiskey}.
+EventGetItem1.text,Otrzymujesz Przedmiot Powszechny: {c:QItemSedative}.
+PuzzleGuestStorage.button1,{qst:CONTINUE}
+PuzzlePuzzlebox.button1,{qst:CONTINUE}
+PuzzleSuitcase.button1,{qst:CONTINUE}
+PuzzleFrontDoor.button1,{qst:CONTINUE}
+PuzzlePowerFailure.button1,{qst:CONTINUE}
+ACTIONSEARCH,{action} Przeszukaj
+ACTIONEXPLORE,{action} Eksploruj
+FORFEIT,Anuluj
+NO,Nie
+PLACE1BARRICADE,Umieść <COLOR=CYAN>Żeton Barykady</COLOR> we wskazanym miejscu.
+PLACE1EXPLORETOKEN,Umieść <COLOR=CYAN>Żeton Eksploracji</COLOR> we wskazanym miejscu.
+PLACE2EXPLORETOKEN,Umieść 2 <COLOR=CYAN>Żetony Eksploracji</COLOR> we wskazanych miejscach.
+PLACE2SEARCHTOKEN,Umieść 2 <COLOR=CYAN>Żetony Przeszukania</COLOR> we wskazanych miejscach.
+PLACE3SEARCHTOKEN,Umieść 3 <COLOR=CYAN>Żetony Przeszukania</COLOR> we wskazanych miejscach.
+PLACE1WALLTOKEN,Umieść <COLOR=CYAN>Żeton Ściany</COLOR> we wskazanym miejscu.
+PLACEWALLTOKEN,Umieść <COLOR=CYAN>Żetony Ścian</COLOR> we wskazanych miejscach.
+THEEND,Koniec
+UNABLETOATTACK,Nie można atakować
+UNLOCK,Otwórz
+WALTERLYNCH,Walter Lynch
+YES,Tak
+TokenCeremonyBarred.text,Te drzwi prowadzą dalej pod powierzchnię domu.
+TokenCeremonyBarred.button1,{qst:ACTIONEXPLORE}
+TokenBasement2A.text,Dziwne fiolki z nieznanymi płynami leżą na półce
+TokenBasement2A.button1,{qst:ACTIONSEARCH}
+TokenBasement2B.text,{qst:TokenBasement2A.text}
+TokenBasement2B.button1,{qst:ACTIONSEARCH}
+TokenBasementDoor2A.text,U podnóża schodów znajdują się drzwi.
+TokenBasementDoor2A.button1,{qst:ACTIONEXPLORE}
+TokenBasementDoor2ALocked.text,Drzwi prowadzące do tego pomieszczenia są zapieczętowane zamkiem, który otworzy się tylko wtedy, gdy masz odpowiednią pieczęć.\n\nTen żeton może być eksplorowany tylko przez tego Badacza, który posiada Pieczęć Kultu w swoim ekwipunku.
+TokenBasementDoor2ALocked.button1,{qst:ACTIONEXPLORE}
+TokenBasementDoor2B.text,{qst:TokenBasementDoor2A.text}
+TokenBasementDoor2B.button1,{qst:ACTIONEXPLORE}
+TokenGuest3A.text,W szufladach może znajdować się coś interesującego.
+TokenGuest3A.button1,{qst:ACTIONSEARCH}
+TokenGuest3B.text,{qst:TokenGuest3A.text}
+TokenGuest3B.button1,{qst:ACTIONSEARCH}
+TokenGuestDoor3A.text,Te drzwi prowadzą do sypialni dla gości.
+TokenGuestDoor3A.button1,{qst:ACTIONEXPLORE}
+TokenGuestDoor3B.text,{qst:TokenGuestDoor3A.text}
+TokenGuestDoor3B.button1,{qst:ACTIONEXPLORE}
+TokenGuestDoor3BLocked.text,Te zamknięte drzwi prowadzą do sypialni dla gości.\n\nTen żeton może być eksplorowany tylko przez tego Badacza, który posiada Srebrny Klucz w swoim ekwipunku.
+TokenGuestDoor3BLocked.button1,{qst:ACTIONEXPLORE}
+TokenStorage3A.text,Jedno z pudełek zostało oznaczone dziwnymi symbolami.
+TokenStorage3A.button1,{qst:ACTIONSEARCH}
+TokenStorage3B.text,{qst:TokenStorage3A.text}
+TokenStorage3B.button1,{qst:ACTIONSEARCH}
+TokenStorageDoor.text,Te drzwi prowadzą do schowka.
+TokenStorageDoor.button1,{qst:ACTIONEXPLORE}
+TokenMaster3A.text,W tych szufladach może znajdować się coś wartego uwagi.
+TokenMaster3A.button1,{qst:ACTIONSEARCH}
+TokenMaster3B.text,Zauważasz teczkę schowaną za oparciem krzesła.
+TokenMaster3B.button1,{qst:ACTIONSEARCH}
+TokenMasterDoor3A.text,Te drzwi prowadzą do głównej sypialni.
+TokenMasterDoor3A.button1,{qst:ACTIONEXPLORE}
+TokenMasterDoor3ALocked.text,Te zamknięte drzwi prowadzą do głównej sypialni.\n\nTen żeton może być eksplorowany tylko przez tego Badacza, który posiada Srebrny Klucz w swoim ekwipunku.
+TokenMasterDoor3ALocked.button1,{qst:ACTIONEXPLORE}
+TokenMasterDoor3B.text,{qst:TokenMasterDoor3A.text}
+TokenMasterDoor3B.button1,{qst:ACTIONEXPLORE}
+TokenKitchen3A.text,Coś znajdującego się na blacie stołu przykuwa twoją uwagę.
+TokenKitchen3A.button1,{qst:ACTIONSEARCH}
+TokenKitchen3B.text,Drzwi szafki kuchennej zostały uchylone.
+TokenKitchen3B.button1,{qst:ACTIONSEARCH}
+TokenFreezer3A.text,Lód z zamrażarki powoli topi się i kapie na podłogę.
+TokenFreezer3A.button1,{qst:ACTIONSEARCH}
+TokenFreezer3B.text,{qst:TokenFreezer3A.text}
+TokenFreezer3B.button1,{qst:ACTIONSEARCH}
+TokenOperating3A.text,Powietrze w tym pokoju jest aż gęste od dusznej, mrocznej atmosfery. Podświadomie czujesz, że wydarzyło się tu coś strasznego.
+TokenOperating3A.button1,{qst:ACTIONSEARCH}
+TokenOperating3B.text,{qst:TokenOperating3A.text}
+TokenOperating3B.button1,{qst:ACTIONSEARCH}
+TokenGarden2A.text,Coś pozostawiono tu oparte o ścianę.
+TokenGarden2A.button1,{qst:ACTIONSEARCH}
+TokenGarden2B.text,Ziemia w tym miejscu została niedawno rozkopana.
+TokenGarden2B.button1,{qst:ACTIONSEARCH}
+TokenGardenDoor2A.text,Drzwi prowadzą na zewnątrz domu, do ogrodu.
+TokenGardenDoor2A.button1,{qst:ACTIONEXPLORE}
+TokenGardenDoor2B.text,{qst:TokenGardenDoor2A.text}
+TokenGardenDoor2B.button1,{qst:ACTIONEXPLORE}
+TokenGardenDoor2BLocked.text,Te zamknięte drzwi prowadzą do ogrodu.\n\nTen żeton może być eksplorowany tylko przez tego Badacza, który posiada Znak Kultu w swoim ekwipunku.
+TokenGardenDoor2BLocked.button1,{qst:ACTIONEXPLORE}
+EventNo1E.text,<b>Uwaga:</b> Nie wybrałeś Posiadłości Szaleństwa Pierwsza Edycja w menu Wybór Zawartości aplikacji.\n\nTen scenariusz nie posiada wersji dostosowanej do zawartości z drugiej edycji. Aby zagrać w ten scenariusz wymagane będą kafelki zastępcze.
+EventNo1E.button1,{qst:CONTINUE}
+EventPrologue.text,Lekki deszcz pada na twoją twarz, gdy wysiadasz z samochodu przed posiadłością. Dom jest ogromny, ale widocznie od wielu miesięcy już niezadbany i obecnie spowija go niesamowita cisza. Łomoczesz kilkukrotnie pięścią w drzwi, ale nie ma odpowiedzi. Chwilę później, ku twojemu zdumieniu, drzwi same uchylają się lekko, a ty wchodzisz ostrożnie do foyer ogromnej rezydencji.
+EventPrologue.button1,{qst:CONTINUE}
+EventFoyerTile.text,Umieść kafelek {MAD01} Foyer we wskazanym miejscu.
+EventFoyerTile.button1,{qst:CONTINUE}
+EventFoyerSearchToken.text,<i>Stojak na płaszcze znajduje się pod ścianą nieopodal.</i>\n\nUmieść <COLOR=CYAN>Żeton Przeszukiwania</COLOR> we wskazanym miejscu.
+EventFoyerSearchToken.button1,{qst:CONTINUE}
+EventPrologue3B.text,Chociaż posiadłość jest niewątpliwie stara, nie wydaje z siebie ani jednego dźwięku. Wydaje się, że dom wstrzymuje oddech, czekając, aż wydarzy się coś strasznego. Nagle, powietrze przeszywa mrożący krew w żyłach krzyk, odbijający się echem od laboratorium. Dom drży w posadach od działania nieznanej siły, niczym podczas trzęsienia ziemi, aż zakurzone obrazy spadają ze ścian.
+EventPrologue3B.button1,{qst:CONTINUE}
+EventKitchenTile.text,Umieść kafelek {MAD01}Jadalnia we wskazanym miejscu.
+EventKitchenTile.button1,{qst:CONTINUE}
+EventExporeKitchen.text,{qst:PLACE3SEARCHTOKEN}
+EventExporeKitchen.button1,{qst:CONTINUE}
+EventExporeLabTile.text,Umieść kafelek {MAD01}Laboratorium we wskazanym miejscu.
+EventExporeLabTile.button1,{qst:CONTINUE}
+EventExporeLabExplore.text,{qst:PLACE1EXPLORETOKEN}
+EventExporeLabExplore.button1,{qst:CONTINUE}
+EventExporeLab.text,{qst:PLACE3SEARCHTOKEN}
+EventExporeLab.button1,{qst:CONTINUE}
+EventHallTile.text,Umieść kafelek {MAD01}Korytarz 2 oraz {MAD01} Korytarz 4 we wskazanym miejscu.
+EventHallTile.button1,{qst:CONTINUE}
+EventHallWallToken.text,{qst:PLACE1WALLTOKEN}
+EventHallWallToken.button1,{qst:CONTINUE}
+EventHallSearchTokens.text,{qst:PLACE2SEARCHTOKEN}
+EventHallSearchTokens.button1,{qst:CONTINUE}
+EventHallExploreToken3A.text,{qst:PLACE2EXPLORETOKEN}
+EventHallExploreToken3A.button1,{qst:CONTINUE}
+EventHallExploreToken3B.text,{qst:PLACE2EXPLORETOKEN}
+EventHallExploreToken3B.button1,{qst:CONTINUE}
+EventGardenTile.text,Umieść kafelek {MAD01}Ogród we wskazanym miejscu.
+EventGardenTile.button1,{qst:CONTINUE}
+EventGardenAddSearch.text,Coś położono pod krzesłem.\n\nUmieść 1 <COLOR=CYAN>Żeton Przeszukiwania</COLOR> we wskazanym miejscu.
+EventGardenAddSearch.button1,{qst:CONTINUE}
+EventGardenExploreToken2A.text,{qst:PLACE1EXPLORETOKEN}
+EventGardenExploreToken2A.button1,{qst:CONTINUE}
+EventGardenExploreToken2B.text,{qst:PLACE1EXPLORETOKEN}
+EventGardenExploreToken2B.button1,{qst:CONTINUE}
+EventBasementTile.text,Umieść kafelek {MAD01}Piwnica we wskazanym miejscu.
+EventBasementTile.button1,{qst:CONTINUE}
+EventBasementAddSearch.text,Zauważasz, że coś znajduje się w ciemnościach.\n\nUmieść 1 <COLOR=CYAN>Żeton Przeszukiwania</COLOR> we wskazanym miejscu.
+EventBasementAddSearch.button1,{qst:CONTINUE}
+EventBasementExploreToken2A.text,{qst:PLACE1EXPLORETOKEN}
+EventBasementExploreToken2A.button1,{qst:CONTINUE}
+EventBasementExploreToken2B.text,{qst:PLACE1EXPLORETOKEN}
+EventBasementExploreToken2B.button1,{qst:CONTINUE}
+EventMasterLock.text,Drzwi są zamknięte. Nie można ich otworzyć bez właściwego klucza.
+EventMasterLock.button1,{qst:CONTINUE}
+EventMasterLockKey.text,Te drzwi są zamknięte. Otworzyć może je tylko Badacz posiadający Srebrny Klucz w swoim ekwipunku.
+EventMasterLockKey.button1,{qst:CONTINUE}
+EventMasterLockKey.button2,{qst:FORFEIT}
+EventMasterTile.text,Umieść kafelek {MAD01}Główna Sypialnia we wskazanym miejscu.
+EventMasterTile.button1,{qst:CONTINUE}
+EventMasterSeal.text,{qst:PLACEWALLTOKEN}
+EventMasterSeal.button1,{qst:CONTINUE}
+EventMasterSearch3A.text,Te szuflady mogą zawierać coś wartego uwagi.\n\nUmieść <COLOR=CYAN>Żeton Przeszukiwania</COLOR> we wskazanym miejscu.
+EventMasterSearch3A.button1,{qst:CONTINUE}
+EventMasterSearch3B.text,Zauważasz teczkę ukrytą za krzesłem.\n\nUmieść <COLOR=CYAN>Żeton Przeszukiwania</COLOR> we wskazanym miejscu.
+EventMasterSearch3B.button1,{qst:CONTINUE}
+EventGuestLock.text,{qst:EventMasterLock.text}
+EventGuestLock.button1,{qst:CONTINUE}
+EventGuestLockKey.text,{qst:EventMasterLockKey.text}
+EventGuestLockKey.button1,{qst:UNLOCK}
+EventGuestLockKey.button2,{qst:FORFEIT}
+EventGuestTile.text,Umieść kafelek {MAD01} Sypialnia dla Gości we wskazanym miejscu.
+EventGuestTile.button1,{qst:CONTINUE}
+EventGuestSearch3A.text,Te szuflady mogą zawierać w sobie coś wartego twojej uwagi.\n\nUmieść <COLOR=CYAN>Żeton Przeszukiwania</COLOR> we wskazanym miejscu.
+EventGuestSearch3A.button1,{qst:CONTINUE}
+EventGuestSearch3B.text,{qst:EventGuestSearch3A.text}
+EventGuestSearch3B.button1,{qst:CONTINUE}
+EventGuestStorageExplore.text,{qst:PLACE1EXPLORETOKEN}
+EventGuestStorageExplore.button1,{qst:CONTINUE}
+EventStorageExplore3A.text,Jedno z pudełek posiada dziwaczne oznaczenia.\n\nUmieść <COLOR=CYAN>Żeton Przeszukiwania</COLOR> we wskazanym miejscu.
+EventStorageExplore3A.button1,{qst:CONTINUE}
+EventStorageExplore3B.text,{qst:EventStorageExplore3A.text}
+EventStorageExplore3B.button1,{qst:CONTINUE}
+EventGardenLock.text,Drzwi prowadzące na zewnątrz do ogrodu zostały zamknięte na zamek, który tylko osoba znająca odpowiednie hasło zdoła otworzyć.
+EventGardenLock.button1,{qst:CONTINUE}
+EventGardenLockKey.text,Drzwi prowadzące na zewnątrz do ogrodu są zapieczętowane zamkiem, który otworzy się tylko wtedy, gdy masz odpowiednią pieczęć.\n\nTen żeton może być eksplorowany tylko przez tego Badacza, który posiada Symbol Kultu w swoim ekwipunku.
+EventGardenLockKey.button1,{qst:UNLOCK}
+EventGardenLockKey.button2,{qst:FORFEIT}
+EventGardenLockUnlocked.text,Ziemia w tym miejscu została niedawno rozkopana.\n\nUmieść <COLOR=CYAN>Żeton Przeszukiwania</COLOR> we wskazanym miejscu.
+EventGardenLockUnlocked.button1,{qst:CONTINUE}
+EventGardenJammed.text,Stękasz z wysiłku, próbując wyważyć drzwi.\n\nWykonaj test {strength}.
+EventGardenJammed.button1,{qst:CONTINUE}
+EventGardenExplore2A.text,Coś oparto tu o ścianę.\n\nUmieść <COLOR=CYAN>Żeton Przeszukiwania</COLOR> we wskazanym miejscu.
+EventGardenExplore2A.button1,{qst:CONTINUE}
+EventGardenExplore2B.text,{qst:EventGardenLockUnlocked.text}
+EventGardenExplore2B.button1,{qst:CONTINUE}
+EventBasementLock.text,Drzwi prowadzące do tego pomieszczenia są zapieczętowane zamkiem, który otworzy się tylko wtedy, gdy posiadasz odpowiednią pieczęć.
+EventBasementLock.button1,{qst:CONTINUE}
+EventBasementLockKey.text,Drzwi prowadzące do tego pomieszczenia są zapieczętowane zamkiem, który otworzy się tylko wtedy, gdy posiadasz odpowiednią pieczęć.\n\nTen żeton może być eksplorowany tylko przez tego Badacza, który posiada Pieczęć Kultu w swoim ekwipunku.
+EventBasementLockKey.button1,{qst:UNLOCK}
+EventBasementLockKey.button2,{qst:FORFEIT}
+EventBasementLockUnlocked.text,{qst:PLACE2SEARCHTOKEN}
+EventBasementLockUnlocked.button1,{qst:CONTINUE}
+EventBasementExplore2A.text,{qst:PLACE2SEARCHTOKEN}
+EventBasementExplore2A.button1,{qst:CONTINUE}
+EventBasementJammed.text,{qst:EventGardenJammed.text}
+EventBasementJammed.button1,{qst:CONTINUE}
+EventBasementExplore2B.text,{qst:PLACE2SEARCHTOKEN}
+EventBasementExplore2B.button1,{qst:CONTINUE}
+EventBasementExploreBarrier.text,{qst:PLACE1BARRICADE}
+EventBasementExploreBarrier.button1,{qst:CONTINUE}
+EventBasementCeremonyExplore.text,{qst:PLACE1EXPLORETOKEN}
+EventBasementCeremonyExplore.button1,{qst:CONTINUE}
+EventCeremonyExplore.text,Masz wrażenie, że jakaś mroczna, zła energia przenika przez drzwi, gdy tylko chwytasz za klamkę. Ku twojej uldze, drzwi po prostu się nie otwierają.
+EventCeremonyExplore.button1,{qst:CONTINUE}
+EventGuestStorageDoor.text,Drzwi prowadzące do tego pomieszczenia są zabezpieczone zardzewiałym zamkiem szyfrowym.
+EventGuestStorageDoor.button1,{qst:CONTINUE}
+EventPuzzlebox.text,Znajdujesz pudełko pokryte tajemniczymi runami.
+EventPuzzlebox.button1,{qst:CONTINUE}
+EventSuitcase.text,Znajdujesz solidną walizkę zabezpieczoną prostym zamkiem szyfrowym.
+EventSuitcase.button1,{qst:CONTINUE}
+EventGetLantern.button1,{qst:CONTINUE}
+EventGetAxe.button1,{qst:CONTINUE}
+EventGetShotgun3A.button1,{qst:CONTINUE}
+EventGetShotgun3B.button1,{qst:CONTINUE}
+EventGetEvidence3A.text,Odkrywasz niepokojące dowody na temat tego, co wydarzyło się w posiadłości.\n\nOtrzymujesz 2 <COLOR=GREEN>Wskazówki</COLOR> {clue}.
+EventGetEvidence3A.button1,{qst:CONTINUE}
+EventGetEvidence3B.text,{qst:EventGetEvidence3A.text}
+EventGetEvidence3B.button1,{qst:CONTINUE}
+EventGetElderSign3A.button1,{qst:CONTINUE}
+EventGetElderSign3B.button1,{qst:CONTINUE}
+EventGetExtinguisher.button1,{qst:CONTINUE}
+EventGetItem1.button1,{qst:CONTINUE}
+EventGetItem2.button1,{qst:CONTINUE}
+EventGetItem3.text,Znajdujesz starą księgę.\n\nWykonaj test {lore}.
+EventGetItem3.button1,{qst:CONTINUE}
+EventGetItem3.button2,{qst:CONTINUE}
+EventGetHeal.button1,{qst:CONTINUE}
+EventFailHeal.text,Twój umysł zatraca się w symbolach, które nie chcą pozostać na stronie. Odrywasz wzrok, a gdy spoglądasz z powrotem na kartkę, symbole znikają.
+EventFailHeal.button1,{qst:CONTINUE}
+EventGetItem4.button1,{qst:CONTINUE}
+EventGetItem5.button1,{qst:CONTINUE}
+EventGetItem6.text,Nie znajdujesz tu nic wartego uwagi.
+EventGetItem6.button1,{qst:CONTINUE}
+EventGetItem7.text,Żaden ze znalezionych przedmiotów nie jest przydatny dla twojego śledztwa, ale zapewniają one dodatkowy kontekst dla otoczenia, w którym się znalazłeś.\n\nOtrzymujesz 1 <COLOR=GREEN>Wskazówkę</COLOR> {clue}.
+EventGetItem7.button1,{qst:CONTINUE}
+EventGetItem8.text,Żaden ze znalezionych przedmiotów nie jest przydatny dla twojego śledztwa, ale zapewniają one dodatkowy kontekst dla otoczenia, w którym się znalazłeś.\n\nOtrzymujesz 1 <COLOR=GREEN>Wskazówkę</COLOR> {clue}.
+EventGetItem8.button1,{qst:CONTINUE}
+EventGetItem9.text,Żaden ze znalezionych przedmiotów nie jest przydatny dla twojego śledztwa, ale zapewniają one dodatkowy kontekst dla otoczenia, w którym się znalazłeś.\n\nOtrzymujesz 2 <COLOR=GREEN>Wskazówki</COLOR> {clue}.
+EventGetItem9.button1,{qst:CONTINUE}
+EventGetItem10.text,Żaden ze znalezionych przedmiotów nie jest przydatny dla twojego śledztwa, ale zapewniają one dodatkowy kontekst dla otoczenia, w którym się znalazłeś.\n\nOtrzymujesz 2 <COLOR=GREEN>Wskazówki</COLOR> {clue}.
+EventGetItem10.button1,{qst:CONTINUE}
+EventClue1A.text,Zostajesz pochłonięty przez wizję Waltera prowadzącego seans spirytystyczny, próbując porozumieć się ze swoim zmarłym synem. W wizji patrzysz z przerażeniem, jak nieproszony, obcy duch owija się wokół jego umysłu, wydając mu jedno, proste polecenie: "NAKARM MNIE DUSZAMI!".
+EventClue1A.button1,{qst:CONTINUE}
+EventClue1BShoggoth.text,Gdzieś w domu, Walter próbuje użyć twojego ciała i krwi do wykonania starożytnego rytuału wezwania. Ziemia trzęsie się, aż cała posiadłość drży w posadach. Wszędzie w domu na podłogę spadają książki z półek.
+EventClue1BShoggoth.button1,{qst:CONTINUE}
+EventClue1BNoShoggoth.text,Gdzieś w domu, Walter próbuje użyć twojego ciała i krwi do wykonania starożytnego rytuału wezwania. Ziemia trzęsie się, aż cała posiadłość drży w posadach. Wszędzie w domu na podłogę spadają książki z półek.\n\n<b>Cel:</b> nie pozwól Maniakom na zdobycie próbek.
+EventClue1BNoShoggoth.button1,{qst:CONTINUE}
+EventClue1C.text,Głos Waltera odbija się echem w rezydencji: "MUSIMY GO NAKARMIĆ!". Następnie nieziemski chór krzyków, bólu, strachu i chorych jęków wypełnia dwór. Jest to niepokojący dźwięk, prawie, ale nie całkiem ludzki.\n\nUmieść <COLOR=CYAN>Żeton Eksploracji</COLOR> we wskazanym miejscu.\n\n<b>Cel:</b> Ucieknij przez foyer.
+EventClue1C.button1,{qst:CONTINUE}
+EventClue2A.button1,{qst:CONTINUE}
+EventClue2B.button1,{qst:CONTINUE}
+EventClue3A.button1,{qst:CONTINUE}
+EventClue3B.button1,{qst:CONTINUE}
+SpawnManiac.text,Drzwi eksplodują w drzazgi, gdy do pokoju z impetem wpada oszalały człowiek z zakrwawionym toporem w ręku.\n\nUmieść figurkę potwora Maniak na tym samym polu, co {rnd:hero}.
+SpawnManiac.button1,{qst:CONTINUE}
+EventShoggothMove.text,Czy shoggoth znajduje się we wskazanym miejscu?
+EventShoggothMove.button1,{qst:YES}
+EventShoggothMove.button2,{qst:NO}
+EventShoggothMoveTowards.text,Shoggoth przesuwa się o 2 pola w kierunku wskazanego pola.
+EventShoggothMoveTowards.button1,{qst:CONTINUE}
+EventEndLose1B.text,Wysoko na strychu Walter, uznając swoje zadanie za wykonane, wiesza się.
+EventEndLose1B.button1,{qst:THEEND}
+EventManiacSample.text,Maniak ciągnie cię za włosy.\n\nBadacz znajdujący się na tym samym polu co Maniak z najniższą {agility} wykonuje test ({agility}; 1).
+EventManiacSample.button1,Nie ma Badacza na tym samym polu
+EventManiacSample.button2,Sukces
+EventManiacSample.button3,Porażka
+EventManiacSampleFail.text,Maniak bolesnym szarpnięciem wyrywa ci z głowy garść włosów.
+EventManiacSampleFail.button1,{qst:CONTINUE}
+SpawnShoggothBasement.text,Umieść Shoggotha we wskazanym miejscu.\n\n<b>Cel:</b> Nie pozwól Shoggothowi wydostać się z posiadłości.
+SpawnShoggothBasement.button1,{qst:CONTINUE}
+SpawnShoggothBasementEnter.text,{qst:SpawnShoggothBasement.text}
+SpawnShoggothBasementEnter.button1,{qst:CONTINUE}
+SpawnShoggothBasementStair.text,{qst:SpawnShoggothBasementEnter.text}
+SpawnShoggothBasementStair.button1,{qst:CONTINUE}
+SpawnShoggothBasementStairEnter.text,{qst:SpawnShoggothBasement.text}
+SpawnShoggothBasementStairEnter.button1,{qst:CONTINUE}
+SpawnShoggothFoyer.text,{qst:SpawnShoggothBasement.text}
+SpawnShoggothFoyer.button1,{qst:CONTINUE}
+EventEndWin1B.text,Shoggoth pada na ziemię w wijącej się masie macek. Szaleństwo, które Walter sprowadził do tego świata podczas swoich podróży, zostało zniszczone na zawsze.
+EventEndWin1B.button1,{qst:THEEND}
+EventTimer1NoClue.text,<b>Zegar wybija godzinę 10</b>\n\nKażdy Badacz przyjmuje 1 Kartę Przerażenia.
+EventTimer1NoClue.button1,{qst:CONTINUE}
+EventTimer22ANoManiac.text,<b>Zegar wybija godzinę 11</b>\n\nDźwięk zegara zakłóca upiorną ciszę panującą w posiadłości.
+EventTimer22ANoManiac.button1,{qst:CONTINUE}
+EventTimer22A.text,<b>Zegar wybija godzinę 11</b>\n\nSzaleniec podnosi siekierę i biegnie korytarzem.\n\nManiak przesuwa się o 2 pola w kierunku najbliższego Badacza.
+EventTimer22A.button1,{qst:CONTINUE}
+EventTimer22B.text,<b>Zegar wybija godzinę 11</b>\n\nŚwiatła na chwilę gasną, a eksplozja wystrzału odbija się echem w korytarzu.\n\nKażdy Badacz znajdujący się na polu sypialni przyjmuje 2 Karty Obrażeń.
+EventTimer22B.button1,{qst:CONTINUE}
+EventTimer2NoClue.text,<b>Zegar wybija godzinę 11</b>\n\nKażdy Badacz przyjmuje 1 Kartę Przerażenia.
+EventTimer2NoClue.button1,{qst:CONTINUE}
+EventTimer41A.text,<b>Zegar wybija godzinę 1</b>\n\nZiemia drży, niczym podczas trzęsienia.
+EventTimer41A.button1,{qst:CONTINUE}
+EventTimer41B.text,<b>Zegar wybija godzinę 1</b>\n\nStary dom trzeszczy w posadach.\n\n<b>Cel:</b> Nie pozwól Maniakom pozyskać próbki.
+EventTimer41B.button1,{qst:CONTINUE}
+EventTimer41BShoggoth.text,<b>Zegar wybija godzinę 1</b>\n\n<i>Stary dom trzeszczy w posadach.</i>
+EventTimer41BShoggoth.button1,{qst:CONTINUE}
+EventTimer41CClue.text,<b>Zegar wybija godzinę 1</b>\n\n<i>Drzwi frontowe zamykają się z głośnym kliknięciem zamka.</i>
+EventTimer41CClue.button1,{qst:CONTINUE}
+EventTimer41C.text,<b>Zegar wybija godzinę 1</b>\n\n<i>Drzwi frontowe zamykają się z głośnym kliknięciem zamka.</i>\n\nUmieść 1 <COLOR=CYAN>Żeton Eksploracji</COLOR> we wskazanym miejscu.\n\n<b>Cel:</b> Ucieknij przez foyer.
+EventTimer41C.button1,{qst:CONTINUE}
+EventEndLose1A.text,<b>Zegar wybija godzinę 2</b>\n\n<i>Gdy zegar wybija godzinę 2, ziemia zaczyna się trząść. \nCoś starożytnego, głęboko zakopanego pod domem, gwałtownie wbija fundamenty w ziemię. Odpowiedzi na pytania, których szukaliście, nie mają już znaczenia, gdy Badacze i potwory walczą o życie. \nGłęboko w stosie gruzów i zmiażdżonych ciał, opętany Walter Lynch słabo chichocze, wydając z siebie ostatnie tchnienie.</i>
+EventEndLose1A.button1,{qst:THEEND}
+EventEndWinTime1B.text,<b>Zegar wybija godzinę 2</b>\n\n<i>Gdy zegar wybija godzinę 2, ziemia zaczyna się trząść. \nCoś starożytnego, głęboko zakopanego pod domem, gwałtownie wbija fundamenty w ziemię. Odpowiedzi na pytania, których szukaliście, nie mają już znaczenia, gdy Badacze i potwory walczą o życie. \nShoggoth pada na ziemię w wijącej się masie macek. Szaleństwo, które Walter sprowadził do tego świata podczas swoich podróży, zostało zniszczone na zawsze.</i>
+EventEndWinTime1B.button1,{qst:THEEND}
+EventEndLoseTime1C.text,<b>Zegar wybija godzinę 2</b>\n\n<i>Gdy zegar wybija godzinę 2, ziemia zaczyna się trząść. \nCoś starożytnego, głęboko zakopanego pod domem, gwałtownie wbija fundamenty w ziemię. Odpowiedzi na pytania, których szukaliście, nie mają już znaczenia, gdy Badacze i potwory walczą o życie.</i>
+EventEndLoseTime1C.button1,{qst:THEEND}
+EventDarkRoom.text,Otwierasz drzwi, ale nic nie widzisz w panującej tu ciemności. Sięgasz po włącznik światła, ale nic się nie dzieje.\n\nUmieść <COLOR=CYAN>Żeton Ciemności</COLOR> na każdym polu nowo odkrytego pomieszczenia.
+EventDarkRoom.button1,{qst:CONTINUE}
+EventDarkRoomGuest.text,Otwierasz drzwi, ale nic nie widzisz w panującej tu ciemności. Sięgasz po włącznik światła, ale nic się nie dzieje.\n\nUmieść <COLOR=CYAN>Żeton Ciemności</COLOR> na każdym polu nowo odkrytego pomieszczenia.
+EventDarkRoomGuest.button1,{qst:CONTINUE}
+EventMoveIn.text,Możesz przemieścić się o 1 pole na eksplorowany obszar.
+EventMoveIn.button1,{qst:CONTINUE}
+TokenFoyer.text,Pod ścianą w holu znajduje się stojak na płaszcze.
+TokenFoyer.button1,{qst:ACTIONSEARCH}
+TokenDiningDoor.text,Te drzwi prowadzą do kuchni.
+TokenDiningDoor.button1,{qst:ACTIONEXPLORE}
+TokenBasementStairDoor.text,Te drzwi prowadzą w dół posiadłości do piwnicy.
+TokenBasementStairDoor.button1,{qst:ACTIONEXPLORE}
+TokenHallDoor.text,Te drzwi prowadzą na korytarz.
+TokenHallDoor.button1,{qst:ACTIONEXPLORE}
+TokenLabDoor.text,Drzwi te prowadzą do pracowni i do ogrodu.
+TokenLabDoor.button1,{qst:ACTIONEXPLORE}
+TokenEntryDoor.text,Te drzwi prowadzą do ogrodu.
+TokenEntryDoor.button1,{qst:ACTIONEXPLORE}
+TokenDining.text,Na stole porozrzucane są różne przedmioty.
+TokenDining.button1,{qst:ACTIONSEARCH}
+TokenKitchenStorage.text,Wśród garnków i patelni leżą różne śmieci.
+TokenKitchenStorage.button1,{qst:ACTIONSEARCH}
+TokenLab.text,Wiele z tych urządzeń jest poza twoją wiedzą.
+TokenLab.button1,{qst:ACTIONSEARCH}
+TokenSearchHall2.text,Pod ścianą stoi szafka.
+TokenSearchHall2.button1,{qst:ACTIONSEARCH}
+TokenSearchHall4.text,W rogu leży stara skrzynia.
+TokenSearchHall4.button1,{qst:ACTIONSEARCH}
+TokenBasementStoreSearch.text,Wśród porozrzucanych puszek z farbą można dostrzec kilka narzędzi.
+TokenBasementStoreSearch.button1,{qst:ACTIONSEARCH}
+EventPowerFailure.text,Światła w tym pokoju nie chcą się włączyć.\n\nUmieść <COLOR=CYAN>Żeton Ciemności</COLOR> w tym pomieszczeniu.
+EventPowerFailure.button1,{qst:CONTINUE}
+EventPowerRestore.text,Usuń wszelkie <COLOR=CYAN>Żetony Ciemności</COLOR> znajdujące się w Sali Operacyjnej.
+EventPowerRestore.button1,{qst:CONTINUE}
+SpawnTimer1Zombie3A.text,<b>Zegar wybija godzinę 10</b>\n\n<i>Ognista postać pędzi korytarzem w kierunku sypialni.</i>\n\nUmieść figurkę potwora Zombie we wskazanym miejscu oraz umieść <COLOR=CYAN>Żeton Ognia</COLOR> na tym potworze. W momencie w którym ten potwór otrzyma obrażenia, umieść ten Żeton Ognia na jego polu.
+SpawnTimer1Zombie3A.button1,{qst:CONTINUE}
+SpawnTimer1Zombie3AFoyer.text,<b>Zegar wybija godzinę 10</b>\n\n<i>Ognista postać pędzi korytarzem w kierunku sypialni.</i>\n\nUmieść figurkę potwora Zombie we wskazanym miejscu oraz umieść <COLOR=CYAN>Żeton Ognia</COLOR> na tym potworze. W momencie w którym ten potwór otrzyma obrażenia, umieść ten Żeton Ognia na jego polu.
+SpawnTimer1Zombie3AFoyer.button1,{qst:CONTINUE}
+SpawnTimer1Zombie3B.text,<b>Zegar wybija godzinę 10</b>\n\n<i>Pozbawione skóry szczątki mężczyzny otwierają drzwi laboratorium.</i>\n\nUmieść figurkę potwora Zombie we wskazanym miejscu. Każdy Badacz przyjmuje 1 Kartę Przerażenia.
+SpawnTimer1Zombie3B.button1,{qst:CONTINUE}
+SpawnTimer3Zombie2A.text,<b>Zegar wybija godzinę 12</b>\n\n<i>Żywe zwłoki wstają z miejsca swojego wiecznego spoczynku. Sądząc po zdjęciach, które widziałeś, zwłoki to Edith Lynch, choć martwa od tygodni.</i>\n\nUmieść figurkę potwora Zombie we wskazanym miejscu.
+SpawnTimer3Zombie2A.button1,{qst:CONTINUE}
+SpawnTimer3Zombie2B.text,{qst:SpawnTimer3Zombie2A.text}
+SpawnTimer3Zombie2B.button1,{qst:CONTINUE}
+SpawnTimer3Zombie2AFoyer.text,{qst:SpawnTimer3Zombie2A.text}
+SpawnTimer3Zombie2AFoyer.button1,{qst:CONTINUE}
+SpawnTimer3Zombie2BLab.text,{qst:SpawnTimer3Zombie2A.text}
+SpawnTimer3Zombie2BLab.button1,{qst:CONTINUE}
+SpawnTimer3Zombie2BFoyer.text,{qst:SpawnTimer3Zombie2A.text}
+SpawnTimer3Zombie2BFoyer.button1,{qst:CONTINUE}
+CustomMonsterEdith.monstername,Edith Lynch
+SpawnWalter2.text,Umieść figurkę potwora Maniak na tym samym polu co {rnd:hero}. To jest Walter Lynch.\n\n<b>Cel:</b> Pokonaj Waltera Lyncha.
+SpawnWalter2.button1,{qst:CONTINUE}
+SpawnWalter3.text,{qst:SpawnWalter2.text}
+SpawnWalter3.button1,{qst:CONTINUE}
+SpawnWalter4.text,{qst:SpawnWalter2.text}
+SpawnWalter4.button1,{qst:CONTINUE}
+SpawnWalter5.text,{qst:SpawnWalter2.text}
+SpawnWalter5.button1,{qst:CONTINUE}
+EventEndWin1A2.text,Gdy Walter upada na ziemię bez tchu, oddychacie z ulgą. Wasz pracodawca nie będzie zadowolony, ale przynajmniej udało się wam wyeliminować naczynie, plujące złem do naszego świata.
+EventEndWin1A2.button1,{qst:THEEND}
+EventEndWin1A3.text,{qst:EventEndWin1A2.text}
+EventEndWin1A3.button1,{qst:THEEND}
+EventEndWin1A4.text,{qst:EventEndWin1A2.text}
+EventEndWin1A4.button1,{qst:THEEND}
+EventEndWin1A5.text,{qst:EventEndWin1A2.text}
+EventEndWin1A5.button1,{qst:THEEND}
+CustomMonsterWalter2.monstername,{qst:WALTERLYNCH}
+CustomMonsterWalter3.monstername,{qst:WALTERLYNCH}
+CustomMonsterWalter4.monstername,{qst:WALTERLYNCH}
+CustomMonsterWalter5.monstername,{qst:WALTERLYNCH}
+CustomMonsterShoggoth.monstername,Shoggoth
+ActivationShoggoth1.ability,Shoggoth atakuje badacza znajdującego się na jego polu lub sąsiednim polu z najniższą {observation}.
+ActivationShoggoth1.master,Z niepokojącą szybkością stwór próbuje przytłoczyć cię swoją ogromną masą ({agility}; 2). Jeśli zdałeś, ledwo unikasz zmiażdżenia przez falę bezpostaciowego żelu pełnego nieludzkich oczu; przyjmujesz 1 Zakrytą Kartę Przerażenia. Jeśli nie zdałeś, stwór przygważdża cię do podłogi pod swoim ogromnym ciężarem, a jego liczne paszcze wgryzają się gwałtownie w twoje ciało; przyjmujesz 2 Karty Obrażenia i otrzymujesz stan Unieruchomiony.
+ActivationShoggoth1.movebutton,{qst:UNABLETOATTACK}
+ActivationShoggoth2.ability,Shoggoth atakuje badacza znajdującego się na jego obszarze lub na sąsiednim obszarze, który otrzymał najwięcej obrażeń.
+ActivationShoggoth2.master,Stwór rzuca się w twoją stronę, a kawałki mięsa i obrzydliwa maź z jakiej składa się bestia obryzgują twoją twarz i ciało ({will}; 2). Jeśli zdałeś, udaje ci się przełamać strach i w ostatniej chwili usuwasz się z drogi stwora; odwróć 2 Karty Obrażenia. Jeśli nie zdałeś, stęchły smród tego czegoś okazuje się zbyt silny i oszałamia cię na chwilę, co pozwala stworowi rzucić się na ciebie; przyjmujesz 2 Karty Obrażeń, otrzymujesz stan Oszołomiony i przesuń figurkę swojego badacza o 1 pole oddalając się od Shoggotha.
+ActivationShoggoth2.movebutton,{qst:UNABLETOATTACK}
+ActivationShoggoth3.ability,Shoggoth atakuje każdego badacza na swoim polu lub na sąsiednim polu.
+ActivationShoggoth3.master,Tuzin galaretowatych macek wyskakuje na zewnątrz jednokomórkowego cielska bestii, chwytając wszystko wokoło i ciągnąc to w kierunku straszliwej paszczy stwora ({strength}; 2). Jeśli zdałeś, udaje ci się uwolnić się z oślizgłego uścisku. Jeśli nie zdałeś, pełzające macki stwora ciągną cię, kopiącego i krzyczącego rozpaczliwie o pomoc, w kierunku bestii; przyjmujesz 1 Zakrytą Kartę Przerażenia, przesuń figurkę swojego badacza o 1 pole w kierunku Shoggotha i otrzymujesz stan Unieruchomiony.
+ActivationShoggoth3.movebutton,{qst:UNABLETOATTACK}
+TokenBasementStairs.text,Zauważasz coś w ciemnościach.
+TokenBasementStairs.button1,{qst:ACTIONSEARCH}
+TokenEntry.text,Coś znajduje się pod krzesłem.
+TokenEntry.button1,{qst:ACTIONSEARCH}
+EventEndLose1C.text,Stos ciał cuchnie rozkładem. Leżą tu one już od dłuższego czasu. Stos jest wystarczająco wysoki, by na razie zaspokoić apetyt stwora na pożywienie. Zawsze można też zaprosić więcej gości, gdy... zajdzie taka potrzeba.
+EventEndLose1C.button1,{qst:THEEND}
+EventEndLoseEliminated.text,Pozostali przy życiu badacze ledwo uniknęli pewnej śmierci. Niestety, zło zwyciężyło tego dnia, a zadane wam blizny nie zagoją się łatwo.
+EventEndLoseEliminated.button1,{qst:THEEND}
+TokenFrontDoor.text,Badacz może użyć akcji, aby uciec z rezydencji.
+TokenFrontDoor.button1,{action} Ucieczka
+EventEscape.text,Czy wszyscy badacze uciekli z rezydencji?
+EventEscape.button1,{qst:YES}
+EventEscape.button2,{qst:NO}
+EventEndWin3C.text,W obliczu szalonego zabójcy i jego niemożliwej do pokonania armii nieumarłych decydujesz się wrócić do swojego pracodawcy z pustymi rękami. Nie możesz ryzykować tego, że zgromadzone tu zło wydostanie się na zewnątrz, więc dla pewności, wychodząc, podpalasz za sobą dom.
+EventEndWin3C.button1,{qst:THEEND}
+Spawn1CZombie1.text,Umieść figurkę potwora Zombie we wskazanym miejscu.
+Spawn1CZombie1.button1,{qst:CONTINUE}
+Spawn1CZombie2.text,{qst:Spawn1CZombie1.text}
+Spawn1CZombie2.button1,{qst:CONTINUE}
+Spawn1CZombie3.text,{qst:Spawn1CZombie1.text}
+Spawn1CZombie3.button1,{qst:CONTINUE}
+Spawn1CZombie4.text,{qst:Spawn1CZombie1.text}
+Spawn1CZombie4.button1,{qst:CONTINUE}
