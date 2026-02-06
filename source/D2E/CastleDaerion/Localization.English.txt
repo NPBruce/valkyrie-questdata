@@ -197,3 +197,4 @@ TokenSearch1.button1,Continue
 TokenSearch2.text,Search ?
 TokenSearch2.button1,Continue
 EventMorale0.button1,Continue
+quest.synopsys,Baron Greigory advised you to travel to Daerintown which is the homestead of Sir Palamon.
