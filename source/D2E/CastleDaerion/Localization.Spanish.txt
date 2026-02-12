@@ -1,0 +1,206 @@
+.,Spanish
+quest.name,El castillo Daerion (v1.1)
+quest.description,|||Esta aventura es mi versión particular de "El castillo Daerion". Basada en la aventura original pero modificada para ajustarse a las reglas y el estilo de la aplicación "Camino a la leyenda". \n\n La he diseñado para que sea más bien difícil pero mecánicamente debería funcionar sin problemas.|||
+quest.authors,"\n Autor: Dakon Blackblade \n\n Traducción al español: Vidimus \n "
+EventObjective4.text,"Preparativos completados. \n\n Objetivo: Derrotar a Sir Alric Farrow."
+EventObjective4.button1,Continuar
+EventObjective1.text,"Preparativos completados. \n\n Objetivo: Explorar la zona y encender las almenaras (fichas de Objetivo rojas)."
+EventObjective1.button1,Continuar
+EventDeadlyPerilE2.text,"<b>Peligro mortal:</b> \n\n Niebla sofocante \n\n Las oscuras nieblas mágicas se vuelven densas y respirar es casi imposible; los héroes deben sufrir colectivamente 10 {heart} (7 {heart} en una partida a 2 jugadores)."
+EventDeadlyPerilE2.button1,Continuar
+ActivationPalamonAssault1.ability,Gana +1 {surge}. Si un monstruo común o líder derrota a un miliciano, el grupo de monstruos al completo sufre inmediatamente 2 {heart}.
+ActivationPalamonAssault1.master,"{action} Se confronta con el miliciano más cercano o con Sir Palamon si no hay milicianos adyacentes a él. \n {action} Ataca al miliciano más cercano que haya sufrido menos {heart}, o a Sir Palamon si no hay milicianos adyacentes a él. \n {action} Ataca al miliciano más cercano que haya sufrido menos {heart}, o a Sir Palamon si no hay milicianos adyacentes a él. \n {action} Se confronta con el héroe más cercano. \n {action} Ataca al héroe más cercano que haya sufrido menos {heart}. \n {action} Ataca al héroe más cercano que haya sufrido menos {heart}."
+ActivationPalamonAssault1.minion,"{action} Se confronta con el miliciano más cercano o con Sir Palamon si no hay milicianos adyacentes a él. \n {action} Ataca al miliciano más cercano que haya sufrido menos {heart}. \n {action} Ataca al miliciano más cercano que haya sufrido menos {heart}. \n {action} Se confronta con el héroe más cercano. \n {action} Ataca al héroe más cercano que haya sufrido menos {heart}. \n {action} Ataca al héroe más cercano que haya sufrido menos {heart}."
+CustomMonsterSirPalamonEttin.monstername,Ettin
+CustomMonsterSirPalamonEttin.info,|||Los Ettins gastan ± en el siguiente orden: \n ±: +X ≥ \n\n Los Ettins tienen "Gran alcance"|||
+ActivationSirPalamonAssault2.ability,Los ataques hacen que cada figura (aliados y enemigos) adyacente al objetivo sufra 2 {heart}.
+ActivationSirPalamonAssault2.master,|||{action} Se confronta con Sir Palamon \n {action} Ataca a Sir Palmon \n {action} Se confronta con un miliciano adyacente a Sir Palamon \n {action} Usa "Arrojar" \n {action} Se confronta con un héroe adyacente a Sir Palamon con menos {might} \n {action} Usa "Arrojar" \n {action} Se confronta con el héroe más cercano \n {action} Ataca al héroe más cercano|||
+ActivationSirPalamonAssault2.minion,"{action} Se confronta con Sir Palamon \n {action} Ataca a Sir Palmon \n {action} Se confronta con el héroe más cercano al que le quede menos {heart}. \n {action} Ataca al héroe más cercano al que le quede menos {heart}."
+EventOpenDoor1.text,Coloca la pieza 7A (es el portón de salida), 1 conector, 1 Puerta y 1 ficha de Objetivo roja (Almenara) como se indica.
+EventOpenDoor1.button1,Continuar
+EventOpenDoor2.text,Coloca la pieza 4A, 1 conector, 1 ficha de Objetivo roja y 1 Puerta como se indica.
+EventOpenDoor2.button1,Continuar
+EventPlaceEntrance.text,Coloca la pieza 13A, la Entrada y 1 terminal como se indica.
+EventPlaceEntrance.button1,Continuar
+EventPlaceHeroes.text,Coloca los héroes en el Entrada.
+EventPlaceHeroes.button1,Continuar
+EventPlaceBeacon1.text,Coloca la Puerta como se indica. Coloca la ficha de Objetivo roja: representa una Almenara. Las Almenaras son obstáculos y bloquean tanto el movimiento como la línea de visión. Como acción, un héroe adyacente puede gastar una acción {action} para encender una Almenara. El héroe también puede tratar de encender de manera apresurada la Almenara superando una prueba de {knowledge} o de {will}, en cuyo caso no necesitará gastar una {action}.
+EventPlaceBeacon1.button1,Continuar
+SpawnIronbound.text,Coloca el grupo {type} ignorando el límite de monstruos.
+SpawnIronbound.button1,Continuar
+SpawnSorcerer.text,Coloca el grupo {type} como se indica.
+SpawnSorcerer.button1,Continuar
+EventPlaceSearch1.text,Coloca una ficha de Búsqueda como se indica.
+EventPlaceSearch1.button1,Continuar
+EventBanditReinforcement.text,"Los Bandidos saltan a la Casa de la Puerta aprovechando la conmoción para saquear y robar. \n\n Coloca 1 Bandido en cualquier casilla del Portalón de entrada (pieza 7A) ignorando el límite de monstruos."
+EventBanditReinforcement.button1,Continuar
+EventOpenDoor3.text,Coloca la pieza 13A, la Salida y la ficha de Objetivo roja como se indica.
+EventOpenDoor3.button1,Continuar
+SpawnBandits.text,Coloca el grupo {type} ignorando el límite de monstruos.
+SpawnBandits.button1,Continuar
+EventPlaceSearch2.text,Coloca una ficha de Búsqueda como se indica.
+EventPlaceSearch2.button1,Continuar
+SpawnWildBeasts.text,"Unas salvajes criaturas irrumpen desde el bosque cercano para detener el avance de los héroes. \n\n Coloca el grupo {type} como se indica."
+SpawnWildBeasts.button1,Continuar
+EventPlaceSearch34.text,Coloca fichas de Búsqueda como se indica.
+EventPlaceSearch34.button1,Continuar
+SpawnCursed.text,"<b>La cabaña está custodiada por criaturas malignas.</b> \n\n Coloca el grupo {type} como se indica."
+SpawnCursed.button1,Continuar
+EventStart.text,"Deja aparte las siguientes piezas de mapa: 1B, 3A, 4A, 7A, \n 13A, 14B, 18B, 19B."
+EventStart.button1,Continuar
+TokenSirPalamon.text,"Cualquier miliciano adyacente a Sir Palamon obtiene 1 {shield} adicional en las tiradas de defensa y otorga 1 {shield} adicional a la tirada de defensa de Sir Palamon. \n\n Sir Palamon puede ser objetivo como un héroe, no actúa, tiene 15 {heart}, tira un dado de defensa gris y uno marrón, no puede recuperar {heart} de ninguna forma y supera automáticamente cualquier prueba de atributo. \n\n ¿Sir Palamon ha sido derrotado?"
+TokenSirPalamon.button1,Sí
+TokenSirPalamon.button2,No
+TokenSafePalamon.text,"Un héroe adyacente puede pedirle la llave a Sir Palamon sin gastar 1 {action}.\n\n ¿Quieres pedir la llave?"
+TokenSafePalamon.button1,Sí
+TokenBeacon4.text,"Como {action}, un héroe adyacente a una Almenara puede encenderla. Un héroe adyacente también puede intentar encender la Almenara rápidamente, sin gastar una {action}, superando una prueba de {knowledge} o {will}. \n\n ¿Has encendido la Almenara?"
+TokenBeacon4.button1,Sí
+EventHaveKey.text,"Ahora que tienen la llave, los héroes pueden abrir la puerta. \n\n ¿Deseas abrir la puerta?"
+EventHaveKey.button1,Sí
+TokenBeacon1.text,"Como {action}, un héroe adyacente a una Almenara puede encenderla. Un héroe adyacente también puede intentar encender la Almenara rápidamente, sin gastar una {action}, superando una prueba de {knowledge} o {will}. \n\n ¿Has encendido la Almenara?"
+TokenBeacon1.button1,Sí
+TokenBeacon2.text,"Como {action}, un héroe adyacente a una Almenara puede encenderla. Un héroe adyacente también puede intentar encender la Almenara rápidamente, sin gastar una {action}, superando una prueba de {knowledge} o {will}. \n\n ¿Has encendido la Almenara?"
+TokenBeacon2.button1,Sí
+TokenBeacon3.text,"Como {action}, un héroe adyacente a una Almenara puede encenderla. Un héroe adyacente también puede intentar encender la Almenara rápidamente, sin gastar una {action}, superando una prueba de {knowledge} o {will}. \n\n ¿Has encendido la Almenara?"
+TokenBeacon3.button1,Sí
+SpawnShade.text,Coloca el grupo {type} como se indica.
+SpawnShade.button1,Continuar
+Door1.text,"Una puerta cerrada. \n Como acción, un héroe adyacente puede abrir la puerta."
+Door1.button1,{action} Abrir
+Door2.text,"Una puerta cerrada. \n Como acción, un héroe adyacente puede abrir la puerta."
+Door2.button1,{action} Abrir
+Door3.text,"Una puerta cerrada. \n Como acción, un héroe adyacente puede abrir la puerta."
+Door3.button1,{action} Abrir
+Door4.text,"Sir Alric Farrow se ha encerrado en el Laboratorio, donde lleva a cabo sus nefastos experimentos. \n\n Esta puerta está cerrada."
+Door4.button1,Continuar
+EventVictory.text,"Sir Alric Farrow te maldice mientras se retira apresuradamente al interior del laboratorio y escapa por un pasadizo secreto. \n\n Demasiado cansados y magullados para seguirle, os conformais con haber defendido el castillo.\n\n ¡Los héroes han ganado este encuentro!"
+EventVictory.button1,Continuar
+EventMajorPerilE2.text,"Peligro mayor: \n\n Oscuridad coalescente. \n\n Las negras brumas mágicas coalescen y forman unas sombras que se tornan corpóreas."
+EventMajorPerilE2.button1,Continuar
+SpawnSirAlricFarrow.text,"Una niebla mágica oscura cubre los pasillos. Sin duda es la retorcida obra de Sir Alric Farrow. \n\n Los milicianos colapsan en el suelo; retira del juego a todos los milicianos restantes."
+SpawnSirAlricFarrow.button1,Continuar
+EventGuardReinforcement.text,"Sir Palamon reúne a los milicianos para luchar a su lado. \n\n Coloca 1 miliciano (ficha de Aldeano) adyacente a Sir Palamon (ficha de Objetivo blanca)."
+EventGuardReinforcement.button1,Continuar
+EventPlaceDoor4.text,"Coloca 1 Puerta como se indica. \n Esta puerta está cerrada. Se necesita una llave para abrirla."
+EventPlaceDoor4.button1,Continuar
+EventPlaceSirPalamon.text,"Un soldado anciano que sostiene un estandarte con los colores del reino permanece herido entre un montón de cuerpos de milicianos. Un único defensor permanece a su lado. \n\n Cuando el soldado anciano ve a los héroes y los refuerzos que han traído, se incorpora de nuevo con renovado vigor."
+EventPlaceSirPalamon.button1,Continuar
+EventSirpalamonInfo1.text,"Coloca la ficha de Objetivo blanca. \n Es Sir Palamon. \n\n Coloca una ficha de Aldeano adyacente a Sir Palamon. Representa a un miliciano (que estará a las órdenes de los héroes)."
+EventSirpalamonInfo1.button1,Continuar
+EventSirpalamonInfo2.text,"Cualquier miliciano adyacente a Sir Palamon obtiene 1 {shield} adicional en las tiradas de defensa y otorga 1 {shield} adicional a la tirada de defensa de Sir Palamon. \n\n Sir Palamon puede ser objetivo como un héroe, no actúa, tiene 15 {heart}, tira un dado de defensa gris y uno marrón, no puede recuperar {heart} de ninguna forma y supera automáticamente cualquier prueba de atributo."
+EventSirpalamonInfo2.button1,Continuar
+EventSirpalamoninfo3.text,Sir Palamon tiene la llave de la puerta cerrada. Una vez esté a salvo, un héroe adyacente puede pedirle la llave a Sir Palamon; se puede hacer sin gastar una {action}.
+EventSirpalamoninfo3.button1,Continuar
+SpawnGuards2.button1,Continuar
+EventSpawnShadePrep.button1,Continuar
+EventSecondMinorPerilE2.text,"<b>Peligro menor:</b> \n\n Vapores Nocivos \n\n Una niebla mágica venenosa emana desde debajo de la puerta cerrada que conduce al laboratorio. Cada héroe dentro de la sala del trono (pieza 1B), incluidos los milicianos, sufre 1 {heart} y debe realizar una prueba de {might} o {awareness}. Todo aquel que no supere la prueba queda Envenenado."
+EventSecondMinorPerilE2.button1,Continuar
+EventMinorPerilE2.text,"<b>Peligro menor:</b> \n\n Vapores Nocivos \n\n Una niebla mágica venenosa emana desde debajo de la puerta cerrada que conduce al laboratorio. Cada héroe dentro de la sala del trono (pieza 1B), incluidos los milicianos, sufre 1 {heart} y debe realizar una prueba de {might} o {awareness}. Quien falle queda Envenenado."
+EventMinorPerilE2.button1,Continuar
+EventAlricHeal.text,Las extrañas nieblas mágicas drenan la vitalidad de los héroes y la transfieren a los cadáveres de los soldados muertos y a Sir Alric Farrow, reanimando a los caídos y curando al lugarteniente.
+EventAlricHeal.button1,Continuar
+EventDefeat.text,"Sir Palamon colapsa en el suelo; los milicianos se miran entre sí horrorizados. Cansados y sin su líder para reunirlos, son derrotados rápidamente; los héroes no tienen otra opción que retirarse.\n\n ¡Los héroes han perdido este encuentro!"
+EventDefeat.button1,Continuar
+EventPlaceSearch6.text,Coloca una ficha de Búsqueda como se indica.
+EventPlaceSearch6.button1,Continuar
+EventBeastamenReinforce.text,"Más criaturas se unen a la lucha entrando en la sala del trono a través de un agujero en la pared. \n\n Coloca 2 Hombres Bestia (1 en una partida a 2 jugadores) en el lugar indicado respetando el límite de monstruos."
+EventBeastamenReinforce.button1,Continuar
+EventStalkerDefeated.text,"La bestia cae al suelo; el camino hacia adelante está despejado. Con la ayuda de los milicianos, los héroes pueden ahora avanzar por el castillo y liberarlo de las fuerzas del Señor Supremo.\n\n Retira del juego a todos los enemigos."
+EventStalkerDefeated.button1,Continuar
+EventPlaceEntrance2.text,"El camino hasta las puertas del castillo te da tiempo suficiente para vendar tus heridas y recuperar el aliento. Cada héroe recupera la mitad de su {heart} y {fatigue} (redondeando hacia abajo). \n\n Coloca una entrada como se indica; esta es la entrada del castillo. Retira a los héroes del tablero y colócalos en la entrada del castillo."
+EventPlaceEntrance2.button1,Continuar
+EventPlaceThrone.text,Coloca las piezas 19B, 1B y 1 terminal como se indica.
+EventPlaceThrone.button1,Continuar
+SpawnPalamonEttin.uniquetitle,<b>Ariete</b>
+SpawnPalamonEttin.uniquetext,<b>Ariete</b> puede ignorar casillas ocupadas por figuras enemigas al moverse, y cuando se mueve a través de enemigos les inflige 1 {heart}. <b>Ariete</b> tiene 2 {heart} adicionales por héroe.
+SpawnPalamonEttin.text,|||Una bestia enorme se alza en la entrada de la sala del trono entre un montón de cuerpos y escombros. Este es el ettin conocido como <b>Ariete</b>. \n\n Coloca los ettins como se indica, ignorando el límite de monstruos. \n <b>Derrotar a Ariete no derrota a todo el grupo de Ettins.</b> (Selecciona "Derrotar único" para marcar que Ariete e ha sido eliminado).|||
+SpawnPalamonEttin.button1,Continuar
+SpawnTheStalker.uniquetitle,<b>Acechador</b>
+SpawnTheStalker.uniquetext,"Acechador usa los {surge} de la siguiente manera: \n {surge}: Perforante 2 \n {surge}: +1 {heart} \n Usa siempre “Escaramuza” si es posible o necesario \n “Frenético” permite a Acechador atacar dos veces en el mismo turno \n Acechador tira 1 dado de defensa gris adicional y tiene 4 {heart} adicionales por héroe."
+SpawnTheStalker.text,"El humo y las luces han atraído la atención de un grupo de criaturas feroces. \n\n Coloca el grupo de Segadores Volucrix como se indica, ignorando el límite de monstruos; el líder es <b>Acechador</b>. \n\n <b>Acechador</b> tiene 4 {heart} adicionales por héroe y tira 1 dado de defensa gris adicional."
+SpawnTheStalker.button1,Continuar
+EventObjective2.text,Objetivo: Derrotar al Acechador al tiempo que se protege a tantos milicianos como sea posible.
+EventObjective2.button1,Continuar
+EventMorale0.text,"Os veis obligados a retiraros.\n\n ¡Los héroes han perdido este encuentro!"
+EventPlaceLaboratory.text,"Un hedor a muerte y podredumbre alcanza tus fosas nasales al abrir la puerta; oyes el arrastre de pies procedente de la sala de delante. \n\n Coloca las piezas 18B, 14B (representa el Laboratorio) y 1 terminal como se indica."
+EventPlaceLaboratory.button1,Continuar
+SpawnZombie.text,Coloca el grupo {type} como se indica.
+SpawnZombie.button1,Continuar
+EventKeytracker.text,Los héroes ahora tienen la llave del laboratorio y pueden liberar el castillo de las fuerzas del Señor Supremo de una vez por todas. Sir Palamon se retira para curarse sus heridas.
+EventKeytracker.button1,Continuar
+EventPlaceSearch5.text,Coloca una ficha de Búsqueda como se indica.
+EventPlaceSearch5.button1,Continuar
+SpawnPalamonBeastmen.text,"Los Hombres Bestia se dan un festín con los cadáveres de los milicianos muertos. \n\n Coloca el grupo {type} como se indica."
+SpawnPalamonBeastmen.button1,Continuar
+EventRemoveSearch1.text,Roba una carta de Búsqueda. Luego retira esta ficha de Búsqueda.
+EventRemoveSearch1.button1,Continuar
+EventRemovesearch5.text,Roba una carta de Búsqueda. Luego retira esta ficha de Búsqueda.
+EventRemovesearch5.button1,Continuar
+TokenSearch5.text,Un montón de objetos apilados en un rincón.
+TokenSearch5.button1,{action} Buscar
+TokenSearch6.text,Una estantería con viales y objetos varios.
+TokenSearch6.button1,{action} Buscar
+EventRemoveSearch6.text,Roba una carta de Búsqueda. Luego retira esta ficha de Búsqueda.
+EventRemoveSearch6.button1,Continuar
+EventRemoveSearch4.text,Roba una carta de Búsqueda. Luego retira esta ficha de Búsqueda.
+EventRemoveSearch4.button1,Continuar
+EventRemoveSearch3.text,Rebuscas entre los estantes pero no encuentras nada de valor.
+EventRemoveSearch3.button1,Continuar
+EventRemoveSearch2.button1,Continuar
+EventRemoveSearch2.text,Roba una carta de Búsqueda. Luego retira esta ficha de Búsqueda.
+TokenSearch3.text,Un barril sin tapa que parece intacto.
+TokenSearch3.button1,{action} Buscar
+EventSafePalamon.text,"Sir Palamon está ahora a salvo. \n\n Un héroe adyacente puede pedirle la llave. No es necesario gastar una {action}."
+EventSafePalamon.button1,Continuar
+SpawnGuards2p.button1,Continuar
+SpawnGuards4p.button1,Continuar
+EventDefeatEttinSafety.button1,Continuar
+EventDefeatBeatmenSafety.button1,Continuar
+EventReinforceStalker.text,Coloca el monstruo común {type} como se indica, ignorando el límite de monstruos.
+EventReinforceStalker.button1,Continuar
+EventObjective3.text,"Objetivo: derrotar a todos los enemigos para obtener la llave de Sir Palamon. \n Si Sir Palamon es derrotado, los héroes pierden."
+EventObjective3.button1,Continuar
+CustomMonsterPalamonsBeastmen.monstername,Hombre bestia
+CustomMonsterPalamonsBeastmen.info,|||Los Hombres Bestia gastan {surge} de la siguiente manera: \n {surge} + {heart} \n Los Hombres Bestia tienen "Frenesí" (pueden realizar 2 acciones de ataque en una ronda). \n Si un esbirro saca solo 1 {heart} en su dado de potencia rojo o una X en su dado de ataque azul, usa la habilidad "Mando" si es posible y vuelve a tirar ese dado (dando prioridad a volver a tirar la X).|||
+CustomMonsterTheStalker.monstername,<b>Acechador</b>
+CustomMonsterTheStalker.info,|||Los Segadores Volucrix usan {surge} de la siguiente manera: \n {surge} Perforante 2 \n {surge} +1 {heart} \n Usa siempre que sea posible o necesario "Escaramuza". \n "Frenesí" permite a los Segadores Volucrix atacar 2 veces en la misma ronda.|||
+CustomMonsterGuards.monstername,Milicianos
+CustomMonsterGuards.info,"Los milicianos tienen 6 {heart}, velocidad 4, atacan a cuerpo a cuerpo lanzando 1 dado rojo y 1 dado azul, y lanzan 1 dado gris de defensa. \n Sólo pueden hacer una acción de ataque por ronda (al igual que los monstruos). \n Los milicianos no pueden interactuar con las fichas, son inmunes a todos los estados y superan automáticamente todas las pruebas de atributo. \n Los milicianos no pueden gastar {surge} ni pueden recuperar {heart} de ninguna manera."
+EventDoor4Key.text,Has encontrado la llave. ¿Quieres abrir la puerta?
+EventDoor4Key.button1,{action} Abrir
+ActivationGuardAction.ability,Un miliciano inflige 1 {heart} adicional si hay al menos 1 miliciano adicional adyacente a su objetivo.
+ActivationGuardAction.master,Los milicianos están bajo el control de los héroes y actuarán como los héroes consideren oportuno.
+ActivationGuardAction.minion,Los milicianos están bajo el control de los héroes y actuarán como los héroes consideren oportuno.
+EventLightBeacon1.text,"Prendes fuego al aceite del brasero, el calor te calienta la piel mientras empieza a formarse una columna de humo. \n\n <b>La Almenara está encendida.</b>"
+EventLightBeacon1.button1,Continuar
+EventLightBeacon2.text,"Prendes fuego al aceite del brasero, el calor te calienta la piel mientras empieza a formarse una columna de humo. \n\n <b>La Almenara está encendida.</b>"
+EventLightBeacon2.button1,Continuar
+EventLightBeacon3.text,"Prendes fuego al aceite del brasero, el calor te calienta la piel mientras empieza a formarse una columna de humo. \n\n <b>La Almenara está encendida.</b>"
+EventLightBeacon3.button1,Continuar
+TokenSearch4.text,Una pequeña bolsa de cuero abandonada.
+TokenSearch4.button1,{action} Buscar
+EventLightBeacon4.text,"Prendes fuego al aceite del brasero, el calor te calienta la piel mientras empieza a formarse una columna de humo. \n\n <b>La Almenara está encendida.</b>"
+EventLightBeacon4.button1,Continuar
+ActivationStalker3.ability,|||La habilidad de "Escaramuza" de Acechador le permite moverse hasta 6 casillas antes de atacar. Los monstruos comunes añaden 1 {heart} adicional por cada enemigo adyacente a su objetivo.|||
+ActivationStalker3.master,|||{action} Se confronta con el miliciano más cercano. \n {action} Se confronta con el miliciano más cercano. \n {action} Divisa a tantos héroes como sea posible. \n {action} Usa "Escaramuza" contra el héroe más cercano con menor {will}. \n {action} Usa "Escaramuza" contra el héroe más cercano con menor {will} \n {action} Divisa a tantos héroes como sea posible.|||
+ActivationStalker3.minion,"{action} Divisa al héroe a 7 o menos casillas que tenga más enemigos adyacentes a él. \n {action} Se confronta con el héroe a 4 o menos casillas que tenga más enemigos adyacentes a él."
+ActivationStalker2.ability,<b>Acechador</b> gana 1 dado de potencia rojo en todas sus tiradas de ataque.
+ActivationStalker2.master,|||{action} Divisa al héroe a 7 o menos casillas al que le quede menos {heart}. \n {action} Usa "Escaramuza" contra el héroe a 4 o menos casillas al que le quede menos {heart}. \n {action} Ataca al héroe más cercano al que le quede menos {heart}.|||
+ActivationStalker2.minion,"{action} Divisa al héroe a 7 o menos casillas al que le quede menos {heart}. \n {action} Ataca al héroe más cercano al que le quede menos {heart}."
+ActivationStalker1.ability,Si <b>Acechador</b> mata a un miliciano, <b>Acechador</b> recupera 4 {heart}.
+ActivationStalker1.master,|||{action} Divisa a tantos milicianos como se posible. \n {action} Usa "Escaramuza" contra un miliciano. \n {action} Usa "Escaramuza" contra un miliciano. \n {action} Usa "Escaramuza" contra el héroe más cercano.|||
+ActivationStalker1.minion,|||{action} Divisa al héroe más cercano. \n {action} Usa "Escaramuza" contra el héroe más cercano \n |||
+EventDoorTrap.text,"Un dardo envenenado se dispara desde una abertura en la pared detrás de ti. \n\n Realiza una prueba de {awareness}; si fallas, pierdes 2 {heart} y 2 {fatigue}, luego realiza una prueba de {might}. Si fallas la segunda prueba, quedas Envenenado."
+EventDoorTrap.button1,Continuar
+TokenSearch1.text,Un fardo de aspecto sospechoso.
+TokenSearch1.button1,{action} Buscar
+TokenSearch2.text,Una caja algo desvencijada.
+TokenSearch2.button1,{action} Buscar
+EventMorale0.button1,Continuar
+quest.synopsys,El barón Greigory os aconsejó viajar a Daerion, hogar de Sir Palamon.
+quest.authors_short,Dakon Blackblade
+SpawnGuards2p.text,"Las Almenaras arden con fuerza y las llamas parpadean en el cielo nocturno. Los milicianos han escuchado tu llamada y han acudido en tu ayuda. \n\n Coloca 6 milicianos. Usa una ficha de Aldeano para representar cada miliciano en el lugar indicado. \n\n <b>Los jugadores pueden controlar a los milicianos como si fueran héroes.</b>"
+SpawnGuards4p.text,"Las Almenaras arden con fuerza y las llamas parpadean en el cielo nocturno. Los milicianos han escuchado tu llamada y han acudido en tu ayuda. \n\n Coloca 4 milicianos. Usa una ficha de Aldeano para representar cada miliciano en el lugar indicado. \n\n <b>Los jugadores pueden controlar a los milicianos como si fueran héroes.</b>"
+SpawnGuards2.text,Coloca a los milicianos supervivientes adyacentes a cualquiera de los héroes.
+SpawnZombie2.text,"Coloca 1 Zombi común en el Laboratorio ignorando el límite de monstruos.\n\n <b>Sir Alric Farrow recupera 2 {heart}.</b>"
+SpawnZombie2.button1,Continuar
