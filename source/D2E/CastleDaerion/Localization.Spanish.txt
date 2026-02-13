@@ -201,6 +201,7 @@ quest.synopsys,El barón Greigory os aconsejó viajar a Daerion, hogar de Sir Pa
 quest.authors_short,Dakon Blackblade
 SpawnGuards2p.text,"Las Almenaras arden con fuerza y las llamas parpadean en el cielo nocturno. Los milicianos han escuchado tu llamada y han acudido en tu ayuda. \n\n Coloca 6 milicianos. Usa una ficha de Aldeano para representar cada miliciano en el lugar indicado. \n\n <b>Los jugadores pueden controlar a los milicianos como si fueran héroes.</b>"
 SpawnGuards4p.text,"Las Almenaras arden con fuerza y las llamas parpadean en el cielo nocturno. Los milicianos han escuchado tu llamada y han acudido en tu ayuda. \n\n Coloca 4 milicianos. Usa una ficha de Aldeano para representar cada miliciano en el lugar indicado. \n\n <b>Los jugadores pueden controlar a los milicianos como si fueran héroes.</b>"
-SpawnGuards2.text,Coloca a los milicianos supervivientes adyacentes a cualquiera de los héroes.
+SpawnGuards2p.text,Coloca a los milicianos supervivientes adyacentes a cualquiera de los héroes.
 SpawnZombie2.text,"Coloca 1 Zombi común en el Laboratorio ignorando el límite de monstruos.\n\n <b>Sir Alric Farrow recupera 2 {heart}.</b>"
 SpawnZombie2.button1,Continuar
+SpawnGuards4p.button1,Continuar

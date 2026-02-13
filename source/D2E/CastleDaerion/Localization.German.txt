@@ -4,7 +4,7 @@ quest.description,Meine eigene Version von Schloss Daerion. Basierend auf der Or
 quest.authors,Dakon Blackblade
 EventObjective4.text,Aufbau abgeschlossen \n\n Missionsziel: Besiege Sir Alric Farrow.
 EventObjective4.button1,Weiter
-EventObjective1.text,Aufbau abgeschlossen \n\n Missionsziel: Erkunde das Gebiet und entzünde die Leuchtfeuer (Rote Aufgabenmarker)
+EventObjective1.text,Aufbau abgeschlossen \n\n Missionsziel: Erkunde das Gebiet und entzünde die Leuchtfeuer (Rote Aufgabenmarker).
 EventObjective1.button1,Weiter
 EventDeadlyPerilE2.text,Tödlicher Gefahreneffekt:  \n\n Erstickende Nebel \n\n Die dunklen magischen Nebel werden dicht und das Atmen ist fast unmöglich, die Helden müssen kollektiv 10{heart}  Schaden erleiden (7 {heart}  in einem Spiel mit 2 Spielern)
 EventDeadlyPerilE2.button1,Weiter
@@ -12,39 +12,39 @@ ActivationPalamonAssault1.ability,Erhält 1 zusätzliche {surge} . Wenn ein Dien
 ActivationPalamonAssault1.master,{action} Stürme auf die nächste Wache oder Sir Palamon zu, falls keine Wachen benachbart zu ihm sind. \n {action} Greife die nächste Wache mit den wenigsten {heart}  oder Sir Palamon an, falls keine Wachen benachbart zu ihm sind. \n {action} Greife die nächste Wache mit den wenigsten {heart} oder Sir Palamon an, falls keine Wachen benachbart zu ihm sind. \n {action} Stürme auf den nächsten Helden zu. \n {action} Greife den nächsten Helden mit den wenigsten {heart}  an \n {action} Greife den nächsten Helden mit den wenigsten {heart} an
 ActivationPalamonAssault1.minion,{action} Stürme auf die nächste Wache oder Sir Palamon zu, falls keine Wachen benachbart zu ihm sind. \n {action} Greife die nächste Wache mit den wenigsten {heart}  an \n {action} Greife die nächste Wache mit den wenigsten {heart}  an \n {action} Stürme auf den nächsten Helden zu. \n {action} Greife den nächsten Helden mit den wenigsten {heart}  an \n {action} Greife den nächsten Helden mit den wenigsten {heart} an
 CustomMonsterSirPalamonEttin.monstername,Ettin
-CustomMonsterSirPalamonEttin.info,|||Ettins benutzen {surge}  in der folgenden Reihenfolge \n {surge}  + {heart}  \n Ettins haben "Reichweite"|||
+CustomMonsterSirPalamonEttin.info,|||Ettins benutzen {surge}  in der folgenden Reihenfolge \n {surge}  + {heart}  \n Ettins haben Reichweite|||
 ActivationSirPalamonAssault2.ability,Angriffe bewirken, dass jede Figur (Verbündete und Feinde) benachbart zum Ziel 2{heart}  verliert.
-ActivationSirPalamonAssault2.master,|||{action} Stürme auf Sir Palamon zu \n {action} Greife Sir Palamon an \n {action} Stürme auf eine Wache (benachbart zu Sir Palamon) zu \n {action}  Benutze "Wurf" \n {action} Stürme auf einen Helden (benachbart zu Sir Palamon) mit der niedrigsten {might}  zu \n {action}  Benutze "Wurf" \n {action}  Stürme auf den nächsten Helden zu \n {action}  Greife den nächsten Helden an|||
+ActivationSirPalamonAssault2.master,|||{action} Stürme auf Sir Palamon zu \n {action} Greife Sir Palamon an \n {action} Stürme auf eine Wache (benachbart zu Sir Palamon) zu \n {action}  Benutze Wurf \n {action} Stürme auf einen Helden (benachbart zu Sir Palamon) mit der niedrigsten {might}  zu \n {action}  Benutze Wurf \n {action}  Stürme auf den nächsten Helden zu \n {action}  Greife den nächsten Helden an|||
 ActivationSirPalamonAssault2.minion,{action} Stürme auf Sir Palamon zu \n {action} Greife Sir Palamon an \n {action} Stürme auf den nächsten Helden mit den wenigsten verbleibenden {heart}  zu \n {action} Greife den nächsten Helden mit den wenigsten verbleibenden {heart}  an
-EventOpenDoor1.text,Platziere Feld 7A (das ist das Torhaus), ein Verlängerungsstück, eine Tür und einen Roten Aufgabenmarker (Leuchtfeuer) wie abgebildet.
+EventOpenDoor1.text,Platziere Feld 7A (das ist das Torhaus), ein Verlängerungsstück, eine Tür und einen Roten Aufgabenmarker (Leuchtfeuer), wie abgebildet.
 EventOpenDoor1.button1,Weiter
-EventOpenDoor2.text,Platziere Feld 4A, ein Verlängerungsstück, einen Roten Aufgabenmarker und eine Tür wie abgebildet.
+EventOpenDoor2.text,Platziere Feld 4A, ein Verlängerungsstück, einen Roten Aufgabenmarker und eine Tür, wie abgebildet.
 EventOpenDoor2.button1,Weiter
-EventPlaceEntrance.text,Platziere Feld 3A, einen Eingang und ein Endstück wie abgebildet
+EventPlaceEntrance.text,Platziere Feld 3A, einen Eingang und ein Endstück, wie abgebildet.
 EventPlaceEntrance.button1,Weiter
 EventPlaceHeroes.text,Platziere die Helden auf dem Eingang
 EventPlaceHeroes.button1,Weiter
-EventPlaceBeacon1.text,Platziere die Tür wie abgebildet. Platziere einen Roten Aufgabenmarker, dies ist ein Leuchtfeuer. Leuchtfeuer sind Hindernisse und blockieren Bewegung und Sichtlinie. Ein benachbarter Held kann eine {action}  ausgeben, um das Leuchtfeuer zu entzünden. Der Held kann auch versuchen, das Leuchtfeuer schnell zu entzünden, ohne eine {action}  auszugeben, indem er eine {knowledge}  oder {will}  Probe besteht.
+EventPlaceBeacon1.text,Platziere die Tür, wie abgebildet. Platziere einen Roten Aufgabenmarker, dies ist ein Leuchtfeuer. Leuchtfeuer sind Hindernisse und blockieren Bewegung und Sichtlinie. Ein benachbarter Held kann eine {action}  ausgeben, um das Leuchtfeuer zu entzünden. Der Held kann auch versuchen, das Leuchtfeuer schnell zu entzünden, ohne eine {action}  auszugeben, indem er eine {knowledge}  oder {will}  Probe besteht.
 EventPlaceBeacon1.button1,Weiter
 SpawnIronbound.text,Platziere die Eisenbrecher-Gruppe (Gruppengröße einhalten).
 SpawnIronbound.button1,Weiter
-SpawnSorcerer.text,Platziere die Hexenmeister-Gruppe wie abgebildet.
+SpawnSorcerer.text,Platziere die Hexenmeister-Gruppe, wie abgebildet.
 SpawnSorcerer.button1,Weiter
-EventPlaceSearch1.text,Platziere einen Suchmarker wie abgebildet.
+EventPlaceSearch1.text,Platziere einen Suchmarker, wie abgebildet.
 EventPlaceSearch1.button1,Weiter
 EventBanditReinforcement.text,Banditen springen in das Torhaus und nutzen die Aufregung, um zu plündern und zu rauben. Platziere 1 Banditen auf einem beliebigen Feld des Torhauses (7A) (Gruppengröße einhalten).
 EventBanditReinforcement.button1,Weiter
-EventOpenDoor3.text,Platziere Feld 13A, einen Ausgang und einen Roten Aufgabenmarker wie abgebildet.
+EventOpenDoor3.text,Platziere Feld 13A, einen Ausgang und einen Roten Aufgabenmarker, wie abgebildet.
 EventOpenDoor3.button1,Weiter
 SpawnBandits.text,Platziere die Banditen-Gruppe (Gruppengröße einhalten).
 SpawnBandits.button1,Weiter
-EventPlaceSearch2.text,Platziere den Suchmarker wie abgebildet
+EventPlaceSearch2.text,Platziere den Suchmarker, wie abgebildet.
 EventPlaceSearch2.button1,Weiter
-SpawnWildBeasts.text,Wilde Kreaturen springen aus den nahen Wäldern und rücken auf die Helden vor. Platziere die Monstergruppe wie abgebildet.
+SpawnWildBeasts.text,Wilde Kreaturen springen aus den nahen Wäldern und rücken auf die Helden vor. Platziere die Monstergruppe, wie abgebildet.
 SpawnWildBeasts.button1,Weiter
-EventPlaceSearch34.text,Platziere die Suchmarker wie abgebildet
+EventPlaceSearch34.text,Platziere die Suchmarker, wie abgebildet.
 EventPlaceSearch34.button1,Weiter
-SpawnCursed.text,Die Hütte wird von bösen Kreaturen bewacht. Platziere die Monstergruppe wie abgebildet.
+SpawnCursed.text,Die Hütte wird von bösen Kreaturen bewacht. Platziere die Monstergruppe, wie abgebildet.
 SpawnCursed.button1,Weiter
 EventStart.text,Lege die Felder 1B, 3A, 4A, 7A, 13A, 14B, 18B, 19B beiseite.
 EventStart.button1,Weiter
@@ -63,7 +63,7 @@ TokenBeacon2.text,als {action} kann ein Held benachbart zu einem Leuchtfeuer die
 TokenBeacon2.button1,Ja
 TokenBeacon3.text,als {action} kann ein Held benachbart zu einem Leuchtfeuer dieses entzünden. Ein benachbarter Held kann auch versuchen, das Leuchtfeuer schnell zu entzünden, ohne eine {action}  auszugeben, indem er eine {knowledge}  oder {will}  Probe besteht. \n\n Leuchtfeuer entzünden ?
 TokenBeacon3.button1,Ja
-SpawnShade.text,Platziere die Schatten-Gruppe wie abgebildet.
+SpawnShade.text,Platziere die Schatten-Gruppe, wie abgebildet.
 SpawnShade.button1,Weiter
 Door1.text,Tür öffnen ?
 Door1.button1,Öffnen
@@ -81,7 +81,7 @@ SpawnSirAlricFarrow.text,Ein dunkler magischer Nebel bedeckt die Korridore. Das 
 SpawnSirAlricFarrow.button1,Weiter
 EventGuardReinforcement.text,Sir Palamon sammelt die Wachen, um an seiner Seite zu kämpfen. Platziere 1 Wache (Personenmarker) benachbart zu Sir Palamon (Weißer Aufgabenmarker).
 EventGuardReinforcement.button1,Weiter
-EventPlaceDoor4.text,Platziere eine Tür wie abgebildet. Diese Tür ist verschlossen, die Helden benötigen einen Schlüssel, um sie zu öffnen.
+EventPlaceDoor4.text,Platziere eine Tür, wie abgebildet. Diese Tür ist verschlossen, die Helden benötigen einen Schlüssel, um sie zu öffnen.
 EventPlaceDoor4.button1,Weiter
 EventPlaceSirPalamon.text,Ein alter Soldat, der ein Banner mit den Farben des Königreichs hält, steht verwundet inmitten eines Haufens von Wachenkörpern. Ein einsamer Verteidiger steht neben ihm. Als der alte Soldat die Helden und die Verstärkung sieht, die sie mitgebracht haben, richtet er sich mit neuer Kraft auf.
 EventPlaceSirPalamon.button1,Weiter
@@ -101,37 +101,37 @@ EventAlricHeal.text,Der seltsame magische Nebel entzieht den Helden die Lebenskr
 EventAlricHeal.button1,Weiter
 EventDefeat.text,Sir Palamon bricht zusammen, die Wachen sehen einander entsetzt an. Müde und ohne ihren Anführer, um sie zu sammeln, werden sie schnell besiegt, die Helden haben keine andere Wahl als sich zurückzuziehen.
 EventDefeat.button1,Weiter
-EventPlaceSearch6.text,Platziere einen Suchmarker wie abgebildet.
+EventPlaceSearch6.text,Platziere einen Suchmarker, wie abgebildet.
 EventPlaceSearch6.button1,Weiter
 EventBeastamenReinforce.text,Weitere Kreaturen schließen sich dem Kampf an und springen durch ein Loch in der Wand in den Thronsaal. Platziere 2 Tiermenschen (1 in einem Spiel mit 2 Spielern) an der angegebenen Stelle (Gruppengröße einhalten).
 EventBeastamenReinforce.button1,Weiter
 EventStalkerDefeated.text,Die Bestie fällt zu Boden, der Weg nach vorn ist frei. Mit der Hilfe der Wachen können die Helden nun auf die Burg vorrücken und sie von den Streitkräften des Overlords befreien. Entferne jeden Feind aus dem Spiel.
 EventStalkerDefeated.button1,Weiter
-EventPlaceEntrance2.text,Der Weg zu den Burgtoren gibt euch genug Zeit, eure Wunden zu versorgen und zu verschnaufen. Jeder Held erhält die Hälfte seiner {heart}  und {fatigue}  zurück (runde die Ergebnisse ab). Platziere einen Eingang wie abgebildet, dies ist der Burgeingang. Entferne die Helden vom Spielplan und platziere sie am Burgeingang.
+EventPlaceEntrance2.text,Der Weg zu den Burgtoren gibt euch genug Zeit, eure Wunden zu versorgen und zu verschnaufen. Jeder Held erhält die Hälfte seiner {heart}  und {fatigue}  zurück (runde die Ergebnisse ab). Platziere einen Eingang, wie abgebildet, dies ist der Burgeingang. Entferne die Helden vom Spielplan und platziere sie am Burgeingang.
 EventPlaceEntrance2.button1,Weiter
-EventPlaceThrone.text,Platziere die Felder 19B, 1B und ein Endstück wie abgebildet.
+EventPlaceThrone.text,Platziere die Felder 19B, 1B und ein Endstück, wie abgebildet.
 EventPlaceThrone.button1,Weiter
 SpawnPalamonEttin.uniquetitle,Rammbock
 SpawnPalamonEttin.uniquetext,Rammbock kann von Feinden besetzte Felder beim Bewegen ignorieren und wenn er sich durch Feinde bewegt, fügt er ihnen 1{heart}  Schaden zu. Rammbock hat 2 zusätzliche {heart}  pro Held.
-SpawnPalamonEttin.text,Eine riesige Bestie steht am Eingang des Thronsaals inmitten eines Haufens von Leichen und Trümmern. Dies ist der Ettin namens Rammbock. Platziere Ettins wie abgebildet (Gruppengröße einhalten). Das Besiegen von Rammbock besiegt nicht die gesamte Ettin-Gruppe.
+SpawnPalamonEttin.text,Eine riesige Bestie steht am Eingang des Thronsaals inmitten eines Haufens von Leichen und Trümmern. Dies ist der Ettin namens Rammbock. Platziere Ettins, wie abgebildet (Gruppengröße einhalten). Das Besiegen von Rammbock besiegt nicht die gesamte Ettin-Gruppe.
 SpawnPalamonEttin.button1,Weiter
 SpawnTheStalker.uniquetitle,Der Jäger
-SpawnTheStalker.uniquetext,|||Der Jäger benutzt {surge}  wie folgt: \n {surge}  Durchbohren 2 \n {surge}  +1 {heart}  \n Benutze immer "Plänkler" wenn möglich/nötig \n "Verwüsten" erlaubt dem Jäger, zweimal im selben Zug anzugreifen \n Der Jäger wirft 1 zusätzlichen grauen Verteidigungswürfel und hat 4 zusätzliche {heart}  pro Held.|||
-SpawnTheStalker.text,Der Rauch und die Lichter haben die Aufmerksamkeit einer Gruppe bösartiger Kreaturen auf sich gezogen. Platziere die Volucrix-Reaver-Gruppe wie abgebildet (Gruppengröße einhalten), der Meister ist der Jäger. Der Jäger hat 4 zusätzliche {heart}  pro Held und wirft 1 zusätzlichen grauen Verteidigungswürfel.
+SpawnTheStalker.uniquetext,|||Der Jäger benutzt {surge}  wie folgt: \n {surge}  Durchbohren 2 \n {surge}  +1 {heart}  \n Benutze immer „Vorstoß“ wenn möglich/nötig \n Verwüsten erlaubt dem Jäger, zweimal im selben Zug anzugreifen \n Der Jäger wirft 1 zusätzlichen grauen Verteidigungswürfel und hat 4 zusätzliche {heart}  pro Held.|||
+SpawnTheStalker.text,Der Rauch und die Lichter haben die Aufmerksamkeit einer Gruppe bösartiger Kreaturen auf sich gezogen. Platziere die Volucrix-Reaver-Gruppe, wie abgebildet (Gruppengröße einhalten), der Meister ist der Jäger. Der Jäger hat 4 zusätzliche {heart}  pro Held und wirft 1 zusätzlichen grauen Verteidigungswürfel.
 SpawnTheStalker.button1,Weiter
-EventObjective2.text,Missionsziel: Besiege den Jäger, während du so viele Wachen wie möglich beschützt
+EventObjective2.text,Missionsziel: Besiege den Jäger, während du so viele Wachen wie möglich beschützt.
 EventObjective2.button1,Weiter
 EventMorale0.text,Ihr seid gezwungen, euch zurückzuziehen.
 EventMorale0.button1,Weiter
-EventPlaceLaboratory.text,Ein Gestank von Tod und Verwesung erreicht eure Nasen, als ihr die Tür öffnet, ihr hört das Scharren von Füßen aus dem Raum vor euch. Platziere die Felder 18B, 14B (das ist das Labor) und ein Endstück wie abgebildet.
+EventPlaceLaboratory.text,Ein Gestank von Tod und Verwesung erreicht eure Nasen, als ihr die Tür öffnet, ihr hört das Scharren von Füßen aus dem Raum vor euch. Platziere die Felder 18B, 14B (das ist das Labor) und ein Endstück, wie abgebildet.
 EventPlaceLaboratory.button1,Weiter
-SpawnZombie.text,Platziere die Zombie-Gruppe wie abgebildet.
+SpawnZombie.text,Platziere die Zombie-Gruppe, wie abgebildet.
 SpawnZombie.button1,Weiter
 EventKeytracker.text,Die Helden sind nun im Besitz des Schlüssels zum Labor und können die Burg ein für alle Mal von den Streitkräften des Overlords befreien. Sir Palamon geht, um seine Wunden zu versorgen.
 EventKeytracker.button1,Weiter
-EventPlaceSearch5.text,Platziere einen Suchmarker wie abgebildet.
+EventPlaceSearch5.text,Platziere einen Suchmarker, wie abgebildet.
 EventPlaceSearch5.button1,Weiter
-SpawnPalamonBeastmen.text,Tiermenschen laben sich an den Kadavern der toten Wachen. Platziere die Tiermenschen-Gruppe wie abgebildet.
+SpawnPalamonBeastmen.text,Tiermenschen laben sich an den Kadavern der toten Wachen. Platziere die Tiermenschen-Gruppe, wie abgebildet.
 SpawnPalamonBeastmen.button1,Weiter
 EventRemoveSearch1.text,Ziehe eine Karte vom Suchstapel.
 EventRemoveSearch1.button1,Weiter
@@ -162,9 +162,9 @@ EventReinforceStalker.button1,Weiter
 EventObjective3.text,Missionsziel: Besiege jeden Feind, um den Schlüssel von Sir Palamon zu bekommen. Wenn Sir Palamon besiegt wird, verlieren die Helden.
 EventObjective3.button1,Weiter
 CustomMonsterPalamonsBeastmen.monstername,Tiermenschen
-CustomMonsterPalamonsBeastmen.info,|||Tiermenschen benutzen {surge}  wie folgt: \n {surge}  + {heart}  \n Tiermenschen haben "Verwüsten" \n Wenn ein Diener nur 1 {heart}  auf seinem roten Machtwürfel oder ein X auf seinem blauen Kampfwürfel würfelt, nutzt er "Befehl" wenn möglich und würfelt diesen Würfel neu (wobei das Neuwürfeln des X Priorität hat).|||
+CustomMonsterPalamonsBeastmen.info,|||Tiermenschen benutzen {surge}  wie folgt: \n {surge}  + {heart}  \n Tiermenschen haben Verwüsten \n Wenn ein Diener nur 1 {heart}  auf seinem roten Machtwürfel oder ein X auf seinem blauen Kampfwürfel würfelt, nutzt er Befehl wenn möglich und würfelt diesen Würfel neu (wobei das Neuwürfeln des X Priorität hat).|||
 CustomMonsterTheStalker.monstername,Der Jäger
-CustomMonsterTheStalker.info,|||Volucrix-Jäger benutzen {surge}  wie folgt: \n {surge}  Durchbohren 2 \n {surge}  +1 {heart}  \n Benutze immer "Plänkler" wenn möglich/nötig \n "Verwüsten" erlaubt einem Volucrix-Jäger, zweimal im selben Zug anzugreifen|||
+CustomMonsterTheStalker.info,|||Volucrix-Jäger benutzen {surge}  wie folgt: \n {surge}  Durchbohren 2 \n {surge}  +1 {heart}  \n Benutze immer „Vorstoß“ wenn möglich/nötig \n Verwüsten erlaubt einem Volucrix-Jäger, zweimal im selben Zug anzugreifen|||
 CustomMonsterGuards.monstername,Wachen
 CustomMonsterGuards.info,Die Wachen haben 6 {heart} , 4 Geschwindigkeit, greifen im Nahkampf an, indem sie einen blauen und einen roten Würfel werfen, und zur Verteidigung werfen sie einen grauen Würfel. Sie können nur eine Angriffsaktion pro Zug durchführen (als wären sie ein Monster). Wachen können nicht mit Markern interagieren, sind immun gegen Zustände und wenn sie aufgefordert werden, eine Fertigkeitsprobe abzulegen, scheitern sie automatisch. Wachen können keine {surge}  ausgeben und können auf keine Weise {heart}  wiederherstellen.
 EventDoor4Key.text,Du hast den Schlüssel gefunden. Tür öffnen ?
@@ -182,25 +182,25 @@ TokenSearch4.text,Suchen ?
 TokenSearch4.button1,Weiter
 EventLightBeacon4.text,Du entzündest das Öl im Kohlebecken, die Hitze wärmt deine Haut, als sich eine Rauchsäule zu bilden beginnt. Das Leuchtfeuer ist entzündet.
 EventLightBeacon4.button1,Weiter
-ActivationStalker3.ability,Jäger Plänkler erlaubt ihm, sich 6 Felder zu bewegen, bevor er angreift. Diener verursachen 1 zusätzlichen {heart}  pro Feind, der benachbart zu ihrem Ziel ist
-ActivationStalker3.master,{action} Plänkle zur nächsten Wache \n {action} Plänkle zur nächsten Wache \n {action}  Sichte so viele Wachen wie möglich \n {action} Plänkle zum nächsten Helden mit der niedrigsten {will}  \n {action} Plänkle zum nächsten Helden mit der niedrigsten {will}  \n {action}  Sichte so viele Helden wie möglich
-ActivationStalker3.minion,{action} Sichte Helden innerhalb von 7 Feldern mit den meisten Feinden benachbart zu ihm \n {action} Plänkle zum Helden innerhalb von 4 Feldern mit den meisten Feinden benachbart zu ihm
-ActivationStalker2.ability,Jäger erhält 1 zusätzlichen roten Machtwürfel bei jedem seiner Angriffswürfe
-ActivationStalker2.master,{action} Sichte Helden innerhalb von 7 Feldern mit den wenigsten verbleibenden Lebenspunkten \n {action}  Plänkle zum Helden innerhalb von 4 Feldern mit den wenigsten verbleibenden Lebenspunkten \n {action} Greife den nächsten Helden mit den wenigsten verbleibenden Lebenspunkten an
-ActivationStalker2.minion,{action} Sichte Helden innerhalb von 7 Feldern mit den wenigsten verbleibenden Lebenspunkten \n {action}  Plänkle zum Helden innerhalb von 4 Feldern mit den wenigsten verbleibenden Lebenspunkten \n 
-ActivationStalker1.ability,Wenn der Jäger eine Wache tötet, stellt er 4 {heart}  wieder her
-ActivationStalker1.master,{action} Sichte so viele Wachen wie möglich \n {action} Plänkle zu einer Wache \n {action} Plänkle zu einer Wache \n {action} Plänkle zum nächsten Helden
-ActivationStalker1.minion,{action} Sichte nächsten Helden \n {action} Plänkle zum nächsten Helden \n 
+ActivationStalker3.ability,Jäger „Vorstoß“ erlaubt ihm, sich 6 Felder zu bewegen, bevor er angreift. Diener verursachen 1 zusätzlichen {heart}  pro Feind, der benachbart zu ihrem Ziel ist.
+ActivationStalker3.master,{action} Nutze „Vorstoß“ um zur nächsten Wache zu kommen. \n {action} Nutze „Vorstoß“ um zur nächsten Wache zu kommen. \n {action}  Sichte so viele Wachen wie möglich \n {action} Nutze „Vorstoß“ um zum nächsten Helden zu kommen mit der niedrigsten {will}  \n {action} Nutze „Vorstoß“ um zum nächsten Helden zu kommen mit der niedrigsten {will}  \n {action}  Sichte so viele Helden wie möglich.
+ActivationStalker3.minion,{action} Sichte Helden innerhalb von 7 Feldern mit den meisten Feinden benachbart zu ihm \n {action} Nutze „Vorstoß“ um zum nächsten Helden zu kommen innerhalb von 4 Feldern mit den meisten Feinden benachbart zu ihm.
+ActivationStalker2.ability,Jäger erhält 1 zusätzlichen roten Machtwürfel bei jedem seiner Angriffswürfe.
+ActivationStalker2.master,{action} Sichte Helden innerhalb von 7 Feldern mit den wenigsten verbleibenden Lebenspunkten \n {action}  Nutze „Vorstoß“ um zum nächsten Helden zu kommen innerhalb von 4 Feldern mit den wenigsten verbleibenden Lebenspunkten \n {action} Greife den nächsten Helden mit den wenigsten verbleibenden Lebenspunkten an.
+ActivationStalker2.minion,{action} Sichte Helden innerhalb von 7 Feldern mit den wenigsten verbleibenden Lebenspunkten \n {action}  Nutze „Vorstoß“ um zum nächsten Helden zu kommen innerhalb von 4 Feldern mit den wenigsten verbleibenden Lebenspunkten.
+ActivationStalker1.ability,Wenn der Jäger eine Wache tötet, stellt er 4 {heart}  wieder her.
+ActivationStalker1.master,{action} Sichte so viele Wachen wie möglich \n {action} Nutze „Vorstoß“ um zur nächsten Wache zu kommen \n {action} Nutze „Vorstoß“ um zur nächsten Wache zu kommen \n {action} Nutze „Vorstoß“ um zum nächsten Helden zu kommen.
+ActivationStalker1.minion,{action} Sichte nächsten Helden \n {action} Nutze „Vorstoß“ um zum nächsten Helden zu kommen
 EventDoorTrap.text,Ein vergifteter Pfeil schießt aus einer Öffnung der Wand hinter euch. Legt eine {awareness} Probe ab, wenn ihr scheitert, verliert ihr 2{heart}  und 2{fatigue} , dann legt eine {might} Probe ab, wenn ihr die zweite Probe nicht besteht, seid ihr vergiftet.
 EventDoorTrap.button1,Weiter
 TokenSearch1.text,Suchen ?
 TokenSearch1.button1,Weiter
 TokenSearch2.text,Suchen ?
 TokenSearch2.button1,Weiter
-EventMorale0.button1,Weiter
+quest.authors_short,Dakon Blackblade
 quest.synopsys,Baron Greigory riet euch, nach Daerintown zu reisen, dem Heimatort von Sir Palamon.
-SpawnGuards2p.text,Dakon Blackblade
 SpawnGuards4p.text,Die Signalfeuer brennen hell und die Flammen flackern am Nachthimmel. Wachen haben euren Ruf gehört und sind zu eurer Hilfe gekommen. Platziere 6 Wachen. Benutze einen Personenmarker, um jede Wache an der angegebenen Stelle darzustellen. Spieler können die Wachen steuern, als wären sie Helden.
-SpawnGuards2.text,Die Signalfeuer brennen hell und die Flammen flackern am Nachthimmel. Wachen haben euren Ruf gehört und sind zu eurer Hilfe gekommen. Platziere 4 Wachen. Benutze einen Personenmarker, um jede Wache an der angegebenen Stelle darzustellen. Spieler können die Wachen steuern, als wären sie Helden.
+SpawnGuards2p.text,Die Signalfeuer brennen hell und die Flammen flackern am Nachthimmel. Wachen haben euren Ruf gehört und sind zu eurer Hilfe gekommen. Platziere 4 Wachen. Benutze einen Personenmarker, um jede Wache an der angegebenen Stelle darzustellen. Spieler können die Wachen steuern, als wären sie Helden.
 SpawnZombie2.text,Platziere die überlebenden Wachen benachbart zu einem beliebigen Helden.
-SpawnZombie2.button1,"Platziere 1 Zombie-Diener im Labor (Gruppengröße einhalten). \n\n Sir Alric Farrow erhält 2{heart}  zurück."
+SpawnZombie2.button1,Platziere 1 Zombie-Diener im Labor (Gruppengröße einhalten). \n\n Sir Alric Farrow erhält 2{heart}  zurück.
+SpawnGuards4p.button1,Weiter
