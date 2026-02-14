@@ -1,0 +1,139 @@
+.,German
+quest.name,Die Angelegenheiten der Zauberer
+quest.description,Die Bürger von Greyhaven haben Probleme auf dem Friedhof und haben eine großzügige Belohnung ausgesetzt. Die Stadt ist als Zentrum des magischen Lernens bekannt und die Dinge sind oft komplizierter, als sie erscheinen, was sicherlich ein Grund für die Höhe der Belohnung ist.
+quest.authors,"<b>Author</b>\nBruce\n\n<b>Übersetzung</b>\nSpanisch: Vidimus, Deutsch: Tantum"
+quest.authors_short,Bruce
+quest.synopsys,Die Bürger von Greyhaven haben Probleme auf dem Friedhof und haben eine großzügige Belohnung ausgesetzt.
+EventStart.text,Spielen die Helden dieses Szenario als Basis-, Epic:Fortgeschritten- oder Epic:Experte-Begegnung?
+EventStart.button1,Basis
+EventStart.button2,Fortgeschritten
+EventStart.button3,Experte
+EventTiles.text,"<b>Führt Folgendes aus:</b>\n\n Legt die Spielplanteile 6, 10, 13, 14, 16, 19, 21, 22 und 23 beiseite."
+EventTiles.button1,Bestätigen
+EventIntroText.text,<i>Greyhaven setzt eine Belohnung aus für die Beseitigung der dunklen Magie, die aus einer großen Gruft auf dem Friedhof stammt. Versuche, hineinzukommen, waren bisher erfolglos, da die Krypta mit einer Reihe von 5 magischen Türen verschlossen ist.</i>
+EventIntroText.button1,Bestätigen
+EventIntroBoard1.text,"<b>Führt Folgendes aus:</b>\n\n Platziert die Spielplanteile 6A, 13A, 16A, 1 Übergangsstück, 1 Eingang, 1 Tür."
+EventIntroBoard1.button1,Bestätigen
+EventIntroBoard2.text,"<b>Führt Folgendes aus:</b>\n\n Platziert die Spielplanteile 14A, 22A und 1 Endstück."
+EventIntroBoard2.button1,Bestätigen
+EventIntroBoard3.text,"<b>Führt Folgendes aus:</b>\n\n Platziert 1 verschlossene Tür wie abgebildet, dies ist die Tür der Reflexion."
+EventIntroBoard3.button1,Bestätigen
+EventIntroHeroes.text,"<b>Führt Folgendes aus:</b>\n\n Platziert die Helden auf dem Eingang."
+EventIntroHeroes.button1,Bestätigen
+EventIntroSearch1.text,"<b>Führt Folgendes aus:</b>\n\n Platziert einen Suchmarker, wie abgebildet."
+EventIntroSearch1.button1,Bestätigen
+EventIntroSearch2.text,"<b>Führt Folgendes aus:</b>\n\n Platziert 1 zusätzlichen Suchmarker wie abgebildet."
+EventIntroSearch2.button1,Bestätigen
+EventOpenHut.text,"<b>Führt Folgendes aus:</b>\n\n Platziert 1 Endstück."
+EventOpenHut.button1,Bestätigen
+EventHutSearch.text,"<b>Führt Folgendes aus:</b>\n\n Platziert 2 Suchmarker, wie abgebildet."
+EventHutSearch.button1,Bestätigen
+EventDoor1Fail.text,<i>Ihr seid nicht in der Lage, erfolgreich an eurem eigenen Spiegelbild vorbeizukommen.</i>
+EventDoor1Fail.button1,Bestätigen
+EventOpenDoor1.text,"<b>Führt Folgendes aus:</b>\n\n Platziert eine verschlossene Tür, dies ist die Tür des Schmerzes."
+EventOpenDoor1.button1,Bestätigen
+EventDoor2Fail.text,<i>Ihr seid nicht in der Lage, den Schmerz zu überwinden und zieht euch von der Tür zurück.</i>
+EventDoor2Fail.button1,Bestätigen
+EventOpenDoor2.text,"<b>Führt Folgendes aus:</b>\n\n Platziert die Spielplanteile 21B, 23B und 1 Endstück."
+EventOpenDoor2.button1,Bestätigen
+EventOpenDoor2B.text,"<b>Führt Folgendes aus:</b>\n\n Platziert eine verschlossene Tür, dies ist die Tür der Illusion."
+EventOpenDoor2B.button1,Bestätigen
+EventOpenDoor2Search.text,"<b>Führt Folgendes aus:</b>\n\n Platziert einen Suchmarker, wie abgebildet."
+EventOpenDoor2Search.button1,Bestätigen
+EventOpenDoor3.text,"<b>Führt Folgendes aus:</b>\n\n Platziert eine verschlossene Tür, dies ist die Tür der Ausdauer."
+EventOpenDoor3.button1,Bestätigen
+EventDoor3Fail.text,"<i>Ihr seid in einem Labyrinth verloren, das nicht zu dieser Realität gehört.</i>\n\n Der Held, der die Probe durchgeführt hat, erhält die Zustände „Betäubt” und „Gelähmt”."
+EventDoor3Fail.button1,Bestätigen
+EventOpenDoor4.text,"<b>Führt Folgendes aus:</b>\n\n Platziert Spielplanteil 19B und 1 verschlossene Tür, dies ist die Tür der Stärke."
+EventOpenDoor4.button1,Bestätigen
+EventOpenDoor5.text,"<b>Führt Folgendes aus:</b>\n\n Platziert Feld 10B und 1 Endstück."
+EventOpenDoor5.button1,Bestätigen
+EventShowdown.text,"<i>Die Sarkomanten stehen eindeutig hinter der bösen Magie.</i>\n\n Besiegt die Sarkomanten, um zu gewinnen."
+EventShowdown.button1,Bestätigen
+EventKey1Open.text,Ihr habt den Schlüssel zur Tür der Reflexion gefunden. Nachdem ihr diese Hürde erfolgreich genommen habt, ist der Schlüssel nicht mehr von Nutzen. Zieht eine Suchkarte.
+EventKey1Open.button1,Bestätigen
+EventKey1Closed.text,Ihr habt den Schlüssel zur Tür der Reflexion gefunden, diese Tür kann nun als Aktion geöffnet werden. Zieht eine Suchkarte.
+EventKey1Closed.button1,Bestätigen
+EventKey2Open.text,Ihr habt den Schlüssel zur Tür des Schmerzes gefunden. Nachdem ihr diese Hürde erfolgreich genommen habt, ist der Schlüssel nicht mehr von Nutzen. Zieht eine Suchkarte.
+EventKey2Open.button1,Bestätigen
+EventKey2Closed.text,Ihr habt den Schlüssel zur Tür des Schmerzes gefunden, diese Tür kann nun als Aktion geöffnet werden. Zieht eine Suchkarte.
+EventKey2Closed.button1,Bestätigen
+EventKey3Open.text,Ihr habt den Schlüssel zur Tür der Illusion gefunden. Nachdem ihr diese Hürde erfolgreich genommen habt, ist der Schlüssel nicht mehr von Nutzen. Zieht eine Suchkarte.
+EventKey3Open.button1,Bestätigen
+EventKey3Closed.text,Ihr habt den Schlüssel zur Tür der Illusion gefunden, diese Tür kann nun als Aktion geöffnet werden. Zieht eine Suchkarte.
+EventKey3Closed.button1,Bestätigen
+EventKey4Open.text,Ihr habt den Schlüssel zur Tür der Ausdauer gefunden. Nachdem ihr diese Hürde erfolgreich genommen habt, ist der Schlüssel nicht mehr von Nutzen. Zieht eine Suchkarte.
+EventKey4Open.button1,Bestätigen
+EventKey4Closed.text,Ihr habt den Schlüssel zur Tür der Ausdauer gefunden, diese Tür kann nun als Aktion geöffnet werden. Zieht eine Suchkarte.
+EventKey4Closed.button1,Bestätigen
+EventKey5Open.text,Ihr habt den Schlüssel zur Tür der Stärke gefunden. Nachdem ihr diese Hürde erfolgreich genommen habt, ist der Schlüssel nicht mehr von Nutzen. Zieht eine Suchkarte.
+EventKey5Open.button1,Bestätigen
+EventKey5Closed.text,Ihr habt den Schlüssel zur Tür der Stärke gefunden, diese Tür kann nun als Aktion geöffnet werden. Zieht eine Suchkarte.
+EventKey5Closed.button1,Bestätigen
+EventEndWin.text,"<i>Mit dem Sieg über die Sarkomanten habt ihr ein weiteres schwieriges Problem gelöst.</i>\n\n Die Helden haben die Begegnung gewonnen."
+EventEndWin.button1,Bestätigen
+EventEndLose.text,"<i>Eure Gruppe von Helden ist bei der Aufhaltung der dunklen Magie fehlgeschlagen, hoffentlich kann der Stadtrat von Greyhaven zusätzliche Unterstützung sammeln.</i>\n\n Die Helden haben die Begegnung verloren."
+EventEndLose.button1,Bestätigen
+DoorCabin.text,"<i>Die Hütte des Hausmeisters hat schon bessere Tage gesehen.</i>\n\n Ihr könnt eine Aktion verwenden, um diese Tür zu öffnen."
+DoorCabin.button1,{action} Öffnen
+SpawnEntry.text,Platziert die {type}-Gruppe wie abgebildet.
+SpawnEntry.button1,Bestätigen
+DoorCrypt1.text,"<i>Tür der Reflexion</i>\n\n Ein benachbarter Held kann eine Aktion ausführen, um einen Angriff auf sich selbst durchzuführen."
+DoorCrypt1.button1,Nein, kein Schaden
+DoorCrypt1.button2,Beschädigt
+DoorCryptUnlocked1.text,"<i>Tür der Reflexion</i>\n\n Ihr habt den Schlüssel zu dieser Tür und könnt sie als Aktion öffnen."
+DoorCryptUnlocked1.button1,{action} Öffnen
+TokenKey3.text,Es gibt eine Lücke zwischen den Dielen in der Ecke.
+TokenKey3.button1,{action} Suchen
+DoorCrypt2.text,"<i>Tür des Schmerzes</i>\n\n Ein benachbarter Held kann eine Aktion ausführen, um 4 {heart} zu erleiden und eine {will} Probe abzulegen, um den Schmerz zu ertragen."
+DoorCrypt2.button1,Erfolgreich
+DoorCrypt2.button2,Fehlgeschlagen
+DoorCryptUnlocked2.text,"<i>Tür des Schmerzes</i>\n\n Ihr habt den Schlüssel zu dieser Tür und könnt sie als Aktion öffnen."
+DoorCryptUnlocked2.button1,{action} Öffnen
+DoorCrypt3.text,"<i>Tür der Illusion</i>\n\n Ein benachbarter Held kann eine Aktion ausführen, um sowohl eine {knowledge} als auch eine {awareness} Probe abzulegen."
+DoorCrypt3.button1,Erfolgreich
+DoorCrypt3.button2,Fehlgeschlagen
+DoorCryptUnlocked3.text,"<i>Tür der Illusion</i>\n\n Ihr habt den Schlüssel zu dieser Tür und könnt sie als Aktion öffnen."
+DoorCryptUnlocked3.button1,{action} Öffnen
+DoorCrypt4.text,"<i>Tür der Ausdauer</i>\n\n Ein benachbarter Held kann eine Aktion aufwenden, um 6 {fatigue} zu erleiden und die Tür zu passieren."
+DoorCrypt4.button1,Bestätigen
+DoorCryptUnlocked4.text,"<i>Tür der Ausdauer</i>\n\n Ihr habt den Schlüssel zu dieser Tür und könnt sie als Aktion öffnen."
+DoorCryptUnlocked4.button1,{action} Öffnen
+TokenKey4.text,Etwas glitzert im Gebüsch.
+TokenKey4.button1,{action} Suchen
+TokenKey1.text,Eine dekorative Vase liegt auf dem Boden.
+TokenKey1.button1,{action} Suchen
+TokenKey2.text,Ein kleiner Beutel liegt auf dem Boden.
+TokenKey2.button1,{action} Suchen
+SpawnCaretaker.text,Platziert die {type}-Gruppe wie abgebildet.
+SpawnCaretaker.button1,Bestätigen
+SpawnUnderRiver.text,Platziert die {type}-Gruppe wie abgebildet.
+SpawnUnderRiver.button1,Bestätigen
+DoorCrypt5.text,"<i>Tür der Stärke</i>\n\n Diese Tür kann angegriffen werden, als wäre sie ein Monster. Die Tür hat 30 {heart}."
+DoorCrypt5.button1,Besiegt
+TokenKey5.text,Etwas ist zwischen den Steinen hindurchgerutscht.
+TokenKey5.button1,{action} Suchen
+DoorCryptUnlocked5.text,Ihr habt den Schlüssel zu dieser Tür und könnt sie als Aktion öffnen.
+DoorCryptUnlocked5.button1,{action} Öffnen
+SpawnStairs.text,Platziert die {type}-Gruppe wie abgebildet.
+SpawnStairs.button1,Bestätigen
+SpawnFinal.text,Platziert die {type}-Gruppe wie abgebildet.
+SpawnFinal.button1,Bestätigen
+SpawnSupport.text,Platziert die {type}-Gruppe wie abgebildet.
+SpawnSupport.button1,Bestätigen
+SpawnSpirit.text,Platziert ein Elementar auf dem angezeigten Feld. Dies ist ein arkaner Geist.
+SpawnSpirit.button1,Bestätigen
+CustomMonsterSpirit.monstername,Arkaner Geist
+CustomMonsterSpirit.info,Arkane Geister verwenden Elementar-Miniaturen und Monsterkarten.
+ActivationScream.ability,"<i>Die Arkanen Geister stoßen einen ohrenbetäubenden Schrei aus.</i>\n Vor jeder Aktivierung erleidet jeder Held in Sichtlinie 1 {fatigue}."
+ActivationScream.master,"{action} Sichte den Helden mit dem niedrigsten {knowledge} innerhalb von 6 Spielplanteilen. \n {action} Sichte den nächstgelegenen Helden. \n {action} Greife einen Helden mit dem niedrigsten {knowledge} an. \n {action} Greife einen Helden innerhalb von 3 Spielplanteilen an."
+ActivationScream.minion,"{action} Sichte den Helden innerhalb von 6 Spielplanteilen mit der niedrigsten {will}. \n {action} Sichte den nächstgelegenen Helden. \n {action} Greife den Helden mit der niedrigsten {will} innerhalb von 3 Spielplanteilen an. \n {action} Greife einen Helden innerhalb von 3 Spielplanteilen an."
+ActivationBlast.ability,"<i>Eine Explosion spektraler Energie strahlt vom Arkanen Geist aus.</i>\n Nach jeder Aktivierung erleiden alle benachbarten Helden 2 {heart}, dann erleidet der Arkane Geist 1 {heart} für jeden benachbarten Helden."
+ActivationBlast.master,"{action} Stürme auf so viele Helden wie möglich zu. \n {action} Greife einen Helden innerhalb von 3 Spielplanteilen an."
+ActivationBlast.minion,"{action} Stürme auf so viele Helden wie möglich zu. \n {action} Greife einen Helden innerhalb von 3 Spielplanteilen an."
+ActivationGaze.ability,"<i>Der Blick des Arkanen Geistes durchdringt Euer Wesen.</i>\n Jeder Angriff gegen einen Helden ohne verbleibende {fatigue} erhält +2 {heart}."
+ActivationGaze.master,"{action} Sichte den nächstgelegenen Helden. \n {action} Greife einen Helden innerhalb von 3 Spielplanteilen an."
+ActivationGaze.minion,"{action} Sichte den nächstgelegenen Helden. \n {action} Greife einen Helden innerhalb von 3 Spielplanteilen an."
+ActivationRush.ability,"<i>Der Arkane Geist bewegt sich schneller, als ihr folgen könnt.</i>\n Alle Angriffe erhalten Durchbohren 2. Jeder Held, der während dieser Aktivierung Schaden erleidet, erleidet außerdem 1 {fatigue}."
+ActivationRush.master,"{action} Platziere den Arkanen Geist neben dem Helden mit der höchsten verbleibenden {fatigue}. \n {action} Greife den Helden mit der höchsten verbleibenden {fatigue} an."
+ActivationRush.minion,"{action} Platziere den Arkanen Geist neben dem Helden mit der geringsten verbleibenden {fatigue}. \n {action} Greife den Helden mit der geringsten verbleibenden {fatigue} an."

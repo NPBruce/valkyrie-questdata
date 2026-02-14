@@ -2,6 +2,8 @@
 quest.name,Cosas de magos
 quest.description,Los ciudadanos de Greyhaven están teniendo problemas en el cementerio y han puesto una generosa recompensa. La ciudad es conocida como el centro de enseñanza de la magia y a menudo las cosas son más complicadas de lo que parece a simple vista, lo que por otro lado explicaría lo abultada de la suma ofrecida como recompensa.
 quest.synopsys,Los ciudadanos de Greyhaven están teniendo problemas en el cementerio y han puesto una generosa recompensa.
+quest.authors,"[b]Autor[/b]\nBruce\n\n[b]Traducción[/b]\nEspañol: Vidimus, Alemán: Tantum"
+quest.authors_short,Bruce
 EventStart.text,¿Van a jugar los héroes esta aventura en modo Básico, Épico: Avanzado o Épico: Experto?
 EventStart.button1,Básico
 EventStart.button2,Avanzado
