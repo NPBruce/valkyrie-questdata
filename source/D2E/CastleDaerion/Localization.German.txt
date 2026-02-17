@@ -157,7 +157,7 @@ SpawnGuards.text,Die Signalfeuer brennen hell und die Flammen flackern am Nachth
 SpawnGuards.button1,Weiter
 EventDefeatEttinSafety.button1,Weiter
 EventDefeatBeatmenSafety.button1,Weiter
-EventReinforceStalker.text,Platziere einen Diener Volucrix-Jäger an der angegebenen Stelle (Gruppengröße einhalten).
+EventReinforceStalker.text,Verstärkung trifft für den Jäger ein!
 EventReinforceStalker.button1,Weiter
 EventObjective3.text,Missionsziel: Besiege jeden Feind, um den Schlüssel von Sir Palamon zu bekommen. Wenn Sir Palamon besiegt wird, verlieren die Helden.
 EventObjective3.button1,Weiter
@@ -204,3 +204,6 @@ SpawnGuards2p.text,Die Signalfeuer brennen hell und die Flammen flackern am Nach
 SpawnZombie2.text,Platziere die überlebenden Wachen benachbart zu einem beliebigen Helden.
 SpawnZombie2.button1,Platziere 1 Zombie-Diener im Labor (Gruppengröße einhalten). \n\n Sir Alric Farrow erhält 2{heart}  zurück.
 SpawnGuards4p.button1,Weiter
+SpawnStalkerReinforcement.text,Platziere einen Diener Volucrix-Jäger an der angegebenen Stelle (Gruppengröße einhalten).
+SpawnStalkerReinforcement.button1,Weiter
+SpawnGuards2p.button1,Weiter
